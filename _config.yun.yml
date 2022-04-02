@@ -1,0 +1,379 @@
+# 这是自定义的主题配置，非默认主题配置
+
+########################################################################
+
+# 网页外观配置
+# mode: light | dark | auto
+mode: auto
+
+# 网站
+title: 叶子的花园
+subtitle: '这是一个偏文的工科生'
+description: '@Misaka-Clover'
+keywords: '个人博客,学习,技术,OpenMV,SCUT,Hexo,yun'
+author: 叶子
+language: zh-CN
+timezone: 'Asia/Shanghai'
+
+# Date / Time format
+## Hexo uses Moment.js to parse and display date
+## You can customize the date format as defined in
+## http://momentjs.com/docs/#/displaying/format/
+date_format: YYYY-MM-DD
+time_format: HH:mm:ss
+## updated_option supports 'mtime', 'date', 'empty'
+updated_option: 'mtime'
+
+# Pagination
+## Set per_page to 0 to disable pagination
+per_page: 10
+pagination_dir: page
+
+# URL
+## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
+url: https://mskclover.com/
+permalink: :year/:month/:day/:title/
+permalink_defaults:
+pretty_urls:
+  trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
+  trailing_html: true # Set to false to remove trailing '.html' from permalinks
+
+# Extensions
+## Plugins: https://hexo.io/plugins/
+## Themes: https://hexo.io/themes/
+theme: yun
+
+# Deployment
+## Docs: https://hexo.io/docs/one-command-deployment
+deploy:
+  type: git
+  repo: https://github.com/misaka-clover/misaka-clover.github.io #此前新建仓库的链接
+  branch: master #默认使用master分支
+  message: Update Hexo Static Content #你可以自定义此次部署更新的说明
+
+# 首页的标语动画
+banner:
+  enable: true
+  title: 叶子的花园
+  border: true
+  cloud:
+    enable: true
+    color: "white"
+  go_down:
+    enable: true
+    icon: icon-arrow-down-s-line
+
+# 首页的公告
+notice:
+    enable: true
+    content: 欢迎来到我的花园，请随意参观！
+
+# 网页的背景图片
+bg_image:
+  enable: true
+  url: /images/background.jpeg
+  dark: /images/galaxy.jpg
+  blur: 3px
+  opacity: 0.8
+
+cursor:
+  enable: true
+  default: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/css/md-cursors/pointer.cur
+  pointer: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/css/md-cursors/link.cur
+  text: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/css/md-cursors/text.cur
+
+########################################################################
+
+# 侧栏
+# 标签
+sidebar:
+  tagcloud:
+    enable: false
+    amount: 10
+
+# 头像图片配置
+avatar:
+  enable: true
+  url: /images/avatar/avatar.jpg 
+  rounded: true
+  opacity: 1
+  mickey_mouse: false
+  status:
+    enable: true
+    emoji: 🤠
+    message: 今天也是美好的一天呢
+
+# 设置导航栏
+menu:
+  home:
+    path: /
+    icon: icon-home-4-line
+  list:
+    - type: archives
+      path: /archives/
+      icon: icon-archive-line
+    - type: categories
+      path: /categories/
+      icon: icon-folder-2-line
+    - type: tags
+      path: /tags/
+      icon: icon-price-tag-3-line
+  custom:
+    title: 文档
+    path: https://yun.yunyoujun.cn
+    icon: icon-settings-line
+
+# 友链
+pages:
+  - name: 我的小伙伴们
+    url: /links/
+    icon: icon-genderless-line
+    color: dodgerblue
+
+# 侧栏社交图标
+social:
+  - name: RSS
+    # set rss in your root config
+    # https://github.com/hexojs/hexo-generator-feed
+    link: /atom.xml # config.feed.path
+    icon: icon-rss-line
+    color: orange
+  - name: GitHub
+    link: https://github.com/misaka-clover
+    icon: icon-github-line
+    color: "#181717"
+  - name: E-Mail
+    link: mailto:Misaka9936@gmail.com
+    icon: icon-mail-line
+    color: "#8E71C1"
+  - name: Twitter
+    link: https://twitter.com/Misaka_Clover
+    icon: icon-twitter-line
+    color: "#1da1f2"
+  - name: Travelling
+    link: https://travellings.link
+    icon: icon-send-plane-2-line
+    color: black
+
+# RSS 配置
+# 还需要上网查一下……
+feed:
+  enable: true
+  type: atom
+  path: atom.xml
+  limit: 10
+  hub:
+  content: true
+  content_limit:
+  content_limit_delim: ' '
+  order_by: -date
+  icon: icon.png
+  autodiscovery: true
+  template: /feed/atom.xml
+
+########################################################################
+
+# 文章
+# 内容卡片
+post_card:
+  opacity: 0.8
+
+# 代码高亮
+# 不知道为什么这里不起作用
+highlight:
+  enable: false
+  line_number: false
+  auto_detect: false
+  tab_replace: ''
+  wrap: true
+  hljs: false
+prismjs:
+  enable: true
+  preprocess: true
+  line_number: false
+  tab_replace: ''
+
+# 一键复制
+codeblock:
+  copy_btn: true
+
+# 版权
+creative_commons:
+  license: by-nc-sa
+  language: deed.zh
+  post: true
+  clipboard: false
+
+########################################################################
+
+# 打赏
+reward:
+  enable: false
+  icon: icon-hand-coin-line
+  comment: I'm so cute. Please give me money.
+  # url: https://github.com/YunYouJun/yunyoujun.github.io/issues/96
+  methods:
+    - name: 支付宝
+      path: 
+      color: "#00A3EE"
+      icon: icon-alipay-line
+    - name: QQ 支付
+      path: 
+      color: "#12B7F5"
+      icon: icon-qq-line
+    - name: 微信支付
+      path: 
+      color: "#2DC100"
+      icon: icon-wechat-pay-line
+
+########################################################################
+
+# 页脚
+footer:
+  since: 2020
+  icon:
+    name: icon-cloud-line
+    animated: true
+    color: "#0078E7"
+  powered:
+    # Hexo link (Powered by Hexo).
+    enable: true
+
+  # 备案
+  # Beian icp information for Chinese users. In China, every legal website should have a beian icp in website footer.
+  # http://www.beian.miit.gov.cn
+  beian:
+    enable: true
+    icp: 学园都市ICP备10032号
+  
+  # 运行时间
+  live_time:
+      enable: true
+      prefix: 本博客已萌萌哒地运行
+      suffix: (*/ω＼*)
+      start_time: "2020-08-22T19:25:00"
+
+  # 自定义文本
+  # Any custom text can be defined here.
+  # custom_text: Hosted by <a href="https://pages.coding.me" rel="noopener" target="_blank">Coding Pages</a>
+  custom_text: 博客版本：V.1.1.2
+
+  # 支持致谢
+  support:
+    enable: true
+    title: Google
+    link: https://www.google.com/ncr
+    prefix: 本网站由不存在的
+    suffix: 提供不存在的 CDN 加速
+
+########################################################################
+
+# Say
+say:
+  enable: true
+  api: https://cdn.jsdelivr.net/gh/ElpsyCN/say@gh-pages/sentences.json
+  src: /js/say.js
+  # https://developer.hitokoto.cn/sentence/
+  hitokoto:
+    enable: true
+    api: https://v1.hitokoto.cn
+
+########################################################################
+
+# 默哀
+mourn:
+  enable: true
+  days:
+    - "4-4"
+
+########################################################################
+
+# 评论
+comment:
+  enable: true
+  tips:
+    - 如果您有任何关于博客内容的相关讨论，欢迎前往 <a href="https://github.com/misaka-clover/misaka-clover.github.io/discussions" target="_blank">GitHub Discussions</a> 与我交流。
+  candidates:
+    - waline
+
+github_issues:
+  enable: false
+  username: misaka-clover
+  repository: misaka-clover.github.io
+  filters: is:issue
+
+github_discussions:
+  enable: false
+  username: misaka-clover
+  repository: misaka-clover.github.io
+
+utterances:
+  enable: false
+  repo: misaka-clover/misaka-clover.github.io
+  issue-term: pathname
+  # label: comment
+  theme: github-light
+
+waline:
+  enable: true
+  serverURL: https://mskclover-com.vercel.app
+  visitor: true
+  comment: true
+  emoji:
+    - https://cdn.jsdelivr.net/gh/walinejs/emojis@latest/bilibili/
+    - https://cdn.jsdelivr.net/gh/walinejs/emojis@latest/weibo/
+    - https://cdn.jsdelivr.net/gh/walinejs/emojis@latest/qq/
+  locale:
+    placeholder: 请畅所欲言喔，在下面的昵称那里填写 QQ 号就可以自动获取头像和昵称啦！
+  requiredMeta: ["nick"]
+
+########################################################################
+
+# 搜索
+# 搜索的背景
+search:
+  modal: true
+  bg_image: /images/background.jpeg
+  dark_bg_image: /images/galaxy.jpg
+  placeholder: 今天想看看什么呢
+
+engine_search:
+  enable: true
+  # href: "https://www.google.com/search?q=site:"
+  # href: "https://www.baidu.com/s?wd=site:"
+  href: "https://www.bing.com/search?q=site:"
+  domain: mskclover.com
+
+########################################################################
+
+#这是谷歌分析（Google Analytics）
+google_analytics:
+  enable: true
+  id: UA-176081910-1
+
+########################################################################
+
+# 基于 LeanCloud 的访问者统计，显示每篇文章的访问量。
+leancloud_visitors:
+  enable: true
+  app_id: ORivKcH7ctPK1d4c7xLn1wgi-MdYXbMMI
+  app_key: 6cWYWOhAeaacKbuNuGO0GgSs
+  # Required for apps from CN region
+  server_url: https://mskclover-com.vercel.app
+
+#词数统计和阅读时间的估计
+wordcount:
+  enable: true
+  count: true
+  time: true
+
+# KaTeX
+katex:
+  copy_tex: true
+  global: false
+
+# scrollreveal:
+#   enable: true
+#   targets: 
+#     - .post-card5
+#     - .post-content img
