@@ -8,7 +8,7 @@ mode: auto
 
 # 网站
 title: 叶子的花园
-subtitle: '这是一个偏文的工科生'
+subtitle: '靡不有初，鲜克有终'
 description: '@Misaka-Clover'
 keywords: '个人博客,学习,技术,OpenMV,SCUT,Hexo,yun'
 author: 叶子
@@ -71,7 +71,7 @@ notice:
 # 网页的背景图片
 bg_image:
   enable: true
-  url: /images/background.jpeg
+  url: /images/background.jpg
   dark: /images/galaxy.jpg
   blur: 3px
   opacity: 0.8
@@ -119,9 +119,9 @@ menu:
       path: /tags/
       icon: icon-price-tag-3-line
   custom:
-    title: 文档
-    path: https://yun.yunyoujun.cn
-    icon: icon-settings-line
+    title: guestbook
+    path: about/#comment
+    icon: icon-clipboard-line
 
 # 友链
 pages:
@@ -177,25 +177,6 @@ feed:
 # 内容卡片
 post_card:
   opacity: 0.8
-
-# 代码高亮
-# 不知道为什么这里不起作用
-highlight:
-  enable: false
-  line_number: false
-  auto_detect: false
-  tab_replace: ''
-  wrap: true
-  hljs: false
-prismjs:
-  enable: true
-  preprocess: true
-  line_number: false
-  tab_replace: ''
-
-# 一键复制
-codeblock:
-  copy_btn: true
 
 # 版权
 creative_commons:
@@ -256,7 +237,7 @@ footer:
   # 自定义文本
   # Any custom text can be defined here.
   # custom_text: Hosted by <a href="https://pages.coding.me" rel="noopener" target="_blank">Coding Pages</a>
-  custom_text: 博客版本：V.1.1.2
+  custom_text: 博客版本：V.1.2.4
 
   # 支持致谢
   support:
@@ -319,12 +300,15 @@ waline:
   serverURL: https://mskclover-com.vercel.app
   visitor: true
   comment: true
+  avatar: 
+    url: https://sdn.geekzu.org/avatar/4674442b10d4160841c6a51bb09722e4?s=80
+    rounded: true
   emoji:
     - https://cdn.jsdelivr.net/gh/walinejs/emojis@latest/bilibili/
     - https://cdn.jsdelivr.net/gh/walinejs/emojis@latest/weibo/
     - https://cdn.jsdelivr.net/gh/walinejs/emojis@latest/qq/
   locale:
-    placeholder: 请畅所欲言喔，在下面的昵称那里填写 QQ 号就可以自动获取头像和昵称啦！
+    placeholder: 请畅所欲言喔！偷偷告诉你，登录 Gravatar 后可自定义头像来着（
   requiredMeta: ["nick"]
 
 ########################################################################
@@ -333,7 +317,7 @@ waline:
 # 搜索的背景
 search:
   modal: true
-  bg_image: /images/background.jpeg
+  bg_image: /images/background.jpg
   dark_bg_image: /images/galaxy.jpg
   placeholder: 今天想看看什么呢
 

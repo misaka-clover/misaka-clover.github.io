@@ -4,7 +4,7 @@
 
 # Site
 title: 叶子的花园
-subtitle: '这是一个偏文的工科生'
+subtitle: '靡不有初，鲜克有终'
 description: '@Misaka-Clover'
 keywords: '个人博客,学习,技术,OpenMV,SCUT,Hexo,yun'
 author: 叶子
@@ -43,18 +43,25 @@ render_drafts: false
 post_asset_folder: false
 relative_link: false
 future: true
+
+# 代码高亮
+# 只能在 _config.yml 中起作用
 highlight:
-  enable: true
-  line_number: true
+  enable: false
+  line_number: false
   auto_detect: false
   tab_replace: ''
   wrap: true
   hljs: false
 prismjs:
-  enable: false
+  enable: true
   preprocess: true
-  line_number: true
+  line_number: false
   tab_replace: ''
+
+# 一键复制
+codeblock:
+  copy_btn: true
 
 # Home page setting
 # path: Root path for your blogs index page. (default = '')
@@ -106,3 +113,6 @@ deploy:
   repo: https://github.com/misaka-clover/misaka-clover.github.io #此前新建仓库的链接
   branch: master #默认使用master分支
   message: Update Hexo Static Content #你可以自定义此次部署更新的说明
+
+
+

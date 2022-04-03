@@ -7,6 +7,8 @@ date: {{ date }}
 description: 
 tags: 
 categories: 
+comment: true
+# katex: true
 keywords: 
 # hide: index
 # sitemap: false
