@@ -32,10 +32,10 @@ document.addEventListener("pjax:success", initScrollReveal);
 <meta property="og:image" content="https://mskclover.com/images/QT-learning-note-02/coordinate_2.jpg">
 <meta property="og:image" content="https://mskclover.com/images/QT-learning-note-02/coordinate_3.jpg">
 <meta property="article:published_time" content="2022-05-12T05:27:34.000Z">
-<meta property="article:modified_time" content="2022-05-12T10:50:05.224Z">
+<meta property="article:modified_time" content="2022-05-12T10:55:14.982Z">
 <meta property="article:author" content="叶子">
-<meta property="article:tag" content="知识">
 <meta property="article:tag" content="博文">
+<meta property="article:tag" content="知识">
 <meta property="article:tag" content="QT">
 <meta property="article:tag" content="笔记">
 <meta name="twitter:card" content="summary">
@@ -44,7 +44,7 @@ document.addEventListener("pjax:success", initScrollReveal);
   const setting = localStorage.getItem('darken-mode') || 'auto'
   if (setting === 'dark' || (prefersDark && setting !== 'light'))
     document.documentElement.classList.toggle('dark', true)
-})()</script></head><body><script defer src="https://cdn.jsdelivr.net/npm/animejs@latest"></script><script defer src="/js/ui/fireworks.js" type="module"></script><canvas class="fireworks"></canvas><div class="container"><a class="sidebar-toggle hty-icon-button" id="menu-btn"><div class="hamburger hamburger--spin" type="button"><span class="hamburger-box"><span class="hamburger-inner"></span></span></div></a><div class="sidebar-toggle sidebar-overlay"></div><aside class="sidebar"><script src="/js/sidebar.js" type="module"></script><ul class="sidebar-nav"><li class="sidebar-nav-item sidebar-nav-toc hty-icon-button sidebar-nav-active" data-target="post-toc-wrap" title="文章目录"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-list-ordered"></use></svg></li><li class="sidebar-nav-item sidebar-nav-overview hty-icon-button" data-target="site-overview-wrap" title="站点概览"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-passport-line"></use></svg></li></ul><div class="sidebar-panel" id="site-overview-wrap"><div class="site-info fix-top"><a class="site-author-avatar" href="/about/" title="叶子"><img width="96" loading="lazy" src="/images/avatar/avatar.jpg" alt="叶子"><span class="site-author-status" title="今天也是美好的一天呢">🥬</span></a><div class="site-author-name"><a href="/about/">叶子</a></div><a class="site-name" href="/about/site.html">叶子的花园</a><sub class="site-subtitle">靡不有初，鲜克有终</sub><div class="site-desciption">@Misaka-Clover</div></div><nav class="site-state"><a class="site-state-item hty-icon-button icon-home" href="/" title="首页"><span class="site-state-item-icon"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-home-4-line"></use></svg></span></a><div class="site-state-item"><a href="/archives/" title="归档"><span class="site-state-item-icon"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-archive-line"></use></svg></span><span class="site-state-item-count">16</span></a></div><div class="site-state-item"><a href="/categories/" title="分类"><span class="site-state-item-icon"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-folder-2-line"></use></svg></span><span class="site-state-item-count">10</span></a></div><div class="site-state-item"><a href="/tags/" title="标签"><span class="site-state-item-icon"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-price-tag-3-line"></use></svg></span><span class="site-state-item-count">27</span></a></div><a class="site-state-item hty-icon-button" href="/about/#comment" title="guestbook"><span class="site-state-item-icon"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-clipboard-line"></use></svg></span></a></nav><hr style="margin-bottom:0.5rem"><div class="links-of-author"><a class="links-of-author-item hty-icon-button" rel="noopener" href="/atom.xml" title="RSS" target="_blank" style="color:orange"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-rss-line"></use></svg></a><a class="links-of-author-item hty-icon-button" rel="noopener" href="https://github.com/misaka-clover" title="GitHub" target="_blank" style="color:#181717"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-github-line"></use></svg></a><a class="links-of-author-item hty-icon-button" rel="noopener" href="mailto:Misaka9936@gmail.com" title="E-Mail" target="_blank" style="color:#8E71C1"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-mail-line"></use></svg></a><a class="links-of-author-item hty-icon-button" rel="noopener" href="https://travellings.link" title="Travelling" target="_blank" style="color:var(--hty-text-color)"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-send-plane-2-line"></use></svg></a></div><hr style="margin:0.5rem 1rem"><div class="links"><a class="links-item hty-icon-button" href="/links/" title="我的小伙伴们" style="color:dodgerblue"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-genderless-line"></use></svg></a></div><br><a class="links-item hty-icon-button" id="toggle-mode-btn" href="javascript:;" title="Mode" style="color: #f1cb64"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-contrast-2-line"></use></svg></a></div><div class="sidebar-panel sidebar-panel-active" id="post-toc-wrap"><div class="post-toc"><div class="post-toc-content"><ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%AC%AC%E4%B8%80%E4%B8%AA-Qt-%E9%A1%B9%E7%9B%AE"><span class="toc-number">1.</span> <span class="toc-text">第一个 Qt 项目</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E9%A1%B9%E7%9B%AE%E6%96%87%E4%BB%B6%EF%BC%88-pro%EF%BC%89"><span class="toc-number">1.1.</span> <span class="toc-text">项目文件（.pro）</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#main-cpp"><span class="toc-number">1.2.</span> <span class="toc-text">main.cpp</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#mainwindow-h"><span class="toc-number">1.3.</span> <span class="toc-text">mainwindow.h</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#mainwindow-cpp"><span class="toc-number">1.4.</span> <span class="toc-text">mainwindow.cpp</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#mainwindow-ui"><span class="toc-number">1.5.</span> <span class="toc-text">mainwindow.ui</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Qt-%E7%9A%84%E7%AA%97%E5%8F%A3%E7%B1%BB"><span class="toc-number">2.</span> <span class="toc-text">Qt 的窗口类</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%B8%89%E4%B8%AA%E5%9F%BA%E7%A1%80%E7%AA%97%E5%8F%A3%E7%B1%BB"><span class="toc-number">2.1.</span> <span class="toc-text">三个基础窗口类</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%AA%97%E5%8F%A3%E7%9A%84%E6%98%BE%E7%A4%BA"><span class="toc-number">2.2.</span> <span class="toc-text">窗口的显示</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%9D%90%E6%A0%87%E4%BD%93%E7%B3%BB"><span class="toc-number">3.</span> <span class="toc-text">坐标体系</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%80%BB%E7%BB%93"><span class="toc-number">4.</span> <span class="toc-text">总结</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%8F%82%E8%80%83%E8%B5%84%E6%96%99"><span class="toc-number">5.</span> <span class="toc-text">参考资料</span></a></li></ol></div></div></div></aside><main class="sidebar-translate" id="content"><div id="post"><article class="hty-card post-block" itemscope itemtype="https://schema.org/Article" style="--smc-primary:#0078E7;"><link itemprop="mainEntityOfPage" href="https://mskclover.com/2022/05/12/QT-learning-note-02/"><span hidden itemprop="author" itemscope itemtype="https://schema.org/Person"><meta itemprop="name" content="叶子"><meta itemprop="description"></span><span hidden itemprop="publisher" itemscope itemtype="https://schema.org/Organization"><meta itemprop="name" content="叶子的花园"></span><header class="post-header"><h1 class="post-title" itemprop="name headline">【QT 学习笔记02】第一个项目！</h1><div class="post-meta"><div class="post-time" style="display:block"><span class="post-meta-item-icon"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-calendar-line"></use></svg></span> <time title="创建时间：2022-05-12 13:27:34" itemprop="dateCreated datePublished" datetime="2022-05-12T13:27:34+08:00">2022-05-12</time></div><span class="post-count"><span class="post-symbolcount"><span class="post-meta-item-icon" title="本文字数"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-file-word-line"></use></svg></span> <span title="本文字数">3.5k</span><span class="post-meta-divider">-</span><span class="post-meta-item-icon" title="阅读时长"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-timer-line"></use></svg></span> <span title="阅读时长">13m</span></span></span><span class="leancloud_visitors" id="/2022/05/12/QT-learning-note-02/" data-flag-title="【QT 学习笔记02】第一个项目！"><span class="post-meta-divider">-</span><span class="post-meta-item-icon" title="阅读次数"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-eye-line"></use></svg> <span class="leancloud-visitors-count"></span></span></span><span class="post-meta-divider">-</span><a href="#comment"><span class="post-meta-item-icon" title="评论数"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-chat-3-line"></use></svg> <span class="waline-comment-count" id="/2022/05/12/QT-learning-note-02/"></span></span></a><div class="post-classify"><span class="post-category"> <span class="post-meta-item-icon" style="margin-right:3px;"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-folder-line"></use></svg></span><span itemprop="about" itemscope itemtype="https://schema.org/Thing"><a class="category-item" href="/categories/%E5%8F%B6%E5%AD%90%E7%9A%84%E7%B2%97%E6%B5%85%E7%9F%A5%E8%AF%86/" style="--text-color:var(--hty-text-color)" itemprop="url" rel="index"><span itemprop="text">叶子的粗浅知识</span></a></span></span><span class="post-tag"><span class="post-meta-divider">-</span><a class="tag-item" href="/tags/%E7%9F%A5%E8%AF%86/" style="--text-color:var(--hty-text-color)"><span class="post-meta-item-icon"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-price-tag-3-line"></use></svg></span><span class="tag-name">知识</span></a><a class="tag-item" href="/tags/%E5%8D%9A%E6%96%87/" style="--text-color:var(--hty-text-color)"><span class="post-meta-item-icon"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-price-tag-3-line"></use></svg></span><span class="tag-name">博文</span></a><a class="tag-item" href="/tags/QT/" style="--text-color:var(--hty-text-color)"><span class="post-meta-item-icon"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-price-tag-3-line"></use></svg></span><span class="tag-name">QT</span></a><a class="tag-item" href="/tags/%E7%AC%94%E8%AE%B0/" style="--text-color:var(--hty-text-color)"><span class="post-meta-item-icon"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-price-tag-3-line"></use></svg></span><span class="tag-name">笔记</span></a></span></div></div></header><section class="post-body" itemprop="articleBody"><div class="post-content markdown-body"><p><img src="/images/QT-learning-note-02/cover.jpg" alt="cover" loading="lazy"></p>
+})()</script></head><body><script defer src="https://cdn.jsdelivr.net/npm/animejs@latest"></script><script defer src="/js/ui/fireworks.js" type="module"></script><canvas class="fireworks"></canvas><div class="container"><a class="sidebar-toggle hty-icon-button" id="menu-btn"><div class="hamburger hamburger--spin" type="button"><span class="hamburger-box"><span class="hamburger-inner"></span></span></div></a><div class="sidebar-toggle sidebar-overlay"></div><aside class="sidebar"><script src="/js/sidebar.js" type="module"></script><ul class="sidebar-nav"><li class="sidebar-nav-item sidebar-nav-toc hty-icon-button sidebar-nav-active" data-target="post-toc-wrap" title="文章目录"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-list-ordered"></use></svg></li><li class="sidebar-nav-item sidebar-nav-overview hty-icon-button" data-target="site-overview-wrap" title="站点概览"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-passport-line"></use></svg></li></ul><div class="sidebar-panel" id="site-overview-wrap"><div class="site-info fix-top"><a class="site-author-avatar" href="/about/" title="叶子"><img width="96" loading="lazy" src="/images/avatar/avatar.jpg" alt="叶子"><span class="site-author-status" title="今天也是美好的一天呢">🥬</span></a><div class="site-author-name"><a href="/about/">叶子</a></div><a class="site-name" href="/about/site.html">叶子的花园</a><sub class="site-subtitle">靡不有初，鲜克有终</sub><div class="site-desciption">@Misaka-Clover</div></div><nav class="site-state"><a class="site-state-item hty-icon-button icon-home" href="/" title="首页"><span class="site-state-item-icon"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-home-4-line"></use></svg></span></a><div class="site-state-item"><a href="/archives/" title="归档"><span class="site-state-item-icon"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-archive-line"></use></svg></span><span class="site-state-item-count">16</span></a></div><div class="site-state-item"><a href="/categories/" title="分类"><span class="site-state-item-icon"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-folder-2-line"></use></svg></span><span class="site-state-item-count">10</span></a></div><div class="site-state-item"><a href="/tags/" title="标签"><span class="site-state-item-icon"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-price-tag-3-line"></use></svg></span><span class="site-state-item-count">27</span></a></div><a class="site-state-item hty-icon-button" href="/about/#comment" title="guestbook"><span class="site-state-item-icon"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-clipboard-line"></use></svg></span></a></nav><hr style="margin-bottom:0.5rem"><div class="links-of-author"><a class="links-of-author-item hty-icon-button" rel="noopener" href="/atom.xml" title="RSS" target="_blank" style="color:orange"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-rss-line"></use></svg></a><a class="links-of-author-item hty-icon-button" rel="noopener" href="https://github.com/misaka-clover" title="GitHub" target="_blank" style="color:#181717"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-github-line"></use></svg></a><a class="links-of-author-item hty-icon-button" rel="noopener" href="mailto:Misaka9936@gmail.com" title="E-Mail" target="_blank" style="color:#8E71C1"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-mail-line"></use></svg></a><a class="links-of-author-item hty-icon-button" rel="noopener" href="https://travellings.link" title="Travelling" target="_blank" style="color:var(--hty-text-color)"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-send-plane-2-line"></use></svg></a></div><hr style="margin:0.5rem 1rem"><div class="links"><a class="links-item hty-icon-button" href="/links/" title="我的小伙伴们" style="color:dodgerblue"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-genderless-line"></use></svg></a></div><br><a class="links-item hty-icon-button" id="toggle-mode-btn" href="javascript:;" title="Mode" style="color: #f1cb64"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-contrast-2-line"></use></svg></a></div><div class="sidebar-panel sidebar-panel-active" id="post-toc-wrap"><div class="post-toc"><div class="post-toc-content"><ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%AC%AC%E4%B8%80%E4%B8%AA-Qt-%E9%A1%B9%E7%9B%AE"><span class="toc-number">1.</span> <span class="toc-text">第一个 Qt 项目</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E9%A1%B9%E7%9B%AE%E6%96%87%E4%BB%B6%EF%BC%88-pro%EF%BC%89"><span class="toc-number">1.1.</span> <span class="toc-text">项目文件（.pro）</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#main-cpp"><span class="toc-number">1.2.</span> <span class="toc-text">main.cpp</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#mainwindow-h"><span class="toc-number">1.3.</span> <span class="toc-text">mainwindow.h</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#mainwindow-cpp"><span class="toc-number">1.4.</span> <span class="toc-text">mainwindow.cpp</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#mainwindow-ui"><span class="toc-number">1.5.</span> <span class="toc-text">mainwindow.ui</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Qt-%E7%9A%84%E7%AA%97%E5%8F%A3%E7%B1%BB"><span class="toc-number">2.</span> <span class="toc-text">Qt 的窗口类</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%B8%89%E4%B8%AA%E5%9F%BA%E7%A1%80%E7%AA%97%E5%8F%A3%E7%B1%BB"><span class="toc-number">2.1.</span> <span class="toc-text">三个基础窗口类</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%AA%97%E5%8F%A3%E7%9A%84%E6%98%BE%E7%A4%BA"><span class="toc-number">2.2.</span> <span class="toc-text">窗口的显示</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%9D%90%E6%A0%87%E4%BD%93%E7%B3%BB"><span class="toc-number">3.</span> <span class="toc-text">坐标体系</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%80%BB%E7%BB%93"><span class="toc-number">4.</span> <span class="toc-text">总结</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%8F%82%E8%80%83%E8%B5%84%E6%96%99"><span class="toc-number">5.</span> <span class="toc-text">参考资料</span></a></li></ol></div></div></div></aside><main class="sidebar-translate" id="content"><div id="post"><article class="hty-card post-block" itemscope itemtype="https://schema.org/Article" style="--smc-primary:#0078E7;"><link itemprop="mainEntityOfPage" href="https://mskclover.com/2022/05/12/QT-learning-note-02/"><span hidden itemprop="author" itemscope itemtype="https://schema.org/Person"><meta itemprop="name" content="叶子"><meta itemprop="description"></span><span hidden itemprop="publisher" itemscope itemtype="https://schema.org/Organization"><meta itemprop="name" content="叶子的花园"></span><header class="post-header"><h1 class="post-title" itemprop="name headline">【QT 学习笔记02】第一个项目！</h1><div class="post-meta"><div class="post-time" style="display:block"><span class="post-meta-item-icon"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-calendar-line"></use></svg></span> <time title="创建时间：2022-05-12 13:27:34" itemprop="dateCreated datePublished" datetime="2022-05-12T13:27:34+08:00">2022-05-12</time></div><span class="post-count"><span class="post-symbolcount"><span class="post-meta-item-icon" title="本文字数"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-file-word-line"></use></svg></span> <span title="本文字数">3.3k</span><span class="post-meta-divider">-</span><span class="post-meta-item-icon" title="阅读时长"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-timer-line"></use></svg></span> <span title="阅读时长">12m</span></span></span><span class="leancloud_visitors" id="/2022/05/12/QT-learning-note-02/" data-flag-title="【QT 学习笔记02】第一个项目！"><span class="post-meta-divider">-</span><span class="post-meta-item-icon" title="阅读次数"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-eye-line"></use></svg> <span class="leancloud-visitors-count"></span></span></span><span class="post-meta-divider">-</span><a href="#comment"><span class="post-meta-item-icon" title="评论数"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-chat-3-line"></use></svg> <span class="waline-comment-count" id="/2022/05/12/QT-learning-note-02/"></span></span></a><div class="post-classify"><span class="post-category"> <span class="post-meta-item-icon" style="margin-right:3px;"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-folder-line"></use></svg></span><span itemprop="about" itemscope itemtype="https://schema.org/Thing"><a class="category-item" href="/categories/%E5%8F%B6%E5%AD%90%E7%9A%84%E7%B2%97%E6%B5%85%E7%9F%A5%E8%AF%86/" style="--text-color:var(--hty-text-color)" itemprop="url" rel="index"><span itemprop="text">叶子的粗浅知识</span></a></span></span><span class="post-tag"><span class="post-meta-divider">-</span><a class="tag-item" href="/tags/%E5%8D%9A%E6%96%87/" style="--text-color:var(--hty-text-color)"><span class="post-meta-item-icon"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-price-tag-3-line"></use></svg></span><span class="tag-name">博文</span></a><a class="tag-item" href="/tags/%E7%9F%A5%E8%AF%86/" style="--text-color:var(--hty-text-color)"><span class="post-meta-item-icon"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-price-tag-3-line"></use></svg></span><span class="tag-name">知识</span></a><a class="tag-item" href="/tags/QT/" style="--text-color:var(--hty-text-color)"><span class="post-meta-item-icon"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-price-tag-3-line"></use></svg></span><span class="tag-name">QT</span></a><a class="tag-item" href="/tags/%E7%AC%94%E8%AE%B0/" style="--text-color:var(--hty-text-color)"><span class="post-meta-item-icon"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-price-tag-3-line"></use></svg></span><span class="tag-name">笔记</span></a></span></div></div></header><section class="post-body" itemprop="articleBody"><div class="post-content markdown-body"><p><img src="/images/QT-learning-note-02/cover.jpg" alt="cover" loading="lazy"></p>
 <span id="more"></span>
 
 <p>今天本来是想要参考<a href="https://mskclover.com/2022/04/26/QT-learning-note-01/">上一节</a>提到的教程，继续学习 Qt 的。但参考的那两个教程都太陈旧了，可能是因为新的环境变化太大，他们给出的例程我没办法在电脑上复现，所以只得作罢。而且我发现，中文网络上的教程文章几乎都是 18 年之前的，之后很少再有新的文章了。像我在一个 Qt 的中文论坛又找到的一份教程：<a target="_blank" rel="noopener" href="https://www.qter.org/forum.php?mod=viewthread&tid=193">《Qt 快速入门系列教程》</a>，作者之前还出版了这本书，已经到第三版了，并且在 2019 年 2 月的时候还对教程进行一定程度的更新，有重修教程、重振论坛的意思，但现在看起来，他最终还是没能成功：他的 Qt5 新教程在写了十篇以后，停止在了同年的 3 月 20 日，非常可惜。</p>
@@ -102,48 +102,48 @@ document.addEventListener("pjax:success", initScrollReveal);
 <span class="token comment">!isEmpty(target.path): INSTALLS += target</span></code></pre>
 
 <h3 id="main-cpp"><a href="#main-cpp" class="headerlink" title="main.cpp"></a>main.cpp</h3><p>这里是程序的主函数，多是自动生成的代码：</p>
-<pre class="language-c++" data-language="c++"><code class="language-c++">&#x2F;&#x2F; main.cpp
+<pre class="language-c" data-language="c"><code class="language-c"><span class="token comment">// main.cpp</span>
 
-#include &quot;mainwindow.h&quot;     &#x2F;&#x2F; 生成的窗口类头文件
-#include &lt;QApplication&gt;     &#x2F;&#x2F; 应用程序类头文件
+<span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span> <span class="token string">"mainwindow.h"</span>     <span class="token comment">// 生成的窗口类头文件</span></span>
+<span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span> <span class="token string">&lt;QApplication></span>     <span class="token comment">// 应用程序类头文件</span></span>
 
-int main(int argc, char *argv[])
-&#123;
-    QApplication a(argc, argv);         &#x2F;&#x2F; 创建应用程序对象，在一个 Qt 项目中实例对象有且仅有一个
-                                        &#x2F;&#x2F; 类的作用：检测触发的事件，进行事件的循环并处理
-                                        &#x2F;&#x2F;定义一个 QT 应用程序对象，它是 QT 图像界面的入口
-                                        &#x2F;&#x2F;它的构造函数接收与 main 函数一样的参数
-    MainWindow w;       &#x2F;&#x2F; 创建窗口类对象
-    w.show();           &#x2F;&#x2F; 显示窗口
-    return a.exec();    &#x2F;&#x2F; exec() 阻塞函数进入事件循环函数等待用户操作
-    					&#x2F;&#x2F; 使在程序执行完以后，窗口不会自动消失
-&#125;</code></pre>
+<span class="token keyword">int</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token keyword">int</span> argc<span class="token punctuation">,</span> <span class="token keyword">char</span> <span class="token operator">*</span>argv<span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">)</span>
+<span class="token punctuation">&#123;</span>
+    QApplication <span class="token function">a</span><span class="token punctuation">(</span>argc<span class="token punctuation">,</span> argv<span class="token punctuation">)</span><span class="token punctuation">;</span>         <span class="token comment">// 创建应用程序对象，在一个 Qt 项目中实例对象有且仅有一个</span>
+                                        <span class="token comment">// 类的作用：检测触发的事件，进行事件的循环并处理</span>
+                                        <span class="token comment">//定义一个 QT 应用程序对象，它是 QT 图像界面的入口</span>
+                                        <span class="token comment">//它的构造函数接收与 main 函数一样的参数</span>
+    MainWindow w<span class="token punctuation">;</span>       <span class="token comment">// 创建窗口类对象</span>
+    w<span class="token punctuation">.</span><span class="token function">show</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>           <span class="token comment">// 显示窗口</span>
+    <span class="token keyword">return</span> a<span class="token punctuation">.</span><span class="token function">exec</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>    <span class="token comment">// exec() 阻塞函数进入事件循环函数等待用户操作</span>
+    					<span class="token comment">// 使在程序执行完以后，窗口不会自动消失</span>
+<span class="token punctuation">&#125;</span></code></pre>
 
 <h3 id="mainwindow-h"><a href="#mainwindow-h" class="headerlink" title="mainwindow.h"></a>mainwindow.h</h3><p>这是窗口界面对应的头文件，被上方的 <code>main.cpp</code> 所包含，生成代码如下：</p>
-<pre class="language-c++" data-language="c++"><code class="language-c++">&#x2F;&#x2F; mainwindow.h
+<pre class="language-c" data-language="c"><code class="language-c"><span class="token comment">// mainwindow.h</span>
 
-#ifndef MAINWINDOW_H
-#define MAINWINDOW_H
+<span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">ifndef</span> <span class="token expression">MAINWINDOW_H</span></span>
+<span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">define</span> <span class="token macro-name">MAINWINDOW_H</span></span>
 
-#include &lt;QMainWindow&gt;      &#x2F;&#x2F; Qt 标准窗口类头文件
+<span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span> <span class="token string">&lt;QMainWindow></span>      <span class="token comment">// Qt 标准窗口类头文件</span></span>
 
 QT_BEGIN_NAMESPACE
-&#x2F;&#x2F; mainwindow.ui 文件中也有一个类叫 MainWindow, 将这个类放到命名空间 Ui 中
-namespace Ui &#123; class MainWindow; &#125;      &#x2F;&#x2F; 对应的是 ui 文件中的类
+<span class="token comment">// mainwindow.ui 文件中也有一个类叫 MainWindow, 将这个类放到命名空间 Ui 中</span>
+namespace Ui <span class="token punctuation">&#123;</span> class MainWindow<span class="token punctuation">;</span> <span class="token punctuation">&#125;</span>      <span class="token comment">// 对应的是 ui 文件中的类</span>
 QT_END_NAMESPACE
 
-class MainWindow : public QMainWindow   &#x2F;&#x2F; 继承了基础类
-&#123;
-    Q_OBJECT    &#x2F;&#x2F; 这个宏是为了能够使用Qt中的信号槽机制
+class MainWindow <span class="token operator">:</span> public QMainWindow   <span class="token comment">// 继承了基础类</span>
+<span class="token punctuation">&#123;</span>
+    Q_OBJECT    <span class="token comment">// 这个宏是为了能够使用Qt中的信号槽机制</span>
 
-public:
-    MainWindow(QWidget *parent &#x3D; nullptr);
-    ~MainWindow();
+public<span class="token operator">:</span>
+    <span class="token function">MainWindow</span><span class="token punctuation">(</span>QWidget <span class="token operator">*</span>parent <span class="token operator">=</span> nullptr<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token operator">~</span><span class="token function">MainWindow</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
 
-private:
-    Ui::MainWindow *ui;     &#x2F;&#x2F; 定义指针指向窗口的 UI 对象
-&#125;;
-#endif &#x2F;&#x2F; MAINWINDOW_H</code></pre>
+private<span class="token operator">:</span>
+    Ui<span class="token operator">::</span>MainWindow <span class="token operator">*</span>ui<span class="token punctuation">;</span>     <span class="token comment">// 定义指针指向窗口的 UI 对象</span>
+<span class="token punctuation">&#125;</span><span class="token punctuation">;</span>
+<span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">endif</span> <span class="token comment">// MAINWINDOW_H</span></span></code></pre>
 
 <p>看不懂是吧？其实我们就算看得懂代码，也不知道它具体是干什么的，反正能跑就行，后面应该慢慢就知道了……</p>
 <h3 id="mainwindow-cpp"><a href="#mainwindow-cpp" class="headerlink" title="mainwindow.cpp"></a>mainwindow.cpp</h3><p>这里是上面对应头文件中类的源文件：</p>
@@ -241,58 +241,58 @@ MainWindow<span class="token operator">::</span><span class="token operator">~</
 </ul>
 <p>基于上面的第一个项目，现分别创建两个测试窗口以说明其区别。<code>TestWidgget</code> 和 <code>TestDialog</code> 的头文件与源代码均与上面最初的 <code>mainwindow</code> 没有大的不同，修改窗口控件也只需要在 Design 中编辑即可，此处的重点在于子窗口的两种不同的显示。以后若无更改，新窗口的自动生成代码将不会再重复贴出了。</p>
 <p>因此，下面贴出控制窗口显示的 <code>mainwindow.cpp</code> 文件：</p>
-<pre class="language-c++" data-language="c++"><code class="language-c++">&#x2F;&#x2F; 新的 mainwindow.cpp
+<pre class="language-c" data-language="c"><code class="language-c"><span class="token comment">// 新的 mainwindow.cpp</span>
 
-#include &quot;mainwindow.h&quot;
-#include &quot;ui_mainwindow.h&quot;
-#include &quot;testwidget.h&quot;			&#x2F;&#x2F; 新包含了两个子类的头文件
-#include &quot;testdialog.h&quot;
+<span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span> <span class="token string">"mainwindow.h"</span></span>
+<span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span> <span class="token string">"ui_mainwindow.h"</span></span>
+<span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span> <span class="token string">"testwidget.h"</span>			<span class="token comment">// 新包含了两个子类的头文件</span></span>
+<span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span> <span class="token string">"testdialog.h"</span></span>
 
-MainWindow::MainWindow(QWidget *parent)
-    : QMainWindow(parent)
-    , ui(new Ui::MainWindow)    &#x2F;&#x2F; 基于 mainwindow.ui 创建一个实例对象
-                                &#x2F;&#x2F; 相当于将 ui 对象实例化
-&#123;
-    &#x2F;&#x2F; 将 mainwindow.ui 的实例对象和 this 指向的当前类的对象进行关联
-    &#x2F;&#x2F; 这样同名的两个类对象就产生了关联, 合二为一了
-    ui-&gt;setupUi(this);          &#x2F;&#x2F; 相当于在后面操作 ui 时相当于直接操作指向的类
+MainWindow<span class="token operator">::</span><span class="token function">MainWindow</span><span class="token punctuation">(</span>QWidget <span class="token operator">*</span>parent<span class="token punctuation">)</span>
+    <span class="token operator">:</span> <span class="token function">QMainWindow</span><span class="token punctuation">(</span>parent<span class="token punctuation">)</span>
+    <span class="token punctuation">,</span> <span class="token function">ui</span><span class="token punctuation">(</span>new Ui<span class="token operator">::</span>MainWindow<span class="token punctuation">)</span>    <span class="token comment">// 基于 mainwindow.ui 创建一个实例对象</span>
+                                <span class="token comment">// 相当于将 ui 对象实例化</span>
+<span class="token punctuation">&#123;</span>
+    <span class="token comment">// 将 mainwindow.ui 的实例对象和 this 指向的当前类的对象进行关联</span>
+    <span class="token comment">// 这样同名的两个类对象就产生了关联, 合二为一了</span>
+    ui<span class="token operator">-></span><span class="token function">setupUi</span><span class="token punctuation">(</span>this<span class="token punctuation">)</span><span class="token punctuation">;</span>          <span class="token comment">// 相当于在后面操作 ui 时相当于直接操作指向的类</span>
 
-    &#x2F;&#x2F; 一般在 Qt 的构造函数中进行初始化操作（窗口，数据，……）
+    <span class="token comment">// 一般在 Qt 的构造函数中进行初始化操作（窗口，数据，……）</span>
     
-    &#x2F;&#x2F; 显示当前窗口的时候，显示另外一个窗口 TestWidget
-#if 1
-    &#x2F;&#x2F; 创建窗口对象，没有给 w 对象指定父对象
-    &#x2F;&#x2F; 所以这个窗口是一个独立窗口，有四周的边框
-    &#x2F;&#x2F; 要显示独立窗口需要进行 show（） 操作
-    TestWidget* w &#x3D; new TestWidget;
-    &#x2F;&#x2F; 显示当前窗口
-    w -&gt; show();
-#else
-    &#x2F;&#x2F; 如果在创建窗口对象的时候给其指定了父对象，这个窗口就不是一个独立窗口
-    &#x2F;&#x2F; 所以在当前父窗口显示的时候，子窗口被嵌入，与父窗口一起显示出来
-    &#x2F;&#x2F; 此时子窗口是没有独立边框的
-    TestWidget* w &#x3D; new TestWidget(this);
-#endif
+    <span class="token comment">// 显示当前窗口的时候，显示另外一个窗口 TestWidget</span>
+<span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">if</span> <span class="token expression"><span class="token number">1</span></span></span>
+    <span class="token comment">// 创建窗口对象，没有给 w 对象指定父对象</span>
+    <span class="token comment">// 所以这个窗口是一个独立窗口，有四周的边框</span>
+    <span class="token comment">// 要显示独立窗口需要进行 show（） 操作</span>
+    TestWidget<span class="token operator">*</span> w <span class="token operator">=</span> new TestWidget<span class="token punctuation">;</span>
+    <span class="token comment">// 显示当前窗口</span>
+    w <span class="token operator">-></span> <span class="token function">show</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">else</span></span>
+    <span class="token comment">// 如果在创建窗口对象的时候给其指定了父对象，这个窗口就不是一个独立窗口</span>
+    <span class="token comment">// 所以在当前父窗口显示的时候，子窗口被嵌入，与父窗口一起显示出来</span>
+    <span class="token comment">// 此时子窗口是没有独立边框的</span>
+    TestWidget<span class="token operator">*</span> w <span class="token operator">=</span> new <span class="token function">TestWidget</span><span class="token punctuation">(</span>this<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">endif</span></span>
 
-#if 1
-    &#x2F;&#x2F; 创建对话框窗口
-    TestDialog* dlg &#x3D; new TestDialog(this);     &#x2F;&#x2F; 不管是否指定窗口的父对象，它都不会内嵌到主窗口中
-    &#x2F;&#x2F; 非模态
-    dlg -&gt; show();          &#x2F;&#x2F; 需要手动调用父类的 show()
-#else
-    &#x2F;&#x2F; 创建对话框窗口
-    TestDialog* dlg &#x3D; new TestDialog(this);
-    &#x2F;&#x2F; 模态，exec()
-    &#x2F;&#x2F; 阻塞程序的执行
-    dlg -&gt; exec();
-    &#x2F;&#x2F; 此时无法显示主窗口，也无法切换焦点，需要关闭 dlg 窗口才会出现主窗口
-#endif
-&#125;
+<span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">if</span> <span class="token expression"><span class="token number">1</span></span></span>
+    <span class="token comment">// 创建对话框窗口</span>
+    TestDialog<span class="token operator">*</span> dlg <span class="token operator">=</span> new <span class="token function">TestDialog</span><span class="token punctuation">(</span>this<span class="token punctuation">)</span><span class="token punctuation">;</span>     <span class="token comment">// 不管是否指定窗口的父对象，它都不会内嵌到主窗口中</span>
+    <span class="token comment">// 非模态</span>
+    dlg <span class="token operator">-></span> <span class="token function">show</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>          <span class="token comment">// 需要手动调用父类的 show()</span>
+<span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">else</span></span>
+    <span class="token comment">// 创建对话框窗口</span>
+    TestDialog<span class="token operator">*</span> dlg <span class="token operator">=</span> new <span class="token function">TestDialog</span><span class="token punctuation">(</span>this<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token comment">// 模态，exec()</span>
+    <span class="token comment">// 阻塞程序的执行</span>
+    dlg <span class="token operator">-></span> <span class="token function">exec</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token comment">// 此时无法显示主窗口，也无法切换焦点，需要关闭 dlg 窗口才会出现主窗口</span>
+<span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">endif</span></span>
+<span class="token punctuation">&#125;</span>
 
-MainWindow::~MainWindow()
-&#123;
-    delete ui;
-&#125;</code></pre>
+MainWindow<span class="token operator">::</span><span class="token operator">~</span><span class="token function">MainWindow</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+<span class="token punctuation">&#123;</span>
+    delete ui<span class="token punctuation">;</span>
+<span class="token punctuation">&#125;</span></code></pre>
 
 <p>此时代码中是有两个分支的，在两个 if 均为 1 的时候，它们均为独立窗口 —— 其中 <code>TestWidgget</code> 窗口继承了 <code>QWidget</code> 类，在没有指定父类的时候，它是独立窗口；而 <code>TestDialog</code> 窗口基础的是 <code>QDialog</code> 类，所以无论它是否指定父对象（是否在 new 后指向 <code>this</code>），它都只会是独立窗口。</p>
 <p><img src="/images/QT-learning-note-02/qwidget_4.jpg" alt="qwidgt" loading="lazy"></p>
@@ -305,46 +305,46 @@ MainWindow::~MainWindow()
 <h2 id="坐标体系"><a href="#坐标体系" class="headerlink" title="坐标体系"></a>坐标体系</h2><p>Qt 的坐标体系与大多数显示一样，均以左上角为坐标原点。不过有一点特殊的是，在一个 Qt 窗口中，其中嵌入的子窗口是以父窗口的左上角为左上角为坐标原点，也就是相对坐标，而非绝对坐标：</p>
 <p><img src="/images/QT-learning-note-02/coordinate_1.jpg" alt="coordinate_1" loading="lazy"><em>图片来自于苏丙榅的<a href="https://mskclover.com/2022/05/12/QT-learning-note-02/#%E5%8F%82%E8%80%83%E8%B5%84%E6%96%99">入门教程</a></em></p>
 <p>下面用 <code>coordinate</code> 项目作为例程示例：</p>
-<pre class="language-c++" data-language="c++"><code class="language-c++">&#x2F;&#x2F; corrdinate mainwindow.cpp
+<pre class="language-c" data-language="c"><code class="language-c"><span class="token comment">// corrdinate mainwindow.cpp</span>
 
-#include &quot;mainwindow.h&quot;
-#include &quot;ui_mainwindow.h&quot;
-#include &lt;QPushButton&gt;          &#x2F;&#x2F; 按钮控件需要的库
+<span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span> <span class="token string">"mainwindow.h"</span></span>
+<span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span> <span class="token string">"ui_mainwindow.h"</span></span>
+<span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span> <span class="token string">&lt;QPushButton></span>          <span class="token comment">// 按钮控件需要的库</span></span>
 
-MainWindow::MainWindow(QWidget *parent)
-    : QMainWindow(parent)
-    , ui(new Ui::MainWindow)
-&#123;
-    ui-&gt;setupUi(this);
+MainWindow<span class="token operator">::</span><span class="token function">MainWindow</span><span class="token punctuation">(</span>QWidget <span class="token operator">*</span>parent<span class="token punctuation">)</span>
+    <span class="token operator">:</span> <span class="token function">QMainWindow</span><span class="token punctuation">(</span>parent<span class="token punctuation">)</span>
+    <span class="token punctuation">,</span> <span class="token function">ui</span><span class="token punctuation">(</span>new Ui<span class="token operator">::</span>MainWindow<span class="token punctuation">)</span>
+<span class="token punctuation">&#123;</span>
+    ui<span class="token operator">-></span><span class="token function">setupUi</span><span class="token punctuation">(</span>this<span class="token punctuation">)</span><span class="token punctuation">;</span>
 
-    &#x2F;&#x2F; 让窗口出现在屏幕的这个位置，没有指定则是默认居中
-    &#x2F;&#x2F; 坐标原点是左上角
-    &#x2F;&#x2F;this -&gt; move(100, 100);
+    <span class="token comment">// 让窗口出现在屏幕的这个位置，没有指定则是默认居中</span>
+    <span class="token comment">// 坐标原点是左上角</span>
+    <span class="token comment">//this -> move(100, 100);</span>
 
-    &#x2F;&#x2F; 创建一个按钮，让这个按钮作为当前创建的子控件
-    QPushButton* btnA &#x3D; new QPushButton(this);      &#x2F;&#x2F; 一定要指定父对象，否则按钮就成了一个独立的窗口
-        											&#x2F;&#x2F; 此时父对象依旧是主窗口
-    &#x2F;&#x2F; 移动按钮的位置
-    &#x2F;&#x2F; 基类 QWidget 中的 move() 函数
-    btnA -&gt; move(10, 10);
-    &#x2F;&#x2F; 给按钮设置固定的大小
-    btnA -&gt; setFixedSize(200, 200);
+    <span class="token comment">// 创建一个按钮，让这个按钮作为当前创建的子控件</span>
+    QPushButton<span class="token operator">*</span> btnA <span class="token operator">=</span> new <span class="token function">QPushButton</span><span class="token punctuation">(</span>this<span class="token punctuation">)</span><span class="token punctuation">;</span>      <span class="token comment">// 一定要指定父对象，否则按钮就成了一个独立的窗口</span>
+        											<span class="token comment">// 此时父对象依旧是主窗口</span>
+    <span class="token comment">// 移动按钮的位置</span>
+    <span class="token comment">// 基类 QWidget 中的 move() 函数</span>
+    btnA <span class="token operator">-></span> <span class="token function">move</span><span class="token punctuation">(</span><span class="token number">10</span><span class="token punctuation">,</span> <span class="token number">10</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token comment">// 给按钮设置固定的大小</span>
+    btnA <span class="token operator">-></span> <span class="token function">setFixedSize</span><span class="token punctuation">(</span><span class="token number">200</span><span class="token punctuation">,</span> <span class="token number">200</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
 
-    &#x2F;&#x2F; 创建第二个按钮
-    QPushButton* btnB &#x3D; new QPushButton(this);
-    btnB -&gt; move(10, 10);
-    btnB -&gt; setFixedSize(100, 100);
+    <span class="token comment">// 创建第二个按钮</span>
+    QPushButton<span class="token operator">*</span> btnB <span class="token operator">=</span> new <span class="token function">QPushButton</span><span class="token punctuation">(</span>this<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    btnB <span class="token operator">-></span> <span class="token function">move</span><span class="token punctuation">(</span><span class="token number">10</span><span class="token punctuation">,</span> <span class="token number">10</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    btnB <span class="token operator">-></span> <span class="token function">setFixedSize</span><span class="token punctuation">(</span><span class="token number">100</span><span class="token punctuation">,</span> <span class="token number">100</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
 
-    &#x2F;&#x2F; 创建第三个按钮
-    QPushButton* btnC &#x3D; new QPushButton(this);
-    btnC -&gt; move(10, 10);
-    btnC -&gt; setFixedSize(50, 50);
-&#125;
+    <span class="token comment">// 创建第三个按钮</span>
+    QPushButton<span class="token operator">*</span> btnC <span class="token operator">=</span> new <span class="token function">QPushButton</span><span class="token punctuation">(</span>this<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    btnC <span class="token operator">-></span> <span class="token function">move</span><span class="token punctuation">(</span><span class="token number">10</span><span class="token punctuation">,</span> <span class="token number">10</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    btnC <span class="token operator">-></span> <span class="token function">setFixedSize</span><span class="token punctuation">(</span><span class="token number">50</span><span class="token punctuation">,</span> <span class="token number">50</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">&#125;</span>
 
-MainWindow::~MainWindow()
-&#123;
-    delete ui;
-&#125;</code></pre>
+MainWindow<span class="token operator">::</span><span class="token operator">~</span><span class="token function">MainWindow</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+<span class="token punctuation">&#123;</span>
+    delete ui<span class="token punctuation">;</span>
+<span class="token punctuation">&#125;</span></code></pre>
 
 <p><img src="/images/QT-learning-note-02/coordinate_2.jpg" alt="coordinate_2" loading="lazy"></p>
 <p>若在代码块上方解除注释掉的代码 <code>this -&gt; move(100, 100);</code>，则窗口会以左上角为坐标原点进行显示：</p>
