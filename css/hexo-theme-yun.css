@@ -371,6 +371,44 @@ input {
   align-items: center;
   height: 100vh;
 }
+#banner .char {
+  font-family: 'Songti SC', 'Noto Serif SC', STZhongsong, STKaiti, KaiTi, Roboto, serif;
+  font-size: var(--banner-char-size, 1rem);
+  font-weight: 900;
+  background-color: var(--banner-char-bg-color);
+  line-height: 1;
+  transition-property: all;
+  transition-duration: 0.3s;
+  transition-delay: 0s;
+}
+#banner .char:hover {
+  color: var(--banner-char-hover-color);
+  background-color: var(--banner-char-color);
+}
+#banner .char-left,
+#banner .char-right {
+  display: flex;
+  color: var(--banner-char-color);
+  opacity: 0;
+}
+#banner .char-left {
+  border-left: 1px solid var(--banner-line-color);
+  border-right: 0px solid rgba(0,120,231,0.1);
+  border-right-width: 0px;
+  animation-duration: 0.4s;
+  animation-delay: 0.4s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-out;
+}
+#banner .char-right {
+  border-left: 0px solid rgba(0,120,231,0.1);
+  border-right: 1px solid var(--banner-line-color);
+  border-left-width: 0px;
+  animation-duration: 0.4s;
+  animation-delay: 0.4s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-out;
+}
 .banner-char-container {
   display: flex;
   flex-direction: column;
@@ -389,44 +427,6 @@ input {
 .vertical-line-bottom {
   position: absolute;
   bottom: 0;
-}
-.char {
-  font-family: 'Songti SC', 'Noto Serif SC', STZhongsong, STKaiti, KaiTi, Roboto, serif;
-  font-size: var(--banner-char-size, 1rem);
-  font-weight: 900;
-  background-color: var(--banner-char-bg-color);
-  line-height: 1;
-  transition-property: all;
-  transition-duration: 0.3s;
-  transition-delay: 0s;
-}
-.char:hover {
-  color: var(--banner-char-hover-color);
-  background-color: var(--banner-char-color);
-}
-.char-left,
-.char-right {
-  display: flex;
-  color: var(--banner-char-color);
-  opacity: 0;
-}
-.char-left {
-  border-left: 1px solid var(--banner-line-color);
-  border-right: 0px solid rgba(0,120,231,0.1);
-  border-right-width: 0px;
-  animation-duration: 0.4s;
-  animation-delay: 0.4s;
-  animation-fill-mode: forwards;
-  animation-timing-function: ease-out;
-}
-.char-right {
-  border-left: 0px solid rgba(0,120,231,0.1);
-  border-right: 1px solid var(--banner-line-color);
-  border-left-width: 0px;
-  animation-duration: 0.4s;
-  animation-delay: 0.4s;
-  animation-fill-mode: forwards;
-  animation-timing-function: ease-out;
 }
 .cloud {
   display: flex;
@@ -1832,7 +1832,7 @@ input {
   max-height: 10000px;
 }
 :root {
-  --sidebar-bg-image: url("https://cdn.jsdelivr.net/gh/YunYouJun/cdn@master/img/bg/alpha-stars-timing-1.webp");
+  --sidebar-bg-image: url("https://cdn.yunyoujun.cn/img/bg/alpha-stars-timing-1.webp");
 }
 #menu-btn {
   display: none;
