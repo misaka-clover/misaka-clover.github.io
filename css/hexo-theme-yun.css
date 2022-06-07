@@ -146,23 +146,6 @@ html.dark {
   --page-btn-bg-color: rgba(0,0,0,0.5);
   --page-btn-hover-bg-color: rgba(199,228,255,0.9);
   --page-btn-active-bg-color: #0078e7;
-/* for waline */
-/* 常规颜色 */
-  --waline-white: #000;
-  --waline-light-grey: #666;
-  --waline-dark-grey: #999;
-/* 布局颜色 */
-  --waline-text-color: #888;
-  --waline-bgcolor: #1e1e1e;
-  --waline-bgcolor-light: #272727;
-  --waline-border-color: #333;
-  --waline-disable-bgcolor: #444;
-  --waline-disable-color: #272727;
-/* 特殊颜色 */
-  --waline-bq-color: #272727;
-/* 其他颜色 */
-  --waline-info-bgcolor: #272727;
-  --waline-info-color: #666;
 }
 .disable-hover,
 .disable-hover * {
@@ -2145,8 +2128,24 @@ input {
   color: #0078e7;
 }
 #waline {
+  --waline-color: var(--hty-text-color);
   --waline-theme-color: #0078e7;
   --waline-active-color: rgba(0,120,231,0.8);
+}
+html.dark {
+/* for waline */
+/* 布局颜色 */
+  --waline-text-color: #888;
+  --waline-bgcolor: #1e1e1e;
+  --waline-bgcolor-light: #272727;
+  --waline-border-color: #333;
+  --waline-disable-bgcolor: #444;
+  --waline-disable-color: #999;
+/* 特殊颜色 */
+  --waline-bq-color: #272727;
+/* 其他颜色 */
+  --waline-info-bgcolor: #272727;
+  --waline-info-color: #666;
 }
 #comment {
   margin: 0 1rem;
