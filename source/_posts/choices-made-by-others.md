@@ -10,7 +10,7 @@ categories: 叶子的碎碎念
 comment: true
 ---
 
-![cover](/images/choices-made-by-others/cover.jpeg)
+![cover](/images/choices-made-by-others/cover.jpg)
 
 > 选择是自由的，但因为必须要选择，所以也是不自由的。
 

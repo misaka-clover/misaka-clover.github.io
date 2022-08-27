@@ -12,20 +12,19 @@ comment: true
 keywords: 域名,域名购买,com,GitHub Pages,域名解析
 ---
 
+![cover](/images/Give-my-blog-a-new-name/cover.JPG)_封面图来自国人画师 [Qswan](https://www.pixiv.net/users/4741933)，大家可以去Pixiv上关注他喔！_
 
 > 之所以选择独立域名，不仅仅是为了逼格… 可玩性比较高，几乎没有限制。咱可以玩玩子域名，哪天搞出来一个 love.bennythink.com 表白多好玩嘛。
 >
 > ——[《为什么我要写独立域名的博客》](https://dmesg.app/reason-of-this-blog.html)，**Benny 小土豆**
 
-![cover](/images/Give-my-blog-a-new-name/cover.JPG)_封面图来自国人画师 [Qswan](https://www.pixiv.net/users/4741933)，大家可以去Pixiv上关注他喔！_
+<!-- more -->
 
 ## TL;DR
 
 这里是太长不看版：
 
 在咕咕咕整整一年半以后，我终于给了博客一个真正的名字，写下了一些杂文，顺便也整理了一份相关的教程，希望能为还没有购买过域名的同学提供帮助，作一点小小的参考。
-
-<!-- more -->
 
 ## 前言
 

@@ -61,7 +61,7 @@ banner:
     color: "white"
   go_down:
     enable: true
-    icon: icon-arrow-down-s-line
+    icon: ri:arrow-down-s-line
 
 # 首页的公告
 notice:
@@ -100,35 +100,44 @@ avatar:
   mickey_mouse: false
   status:
     enable: true
-    emoji: 🤠
+    emoji: 🥬
     message: 今天也是美好的一天呢
 
 # 设置导航栏
 menu:
   home:
     path: /
-    icon: icon-home-4-line
+    icon: ri:home-4-line
   list:
     - type: archives
       path: /archives/
-      icon: icon-archive-line
+      icon: ri:archive-line
     - type: categories
       path: /categories/
-      icon: icon-folder-2-line
+      icon: ri:folder-2-line
     - type: tags
       path: /tags/
-      icon: icon-price-tag-3-line
+      icon: ri:price-tag-3-line
   custom:
     title: guestbook
     path: about/#comment
-    icon: icon-clipboard-line
+    icon: ri:clipboard-line
 
 # 友链
 pages:
   - name: 我的小伙伴们
     url: /links/
-    icon: icon-genderless-line
+    icon: ri:genderless-line
     color: dodgerblue
+#  - name: 喜欢的女孩子
+#    url: /girls/
+#    icon: ri:women-line
+#    color: hotpink
+
+# 女友
+girls:
+  enable: false
+
 
 # 侧栏社交图标
 social:
@@ -136,23 +145,19 @@ social:
     # set rss in your root config
     # https://github.com/hexojs/hexo-generator-feed
     link: /atom.xml # config.feed.path
-    icon: icon-rss-line
+    icon: ri:rss-line
     color: orange
   - name: GitHub
     link: https://github.com/misaka-clover
-    icon: icon-github-line
+    icon: ri:github-line
     color: "#181717"
   - name: E-Mail
     link: mailto:Misaka9936@gmail.com
-    icon: icon-mail-line
+    icon: ri:mail-line
     color: "#8E71C1"
-  - name: Twitter
-    link: https://twitter.com/Misaka_Clover
-    icon: icon-twitter-line
-    color: "#1da1f2"
   - name: Travelling
     link: https://travellings.link
-    icon: icon-send-plane-2-line
+    icon: ri:send-plane-2-line
     color: black
 
 # RSS 配置
@@ -190,22 +195,22 @@ creative_commons:
 # 打赏
 reward:
   enable: false
-  icon: icon-hand-coin-line
+  icon: ri:hand-coin-line
   comment: I'm so cute. Please give me money.
   # url: https://github.com/YunYouJun/yunyoujun.github.io/issues/96
   methods:
     - name: 支付宝
       path: 
       color: "#00A3EE"
-      icon: icon-alipay-line
+      icon: ri:alipay-line
     - name: QQ 支付
       path: 
       color: "#12B7F5"
-      icon: icon-qq-line
+      icon: ri:qq-line
     - name: 微信支付
       path: 
       color: "#2DC100"
-      icon: icon-wechat-pay-line
+      icon: ri:wechat-pay-line
 
 ########################################################################
 
@@ -213,7 +218,7 @@ reward:
 footer:
   since: 2020
   icon:
-    name: icon-cloud-line
+    name: ri:cloud-line
     animated: true
     color: "#0078E7"
   powered:
@@ -230,14 +235,14 @@ footer:
   # 运行时间
   live_time:
       enable: true
-      prefix: 本博客已萌萌哒地运行
-      suffix: (*/ω＼*)
+      prefix: 本花园已长草
+      suffix: （¯﹃¯）
       start_time: "2020-08-22T19:25:00"
 
   # 自定义文本
   # Any custom text can be defined here.
   # custom_text: Hosted by <a href="https://pages.coding.me" rel="noopener" target="_blank">Coding Pages</a>
-  custom_text: 博客版本：V.1.2.4
+  custom_text: 博客版本：V.1.3.1
 
   # 支持致谢
   support:
@@ -263,7 +268,7 @@ say:
 
 # 默哀
 mourn:
-  enable: true
+  enable: false
   days:
     - "4-4"
 
@@ -276,6 +281,7 @@ comment:
     - 如果您有任何关于博客内容的相关讨论，欢迎前往 <a href="https://github.com/misaka-clover/misaka-clover.github.io/discussions" target="_blank">GitHub Discussions</a> 与我交流。
   candidates:
     - waline
+    - utterances
 
 github_issues:
   enable: false
@@ -289,7 +295,7 @@ github_discussions:
   repository: misaka-clover.github.io
 
 utterances:
-  enable: false
+  enable: true
   repo: misaka-clover/misaka-clover.github.io
   issue-term: pathname
   # label: comment

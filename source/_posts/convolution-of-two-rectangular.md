@@ -27,11 +27,11 @@ katex: true
 
 题目要求的计算过程中，有计算如下两个相同矩形脉冲信号的卷积：
 
-![rectangular-signals](/images/convolution-of-two-rectangular/rectangular-pulse.png)_图一，取自参考链接[1]_
+![rectangular-signals](/images/convolution-of-two-rectangular/rectangular-pulse.jpg)_图一，取自参考链接[1]_
 
 虽然我知道它的结果，是一个如下图所示的三角形脉冲信号——课上与书上都是这么说的：
 
-![triangular-pulse](/images/convolution-of-two-rectangular/triangular-pulse.png)_图二，同样取自参考链接[1]_
+![triangular-pulse](/images/convolution-of-two-rectangular/triangular-pulse.jpg)_图二，同样取自参考链接[1]_
 
 可是由于没有给过程，所以我想不到正确的计算方式是什么，也就无从改错。
 
@@ -82,7 +82,7 @@ $$
 
 由图解法可作出下图：
 
-<img src="/images/convolution-of-two-rectangular/handpaint.jpeg" alt="handpaint"  />
+<img src="/images/convolution-of-two-rectangular/handpaint.jpg" alt="handpaint"  />
 
 **注意：**响应$x_2(t)$与输入信号$x_1(t)$相乘积分的结果在$t = t$的时候，而不是$t = t + 1$处，这是关键的一步。之前我的错误就是将其积分之和误放在了$t = t + 1$的地方，导致输出信号开始于$t + 1$而不是$t$。
 

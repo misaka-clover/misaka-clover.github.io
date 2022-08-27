@@ -8,12 +8,16 @@ tags:
     - 学业
     - 博文
     - 电赛
+    - OpenMV
 categories: 叶子的粗浅知识
 comment: true
 katex: true
+keywords: OpenMV,电子设计大赛,电赛,国赛,教程,机器视觉
 ---
 
 ![cover](/images/OpenMV-learing-note/cover.jpg)_封面图来自加零（@jia0kelvin），欢迎大家在Twitter上关注他！_
+
+<!-- more -->
 
 ## 前言
 
@@ -26,8 +30,6 @@ katex: true
 学到现在，我想效仿 [**果子酱**](https://sublimerui.top/about/) 的这篇文章（[2019 电赛 --OpenMV 学习笔记](https://sublimerui.top/archives/f10b0e1a.html)）那样，在学习到一定程度的时候，写一篇文章，以回顾这段时间学习情况，并且还可以停下来思考一下，接下来又应该准备些什么。
 
 所以，我就写了这篇，希望能给大家一点帮助。
-
-<!-- more -->
 
 ## OpenMV简介
 
