@@ -29,7 +29,7 @@ links:
     color: "#DB7093"
     email: 
   - url: https://cwksc.github.io/
-    avatar: /images/avatar/CWKSC.JPG
+    avatar: /images/avatar/CWKSC.jpg
     name: CWKSC
     blog: CWKSC's Blog
     desc: 技术文大佬喔(´・×・｀) 
@@ -50,11 +50,18 @@ links:
     color: "#CCCCCC"
     email: 
   - url: https://www.xiaoniuhululu.com
-    avatar: https://www.xiaoniuhululu.com/images/zj/head-portrait-image.png
+    avatar: /images/avatar/xiaoniuhululu.jpg
     name: 小牛呼噜噜
     blog: 小牛呼噜噜
     desc: 专心|专注|专研
     color: "#F5DEB3"
+    email: 
+  - url: https://edward40.com/
+    avatar: /images/avatar/edward40.jpg
+    name: 仕麟
+    blog: 仕麟的博客
+    desc: Great men are not born great, they grow great.
+    color: "#696969"
     email: 
 # - url: 
 #   avatar: https://misaka-9936.github.io/images/avatar.jpg
