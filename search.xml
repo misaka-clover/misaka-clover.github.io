@@ -189,86 +189,6 @@
       </tags>
   </entry>
   <entry>
-    <title>给博客一个新名字！</title>
-    <url>/2022/03/29/Give-my-blog-a-new-name/</url>
-    <content><![CDATA[<p><img src="/images/Give-my-blog-a-new-name/cover.JPG" alt="cover" loading="lazy"><em>封面图来自国人画师 <a href="https://www.pixiv.net/users/4741933">Qswan</a>，大家可以去Pixiv上关注他喔！</em></p>
-<blockquote>
-<p>之所以选择独立域名，不仅仅是为了逼格… 可玩性比较高，几乎没有限制。咱可以玩玩子域名，哪天搞出来一个 love.bennythink.com 表白多好玩嘛。</p>
-<p>——<a href="https://dmesg.app/reason-of-this-blog.html">《为什么我要写独立域名的博客》</a>，<strong>Benny 小土豆</strong></p>
-</blockquote>
-<span id="more"></span>
-
-<h2 id="TL-DR"><a href="#TL-DR" class="headerlink" title="TL;DR"></a>TL;DR</h2><p>这里是太长不看版：</p>
-<p>在咕咕咕整整一年半以后，我终于给了博客一个真正的名字，写下了一些杂文，顺便也整理了一份相关的教程，希望能为还没有购买过域名的同学提供帮助，作一点小小的参考。</p>
-<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>很长时间都没有写博客了，说起来惭愧。其实这段时间里倒是写了好几篇文章，但有时事情变得太快，在文章写完之前那些事情就已经变得面目全非了；或者写的内容都是比较私密的事情，只是给以后的自己一个人看，也不好意思发出来；又或者某天晚上在电脑前洋洋洒洒地写了一大篇，后来却一直没写完，最后它们就坑掉了。</p>
-<p>额…… 好吧，我承认，上面的文字全都是我后来找的借口，我还是太懒了，另外还患有怕麻烦与拖延症晚期的病：比如博客的域名，来来回回十八个月，我一直都没有去管。</p>
-<p><img src="/images/Give-my-blog-a-new-name/mess_around.jpg" alt="mess_around" loading="lazy"><em>I have messed around that time.</em></p>
-<p>而现在，我又想要重新开始写些什么，就计划着来给博客除除草。但在做这些事情之前，为了让她能体面地与其他的博客站在一起，我想要先送给她一个新的名字：一个简短的、富有个性的，以及不再依附于 GitHub&#x2F;Microsoft 的域名。</p>
-<h2 id="域名的选择"><a href="#域名的选择" class="headerlink" title="域名的选择"></a>域名的选择</h2><p><a href="https://mskclover.com/"><em>mskclover.com</em></a>，大家在浏览器的地址栏也看到了，这就是我的新域名。</p>
-<p>其实，最初我也没想到会选择这个名字。等到真正开始做选择的时候，我找到了一年半前存在 One Tab 最底部的网页们，将它们在新窗口打开。当时围绕着 clover 这个网名，我对域名有好多种“绝妙”的想法，可在域名托管商处查询之后，我的心态出现了一丝微妙的变化：为什么那些好的域名在上个世纪就都没了？ <spam class="heimu"><del>（因为生的太晚了）</del></spam> 这下，就只好再想一想，如何在那些被挑剩下的域名中，找到我眼中的漏网之鱼。</p>
-<p>不过，在接着写下去之前，不如让我们先来看看，一个好域名需要具备哪些要素呢？</p>
-<h3 id="如何选择好域名"><a href="#如何选择好域名" class="headerlink" title="如何选择好域名"></a>如何选择好域名</h3><p>现在我们访问一个网站可以有很多种方式：通过书签、历史记录、或者搜索引擎，它们的本质都是使人们能够快速、方便地访问互联网上的某一个 IP 地址。为了方便记忆，IETF 在 1983 年发布了 RFC 882 和 RFC 883，开始以规律的一串字符作为域名，去指代那些没有含义的数字，这就是域名。</p>
-<p>所以，容易被人轻易地记住，是一个优秀域名的必要条件。在2013年，一家新英格兰的电商公司 BOSTON WEB 在他们的 Blog 上，发表了一篇名为 <a href="https://www.getfoundquick.com/5-characteristics-for-having-a-good-domain-name/"><em>5 characteristics for having a good domain name</em></a> 的博文，作者 Giovanna DaPrato 在文中说明了一个好域名的五点特征：</p>
-<blockquote>
-<ol>
-<li>Keep it short &amp; sweet.</li>
-<li>Use easy spelling.</li>
-<li>Have a .com extension.</li>
-<li>Get descriptive.</li>
-<li>Get rid of hyphens and&#x2F;or numbers.</li>
-</ol>
-</blockquote>
-<p>下面我就谈一谈我的理解叭：</p>
-<h4 id="简短又好听-amp-拼写简单-amp-具有描述性"><a href="#简短又好听-amp-拼写简单-amp-具有描述性" class="headerlink" title="简短又好听 &amp; 拼写简单 &amp; 具有描述性"></a>简短又好听 &amp; 拼写简单 &amp; 具有描述性</h4><p>大家都喜欢简短的域名，因为它们总能够能被人轻易记住。不仅在选择域名的时候是这样，在选择公司的热线时也同样如此：</p>
-<p>比如，大家常常津津乐道于美国苹果热线的号码是 1-800-692-7753，只需记住 1-800-MY-APPLE 就可以了；同理，百思买的热线也只需拨 1-888-BEST-BUY 即可；这样的电话号码几乎已经是欧美大公司们的标准配置了。</p>
-<p>所以，域名最好能代表着某种清晰的含义。在我们自己做选择的时候，也要尽量使域名少于 10 个字符。虽然域名中“出现某些具有想象力的词会很有趣”，但一定得避免使用生僻的单词，那样的域名易读性很低，难以通过后文提到的“无线电测试”。并且在保持简短的同时，域名也需要使人一眼就能分辨网站的类型。由于大部分的 <code>“.com”</code> 的短域名都被注册了，所以或许也可以考虑使用其他域名作为结尾，比如<code>“.online”</code>、<code>“.store”</code>、<code>“.ai”</code>和<code>“.tech”</code>等。</p>
-<p>不过，个人博客就不需要考虑这个了，域名当然是越有个性越好啊（</p>
-<h4 id="使用-com-顶级域名"><a href="#使用-com-顶级域名" class="headerlink" title="使用 .com 顶级域名"></a>使用 .com 顶级域名</h4><p>如果大家有兴趣去谷歌 <code>“.com”</code>，除了排在前列的维基百科和域名托管商，接下来一定是大公司们的官网，比如 Apple、Google 和 Amazon。因为在一开始，域名就是为商业、组织和政府网站的用途设计的。最初创建七个通用顶级域名时，甚至还没有 <a href="https://www.icann.org/">ICANN</a> 呢！</p>
-<p><img src="/images/Give-my-blog-a-new-name/domain.jpg" alt="domain" loading="lazy"><em>英文维基百科的<a href="https://en.wikipedia.org/wiki/List_of_Internet_top-level_domains">列表</a></em></p>
-<p>可以看到，最初设计时 <code>“.com”</code> 来自于“商业”的英文 commercial，在随之而来的互联网商业化与公众化的时期，它也顺理成章地成为了数量最多的顶级域。后来在取消注册限制后，<code>“.com”</code> 原本的目的已经无关紧要了，它已经成为了最主要、也是最为流行的顶级域名。</p>
-<p>所以，人们总是习惯于在域名的最后输入 <code>“.com”</code> ，他们也更倾向于假设即将访问的网站<strong>无论如何</strong>都以 <code>“.com”</code> 结尾。如果没有其他的理由，选择这个域名准没有错（但顶级域名相比之下要贵一些）。</p>
-<p>在搜索引擎时代到来以后，有这样一种观点：非<code>“.com”</code>的域名可能会降低网站的 SEO。但我也看到有谷歌的前员工说这并没有影响。至于究竟如何，谷歌没有说，我也不知道。不过，我也并不关注这方面，毕竟目前还是把博客作为一个花园&#x2F;自留地，还不像其他商业网站一样，想排在搜索引擎第一页。</p>
-<p>另外，我之所以选择 <code>“.com”</code>，只是因为我想给博客一个 <code>“.com”</code> 的域名而已，单纯地想做一根年轻的韭菜罢了（</p>
-<h4 id="避免连字符和-x2F-或数字"><a href="#避免连字符和-x2F-或数字" class="headerlink" title="避免连字符和&#x2F;或数字"></a>避免连字符和&#x2F;或数字</h4><p>在人们还喜欢收听收音机的年代，有一个标准叫做“无线电测试”，它的目的是为了能保证公司的名字能够透过无线电波清楚地传播，并使听众快速地记下，好的域名从一开始就是为了这个目的而生的。</p>
-<p>为了能够易读&#x2F;易于口述，在选择域名的时候，都应该避免出现符号与数字。连字符的出现不仅会使域名变得复杂、难以读出，而且也会让这条网址更像是垃圾网站，因为诈骗网站或是垃圾邮件中出现的域名，几乎都用了好些连字符。使用数字，则会让人难以分辨域名中出现的数字是符号还是单词，比如 example6.com 与 examplesix.com，所以数字一般都建议使用字母拼写。</p>
-<p>不过，以上的特征也并不是绝对的，如果是自己用的，那完全不需要考虑这些，让自己开心就好。</p>
-<h3 id="选择困难症"><a href="#选择困难症" class="headerlink" title="选择困难症"></a>选择困难症</h3><p>众所周知，我患有懒癌与晚期拖延症，而且还是一个选择困难症患者。</p>
-<p>我一直都想将我的网名“clover”放进域名，但由这个词汇组成的短域名都已经没有了。我想着博客的中文名，将花园的单词加了进去：clovergarden.com，一看发现是家日本的园艺公司；那我改改，cloversgarden.com 怎么样？原来是家美国的花卉公司；那 cloverssgarden.com 呢？这个倒是没人注册，可这个域名太长了，而且 ss 也总是让我想到纳粹的党卫军（<em>Schutz Staffel</em>），所以也就不考虑了。</p>
-<p>过了一会儿，我想到之前看过一部番：<em>Violet Evergarden</em>，便输入了cloverevergarden.com，这么长的域名果然没有人会选，整整 16 个字母。后来又想了一下，那减少两个字母呢？clovevergarden.com，也没短多少……</p>
-<p>正巧这时一个学长逛街到我旁边，我便拉着他跟我一起想想，给博客取什么域名比较好。他一看上面的那几个，他也人麻了，就没怎么见到过这么长的域名。他想了一下，说你 GitHub 上不是叫 <em>Misaka_Clover</em> 吗？域名要不叫 mskclover 吧。我听罢，觉得这个选择真不错，msk 是 misaka 发音的几个字母，比较好跟别人描述，这部分也只有 9 个字母，至少在 .com 域里算短的了，于是我就选择了 mskclover.com 作为我的博客域名。</p>
-<h2 id="域名申请及-DNS-解析"><a href="#域名申请及-DNS-解析" class="headerlink" title="域名申请及 DNS 解析"></a>域名申请及 DNS 解析</h2><p>就算拥有了新的域名，在兴奋地告诉大家之前，我们还需要在托管商的后台配置 DNS，将域名解析到我们博客的服务器的 IP 地址上，这样我们的网站才可以被互联网上的小伙伴们访问。那我就趁此机会，把整个流程梳理一下吧。虽然网上也有很多相关的教程，但没准多我的一份，就可能会帮助到更多的人，我顺便还能水一篇博文呢！</p>
-<h3 id="域名购买"><a href="#域名购买" class="headerlink" title="域名购买"></a>域名购买</h3><p>在购买域名前，我们需要先选择一家靠谱的域名托管商：在国际上比较为人熟知的有 <a href="https://www.godaddy.com/">GoDaddy</a> 和 <a href="https://www.namecheap.com/">Namecheap</a> 等，国内则可以选择<a href="https://dnspod.cloud.tencent.com/">腾讯云</a>或者<a href="https://cn.aliyun.com/">阿里云</a>。现在的购买流程早就比较懒人化了，各家公司的服务也大差不差，所以下面我们以 Namecheap 为例，快速地过一下吧：</p>
-<p>首先，到托管商的域名搜索页面，输入心仪的域名：</p>
-<p><img src="/images/Give-my-blog-a-new-name/example_1.jpg" alt="example_1" loading="lazy"><em>选择困难症的噩梦</em></p>
-<p>选择好以后，将域名加入【购物车】，然后单击右下角的【结账】，之后会进入定制选择：</p>
-<p><img src="/images/Give-my-blog-a-new-name/example_2.jpg" alt="example_2" loading="lazy"><em>令人眼花缭乱的界面</em></p>
-<p>如果是第一次购买域名的话，这些都是可以不管的，在取消【自动续费】后，就可以点击【确认订单】进入下一步了：</p>
-<p><img src="/images/Give-my-blog-a-new-name/example_3.jpg" alt="example_3" loading="lazy"><em>订单付款页面</em></p>
-<p>在进入付款页面以后，选择一种方式付款就好。恭喜，从现在开始，你拥有了属于自己的域名啦！</p>
-<h3 id="DNS-解析"><a href="#DNS-解析" class="headerlink" title="DNS 解析"></a>DNS 解析</h3><p>虽然域名此时已经是属于自己的了，但直接去访问域名，大概率是访问不了的，因为此时域名并没有被解析到一个有效的 IP 地址。想让域名能跳转到我们的网站，需要在托管商的后台将域名解析到我们网站的 IP 上。</p>
-<p>由于网站目前是基于 Hexo 的静态博客，服务器还是白嫖的 GitHub（或者巨硬），所以我就以这个配置的过程为例，相信在其他情况下的过程也是非常相似的。</p>
-<p>在账户页面的【域名列表】，我们可以看到刚刚购买的域名已经出现在下面了，然后通过最右侧的【管理】按钮进入后台：</p>
-<p><img src="/images/Give-my-blog-a-new-name/example_4.jpg" alt="example_4" loading="lazy"><em>域名列表</em></p>
-<p>接下来，在【高级 DNS 】选项下，我们在【主机记录】下添加如上几条解析记录。A记录将我们的域名解析到服务器的 IPv4 地址上，而 CNAME 更像是一种“别名”，不受主机的 IP 改变的影响。至于它们的具体区别可以参见 Namecheap 写的这篇 <a href="https://www.namecheap.com/support/knowledgebase/subcategory/2237/host-records-setup/"><em>Host records setup</em></a> 。</p>
-<p><img src="/images/Give-my-blog-a-new-name/example_5.jpg" alt="example_5" loading="lazy"><em>高级 DNS 下的主机记录</em></p>
-<p>其实如果是像我一样白嫖 GitHub 的服务器的话，只需要设置 CNAME 就可以了，GitHub 官方也是<a href="https://docs.github.com/cn/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site#configuring-a-subdomain">这样建议</a>的，这里只是向大家展示一下两种常见的设置。在设置 A 类型时，需要在【值】处填入服务器的 IP 地址，这时只需要简单地 ping 一下自己目前网站的域名就可以了：</p>
-<p><img src="/images/Give-my-blog-a-new-name/example_6.jpg" alt="example_6" loading="lazy"><em>终端界面</em></p>
-<p>以上配置完后，接下来到 GitHub Pages 的页面，在 Custom domain 处填上我们为博客准备的新域名，然后点击保存，等待 DNS 验证成功后就好啦。由于托管商处的 DNS 可能需要十分钟到一小时刷新，所以耐心等待即可。</p>
-<p><img src="/images/Give-my-blog-a-new-name/example_7.jpg" alt="example_7" loading="lazy"><em>GitHub Pages 页面</em></p>
-<p>最后，我强烈建议勾选【Enforce HTTPS】的选项，为自己的博客启用 HTTPs 加密协议，保护自己和访客的冲浪安全。</p>
-<h2 id="最后"><a href="#最后" class="headerlink" title="最后"></a>最后</h2><p>对于互联网而言，我的博客有了新的名字，这一切应该告一段落了。但对于我而言，我才刚刚开始重新写博客，更别说博客框架与主题的版本老旧，需要我再次花时间配置，有可能我做着做着就再次鸽掉了是吧（</p>
-<p>无论如何，感谢你读到这里，期待与你在下一篇博文中再会～</p>
-]]></content>
-      <categories>
-        <category>叶子的经历</category>
-      </categories>
-      <tags>
-        <tag>博文</tag>
-        <tag>域名</tag>
-        <tag>博客</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>国赛上篇：学习OpenMV的七日</title>
     <url>/2021/07/17/OpenMV-learing-note/</url>
     <content><![CDATA[<p><img src="/images/OpenMV-learing-note/cover.jpg" alt="cover" loading="lazy"><em>封面图来自加零（@jia0kelvin），欢迎大家在Twitter上关注他！</em></p>
@@ -538,10 +458,89 @@ Lm * Bpix &#x3D; \frac&#123;Rm * Apix&#125;&#123;tan(a)&#125;</code></pre>
       </tags>
   </entry>
   <entry>
+    <title>给博客一个新名字！</title>
+    <url>/2022/03/29/Give-my-blog-a-new-name/</url>
+    <content><![CDATA[<p><img src="/images/Give-my-blog-a-new-name/cover.JPG" alt="cover" loading="lazy"><em>封面图来自国人画师 <a href="https://www.pixiv.net/users/4741933">Qswan</a>，大家可以去Pixiv上关注他喔！</em></p>
+<blockquote>
+<p>之所以选择独立域名，不仅仅是为了逼格… 可玩性比较高，几乎没有限制。咱可以玩玩子域名，哪天搞出来一个 love.bennythink.com 表白多好玩嘛。</p>
+<p>——<a href="https://dmesg.app/reason-of-this-blog.html">《为什么我要写独立域名的博客》</a>，<strong>Benny 小土豆</strong></p>
+</blockquote>
+<span id="more"></span>
+
+<h2 id="TL-DR"><a href="#TL-DR" class="headerlink" title="TL;DR"></a>TL;DR</h2><p>这里是太长不看版：</p>
+<p>在咕咕咕整整一年半以后，我终于给了博客一个真正的名字，写下了一些杂文，顺便也整理了一份相关的教程，希望能为还没有购买过域名的同学提供帮助，作一点小小的参考。</p>
+<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>很长时间都没有写博客了，说起来惭愧。其实这段时间里倒是写了好几篇文章，但有时事情变得太快，在文章写完之前那些事情就已经变得面目全非了；或者写的内容都是比较私密的事情，只是给以后的自己一个人看，也不好意思发出来；又或者某天晚上在电脑前洋洋洒洒地写了一大篇，后来却一直没写完，最后它们就坑掉了。</p>
+<p>额…… 好吧，我承认，上面的文字全都是我后来找的借口，我还是太懒了，另外还患有怕麻烦与拖延症晚期的病：比如博客的域名，来来回回十八个月，我一直都没有去管。</p>
+<p><img src="/images/Give-my-blog-a-new-name/mess_around.jpg" alt="mess_around" loading="lazy"><em>I have messed around that time.</em></p>
+<p>而现在，我又想要重新开始写些什么，就计划着来给博客除除草。但在做这些事情之前，为了让她能体面地与其他的博客站在一起，我想要先送给她一个新的名字：一个简短的、富有个性的，以及不再依附于 GitHub&#x2F;Microsoft 的域名。</p>
+<h2 id="域名的选择"><a href="#域名的选择" class="headerlink" title="域名的选择"></a>域名的选择</h2><p><a href="https://mskclover.com/"><em>mskclover.com</em></a>，大家在浏览器的地址栏也看到了，这就是我的新域名。</p>
+<p>其实，最初我也没想到会选择这个名字。等到真正开始做选择的时候，我找到了一年半前存在 One Tab 最底部的网页们，将它们在新窗口打开。当时围绕着 clover 这个网名，我对域名有好多种“绝妙”的想法，可在域名托管商处查询之后，我的心态出现了一丝微妙的变化：为什么那些好的域名在上个世纪就都没了？ <spam class="heimu"><del>（因为生的太晚了）</del></spam> 这下，就只好再想一想，如何在那些被挑剩下的域名中，找到我眼中的漏网之鱼。</p>
+<p>不过，在接着写下去之前，不如让我们先来看看，一个好域名需要具备哪些要素呢？</p>
+<h3 id="如何选择好域名"><a href="#如何选择好域名" class="headerlink" title="如何选择好域名"></a>如何选择好域名</h3><p>现在我们访问一个网站可以有很多种方式：通过书签、历史记录、或者搜索引擎，它们的本质都是使人们能够快速、方便地访问互联网上的某一个 IP 地址。为了方便记忆，IETF 在 1983 年发布了 RFC 882 和 RFC 883，开始以规律的一串字符作为域名，去指代那些没有含义的数字，这就是域名。</p>
+<p>所以，容易被人轻易地记住，是一个优秀域名的必要条件。在2013年，一家新英格兰的电商公司 BOSTON WEB 在他们的 Blog 上，发表了一篇名为 <a href="https://www.getfoundquick.com/5-characteristics-for-having-a-good-domain-name/"><em>5 characteristics for having a good domain name</em></a> 的博文，作者 Giovanna DaPrato 在文中说明了一个好域名的五点特征：</p>
+<blockquote>
+<ol>
+<li>Keep it short &amp; sweet.</li>
+<li>Use easy spelling.</li>
+<li>Have a .com extension.</li>
+<li>Get descriptive.</li>
+<li>Get rid of hyphens and&#x2F;or numbers.</li>
+</ol>
+</blockquote>
+<p>下面我就谈一谈我的理解叭：</p>
+<h4 id="简短又好听-amp-拼写简单-amp-具有描述性"><a href="#简短又好听-amp-拼写简单-amp-具有描述性" class="headerlink" title="简短又好听 &amp; 拼写简单 &amp; 具有描述性"></a>简短又好听 &amp; 拼写简单 &amp; 具有描述性</h4><p>大家都喜欢简短的域名，因为它们总能够能被人轻易记住。不仅在选择域名的时候是这样，在选择公司的热线时也同样如此：</p>
+<p>比如，大家常常津津乐道于美国苹果热线的号码是 1-800-692-7753，只需记住 1-800-MY-APPLE 就可以了；同理，百思买的热线也只需拨 1-888-BEST-BUY 即可；这样的电话号码几乎已经是欧美大公司们的标准配置了。</p>
+<p>所以，域名最好能代表着某种清晰的含义。在我们自己做选择的时候，也要尽量使域名少于 10 个字符。虽然域名中“出现某些具有想象力的词会很有趣”，但一定得避免使用生僻的单词，那样的域名易读性很低，难以通过后文提到的“无线电测试”。并且在保持简短的同时，域名也需要使人一眼就能分辨网站的类型。由于大部分的 <code>“.com”</code> 的短域名都被注册了，所以或许也可以考虑使用其他域名作为结尾，比如<code>“.online”</code>、<code>“.store”</code>、<code>“.ai”</code>和<code>“.tech”</code>等。</p>
+<p>不过，个人博客就不需要考虑这个了，域名当然是越有个性越好啊（</p>
+<h4 id="使用-com-顶级域名"><a href="#使用-com-顶级域名" class="headerlink" title="使用 .com 顶级域名"></a>使用 .com 顶级域名</h4><p>如果大家有兴趣去谷歌 <code>“.com”</code>，除了排在前列的维基百科和域名托管商，接下来一定是大公司们的官网，比如 Apple、Google 和 Amazon。因为在一开始，域名就是为商业、组织和政府网站的用途设计的。最初创建七个通用顶级域名时，甚至还没有 <a href="https://www.icann.org/">ICANN</a> 呢！</p>
+<p><img src="/images/Give-my-blog-a-new-name/domain.jpg" alt="domain" loading="lazy"><em>英文维基百科的<a href="https://en.wikipedia.org/wiki/List_of_Internet_top-level_domains">列表</a></em></p>
+<p>可以看到，最初设计时 <code>“.com”</code> 来自于“商业”的英文 commercial，在随之而来的互联网商业化与公众化的时期，它也顺理成章地成为了数量最多的顶级域。后来在取消注册限制后，<code>“.com”</code> 原本的目的已经无关紧要了，它已经成为了最主要、也是最为流行的顶级域名。</p>
+<p>所以，人们总是习惯于在域名的最后输入 <code>“.com”</code> ，他们也更倾向于假设即将访问的网站<strong>无论如何</strong>都以 <code>“.com”</code> 结尾。如果没有其他的理由，选择这个域名准没有错（但顶级域名相比之下要贵一些）。</p>
+<p>在搜索引擎时代到来以后，有这样一种观点：非<code>“.com”</code>的域名可能会降低网站的 SEO。但我也看到有谷歌的前员工说这并没有影响。至于究竟如何，谷歌没有说，我也不知道。不过，我也并不关注这方面，毕竟目前还是把博客作为一个花园&#x2F;自留地，还不像其他商业网站一样，想排在搜索引擎第一页。</p>
+<p>另外，我之所以选择 <code>“.com”</code>，只是因为我想给博客一个 <code>“.com”</code> 的域名而已，单纯地想做一根年轻的韭菜罢了（</p>
+<h4 id="避免连字符和-x2F-或数字"><a href="#避免连字符和-x2F-或数字" class="headerlink" title="避免连字符和&#x2F;或数字"></a>避免连字符和&#x2F;或数字</h4><p>在人们还喜欢收听收音机的年代，有一个标准叫做“无线电测试”，它的目的是为了能保证公司的名字能够透过无线电波清楚地传播，并使听众快速地记下，好的域名从一开始就是为了这个目的而生的。</p>
+<p>为了能够易读&#x2F;易于口述，在选择域名的时候，都应该避免出现符号与数字。连字符的出现不仅会使域名变得复杂、难以读出，而且也会让这条网址更像是垃圾网站，因为诈骗网站或是垃圾邮件中出现的域名，几乎都用了好些连字符。使用数字，则会让人难以分辨域名中出现的数字是符号还是单词，比如 example6.com 与 examplesix.com，所以数字一般都建议使用字母拼写。</p>
+<p>不过，以上的特征也并不是绝对的，如果是自己用的，那完全不需要考虑这些，让自己开心就好。</p>
+<h3 id="选择困难症"><a href="#选择困难症" class="headerlink" title="选择困难症"></a>选择困难症</h3><p>众所周知，我患有懒癌与晚期拖延症，而且还是一个选择困难症患者。</p>
+<p>我一直都想将我的网名“clover”放进域名，但由这个词汇组成的短域名都已经没有了。我想着博客的中文名，将花园的单词加了进去：clovergarden.com，一看发现是家日本的园艺公司；那我改改，cloversgarden.com 怎么样？原来是家美国的花卉公司；那 cloverssgarden.com 呢？这个倒是没人注册，可这个域名太长了，而且 ss 也总是让我想到纳粹的党卫军（<em>Schutz Staffel</em>），所以也就不考虑了。</p>
+<p>过了一会儿，我想到之前看过一部番：<em>Violet Evergarden</em>，便输入了cloverevergarden.com，这么长的域名果然没有人会选，整整 16 个字母。后来又想了一下，那减少两个字母呢？clovevergarden.com，也没短多少……</p>
+<p>正巧这时一个学长逛街到我旁边，我便拉着他跟我一起想想，给博客取什么域名比较好。他一看上面的那几个，他也人麻了，就没怎么见到过这么长的域名。他想了一下，说你 GitHub 上不是叫 <em>Misaka_Clover</em> 吗？域名要不叫 mskclover 吧。我听罢，觉得这个选择真不错，msk 是 misaka 发音的几个字母，比较好跟别人描述，这部分也只有 9 个字母，至少在 .com 域里算短的了，于是我就选择了 mskclover.com 作为我的博客域名。</p>
+<h2 id="域名申请及-DNS-解析"><a href="#域名申请及-DNS-解析" class="headerlink" title="域名申请及 DNS 解析"></a>域名申请及 DNS 解析</h2><p>就算拥有了新的域名，在兴奋地告诉大家之前，我们还需要在托管商的后台配置 DNS，将域名解析到我们博客的服务器的 IP 地址上，这样我们的网站才可以被互联网上的小伙伴们访问。那我就趁此机会，把整个流程梳理一下吧。虽然网上也有很多相关的教程，但没准多我的一份，就可能会帮助到更多的人，我顺便还能水一篇博文呢！</p>
+<h3 id="域名购买"><a href="#域名购买" class="headerlink" title="域名购买"></a>域名购买</h3><p>在购买域名前，我们需要先选择一家靠谱的域名托管商：在国际上比较为人熟知的有 <a href="https://www.godaddy.com/">GoDaddy</a> 和 <a href="https://www.namecheap.com/">Namecheap</a> 等，国内则可以选择<a href="https://dnspod.cloud.tencent.com/">腾讯云</a>或者<a href="https://cn.aliyun.com/">阿里云</a>。现在的购买流程早就比较懒人化了，各家公司的服务也大差不差，所以下面我们以 Namecheap 为例，快速地过一下吧：</p>
+<p>首先，到托管商的域名搜索页面，输入心仪的域名：</p>
+<p><img src="/images/Give-my-blog-a-new-name/example_1.jpg" alt="example_1" loading="lazy"><em>选择困难症的噩梦</em></p>
+<p>选择好以后，将域名加入【购物车】，然后单击右下角的【结账】，之后会进入定制选择：</p>
+<p><img src="/images/Give-my-blog-a-new-name/example_2.jpg" alt="example_2" loading="lazy"><em>令人眼花缭乱的界面</em></p>
+<p>如果是第一次购买域名的话，这些都是可以不管的，在取消【自动续费】后，就可以点击【确认订单】进入下一步了：</p>
+<p><img src="/images/Give-my-blog-a-new-name/example_3.jpg" alt="example_3" loading="lazy"><em>订单付款页面</em></p>
+<p>在进入付款页面以后，选择一种方式付款就好。恭喜，从现在开始，你拥有了属于自己的域名啦！</p>
+<h3 id="DNS-解析"><a href="#DNS-解析" class="headerlink" title="DNS 解析"></a>DNS 解析</h3><p>虽然域名此时已经是属于自己的了，但直接去访问域名，大概率是访问不了的，因为此时域名并没有被解析到一个有效的 IP 地址。想让域名能跳转到我们的网站，需要在托管商的后台将域名解析到我们网站的 IP 上。</p>
+<p>由于网站目前是基于 Hexo 的静态博客，服务器还是白嫖的 GitHub（或者巨硬），所以我就以这个配置的过程为例，相信在其他情况下的过程也是非常相似的。</p>
+<p>在账户页面的【域名列表】，我们可以看到刚刚购买的域名已经出现在下面了，然后通过最右侧的【管理】按钮进入后台：</p>
+<p><img src="/images/Give-my-blog-a-new-name/example_4.jpg" alt="example_4" loading="lazy"><em>域名列表</em></p>
+<p>接下来，在【高级 DNS 】选项下，我们在【主机记录】下添加如上几条解析记录。A记录将我们的域名解析到服务器的 IPv4 地址上，而 CNAME 更像是一种“别名”，不受主机的 IP 改变的影响。至于它们的具体区别可以参见 Namecheap 写的这篇 <a href="https://www.namecheap.com/support/knowledgebase/subcategory/2237/host-records-setup/"><em>Host records setup</em></a> 。</p>
+<p><img src="/images/Give-my-blog-a-new-name/example_5.jpg" alt="example_5" loading="lazy"><em>高级 DNS 下的主机记录</em></p>
+<p>其实如果是像我一样白嫖 GitHub 的服务器的话，只需要设置 CNAME 就可以了，GitHub 官方也是<a href="https://docs.github.com/cn/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site#configuring-a-subdomain">这样建议</a>的，这里只是向大家展示一下两种常见的设置。在设置 A 类型时，需要在【值】处填入服务器的 IP 地址，这时只需要简单地 ping 一下自己目前网站的域名就可以了：</p>
+<p><img src="/images/Give-my-blog-a-new-name/example_6.jpg" alt="example_6" loading="lazy"><em>终端界面</em></p>
+<p>以上配置完后，接下来到 GitHub Pages 的页面，在 Custom domain 处填上我们为博客准备的新域名，然后点击保存，等待 DNS 验证成功后就好啦。由于托管商处的 DNS 可能需要十分钟到一小时刷新，所以耐心等待即可。</p>
+<p><img src="/images/Give-my-blog-a-new-name/example_7.jpg" alt="example_7" loading="lazy"><em>GitHub Pages 页面</em></p>
+<p>最后，我强烈建议勾选【Enforce HTTPS】的选项，为自己的博客启用 HTTPs 加密协议，保护自己和访客的冲浪安全。</p>
+<h2 id="最后"><a href="#最后" class="headerlink" title="最后"></a>最后</h2><p>对于互联网而言，我的博客有了新的名字，这一切应该告一段落了。但对于我而言，我才刚刚开始重新写博客，更别说博客框架与主题的版本老旧，需要我再次花时间配置，有可能我做着做着就再次鸽掉了是吧（</p>
+<p>无论如何，感谢你读到这里，期待与你在下一篇博文中再会～</p>
+]]></content>
+      <categories>
+        <category>叶子的经历</category>
+      </categories>
+      <tags>
+        <tag>博文</tag>
+        <tag>域名</tag>
+        <tag>博客</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>SQL 学习笔记【01】</title>
     <url>/2022/10/02/SQL-learning-note-01/</url>
-    <content><![CDATA[<img src="/images/SQL-learning-note-01/cover.jpg" width="650" alt="cover" / loading="lazy">
-
+    <content><![CDATA[<p><img src="/images/SQL-learning-note-01/cover.jpg" width="650" alt="cover" / loading="lazy"><em>题图来自网络</em></p>
 <p>作为一个只会增删查改、从来没有系统性学习数据库的小白，这些天有了一个契机来学习相关的知识，便想到以此开一篇新的学习博文，记录一些关键语句与自己的理解。</p>
 <p>本篇笔记主要是基于<a href="https://www.runoob.com/sql/sql-tutorial.html"><strong>菜鸟教程</strong></a>的内容进行初步的学习。至少在快速入门这方面，菜鸟教程还从未让我失望过。</p>
 <span id="more"></span>
@@ -608,6 +607,537 @@ Lm * Bpix &#x3D; \frac&#123;Rm * Apix&#125;&#123;tan(a)&#125;</code></pre>
 <span class="token keyword">WHERE</span> some_column<span class="token operator">=</span>some_value<span class="token punctuation">;</span></code></pre>
 
 <p><strong>注意：</strong>与 <code>UPDATE</code> 语句类似，<code>WHERE</code> 子句指定了删除的对象，若省略，整张表中所有的数据都将被删除！<br>（注：表中所有的行被删除，但表的结构、属性和索引将保持不变）</p>
+]]></content>
+      <categories>
+        <category>叶子的粗浅知识</category>
+      </categories>
+      <tags>
+        <tag>博文</tag>
+        <tag>知识</tag>
+        <tag>SQL</tag>
+        <tag>笔记</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>SQL 学习笔记【02】</title>
+    <url>/2022/10/18/SQL-learning-note-02/</url>
+    <content><![CDATA[<p><img src="/images/SQL-learning-note-02/sql02-cover.jpg" width="650" alt="cover" / loading="lazy"><em>题图还是来自于网络</em></p>
+<p>紧接「<a href="https://mskclover.com/2022/10/02/SQL-learning-note-01/">上篇</a>」，我认为虽然在 SQL 语句方面已经入门、有开箱即用的水平了，但对数据库相关知识的理解还是半瓶水的状态，所以我找了一本日本人 MICK 写的<a href="https://book.douban.com/subject/27055712/"><strong>《SQL 基础教程》</strong></a>，想作进一步的学习。本书中所有的例程均以 ISO 制定的标准语法 SQL:2011 展现，虽然这最初出版于 2011 年，已经有些老了，但入门嘛，老一点也没关系，先学好基础，再徐徐图之。</p>
+<span id="more"></span>
+
+<p>另外，在豆瓣的界面下，我看到有评论推荐了一个练习平台 <a href="http://sqlzoo.net/wiki/SELECT_basics/zh">sqlzoo</a>。我凭借脑子里新鲜的数据库知识看了一下，感觉是十分合适的，正好能为我补上更多的「习题」部分。</p>
+<p>那就让我们开始新的学习吧。</p>
+<h2 id="SQL-中的常数"><a href="#SQL-中的常数" class="headerlink" title="SQL 中的常数"></a>SQL 中的常数</h2><p>SQL 语句中出现的常数一般是三种：<strong>字符串</strong>、<strong>数字</strong>和<strong>日期</strong>。其中字符串和日期均需要用<strong>单引号</strong>括起来，而数字可以直接书写，如：<code>&#39;abc&#39;</code>、<code>&#39;2022-10-18&#39;</code> 和 <code>123</code>。</p>
+<h2 id="表格创建、删除与更新"><a href="#表格创建、删除与更新" class="headerlink" title="表格创建、删除与更新"></a>表格创建、删除与更新</h2><p>根据书上的例子，我们以这张表为后续的 SQL 语句示例：</p>
+<p><img src="/images/SQL-learning-note-02/sql02-01-01.jpg" alt="sql02-01" loading="lazy"></p>
+<h3 id="创建数据库-CREAT-DATABASE"><a href="#创建数据库-CREAT-DATABASE" class="headerlink" title="创建数据库 CREAT DATABASE"></a>创建数据库 CREAT DATABASE</h3><pre class="language-sql" data-language="sql"><code class="language-sql"><span class="token comment">-- 创建一张名为 shop 的数据库</span>
+
+CREAT <span class="token keyword">DATABASE</span> shop</code></pre>
+
+<h3 id="创建表-CREAT-TABLE"><a href="#创建表-CREAT-TABLE" class="headerlink" title="创建表 CREAT TABLE"></a>创建表 CREAT TABLE</h3><p>表的创建语法如下，我个人认为它更像是一种函数：</p>
+<p><img src="/images/SQL-learning-note-02/sql02-01-02.jpg" alt="sql02-02" loading="lazy"></p>
+<pre class="language-sql" data-language="sql"><code class="language-sql">CREAT <span class="token keyword">TABLE</span> Product
+<span class="token punctuation">(</span>
+  product_id        <span class="token keyword">CHAR</span><span class="token punctuation">(</span><span class="token number">4</span><span class="token punctuation">)</span>         <span class="token operator">NOT</span> <span class="token boolean">NULL</span><span class="token punctuation">,</span>   <span class="token comment">-- CHAR 定长字符类型</span>
+  product_name      <span class="token keyword">VARCHAR</span><span class="token punctuation">(</span><span class="token number">100</span><span class="token punctuation">)</span>    <span class="token operator">NOT</span> <span class="token boolean">NULL</span><span class="token punctuation">,</span>   <span class="token comment">-- VARCHAR 可变长度类型</span>
+  product_type      <span class="token keyword">VARCHAR</span><span class="token punctuation">(</span><span class="token number">32</span><span class="token punctuation">)</span>     <span class="token operator">NOT</span> <span class="token boolean">NULL</span><span class="token punctuation">,</span>   <span class="token comment">-- NULL 约束关键字</span>
+  sale_price        <span class="token keyword">INTEGER</span>         <span class="token punctuation">,</span>           <span class="token comment">-- INTEGER 整数类型，不能有小数</span>
+ 	purchase_price    <span class="token keyword">INTEGER</span>         <span class="token punctuation">,</span>
+  regist_date       <span class="token keyword">DATE</span>            <span class="token punctuation">,</span>           <span class="token comment">-- DATE 日期类型</span>
+  <span class="token keyword">PRIMARY</span> <span class="token keyword">KEY</span> <span class="token punctuation">(</span>product_id<span class="token punctuation">)</span>                      <span class="token comment">-- 主键</span>
+<span class="token punctuation">)</span><span class="token punctuation">;</span></code></pre>
+
+<p>其中：<code>NULL</code> 是约束的关键字，<code>NOT NULL</code> 约束了以上三列的单元格必须填写，不能置空。最后一行的语句 <code>PRIMARY KEY()</code> 的参数是设置表的<strong>主键约束</strong>：</p>
+<p><strong>键：</strong>指定特定数据时的列集合；<br><strong>主键：</strong>可以特定一行数据的列（即通过该列，任意行均能被唯一确定）。</p>
+<h3 id="删除表-DROP-TABLE"><a href="#删除表-DROP-TABLE" class="headerlink" title="删除表 DROP TABLE"></a>删除表 DROP TABLE</h3><pre class="language-sql" data-language="sql"><code class="language-sql"><span class="token comment">-- 删除名为 Product 的表</span>
+
+<span class="token keyword">DROP</span> <span class="token keyword">TABLE</span> Product</code></pre>
+
+<p><strong>注意：</strong>删除的表是<strong>无法恢复</strong>的，只能重新创建新表，所以执行该操作之前<strong>务必小心</strong>。</p>
+<h3 id="更新表的定义-ALTER-TABLE"><a href="#更新表的定义-ALTER-TABLE" class="headerlink" title="更新表的定义 ALTER TABLE"></a>更新表的定义 ALTER TABLE</h3><p>为表添加某列时，可使用该语句：</p>
+<pre class="language-sql" data-language="sql"><code class="language-sql"><span class="token keyword">ALTER</span> <span class="token keyword">TABLE</span> <span class="token operator">&lt;</span>表名<span class="token operator">></span> <span class="token keyword">ADD</span> <span class="token keyword">COLUMN</span> <span class="token operator">&lt;</span>列名<span class="token operator">></span>
+<span class="token comment">-- 注：不同的 SQL 语法可能会有不同的表述，在这里我们只关注 SQL:2011 与 MySQL</span>
+
+<span class="token comment">-- 例如：添加一列表示商品的拼音，存储 100 位的可变字符串</span>
+<span class="token keyword">ALTER</span> <span class="token keyword">TABLE</span> Product <span class="token keyword">ADD</span> <span class="token keyword">COLUMN</span> Product_name_pinyin <span class="token keyword">VARCHAR</span><span class="token punctuation">(</span><span class="token number">100</span><span class="token punctuation">)</span><span class="token punctuation">;</span></code></pre>
+
+<p>而删除表中的某列类似，改 <code>ADD</code> 为 <code>DROP</code> 即可：</p>
+<pre class="language-sql" data-language="sql"><code class="language-sql"><span class="token keyword">ALTER</span> <span class="token keyword">TABLE</span> <span class="token operator">&lt;</span>表名<span class="token operator">></span> <span class="token keyword">DROP</span> <span class="token keyword">COLUMN</span> <span class="token operator">&lt;</span>列名<span class="token operator">></span>
+
+<span class="token comment">-- 例如：删去拼音名的列</span>
+<span class="token keyword">ALTER</span> <span class="token keyword">TABLE</span> Product <span class="token keyword">DROP</span> <span class="token keyword">COLUMN</span> Product_name_pinyin</code></pre>
+
+<p>与 <code>DROP TABLE</code> 同理，列在删除后也无法恢复。</p>
+<h3 id="插入数据-INSERT-INTO"><a href="#插入数据-INSERT-INTO" class="headerlink" title="插入数据 INSERT INTO"></a>插入数据 INSERT INTO</h3><p>在上一篇的学习笔记中，我们学到过 <code>INSERT INTO () VALUES ()</code>，现在可以尝试一次性插入整张表：</p>
+<pre class="language-sql" data-language="sql"><code class="language-sql"><span class="token comment"># DML：插入数据</span>
+<span class="token keyword">START</span> <span class="token keyword">TRANSACTION</span><span class="token punctuation">;</span>
+
+<span class="token keyword">INSERT</span> <span class="token keyword">INTO</span> Product <span class="token keyword">VALUES</span> <span class="token punctuation">(</span><span class="token string">'0001'</span><span class="token punctuation">,</span> <span class="token string">'T恤衫'</span><span class="token punctuation">,</span> <span class="token string">'衣服'</span><span class="token punctuation">,</span> <span class="token number">1000</span><span class="token punctuation">,</span> <span class="token number">500</span><span class="token punctuation">,</span>  <span class="token string">'2009-09-20'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token keyword">INSERT</span> <span class="token keyword">INTO</span> Product <span class="token keyword">VALUES</span> <span class="token punctuation">(</span><span class="token string">'0002'</span><span class="token punctuation">,</span> <span class="token string">'打孔器'</span><span class="token punctuation">,</span> <span class="token string">'办公用品'</span><span class="token punctuation">,</span> <span class="token number">500</span><span class="token punctuation">,</span> <span class="token number">320</span><span class="token punctuation">,</span> <span class="token string">'2009-09-11'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token keyword">INSERT</span> <span class="token keyword">INTO</span> Product <span class="token keyword">VALUES</span> <span class="token punctuation">(</span><span class="token string">'0003'</span><span class="token punctuation">,</span> <span class="token string">'运动T恤'</span><span class="token punctuation">,</span> <span class="token string">'衣服'</span><span class="token punctuation">,</span> <span class="token number">4000</span><span class="token punctuation">,</span> <span class="token number">2800</span><span class="token punctuation">,</span> <span class="token boolean">NULL</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token keyword">INSERT</span> <span class="token keyword">INTO</span> Product <span class="token keyword">VALUES</span> <span class="token punctuation">(</span><span class="token string">'0004'</span><span class="token punctuation">,</span> <span class="token string">'菜刀'</span><span class="token punctuation">,</span> <span class="token string">'厨房用具'</span><span class="token punctuation">,</span> <span class="token number">3000</span><span class="token punctuation">,</span> <span class="token number">2800</span><span class="token punctuation">,</span> <span class="token string">'2009-09-20'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token keyword">INSERT</span> <span class="token keyword">INTO</span> Product <span class="token keyword">VALUES</span> <span class="token punctuation">(</span><span class="token string">'0005'</span><span class="token punctuation">,</span> <span class="token string">'高压锅'</span><span class="token punctuation">,</span> <span class="token string">'厨房用具'</span><span class="token punctuation">,</span> <span class="token number">6800</span><span class="token punctuation">,</span> <span class="token number">5000</span><span class="token punctuation">,</span> <span class="token string">'2009-01-15'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token keyword">INSERT</span> <span class="token keyword">INTO</span> Product <span class="token keyword">VALUES</span> <span class="token punctuation">(</span><span class="token string">'0006'</span><span class="token punctuation">,</span> <span class="token string">'叉子'</span><span class="token punctuation">,</span> <span class="token string">'厨房用具'</span><span class="token punctuation">,</span> <span class="token number">500</span><span class="token punctuation">,</span>  <span class="token boolean">NULL</span><span class="token punctuation">,</span> <span class="token string">'2009-09-20'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token keyword">INSERT</span> <span class="token keyword">INTO</span> Product <span class="token keyword">VALUES</span> <span class="token punctuation">(</span><span class="token string">'0007'</span><span class="token punctuation">,</span> <span class="token string">'擦菜板'</span><span class="token punctuation">,</span> <span class="token string">'厨房用具'</span><span class="token punctuation">,</span> <span class="token number">880</span><span class="token punctuation">,</span> <span class="token number">790</span><span class="token punctuation">,</span> <span class="token string">'2008-04-28'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token keyword">INSERT</span> <span class="token keyword">INTO</span> Product <span class="token keyword">VALUES</span> <span class="token punctuation">(</span><span class="token string">'0008'</span><span class="token punctuation">,</span> <span class="token string">'圆珠笔'</span><span class="token punctuation">,</span> <span class="token string">'办公用品'</span><span class="token punctuation">,</span> <span class="token number">100</span><span class="token punctuation">,</span> <span class="token boolean">NULL</span><span class="token punctuation">,</span><span class="token string">'2009-11-11'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token keyword">COMMIT</span><span class="token punctuation">;</span>			<span class="token comment">-- COMMIT 为确定插入行的指令语句 </span></code></pre>
+
+
+
+<h2 id="数据库的基本查询"><a href="#数据库的基本查询" class="headerlink" title="数据库的基本查询"></a>数据库的基本查询</h2><p>本节的内容是 <code>SELECT</code> 语句及算数、比较和逻辑运算符的基本使用方法。</p>
+<h3 id="查询列-SELECT"><a href="#查询列-SELECT" class="headerlink" title="查询列 SELECT"></a>查询列 SELECT</h3><pre class="language-sql" data-language="sql"><code class="language-sql"><span class="token comment">-- 基本查询</span>
+<span class="token keyword">SELECT</span> <span class="token operator">&lt;</span>列名<span class="token operator">></span>，…… 
+　<span class="token keyword">FROM</span> <span class="token operator">&lt;</span>表名<span class="token operator">></span>；
+
+<span class="token comment">-- 如：输出三列</span>
+<span class="token keyword">SELECT</span> product_id<span class="token punctuation">,</span> product_name<span class="token punctuation">,</span> purchase_price 
+  <span class="token keyword">FROM</span> Product<span class="token punctuation">;</span></code></pre>
+
+<p><code>SELECT</code> 语句后<strong>可跟多列</strong>，其间用逗号分隔。</p>
+<pre class="language-sql" data-language="sql"><code class="language-sql"><span class="token comment">-- 查询所有列</span>
+<span class="token keyword">SELECT</span>　<span class="token operator">*</span>
+  <span class="token keyword">FROM</span> <span class="token operator">&lt;</span>表名<span class="token operator">></span><span class="token punctuation">;</span></code></pre>
+
+<p>其中星号「*」代表全部列、全选的意思。</p>
+<h4 id="别名关键字-AS"><a href="#别名关键字-AS" class="headerlink" title="别名关键字 AS"></a>别名关键字 AS</h4><p>在 SQL 语句中可使用 <code>AS</code> 为列设置<strong>别名</strong>：</p>
+<pre class="language-sql" data-language="sql"><code class="language-sql"><span class="token comment">-- 在各列名后使用 AS</span>
+<span class="token keyword">SELECT</span> product_id    		<span class="token keyword">AS</span> id<span class="token punctuation">,</span> 
+       product_name   	<span class="token keyword">AS</span> name<span class="token punctuation">,</span> 
+       purchase_price 	<span class="token keyword">AS</span> price 
+  <span class="token keyword">FROM</span> Product<span class="token punctuation">;</span></code></pre>
+
+<p>这样输出结果的时候就会用别名显示了。<strong>注意：</strong>当字符作为别名的时候，需要使用双引号括起来，这一点需要与前面的字符串常数相区别。</p>
+<h4 id="查询常数"><a href="#查询常数" class="headerlink" title="查询常数"></a>查询常数</h4><p>这是一种查询表中特定常数的方法：</p>
+<pre class="language-sql" data-language="sql"><code class="language-sql"><span class="token comment">-- 输入：</span>
+<span class="token keyword">SELECT</span> <span class="token string">'商品'</span> <span class="token keyword">AS</span> string<span class="token punctuation">,</span> <span class="token number">38</span> <span class="token keyword">AS</span> number<span class="token punctuation">,</span> <span class="token string">'2009-02-24'</span> <span class="token keyword">AS</span> <span class="token keyword">date</span><span class="token punctuation">,</span> 
+       product_id<span class="token punctuation">,</span> product_name
+  <span class="token keyword">FROM</span> Product<span class="token punctuation">;</span></code></pre>
+
+<p>输出如下：</p>
+<p><img src="/images/SQL-learning-note-02/sql02-02-01.jpg" alt="sql02-03" loading="lazy"></p>
+<h4 id="去重关键字-DISTINCT"><a href="#去重关键字-DISTINCT" class="headerlink" title="去重关键字 DISTINCT"></a>去重关键字 DISTINCT</h4><p>想要在输出的时候不显示重复行，可加入 <code>DISTINCT</code> 实现：</p>
+<pre class="language-sql" data-language="sql"><code class="language-sql"><span class="token comment">-- 单列：</span>
+<span class="token keyword">SELECT</span> <span class="token keyword">DISTINCT</span> product_type
+  <span class="token keyword">FROM</span> Product<span class="token punctuation">;</span>
+
+<span class="token comment">-- 多列：</span>
+<span class="token keyword">SELECT</span> <span class="token keyword">DISTINCT</span> product_type<span class="token punctuation">,</span> regist_date 
+  <span class="token keyword">FROM</span> Product<span class="token punctuation">;</span></code></pre>
+
+<p><strong>注意：</strong>NULL 也会被视为一类数据；<code>DISTINCT</code> 关键字只能位于第一个列名之前。</p>
+<h4 id="条件关键字-WHERE"><a href="#条件关键字-WHERE" class="headerlink" title="条件关键字 WHERE"></a>条件关键字 WHERE</h4><p>可以使用 <code>WHERE</code> 关键字限定输出数据的条件：</p>
+<pre class="language-sql" data-language="sql"><code class="language-sql"><span class="token keyword">SELECT</span> <span class="token operator">&lt;</span>列名<span class="token operator">></span><span class="token punctuation">,</span> …… 
+  <span class="token keyword">FROM</span> <span class="token operator">&lt;</span>表名<span class="token operator">></span>
+ <span class="token keyword">WHERE</span> <span class="token operator">&lt;</span>条件表达式<span class="token operator">></span><span class="token punctuation">;</span>
+ 
+ <span class="token comment">-- 如：</span>
+<span class="token keyword">SELECT</span> product_name<span class="token punctuation">,</span> product_type 
+  <span class="token keyword">FROM</span> Product
+ <span class="token keyword">WHERE</span> product_type <span class="token operator">=</span> <span class="token string">'衣服'</span><span class="token punctuation">;</span></code></pre>
+
+<p>关键字的执行顺序是先找到 <code>WHERE</code> 语句限定的行，再输出 <code>SELECT</code> 语句选定的列：</p>
+<p><img src="/images/SQL-learning-note-02/sql02-02-02.jpg" alt="sql02-04" loading="lazy"></p>
+<h3 id="算数运算符"><a href="#算数运算符" class="headerlink" title="算数运算符"></a>算数运算符</h3><p>即加减乘除，括号会改变算式的优先级。</p>
+<pre class="language-sql" data-language="sql"><code class="language-sql"><span class="token comment">/*
+加法：+
+减法：-
+乘法：*
+除法：/
+*/</span>
+
+<span class="token comment">-- SQL 语句中可以使用运算表达式，例如：</span>
+<span class="token keyword">SELECT</span> product_name<span class="token punctuation">,</span> sale_price<span class="token punctuation">,</span> 
+       sale_price <span class="token operator">*</span> <span class="token number">2</span> <span class="token keyword">AS</span> <span class="token string">"sale_price_x2"</span> 
+  <span class="token keyword">FROM</span> Product<span class="token punctuation">;</span></code></pre>
+
+<p><strong>注意：</strong>所有包含 NULL 的运算，其结果均为 NULL。</p>
+<h3 id="比较运算符"><a href="#比较运算符" class="headerlink" title="比较运算符"></a>比较运算符</h3><pre class="language-sql" data-language="sql"><code class="language-sql"><span class="token comment">/*
+等于：=
+不等于：&lt;>			注意：此处是标准 SQL，有些数据库亦支持 !=；
+大于：>
+大于等于：>=
+小于：&lt;
+小于等于：&lt;=
+*/</span></code></pre>
+
+<p>可以对日期常数使用比较运算符：</p>
+<pre class="language-sql" data-language="sql"><code class="language-sql"><span class="token comment">-- 选取日期再 2009-09-27 之前的记录：</span>
+<span class="token keyword">SELECT</span> product_name<span class="token punctuation">,</span> product_type<span class="token punctuation">,</span> regist_date 
+  <span class="token keyword">FROM</span> Product
+ <span class="token keyword">WHERE</span> regist_date <span class="token operator">&lt;</span> <span class="token string">'2009-09-27'</span><span class="token punctuation">;</span></code></pre>
+
+<p><strong>注意：</strong>对字符串使用不等号时，是依据<strong>字典顺序</strong>进行比较。（<code>2</code> 与 <code>&#39;2&#39;</code> 不一样，区分数字与字符串）</p>
+<h4 id="判断-NULL"><a href="#判断-NULL" class="headerlink" title="判断 NULL"></a>判断 NULL</h4><p>希望以 NULL 元素选取记录时，应当用 <strong><code>IS NULL</code></strong> 或者 <strong><code>IS NOT NULL</code></strong> 运算符。</p>
+<p><strong>注意：</strong>不能对 NULL 使用比较运算符。</p>
+<pre class="language-sql" data-language="sql"><code class="language-sql"><span class="token comment">-- 错误示例：</span>
+<span class="token keyword">SELECT</span> product_name<span class="token punctuation">,</span> purchase_price 
+  <span class="token keyword">FROM</span> Product
+ <span class="token keyword">WHERE</span> purchase_price <span class="token operator">=</span> <span class="token boolean">NULL</span><span class="token punctuation">;</span>
+
+<span class="token comment">-- 正确示例：</span>
+<span class="token keyword">SELECT</span> product_name<span class="token punctuation">,</span> purchase_price 
+  <span class="token keyword">FROM</span> Product
+ <span class="token keyword">WHERE</span> purchase_price <span class="token operator">IS</span> <span class="token boolean">NULL</span><span class="token punctuation">;</span></code></pre>
+
+<h3 id="逻辑运算符"><a href="#逻辑运算符" class="headerlink" title="逻辑运算符"></a>逻辑运算符</h3><pre class="language-sql" data-language="sql"><code class="language-sql"><span class="token comment">/*
+非：NOT
+与：AND
+或：OR
+*/</span></code></pre>
+
+<p>比较运算符与逻辑运算符均会<strong>返回真值</strong>。</p>
+<p><strong>注意：</strong>AND 运算符的优先级高于 OR 运算符。</p>
+<pre class="language-sql" data-language="sql"><code class="language-sql"><span class="token comment">-- 例如，需要找办公用品，且日期在 11 号或者 20 号的记录：</span>
+
+<span class="token keyword">SELECT</span> product_name<span class="token punctuation">,</span> product_type<span class="token punctuation">,</span> regist_date 
+  <span class="token keyword">FROM</span> Product
+ <span class="token keyword">WHERE</span> product_type <span class="token operator">=</span> <span class="token string">'办公用品'</span> 
+   <span class="token operator">AND</span> regist_date <span class="token operator">=</span> <span class="token string">'2009-09-11'</span> 
+    <span class="token operator">OR</span> regist_date <span class="token operator">=</span> <span class="token string">'2009-09-20'</span><span class="token punctuation">;</span>
+<span class="token comment">-- 是不对的，这样的逻辑是先找「既是办公用品，又在 11 号」的记录，</span>
+<span class="token comment">-- 然后加上了所有「在 20 号」的记录</span>
+<span class="token comment">-- 也就是被解释为了：</span>
+<span class="token comment">-- (product_type = '办公用品' AND regist_date = '2009-09-11') </span>
+<span class="token comment">-- OR</span>
+<span class="token comment">-- (regist_date = '2009-09-20')</span>
+
+<span class="token comment">-- 所以现在应该用括号人为地限定优先级：</span>
+<span class="token keyword">SELECT</span> product_name<span class="token punctuation">,</span> product_type<span class="token punctuation">,</span> regist_date 
+  <span class="token keyword">FROM</span> Product
+ <span class="token keyword">WHERE</span> product_type <span class="token operator">=</span> <span class="token string">'办公用品'</span>
+   <span class="token operator">AND</span> <span class="token punctuation">(</span>   regist_date <span class="token operator">=</span> <span class="token string">'2009-09-11'</span> 
+        <span class="token operator">OR</span> regist_date <span class="token operator">=</span> <span class="token string">'2009-09-20'</span><span class="token punctuation">)</span><span class="token punctuation">;</span></code></pre>
+
+<h4 id="三值逻辑（NULL-的真值）"><a href="#三值逻辑（NULL-的真值）" class="headerlink" title="三值逻辑（NULL 的真值）"></a>三值逻辑（NULL 的真值）</h4><p>SQL 语句中的真值有三种：TRUE、FALSE 和 UNKNOWN。当有 NULL 参与逻辑运算时，可能会出现 UNKNOWN。其真值表如下：</p>
+<p><img src="/images/SQL-learning-note-02/sql02-02-03.jpg" alt="sql02-02-03" loading="lazy"></p>
+<p>由于考虑 NULL 后，最初只有四行的真值表变成了现在的九行，所以在数据库中<strong>应该尽量不使用 NULL</strong>。</p>
+<h2 id="数据库的聚合查询"><a href="#数据库的聚合查询" class="headerlink" title="数据库的聚合查询"></a>数据库的聚合查询</h2><p><strong>聚合：</strong>将多行汇聚为一行。</p>
+<p>SQL 语句中有 5 个常用的函数：</p>
+<pre class="language-sql" data-language="sql"><code class="language-sql">COUNT：计算表中的记录数（行数） 
+SUM：  计算表中数 值列中数据的合计值 
+AVG：  计算表中数 值列中数据的平均值 
+MAX：  求出表中任意列中数据的最大值 
+MIN：  求出表中任意列中数据的最小值</code></pre>
+
+<h3 id="总数-COUNT"><a href="#总数-COUNT" class="headerlink" title="总数 COUNT"></a>总数 COUNT</h3><p><code>COUNT</code> 函数能计算所有的数据行数，分两种情况：</p>
+<pre class="language-sql" data-language="sql"><code class="language-sql"><span class="token comment">-- 包括 NULL 数据的行数</span>
+<span class="token keyword">SELECT</span> <span class="token function">COUNT</span><span class="token punctuation">(</span><span class="token operator">*</span><span class="token punctuation">)</span> 
+  <span class="token keyword">FROM</span> Product<span class="token punctuation">;</span>
+
+<span class="token comment">-- 不包括 NULL 数据的行数</span>
+<span class="token keyword">SELECT</span> <span class="token function">COUNT</span><span class="token punctuation">(</span><span class="token operator">&lt;</span>列名<span class="token operator">></span><span class="token punctuation">)</span> 
+  <span class="token keyword">FROM</span> Product<span class="token punctuation">;</span></code></pre>
+
+<p><strong>注意：</strong>只有 <code>COUNT</code> 函数中的参数可以为星号「*」，其他函数都不可以。</p>
+<h3 id="求和-SUM"><a href="#求和-SUM" class="headerlink" title="求和 SUM"></a>求和 SUM</h3><pre class="language-sql" data-language="sql"><code class="language-sql"><span class="token keyword">SELECT</span> <span class="token function">SUM</span><span class="token punctuation">(</span><span class="token operator">&lt;</span>列名<span class="token operator">></span><span class="token punctuation">)</span> 
+  <span class="token keyword">FROM</span> Product<span class="token punctuation">;</span></code></pre>
+
+<p><strong>注意：</strong>如果该列的单元格中含有 NULL，<strong>聚合函数会将 NULL 排除在外</strong>（不参与计算过程），但 <code>COUNT(*)</code> 是例外。</p>
+<h3 id="均值-AVG"><a href="#均值-AVG" class="headerlink" title="均值 AVG"></a>均值 AVG</h3><pre class="language-sql" data-language="sql"><code class="language-sql"><span class="token keyword">SELECT</span> <span class="token function">AVG</span><span class="token punctuation">(</span><span class="token operator">&lt;</span>列名<span class="token operator">></span><span class="token punctuation">)</span> 
+  <span class="token keyword">FROM</span> Product<span class="token punctuation">;</span></code></pre>
+
+<p>例如计算含有 NULL 列的平均值时，由于 NULL 被排除在计算过程之外，所以其总数是减去了 NULL 项后，再参与的计算。</p>
+<h3 id="最大-MAX-与最小-MIN"><a href="#最大-MAX-与最小-MIN" class="headerlink" title="最大 MAX 与最小 MIN"></a>最大 MAX 与最小 MIN</h3><pre class="language-sql" data-language="sql"><code class="language-sql"><span class="token keyword">SELECT</span> <span class="token function">MAX</span><span class="token punctuation">(</span><span class="token operator">&lt;</span>列名<span class="token operator">></span><span class="token punctuation">)</span>
+  <span class="token keyword">FROM</span> Product<span class="token punctuation">;</span>
+
+<span class="token keyword">SELECT</span> <span class="token function">MIN</span><span class="token punctuation">(</span><span class="token operator">&lt;</span>列名<span class="token operator">></span><span class="token punctuation">)</span> 
+  <span class="token keyword">FROM</span> Product<span class="token punctuation">;</span>
+
+<span class="token comment">-- 亦可计算日期的最大值、最小值：</span>
+<span class="token keyword">SELECT</span> <span class="token function">MAX</span><span class="token punctuation">(</span>regist_date<span class="token punctuation">)</span><span class="token punctuation">,</span> <span class="token function">MIN</span><span class="token punctuation">(</span>regist_date<span class="token punctuation">)</span> 
+  <span class="token keyword">FROM</span> Product<span class="token punctuation">;</span></code></pre>
+
+<p><strong>注意：</strong><code>MAX</code>&#x2F;<code>MIN</code> 函数几乎适用于所有数据类型的列。<code>SUM</code>&#x2F;<code>AVG</code> 函数只适用于数值类型的列。</p>
+<h3 id="去重-DISTINCT"><a href="#去重-DISTINCT" class="headerlink" title="去重 DISTINCT"></a>去重 DISTINCT</h3><pre class="language-sql" data-language="sql"><code class="language-sql"><span class="token keyword">SELECT</span> <span class="token function">COUNT</span><span class="token punctuation">(</span><span class="token keyword">DISTINCT</span> <span class="token operator">&lt;</span>列名<span class="token operator">></span><span class="token punctuation">)</span> 
+  <span class="token keyword">FROM</span> Product<span class="token punctuation">;</span></code></pre>
+
+<p><strong>这时 DISTINCT 必须写在括号中</strong>，因为这里有一个逻辑问题：现在是先删去重复的数据，再计算数据的行数；如果像之前一般，写在括号之外，那么就会先计算数据的行数，再删去重复的数据，结果仍为所有数据的行数。</p>
+<pre class="language-sql" data-language="sql"><code class="language-sql"><span class="token comment">-- 正确示例</span>
+<span class="token keyword">SELECT</span> <span class="token function">COUNT</span><span class="token punctuation">(</span><span class="token keyword">DISTINCT</span> product_type<span class="token punctuation">)</span> 
+  <span class="token keyword">FROM</span> Product<span class="token punctuation">;</span>
+<span class="token comment">-- 此时返回的结果为 3</span>
+
+<span class="token comment">-- 错误示例</span>
+<span class="token keyword">SELECT</span> <span class="token keyword">DISTINCT</span> <span class="token function">COUNT</span><span class="token punctuation">(</span>product_type<span class="token punctuation">)</span> 
+  <span class="token keyword">FROM</span> Product<span class="token punctuation">;</span>
+<span class="token comment">-- 此时返回的结果为 8</span></code></pre>
+
+
+
+<h2 id="数据库的分组"><a href="#数据库的分组" class="headerlink" title="数据库的分组"></a>数据库的分组</h2><p>聚合语句将表聚合为了一行，而使用 <code>GROUP BY</code> 分组语句，可以将表像切蛋糕那样分隔。</p>
+<h3 id="分组-GRUOP-BY"><a href="#分组-GRUOP-BY" class="headerlink" title="分组 GRUOP BY"></a>分组 GRUOP BY</h3><pre class="language-sql" data-language="sql"><code class="language-sql"><span class="token keyword">SELECT</span> <span class="token operator">&lt;</span>列名<span class="token number">1</span><span class="token operator">></span><span class="token punctuation">,</span> <span class="token operator">&lt;</span>列名<span class="token number">2</span><span class="token operator">></span><span class="token punctuation">,</span> <span class="token operator">&lt;</span>列名<span class="token number">3</span><span class="token operator">></span><span class="token punctuation">,</span> …… 
+  <span class="token keyword">FROM</span> <span class="token operator">&lt;</span>表名<span class="token operator">></span>
+ <span class="token keyword">GROUP</span> <span class="token keyword">BY</span> <span class="token operator">&lt;</span>列名<span class="token number">1</span><span class="token operator">></span><span class="token punctuation">,</span> <span class="token operator">&lt;</span>列名<span class="token number">2</span><span class="token operator">></span><span class="token punctuation">,</span> <span class="token operator">&lt;</span>列名<span class="token number">3</span><span class="token operator">></span><span class="token punctuation">,</span> ……<span class="token punctuation">;</span>
+ 
+ <span class="token comment">-- 例如，按照商品的种类统计行数：</span>
+ <span class="token keyword">SELECT</span> product_type<span class="token punctuation">,</span> <span class="token function">COUNT</span><span class="token punctuation">(</span><span class="token operator">*</span><span class="token punctuation">)</span> 
+  <span class="token keyword">FROM</span> Product
+ <span class="token keyword">GROUP</span> <span class="token keyword">BY</span> product_type<span class="token punctuation">;</span></code></pre>
+
+<p>在 <code>GROUP BY</code> 子句中指定的列被称为<strong>聚合键</strong>。当聚合键中包含 NULL 时，在结果中会以「不确定」行（空行）的形式表现出来。</p>
+<p>当使用聚合函数时，<code>SELECT</code> 子句中只能存在三种元素：<strong>常数</strong>、<strong>聚合函数</strong>和<strong>聚合键</strong>。</p>
+<p>当  <code>GROUP BY</code> 与 <code>WHERE</code> 语句并用时，SQL 语句逻辑的执行顺序为：<code>FROM</code> → <code>WHERE</code> → <code>GROUP BY</code> → <code>SELECT</code>。</p>
+<h4 id="注意事项"><a href="#注意事项" class="headerlink" title="注意事项"></a>注意事项</h4><ol>
+<li>使用 <code>GROUP BY</code> 子句时，<code>SELECT</code> 子句中不能出现聚合键之外的列名；</li>
+<li>在 <code>GROUP BY</code> 子句中不能使用 <code>SELECT</code> 子句中定义的别名（因为语句逻辑顺序）；</li>
+<li><code>GROUP BY</code> 并不参与对结果的排序，其显示的结果是随机的、无序的；</li>
+<li>只有 <code>SELECT</code> 子句和 <code>HAVING</code> 子句（以及 <code>ORDER BY</code> 子句）中能够使用聚合函数。</li>
+</ol>
+<h3 id="指定条件-HAVING"><a href="#指定条件-HAVING" class="headerlink" title="指定条件 HAVING"></a>指定条件 HAVING</h3><pre class="language-sql" data-language="sql"><code class="language-sql"><span class="token keyword">SELECT</span> <span class="token operator">&lt;</span>列名<span class="token number">1</span><span class="token operator">></span><span class="token punctuation">,</span> <span class="token operator">&lt;</span>列名 <span class="token number">2</span><span class="token operator">></span><span class="token punctuation">,</span> <span class="token operator">&lt;</span>列名 <span class="token number">3</span><span class="token operator">></span><span class="token punctuation">,</span> …… 
+  <span class="token keyword">FROM</span> <span class="token operator">&lt;</span>表名<span class="token operator">></span>
+ <span class="token keyword">GROUP</span> <span class="token keyword">BY</span> <span class="token operator">&lt;</span>列名<span class="token number">1</span><span class="token operator">></span><span class="token punctuation">,</span> <span class="token operator">&lt;</span>列名<span class="token number">2</span><span class="token operator">></span><span class="token punctuation">,</span> <span class="token operator">&lt;</span>列名<span class="token number">3</span><span class="token operator">></span><span class="token punctuation">,</span> …… 
+<span class="token keyword">HAVING</span> <span class="token operator">&lt;</span>分组结果对应的条件<span class="token operator">></span>
+
+<span class="token comment">-- 示例1:</span>
+<span class="token keyword">SELECT</span> product_type<span class="token punctuation">,</span> <span class="token function">COUNT</span><span class="token punctuation">(</span><span class="token operator">*</span><span class="token punctuation">)</span> 
+  <span class="token keyword">FROM</span> Product
+ <span class="token keyword">GROUP</span> <span class="token keyword">BY</span> product_type 
+<span class="token keyword">HAVING</span> <span class="token function">COUNT</span><span class="token punctuation">(</span><span class="token operator">*</span><span class="token punctuation">)</span> <span class="token operator">=</span> <span class="token number">2</span><span class="token punctuation">;</span>
+
+<span class="token comment">-- 示例2:</span>
+<span class="token keyword">SELECT</span> product_type<span class="token punctuation">,</span> <span class="token function">AVG</span><span class="token punctuation">(</span>sale_price<span class="token punctuation">)</span> 
+  <span class="token keyword">FROM</span> Product
+ <span class="token keyword">GROUP</span> <span class="token keyword">BY</span> product_type
+<span class="token keyword">HAVING</span> <span class="token function">AVG</span><span class="token punctuation">(</span>sale_price<span class="token punctuation">)</span> <span class="token operator">>=</span> <span class="token number">2500</span><span class="token punctuation">;</span></code></pre>
+
+<ul>
+<li>在使用 <code>COUNT</code> 函数等对表中数据进行汇总操作时，为其指定条件的不是 <code>WHERE</code> 子句，而是 <code>HAVING</code> 子句。<code>WHERE</code> 子句只能指定记录（行）的条件，而不能用来指定组的条件。</li>
+<li>聚合函数可以在 <code>SELECT</code> 子句、<code>HAVING</code> 子句和 <code>ORDER BY</code> 子句中使用。</li>
+<li><code>HAVING</code> 子句要写在 <code>GROUP BY</code> 子句之后。</li>
+<li><code>WHERE</code> 子句用来指定数据行的条件，<code>HAVING</code> 子句用来指定分组的条件。</li>
+</ul>
+<p>同理，<code>HAVING</code> 语句中也只能使用三种要素：<strong>常数</strong>、<strong>聚合函数</strong>和<strong>聚合键。</strong></p>
+<h3 id="排序-ORDER-BY"><a href="#排序-ORDER-BY" class="headerlink" title="排序 ORDER BY"></a>排序 ORDER BY</h3><pre class="language-sql" data-language="sql"><code class="language-sql"><span class="token keyword">SELECT</span> <span class="token operator">&lt;</span>列名<span class="token number">1</span><span class="token operator">></span><span class="token punctuation">,</span> <span class="token operator">&lt;</span>列名<span class="token number">2</span><span class="token operator">></span><span class="token punctuation">,</span> <span class="token operator">&lt;</span>列名<span class="token number">3</span><span class="token operator">></span><span class="token punctuation">,</span> …… 
+  <span class="token keyword">FROM</span> <span class="token operator">&lt;</span>表名<span class="token operator">></span>
+ <span class="token keyword">ORDER</span> <span class="token keyword">BY</span> <span class="token operator">&lt;</span>排序基准列<span class="token number">1</span><span class="token operator">></span><span class="token punctuation">,</span> <span class="token operator">&lt;</span>排序基准列<span class="token number">2</span><span class="token operator">></span><span class="token punctuation">,</span> ……</code></pre>
+
+<ul>
+<li><code>ORDER BY</code> 子句中的列名称为<strong>排序键</strong>；</li>
+<li>在 <code>ORDER BY</code> 子句中列名的后面使用关键字 <code>ASC</code> 可以进行升序排序（默认，可不写），<br>使用 <code>DESC</code> 关键字可以进行降序排序；</li>
+<li>在 <code>ORDER BY</code> 子句中可以指定多个排序键；</li>
+</ul>
+<pre class="language-sql" data-language="sql"><code class="language-sql"><span class="token comment">-- 当第一个排序键的结果中出现相同值时，将根据右侧的排序键进行排序：</span>
+<span class="token keyword">SELECT</span> product_id<span class="token punctuation">,</span> product_name<span class="token punctuation">,</span> sale_price<span class="token punctuation">,</span> purchase_price 
+  <span class="token keyword">FROM</span> Product
+<span class="token keyword">ORDER</span> <span class="token keyword">BY</span> sale_price<span class="token punctuation">,</span> product_id<span class="token punctuation">;</span></code></pre>
+
+<ul>
+<li>当排序健中包含 NULL 时，会在开头或末尾进行汇总；</li>
+<li>在 <code>ORDER BY</code> 子句中可以使用 <code>SELECT</code> 子句中定义的列的别名；</li>
+</ul>
+<p>因为此时的<strong>语句逻辑顺序</strong>为：<code>FROM</code> → <code> WHERE</code> → <code>GROUP BY</code> →  <code>HAVING</code> → <code>SELECT</code> →  <code>ORDER BY</code>。</p>
+<ul>
+<li>在 <code>ORDER BY</code> 子句中可以使用 <code>SELECT</code> 子句中未使用的列和聚合函数;</li>
+</ul>
+<pre class="language-sql" data-language="sql"><code class="language-sql"><span class="token keyword">SELECT</span> product_id <span class="token keyword">AS</span> id<span class="token punctuation">,</span> 
+			 product_name<span class="token punctuation">,</span> 
+			 sale_price <span class="token keyword">AS</span> sp<span class="token punctuation">,</span> 
+			 purchase_price
+  <span class="token keyword">FROM</span> Product 
+<span class="token keyword">ORDER</span> <span class="token keyword">BY</span> sp<span class="token punctuation">,</span> id<span class="token punctuation">;</span></code></pre>
+
+<ul>
+<li>在 <code>ORDER BY</code> 子句中不要使用列编号。</li>
+</ul>
+<p>最后，以上语句的书写顺序为：<code>1. SELECT 子句</code> → <code>2. FROM 子句</code> → <code>3. WHERE 子句</code> → <code>4. GROUP BY 子句</code> → <code>5. HAVING 子句</code> → <code>6. ORDER BY 子句</code>。</p>
+<h2 id="数据库的更新"><a href="#数据库的更新" class="headerlink" title="数据库的更新"></a>数据库的更新</h2><p>数据库的更新包括 <code>INSERT</code>、<code>DELETE</code> 和 <code>UPDATE</code> 三种修改表的指令，和进行相关操作的事务。</p>
+<h3 id="插入-INSERT"><a href="#插入-INSERT" class="headerlink" title="插入 INSERT"></a>插入 INSERT</h3><p>首先创建一个名为 <code>productIns</code> 的表作为示例，其中除了 <code>sale_price</code> 列设置了 <code>DEFAULT 0</code> 的约束外，其余内容与之前的 <code>product</code> 表完全相同。</p>
+<pre class="language-sql" data-language="sql"><code class="language-sql"><span class="token comment">-- 创建 ProductIns 表</span>
+
+<span class="token keyword">CREATE</span> <span class="token keyword">TABLE</span> ProductIns
+<span class="token punctuation">(</span>
+  product_id      <span class="token keyword">CHAR</span><span class="token punctuation">(</span><span class="token number">4</span><span class="token punctuation">)</span>      <span class="token operator">NOT</span> <span class="token boolean">NULL</span><span class="token punctuation">,</span> 
+ 	product_name    <span class="token keyword">VARCHAR</span><span class="token punctuation">(</span><span class="token number">100</span><span class="token punctuation">)</span> <span class="token operator">NOT</span> <span class="token boolean">NULL</span><span class="token punctuation">,</span> 
+ 	product_type    <span class="token keyword">VARCHAR</span><span class="token punctuation">(</span><span class="token number">32</span><span class="token punctuation">)</span>  <span class="token operator">NOT</span> <span class="token boolean">NULL</span><span class="token punctuation">,</span> 
+ 	sale_price      <span class="token keyword">INTEGER</span>      <span class="token keyword">DEFAULT</span> <span class="token number">0</span><span class="token punctuation">,</span> 
+ 	purchase_price  <span class="token keyword">INTEGER</span>     <span class="token punctuation">,</span>
+ 	regist_date     <span class="token keyword">DATE</span>        <span class="token punctuation">,</span> 
+ 	<span class="token keyword">PRIMARY</span> <span class="token keyword">KEY</span> <span class="token punctuation">(</span>product_id<span class="token punctuation">)</span>
+<span class="token punctuation">)</span><span class="token punctuation">;</span></code></pre>
+
+<ul>
+<li>使用 <code>INSERT</code> 语句可以向表中插入数据（行）。原则上，<code>INSERT</code> 语句每次执行一行数据的插入。</li>
+</ul>
+<pre class="language-sql" data-language="sql"><code class="language-sql"><span class="token comment">-- INSERT 语句定义：</span>
+<span class="token keyword">INSERT</span> <span class="token keyword">INTO</span> <span class="token operator">&lt;</span>表名<span class="token operator">></span> <span class="token punctuation">(</span>列<span class="token number">1</span><span class="token punctuation">,</span> 列<span class="token number">2</span><span class="token punctuation">,</span> 列<span class="token number">3</span><span class="token punctuation">,</span> ……<span class="token punctuation">)</span> <span class="token keyword">VALUES</span> <span class="token punctuation">(</span>值<span class="token number">1</span><span class="token punctuation">,</span> 值<span class="token number">2</span><span class="token punctuation">,</span> 值<span class="token number">3</span><span class="token punctuation">,</span> ……<span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token comment">-- 插入一条数据的示例：</span>
+<span class="token keyword">INSERT</span> <span class="token keyword">INTO</span> ProductIns <span class="token punctuation">(</span>product_id<span class="token punctuation">,</span> product_name<span class="token punctuation">,</span> product_type<span class="token punctuation">,</span> sale_price<span class="token punctuation">,</span> purchase_price<span class="token punctuation">,</span> regist_date<span class="token punctuation">)</span>
+<span class="token keyword">VALUES</span> <span class="token punctuation">(</span><span class="token string">'0001'</span><span class="token punctuation">,</span> <span class="token string">'T恤衫'</span><span class="token punctuation">,</span> <span class="token string">'衣服'</span><span class="token punctuation">,</span> <span class="token number">1000</span><span class="token punctuation">,</span> <span class="token number">500</span><span class="token punctuation">,</span> <span class="token string">'2009-09-20'</span><span class="token punctuation">)</span><span class="token punctuation">;</span></code></pre>
+
+<ul>
+<li><p>将列名和值用逗号隔开，分别括在（半角）括号()内，这种形式称为清单。</p>
+</li>
+<li><p>对表中所有列进行 <code>INSERT</code> 操作时可以省略表名后的列清单。</p>
+</li>
+</ul>
+<pre class="language-sql" data-language="sql"><code class="language-sql"><span class="token comment">-- 对表进行全列 INSERT 时，可以省略表名后的列清单</span>
+<span class="token comment">-- 以下示例效果同上：</span>
+
+<span class="token keyword">INSERT</span> <span class="token keyword">INTO</span> ProductIns <span class="token keyword">VALUES</span> <span class="token punctuation">(</span><span class="token string">'0001'</span><span class="token punctuation">,</span> <span class="token string">'T恤衫'</span><span class="token punctuation">,</span> <span class="token string">'衣服'</span><span class="token punctuation">,</span> <span class="token number">1000</span><span class="token punctuation">,</span> <span class="token number">500</span><span class="token punctuation">,</span> <span class="token string">'2009-09-20'</span><span class="token punctuation">)</span><span class="token punctuation">;</span></code></pre>
+
+<ul>
+<li>插入 NULL 时需要在 <code>VALUES</code> 子句的值清单中写入 NULL。</li>
+<li>可以为表中的列设定默认值（初始值），默认值可以通过在 <code>CREATE TABLE</code> 语句中为列设置 <code>DEFAULT</code> 约束来设定。</li>
+</ul>
+<pre class="language-sql" data-language="sql"><code class="language-sql"><span class="token comment">-- 参照 ProductIns 表的创建，DEFAULT 约束设定默认值：</span>
+
+<span class="token keyword">CREATE</span> <span class="token keyword">TABLE</span> ProductIns
+<span class="token punctuation">(</span>product_id      <span class="token keyword">CHAR</span><span class="token punctuation">(</span><span class="token number">4</span><span class="token punctuation">)</span>      <span class="token operator">NOT</span> <span class="token boolean">NULL</span><span class="token punctuation">,</span> 
+ ……
+ sale_price      <span class="token keyword">INTEGER</span>      <span class="token keyword">DEFAULT</span> <span class="token number">0</span><span class="token punctuation">,</span> 		<span class="token comment">-- 销售单价初始值默认为 0；</span>
+ ……
+ <span class="token keyword">PRIMARY</span> <span class="token keyword">KEY</span> <span class="token punctuation">(</span>product_id<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span></code></pre>
+
+<ul>
+<li>插入默认值可以通过两种方式实现，即在 <code>INSERT</code> 语句的 VALUES子句中指定 <code>DEFAULT</code> 关键字（显式方法），或省略列清单（隐式方法）。 （显式方法插入默认值最好）</li>
+</ul>
+<pre class="language-sql" data-language="sql"><code class="language-sql"><span class="token comment">-- 显式方法插入默认值：</span>
+
+<span class="token keyword">INSERT</span> <span class="token keyword">INTO</span> ProductIns <span class="token punctuation">(</span>product_id<span class="token punctuation">,</span> product_name<span class="token punctuation">,</span> product_type<span class="token punctuation">,</span> sale_price<span class="token punctuation">,</span> purchase_price<span class="token punctuation">,</span> regist_date<span class="token punctuation">)</span>
+<span class="token keyword">VALUES</span> <span class="token punctuation">(</span><span class="token string">'0007'</span><span class="token punctuation">,</span> <span class="token string">'擦菜板'</span><span class="token punctuation">,</span> <span class="token string">'厨房用具'</span><span class="token punctuation">,</span> <span class="token keyword">DEFAULT</span><span class="token punctuation">,</span> <span class="token number">790</span><span class="token punctuation">,</span> <span class="token string">'2009-04-28'</span><span class="token punctuation">)</span><span class="token punctuation">;</span></code></pre>
+
+<ul>
+<li>使用 <code>INSERT…SELECT</code> 可以从其他表中复制数据。</li>
+</ul>
+<pre class="language-sql" data-language="sql"><code class="language-sql"><span class="token comment">-- 创建一个空白示例表：</span>
+<span class="token comment">-- 用来插入数据的商品复制表 </span>
+<span class="token keyword">CREATE</span> <span class="token keyword">TABLE</span> ProductCopy
+<span class="token punctuation">(</span>product_id  	  	<span class="token keyword">CHAR</span><span class="token punctuation">(</span><span class="token number">4</span><span class="token punctuation">)</span>      	<span class="token operator">NOT</span> <span class="token boolean">NULL</span><span class="token punctuation">,</span> 
+ product_name   	<span class="token keyword">VARCHAR</span><span class="token punctuation">(</span><span class="token number">100</span><span class="token punctuation">)</span> 	<span class="token operator">NOT</span> <span class="token boolean">NULL</span><span class="token punctuation">,</span> 
+ product_type 		<span class="token keyword">VARCHAR</span><span class="token punctuation">(</span><span class="token number">32</span><span class="token punctuation">)</span>  	<span class="token operator">NOT</span> <span class="token boolean">NULL</span><span class="token punctuation">,</span> 
+ sale_price   		<span class="token keyword">INTEGER</span>      	<span class="token punctuation">,</span>
+ purchase_price 	<span class="token keyword">INTEGER</span>      	<span class="token punctuation">,</span> 
+ regist_date    	<span class="token keyword">DATE</span>         	<span class="token punctuation">,</span> 
+ <span class="token keyword">PRIMARY</span> <span class="token keyword">KEY</span> <span class="token punctuation">(</span>product_id<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+ 
+<span class="token comment">-- 将商品表中的数据复制到商品复制表中</span>
+<span class="token keyword">INSERT</span> <span class="token keyword">INTO</span> ProductCopy <span class="token punctuation">(</span>product_id<span class="token punctuation">,</span> product_name<span class="token punctuation">,</span> product_type<span class="token punctuation">,</span> sale_price<span class="token punctuation">,</span> purchase_price<span class="token punctuation">,</span> regist_date<span class="token punctuation">)</span>
+<span class="token keyword">SELECT</span> product_id<span class="token punctuation">,</span> product_name<span class="token punctuation">,</span> product_type<span class="token punctuation">,</span> sale_price<span class="token punctuation">,</span> purchase_price<span class="token punctuation">,</span> regist_date
+<span class="token keyword">FROM</span> Product<span class="token punctuation">;</span></code></pre>
+
+<p>现在 <code>ProductCopy</code> 中插入了与 <code>ProductIns</code> 完全相同的八行数据，而原有的 <code>ProductIns</code> 表不会改变。</p>
+<ul>
+<li>在 <code>INSERT</code> 语句的 <code>SELECT</code> 语句中，可以使用 <code>WHERE</code> 子句或者 <code>GROUP BY</code> 子句等任何 SQL 语法（但使用 <code>ORDER BY</code> 子句并不会产生任何效果）。</li>
+</ul>
+<pre class="language-sql" data-language="sql"><code class="language-sql"><span class="token comment">-- 根据商品种类进行汇总的表 ； </span>
+<span class="token keyword">CREATE</span> <span class="token keyword">TABLE</span> ProductType
+<span class="token punctuation">(</span>
+  product_type      	<span class="token keyword">VARCHAR</span><span class="token punctuation">(</span><span class="token number">32</span><span class="token punctuation">)</span>    	<span class="token operator">NOT</span> <span class="token boolean">NULL</span><span class="token punctuation">,</span> 
+ 	sum_sale_price    	<span class="token keyword">INTEGER</span>       	<span class="token punctuation">,</span>
+ 	sum_purchase_price 	<span class="token keyword">INTEGER</span>        	<span class="token punctuation">,</span> 
+ 	<span class="token keyword">PRIMARY</span> <span class="token keyword">KEY</span> <span class="token punctuation">(</span>product_type<span class="token punctuation">)</span>
+<span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token comment">-- 插入其他表中数据合计值的 INSERT…SELECT 语句：</span>
+<span class="token keyword">INSERT</span> <span class="token keyword">INTO</span> ProductType <span class="token punctuation">(</span>product_type<span class="token punctuation">,</span> sum_sale_price<span class="token punctuation">,</span> sum_purchase_price<span class="token punctuation">)</span>
+<span class="token keyword">SELECT</span> product_type<span class="token punctuation">,</span> <span class="token function">SUM</span><span class="token punctuation">(</span>sale_price<span class="token punctuation">)</span><span class="token punctuation">,</span> <span class="token function">SUM</span><span class="token punctuation">(</span>purchase_price<span class="token punctuation">)</span> 
+  <span class="token keyword">FROM</span> Product
+ <span class="token keyword">GROUP</span> <span class="token keyword">BY</span> product_type<span class="token punctuation">;</span></code></pre>
+
+<h3 id="删除-DELETE"><a href="#删除-DELETE" class="headerlink" title="删除 DELETE"></a>删除 DELETE</h3><ul>
+<li>如果想将整个表全部删除，可以使用 <code>DROP TABLE</code> 语句，<br>如果只想删除表中全部数据，需使用 <code>DELETE</code> 语句。</li>
+</ul>
+<pre class="language-sql" data-language="sql"><code class="language-sql"><span class="token comment">-- 保留数据表，仅删除全部数据行的 DELETE 语句</span>
+<span class="token keyword">DELETE</span> <span class="token keyword">FROM</span> <span class="token operator">&lt;</span>表名<span class="token operator">></span><span class="token punctuation">;</span>
+
+<span class="token comment">-- 例如：清空 Product 表</span>
+<span class="token keyword">DELETE</span> <span class="token keyword">FROM</span> Product<span class="token punctuation">;</span></code></pre>
+
+<p><strong>注意：</strong>DELETE语句的删除对象并不是表或者列，而是记录（行）。</p>
+<h4 id="搜索型-DELETE"><a href="#搜索型-DELETE" class="headerlink" title="搜索型 DELETE"></a>搜索型 DELETE</h4><ul>
+<li>如果想删除部分数据行，只需在 <code>WHERE</code> 子句中书写对象数据的条件即可。<br>通过 <code>WHERE</code> 子句指定删除对象的 <code>DELETE</code> 语句称为搜索型 <code>DELETE</code> 语句。</li>
+</ul>
+<pre class="language-sql" data-language="sql"><code class="language-sql"><span class="token comment">-- 删除部分数据行的搜索型 DELETE</span>
+
+<span class="token keyword">DELETE</span> <span class="token keyword">FROM</span> <span class="token operator">&lt;</span>表名<span class="token operator">></span> 
+ <span class="token keyword">WHERE</span> <span class="token operator">&lt;</span>条件<span class="token operator">></span><span class="token punctuation">;</span></code></pre>
+
+<p><strong>注意：</strong>与 <code>SELECT</code> 语句不同的是，<code>DELETE</code> 语句中不能使用 <code>GROUP BY</code>、<code>HAVING</code> 和 <code>ORDER BY</code> 三类子句，而只能使用 <code>WHERE</code> 子句 。</p>
+<h3 id="更新-UPDATE"><a href="#更新-UPDATE" class="headerlink" title="更新 UPDATE"></a>更新 UPDATE</h3><ul>
+<li>使用 UPDATE语句可以更改（更新）表中的数据。</li>
+</ul>
+<pre class="language-sql" data-language="sql"><code class="language-sql"><span class="token comment">-- 改变表中数据的 UPDATE 语句</span>
+
+<span class="token keyword">UPDATE</span> <span class="token operator">&lt;</span>表名<span class="token operator">></span>
+   <span class="token keyword">SET</span> <span class="token operator">&lt;</span>列名<span class="token operator">></span> <span class="token operator">=</span> <span class="token operator">&lt;</span>表达式<span class="token operator">></span><span class="token punctuation">;</span></code></pre>
+
+<h4 id="搜索型-UPDATE"><a href="#搜索型-UPDATE" class="headerlink" title="搜索型 UPDATE"></a>搜索型 UPDATE</h4><ul>
+<li>更新部分数据行时可以使用 <code>WHERE</code> 来指定更新对象的条件。<br>通过 <code>WHERE</code> 子句指定更新对象的 <code>UPDATE</code> 语句称为搜索型 <code>UPDATE</code> 语句。</li>
+</ul>
+<pre class="language-sql" data-language="sql"><code class="language-sql"><span class="token comment">-- 更新部分数据行的搜索型 UPDATE</span>
+<span class="token keyword">UPDATE</span> <span class="token operator">&lt;</span>表名<span class="token operator">></span>
+   <span class="token keyword">SET</span> <span class="token operator">&lt;</span>列名<span class="token operator">></span> <span class="token operator">=</span> <span class="token operator">&lt;</span>表达式<span class="token operator">></span> 
+ <span class="token keyword">WHERE</span> <span class="token operator">&lt;</span>条件<span class="token operator">></span><span class="token punctuation">;</span>
+
+<span class="token comment">-- 示例：将商品种类为厨房用具的记录的销售单价更新为原来的 10 倍</span>
+<span class="token keyword">UPDATE</span> Product
+   <span class="token keyword">SET</span> sale_price <span class="token operator">=</span> sale_price <span class="token operator">*</span> <span class="token number">10</span> 
+ <span class="token keyword">WHERE</span> product_type <span class="token operator">=</span> <span class="token string">'厨房用具'</span><span class="token punctuation">;</span></code></pre>
+
+<ul>
+<li><code>UPDATE</code> 语句可以将列的值更新为 NULL。</li>
+</ul>
+<pre class="language-sql" data-language="sql"><code class="language-sql"><span class="token comment">-- 将商品编号为 0008 的数据（圆珠笔）的登记日期更新为 NULL</span>
+
+<span class="token keyword">UPDATE</span> Product
+   <span class="token keyword">SET</span> regist_date <span class="token operator">=</span> <span class="token boolean">NULL</span> 
+ <span class="token keyword">WHERE</span> product_id <span class="token operator">=</span> <span class="token string">'0008'</span><span class="token punctuation">;</span></code></pre>
+
+<p><strong>注意：</strong>使用 UPDATE语句可以将值清空为 NULL（但只限于未设置 NOT NULL约束的列）。</p>
+<ul>
+<li>同时更新多列时，可以在 <code>UPDATE</code> 语句的 <code>SET</code> 子句中，使用逗号分隔更新对象的多个列。</li>
+</ul>
+<pre class="language-sql" data-language="sql"><code class="language-sql"><span class="token comment">-- 繁琐的 UPDATE 语句</span>
+<span class="token keyword">UPDATE</span> Product
+   <span class="token keyword">SET</span> sale_price <span class="token operator">=</span> sale_price <span class="token operator">*</span> <span class="token number">10</span> 
+ <span class="token keyword">WHERE</span> product_type <span class="token operator">=</span> <span class="token string">'厨房用具'</span><span class="token punctuation">;</span>
+<span class="token keyword">UPDATE</span> Product
+   <span class="token keyword">SET</span> purchase_price <span class="token operator">=</span> purchase_price <span class="token operator">/</span> <span class="token number">2</span> 
+ <span class="token keyword">WHERE</span> product_type <span class="token operator">=</span> <span class="token string">'厨房用具'</span><span class="token punctuation">;</span>
+
+<span class="token comment">-- 合并为一条 UPDATE语句</span>
+<span class="token comment">-- 使用逗号对列进行分隔排列 </span>
+<span class="token keyword">UPDATE</span> Product
+   <span class="token keyword">SET</span> sale_price <span class="token operator">=</span> sale_price <span class="token operator">*</span> <span class="token number">10</span><span class="token punctuation">,</span> 
+       purchase_price <span class="token operator">=</span> purchase_price <span class="token operator">/</span> <span class="token number">2</span> 
+ <span class="token keyword">WHERE</span> product_type <span class="token operator">=</span> <span class="token string">'厨房用具'</span><span class="token punctuation">;</span></code></pre>
+
+<h3 id="事务"><a href="#事务" class="headerlink" title="事务"></a>事务</h3><p>这是一个全新的概念，我觉得蛮好理解的：</p>
+<ul>
+<li><strong>事务是需要在同一个处理单元中执行的一系列更新处理的集合。</strong><br>通过使用事务，可以对数据库中的数据更新处理的提交和取消进行管理。</li>
+</ul>
+<pre class="language-sql" data-language="sql"><code class="language-sql"><span class="token comment">-- 将两条 SQL 语句在事务中执行：</span>
+
+<span class="token keyword">START</span> <span class="token keyword">TRANSACTION</span>
+		
+		<span class="token comment">-- 将运动T恤的销售单价降低1000日元 </span>
+    <span class="token keyword">UPDATE</span> Product
+       <span class="token keyword">SET</span> sale_price <span class="token operator">=</span> sale_price <span class="token operator">-</span> <span class="token number">1000</span> 
+     <span class="token keyword">WHERE</span> product_name <span class="token operator">=</span> <span class="token string">'运动T恤'</span><span class="token punctuation">;</span>
+
+    <span class="token comment">-- 将T恤衫的销售单价上浮1000日元 </span>
+    <span class="token keyword">UPDATE</span> Product
+       <span class="token keyword">SET</span> sale_price <span class="token operator">=</span> sale_price <span class="token operator">+</span> <span class="token number">1000</span> 
+     <span class="token keyword">WHERE</span> product_name <span class="token operator">=</span> <span class="token string">'T恤衫'</span><span class="token punctuation">;</span>
+
+<span class="token keyword">COMMIT</span></code></pre>
+
+<ul>
+<li>事务处理的终止指令包括 <code>COMMIT</code>（提交处理）和 <code>ROLLBACK</code>（取消处理）两种。</li>
+</ul>
+<p><img src="/images/SQL-learning-note-02/sql02-04-01.jpg" alt="sql02-04-01" loading="lazy"></p>
+<p><strong>注意：</strong>特别是在执行 <code>DELETE</code> 语句的 <code>COMMIT</code> 时尤其要小心。</p>
+<p><img src="/images/SQL-learning-note-02/sql02-04-02.jpg" alt="sql02-04-02" loading="lazy"></p>
+<p>在这里，我引用一段作者对现代关系型数据库管理系统的描述：</p>
+<blockquote>
+<p>实际上，几乎所有的数据库产品的事务都无需开始指令。这是因为大部分情况下，事务在数据库连接建立时就已经悄悄开始了，并不需要用户再明确发出开始指令。例如，使用 Oracle 时，数据库连接建立之后，第一条 SQL 语句执行的同时，事务就已经悄悄开始了。</p>
+<p>例如，PostgreSQL的用户手册中有如下记述 ：「PostgreSQL 中所有的SQL指令语句都在事务内执行。即使不执行 BEGIN，这些命令语句也会在执行时悄悄被括在 <code>BEGIN</code> 和 <code>COMMIT</code>（如果成功的话）之间。」（《PostgreSQL 9.5.2 文档》“3-4 节 事务”）</p>
+</blockquote>
+<ul>
+<li>DBMS 的事务具有原子性（Atomicity）、一致性（Consistency）、隔离性（Isolation）和持久性（Durability）四种特性。通常将这四种特性的首字母结合起来，统称为 ACID 特性。</li>
+</ul>
 ]]></content>
       <categories>
         <category>叶子的粗浅知识</category>
@@ -1284,6 +1814,47 @@ MainWindow<span class="token operator">::</span><span class="token operator">~</
         <tag>博文</tag>
         <tag>杂思</tag>
         <tag>叶子</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>【摘录】“还我头来” 及其他</title>
+    <url>/2022/04/08/give-back-my-head/</url>
+    <content><![CDATA[<p><em>作者：梁遇春</em></p>
+<blockquote>
+<p>我第一次读到，是在高中时的一次语文考试中，这篇文章作为阅读理解，给我留下了极其深刻的印象。一直到现在，社会上的一些事情还时常能让我想起梁遇春先生的这篇散文。所以我就想在博客上也摘录一份，算是收藏在这里了。</p>
+</blockquote>
+<span id="more"></span>
+
+<p>关云长兵败麦城，虽然首级给人拿去招安，可是英灵不散，吾舌尚存，还到玉泉山，向和尚诉冤，大喊什么 “还我头来！” 这是多么惊心动魄的事，万想不到我现在也来发出同样阴惨的呼声。</p>
+<p>但是我并非爱做古人的鹦鹉，实在有不得已的苦衷，在所谓最高学府里头，上堂，吃饭，睡觉，匆匆地过了五年，到底学到了什么，自己实在很怀疑。然而一和同学们及别的大学中学的学生接近，常感觉到他们是全知的人们 (差不多要写做上帝了) 。他们多数对于一切大大小小、长长短短的问题，都有一定的意见，说起来滔滔不绝，这是何等可羡慕的事。他们知道宗教是应当  “非” 的，孔丘是要打倒的，东方文化根本要不得，文学是苏俄最高明，小中大学都非专教白话文不可，文学是进化的  (因为胡适先生有一篇文学进化论)，行为派心理学是惟一的心理学，哲学是要立在科学上面的，新的一定是好，一切旧的总该打倒，以至恋爱问题、女子解放问题…… 他们头头是道，十八般武艺无一不知。</p>
+<p>鲁拙的我看着不免有无限的羡慕同妒忌。更使我赞美的是他们的态度，观察点总是大同小异 ——  简直是全同无异。有时我精神疲倦，不注意些，就分不出是谁在那儿说话。我从前老想大学生是有思想的人，各个性格不同，意见难免分歧，现在一看这种融融泄泄的空气，才明白我是杞人忧天。</p>
+<p>不过凡庸的我有时试把他们所说的话，拿来仔细想一下，总觉头绪纷纷，不是我几秒钟的时间所能了解。有时尝尽艰难，打破我这愚拙的网，将一个问题，从头到尾，好好想一下，结果却常是找不出自己十分满意解决的方法，只好归咎到自己能力的薄弱了。有时学他们所说的，照样向旁人说一下，因此却得到些恭维的话，说我思想进步。荣誉虽然得到，心中却觉惭愧，怕的是这样下去，满口只会说别人懂自己不懂的话。随和是做人最好的态度，为了他人，失了自己，也是有牺牲精神的人做的事；不过这么一来，自己的头一部一部消灭了，那岂不是个伤心的事情吗？</p>
+<p>由赞美到妒忌，由妒忌到诽谤是很短的路。人非圣贤，谁能无过，我有时也免不了随意乱骂了。一回我同朋友谈天，我引美国  Cabell 说的话来泄心中的积愤，我朋友或者猜出我老羞成怒的动机，看我一眼，我也只好住口了。现在他不在这儿，何妨将  Cabell 话译出，泄当时未泄的气。Cabell 在他那本怪书，名字叫做《不朽》Beyond Life 中间说：</p>
+<p>“印刷发明后，思想传布是这么方便，人们不要麻烦费心思，就可得到很有用的意见。从那时候起很少人高兴去用脑力，伤害自己的脑。”</p>
+<p>Cabell 在现在美国，还高谈 Romance，提倡吃酒，本来是个狂生，他的话自然是无足重轻的，只好借来发点牢骚不平罢！</p>
+<p>以上所说的是自己有愿意把头弄掉，去换几个时髦的字眼的危险。此外在我们青年旁边想用快刀阔斧来取我们的头者又大有人在。思想界的权威者无往而不用其权威来做他的文力统一。从前晨报副刊登载青年必读书十种时候，我曾经摇过头。所以摇头者，一方面表示不满意，一方面也可使自己相信我的头还没有被斩。这十种既是青年所必读，那么不去读的就不好算做青年了。年纪青青就失掉了做青年的资格，这岂不是等于不得保首级。回想二三十年前英国也有这种开书单的风气。但是 kord Avebury 在他《人生乐趣》(Thepleasure ofLife) 里所开的书单的题目不过是 “百本书目表”(List of  loo Books)。</p>
+<p>此外 Lord Acton，Shorter 等所开者，标题皆用此。彼等以爵士之尊，说话尚且这么谦虚，不用什么 “必读”  等命令式字眼，真使我不得不佩服西人客气的精神了。想不到后来每下愈况，梁启超先生开个书单，就说没有念过他所开的书的人不是中国人，那种办法完全是青天白日当街杀人刽子手的行为了。胡适先生在《现代评论》曾说他治哲学史的方法是惟一无二的路，凡同他不同的都会失败。我从前曾想抱尝试的精神，怀疑的态度，去读哲学，因为胡先生说过真理不是绝对的，中间很有商量余地，所以打算舍胡先生的大道而不由，另找个羊肠小道来。现在给胡先生这么当头棒喝，只好摆开梦想，摇一下头 —— 看还在没有。总之在旁边窥伺我们的头者，大有人在，所以我暑假间赶紧离开学府，万里奔波，回家来好好保养这六斤四的头。</p>
+<p>所以 “还我头来” 是我的口号，我以后也只愿说几句自己确实明白了解的话，不去高攀，谈什么问题主义，免得跌重。说的话自然平淡凡庸或者反因为它的平淡凡庸而深深地表现出我的性格，因为平淡凡庸的话只有我这鲁拙的人，才能够说出的。无论如何总不至于失掉了头。</p>
+<p>末了，让我抄几句 Amauld 在 Port-Royal Logic 里面的话，来做结束罢。</p>
+<p>“我们太容易将理智只当做求科学智识的工具，实在我们应该用科学来做完成我们理智的工具；思想的正确是比我们由最有根据的科学所得来一切的智识都要紧得多。”</p>
+<p>中国普通一般自命为名士才子之流，到了风景清幽地方，一定照例他说若使能够在此读书，才是不辜负此生。由这点就可看出他们是不能真真鉴赏山水的美处。读书是一件乐事，游山玩水也是一件乐事。若使当读书时候，一心想什么飞瀑松声绝崖远眺，我们相信他读书趣味一定不浓厚，同样地若使当看到好风景时候，不将一己投到自然怀中，热烈领会生存之美，却来排名士架子，说出不冷不热的套话，我们也知道他实在不能够吸收自然无限的美。我一想到这事，每每记起英国大诗人 Chaucer 的几行诗 (这几行是我深信能懂的，其余文字太古了，实在不知道清楚)。他说：</p>
+<p>“When that the montheof MayIscomen, and that I here the foules  synge, And that the floures gynnen forto sprynge, Farurl my boke and my  devocon.” Legende of Good Women.</p>
+<p>大意是当五月来的时候，我听到鸟唱，花也渐渐为春天开，我就向我的书籍同宗教告别了。要有这样的热诚才能得真正的趣味。</p>
+<p>徐旭生先生说中国人缺乏 enthusiasm，这句话真值得一百圈。实在中国人不止对重要事没有 enthusiasm，就是关于游戏也是取一种逢场作戏随便玩玩的态度，对于一切娱乐事情总没有什么无限的兴味。闭口消遣，开口销愁，全失丢人生的乐趣，因为人生乐趣多存在对于一切零碎事物普通游戏感觉无穷的趣味。要常常使生活活泼生姿，一定要对极微末的娱乐也全心一意地看重，热烈地将一己忘掉在里头。比如要谈天，那么就老老实实说心中自己的话，不把通常流俗的意见，你说过来，我答过去地敷衍。这样子谈天也有真趣，不至象刻板文章，然而多数人谈天总是一副皮面话，听得真使人难过。关于说到这点的文章，我最爱读兰姆 (Lamb) 的 Mrs. Battle’s opinions on  Whist。那是一篇游戏的福音，可惜文字太妙了，不敢动笔翻译。再抄一句直腿者流的话来说明我的鄙见罢。AC．Berson 在 From a  CollegeWirdcw 里说：</p>
+<p>“一个人对于游戏的态度愈是郑重，游戏就越会有趣。”</p>
+<p>因为我们对于一切都是有些麻木，所以每回游玩山水，只好借几句陈语来遮饰我们心理的空虚。为维持面子的缘故，渐渐造成虚伪的习惯，所以智识阶级特别多伪君子，也因为他们对面子特别看重。他们既然对自然对人情不能够深切地欣赏，只好将快乐全放在淫欲虚荣权力钱财这方面。这总是不知生活术的结果。</p>
+<p>有人说，我们向文学求我们自己所缺的东西，这自然是主张浪漫派人的说法，可是也有些道理。我们若使不是麻木不仁，对于自己缺点总特别深切地感觉。所以对没有缺点的人常有过量的赞美，而对于有同一缺点的人，反不能加以原谅。Turgeniev 自己意志薄弱，是 Hamlet 一流人物，他的小说描写当时俄国智识阶级意志薄弱也特别动人。Hazlitt 自己脾气极坏，可是对心性慈悲什么事也不计较的  Goldsmith 却啧啧称美。朋友的结合，因为二人同心一意虽多，而因为性质正相反也不少。为的各有缺点各有优点，并且这个所没有的那个有，那个自己惭愧所少的，这个又有，所以互相吸引力特别重。心思精密的管仲同性情宽大的鲍叔，友谊特别重；拘谨守礼的 Addison 和放荡不羁的 Steele，厚重老成的 Southey，和吃大烟什么也不管的  Coleridge 也都是性情相背，居然成历史上有名友谊的榜样。老先生们自己道德一塌糊涂，却口口声声说道德，或者也是因为自己缺乏，所以特别觉得重要。我相信天下没有那么多伪君子，无非是无意中行为同口说的矛盾罢了。</p>
+<p>我相信真真了解下层社会情形的作家，不会费笔墨去写他们物质生活的艰苦，却去描写他们生活的单调，精神奴化的经过，命定的思想，思想的迟钝，失望的麻木，或者反抗的精神，蔑视一切的勇气，穷里寻欢，泪中求笑的心情。不过这种细密精致的地方，不是亲身尝过的人像 Dostoievski，Gorki 不能够说出，出身纨袴的青年文学家，还是扯开仁人君子的假面，讲几句真话罢！</p>
+<p>因为人是人，所以我们总觉人比事情要紧，在小说里描状个人性格的比专述事情的印象会深得多。这是一件非常明显的事，然而近来所看的短篇小说多是叙一两段情史，用几十个风花雪月字眼，真使人失望。希望新文豪少顾些结构，多注意点性格。Tolstoy 的《伊凡伊列支之死》，Conrod 的 LordJim 都是没有多少事实的小说，也都是有名的杰作。</p>
+<p>十六年七月六日，于福州。</p>
+]]></content>
+      <categories>
+        <category>叶子的摘录</category>
+      </categories>
+      <tags>
+        <tag>摘录</tag>
+        <tag>梁遇春</tag>
+        <tag>散文</tag>
       </tags>
   </entry>
   <entry>
@@ -2192,44 +2763,36 @@ x_1(t)*x_2(t) &amp;&#x3D; &#123;\int_&#123;-\infty&#125;^&#123;+\infty&#125;&#12
       </tags>
   </entry>
   <entry>
-    <title>【摘录】“还我头来” 及其他</title>
-    <url>/2022/04/08/give-back-my-head/</url>
-    <content><![CDATA[<p><em>作者：梁遇春</em></p>
-<blockquote>
-<p>我第一次读到，是在高中时的一次语文考试中，这篇文章作为阅读理解，给我留下了极其深刻的印象。一直到现在，社会上的一些事情还时常能让我想起梁遇春先生的这篇散文。所以我就想在博客上也摘录一份，算是收藏在这里了。</p>
-</blockquote>
+    <title>读硕还是直博，这是个问题</title>
+    <url>/2022/05/18/question-of-graduate-student/</url>
+    <content><![CDATA[<p><img src="/images/question-of-graduate-student/cover.jpg" width="400" alt="cover" / loading="lazy"><em>图文无关…… 或许是吧</em></p>
 <span id="more"></span>
 
-<p>关云长兵败麦城，虽然首级给人拿去招安，可是英灵不散，吾舌尚存，还到玉泉山，向和尚诉冤，大喊什么 “还我头来！” 这是多么惊心动魄的事，万想不到我现在也来发出同样阴惨的呼声。</p>
-<p>但是我并非爱做古人的鹦鹉，实在有不得已的苦衷，在所谓最高学府里头，上堂，吃饭，睡觉，匆匆地过了五年，到底学到了什么，自己实在很怀疑。然而一和同学们及别的大学中学的学生接近，常感觉到他们是全知的人们 (差不多要写做上帝了) 。他们多数对于一切大大小小、长长短短的问题，都有一定的意见，说起来滔滔不绝，这是何等可羡慕的事。他们知道宗教是应当  “非” 的，孔丘是要打倒的，东方文化根本要不得，文学是苏俄最高明，小中大学都非专教白话文不可，文学是进化的  (因为胡适先生有一篇文学进化论)，行为派心理学是惟一的心理学，哲学是要立在科学上面的，新的一定是好，一切旧的总该打倒，以至恋爱问题、女子解放问题…… 他们头头是道，十八般武艺无一不知。</p>
-<p>鲁拙的我看着不免有无限的羡慕同妒忌。更使我赞美的是他们的态度，观察点总是大同小异 ——  简直是全同无异。有时我精神疲倦，不注意些，就分不出是谁在那儿说话。我从前老想大学生是有思想的人，各个性格不同，意见难免分歧，现在一看这种融融泄泄的空气，才明白我是杞人忧天。</p>
-<p>不过凡庸的我有时试把他们所说的话，拿来仔细想一下，总觉头绪纷纷，不是我几秒钟的时间所能了解。有时尝尽艰难，打破我这愚拙的网，将一个问题，从头到尾，好好想一下，结果却常是找不出自己十分满意解决的方法，只好归咎到自己能力的薄弱了。有时学他们所说的，照样向旁人说一下，因此却得到些恭维的话，说我思想进步。荣誉虽然得到，心中却觉惭愧，怕的是这样下去，满口只会说别人懂自己不懂的话。随和是做人最好的态度，为了他人，失了自己，也是有牺牲精神的人做的事；不过这么一来，自己的头一部一部消灭了，那岂不是个伤心的事情吗？</p>
-<p>由赞美到妒忌，由妒忌到诽谤是很短的路。人非圣贤，谁能无过，我有时也免不了随意乱骂了。一回我同朋友谈天，我引美国  Cabell 说的话来泄心中的积愤，我朋友或者猜出我老羞成怒的动机，看我一眼，我也只好住口了。现在他不在这儿，何妨将  Cabell 话译出，泄当时未泄的气。Cabell 在他那本怪书，名字叫做《不朽》Beyond Life 中间说：</p>
-<p>“印刷发明后，思想传布是这么方便，人们不要麻烦费心思，就可得到很有用的意见。从那时候起很少人高兴去用脑力，伤害自己的脑。”</p>
-<p>Cabell 在现在美国，还高谈 Romance，提倡吃酒，本来是个狂生，他的话自然是无足重轻的，只好借来发点牢骚不平罢！</p>
-<p>以上所说的是自己有愿意把头弄掉，去换几个时髦的字眼的危险。此外在我们青年旁边想用快刀阔斧来取我们的头者又大有人在。思想界的权威者无往而不用其权威来做他的文力统一。从前晨报副刊登载青年必读书十种时候，我曾经摇过头。所以摇头者，一方面表示不满意，一方面也可使自己相信我的头还没有被斩。这十种既是青年所必读，那么不去读的就不好算做青年了。年纪青青就失掉了做青年的资格，这岂不是等于不得保首级。回想二三十年前英国也有这种开书单的风气。但是 kord Avebury 在他《人生乐趣》(Thepleasure ofLife) 里所开的书单的题目不过是 “百本书目表”(List of  loo Books)。</p>
-<p>此外 Lord Acton，Shorter 等所开者，标题皆用此。彼等以爵士之尊，说话尚且这么谦虚，不用什么 “必读”  等命令式字眼，真使我不得不佩服西人客气的精神了。想不到后来每下愈况，梁启超先生开个书单，就说没有念过他所开的书的人不是中国人，那种办法完全是青天白日当街杀人刽子手的行为了。胡适先生在《现代评论》曾说他治哲学史的方法是惟一无二的路，凡同他不同的都会失败。我从前曾想抱尝试的精神，怀疑的态度，去读哲学，因为胡先生说过真理不是绝对的，中间很有商量余地，所以打算舍胡先生的大道而不由，另找个羊肠小道来。现在给胡先生这么当头棒喝，只好摆开梦想，摇一下头 —— 看还在没有。总之在旁边窥伺我们的头者，大有人在，所以我暑假间赶紧离开学府，万里奔波，回家来好好保养这六斤四的头。</p>
-<p>所以 “还我头来” 是我的口号，我以后也只愿说几句自己确实明白了解的话，不去高攀，谈什么问题主义，免得跌重。说的话自然平淡凡庸或者反因为它的平淡凡庸而深深地表现出我的性格，因为平淡凡庸的话只有我这鲁拙的人，才能够说出的。无论如何总不至于失掉了头。</p>
-<p>末了，让我抄几句 Amauld 在 Port-Royal Logic 里面的话，来做结束罢。</p>
-<p>“我们太容易将理智只当做求科学智识的工具，实在我们应该用科学来做完成我们理智的工具；思想的正确是比我们由最有根据的科学所得来一切的智识都要紧得多。”</p>
-<p>中国普通一般自命为名士才子之流，到了风景清幽地方，一定照例他说若使能够在此读书，才是不辜负此生。由这点就可看出他们是不能真真鉴赏山水的美处。读书是一件乐事，游山玩水也是一件乐事。若使当读书时候，一心想什么飞瀑松声绝崖远眺，我们相信他读书趣味一定不浓厚，同样地若使当看到好风景时候，不将一己投到自然怀中，热烈领会生存之美，却来排名士架子，说出不冷不热的套话，我们也知道他实在不能够吸收自然无限的美。我一想到这事，每每记起英国大诗人 Chaucer 的几行诗 (这几行是我深信能懂的，其余文字太古了，实在不知道清楚)。他说：</p>
-<p>“When that the montheof MayIscomen, and that I here the foules  synge, And that the floures gynnen forto sprynge, Farurl my boke and my  devocon.” Legende of Good Women.</p>
-<p>大意是当五月来的时候，我听到鸟唱，花也渐渐为春天开，我就向我的书籍同宗教告别了。要有这样的热诚才能得真正的趣味。</p>
-<p>徐旭生先生说中国人缺乏 enthusiasm，这句话真值得一百圈。实在中国人不止对重要事没有 enthusiasm，就是关于游戏也是取一种逢场作戏随便玩玩的态度，对于一切娱乐事情总没有什么无限的兴味。闭口消遣，开口销愁，全失丢人生的乐趣，因为人生乐趣多存在对于一切零碎事物普通游戏感觉无穷的趣味。要常常使生活活泼生姿，一定要对极微末的娱乐也全心一意地看重，热烈地将一己忘掉在里头。比如要谈天，那么就老老实实说心中自己的话，不把通常流俗的意见，你说过来，我答过去地敷衍。这样子谈天也有真趣，不至象刻板文章，然而多数人谈天总是一副皮面话，听得真使人难过。关于说到这点的文章，我最爱读兰姆 (Lamb) 的 Mrs. Battle’s opinions on  Whist。那是一篇游戏的福音，可惜文字太妙了，不敢动笔翻译。再抄一句直腿者流的话来说明我的鄙见罢。AC．Berson 在 From a  CollegeWirdcw 里说：</p>
-<p>“一个人对于游戏的态度愈是郑重，游戏就越会有趣。”</p>
-<p>因为我们对于一切都是有些麻木，所以每回游玩山水，只好借几句陈语来遮饰我们心理的空虚。为维持面子的缘故，渐渐造成虚伪的习惯，所以智识阶级特别多伪君子，也因为他们对面子特别看重。他们既然对自然对人情不能够深切地欣赏，只好将快乐全放在淫欲虚荣权力钱财这方面。这总是不知生活术的结果。</p>
-<p>有人说，我们向文学求我们自己所缺的东西，这自然是主张浪漫派人的说法，可是也有些道理。我们若使不是麻木不仁，对于自己缺点总特别深切地感觉。所以对没有缺点的人常有过量的赞美，而对于有同一缺点的人，反不能加以原谅。Turgeniev 自己意志薄弱，是 Hamlet 一流人物，他的小说描写当时俄国智识阶级意志薄弱也特别动人。Hazlitt 自己脾气极坏，可是对心性慈悲什么事也不计较的  Goldsmith 却啧啧称美。朋友的结合，因为二人同心一意虽多，而因为性质正相反也不少。为的各有缺点各有优点，并且这个所没有的那个有，那个自己惭愧所少的，这个又有，所以互相吸引力特别重。心思精密的管仲同性情宽大的鲍叔，友谊特别重；拘谨守礼的 Addison 和放荡不羁的 Steele，厚重老成的 Southey，和吃大烟什么也不管的  Coleridge 也都是性情相背，居然成历史上有名友谊的榜样。老先生们自己道德一塌糊涂，却口口声声说道德，或者也是因为自己缺乏，所以特别觉得重要。我相信天下没有那么多伪君子，无非是无意中行为同口说的矛盾罢了。</p>
-<p>我相信真真了解下层社会情形的作家，不会费笔墨去写他们物质生活的艰苦，却去描写他们生活的单调，精神奴化的经过，命定的思想，思想的迟钝，失望的麻木，或者反抗的精神，蔑视一切的勇气，穷里寻欢，泪中求笑的心情。不过这种细密精致的地方，不是亲身尝过的人像 Dostoievski，Gorki 不能够说出，出身纨袴的青年文学家，还是扯开仁人君子的假面，讲几句真话罢！</p>
-<p>因为人是人，所以我们总觉人比事情要紧，在小说里描状个人性格的比专述事情的印象会深得多。这是一件非常明显的事，然而近来所看的短篇小说多是叙一两段情史，用几十个风花雪月字眼，真使人失望。希望新文豪少顾些结构，多注意点性格。Tolstoy 的《伊凡伊列支之死》，Conrod 的 LordJim 都是没有多少事实的小说，也都是有名的杰作。</p>
-<p>十六年七月六日，于福州。</p>
+<h2 id="背景"><a href="#背景" class="headerlink" title="背景"></a>背景</h2><p>今天上午，我在组会结束以后留下来跟导师说推荐信的事，之后我们聊了一些关于研究生的话题，其中就有我导师对读硕与直博的看法。听完后我感觉受益颇多，便想写一篇博文记录此事。<spam class="heimu">（翻译：水文章）</spam></p>
+<h2 id="讨论"><a href="#讨论" class="headerlink" title="讨论"></a>讨论</h2><h3 id="薪资"><a href="#薪资" class="headerlink" title="薪资"></a>薪资</h3><p>对于硕士生与博士生的区别，导师首先说最直观的是薪资待遇：像是之前实验室的一位硕士学长，在春招的时候拿的 offer 大概是 40 万左右一年<spam class="heimu">（但愿他今年能顺利毕业）</spam>；而另一位带过我的博士，她研究的是数字图像传输（大概是这么描述），拿的 offer 年薪是 48 万左右；而我们专业本科出去以后的年薪能有 15 万就谢天谢地了。</p>
+<p>导师说，就薪水来看，其实读硕士还是博士差别不大的，一般还是认为硕士生的性价比更高。</p>
+<p>“那硕士生与博士生相比，企业是否会更偏好于博士呢？”我问导师，“因为我看到现在社会上，好多本来是本科生做的工作，都被硕士生占走了，如果自己硕士文凭与别人博士面同一份工作，那会不会也出现这样的情况呢？”</p>
+<p>不会，他说，之前提到的“硕士性价比高”不仅对学生来说是这样，对企业而言也是如此，因为硕士生更便宜，同样的事情，硕士生能做何必要找更昂贵的博士生呢？</p>
+<h3 id="系统与部分"><a href="#系统与部分" class="headerlink" title="系统与部分"></a>系统与部分</h3><p>另一方面，是因为硕士生相比本科生，能负责构建整个系统，而博士生一般是负责系统中的某一个部分。</p>
+<p>导师说，硕士在企业中一般就与同事一组，开发整个项目，负责这个系统的方方面面；但博士生一般是做某一部分的优化。比如说，项目组的几个硕士在一起鼓捣了俩月，整出来个低功耗节点组网的传输系统，而博士做的主要是研究如何将原来每天一瓦的功耗降低至零点七瓦，或者将传输过程中的误码率从 10^(-6) 降低到 10^(-7)。由此可见，博士一般不会去构建整个系统，而是专注于优化系统的性能，将某一方面提升到极致。</p>
+<h3 id="团体与个人"><a href="#团体与个人" class="headerlink" title="团体与个人"></a>团体与个人</h3><p>其实，由导师在上面举的例子，我们还能够看出来，硕士生大多是一伙做事，博士生则常常是单枪匹马的。</p>
+<p>就比如我那位吊儿郎当的师兄，他毕业设计的系统也是与另一位同级的师兄，和两个研一的师兄共同完成的（都算是老师布置的活儿），而师兄的毕业答辩也是针对整个系统的。而另一位博士学姐，常常都是一个人在那边看论文、跑代码，很少看到她与其他的博士一起做一件事。</p>
+<p>本来以前没觉得这样有什么不对，跟导师聊了一后才发现这之中的联系……</p>
+<h3 id="专硕与学硕"><a href="#专硕与学硕" class="headerlink" title="专硕与学硕"></a>专硕与学硕</h3><p>后来，我又问了关于我们学院专硕与学硕的事，因为我在研究生招生简章里这两栏后都看到了导师的名字。</p>
+<p>导师说实际上他们没什么不同。他说，在我们学院，这两个实际上都是同一种，只是名字不同罢了，就比如专硕的课程叫通信 I，学硕的叫通信 II这样，而内容都是一样的。他还补充道，学校之所以还区分这两种，一方面是历史遗留问题，另一方面可能是因为在北方的一些省份，仍然认为专硕还是像以前那样，只读两年。</p>
+<p>不过，专硕学硕也并不是一点区别也没有。就像我们专业分数是有大小年之分的，录取分一年学硕高一年专硕高，例如今年学硕的平均分是 380+，而专硕的平均分高达 402，给大伙儿看傻了都。</p>
+<h2 id="结论"><a href="#结论" class="headerlink" title="结论"></a>结论</h2><p>导师在最后说，读博应该是一个与高考择校一样重要的人生决定，不能随随便便就定下来了。如果读博的意志并不是十分的坚定，他都建议先读一年硕士，再从长计议。</p>
+<p>大概就是这些了，如果大家对此有什么想法，欢迎大家留言与我交流喔！</p>
 ]]></content>
       <categories>
-        <category>叶子的摘录</category>
+        <category>叶子的碎碎念</category>
       </categories>
       <tags>
-        <tag>摘录</tag>
-        <tag>梁遇春</tag>
-        <tag>散文</tag>
+        <tag>博文</tag>
+        <tag>学业</tag>
+        <tag>杂思</tag>
+        <tag>未来</tag>
+        <tag>读研</tag>
       </tags>
   </entry>
   <entry>
@@ -2511,48 +3074,6 @@ x_1(t)*x_2(t) &amp;&#x3D; &#123;\int_&#123;-\infty&#125;^&#123;+\infty&#125;&#12
         <tag>杂思</tag>
         <tag>考研</tag>
         <tag>简记</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>【摘录】无声的中国</title>
-    <url>/2022/05/31/the-silence-of-china/</url>
-    <content><![CDATA[<p><em>作者：鲁迅</em></p>
-<p><em>鲁迅文集・杂文集・三闲集①</em><br><em>一九二七年二月十六日在香港青年会②讲</em></p>
-<blockquote>
-<p>我在写下个月计划、查阅鲁迅某话来源时，读到了这篇文章，感受到了前人的精神气，就摘录在这里了。</p>
-</blockquote>
-<span id="more"></span>
-
-<h2 id="演讲正文"><a href="#演讲正文" class="headerlink" title="演讲正文"></a>演讲正文</h2><p>以我这样没有什么可听的无聊的讲演，又在这样大雨的时候，竟还有这许多来听的诸君，我首先应当声明我的郑重的感谢！</p>
-<p>我现在所讲的题目是：《无声的中国》。</p>
-<p>现在，浙江，陕西，都在打仗③，那里的人民哭着呢？还是笑着呢？我们不知道。香港似乎很太平，住在这里的中国人，舒服呢？还是不很舒服呢？别人也不知道。</p>
-<p>发表自己的思想、感情给大家知道的，是要用文章的。然而拿文章来达意，现在一般的中国人还做不到，这也怪不得我们。因为那文字，先就是我们的祖先留传给我们的可怕的遗产。人们费了多年的工夫，还是难于运用。因为难，许多人便不理它了，甚至于连自己的姓，也写不清是「张」还是「章」，或者简直不会写，或者说道：Chang。虽然能说话，而只有几个人听到，远处的人们便不知道，结果也等于无声。又因为难，有些人便当作宝贝，像玩把戏似的，之乎者也，只有几个人懂，──其实是不知道可真懂，而大多数的人们却不懂得，结果也等于无声。</p>
-<p>文明人和野蛮人的分别，其一，是文明人有文字，能够把他们的思想，感情，藉此传给大众，传给将来。中国虽然有文字，现在却已经和大家不相干，用的是难懂的古文，讲的是陈旧的古意思，所有的声音，都是过去的，都就是只等于零的。所以，大家不能互相了解，正像一大盘散沙。</p>
-<p>将文章当作古董，以不能使人认识，使人懂得为好，也许是有趣的事罢。但是，结果怎样呢？是我们已经不能将我们想说的话说出来。我们受了损害，受了侮辱，总是不能说出些应说的话。拿最近的事情来说，如中日战争④，拳匪事件，民元革命这些大事件，一直到现在，我们可有一部像样的著作？民国以来，也还是谁也不作声。反而在外国，倒常有说起中国的，但那都不是中国人自己的声音，是别人的声音。</p>
-<p>这不能说话的毛病，在明朝是还没有这样厉害的；他们还比较地能够说些要说的话。待到满洲人以异族侵入中国，讲历史的，尤其是讲宋末的事情的人被杀害了，讲时事的自然也被杀害了。所以，到乾隆年间，人民大家便更不敢用文章来说话了。所谓读书人，便只好躲起来读经，校刊古书，做些古时的文章，和当时毫无关系的文章。有些新意，也还是不行的；不是学韩，便是学苏。韩愈苏轼他们，用他们自己的文章来说当时要说的话，那当然可以的。我们却并非唐宋时人，怎么做和我们毫无关系的时候的文章呢。即使做得像，也是唐宋时代的声音，韩愈苏轼的声音，而不是我们现代的声音。然而直到现在，中国人却还耍着这样的旧戏法。人是有的，没有声音，寂寞得很。──人会没有声音的么？没有，可以说，是死了。倘要说得客气一点，那就是：已经哑了。</p>
-<p>要恢复这多年无声的中国，是不容易的，正如命令一个死掉的人道：「你活过来！」我虽然并不懂得宗教，但我以为正如想出现一个宗教上之所谓「奇迹」一样。</p>
-<p>首先，来尝试这工作的是「五・四运动」前一年，胡适之先生所提倡的「文学革命」④。「革命」这两个字，在这里不知道可害怕，有些地方是一听到就害怕的。但这和文学两字连起来的「革命」，却没有法国革命的「革命」那么可怕，不过是革新，改换一个字，就很平和了，我们就称为「文学革新」罢，中国文字上，这样的花样是很多的。那大意也并不可怕，不过说：我们不必再去费尽心机，学说古代的死人的话，要说现代的活人的话；不要将文章看作古董，要做容易懂得的白话的文章。然而，单是文学革新是不够的，因为腐败思想，能用古文做，也能用白话做。所以后来就有人提倡思想革新。思想革新的结果，是发生社会革新运动。这运动一发生，自然一面就发生反动，于是便酿成战斗……。</p>
-<p>但是，在中国，刚刚提起文学革新，就有反动了。不过白话文却渐渐风行起来，不大受阻碍。这是怎么一回事呢？就因为当时又有钱玄同先生⑤提倡废止汉字，用罗马字母来替代。这本也不过是一种文字革新，很平常的，但被不喜欢改革的中国人听见，就大不得了了，于是便放过了比较的平和的文学革命，而竭力来骂钱玄同。白话乘了这一个机会，居然减去了许多敌人，反而没有阻碍，能够流行了。</p>
-<p>中国人的性情是总喜欢调和，折中的。譬如你说，这屋子太暗，须在这里开一个窗，大家一定不允许的。但如果你主张拆掉屋顶，他们就会来调和，愿意开窗了。没有更激烈的主张，他们总连平和的改革也不肯行。那时白话文之得以通行，就因为有废掉中国字而用罗马字母的议论的缘故。</p>
-<p>其实，文言和白话的优劣的讨论，本该早已过去了，但中国是总不肯早早解决的，到现在还有许多无谓的议论。例如，有的说：古文各省人都能懂，白话就各处不同，反而不能互相了解了。殊不知这只要教育普及和交通发达就好，那时就人人都能懂较为易解的白话文；至于古文，何尝各省人都能懂，便是一省里，也没有许多人懂得的。有的说：如果都用白话文，人们便不能看古书，中国的文化就灭亡了。其实呢，现在的人们大可以不必看古书，即使古书里真有好东西，也可以用白话来译出的，用不着那么心惊胆战。他们又有人说，外国尚且译中国书，足见其好，我们自己倒不看么？殊不知埃及的古书，外国人也译，非洲黑人的神话，外国人也译，他们别有用意，即使译出，也算不了怎样光荣的事的。近来还有一种说法，是思想革新紧要，文字改革倒在其次，所以不如用浅显的文言来作新思想的文章，可以少招一重反对。这话似乎也有理。然而我们知道，连他长指甲都不肯剪去的人，是决不肯剪去他的辫子的。</p>
-<p>因为我们说着古代的话，说着大家不明白，不听见的话，已经弄得像一盘散沙，痛痒不相关了。我们要活过来，首先就须由青年们不再说孔子、孟子和韩愈、柳宗元们的话。时代不同，情形也两样，孔子时代的香港不这样，孔子口调的「香港论」是无从做起的，「吁嗟阔哉香港也」，不过是笑话。</p>
-<p>我们要说现代的，自己的话；用活着的白话，将自己的思想，感情直白地说出来。但是，这也要受前辈先生非笑的。他们说白话文卑鄙，没有价值；他们说年青人作品幼稚，贻笑大方。我们中国能做文言的有多少呢？其余的都只能说白话，难道这许多中国人，就都是卑鄙，没有价值的么？至于幼稚，尤其没有什么可羞，正如孩子对于老人，毫没有什么可羞一样。幼稚是会生长，会成熟的，只不要衰老，腐败，就好。倘说待到纯熟了才可以动手，那是虽是村妇也不至于这样蠢。她的孩子学走路，即使跌倒了，她决不至于叫孩子从此躺在床上，待到学会了走法再下地面来的。</p>
-<p>青年们先可以将中国变成一个有声的中国。大胆地说话，勇敢地进行，忘掉了一切利害，推开了古人，将自己的真心的话发表出来。──真，自然是不容易的。譬如态度，就不容易真，讲演时候就不是我的真态度，因为我对朋友，孩子说话时候的态度是不这样的。──但总可以说些较真的话，发些较真的声音。只有真的声音，才能感动中国的人和世界的人；必须有了真的声音，才能和世界的人同在世界上生活。</p>
-<p>我们试想，现在没有声音的民族，是哪几种民族。我们可听到埃及人的声音？可听到安南、朝鲜的声音？印度除了泰戈尔，别的声音可还有？</p>
-<p>我们此后实在只有两条路：一是抱着古文而死掉，一是舍掉古文而生存。</p>
-<h2 id="一些注释"><a href="#一些注释" class="headerlink" title="一些注释"></a>一些注释</h2><p>①本篇最初刊于香港报纸（报纸名称及日期未详），一九二七年三月二十三日汉口《中央日报》副刊转载。据《鲁迅日记》，这篇讲演作于二月十八日。</p>
-<p>②青年会：即基督教青年会，基督教进行社会文化活动的机构之一。</p>
-<p>③这里说的浙江陕西在打仗，指一九二六年末至一九二七年初北洋军阀孙传芳在浙江进攻与广州国民政府有联系的陈仪、周凤歧等部，和一九二六年十二月冯玉祥所部国民军在陕西反对北洋军阀吴佩孚的战争。</p>
-<p>④这里所说他提倡「文学革命」，是指他在《新青年》杂志第四卷第四号（一九一八年四月）上发表的《建设的文学革命论》一文。</p>
-<p>⑤钱玄同（1887─1939）：浙江吴兴人，文字学家，「五四」时期新文化运动的积极参加者。他在一九一八年一月《新青年》第四卷第一号《论注音字母》一文中以过，「高等字典和中学以上的高深书籍，都应该用罗马字母记音」；在同年四月《新青年》第四卷第四号《中国今后之文字问题》的「通信」中，提出「废灭汉文」，代以世界语的主张。</p>
-]]></content>
-      <categories>
-        <category>叶子的摘录</category>
-      </categories>
-      <tags>
-        <tag>摘录</tag>
-        <tag>鲁迅</tag>
-        <tag>演讲</tag>
       </tags>
   </entry>
   <entry>
@@ -3346,36 +3867,45 @@ Details
       </tags>
   </entry>
   <entry>
-    <title>读硕还是直博，这是个问题</title>
-    <url>/2022/05/18/question-of-graduate-student/</url>
-    <content><![CDATA[<p><img src="/images/question-of-graduate-student/cover.jpg" width="400" alt="cover" / loading="lazy"><em>图文无关…… 或许是吧</em></p>
+    <title>【摘录】无声的中国</title>
+    <url>/2022/05/31/the-silence-of-china/</url>
+    <content><![CDATA[<p><em>作者：鲁迅</em></p>
+<p><em>鲁迅文集・杂文集・三闲集①</em><br><em>一九二七年二月十六日在香港青年会②讲</em></p>
+<blockquote>
+<p>我在写下个月计划、查阅鲁迅某话来源时，读到了这篇文章，感受到了前人的精神气，就摘录在这里了。</p>
+</blockquote>
 <span id="more"></span>
 
-<h2 id="背景"><a href="#背景" class="headerlink" title="背景"></a>背景</h2><p>今天上午，我在组会结束以后留下来跟导师说推荐信的事，之后我们聊了一些关于研究生的话题，其中就有我导师对读硕与直博的看法。听完后我感觉受益颇多，便想写一篇博文记录此事。<spam class="heimu">（翻译：水文章）</spam></p>
-<h2 id="讨论"><a href="#讨论" class="headerlink" title="讨论"></a>讨论</h2><h3 id="薪资"><a href="#薪资" class="headerlink" title="薪资"></a>薪资</h3><p>对于硕士生与博士生的区别，导师首先说最直观的是薪资待遇：像是之前实验室的一位硕士学长，在春招的时候拿的 offer 大概是 40 万左右一年<spam class="heimu">（但愿他今年能顺利毕业）</spam>；而另一位带过我的博士，她研究的是数字图像传输（大概是这么描述），拿的 offer 年薪是 48 万左右；而我们专业本科出去以后的年薪能有 15 万就谢天谢地了。</p>
-<p>导师说，就薪水来看，其实读硕士还是博士差别不大的，一般还是认为硕士生的性价比更高。</p>
-<p>“那硕士生与博士生相比，企业是否会更偏好于博士呢？”我问导师，“因为我看到现在社会上，好多本来是本科生做的工作，都被硕士生占走了，如果自己硕士文凭与别人博士面同一份工作，那会不会也出现这样的情况呢？”</p>
-<p>不会，他说，之前提到的“硕士性价比高”不仅对学生来说是这样，对企业而言也是如此，因为硕士生更便宜，同样的事情，硕士生能做何必要找更昂贵的博士生呢？</p>
-<h3 id="系统与部分"><a href="#系统与部分" class="headerlink" title="系统与部分"></a>系统与部分</h3><p>另一方面，是因为硕士生相比本科生，能负责构建整个系统，而博士生一般是负责系统中的某一个部分。</p>
-<p>导师说，硕士在企业中一般就与同事一组，开发整个项目，负责这个系统的方方面面；但博士生一般是做某一部分的优化。比如说，项目组的几个硕士在一起鼓捣了俩月，整出来个低功耗节点组网的传输系统，而博士做的主要是研究如何将原来每天一瓦的功耗降低至零点七瓦，或者将传输过程中的误码率从 10^(-6) 降低到 10^(-7)。由此可见，博士一般不会去构建整个系统，而是专注于优化系统的性能，将某一方面提升到极致。</p>
-<h3 id="团体与个人"><a href="#团体与个人" class="headerlink" title="团体与个人"></a>团体与个人</h3><p>其实，由导师在上面举的例子，我们还能够看出来，硕士生大多是一伙做事，博士生则常常是单枪匹马的。</p>
-<p>就比如我那位吊儿郎当的师兄，他毕业设计的系统也是与另一位同级的师兄，和两个研一的师兄共同完成的（都算是老师布置的活儿），而师兄的毕业答辩也是针对整个系统的。而另一位博士学姐，常常都是一个人在那边看论文、跑代码，很少看到她与其他的博士一起做一件事。</p>
-<p>本来以前没觉得这样有什么不对，跟导师聊了一后才发现这之中的联系……</p>
-<h3 id="专硕与学硕"><a href="#专硕与学硕" class="headerlink" title="专硕与学硕"></a>专硕与学硕</h3><p>后来，我又问了关于我们学院专硕与学硕的事，因为我在研究生招生简章里这两栏后都看到了导师的名字。</p>
-<p>导师说实际上他们没什么不同。他说，在我们学院，这两个实际上都是同一种，只是名字不同罢了，就比如专硕的课程叫通信 I，学硕的叫通信 II这样，而内容都是一样的。他还补充道，学校之所以还区分这两种，一方面是历史遗留问题，另一方面可能是因为在北方的一些省份，仍然认为专硕还是像以前那样，只读两年。</p>
-<p>不过，专硕学硕也并不是一点区别也没有。就像我们专业分数是有大小年之分的，录取分一年学硕高一年专硕高，例如今年学硕的平均分是 380+，而专硕的平均分高达 402，给大伙儿看傻了都。</p>
-<h2 id="结论"><a href="#结论" class="headerlink" title="结论"></a>结论</h2><p>导师在最后说，读博应该是一个与高考择校一样重要的人生决定，不能随随便便就定下来了。如果读博的意志并不是十分的坚定，他都建议先读一年硕士，再从长计议。</p>
-<p>大概就是这些了，如果大家对此有什么想法，欢迎大家留言与我交流喔！</p>
+<h2 id="演讲正文"><a href="#演讲正文" class="headerlink" title="演讲正文"></a>演讲正文</h2><p>以我这样没有什么可听的无聊的讲演，又在这样大雨的时候，竟还有这许多来听的诸君，我首先应当声明我的郑重的感谢！</p>
+<p>我现在所讲的题目是：《无声的中国》。</p>
+<p>现在，浙江，陕西，都在打仗③，那里的人民哭着呢？还是笑着呢？我们不知道。香港似乎很太平，住在这里的中国人，舒服呢？还是不很舒服呢？别人也不知道。</p>
+<p>发表自己的思想、感情给大家知道的，是要用文章的。然而拿文章来达意，现在一般的中国人还做不到，这也怪不得我们。因为那文字，先就是我们的祖先留传给我们的可怕的遗产。人们费了多年的工夫，还是难于运用。因为难，许多人便不理它了，甚至于连自己的姓，也写不清是「张」还是「章」，或者简直不会写，或者说道：Chang。虽然能说话，而只有几个人听到，远处的人们便不知道，结果也等于无声。又因为难，有些人便当作宝贝，像玩把戏似的，之乎者也，只有几个人懂，──其实是不知道可真懂，而大多数的人们却不懂得，结果也等于无声。</p>
+<p>文明人和野蛮人的分别，其一，是文明人有文字，能够把他们的思想，感情，藉此传给大众，传给将来。中国虽然有文字，现在却已经和大家不相干，用的是难懂的古文，讲的是陈旧的古意思，所有的声音，都是过去的，都就是只等于零的。所以，大家不能互相了解，正像一大盘散沙。</p>
+<p>将文章当作古董，以不能使人认识，使人懂得为好，也许是有趣的事罢。但是，结果怎样呢？是我们已经不能将我们想说的话说出来。我们受了损害，受了侮辱，总是不能说出些应说的话。拿最近的事情来说，如中日战争④，拳匪事件，民元革命这些大事件，一直到现在，我们可有一部像样的著作？民国以来，也还是谁也不作声。反而在外国，倒常有说起中国的，但那都不是中国人自己的声音，是别人的声音。</p>
+<p>这不能说话的毛病，在明朝是还没有这样厉害的；他们还比较地能够说些要说的话。待到满洲人以异族侵入中国，讲历史的，尤其是讲宋末的事情的人被杀害了，讲时事的自然也被杀害了。所以，到乾隆年间，人民大家便更不敢用文章来说话了。所谓读书人，便只好躲起来读经，校刊古书，做些古时的文章，和当时毫无关系的文章。有些新意，也还是不行的；不是学韩，便是学苏。韩愈苏轼他们，用他们自己的文章来说当时要说的话，那当然可以的。我们却并非唐宋时人，怎么做和我们毫无关系的时候的文章呢。即使做得像，也是唐宋时代的声音，韩愈苏轼的声音，而不是我们现代的声音。然而直到现在，中国人却还耍着这样的旧戏法。人是有的，没有声音，寂寞得很。──人会没有声音的么？没有，可以说，是死了。倘要说得客气一点，那就是：已经哑了。</p>
+<p>要恢复这多年无声的中国，是不容易的，正如命令一个死掉的人道：「你活过来！」我虽然并不懂得宗教，但我以为正如想出现一个宗教上之所谓「奇迹」一样。</p>
+<p>首先，来尝试这工作的是「五・四运动」前一年，胡适之先生所提倡的「文学革命」④。「革命」这两个字，在这里不知道可害怕，有些地方是一听到就害怕的。但这和文学两字连起来的「革命」，却没有法国革命的「革命」那么可怕，不过是革新，改换一个字，就很平和了，我们就称为「文学革新」罢，中国文字上，这样的花样是很多的。那大意也并不可怕，不过说：我们不必再去费尽心机，学说古代的死人的话，要说现代的活人的话；不要将文章看作古董，要做容易懂得的白话的文章。然而，单是文学革新是不够的，因为腐败思想，能用古文做，也能用白话做。所以后来就有人提倡思想革新。思想革新的结果，是发生社会革新运动。这运动一发生，自然一面就发生反动，于是便酿成战斗……。</p>
+<p>但是，在中国，刚刚提起文学革新，就有反动了。不过白话文却渐渐风行起来，不大受阻碍。这是怎么一回事呢？就因为当时又有钱玄同先生⑤提倡废止汉字，用罗马字母来替代。这本也不过是一种文字革新，很平常的，但被不喜欢改革的中国人听见，就大不得了了，于是便放过了比较的平和的文学革命，而竭力来骂钱玄同。白话乘了这一个机会，居然减去了许多敌人，反而没有阻碍，能够流行了。</p>
+<p>中国人的性情是总喜欢调和，折中的。譬如你说，这屋子太暗，须在这里开一个窗，大家一定不允许的。但如果你主张拆掉屋顶，他们就会来调和，愿意开窗了。没有更激烈的主张，他们总连平和的改革也不肯行。那时白话文之得以通行，就因为有废掉中国字而用罗马字母的议论的缘故。</p>
+<p>其实，文言和白话的优劣的讨论，本该早已过去了，但中国是总不肯早早解决的，到现在还有许多无谓的议论。例如，有的说：古文各省人都能懂，白话就各处不同，反而不能互相了解了。殊不知这只要教育普及和交通发达就好，那时就人人都能懂较为易解的白话文；至于古文，何尝各省人都能懂，便是一省里，也没有许多人懂得的。有的说：如果都用白话文，人们便不能看古书，中国的文化就灭亡了。其实呢，现在的人们大可以不必看古书，即使古书里真有好东西，也可以用白话来译出的，用不着那么心惊胆战。他们又有人说，外国尚且译中国书，足见其好，我们自己倒不看么？殊不知埃及的古书，外国人也译，非洲黑人的神话，外国人也译，他们别有用意，即使译出，也算不了怎样光荣的事的。近来还有一种说法，是思想革新紧要，文字改革倒在其次，所以不如用浅显的文言来作新思想的文章，可以少招一重反对。这话似乎也有理。然而我们知道，连他长指甲都不肯剪去的人，是决不肯剪去他的辫子的。</p>
+<p>因为我们说着古代的话，说着大家不明白，不听见的话，已经弄得像一盘散沙，痛痒不相关了。我们要活过来，首先就须由青年们不再说孔子、孟子和韩愈、柳宗元们的话。时代不同，情形也两样，孔子时代的香港不这样，孔子口调的「香港论」是无从做起的，「吁嗟阔哉香港也」，不过是笑话。</p>
+<p>我们要说现代的，自己的话；用活着的白话，将自己的思想，感情直白地说出来。但是，这也要受前辈先生非笑的。他们说白话文卑鄙，没有价值；他们说年青人作品幼稚，贻笑大方。我们中国能做文言的有多少呢？其余的都只能说白话，难道这许多中国人，就都是卑鄙，没有价值的么？至于幼稚，尤其没有什么可羞，正如孩子对于老人，毫没有什么可羞一样。幼稚是会生长，会成熟的，只不要衰老，腐败，就好。倘说待到纯熟了才可以动手，那是虽是村妇也不至于这样蠢。她的孩子学走路，即使跌倒了，她决不至于叫孩子从此躺在床上，待到学会了走法再下地面来的。</p>
+<p>青年们先可以将中国变成一个有声的中国。大胆地说话，勇敢地进行，忘掉了一切利害，推开了古人，将自己的真心的话发表出来。──真，自然是不容易的。譬如态度，就不容易真，讲演时候就不是我的真态度，因为我对朋友，孩子说话时候的态度是不这样的。──但总可以说些较真的话，发些较真的声音。只有真的声音，才能感动中国的人和世界的人；必须有了真的声音，才能和世界的人同在世界上生活。</p>
+<p>我们试想，现在没有声音的民族，是哪几种民族。我们可听到埃及人的声音？可听到安南、朝鲜的声音？印度除了泰戈尔，别的声音可还有？</p>
+<p>我们此后实在只有两条路：一是抱着古文而死掉，一是舍掉古文而生存。</p>
+<h2 id="一些注释"><a href="#一些注释" class="headerlink" title="一些注释"></a>一些注释</h2><p>①本篇最初刊于香港报纸（报纸名称及日期未详），一九二七年三月二十三日汉口《中央日报》副刊转载。据《鲁迅日记》，这篇讲演作于二月十八日。</p>
+<p>②青年会：即基督教青年会，基督教进行社会文化活动的机构之一。</p>
+<p>③这里说的浙江陕西在打仗，指一九二六年末至一九二七年初北洋军阀孙传芳在浙江进攻与广州国民政府有联系的陈仪、周凤歧等部，和一九二六年十二月冯玉祥所部国民军在陕西反对北洋军阀吴佩孚的战争。</p>
+<p>④这里所说他提倡「文学革命」，是指他在《新青年》杂志第四卷第四号（一九一八年四月）上发表的《建设的文学革命论》一文。</p>
+<p>⑤钱玄同（1887─1939）：浙江吴兴人，文字学家，「五四」时期新文化运动的积极参加者。他在一九一八年一月《新青年》第四卷第一号《论注音字母》一文中以过，「高等字典和中学以上的高深书籍，都应该用罗马字母记音」；在同年四月《新青年》第四卷第四号《中国今后之文字问题》的「通信」中，提出「废灭汉文」，代以世界语的主张。</p>
 ]]></content>
       <categories>
-        <category>叶子的碎碎念</category>
+        <category>叶子的摘录</category>
       </categories>
       <tags>
-        <tag>博文</tag>
-        <tag>学业</tag>
-        <tag>杂思</tag>
-        <tag>未来</tag>
-        <tag>读研</tag>
+        <tag>摘录</tag>
+        <tag>鲁迅</tag>
+        <tag>演讲</tag>
       </tags>
   </entry>
   <entry>
