@@ -1,6 +1,86 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>给博客一个新名字！</title>
+    <url>/2022/03/29/Give-my-blog-a-new-name/</url>
+    <content><![CDATA[<p><img src="/images/Give-my-blog-a-new-name/cover.JPG" alt="cover" loading="lazy"><em>封面图来自国人画师 <a href="https://www.pixiv.net/users/4741933">Qswan</a>，大家可以去Pixiv上关注他喔！</em></p>
+<blockquote>
+<p>之所以选择独立域名，不仅仅是为了逼格… 可玩性比较高，几乎没有限制。咱可以玩玩子域名，哪天搞出来一个 love.bennythink.com 表白多好玩嘛。</p>
+<p>——<a href="https://dmesg.app/reason-of-this-blog.html">《为什么我要写独立域名的博客》</a>，<strong>Benny 小土豆</strong></p>
+</blockquote>
+<span id="more"></span>
+
+<h2 id="TL-DR"><a href="#TL-DR" class="headerlink" title="TL;DR"></a>TL;DR</h2><p>这里是太长不看版：</p>
+<p>在咕咕咕整整一年半以后，我终于给了博客一个真正的名字，写下了一些杂文，顺便也整理了一份相关的教程，希望能为还没有购买过域名的同学提供帮助，作一点小小的参考。</p>
+<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>很长时间都没有写博客了，说起来惭愧。其实这段时间里倒是写了好几篇文章，但有时事情变得太快，在文章写完之前那些事情就已经变得面目全非了；或者写的内容都是比较私密的事情，只是给以后的自己一个人看，也不好意思发出来；又或者某天晚上在电脑前洋洋洒洒地写了一大篇，后来却一直没写完，最后它们就坑掉了。</p>
+<p>额…… 好吧，我承认，上面的文字全都是我后来找的借口，我还是太懒了，另外还患有怕麻烦与拖延症晚期的病：比如博客的域名，来来回回十八个月，我一直都没有去管。</p>
+<p><img src="/images/Give-my-blog-a-new-name/mess_around.jpg" alt="mess_around" loading="lazy"><em>I have messed around that time.</em></p>
+<p>而现在，我又想要重新开始写些什么，就计划着来给博客除除草。但在做这些事情之前，为了让她能体面地与其他的博客站在一起，我想要先送给她一个新的名字：一个简短的、富有个性的，以及不再依附于 GitHub&#x2F;Microsoft 的域名。</p>
+<h2 id="域名的选择"><a href="#域名的选择" class="headerlink" title="域名的选择"></a>域名的选择</h2><p><a href="https://mskclover.com/"><em>mskclover.com</em></a>，大家在浏览器的地址栏也看到了，这就是我的新域名。</p>
+<p>其实，最初我也没想到会选择这个名字。等到真正开始做选择的时候，我找到了一年半前存在 One Tab 最底部的网页们，将它们在新窗口打开。当时围绕着 clover 这个网名，我对域名有好多种“绝妙”的想法，可在域名托管商处查询之后，我的心态出现了一丝微妙的变化：为什么那些好的域名在上个世纪就都没了？ <spam class="heimu"><del>（因为生的太晚了）</del></spam> 这下，就只好再想一想，如何在那些被挑剩下的域名中，找到我眼中的漏网之鱼。</p>
+<p>不过，在接着写下去之前，不如让我们先来看看，一个好域名需要具备哪些要素呢？</p>
+<h3 id="如何选择好域名"><a href="#如何选择好域名" class="headerlink" title="如何选择好域名"></a>如何选择好域名</h3><p>现在我们访问一个网站可以有很多种方式：通过书签、历史记录、或者搜索引擎，它们的本质都是使人们能够快速、方便地访问互联网上的某一个 IP 地址。为了方便记忆，IETF 在 1983 年发布了 RFC 882 和 RFC 883，开始以规律的一串字符作为域名，去指代那些没有含义的数字，这就是域名。</p>
+<p>所以，容易被人轻易地记住，是一个优秀域名的必要条件。在2013年，一家新英格兰的电商公司 BOSTON WEB 在他们的 Blog 上，发表了一篇名为 <a href="https://www.getfoundquick.com/5-characteristics-for-having-a-good-domain-name/"><em>5 characteristics for having a good domain name</em></a> 的博文，作者 Giovanna DaPrato 在文中说明了一个好域名的五点特征：</p>
+<blockquote>
+<ol>
+<li>Keep it short &amp; sweet.</li>
+<li>Use easy spelling.</li>
+<li>Have a .com extension.</li>
+<li>Get descriptive.</li>
+<li>Get rid of hyphens and&#x2F;or numbers.</li>
+</ol>
+</blockquote>
+<p>下面我就谈一谈我的理解叭：</p>
+<h4 id="简短又好听-amp-拼写简单-amp-具有描述性"><a href="#简短又好听-amp-拼写简单-amp-具有描述性" class="headerlink" title="简短又好听 &amp; 拼写简单 &amp; 具有描述性"></a>简短又好听 &amp; 拼写简单 &amp; 具有描述性</h4><p>大家都喜欢简短的域名，因为它们总能够能被人轻易记住。不仅在选择域名的时候是这样，在选择公司的热线时也同样如此：</p>
+<p>比如，大家常常津津乐道于美国苹果热线的号码是 1-800-692-7753，只需记住 1-800-MY-APPLE 就可以了；同理，百思买的热线也只需拨 1-888-BEST-BUY 即可；这样的电话号码几乎已经是欧美大公司们的标准配置了。</p>
+<p>所以，域名最好能代表着某种清晰的含义。在我们自己做选择的时候，也要尽量使域名少于 10 个字符。虽然域名中“出现某些具有想象力的词会很有趣”，但一定得避免使用生僻的单词，那样的域名易读性很低，难以通过后文提到的“无线电测试”。并且在保持简短的同时，域名也需要使人一眼就能分辨网站的类型。由于大部分的 <code>“.com”</code> 的短域名都被注册了，所以或许也可以考虑使用其他域名作为结尾，比如<code>“.online”</code>、<code>“.store”</code>、<code>“.ai”</code>和<code>“.tech”</code>等。</p>
+<p>不过，个人博客就不需要考虑这个了，域名当然是越有个性越好啊（</p>
+<h4 id="使用-com-顶级域名"><a href="#使用-com-顶级域名" class="headerlink" title="使用 .com 顶级域名"></a>使用 .com 顶级域名</h4><p>如果大家有兴趣去谷歌 <code>“.com”</code>，除了排在前列的维基百科和域名托管商，接下来一定是大公司们的官网，比如 Apple、Google 和 Amazon。因为在一开始，域名就是为商业、组织和政府网站的用途设计的。最初创建七个通用顶级域名时，甚至还没有 <a href="https://www.icann.org/">ICANN</a> 呢！</p>
+<p><img src="/images/Give-my-blog-a-new-name/domain.jpg" alt="domain" loading="lazy"><em>英文维基百科的<a href="https://en.wikipedia.org/wiki/List_of_Internet_top-level_domains">列表</a></em></p>
+<p>可以看到，最初设计时 <code>“.com”</code> 来自于“商业”的英文 commercial，在随之而来的互联网商业化与公众化的时期，它也顺理成章地成为了数量最多的顶级域。后来在取消注册限制后，<code>“.com”</code> 原本的目的已经无关紧要了，它已经成为了最主要、也是最为流行的顶级域名。</p>
+<p>所以，人们总是习惯于在域名的最后输入 <code>“.com”</code> ，他们也更倾向于假设即将访问的网站<strong>无论如何</strong>都以 <code>“.com”</code> 结尾。如果没有其他的理由，选择这个域名准没有错（但顶级域名相比之下要贵一些）。</p>
+<p>在搜索引擎时代到来以后，有这样一种观点：非<code>“.com”</code>的域名可能会降低网站的 SEO。但我也看到有谷歌的前员工说这并没有影响。至于究竟如何，谷歌没有说，我也不知道。不过，我也并不关注这方面，毕竟目前还是把博客作为一个花园&#x2F;自留地，还不像其他商业网站一样，想排在搜索引擎第一页。</p>
+<p>另外，我之所以选择 <code>“.com”</code>，只是因为我想给博客一个 <code>“.com”</code> 的域名而已，单纯地想做一根年轻的韭菜罢了（</p>
+<h4 id="避免连字符和-x2F-或数字"><a href="#避免连字符和-x2F-或数字" class="headerlink" title="避免连字符和&#x2F;或数字"></a>避免连字符和&#x2F;或数字</h4><p>在人们还喜欢收听收音机的年代，有一个标准叫做“无线电测试”，它的目的是为了能保证公司的名字能够透过无线电波清楚地传播，并使听众快速地记下，好的域名从一开始就是为了这个目的而生的。</p>
+<p>为了能够易读&#x2F;易于口述，在选择域名的时候，都应该避免出现符号与数字。连字符的出现不仅会使域名变得复杂、难以读出，而且也会让这条网址更像是垃圾网站，因为诈骗网站或是垃圾邮件中出现的域名，几乎都用了好些连字符。使用数字，则会让人难以分辨域名中出现的数字是符号还是单词，比如 example6.com 与 examplesix.com，所以数字一般都建议使用字母拼写。</p>
+<p>不过，以上的特征也并不是绝对的，如果是自己用的，那完全不需要考虑这些，让自己开心就好。</p>
+<h3 id="选择困难症"><a href="#选择困难症" class="headerlink" title="选择困难症"></a>选择困难症</h3><p>众所周知，我患有懒癌与晚期拖延症，而且还是一个选择困难症患者。</p>
+<p>我一直都想将我的网名“clover”放进域名，但由这个词汇组成的短域名都已经没有了。我想着博客的中文名，将花园的单词加了进去：clovergarden.com，一看发现是家日本的园艺公司；那我改改，cloversgarden.com 怎么样？原来是家美国的花卉公司；那 cloverssgarden.com 呢？这个倒是没人注册，可这个域名太长了，而且 ss 也总是让我想到纳粹的党卫军（<em>Schutz Staffel</em>），所以也就不考虑了。</p>
+<p>过了一会儿，我想到之前看过一部番：<em>Violet Evergarden</em>，便输入了cloverevergarden.com，这么长的域名果然没有人会选，整整 16 个字母。后来又想了一下，那减少两个字母呢？clovevergarden.com，也没短多少……</p>
+<p>正巧这时一个学长逛街到我旁边，我便拉着他跟我一起想想，给博客取什么域名比较好。他一看上面的那几个，他也人麻了，就没怎么见到过这么长的域名。他想了一下，说你 GitHub 上不是叫 <em>Misaka_Clover</em> 吗？域名要不叫 mskclover 吧。我听罢，觉得这个选择真不错，msk 是 misaka 发音的几个字母，比较好跟别人描述，这部分也只有 9 个字母，至少在 .com 域里算短的了，于是我就选择了 mskclover.com 作为我的博客域名。</p>
+<h2 id="域名申请及-DNS-解析"><a href="#域名申请及-DNS-解析" class="headerlink" title="域名申请及 DNS 解析"></a>域名申请及 DNS 解析</h2><p>就算拥有了新的域名，在兴奋地告诉大家之前，我们还需要在托管商的后台配置 DNS，将域名解析到我们博客的服务器的 IP 地址上，这样我们的网站才可以被互联网上的小伙伴们访问。那我就趁此机会，把整个流程梳理一下吧。虽然网上也有很多相关的教程，但没准多我的一份，就可能会帮助到更多的人，我顺便还能水一篇博文呢！</p>
+<h3 id="域名购买"><a href="#域名购买" class="headerlink" title="域名购买"></a>域名购买</h3><p>在购买域名前，我们需要先选择一家靠谱的域名托管商：在国际上比较为人熟知的有 <a href="https://www.godaddy.com/">GoDaddy</a> 和 <a href="https://www.namecheap.com/">Namecheap</a> 等，国内则可以选择<a href="https://dnspod.cloud.tencent.com/">腾讯云</a>或者<a href="https://cn.aliyun.com/">阿里云</a>。现在的购买流程早就比较懒人化了，各家公司的服务也大差不差，所以下面我们以 Namecheap 为例，快速地过一下吧：</p>
+<p>首先，到托管商的域名搜索页面，输入心仪的域名：</p>
+<p><img src="/images/Give-my-blog-a-new-name/example_1.jpg" alt="example_1" loading="lazy"><em>选择困难症的噩梦</em></p>
+<p>选择好以后，将域名加入【购物车】，然后单击右下角的【结账】，之后会进入定制选择：</p>
+<p><img src="/images/Give-my-blog-a-new-name/example_2.jpg" alt="example_2" loading="lazy"><em>令人眼花缭乱的界面</em></p>
+<p>如果是第一次购买域名的话，这些都是可以不管的，在取消【自动续费】后，就可以点击【确认订单】进入下一步了：</p>
+<p><img src="/images/Give-my-blog-a-new-name/example_3.jpg" alt="example_3" loading="lazy"><em>订单付款页面</em></p>
+<p>在进入付款页面以后，选择一种方式付款就好。恭喜，从现在开始，你拥有了属于自己的域名啦！</p>
+<h3 id="DNS-解析"><a href="#DNS-解析" class="headerlink" title="DNS 解析"></a>DNS 解析</h3><p>虽然域名此时已经是属于自己的了，但直接去访问域名，大概率是访问不了的，因为此时域名并没有被解析到一个有效的 IP 地址。想让域名能跳转到我们的网站，需要在托管商的后台将域名解析到我们网站的 IP 上。</p>
+<p>由于网站目前是基于 Hexo 的静态博客，服务器还是白嫖的 GitHub（或者巨硬），所以我就以这个配置的过程为例，相信在其他情况下的过程也是非常相似的。</p>
+<p>在账户页面的【域名列表】，我们可以看到刚刚购买的域名已经出现在下面了，然后通过最右侧的【管理】按钮进入后台：</p>
+<p><img src="/images/Give-my-blog-a-new-name/example_4.jpg" alt="example_4" loading="lazy"><em>域名列表</em></p>
+<p>接下来，在【高级 DNS 】选项下，我们在【主机记录】下添加如上几条解析记录。A记录将我们的域名解析到服务器的 IPv4 地址上，而 CNAME 更像是一种“别名”，不受主机的 IP 改变的影响。至于它们的具体区别可以参见 Namecheap 写的这篇 <a href="https://www.namecheap.com/support/knowledgebase/subcategory/2237/host-records-setup/"><em>Host records setup</em></a> 。</p>
+<p><img src="/images/Give-my-blog-a-new-name/example_5.jpg" alt="example_5" loading="lazy"><em>高级 DNS 下的主机记录</em></p>
+<p>其实如果是像我一样白嫖 GitHub 的服务器的话，只需要设置 CNAME 就可以了，GitHub 官方也是<a href="https://docs.github.com/cn/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site#configuring-a-subdomain">这样建议</a>的，这里只是向大家展示一下两种常见的设置。在设置 A 类型时，需要在【值】处填入服务器的 IP 地址，这时只需要简单地 ping 一下自己目前网站的域名就可以了：</p>
+<p><img src="/images/Give-my-blog-a-new-name/example_6.jpg" alt="example_6" loading="lazy"><em>终端界面</em></p>
+<p>以上配置完后，接下来到 GitHub Pages 的页面，在 Custom domain 处填上我们为博客准备的新域名，然后点击保存，等待 DNS 验证成功后就好啦。由于托管商处的 DNS 可能需要十分钟到一小时刷新，所以耐心等待即可。</p>
+<p><img src="/images/Give-my-blog-a-new-name/example_7.jpg" alt="example_7" loading="lazy"><em>GitHub Pages 页面</em></p>
+<p>最后，我强烈建议勾选【Enforce HTTPS】的选项，为自己的博客启用 HTTPs 加密协议，保护自己和访客的冲浪安全。</p>
+<h2 id="最后"><a href="#最后" class="headerlink" title="最后"></a>最后</h2><p>对于互联网而言，我的博客有了新的名字，这一切应该告一段落了。但对于我而言，我才刚刚开始重新写博客，更别说博客框架与主题的版本老旧，需要我再次花时间配置，有可能我做着做着就再次鸽掉了是吧（</p>
+<p>无论如何，感谢你读到这里，期待与你在下一篇博文中再会～</p>
+]]></content>
+      <categories>
+        <category>叶子的经历</category>
+      </categories>
+      <tags>
+        <tag>域名</tag>
+        <tag>博文</tag>
+        <tag>博客</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>2020年终总结</title>
     <url>/2021/02/15/2020-final-summary/</url>
     <content><![CDATA[<p><img src="/images/2020-final-summary/campus.JPG" alt="campus" loading="lazy"><em>我大一时的校园</em></p>
@@ -152,8 +232,8 @@
         <category>叶子的年终总结</category>
       </categories>
       <tags>
-        <tag>年终总结</tag>
         <tag>博文</tag>
+        <tag>年终总结</tag>
         <tag>叶子填的坑</tag>
       </tags>
   </entry>
@@ -186,6 +266,410 @@
         <tag>博文</tag>
         <tag>计划</tag>
         <tag>写作</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>【QT 学习笔记02】第一个项目！</title>
+    <url>/2022/05/12/QT-learning-note-02/</url>
+    <content><![CDATA[<img src="/images/QT-learning-note-02/cover.jpg" width="450" alt="cover" / loading="lazy">
+
+<span id="more"></span>
+
+<p>今天本来是想要参考<a href="https://mskclover.com/2022/04/26/QT-learning-note-01/">上一节</a>提到的教程，继续学习 Qt 的。但参考的那两个教程都太陈旧了，可能是因为新的环境变化太大，他们给出的例程我没办法在电脑上复现，所以只得作罢。而且我发现，中文网络上的教程文章几乎都是 18 年之前的，之后很少再有新的文章了。像我在一个 Qt 的中文论坛又找到的一份教程：<a href="https://www.qter.org/forum.php?mod=viewthread&tid=193">《Qt 快速入门系列教程》</a>，作者之前还出版了这本书，已经到第三版了，并且在 2019 年 2 月的时候还对教程进行一定程度的更新，有重修教程、重振论坛的意思，但现在看起来，他最终还是没能成功：他的 Qt5 新教程在写了十篇以后，停止在了同年的 3 月 20 日，非常可惜。</p>
+<p>所以，我只好另寻他路。我在搜索引擎中找到了<a href="https://subingwen.cn/">这个博客</a>中的 Qt 教程，看起来他以前好像是一个机构等职业讲师，在 <a href="https://space.bilibili.com/147020887">B站</a> 也有更新相关的视频。我粗略地看了一下，应该是能满足我们目前的学习需要了，所以这次就开始学习<a href="https://mskclover.com/2022/05/12/QT-learning-note-02/#%E5%8F%82%E8%80%83%E8%B5%84%E6%96%99">这个教程</a>了。</p>
+<h2 id="第一个-Qt-项目"><a href="#第一个-Qt-项目" class="headerlink" title="第一个 Qt 项目"></a>第一个 Qt 项目</h2><p>略去已经学习过的部分后，我们这次终于开始使用 IDE 来构建项目了：Qt 官方提供的 Qt Creater，其基本用法就不再多说了。<strong>这次以 <code>HelloQtGui</code> 这个项目作为第一个例程，目的是使初学者知晓项目中各个文件的关系</strong>，下面贴出项目的结构与相关代码吧：</p>
+<p><img src="/images/QT-learning-note-02/helloqtgui-program.jpg" alt="helloqtgui-program" loading="lazy"><em>项目结构</em></p>
+<h3 id="项目文件（-pro）"><a href="#项目文件（-pro）" class="headerlink" title="项目文件（.pro）"></a>项目文件（.pro）</h3><p>最上面的 <code>HelloQtGui.pro</code> 是项目文件，其中记录着项目的一些属性信息，在编译时系统会自动修改其中的内容，也可以手动改动其中的一些参数，以实现额外的功能，在<a href="https://mskclover.com/2022/04/26/QT-learning-note-03/">后面</a>会遇见相关的例子，这里就先贴出代码与注释：</p>
+<pre class="language-properties" data-language="properties"><code class="language-properties"><span class="token comment"># HelloQtGui.pro</span>
+
+<span class="token comment"># 在项目文件中, 注释需要使用 井号(#)</span>
+<span class="token comment"># 项目编译的时候需要加载哪些底层模块</span>
+<span class="token attr-name">QT</span> <span class="token attr-value">      += core gui</span>
+
+<span class="token comment"># 如果当前Qt版本大于4, 会添加一个额外的模块: widgets</span>
+<span class="token comment"># Qt5 中对 gui 模块进行了拆分, 将 widgets 独立出来了</span>
+<span class="token attr-name">greaterThan(QT_MAJOR_VERSION,</span> <span class="token attr-value">4): QT += widgets</span>
+
+<span class="token comment"># 使用 c++11 新特性</span>
+<span class="token attr-name">CONFIG</span> <span class="token attr-value">+= c++11</span>
+
+<span class="token comment"># The following define makes your compiler emit warnings if you use</span>
+<span class="token comment"># any Qt feature that has been marked deprecated (the exact warnings</span>
+<span class="token comment"># depend on your compiler). Please consult the documentation of the</span>
+<span class="token comment"># deprecated API in order to know how to port your code away from it.</span>
+<span class="token comment"># 如果在项目中调用了废弃的函数, 项目编译的时候会有警告的提示</span>
+<span class="token attr-name">DEFINES</span> <span class="token attr-value">+= QT_DEPRECATED_WARNINGS</span>
+
+<span class="token comment"># You can also make your code fail to compile if it uses deprecated APIs.</span>
+<span class="token comment"># In order to do so, uncomment the following line.</span>
+<span class="token comment"># You can also select to disable deprecated APIs only up to a certain version of Qt.</span>
+<span class="token comment">#DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0</span>
+
+<span class="token comment"># 项目中的源文件</span>
+<span class="token attr-name">SOURCES</span> <span class="token attr-value">+= \
+    main.cpp \
+    mainwindow.cpp \
+    testdialog.cpp \
+    testwidget.cpp</span>
+
+<span class="token comment"># 项目中的头文件</span>
+<span class="token attr-name">HEADERS</span> <span class="token attr-value">+= \
+    mainwindow.h \
+    testdialog.h \
+    testwidget.h</span>
+
+<span class="token comment"># 项目中的窗口界面文件</span>
+<span class="token attr-name">FORMS</span> <span class="token attr-value">+= \
+    mainwindow.ui \
+    testdialog.ui \
+    testwidget.ui</span>
+
+<span class="token comment"># Default rules for deployment.</span>
+<span class="token attr-name">qnx</span><span class="token punctuation">:</span> <span class="token attr-value">target.path = /tmp/$$&#123;TARGET&#125;/bin</span>
+<span class="token attr-name">else</span><span class="token punctuation">:</span> <span class="token attr-value">unix:!android: target.path = /opt/$$&#123;TARGET&#125;/bin</span>
+<span class="token comment">!isEmpty(target.path): INSTALLS += target</span></code></pre>
+
+<h3 id="main-cpp"><a href="#main-cpp" class="headerlink" title="main.cpp"></a>main.cpp</h3><p>这里是程序的主函数，多是自动生成的代码：</p>
+<pre class="language-c" data-language="c"><code class="language-c"><span class="token comment">// main.cpp</span>
+
+<span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span> <span class="token string">"mainwindow.h"</span>     <span class="token comment">// 生成的窗口类头文件</span></span>
+<span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span> <span class="token string">&lt;QApplication></span>     <span class="token comment">// 应用程序类头文件</span></span>
+
+<span class="token keyword">int</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token keyword">int</span> argc<span class="token punctuation">,</span> <span class="token keyword">char</span> <span class="token operator">*</span>argv<span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">)</span>
+<span class="token punctuation">&#123;</span>
+    QApplication <span class="token function">a</span><span class="token punctuation">(</span>argc<span class="token punctuation">,</span> argv<span class="token punctuation">)</span><span class="token punctuation">;</span>         <span class="token comment">// 创建应用程序对象，在一个 Qt 项目中实例对象有且仅有一个</span>
+                                        <span class="token comment">// 类的作用：检测触发的事件，进行事件的循环并处理</span>
+                                        <span class="token comment">//定义一个 QT 应用程序对象，它是 QT 图像界面的入口</span>
+                                        <span class="token comment">//它的构造函数接收与 main 函数一样的参数</span>
+    MainWindow w<span class="token punctuation">;</span>       <span class="token comment">// 创建窗口类对象</span>
+    w<span class="token punctuation">.</span><span class="token function">show</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>           <span class="token comment">// 显示窗口</span>
+    <span class="token keyword">return</span> a<span class="token punctuation">.</span><span class="token function">exec</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>    <span class="token comment">// exec() 阻塞函数进入事件循环函数等待用户操作</span>
+    					<span class="token comment">// 使在程序执行完以后，窗口不会自动消失</span>
+<span class="token punctuation">&#125;</span></code></pre>
+
+<h3 id="mainwindow-h"><a href="#mainwindow-h" class="headerlink" title="mainwindow.h"></a>mainwindow.h</h3><p>这是窗口界面对应的头文件，被上方的 <code>main.cpp</code> 所包含，生成代码如下：</p>
+<pre class="language-c" data-language="c"><code class="language-c"><span class="token comment">// mainwindow.h</span>
+
+<span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">ifndef</span> <span class="token expression">MAINWINDOW_H</span></span>
+<span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">define</span> <span class="token macro-name">MAINWINDOW_H</span></span>
+
+<span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span> <span class="token string">&lt;QMainWindow></span>      <span class="token comment">// Qt 标准窗口类头文件</span></span>
+
+QT_BEGIN_NAMESPACE
+<span class="token comment">// mainwindow.ui 文件中也有一个类叫 MainWindow, 将这个类放到命名空间 Ui 中</span>
+namespace Ui <span class="token punctuation">&#123;</span> class MainWindow<span class="token punctuation">;</span> <span class="token punctuation">&#125;</span>      <span class="token comment">// 对应的是 ui 文件中的类</span>
+QT_END_NAMESPACE
+
+class MainWindow <span class="token operator">:</span> public QMainWindow   <span class="token comment">// 继承了基础类</span>
+<span class="token punctuation">&#123;</span>
+    Q_OBJECT    <span class="token comment">// 这个宏是为了能够使用Qt中的信号槽机制</span>
+
+public<span class="token operator">:</span>
+    <span class="token function">MainWindow</span><span class="token punctuation">(</span>QWidget <span class="token operator">*</span>parent <span class="token operator">=</span> nullptr<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token operator">~</span><span class="token function">MainWindow</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+private<span class="token operator">:</span>
+    Ui<span class="token operator">::</span>MainWindow <span class="token operator">*</span>ui<span class="token punctuation">;</span>     <span class="token comment">// 定义指针指向窗口的 UI 对象</span>
+<span class="token punctuation">&#125;</span><span class="token punctuation">;</span>
+<span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">endif</span> <span class="token comment">// MAINWINDOW_H</span></span></code></pre>
+
+<p>看不懂是吧？其实我们就算看得懂代码，也不知道它具体是干什么的，反正能跑就行，后面应该慢慢就知道了……</p>
+<h3 id="mainwindow-cpp"><a href="#mainwindow-cpp" class="headerlink" title="mainwindow.cpp"></a>mainwindow.cpp</h3><p>这里是上面对应头文件中类的源文件：</p>
+<pre class="language-c" data-language="c"><code class="language-c"><span class="token comment">// mainwindow.cpp</span>
+
+<span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span> <span class="token string">"mainwindow.h"</span></span>
+<span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span> <span class="token string">"ui_mainwindow.h"</span></span>
+
+MainWindow<span class="token operator">::</span><span class="token function">MainWindow</span><span class="token punctuation">(</span>QWidget <span class="token operator">*</span>parent<span class="token punctuation">)</span>
+    <span class="token operator">:</span> <span class="token function">QMainWindow</span><span class="token punctuation">(</span>parent<span class="token punctuation">)</span>
+    <span class="token punctuation">,</span> <span class="token function">ui</span><span class="token punctuation">(</span>new Ui<span class="token operator">::</span>MainWindow<span class="token punctuation">)</span>    <span class="token comment">// 基于 mainwindow.ui 创建一个实例对象</span>
+                                <span class="token comment">// 相当于将 ui 对象实例化</span>
+<span class="token punctuation">&#123;</span>
+    <span class="token comment">// 将 mainwindow.ui 的实例对象和 this 指向的当前类的对象进行关联</span>
+    <span class="token comment">// 这样同名的两个类对象就产生了关联, 合二为一了</span>
+    ui<span class="token operator">-></span><span class="token function">setupUi</span><span class="token punctuation">(</span>this<span class="token punctuation">)</span><span class="token punctuation">;</span>          <span class="token comment">// 相当于在后面操作 ui 时相当于直接操作指向的类</span>
+
+    <span class="token comment">// 一般在 Qt 的构造函数中进行初始化操作（窗口，数据，……）</span>
+<span class="token punctuation">&#125;</span>
+
+MainWindow<span class="token operator">::</span><span class="token operator">~</span><span class="token function">MainWindow</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+<span class="token punctuation">&#123;</span>
+    delete ui<span class="token punctuation">;</span>
+<span class="token punctuation">&#125;</span></code></pre>
+
+<h3 id="mainwindow-ui"><a href="#mainwindow-ui" class="headerlink" title="mainwindow.ui"></a>mainwindow.ui</h3><p>这是一个 xml 格式的文件，在 Qt 中的每一个窗口对对应着一个可编辑的可视化界面，不过一般不需要在这里编辑，IDE 给我们提供了更简单的 Design 界面，在那里只需要拖动组件就可以了，这里还是贴出初始代码作参考：</p>
+<pre class="language-markup" data-language="markup"><code class="language-markup">// mainwindow.ui
+
+<span class="token comment">&lt;!-- 双击这个文件看到的是一个窗口界面, 如果使用文本编辑器打开看到的是一个XML格式的文件 --></span>
+<span class="token comment">&lt;!-- 看不懂这种格式没关系, 我们不需要在这种模式下操作这个文件。 --></span>
+<span class="token comment">&lt;!-- 这里只是给大家介绍这个文件的本质 --></span>
+<span class="token prolog">&lt;?xml version="1.0" encoding="UTF-8"?></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>ui</span> <span class="token attr-name">version</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>4.0<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
+ <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>class</span><span class="token punctuation">></span></span>MainWindow<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>class</span><span class="token punctuation">></span></span>
+ <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>widget</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>QMainWindow<span class="token punctuation">"</span></span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>MainWindow<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>property</span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>geometry<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
+   <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>rect</span><span class="token punctuation">></span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>x</span><span class="token punctuation">></span></span>0<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>x</span><span class="token punctuation">></span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>y</span><span class="token punctuation">></span></span>0<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>y</span><span class="token punctuation">></span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>width</span><span class="token punctuation">></span></span>800<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>width</span><span class="token punctuation">></span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>height</span><span class="token punctuation">></span></span>600<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>height</span><span class="token punctuation">></span></span>
+   <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>rect</span><span class="token punctuation">></span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>property</span><span class="token punctuation">></span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>property</span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>windowTitle<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
+   <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>string</span><span class="token punctuation">></span></span>MainWindow<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>string</span><span class="token punctuation">></span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>property</span><span class="token punctuation">></span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>widget</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>QWidget<span class="token punctuation">"</span></span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>centralwidget<span class="token punctuation">"</span></span><span class="token punctuation">/></span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>widget</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>QMenuBar<span class="token punctuation">"</span></span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>menubar<span class="token punctuation">"</span></span><span class="token punctuation">/></span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>widget</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>QStatusBar<span class="token punctuation">"</span></span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>statusbar<span class="token punctuation">"</span></span><span class="token punctuation">/></span></span>
+ <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>widget</span><span class="token punctuation">></span></span>
+ <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>resources</span><span class="token punctuation">/></span></span>
+ <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>connections</span><span class="token punctuation">/></span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>ui</span><span class="token punctuation">></span></span></code></pre>
+
+<h2 id="Qt-的窗口类"><a href="#Qt-的窗口类" class="headerlink" title="Qt 的窗口类"></a>Qt 的窗口类</h2><p>想要为 Qt 项目添加新的窗口，首先得新建一个子类。</p>
+<h3 id="三个基础窗口类"><a href="#三个基础窗口类" class="headerlink" title="三个基础窗口类"></a>三个基础窗口类</h3><p>在 IDE 中先单机项目的主文件并选中，然后在右键菜单中点击 “Add new …”，在新弹出的窗口中，选择 “Qt” 与 “设计师界面类”，并点击右下角的 “choose…” 进行下一步：</p>
+<p><img src="/images/QT-learning-note-02/qwidget_1.jpg" alt="qwidget_1" loading="lazy"></p>
+<p>在这里可以看到有三种类，分别是：<code>QWidget</code>、<code>QDialog</code> 和 <code>QMainWindow</code>：</p>
+<p><img src="/images/QT-learning-note-02/qwidget_2.jpg" alt="qwidget_2" loading="lazy"></p>
+<p>这三种类的关系如下所示：</p>
+<p><img src="/images/QT-learning-note-02/qwidget_3.jpg" alt="qwidget_3" loading="lazy"><em>图片来自于苏丙榅的<a href="https://mskclover.com/2022/05/12/QT-learning-note-02/#%E5%8F%82%E8%80%83%E8%B5%84%E6%96%99">入门教程</a></em></p>
+<p>在创建新窗口时，需要让自己的窗口类继承上述三个窗口类中的其中一个。它们分别有如下的性质：</p>
+<ul>
+<li><code>QWidget</code><ul>
+<li>是所有窗口的基类</li>
+<li>Qt 中的控件（如按钮、输入框、单选框等）都属于窗口，其基类均为 <code>QWidget</code></li>
+<li>可以内嵌到其他的窗口中 —— 没有边框</li>
+<li>可以不内嵌而单独显示 —— 独立窗口，具有边框</li>
+</ul>
+</li>
+<li><code>QDialog</code><ul>
+<li>对话框类</li>
+<li>不能内嵌到其他窗口中</li>
+</ul>
+</li>
+<li><code>QMainWindow</code><ul>
+<li>具有工具栏、状态栏和菜单栏</li>
+<li>不能内嵌到其他窗口中</li>
+</ul>
+</li>
+</ul>
+<h3 id="窗口的显示"><a href="#窗口的显示" class="headerlink" title="窗口的显示"></a>窗口的显示</h3><p>在 Qt 中，显示窗口的方式有两种：内嵌入其他的窗口一并显示，或作为独立窗口单独显示：</p>
+<ul>
+<li>内嵌窗口<ul>
+<li>依附于某一个大的窗口，作为了大窗口的一部分</li>
+<li>大窗口就算这个内嵌窗口的父窗口</li>
+<li><strong>在父窗口显示的时候，内嵌窗口也会一并显示</strong></li>
+</ul>
+</li>
+<li>独立窗口（非内嵌）<ul>
+<li>有边框，有标题栏</li>
+<li>需要调用函数才可以显示</li>
+</ul>
+</li>
+</ul>
+<p>基于上面的第一个项目，现分别创建两个测试窗口以说明其区别。<code>TestWidgget</code> 和 <code>TestDialog</code> 的头文件与源代码均与上面最初的 <code>mainwindow</code> 没有大的不同，修改窗口控件也只需要在 Design 中编辑即可，此处的重点在于子窗口的两种不同的显示。以后若无更改，新窗口的自动生成代码将不会再重复贴出了。</p>
+<p>因此，下面贴出控制窗口显示的 <code>mainwindow.cpp</code> 文件：</p>
+<pre class="language-c" data-language="c"><code class="language-c"><span class="token comment">// 新的 mainwindow.cpp</span>
+
+<span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span> <span class="token string">"mainwindow.h"</span></span>
+<span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span> <span class="token string">"ui_mainwindow.h"</span></span>
+<span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span> <span class="token string">"testwidget.h"</span>			<span class="token comment">// 新包含了两个子类的头文件</span></span>
+<span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span> <span class="token string">"testdialog.h"</span></span>
+
+MainWindow<span class="token operator">::</span><span class="token function">MainWindow</span><span class="token punctuation">(</span>QWidget <span class="token operator">*</span>parent<span class="token punctuation">)</span>
+    <span class="token operator">:</span> <span class="token function">QMainWindow</span><span class="token punctuation">(</span>parent<span class="token punctuation">)</span>
+    <span class="token punctuation">,</span> <span class="token function">ui</span><span class="token punctuation">(</span>new Ui<span class="token operator">::</span>MainWindow<span class="token punctuation">)</span>    <span class="token comment">// 基于 mainwindow.ui 创建一个实例对象</span>
+                                <span class="token comment">// 相当于将 ui 对象实例化</span>
+<span class="token punctuation">&#123;</span>
+    <span class="token comment">// 将 mainwindow.ui 的实例对象和 this 指向的当前类的对象进行关联</span>
+    <span class="token comment">// 这样同名的两个类对象就产生了关联, 合二为一了</span>
+    ui<span class="token operator">-></span><span class="token function">setupUi</span><span class="token punctuation">(</span>this<span class="token punctuation">)</span><span class="token punctuation">;</span>          <span class="token comment">// 相当于在后面操作 ui 时相当于直接操作指向的类</span>
+
+    <span class="token comment">// 一般在 Qt 的构造函数中进行初始化操作（窗口，数据，……）</span>
+    
+    <span class="token comment">// 显示当前窗口的时候，显示另外一个窗口 TestWidget</span>
+<span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">if</span> <span class="token expression"><span class="token number">1</span></span></span>
+    <span class="token comment">// 创建窗口对象，没有给 w 对象指定父对象</span>
+    <span class="token comment">// 所以这个窗口是一个独立窗口，有四周的边框</span>
+    <span class="token comment">// 要显示独立窗口需要进行 show（） 操作</span>
+    TestWidget<span class="token operator">*</span> w <span class="token operator">=</span> new TestWidget<span class="token punctuation">;</span>
+    <span class="token comment">// 显示当前窗口</span>
+    w <span class="token operator">-></span> <span class="token function">show</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">else</span></span>
+    <span class="token comment">// 如果在创建窗口对象的时候给其指定了父对象，这个窗口就不是一个独立窗口</span>
+    <span class="token comment">// 所以在当前父窗口显示的时候，子窗口被嵌入，与父窗口一起显示出来</span>
+    <span class="token comment">// 此时子窗口是没有独立边框的</span>
+    TestWidget<span class="token operator">*</span> w <span class="token operator">=</span> new <span class="token function">TestWidget</span><span class="token punctuation">(</span>this<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">endif</span></span>
+
+<span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">if</span> <span class="token expression"><span class="token number">1</span></span></span>
+    <span class="token comment">// 创建对话框窗口</span>
+    TestDialog<span class="token operator">*</span> dlg <span class="token operator">=</span> new <span class="token function">TestDialog</span><span class="token punctuation">(</span>this<span class="token punctuation">)</span><span class="token punctuation">;</span>     <span class="token comment">// 不管是否指定窗口的父对象，它都不会内嵌到主窗口中</span>
+    <span class="token comment">// 非模态</span>
+    dlg <span class="token operator">-></span> <span class="token function">show</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>          <span class="token comment">// 需要手动调用父类的 show()</span>
+<span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">else</span></span>
+    <span class="token comment">// 创建对话框窗口</span>
+    TestDialog<span class="token operator">*</span> dlg <span class="token operator">=</span> new <span class="token function">TestDialog</span><span class="token punctuation">(</span>this<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token comment">// 模态，exec()</span>
+    <span class="token comment">// 阻塞程序的执行</span>
+    dlg <span class="token operator">-></span> <span class="token function">exec</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token comment">// 此时无法显示主窗口，也无法切换焦点，需要关闭 dlg 窗口才会出现主窗口</span>
+<span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">endif</span></span>
+<span class="token punctuation">&#125;</span>
+
+MainWindow<span class="token operator">::</span><span class="token operator">~</span><span class="token function">MainWindow</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+<span class="token punctuation">&#123;</span>
+    delete ui<span class="token punctuation">;</span>
+<span class="token punctuation">&#125;</span></code></pre>
+
+<p>此时代码中是有两个分支的，在两个 if 均为 1 的时候，它们均为独立窗口 —— 其中 <code>TestWidgget</code> 窗口继承了 <code>QWidget</code> 类，在没有指定父类的时候，它是独立窗口；而 <code>TestDialog</code> 窗口基础的是 <code>QDialog</code> 类，所以无论它是否指定父对象（是否在 new 后指向 <code>this</code>），它都只会是独立窗口。</p>
+<p><img src="/images/QT-learning-note-02/qwidget_4.jpg" alt="qwidgt" loading="lazy"></p>
+<p><em>其中 Form 窗口是 TestWidget 产生的</em></p>
+<p>若给 <code>TestWidgget</code> 指定父对象（将第一个 if 置 0），则其会嵌入到主窗口中：</p>
+<p><img src="/images/QT-learning-note-02/qwidget_5.jpg" alt="qwidget_5" loading="lazy"></p>
+<p>现在的 <code>TestDialog</code> 是非模态显示（调用的 <code>show()</code> 函数)，若想让对话窗口改为模态显示，则需调用 <code>exec()</code> 函数（将第二个 if 置 0）：</p>
+<p><img src="/images/QT-learning-note-02/qwidget_6.jpg" alt="qwidget_6" loading="lazy"></p>
+<p>此时只有对话框窗口，且焦点无法切换到其他地方，只有在关闭此对话窗口以后，才会显示主窗口。</p>
+<h2 id="坐标体系"><a href="#坐标体系" class="headerlink" title="坐标体系"></a>坐标体系</h2><p>Qt 的坐标体系与大多数显示一样，均以左上角为坐标原点。不过有一点特殊的是，在一个 Qt 窗口中，其中嵌入的子窗口是以父窗口的左上角为左上角为坐标原点，也就是相对坐标，而非绝对坐标：</p>
+<p><img src="/images/QT-learning-note-02/coordinate_1.jpg" alt="coordinate_1" loading="lazy"><em>图片来自于苏丙榅的<a href="https://mskclover.com/2022/05/12/QT-learning-note-02/#%E5%8F%82%E8%80%83%E8%B5%84%E6%96%99">入门教程</a></em></p>
+<p>下面用 <code>coordinate</code> 项目作为例程示例：</p>
+<pre class="language-c" data-language="c"><code class="language-c"><span class="token comment">// corrdinate mainwindow.cpp</span>
+
+<span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span> <span class="token string">"mainwindow.h"</span></span>
+<span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span> <span class="token string">"ui_mainwindow.h"</span></span>
+<span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span> <span class="token string">&lt;QPushButton></span>          <span class="token comment">// 按钮控件需要的库</span></span>
+
+MainWindow<span class="token operator">::</span><span class="token function">MainWindow</span><span class="token punctuation">(</span>QWidget <span class="token operator">*</span>parent<span class="token punctuation">)</span>
+    <span class="token operator">:</span> <span class="token function">QMainWindow</span><span class="token punctuation">(</span>parent<span class="token punctuation">)</span>
+    <span class="token punctuation">,</span> <span class="token function">ui</span><span class="token punctuation">(</span>new Ui<span class="token operator">::</span>MainWindow<span class="token punctuation">)</span>
+<span class="token punctuation">&#123;</span>
+    ui<span class="token operator">-></span><span class="token function">setupUi</span><span class="token punctuation">(</span>this<span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+    <span class="token comment">// 让窗口出现在屏幕的这个位置，没有指定则是默认居中</span>
+    <span class="token comment">// 坐标原点是左上角</span>
+    <span class="token comment">//this -> move(100, 100);</span>
+
+    <span class="token comment">// 创建一个按钮，让这个按钮作为当前创建的子控件</span>
+    QPushButton<span class="token operator">*</span> btnA <span class="token operator">=</span> new <span class="token function">QPushButton</span><span class="token punctuation">(</span>this<span class="token punctuation">)</span><span class="token punctuation">;</span>      <span class="token comment">// 一定要指定父对象，否则按钮就成了一个独立的窗口</span>
+        											<span class="token comment">// 此时父对象依旧是主窗口</span>
+    <span class="token comment">// 移动按钮的位置</span>
+    <span class="token comment">// 基类 QWidget 中的 move() 函数</span>
+    btnA <span class="token operator">-></span> <span class="token function">move</span><span class="token punctuation">(</span><span class="token number">10</span><span class="token punctuation">,</span> <span class="token number">10</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token comment">// 给按钮设置固定的大小</span>
+    btnA <span class="token operator">-></span> <span class="token function">setFixedSize</span><span class="token punctuation">(</span><span class="token number">200</span><span class="token punctuation">,</span> <span class="token number">200</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+    <span class="token comment">// 创建第二个按钮</span>
+    QPushButton<span class="token operator">*</span> btnB <span class="token operator">=</span> new <span class="token function">QPushButton</span><span class="token punctuation">(</span>this<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    btnB <span class="token operator">-></span> <span class="token function">move</span><span class="token punctuation">(</span><span class="token number">10</span><span class="token punctuation">,</span> <span class="token number">10</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    btnB <span class="token operator">-></span> <span class="token function">setFixedSize</span><span class="token punctuation">(</span><span class="token number">100</span><span class="token punctuation">,</span> <span class="token number">100</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+    <span class="token comment">// 创建第三个按钮</span>
+    QPushButton<span class="token operator">*</span> btnC <span class="token operator">=</span> new <span class="token function">QPushButton</span><span class="token punctuation">(</span>this<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    btnC <span class="token operator">-></span> <span class="token function">move</span><span class="token punctuation">(</span><span class="token number">10</span><span class="token punctuation">,</span> <span class="token number">10</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    btnC <span class="token operator">-></span> <span class="token function">setFixedSize</span><span class="token punctuation">(</span><span class="token number">50</span><span class="token punctuation">,</span> <span class="token number">50</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">&#125;</span>
+
+MainWindow<span class="token operator">::</span><span class="token operator">~</span><span class="token function">MainWindow</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+<span class="token punctuation">&#123;</span>
+    delete ui<span class="token punctuation">;</span>
+<span class="token punctuation">&#125;</span></code></pre>
+
+<p><img src="/images/QT-learning-note-02/coordinate_2.jpg" alt="coordinate_2" loading="lazy"></p>
+<p>若在代码块上方解除注释掉的代码 <code>this -&gt; move(100, 100);</code>，则窗口会以左上角为坐标原点进行显示：</p>
+<p><img src="/images/QT-learning-note-02/coordinate_3.jpg" alt="coordinate_3" loading="lazy"></p>
+<p>所以我们可以把整个屏幕认为是一个最大的窗口。</p>
+<h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>这次我们脱离了普通的文本编辑器，使用 Qt 官方提供的 Qt Creater 这个 IDE 进行编程，构建了第一个项目，并重点区分了三种重要的基础类与窗口的显示方式，最后以窗口的坐标体系作结。而在下一节，我们应该会学习 Qt 的数据类型与信号槽 —— 后者是 Qt 中非常重要的一部分，到那时，或许我们的 Qt 才算是真正的入门了吧。</p>
+<h2 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h2><p>[1] <a href="https://subingwen.cn/qt/qt-primer/">Qt 入门</a>，苏丙榅，爱编程的大丙，2021</p>
+]]></content>
+      <categories>
+        <category>叶子的粗浅知识</category>
+      </categories>
+      <tags>
+        <tag>博文</tag>
+        <tag>QT</tag>
+        <tag>笔记</tag>
+        <tag>知识</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>SQL 学习笔记【01】</title>
+    <url>/2022/10/02/SQL-learning-note-01/</url>
+    <content><![CDATA[<p><img src="/images/SQL-learning-note-01/cover.jpg" width="650" alt="cover" / loading="lazy"><em>题图来自网络</em></p>
+<p>作为一个只会增删查改、从来没有系统性学习数据库的小白，这些天有了一个契机来学习相关的知识，便想到以此开一篇新的学习博文，记录一些关键语句与自己的理解。</p>
+<p>本篇笔记主要是基于<a href="https://www.runoob.com/sql/sql-tutorial.html"><strong>菜鸟教程</strong></a>的内容进行初步的学习。至少在快速入门这方面，菜鸟教程还从未让我失望过。</p>
+<span id="more"></span>
+
+<h2 id="开始：增删查改"><a href="#开始：增删查改" class="headerlink" title="开始：增删查改"></a>开始：增删查改</h2><p>SQL 的全称为 Structured Query Language，下列语句均以 MySQL 语法为准。我们先假设有一个如下名为 Website 的「表」：</p>
+<pre class="language-none"><code class="language-none">+----+--------------+---------------------------+-------+---------+
+| id | name         | url                       | alexa | country |
++----+--------------+---------------------------+-------+---------+
+| 1  | Google       | https:&#x2F;&#x2F;www.google.cm&#x2F;    | 1     | USA     |
+| 2  | 淘宝          | https:&#x2F;&#x2F;www.taobao.com&#x2F;   | 13    | CN      |
+| 3  | 菜鸟教程      | http:&#x2F;&#x2F;www.runoob.com&#x2F;    | 4689  | CN      |
+| 4  | 微博          | http:&#x2F;&#x2F;weibo.com&#x2F;         | 20    | CN      |
+| 5  | Facebook     | https:&#x2F;&#x2F;www.facebook.com&#x2F; | 3     | USA     |
++----+--------------+---------------------------+-------+---------+</code></pre>
+
+<hr>
+<h3 id="SELECT"><a href="#SELECT" class="headerlink" title="SELECT"></a>SELECT</h3><p>以下语句用于在指定的表中选择列：</p>
+<pre class="language-sql" data-language="sql"><code class="language-sql"><span class="token comment"># 从指定表中选取指定列输出</span>
+<span class="token keyword">SELECT</span> column_name<span class="token punctuation">,</span> column_name <span class="token keyword">FROM</span> table_name<span class="token punctuation">;</span>
+
+<span class="token comment"># 从指定表中选取所有列输出（即相当于输出整张表）</span>
+<span class="token keyword">SELECT</span> <span class="token operator">*</span> <span class="token keyword">FROM</span> table_name<span class="token punctuation">;</span>
+
+<span class="token comment"># 从表中选取指定列，并输出其中的不同值（即去除列中重复的元素）</span>
+<span class="token keyword">SELECT</span> <span class="token keyword">DISTINCT</span> column_name<span class="token punctuation">,</span> column_name <span class="token keyword">FROM</span> table_name<span class="token punctuation">;</span></code></pre>
+
+<hr>
+<h3 id="WHERE"><a href="#WHERE" class="headerlink" title="WHERE"></a>WHERE</h3><p>本子句用于提取满足指定条件的数据：</p>
+<pre class="language-sql" data-language="sql"><code class="language-sql"><span class="token keyword">SELECT</span> column_name<span class="token punctuation">,</span> column_name 
+<span class="token keyword">FROM</span> table_name 
+<span class="token keyword">WHERE</span> column_name operator <span class="token keyword">value</span><span class="token punctuation">;</span></code></pre>
+
+<p>例如 <code>SELECT * FROM Websites WHERE country=&#39;CN&#39;;</code>，将会仅输出表的 <code>country</code> 列中值为 <code>CN</code> 的行。其后面可以接逻辑运算符号、条件判断和 <code>BETWEEN</code>、<code>LIKE</code> 和 <code>IN</code> 等关键词。</p>
+<hr>
+<h3 id="OEDER-BY"><a href="#OEDER-BY" class="headerlink" title="OEDER BY"></a>OEDER BY</h3><p>本子句用于对输出的结果集按照一列或多列进行排序：</p>
+<pre class="language-sql" data-language="sql"><code class="language-sql"><span class="token keyword">SELECT</span> column_name<span class="token punctuation">,</span>column_name 
+<span class="token keyword">FROM</span> table_name 
+<span class="token keyword">ORDER</span> <span class="token keyword">BY</span> column_name<span class="token punctuation">,</span>column_name <span class="token keyword">ASC</span><span class="token operator">|</span><span class="token keyword">DESC</span><span class="token punctuation">;</span></code></pre>
+
+<h4 id="升降序关键词"><a href="#升降序关键词" class="headerlink" title="升降序关键词"></a>升降序关键词</h4><p>其中的 <code>ASC</code> 代表升序，默认如此，可不写出；而 <code>DESC</code> 代表降序，需要手动指定。</p>
+<h4 id="多列排序"><a href="#多列排序" class="headerlink" title="多列排序"></a>多列排序</h4><p>在 <code>ORDER BY</code> 后写多列的参数即可，其效果类似分别排序：<br><code>SELECT * FROM Websites ORDER BY country,alexa;</code></p>
+<h4 id="与-HERE-之关系"><a href="#与-HERE-之关系" class="headerlink" title="与 HERE 之关系"></a>与 HERE 之关系</h4><p>如果需要使用到 <code>WHERE</code> 语句，则 <code>ORDER BY</code> 必须写到 <code>WHERE</code> 到后面；而如果没有  <code>WHERE</code> 语句，则  <code>ORDER BY</code> 放在表的后面。如：<code>SELECT * FROM Website WHERE country=&#39;CN&#39; ORDER BY alexa;</code>。</p>
+<hr>
+<h3 id="INSERT-INTO"><a href="#INSERT-INTO" class="headerlink" title="INSERT INTO"></a>INSERT INTO</h3><p>本语句用于向表中插入新的数据：</p>
+<pre class="language-sql" data-language="sql"><code class="language-sql"><span class="token comment"># 第一种形式无需指定要插入数据的列名，只需提供被插入的值即可：</span>
+<span class="token keyword">INSERT</span> <span class="token keyword">INTO</span> table_name
+<span class="token keyword">VALUES</span> <span class="token punctuation">(</span>value1<span class="token punctuation">,</span>value2<span class="token punctuation">,</span>value3<span class="token punctuation">,</span><span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token comment"># 第二种形式需要指定列名及被插入的值：</span>
+<span class="token keyword">INSERT</span> <span class="token keyword">INTO</span> table_name <span class="token punctuation">(</span>column1<span class="token punctuation">,</span>column2<span class="token punctuation">,</span>column3<span class="token punctuation">,</span><span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">)</span>
+<span class="token keyword">VALUES</span> <span class="token punctuation">(</span>value1<span class="token punctuation">,</span>value2<span class="token punctuation">,</span>value3<span class="token punctuation">,</span><span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">)</span><span class="token punctuation">;</span></code></pre>
+
+<p>而 <code>id</code> 字段是自动更新的，表中的每条数据都有一个唯一的数字。</p>
+<hr>
+<h3 id="UPDATE"><a href="#UPDATE" class="headerlink" title="UPDATE"></a>UPDATE</h3><p>本语句用于更新表中已存在的记录：</p>
+<pre class="language-sql" data-language="sql"><code class="language-sql"><span class="token keyword">UPDATE</span> table_name
+<span class="token keyword">SET</span> column1<span class="token operator">=</span>value1<span class="token punctuation">,</span>column2<span class="token operator">=</span>value2<span class="token punctuation">,</span><span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">.</span>
+<span class="token keyword">WHERE</span> some_column<span class="token operator">=</span>some_value<span class="token punctuation">;</span></code></pre>
+
+<p><strong>注意：</strong><code>WHERE</code> 子句规定了哪条 &#x2F; 哪些记录需要更新，若省略，则表中所有的列数据都会被更新！</p>
+<hr>
+<h3 id="DELETE"><a href="#DELETE" class="headerlink" title="DELETE"></a>DELETE</h3><p>本语句用于删去表中指定的行：</p>
+<pre class="language-sql" data-language="sql"><code class="language-sql"><span class="token keyword">DELETE</span> <span class="token keyword">FROM</span> table_name
+<span class="token keyword">WHERE</span> some_column<span class="token operator">=</span>some_value<span class="token punctuation">;</span></code></pre>
+
+<p><strong>注意：</strong>与 <code>UPDATE</code> 语句类似，<code>WHERE</code> 子句指定了删除的对象，若省略，整张表中所有的数据都将被删除！<br>（注：表中所有的行被删除，但表的结构、属性和索引将保持不变）</p>
+]]></content>
+      <categories>
+        <category>叶子的粗浅知识</category>
+      </categories>
+      <tags>
+        <tag>博文</tag>
+        <tag>笔记</tag>
+        <tag>知识</tag>
+        <tag>SQL</tag>
       </tags>
   </entry>
   <entry>
@@ -455,167 +939,6 @@ Lm * Bpix &#x3D; \frac&#123;Rm * Apix&#125;&#123;tan(a)&#125;</code></pre>
         <tag>学业</tag>
         <tag>电赛</tag>
         <tag>OpenMV</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>给博客一个新名字！</title>
-    <url>/2022/03/29/Give-my-blog-a-new-name/</url>
-    <content><![CDATA[<p><img src="/images/Give-my-blog-a-new-name/cover.JPG" alt="cover" loading="lazy"><em>封面图来自国人画师 <a href="https://www.pixiv.net/users/4741933">Qswan</a>，大家可以去Pixiv上关注他喔！</em></p>
-<blockquote>
-<p>之所以选择独立域名，不仅仅是为了逼格… 可玩性比较高，几乎没有限制。咱可以玩玩子域名，哪天搞出来一个 love.bennythink.com 表白多好玩嘛。</p>
-<p>——<a href="https://dmesg.app/reason-of-this-blog.html">《为什么我要写独立域名的博客》</a>，<strong>Benny 小土豆</strong></p>
-</blockquote>
-<span id="more"></span>
-
-<h2 id="TL-DR"><a href="#TL-DR" class="headerlink" title="TL;DR"></a>TL;DR</h2><p>这里是太长不看版：</p>
-<p>在咕咕咕整整一年半以后，我终于给了博客一个真正的名字，写下了一些杂文，顺便也整理了一份相关的教程，希望能为还没有购买过域名的同学提供帮助，作一点小小的参考。</p>
-<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>很长时间都没有写博客了，说起来惭愧。其实这段时间里倒是写了好几篇文章，但有时事情变得太快，在文章写完之前那些事情就已经变得面目全非了；或者写的内容都是比较私密的事情，只是给以后的自己一个人看，也不好意思发出来；又或者某天晚上在电脑前洋洋洒洒地写了一大篇，后来却一直没写完，最后它们就坑掉了。</p>
-<p>额…… 好吧，我承认，上面的文字全都是我后来找的借口，我还是太懒了，另外还患有怕麻烦与拖延症晚期的病：比如博客的域名，来来回回十八个月，我一直都没有去管。</p>
-<p><img src="/images/Give-my-blog-a-new-name/mess_around.jpg" alt="mess_around" loading="lazy"><em>I have messed around that time.</em></p>
-<p>而现在，我又想要重新开始写些什么，就计划着来给博客除除草。但在做这些事情之前，为了让她能体面地与其他的博客站在一起，我想要先送给她一个新的名字：一个简短的、富有个性的，以及不再依附于 GitHub&#x2F;Microsoft 的域名。</p>
-<h2 id="域名的选择"><a href="#域名的选择" class="headerlink" title="域名的选择"></a>域名的选择</h2><p><a href="https://mskclover.com/"><em>mskclover.com</em></a>，大家在浏览器的地址栏也看到了，这就是我的新域名。</p>
-<p>其实，最初我也没想到会选择这个名字。等到真正开始做选择的时候，我找到了一年半前存在 One Tab 最底部的网页们，将它们在新窗口打开。当时围绕着 clover 这个网名，我对域名有好多种“绝妙”的想法，可在域名托管商处查询之后，我的心态出现了一丝微妙的变化：为什么那些好的域名在上个世纪就都没了？ <spam class="heimu"><del>（因为生的太晚了）</del></spam> 这下，就只好再想一想，如何在那些被挑剩下的域名中，找到我眼中的漏网之鱼。</p>
-<p>不过，在接着写下去之前，不如让我们先来看看，一个好域名需要具备哪些要素呢？</p>
-<h3 id="如何选择好域名"><a href="#如何选择好域名" class="headerlink" title="如何选择好域名"></a>如何选择好域名</h3><p>现在我们访问一个网站可以有很多种方式：通过书签、历史记录、或者搜索引擎，它们的本质都是使人们能够快速、方便地访问互联网上的某一个 IP 地址。为了方便记忆，IETF 在 1983 年发布了 RFC 882 和 RFC 883，开始以规律的一串字符作为域名，去指代那些没有含义的数字，这就是域名。</p>
-<p>所以，容易被人轻易地记住，是一个优秀域名的必要条件。在2013年，一家新英格兰的电商公司 BOSTON WEB 在他们的 Blog 上，发表了一篇名为 <a href="https://www.getfoundquick.com/5-characteristics-for-having-a-good-domain-name/"><em>5 characteristics for having a good domain name</em></a> 的博文，作者 Giovanna DaPrato 在文中说明了一个好域名的五点特征：</p>
-<blockquote>
-<ol>
-<li>Keep it short &amp; sweet.</li>
-<li>Use easy spelling.</li>
-<li>Have a .com extension.</li>
-<li>Get descriptive.</li>
-<li>Get rid of hyphens and&#x2F;or numbers.</li>
-</ol>
-</blockquote>
-<p>下面我就谈一谈我的理解叭：</p>
-<h4 id="简短又好听-amp-拼写简单-amp-具有描述性"><a href="#简短又好听-amp-拼写简单-amp-具有描述性" class="headerlink" title="简短又好听 &amp; 拼写简单 &amp; 具有描述性"></a>简短又好听 &amp; 拼写简单 &amp; 具有描述性</h4><p>大家都喜欢简短的域名，因为它们总能够能被人轻易记住。不仅在选择域名的时候是这样，在选择公司的热线时也同样如此：</p>
-<p>比如，大家常常津津乐道于美国苹果热线的号码是 1-800-692-7753，只需记住 1-800-MY-APPLE 就可以了；同理，百思买的热线也只需拨 1-888-BEST-BUY 即可；这样的电话号码几乎已经是欧美大公司们的标准配置了。</p>
-<p>所以，域名最好能代表着某种清晰的含义。在我们自己做选择的时候，也要尽量使域名少于 10 个字符。虽然域名中“出现某些具有想象力的词会很有趣”，但一定得避免使用生僻的单词，那样的域名易读性很低，难以通过后文提到的“无线电测试”。并且在保持简短的同时，域名也需要使人一眼就能分辨网站的类型。由于大部分的 <code>“.com”</code> 的短域名都被注册了，所以或许也可以考虑使用其他域名作为结尾，比如<code>“.online”</code>、<code>“.store”</code>、<code>“.ai”</code>和<code>“.tech”</code>等。</p>
-<p>不过，个人博客就不需要考虑这个了，域名当然是越有个性越好啊（</p>
-<h4 id="使用-com-顶级域名"><a href="#使用-com-顶级域名" class="headerlink" title="使用 .com 顶级域名"></a>使用 .com 顶级域名</h4><p>如果大家有兴趣去谷歌 <code>“.com”</code>，除了排在前列的维基百科和域名托管商，接下来一定是大公司们的官网，比如 Apple、Google 和 Amazon。因为在一开始，域名就是为商业、组织和政府网站的用途设计的。最初创建七个通用顶级域名时，甚至还没有 <a href="https://www.icann.org/">ICANN</a> 呢！</p>
-<p><img src="/images/Give-my-blog-a-new-name/domain.jpg" alt="domain" loading="lazy"><em>英文维基百科的<a href="https://en.wikipedia.org/wiki/List_of_Internet_top-level_domains">列表</a></em></p>
-<p>可以看到，最初设计时 <code>“.com”</code> 来自于“商业”的英文 commercial，在随之而来的互联网商业化与公众化的时期，它也顺理成章地成为了数量最多的顶级域。后来在取消注册限制后，<code>“.com”</code> 原本的目的已经无关紧要了，它已经成为了最主要、也是最为流行的顶级域名。</p>
-<p>所以，人们总是习惯于在域名的最后输入 <code>“.com”</code> ，他们也更倾向于假设即将访问的网站<strong>无论如何</strong>都以 <code>“.com”</code> 结尾。如果没有其他的理由，选择这个域名准没有错（但顶级域名相比之下要贵一些）。</p>
-<p>在搜索引擎时代到来以后，有这样一种观点：非<code>“.com”</code>的域名可能会降低网站的 SEO。但我也看到有谷歌的前员工说这并没有影响。至于究竟如何，谷歌没有说，我也不知道。不过，我也并不关注这方面，毕竟目前还是把博客作为一个花园&#x2F;自留地，还不像其他商业网站一样，想排在搜索引擎第一页。</p>
-<p>另外，我之所以选择 <code>“.com”</code>，只是因为我想给博客一个 <code>“.com”</code> 的域名而已，单纯地想做一根年轻的韭菜罢了（</p>
-<h4 id="避免连字符和-x2F-或数字"><a href="#避免连字符和-x2F-或数字" class="headerlink" title="避免连字符和&#x2F;或数字"></a>避免连字符和&#x2F;或数字</h4><p>在人们还喜欢收听收音机的年代，有一个标准叫做“无线电测试”，它的目的是为了能保证公司的名字能够透过无线电波清楚地传播，并使听众快速地记下，好的域名从一开始就是为了这个目的而生的。</p>
-<p>为了能够易读&#x2F;易于口述，在选择域名的时候，都应该避免出现符号与数字。连字符的出现不仅会使域名变得复杂、难以读出，而且也会让这条网址更像是垃圾网站，因为诈骗网站或是垃圾邮件中出现的域名，几乎都用了好些连字符。使用数字，则会让人难以分辨域名中出现的数字是符号还是单词，比如 example6.com 与 examplesix.com，所以数字一般都建议使用字母拼写。</p>
-<p>不过，以上的特征也并不是绝对的，如果是自己用的，那完全不需要考虑这些，让自己开心就好。</p>
-<h3 id="选择困难症"><a href="#选择困难症" class="headerlink" title="选择困难症"></a>选择困难症</h3><p>众所周知，我患有懒癌与晚期拖延症，而且还是一个选择困难症患者。</p>
-<p>我一直都想将我的网名“clover”放进域名，但由这个词汇组成的短域名都已经没有了。我想着博客的中文名，将花园的单词加了进去：clovergarden.com，一看发现是家日本的园艺公司；那我改改，cloversgarden.com 怎么样？原来是家美国的花卉公司；那 cloverssgarden.com 呢？这个倒是没人注册，可这个域名太长了，而且 ss 也总是让我想到纳粹的党卫军（<em>Schutz Staffel</em>），所以也就不考虑了。</p>
-<p>过了一会儿，我想到之前看过一部番：<em>Violet Evergarden</em>，便输入了cloverevergarden.com，这么长的域名果然没有人会选，整整 16 个字母。后来又想了一下，那减少两个字母呢？clovevergarden.com，也没短多少……</p>
-<p>正巧这时一个学长逛街到我旁边，我便拉着他跟我一起想想，给博客取什么域名比较好。他一看上面的那几个，他也人麻了，就没怎么见到过这么长的域名。他想了一下，说你 GitHub 上不是叫 <em>Misaka_Clover</em> 吗？域名要不叫 mskclover 吧。我听罢，觉得这个选择真不错，msk 是 misaka 发音的几个字母，比较好跟别人描述，这部分也只有 9 个字母，至少在 .com 域里算短的了，于是我就选择了 mskclover.com 作为我的博客域名。</p>
-<h2 id="域名申请及-DNS-解析"><a href="#域名申请及-DNS-解析" class="headerlink" title="域名申请及 DNS 解析"></a>域名申请及 DNS 解析</h2><p>就算拥有了新的域名，在兴奋地告诉大家之前，我们还需要在托管商的后台配置 DNS，将域名解析到我们博客的服务器的 IP 地址上，这样我们的网站才可以被互联网上的小伙伴们访问。那我就趁此机会，把整个流程梳理一下吧。虽然网上也有很多相关的教程，但没准多我的一份，就可能会帮助到更多的人，我顺便还能水一篇博文呢！</p>
-<h3 id="域名购买"><a href="#域名购买" class="headerlink" title="域名购买"></a>域名购买</h3><p>在购买域名前，我们需要先选择一家靠谱的域名托管商：在国际上比较为人熟知的有 <a href="https://www.godaddy.com/">GoDaddy</a> 和 <a href="https://www.namecheap.com/">Namecheap</a> 等，国内则可以选择<a href="https://dnspod.cloud.tencent.com/">腾讯云</a>或者<a href="https://cn.aliyun.com/">阿里云</a>。现在的购买流程早就比较懒人化了，各家公司的服务也大差不差，所以下面我们以 Namecheap 为例，快速地过一下吧：</p>
-<p>首先，到托管商的域名搜索页面，输入心仪的域名：</p>
-<p><img src="/images/Give-my-blog-a-new-name/example_1.jpg" alt="example_1" loading="lazy"><em>选择困难症的噩梦</em></p>
-<p>选择好以后，将域名加入【购物车】，然后单击右下角的【结账】，之后会进入定制选择：</p>
-<p><img src="/images/Give-my-blog-a-new-name/example_2.jpg" alt="example_2" loading="lazy"><em>令人眼花缭乱的界面</em></p>
-<p>如果是第一次购买域名的话，这些都是可以不管的，在取消【自动续费】后，就可以点击【确认订单】进入下一步了：</p>
-<p><img src="/images/Give-my-blog-a-new-name/example_3.jpg" alt="example_3" loading="lazy"><em>订单付款页面</em></p>
-<p>在进入付款页面以后，选择一种方式付款就好。恭喜，从现在开始，你拥有了属于自己的域名啦！</p>
-<h3 id="DNS-解析"><a href="#DNS-解析" class="headerlink" title="DNS 解析"></a>DNS 解析</h3><p>虽然域名此时已经是属于自己的了，但直接去访问域名，大概率是访问不了的，因为此时域名并没有被解析到一个有效的 IP 地址。想让域名能跳转到我们的网站，需要在托管商的后台将域名解析到我们网站的 IP 上。</p>
-<p>由于网站目前是基于 Hexo 的静态博客，服务器还是白嫖的 GitHub（或者巨硬），所以我就以这个配置的过程为例，相信在其他情况下的过程也是非常相似的。</p>
-<p>在账户页面的【域名列表】，我们可以看到刚刚购买的域名已经出现在下面了，然后通过最右侧的【管理】按钮进入后台：</p>
-<p><img src="/images/Give-my-blog-a-new-name/example_4.jpg" alt="example_4" loading="lazy"><em>域名列表</em></p>
-<p>接下来，在【高级 DNS 】选项下，我们在【主机记录】下添加如上几条解析记录。A记录将我们的域名解析到服务器的 IPv4 地址上，而 CNAME 更像是一种“别名”，不受主机的 IP 改变的影响。至于它们的具体区别可以参见 Namecheap 写的这篇 <a href="https://www.namecheap.com/support/knowledgebase/subcategory/2237/host-records-setup/"><em>Host records setup</em></a> 。</p>
-<p><img src="/images/Give-my-blog-a-new-name/example_5.jpg" alt="example_5" loading="lazy"><em>高级 DNS 下的主机记录</em></p>
-<p>其实如果是像我一样白嫖 GitHub 的服务器的话，只需要设置 CNAME 就可以了，GitHub 官方也是<a href="https://docs.github.com/cn/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site#configuring-a-subdomain">这样建议</a>的，这里只是向大家展示一下两种常见的设置。在设置 A 类型时，需要在【值】处填入服务器的 IP 地址，这时只需要简单地 ping 一下自己目前网站的域名就可以了：</p>
-<p><img src="/images/Give-my-blog-a-new-name/example_6.jpg" alt="example_6" loading="lazy"><em>终端界面</em></p>
-<p>以上配置完后，接下来到 GitHub Pages 的页面，在 Custom domain 处填上我们为博客准备的新域名，然后点击保存，等待 DNS 验证成功后就好啦。由于托管商处的 DNS 可能需要十分钟到一小时刷新，所以耐心等待即可。</p>
-<p><img src="/images/Give-my-blog-a-new-name/example_7.jpg" alt="example_7" loading="lazy"><em>GitHub Pages 页面</em></p>
-<p>最后，我强烈建议勾选【Enforce HTTPS】的选项，为自己的博客启用 HTTPs 加密协议，保护自己和访客的冲浪安全。</p>
-<h2 id="最后"><a href="#最后" class="headerlink" title="最后"></a>最后</h2><p>对于互联网而言，我的博客有了新的名字，这一切应该告一段落了。但对于我而言，我才刚刚开始重新写博客，更别说博客框架与主题的版本老旧，需要我再次花时间配置，有可能我做着做着就再次鸽掉了是吧（</p>
-<p>无论如何，感谢你读到这里，期待与你在下一篇博文中再会～</p>
-]]></content>
-      <categories>
-        <category>叶子的经历</category>
-      </categories>
-      <tags>
-        <tag>博文</tag>
-        <tag>域名</tag>
-        <tag>博客</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>SQL 学习笔记【01】</title>
-    <url>/2022/10/02/SQL-learning-note-01/</url>
-    <content><![CDATA[<p><img src="/images/SQL-learning-note-01/cover.jpg" width="650" alt="cover" / loading="lazy"><em>题图来自网络</em></p>
-<p>作为一个只会增删查改、从来没有系统性学习数据库的小白，这些天有了一个契机来学习相关的知识，便想到以此开一篇新的学习博文，记录一些关键语句与自己的理解。</p>
-<p>本篇笔记主要是基于<a href="https://www.runoob.com/sql/sql-tutorial.html"><strong>菜鸟教程</strong></a>的内容进行初步的学习。至少在快速入门这方面，菜鸟教程还从未让我失望过。</p>
-<span id="more"></span>
-
-<h2 id="开始：增删查改"><a href="#开始：增删查改" class="headerlink" title="开始：增删查改"></a>开始：增删查改</h2><p>SQL 的全称为 Structured Query Language，下列语句均以 MySQL 语法为准。我们先假设有一个如下名为 Website 的「表」：</p>
-<pre class="language-none"><code class="language-none">+----+--------------+---------------------------+-------+---------+
-| id | name         | url                       | alexa | country |
-+----+--------------+---------------------------+-------+---------+
-| 1  | Google       | https:&#x2F;&#x2F;www.google.cm&#x2F;    | 1     | USA     |
-| 2  | 淘宝          | https:&#x2F;&#x2F;www.taobao.com&#x2F;   | 13    | CN      |
-| 3  | 菜鸟教程      | http:&#x2F;&#x2F;www.runoob.com&#x2F;    | 4689  | CN      |
-| 4  | 微博          | http:&#x2F;&#x2F;weibo.com&#x2F;         | 20    | CN      |
-| 5  | Facebook     | https:&#x2F;&#x2F;www.facebook.com&#x2F; | 3     | USA     |
-+----+--------------+---------------------------+-------+---------+</code></pre>
-
-<hr>
-<h3 id="SELECT"><a href="#SELECT" class="headerlink" title="SELECT"></a>SELECT</h3><p>以下语句用于在指定的表中选择列：</p>
-<pre class="language-sql" data-language="sql"><code class="language-sql"><span class="token comment"># 从指定表中选取指定列输出</span>
-<span class="token keyword">SELECT</span> column_name<span class="token punctuation">,</span> column_name <span class="token keyword">FROM</span> table_name<span class="token punctuation">;</span>
-
-<span class="token comment"># 从指定表中选取所有列输出（即相当于输出整张表）</span>
-<span class="token keyword">SELECT</span> <span class="token operator">*</span> <span class="token keyword">FROM</span> table_name<span class="token punctuation">;</span>
-
-<span class="token comment"># 从表中选取指定列，并输出其中的不同值（即去除列中重复的元素）</span>
-<span class="token keyword">SELECT</span> <span class="token keyword">DISTINCT</span> column_name<span class="token punctuation">,</span> column_name <span class="token keyword">FROM</span> table_name<span class="token punctuation">;</span></code></pre>
-
-<hr>
-<h3 id="WHERE"><a href="#WHERE" class="headerlink" title="WHERE"></a>WHERE</h3><p>本子句用于提取满足指定条件的数据：</p>
-<pre class="language-sql" data-language="sql"><code class="language-sql"><span class="token keyword">SELECT</span> column_name<span class="token punctuation">,</span> column_name 
-<span class="token keyword">FROM</span> table_name 
-<span class="token keyword">WHERE</span> column_name operator <span class="token keyword">value</span><span class="token punctuation">;</span></code></pre>
-
-<p>例如 <code>SELECT * FROM Websites WHERE country=&#39;CN&#39;;</code>，将会仅输出表的 <code>country</code> 列中值为 <code>CN</code> 的行。其后面可以接逻辑运算符号、条件判断和 <code>BETWEEN</code>、<code>LIKE</code> 和 <code>IN</code> 等关键词。</p>
-<hr>
-<h3 id="OEDER-BY"><a href="#OEDER-BY" class="headerlink" title="OEDER BY"></a>OEDER BY</h3><p>本子句用于对输出的结果集按照一列或多列进行排序：</p>
-<pre class="language-sql" data-language="sql"><code class="language-sql"><span class="token keyword">SELECT</span> column_name<span class="token punctuation">,</span>column_name 
-<span class="token keyword">FROM</span> table_name 
-<span class="token keyword">ORDER</span> <span class="token keyword">BY</span> column_name<span class="token punctuation">,</span>column_name <span class="token keyword">ASC</span><span class="token operator">|</span><span class="token keyword">DESC</span><span class="token punctuation">;</span></code></pre>
-
-<h4 id="升降序关键词"><a href="#升降序关键词" class="headerlink" title="升降序关键词"></a>升降序关键词</h4><p>其中的 <code>ASC</code> 代表升序，默认如此，可不写出；而 <code>DESC</code> 代表降序，需要手动指定。</p>
-<h4 id="多列排序"><a href="#多列排序" class="headerlink" title="多列排序"></a>多列排序</h4><p>在 <code>ORDER BY</code> 后写多列的参数即可，其效果类似分别排序：<br><code>SELECT * FROM Websites ORDER BY country,alexa;</code></p>
-<h4 id="与-HERE-之关系"><a href="#与-HERE-之关系" class="headerlink" title="与 HERE 之关系"></a>与 HERE 之关系</h4><p>如果需要使用到 <code>WHERE</code> 语句，则 <code>ORDER BY</code> 必须写到 <code>WHERE</code> 到后面；而如果没有  <code>WHERE</code> 语句，则  <code>ORDER BY</code> 放在表的后面。如：<code>SELECT * FROM Website WHERE country=&#39;CN&#39; ORDER BY alexa;</code>。</p>
-<hr>
-<h3 id="INSERT-INTO"><a href="#INSERT-INTO" class="headerlink" title="INSERT INTO"></a>INSERT INTO</h3><p>本语句用于向表中插入新的数据：</p>
-<pre class="language-sql" data-language="sql"><code class="language-sql"><span class="token comment"># 第一种形式无需指定要插入数据的列名，只需提供被插入的值即可：</span>
-<span class="token keyword">INSERT</span> <span class="token keyword">INTO</span> table_name
-<span class="token keyword">VALUES</span> <span class="token punctuation">(</span>value1<span class="token punctuation">,</span>value2<span class="token punctuation">,</span>value3<span class="token punctuation">,</span><span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-
-<span class="token comment"># 第二种形式需要指定列名及被插入的值：</span>
-<span class="token keyword">INSERT</span> <span class="token keyword">INTO</span> table_name <span class="token punctuation">(</span>column1<span class="token punctuation">,</span>column2<span class="token punctuation">,</span>column3<span class="token punctuation">,</span><span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">)</span>
-<span class="token keyword">VALUES</span> <span class="token punctuation">(</span>value1<span class="token punctuation">,</span>value2<span class="token punctuation">,</span>value3<span class="token punctuation">,</span><span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">)</span><span class="token punctuation">;</span></code></pre>
-
-<p>而 <code>id</code> 字段是自动更新的，表中的每条数据都有一个唯一的数字。</p>
-<hr>
-<h3 id="UPDATE"><a href="#UPDATE" class="headerlink" title="UPDATE"></a>UPDATE</h3><p>本语句用于更新表中已存在的记录：</p>
-<pre class="language-sql" data-language="sql"><code class="language-sql"><span class="token keyword">UPDATE</span> table_name
-<span class="token keyword">SET</span> column1<span class="token operator">=</span>value1<span class="token punctuation">,</span>column2<span class="token operator">=</span>value2<span class="token punctuation">,</span><span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">.</span>
-<span class="token keyword">WHERE</span> some_column<span class="token operator">=</span>some_value<span class="token punctuation">;</span></code></pre>
-
-<p><strong>注意：</strong><code>WHERE</code> 子句规定了哪条 &#x2F; 哪些记录需要更新，若省略，则表中所有的列数据都会被更新！</p>
-<hr>
-<h3 id="DELETE"><a href="#DELETE" class="headerlink" title="DELETE"></a>DELETE</h3><p>本语句用于删去表中指定的行：</p>
-<pre class="language-sql" data-language="sql"><code class="language-sql"><span class="token keyword">DELETE</span> <span class="token keyword">FROM</span> table_name
-<span class="token keyword">WHERE</span> some_column<span class="token operator">=</span>some_value<span class="token punctuation">;</span></code></pre>
-
-<p><strong>注意：</strong>与 <code>UPDATE</code> 语句类似，<code>WHERE</code> 子句指定了删除的对象，若省略，整张表中所有的数据都将被删除！<br>（注：表中所有的行被删除，但表的结构、属性和索引将保持不变）</p>
-]]></content>
-      <categories>
-        <category>叶子的粗浅知识</category>
-      </categories>
-      <tags>
-        <tag>博文</tag>
-        <tag>知识</tag>
-        <tag>SQL</tag>
-        <tag>笔记</tag>
       </tags>
   </entry>
   <entry>
@@ -1144,9 +1467,10 @@ MIN：  求出表中任意列中数据的最小值</code></pre>
       </categories>
       <tags>
         <tag>博文</tag>
+        <tag>笔记</tag>
         <tag>知识</tag>
         <tag>SQL</tag>
-        <tag>笔记</tag>
+        <tag>《SQL基础教程》</tag>
       </tags>
   </entry>
   <entry>
@@ -1363,332 +1687,32 @@ del %*</code></pre>
       </categories>
       <tags>
         <tag>博文</tag>
-        <tag>知识</tag>
-        <tag>笔记</tag>
         <tag>QT</tag>
+        <tag>笔记</tag>
+        <tag>知识</tag>
       </tags>
   </entry>
   <entry>
-    <title>【QT 学习笔记02】第一个项目！</title>
-    <url>/2022/05/12/QT-learning-note-02/</url>
-    <content><![CDATA[<img src="/images/QT-learning-note-02/cover.jpg" width="450" alt="cover" / loading="lazy">
-
+    <title>别人为自己做的选择</title>
+    <url>/2021/05/11/choices-made-by-others/</url>
+    <content><![CDATA[<p><img src="/images/choices-made-by-others/cover.jpg" alt="cover" loading="lazy"></p>
+<blockquote>
+<p>选择是自由的，但因为必须要选择，所以也是不自由的。</p>
+</blockquote>
 <span id="more"></span>
 
-<p>今天本来是想要参考<a href="https://mskclover.com/2022/04/26/QT-learning-note-01/">上一节</a>提到的教程，继续学习 Qt 的。但参考的那两个教程都太陈旧了，可能是因为新的环境变化太大，他们给出的例程我没办法在电脑上复现，所以只得作罢。而且我发现，中文网络上的教程文章几乎都是 18 年之前的，之后很少再有新的文章了。像我在一个 Qt 的中文论坛又找到的一份教程：<a href="https://www.qter.org/forum.php?mod=viewthread&tid=193">《Qt 快速入门系列教程》</a>，作者之前还出版了这本书，已经到第三版了，并且在 2019 年 2 月的时候还对教程进行一定程度的更新，有重修教程、重振论坛的意思，但现在看起来，他最终还是没能成功：他的 Qt5 新教程在写了十篇以后，停止在了同年的 3 月 20 日，非常可惜。</p>
-<p>所以，我只好另寻他路。我在搜索引擎中找到了<a href="https://subingwen.cn/">这个博客</a>中的 Qt 教程，看起来他以前好像是一个机构等职业讲师，在 <a href="https://space.bilibili.com/147020887">B站</a> 也有更新相关的视频。我粗略地看了一下，应该是能满足我们目前的学习需要了，所以这次就开始学习<a href="https://mskclover.com/2022/05/12/QT-learning-note-02/#%E5%8F%82%E8%80%83%E8%B5%84%E6%96%99">这个教程</a>了。</p>
-<h2 id="第一个-Qt-项目"><a href="#第一个-Qt-项目" class="headerlink" title="第一个 Qt 项目"></a>第一个 Qt 项目</h2><p>略去已经学习过的部分后，我们这次终于开始使用 IDE 来构建项目了：Qt 官方提供的 Qt Creater，其基本用法就不再多说了。<strong>这次以 <code>HelloQtGui</code> 这个项目作为第一个例程，目的是使初学者知晓项目中各个文件的关系</strong>，下面贴出项目的结构与相关代码吧：</p>
-<p><img src="/images/QT-learning-note-02/helloqtgui-program.jpg" alt="helloqtgui-program" loading="lazy"><em>项目结构</em></p>
-<h3 id="项目文件（-pro）"><a href="#项目文件（-pro）" class="headerlink" title="项目文件（.pro）"></a>项目文件（.pro）</h3><p>最上面的 <code>HelloQtGui.pro</code> 是项目文件，其中记录着项目的一些属性信息，在编译时系统会自动修改其中的内容，也可以手动改动其中的一些参数，以实现额外的功能，在<a href="https://mskclover.com/2022/04/26/QT-learning-note-03/">后面</a>会遇见相关的例子，这里就先贴出代码与注释：</p>
-<pre class="language-properties" data-language="properties"><code class="language-properties"><span class="token comment"># HelloQtGui.pro</span>
-
-<span class="token comment"># 在项目文件中, 注释需要使用 井号(#)</span>
-<span class="token comment"># 项目编译的时候需要加载哪些底层模块</span>
-<span class="token attr-name">QT</span> <span class="token attr-value">      += core gui</span>
-
-<span class="token comment"># 如果当前Qt版本大于4, 会添加一个额外的模块: widgets</span>
-<span class="token comment"># Qt5 中对 gui 模块进行了拆分, 将 widgets 独立出来了</span>
-<span class="token attr-name">greaterThan(QT_MAJOR_VERSION,</span> <span class="token attr-value">4): QT += widgets</span>
-
-<span class="token comment"># 使用 c++11 新特性</span>
-<span class="token attr-name">CONFIG</span> <span class="token attr-value">+= c++11</span>
-
-<span class="token comment"># The following define makes your compiler emit warnings if you use</span>
-<span class="token comment"># any Qt feature that has been marked deprecated (the exact warnings</span>
-<span class="token comment"># depend on your compiler). Please consult the documentation of the</span>
-<span class="token comment"># deprecated API in order to know how to port your code away from it.</span>
-<span class="token comment"># 如果在项目中调用了废弃的函数, 项目编译的时候会有警告的提示</span>
-<span class="token attr-name">DEFINES</span> <span class="token attr-value">+= QT_DEPRECATED_WARNINGS</span>
-
-<span class="token comment"># You can also make your code fail to compile if it uses deprecated APIs.</span>
-<span class="token comment"># In order to do so, uncomment the following line.</span>
-<span class="token comment"># You can also select to disable deprecated APIs only up to a certain version of Qt.</span>
-<span class="token comment">#DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0</span>
-
-<span class="token comment"># 项目中的源文件</span>
-<span class="token attr-name">SOURCES</span> <span class="token attr-value">+= \
-    main.cpp \
-    mainwindow.cpp \
-    testdialog.cpp \
-    testwidget.cpp</span>
-
-<span class="token comment"># 项目中的头文件</span>
-<span class="token attr-name">HEADERS</span> <span class="token attr-value">+= \
-    mainwindow.h \
-    testdialog.h \
-    testwidget.h</span>
-
-<span class="token comment"># 项目中的窗口界面文件</span>
-<span class="token attr-name">FORMS</span> <span class="token attr-value">+= \
-    mainwindow.ui \
-    testdialog.ui \
-    testwidget.ui</span>
-
-<span class="token comment"># Default rules for deployment.</span>
-<span class="token attr-name">qnx</span><span class="token punctuation">:</span> <span class="token attr-value">target.path = /tmp/$$&#123;TARGET&#125;/bin</span>
-<span class="token attr-name">else</span><span class="token punctuation">:</span> <span class="token attr-value">unix:!android: target.path = /opt/$$&#123;TARGET&#125;/bin</span>
-<span class="token comment">!isEmpty(target.path): INSTALLS += target</span></code></pre>
-
-<h3 id="main-cpp"><a href="#main-cpp" class="headerlink" title="main.cpp"></a>main.cpp</h3><p>这里是程序的主函数，多是自动生成的代码：</p>
-<pre class="language-c" data-language="c"><code class="language-c"><span class="token comment">// main.cpp</span>
-
-<span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span> <span class="token string">"mainwindow.h"</span>     <span class="token comment">// 生成的窗口类头文件</span></span>
-<span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span> <span class="token string">&lt;QApplication></span>     <span class="token comment">// 应用程序类头文件</span></span>
-
-<span class="token keyword">int</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token keyword">int</span> argc<span class="token punctuation">,</span> <span class="token keyword">char</span> <span class="token operator">*</span>argv<span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">)</span>
-<span class="token punctuation">&#123;</span>
-    QApplication <span class="token function">a</span><span class="token punctuation">(</span>argc<span class="token punctuation">,</span> argv<span class="token punctuation">)</span><span class="token punctuation">;</span>         <span class="token comment">// 创建应用程序对象，在一个 Qt 项目中实例对象有且仅有一个</span>
-                                        <span class="token comment">// 类的作用：检测触发的事件，进行事件的循环并处理</span>
-                                        <span class="token comment">//定义一个 QT 应用程序对象，它是 QT 图像界面的入口</span>
-                                        <span class="token comment">//它的构造函数接收与 main 函数一样的参数</span>
-    MainWindow w<span class="token punctuation">;</span>       <span class="token comment">// 创建窗口类对象</span>
-    w<span class="token punctuation">.</span><span class="token function">show</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>           <span class="token comment">// 显示窗口</span>
-    <span class="token keyword">return</span> a<span class="token punctuation">.</span><span class="token function">exec</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>    <span class="token comment">// exec() 阻塞函数进入事件循环函数等待用户操作</span>
-    					<span class="token comment">// 使在程序执行完以后，窗口不会自动消失</span>
-<span class="token punctuation">&#125;</span></code></pre>
-
-<h3 id="mainwindow-h"><a href="#mainwindow-h" class="headerlink" title="mainwindow.h"></a>mainwindow.h</h3><p>这是窗口界面对应的头文件，被上方的 <code>main.cpp</code> 所包含，生成代码如下：</p>
-<pre class="language-c" data-language="c"><code class="language-c"><span class="token comment">// mainwindow.h</span>
-
-<span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">ifndef</span> <span class="token expression">MAINWINDOW_H</span></span>
-<span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">define</span> <span class="token macro-name">MAINWINDOW_H</span></span>
-
-<span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span> <span class="token string">&lt;QMainWindow></span>      <span class="token comment">// Qt 标准窗口类头文件</span></span>
-
-QT_BEGIN_NAMESPACE
-<span class="token comment">// mainwindow.ui 文件中也有一个类叫 MainWindow, 将这个类放到命名空间 Ui 中</span>
-namespace Ui <span class="token punctuation">&#123;</span> class MainWindow<span class="token punctuation">;</span> <span class="token punctuation">&#125;</span>      <span class="token comment">// 对应的是 ui 文件中的类</span>
-QT_END_NAMESPACE
-
-class MainWindow <span class="token operator">:</span> public QMainWindow   <span class="token comment">// 继承了基础类</span>
-<span class="token punctuation">&#123;</span>
-    Q_OBJECT    <span class="token comment">// 这个宏是为了能够使用Qt中的信号槽机制</span>
-
-public<span class="token operator">:</span>
-    <span class="token function">MainWindow</span><span class="token punctuation">(</span>QWidget <span class="token operator">*</span>parent <span class="token operator">=</span> nullptr<span class="token punctuation">)</span><span class="token punctuation">;</span>
-    <span class="token operator">~</span><span class="token function">MainWindow</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-
-private<span class="token operator">:</span>
-    Ui<span class="token operator">::</span>MainWindow <span class="token operator">*</span>ui<span class="token punctuation">;</span>     <span class="token comment">// 定义指针指向窗口的 UI 对象</span>
-<span class="token punctuation">&#125;</span><span class="token punctuation">;</span>
-<span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">endif</span> <span class="token comment">// MAINWINDOW_H</span></span></code></pre>
-
-<p>看不懂是吧？其实我们就算看得懂代码，也不知道它具体是干什么的，反正能跑就行，后面应该慢慢就知道了……</p>
-<h3 id="mainwindow-cpp"><a href="#mainwindow-cpp" class="headerlink" title="mainwindow.cpp"></a>mainwindow.cpp</h3><p>这里是上面对应头文件中类的源文件：</p>
-<pre class="language-c" data-language="c"><code class="language-c"><span class="token comment">// mainwindow.cpp</span>
-
-<span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span> <span class="token string">"mainwindow.h"</span></span>
-<span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span> <span class="token string">"ui_mainwindow.h"</span></span>
-
-MainWindow<span class="token operator">::</span><span class="token function">MainWindow</span><span class="token punctuation">(</span>QWidget <span class="token operator">*</span>parent<span class="token punctuation">)</span>
-    <span class="token operator">:</span> <span class="token function">QMainWindow</span><span class="token punctuation">(</span>parent<span class="token punctuation">)</span>
-    <span class="token punctuation">,</span> <span class="token function">ui</span><span class="token punctuation">(</span>new Ui<span class="token operator">::</span>MainWindow<span class="token punctuation">)</span>    <span class="token comment">// 基于 mainwindow.ui 创建一个实例对象</span>
-                                <span class="token comment">// 相当于将 ui 对象实例化</span>
-<span class="token punctuation">&#123;</span>
-    <span class="token comment">// 将 mainwindow.ui 的实例对象和 this 指向的当前类的对象进行关联</span>
-    <span class="token comment">// 这样同名的两个类对象就产生了关联, 合二为一了</span>
-    ui<span class="token operator">-></span><span class="token function">setupUi</span><span class="token punctuation">(</span>this<span class="token punctuation">)</span><span class="token punctuation">;</span>          <span class="token comment">// 相当于在后面操作 ui 时相当于直接操作指向的类</span>
-
-    <span class="token comment">// 一般在 Qt 的构造函数中进行初始化操作（窗口，数据，……）</span>
-<span class="token punctuation">&#125;</span>
-
-MainWindow<span class="token operator">::</span><span class="token operator">~</span><span class="token function">MainWindow</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
-<span class="token punctuation">&#123;</span>
-    delete ui<span class="token punctuation">;</span>
-<span class="token punctuation">&#125;</span></code></pre>
-
-<h3 id="mainwindow-ui"><a href="#mainwindow-ui" class="headerlink" title="mainwindow.ui"></a>mainwindow.ui</h3><p>这是一个 xml 格式的文件，在 Qt 中的每一个窗口对对应着一个可编辑的可视化界面，不过一般不需要在这里编辑，IDE 给我们提供了更简单的 Design 界面，在那里只需要拖动组件就可以了，这里还是贴出初始代码作参考：</p>
-<pre class="language-markup" data-language="markup"><code class="language-markup">// mainwindow.ui
-
-<span class="token comment">&lt;!-- 双击这个文件看到的是一个窗口界面, 如果使用文本编辑器打开看到的是一个XML格式的文件 --></span>
-<span class="token comment">&lt;!-- 看不懂这种格式没关系, 我们不需要在这种模式下操作这个文件。 --></span>
-<span class="token comment">&lt;!-- 这里只是给大家介绍这个文件的本质 --></span>
-<span class="token prolog">&lt;?xml version="1.0" encoding="UTF-8"?></span>
-<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>ui</span> <span class="token attr-name">version</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>4.0<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
- <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>class</span><span class="token punctuation">></span></span>MainWindow<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>class</span><span class="token punctuation">></span></span>
- <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>widget</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>QMainWindow<span class="token punctuation">"</span></span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>MainWindow<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
-  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>property</span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>geometry<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
-   <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>rect</span><span class="token punctuation">></span></span>
-    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>x</span><span class="token punctuation">></span></span>0<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>x</span><span class="token punctuation">></span></span>
-    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>y</span><span class="token punctuation">></span></span>0<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>y</span><span class="token punctuation">></span></span>
-    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>width</span><span class="token punctuation">></span></span>800<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>width</span><span class="token punctuation">></span></span>
-    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>height</span><span class="token punctuation">></span></span>600<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>height</span><span class="token punctuation">></span></span>
-   <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>rect</span><span class="token punctuation">></span></span>
-  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>property</span><span class="token punctuation">></span></span>
-  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>property</span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>windowTitle<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
-   <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>string</span><span class="token punctuation">></span></span>MainWindow<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>string</span><span class="token punctuation">></span></span>
-  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>property</span><span class="token punctuation">></span></span>
-  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>widget</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>QWidget<span class="token punctuation">"</span></span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>centralwidget<span class="token punctuation">"</span></span><span class="token punctuation">/></span></span>
-  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>widget</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>QMenuBar<span class="token punctuation">"</span></span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>menubar<span class="token punctuation">"</span></span><span class="token punctuation">/></span></span>
-  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>widget</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>QStatusBar<span class="token punctuation">"</span></span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>statusbar<span class="token punctuation">"</span></span><span class="token punctuation">/></span></span>
- <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>widget</span><span class="token punctuation">></span></span>
- <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>resources</span><span class="token punctuation">/></span></span>
- <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>connections</span><span class="token punctuation">/></span></span>
-<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>ui</span><span class="token punctuation">></span></span></code></pre>
-
-<h2 id="Qt-的窗口类"><a href="#Qt-的窗口类" class="headerlink" title="Qt 的窗口类"></a>Qt 的窗口类</h2><p>想要为 Qt 项目添加新的窗口，首先得新建一个子类。</p>
-<h3 id="三个基础窗口类"><a href="#三个基础窗口类" class="headerlink" title="三个基础窗口类"></a>三个基础窗口类</h3><p>在 IDE 中先单机项目的主文件并选中，然后在右键菜单中点击 “Add new …”，在新弹出的窗口中，选择 “Qt” 与 “设计师界面类”，并点击右下角的 “choose…” 进行下一步：</p>
-<p><img src="/images/QT-learning-note-02/qwidget_1.jpg" alt="qwidget_1" loading="lazy"></p>
-<p>在这里可以看到有三种类，分别是：<code>QWidget</code>、<code>QDialog</code> 和 <code>QMainWindow</code>：</p>
-<p><img src="/images/QT-learning-note-02/qwidget_2.jpg" alt="qwidget_2" loading="lazy"></p>
-<p>这三种类的关系如下所示：</p>
-<p><img src="/images/QT-learning-note-02/qwidget_3.jpg" alt="qwidget_3" loading="lazy"><em>图片来自于苏丙榅的<a href="https://mskclover.com/2022/05/12/QT-learning-note-02/#%E5%8F%82%E8%80%83%E8%B5%84%E6%96%99">入门教程</a></em></p>
-<p>在创建新窗口时，需要让自己的窗口类继承上述三个窗口类中的其中一个。它们分别有如下的性质：</p>
-<ul>
-<li><code>QWidget</code><ul>
-<li>是所有窗口的基类</li>
-<li>Qt 中的控件（如按钮、输入框、单选框等）都属于窗口，其基类均为 <code>QWidget</code></li>
-<li>可以内嵌到其他的窗口中 —— 没有边框</li>
-<li>可以不内嵌而单独显示 —— 独立窗口，具有边框</li>
-</ul>
-</li>
-<li><code>QDialog</code><ul>
-<li>对话框类</li>
-<li>不能内嵌到其他窗口中</li>
-</ul>
-</li>
-<li><code>QMainWindow</code><ul>
-<li>具有工具栏、状态栏和菜单栏</li>
-<li>不能内嵌到其他窗口中</li>
-</ul>
-</li>
-</ul>
-<h3 id="窗口的显示"><a href="#窗口的显示" class="headerlink" title="窗口的显示"></a>窗口的显示</h3><p>在 Qt 中，显示窗口的方式有两种：内嵌入其他的窗口一并显示，或作为独立窗口单独显示：</p>
-<ul>
-<li>内嵌窗口<ul>
-<li>依附于某一个大的窗口，作为了大窗口的一部分</li>
-<li>大窗口就算这个内嵌窗口的父窗口</li>
-<li><strong>在父窗口显示的时候，内嵌窗口也会一并显示</strong></li>
-</ul>
-</li>
-<li>独立窗口（非内嵌）<ul>
-<li>有边框，有标题栏</li>
-<li>需要调用函数才可以显示</li>
-</ul>
-</li>
-</ul>
-<p>基于上面的第一个项目，现分别创建两个测试窗口以说明其区别。<code>TestWidgget</code> 和 <code>TestDialog</code> 的头文件与源代码均与上面最初的 <code>mainwindow</code> 没有大的不同，修改窗口控件也只需要在 Design 中编辑即可，此处的重点在于子窗口的两种不同的显示。以后若无更改，新窗口的自动生成代码将不会再重复贴出了。</p>
-<p>因此，下面贴出控制窗口显示的 <code>mainwindow.cpp</code> 文件：</p>
-<pre class="language-c" data-language="c"><code class="language-c"><span class="token comment">// 新的 mainwindow.cpp</span>
-
-<span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span> <span class="token string">"mainwindow.h"</span></span>
-<span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span> <span class="token string">"ui_mainwindow.h"</span></span>
-<span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span> <span class="token string">"testwidget.h"</span>			<span class="token comment">// 新包含了两个子类的头文件</span></span>
-<span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span> <span class="token string">"testdialog.h"</span></span>
-
-MainWindow<span class="token operator">::</span><span class="token function">MainWindow</span><span class="token punctuation">(</span>QWidget <span class="token operator">*</span>parent<span class="token punctuation">)</span>
-    <span class="token operator">:</span> <span class="token function">QMainWindow</span><span class="token punctuation">(</span>parent<span class="token punctuation">)</span>
-    <span class="token punctuation">,</span> <span class="token function">ui</span><span class="token punctuation">(</span>new Ui<span class="token operator">::</span>MainWindow<span class="token punctuation">)</span>    <span class="token comment">// 基于 mainwindow.ui 创建一个实例对象</span>
-                                <span class="token comment">// 相当于将 ui 对象实例化</span>
-<span class="token punctuation">&#123;</span>
-    <span class="token comment">// 将 mainwindow.ui 的实例对象和 this 指向的当前类的对象进行关联</span>
-    <span class="token comment">// 这样同名的两个类对象就产生了关联, 合二为一了</span>
-    ui<span class="token operator">-></span><span class="token function">setupUi</span><span class="token punctuation">(</span>this<span class="token punctuation">)</span><span class="token punctuation">;</span>          <span class="token comment">// 相当于在后面操作 ui 时相当于直接操作指向的类</span>
-
-    <span class="token comment">// 一般在 Qt 的构造函数中进行初始化操作（窗口，数据，……）</span>
-    
-    <span class="token comment">// 显示当前窗口的时候，显示另外一个窗口 TestWidget</span>
-<span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">if</span> <span class="token expression"><span class="token number">1</span></span></span>
-    <span class="token comment">// 创建窗口对象，没有给 w 对象指定父对象</span>
-    <span class="token comment">// 所以这个窗口是一个独立窗口，有四周的边框</span>
-    <span class="token comment">// 要显示独立窗口需要进行 show（） 操作</span>
-    TestWidget<span class="token operator">*</span> w <span class="token operator">=</span> new TestWidget<span class="token punctuation">;</span>
-    <span class="token comment">// 显示当前窗口</span>
-    w <span class="token operator">-></span> <span class="token function">show</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-<span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">else</span></span>
-    <span class="token comment">// 如果在创建窗口对象的时候给其指定了父对象，这个窗口就不是一个独立窗口</span>
-    <span class="token comment">// 所以在当前父窗口显示的时候，子窗口被嵌入，与父窗口一起显示出来</span>
-    <span class="token comment">// 此时子窗口是没有独立边框的</span>
-    TestWidget<span class="token operator">*</span> w <span class="token operator">=</span> new <span class="token function">TestWidget</span><span class="token punctuation">(</span>this<span class="token punctuation">)</span><span class="token punctuation">;</span>
-<span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">endif</span></span>
-
-<span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">if</span> <span class="token expression"><span class="token number">1</span></span></span>
-    <span class="token comment">// 创建对话框窗口</span>
-    TestDialog<span class="token operator">*</span> dlg <span class="token operator">=</span> new <span class="token function">TestDialog</span><span class="token punctuation">(</span>this<span class="token punctuation">)</span><span class="token punctuation">;</span>     <span class="token comment">// 不管是否指定窗口的父对象，它都不会内嵌到主窗口中</span>
-    <span class="token comment">// 非模态</span>
-    dlg <span class="token operator">-></span> <span class="token function">show</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>          <span class="token comment">// 需要手动调用父类的 show()</span>
-<span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">else</span></span>
-    <span class="token comment">// 创建对话框窗口</span>
-    TestDialog<span class="token operator">*</span> dlg <span class="token operator">=</span> new <span class="token function">TestDialog</span><span class="token punctuation">(</span>this<span class="token punctuation">)</span><span class="token punctuation">;</span>
-    <span class="token comment">// 模态，exec()</span>
-    <span class="token comment">// 阻塞程序的执行</span>
-    dlg <span class="token operator">-></span> <span class="token function">exec</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-    <span class="token comment">// 此时无法显示主窗口，也无法切换焦点，需要关闭 dlg 窗口才会出现主窗口</span>
-<span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">endif</span></span>
-<span class="token punctuation">&#125;</span>
-
-MainWindow<span class="token operator">::</span><span class="token operator">~</span><span class="token function">MainWindow</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
-<span class="token punctuation">&#123;</span>
-    delete ui<span class="token punctuation">;</span>
-<span class="token punctuation">&#125;</span></code></pre>
-
-<p>此时代码中是有两个分支的，在两个 if 均为 1 的时候，它们均为独立窗口 —— 其中 <code>TestWidgget</code> 窗口继承了 <code>QWidget</code> 类，在没有指定父类的时候，它是独立窗口；而 <code>TestDialog</code> 窗口基础的是 <code>QDialog</code> 类，所以无论它是否指定父对象（是否在 new 后指向 <code>this</code>），它都只会是独立窗口。</p>
-<p><img src="/images/QT-learning-note-02/qwidget_4.jpg" alt="qwidgt" loading="lazy"></p>
-<p><em>其中 Form 窗口是 TestWidget 产生的</em></p>
-<p>若给 <code>TestWidgget</code> 指定父对象（将第一个 if 置 0），则其会嵌入到主窗口中：</p>
-<p><img src="/images/QT-learning-note-02/qwidget_5.jpg" alt="qwidget_5" loading="lazy"></p>
-<p>现在的 <code>TestDialog</code> 是非模态显示（调用的 <code>show()</code> 函数)，若想让对话窗口改为模态显示，则需调用 <code>exec()</code> 函数（将第二个 if 置 0）：</p>
-<p><img src="/images/QT-learning-note-02/qwidget_6.jpg" alt="qwidget_6" loading="lazy"></p>
-<p>此时只有对话框窗口，且焦点无法切换到其他地方，只有在关闭此对话窗口以后，才会显示主窗口。</p>
-<h2 id="坐标体系"><a href="#坐标体系" class="headerlink" title="坐标体系"></a>坐标体系</h2><p>Qt 的坐标体系与大多数显示一样，均以左上角为坐标原点。不过有一点特殊的是，在一个 Qt 窗口中，其中嵌入的子窗口是以父窗口的左上角为左上角为坐标原点，也就是相对坐标，而非绝对坐标：</p>
-<p><img src="/images/QT-learning-note-02/coordinate_1.jpg" alt="coordinate_1" loading="lazy"><em>图片来自于苏丙榅的<a href="https://mskclover.com/2022/05/12/QT-learning-note-02/#%E5%8F%82%E8%80%83%E8%B5%84%E6%96%99">入门教程</a></em></p>
-<p>下面用 <code>coordinate</code> 项目作为例程示例：</p>
-<pre class="language-c" data-language="c"><code class="language-c"><span class="token comment">// corrdinate mainwindow.cpp</span>
-
-<span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span> <span class="token string">"mainwindow.h"</span></span>
-<span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span> <span class="token string">"ui_mainwindow.h"</span></span>
-<span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span> <span class="token string">&lt;QPushButton></span>          <span class="token comment">// 按钮控件需要的库</span></span>
-
-MainWindow<span class="token operator">::</span><span class="token function">MainWindow</span><span class="token punctuation">(</span>QWidget <span class="token operator">*</span>parent<span class="token punctuation">)</span>
-    <span class="token operator">:</span> <span class="token function">QMainWindow</span><span class="token punctuation">(</span>parent<span class="token punctuation">)</span>
-    <span class="token punctuation">,</span> <span class="token function">ui</span><span class="token punctuation">(</span>new Ui<span class="token operator">::</span>MainWindow<span class="token punctuation">)</span>
-<span class="token punctuation">&#123;</span>
-    ui<span class="token operator">-></span><span class="token function">setupUi</span><span class="token punctuation">(</span>this<span class="token punctuation">)</span><span class="token punctuation">;</span>
-
-    <span class="token comment">// 让窗口出现在屏幕的这个位置，没有指定则是默认居中</span>
-    <span class="token comment">// 坐标原点是左上角</span>
-    <span class="token comment">//this -> move(100, 100);</span>
-
-    <span class="token comment">// 创建一个按钮，让这个按钮作为当前创建的子控件</span>
-    QPushButton<span class="token operator">*</span> btnA <span class="token operator">=</span> new <span class="token function">QPushButton</span><span class="token punctuation">(</span>this<span class="token punctuation">)</span><span class="token punctuation">;</span>      <span class="token comment">// 一定要指定父对象，否则按钮就成了一个独立的窗口</span>
-        											<span class="token comment">// 此时父对象依旧是主窗口</span>
-    <span class="token comment">// 移动按钮的位置</span>
-    <span class="token comment">// 基类 QWidget 中的 move() 函数</span>
-    btnA <span class="token operator">-></span> <span class="token function">move</span><span class="token punctuation">(</span><span class="token number">10</span><span class="token punctuation">,</span> <span class="token number">10</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-    <span class="token comment">// 给按钮设置固定的大小</span>
-    btnA <span class="token operator">-></span> <span class="token function">setFixedSize</span><span class="token punctuation">(</span><span class="token number">200</span><span class="token punctuation">,</span> <span class="token number">200</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-
-    <span class="token comment">// 创建第二个按钮</span>
-    QPushButton<span class="token operator">*</span> btnB <span class="token operator">=</span> new <span class="token function">QPushButton</span><span class="token punctuation">(</span>this<span class="token punctuation">)</span><span class="token punctuation">;</span>
-    btnB <span class="token operator">-></span> <span class="token function">move</span><span class="token punctuation">(</span><span class="token number">10</span><span class="token punctuation">,</span> <span class="token number">10</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-    btnB <span class="token operator">-></span> <span class="token function">setFixedSize</span><span class="token punctuation">(</span><span class="token number">100</span><span class="token punctuation">,</span> <span class="token number">100</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-
-    <span class="token comment">// 创建第三个按钮</span>
-    QPushButton<span class="token operator">*</span> btnC <span class="token operator">=</span> new <span class="token function">QPushButton</span><span class="token punctuation">(</span>this<span class="token punctuation">)</span><span class="token punctuation">;</span>
-    btnC <span class="token operator">-></span> <span class="token function">move</span><span class="token punctuation">(</span><span class="token number">10</span><span class="token punctuation">,</span> <span class="token number">10</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-    btnC <span class="token operator">-></span> <span class="token function">setFixedSize</span><span class="token punctuation">(</span><span class="token number">50</span><span class="token punctuation">,</span> <span class="token number">50</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-<span class="token punctuation">&#125;</span>
-
-MainWindow<span class="token operator">::</span><span class="token operator">~</span><span class="token function">MainWindow</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
-<span class="token punctuation">&#123;</span>
-    delete ui<span class="token punctuation">;</span>
-<span class="token punctuation">&#125;</span></code></pre>
-
-<p><img src="/images/QT-learning-note-02/coordinate_2.jpg" alt="coordinate_2" loading="lazy"></p>
-<p>若在代码块上方解除注释掉的代码 <code>this -&gt; move(100, 100);</code>，则窗口会以左上角为坐标原点进行显示：</p>
-<p><img src="/images/QT-learning-note-02/coordinate_3.jpg" alt="coordinate_3" loading="lazy"></p>
-<p>所以我们可以把整个屏幕认为是一个最大的窗口。</p>
-<h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>这次我们脱离了普通的文本编辑器，使用 Qt 官方提供的 Qt Creater 这个 IDE 进行编程，构建了第一个项目，并重点区分了三种重要的基础类与窗口的显示方式，最后以窗口的坐标体系作结。而在下一节，我们应该会学习 Qt 的数据类型与信号槽 —— 后者是 Qt 中非常重要的一部分，到那时，或许我们的 Qt 才算是真正的入门了吧。</p>
-<h2 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h2><p>[1] <a href="https://subingwen.cn/qt/qt-primer/">Qt 入门</a>，苏丙榅，爱编程的大丙，2021</p>
+<p>刚练字的时候，想到遇到很难做选择的事情时，我习惯性地就想让亲人帮忙做决定。一念至此，突然感到这是一种<strong>不负责任的表现</strong>——当我感到难以做选择的时候，就会去询问别人的“意见”，而后遵循别人的选择。</p>
+<p>这样做的结果就是：如果最后的这种选择导致了bad ending，那我会将原因归咎于他人，以此逃避了<strong>本该我承担的、选择错误的责任</strong>——其实在将选择交给别人做的那一刻开始，我就已经在逃避责任了；而若是促成了好的结果，那我将会更加的没有主见，以后在做其他重要的决断的时候，也会倾向于相信别人的意见，而不相信自己的选择——其实这也是不负责任的表现。</p>
+<p>其实，很多时候我面对一件难以做选择的事情时，借托“我老选择困难症啦”而让他人替自己做决定，想来这只是表面原因而已罢了。我想我真正的目的，其实是为了避免去承担做这个选择的责任——也许我之前从来都没有意识到，或许生物的趋利避害使我这样做？你看，我将原因又推到了其他的因素上，就是不肯承认是我自己的原因，不肯为此负责……</p>
+<p>sigh……今后慢慢注意吧。</p>
 ]]></content>
       <categories>
-        <category>叶子的粗浅知识</category>
+        <category>叶子的碎碎念</category>
       </categories>
       <tags>
         <tag>博文</tag>
-        <tag>知识</tag>
-        <tag>笔记</tag>
-        <tag>QT</tag>
+        <tag>杂思</tag>
+        <tag>叶子</tag>
       </tags>
   </entry>
   <entry>
@@ -1794,27 +1818,22 @@ MainWindow<span class="token operator">::</span><span class="token operator">~</
       </tags>
   </entry>
   <entry>
-    <title>别人为自己做的选择</title>
-    <url>/2021/05/11/choices-made-by-others/</url>
-    <content><![CDATA[<p><img src="/images/choices-made-by-others/cover.jpg" alt="cover" loading="lazy"></p>
-<blockquote>
-<p>选择是自由的，但因为必须要选择，所以也是不自由的。</p>
-</blockquote>
-<span id="more"></span>
+    <title>Hello World</title>
+    <url>/2020/08/22/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><pre class="language-bash" data-language="bash"><code class="language-bash">$ hexo new <span class="token string">"My New Post"</span></code></pre>
 
-<p>刚练字的时候，想到遇到很难做选择的事情时，我习惯性地就想让亲人帮忙做决定。一念至此，突然感到这是一种<strong>不负责任的表现</strong>——当我感到难以做选择的时候，就会去询问别人的“意见”，而后遵循别人的选择。</p>
-<p>这样做的结果就是：如果最后的这种选择导致了bad ending，那我会将原因归咎于他人，以此逃避了<strong>本该我承担的、选择错误的责任</strong>——其实在将选择交给别人做的那一刻开始，我就已经在逃避责任了；而若是促成了好的结果，那我将会更加的没有主见，以后在做其他重要的决断的时候，也会倾向于相信别人的意见，而不相信自己的选择——其实这也是不负责任的表现。</p>
-<p>其实，很多时候我面对一件难以做选择的事情时，借托“我老选择困难症啦”而让他人替自己做决定，想来这只是表面原因而已罢了。我想我真正的目的，其实是为了避免去承担做这个选择的责任——也许我之前从来都没有意识到，或许生物的趋利避害使我这样做？你看，我将原因又推到了其他的因素上，就是不肯承认是我自己的原因，不肯为此负责……</p>
-<p>sigh……今后慢慢注意吧。</p>
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><pre class="language-bash" data-language="bash"><code class="language-bash">$ hexo server</code></pre>
+
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><pre class="language-bash" data-language="bash"><code class="language-bash">$ hexo generate</code></pre>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><pre class="language-bash" data-language="bash"><code class="language-bash">$ hexo deploy</code></pre>
+
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
 ]]></content>
-      <categories>
-        <category>叶子的碎碎念</category>
-      </categories>
-      <tags>
-        <tag>博文</tag>
-        <tag>杂思</tag>
-        <tag>叶子</tag>
-      </tags>
   </entry>
   <entry>
     <title>【摘录】“还我头来” 及其他</title>
@@ -1856,24 +1875,6 @@ MainWindow<span class="token operator">::</span><span class="token operator">~</
         <tag>梁遇春</tag>
         <tag>散文</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>Hello World</title>
-    <url>/2020/08/22/hello-world/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><pre class="language-bash" data-language="bash"><code class="language-bash">$ hexo new <span class="token string">"My New Post"</span></code></pre>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><pre class="language-bash" data-language="bash"><code class="language-bash">$ hexo server</code></pre>
-
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><pre class="language-bash" data-language="bash"><code class="language-bash">$ hexo generate</code></pre>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><pre class="language-bash" data-language="bash"><code class="language-bash">$ hexo deploy</code></pre>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-]]></content>
   </entry>
   <entry>
     <title>两个矩形信号做卷积——不经意的小问题</title>
@@ -1991,357 +1992,6 @@ x_1(t)*x_2(t) &amp;&#x3D; &#123;\int_&#123;-\infty&#125;^&#123;+\infty&#125;&#12
         <tag>叶子填的坑</tag>
         <tag>知识</tag>
         <tag>学业</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>六月计划与简记</title>
-    <url>/2022/06/04/project-in-June/</url>
-    <content><![CDATA[<p><img src="\images\project-in-June\Algebra_Dance.jpg" alt="Algebra_Dance" width="450" / loading="lazy"><em>Algebra Dance</em></p>
-<blockquote>
-<p>Wine can’t satisfy my needs, food in my throat to dust, once how I drunk a lavish life can satisfy my desire. Forget those horrible ghost story, I was living in the real nightmare, I am not living, but also won’t die, moonlight will let I betray oneself, let me in the living body walking in the world.</p>
-<p>—— Hector Barbossa (Pirates of the Caribbean)</p>
-</blockquote>
-<span id="more"></span>
-
-<h2 id="写在月初"><a href="#写在月初" class="headerlink" title="写在月初"></a>写在月初</h2><p>上个月的后半段，由于一些原因，我就不贴在网上了。</p>
-<p>我后来也在想，这样每日详尽的计划与记述看起来确实蛮枯燥的，也许略去这些，只保留对每日的总结会更好些。这个月就来试一试吧，每日开始的时候写下「今日计划」，中途想到什么也写在这里，晚上再为这天作上总结，这样或许会更好一些。</p>
-<p>这个月最重要的事情，就是本月中旬的六级与下旬的期末考试，它们的重要性会在下方的「本月计划」中体现。</p>
-<h3 id="信息"><a href="#信息" class="headerlink" title="信息"></a>信息</h3><p>自从我高中毕业、用上智能手机以后，常常感受到互联网的冲刷，时间愈长，这样的感觉也就愈加强烈。所以，我想要以某种方式改变这种现状，管制我每日所看到的东西，从而让我能对目标保持专注。</p>
-<p>其实我最初的想法，有些类似于「一刀切」吧，就是完全不看任何新闻消息，禁绝任何来源。但立即我就想到了那句著名的「两耳不闻窗外事，一心只读圣贤书」，放到现在，多半是贬义之意。顺势联想到「风声雨声读书声声声入耳，家事国事天下事事事关心」，这句话恐怕更符合现在的这个时代。又联想到鲁迅先生在《无声的中国》里那段话：</p>
-<blockquote>
-<p>就因为当时又有钱玄同先生提倡废止汉字，用罗马字母来替代。这本也不过是一种文字革新，很平常的，但被不喜欢改革的中国人听见，就大不得了了，于是便放过了比较的平和的文学革命，而竭力来骂钱玄同。白话乘了这一个机会，居然减去了许多敌人，反而没有阻碍，能够流行了。</p>
-<p>中国人的性情是总喜欢调和，折中的。譬如你说，这屋子太暗，须在这里开一个窗，大家一定不允许的。但如果你主张拆掉屋顶，他们就会来调和，愿意开窗了。没有更激烈的主张，他们总连平和的改革也不肯行。那时白话文之得以通行，就因为有废掉中国字而用罗马字母的议论的缘故。</p>
-</blockquote>
-<p>所以我在想，在信息管制的这上面或许也是折中一点比较好。具体如何做，我还没有想好，不过据我这段时间的观察，日常断掉与互联网的连接，其实也就足够了，因为在断掉互联网后，不会再有新东西来打扰我们了。若是要使用网络查某样东西，那时再连接，查完即再次断开，这样虽有不便，但却能使我们的注意力能不受影响，这样就极好了。</p>
-<p>这个月我就尝试一下这个方法吧，在主观上抑制自己的浏览欲，客观上与互联网脱离连接。另外，我知道保持与世界连接的重要性，然而现实社会里的许多事情，已经非常的情绪化了，我常常浏览后受到那些情绪的影响，那令我心境不平，这也是我想要避免外界信息的原因之一。</p>
-<p>刚刚又想到了以前摘录过的一句话，比较恰题，便一起放在这里吧：</p>
-<blockquote>
-<p>不要相信信息流 —— 任何以同一种格式，像水龙头一样源源不断吐出各种内容的软件。翻开杂志看一下，每一个瞬间，妳的目光<strong>同时</strong>接触到很多不同的内容，它们并列排布在妳眼前，妳要习惯在一个平面上移动视线，而不是让视线固定在屏幕上的某一点，等着水龙头里的水不停冲刷。</p>
-<p>—— <a href="https://blog.yitianshijie.net/2019/04/20/things-we-should-let-our-children-know/">不鳥萬如一</a></p>
-</blockquote>
-<h2 id="本月计划"><a href="#本月计划" class="headerlink" title="本月计划"></a>本月计划</h2><h3 id="任务目标"><a href="#任务目标" class="headerlink" title="任务目标"></a>任务目标</h3><h4 id="考研任务"><a href="#考研任务" class="headerlink" title="考研任务"></a>考研任务</h4><ul>
-<li><input disabled="" type="checkbox"> 数学：完成高等数学的学习，并学习高等数学与线性代数章节；</li>
-<li><input disabled="" type="checkbox"> 英语：每日早读，背单词，看词书；</li>
-</ul>
-<h4 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h4><ul>
-<li><input checked="" disabled="" type="checkbox"> 学业：准备各科的期末考试；</li>
-<li><input checked="" disabled="" type="checkbox"> 六级：认真准备六级考试，在考前多做卷子；</li>
-</ul>
-<hr>
-<h3 id="每周分配"><a href="#每周分配" class="headerlink" title="每周分配"></a>每周分配</h3><p>为了能使本月的计划顺利推进，我认为应当在月初的时候，就将各周的事务有所分配，如此使各项计划能够合理的安排与完成，不至于到最后堆在一起（经典的计划灾难）。</p>
-<h4 id="学期第十五周（0530-——-0605）"><a href="#学期第十五周（0530-——-0605）" class="headerlink" title="学期第十五周（0530 —— 0605）"></a>学期第十五周（0530 —— 0605）</h4><ol>
-<li>复习考试科目；</li>
-<li>学习完线性代数的第一章；</li>
-<li>英语记背共计 450 词，词群 036 至 044，并每日早读；</li>
-</ol>
-<h4 id="学期第十六周（0606-——-0612）"><a href="#学期第十六周（0606-——-0612）" class="headerlink" title="学期第十六周（0606 —— 0612）"></a>学期第十六周（0606 —— 0612）</h4><ol>
-<li>优先保证六级考试；</li>
-<li>学习完线性代数的第二章；</li>
-<li>英语记背共计 1200 词，词群 045 至 058，并每日早读；</li>
-</ol>
-<h4 id="学期第十七周（0613-——-0619）"><a href="#学期第十七周（0613-——-0619）" class="headerlink" title="学期第十七周（0613 —— 0619）"></a>学期第十七周（0613 —— 0619）</h4><ol>
-<li>复习考试科目；</li>
-<li>学习完线性代数的第三章；</li>
-<li>英语记背共计 1200 词，词群 059 至 073，并每日早读；</li>
-</ol>
-<h4 id="学期第十八周（0620-——-0626）"><a href="#学期第十八周（0620-——-0626）" class="headerlink" title="学期第十八周（0620 —— 0626）"></a>学期第十八周（0620 —— 0626）</h4><ol>
-<li>复习考试科目；</li>
-<li>学习完线性代数的第四章；</li>
-<li>英语记背共计 1200 词，并每日早读；词群暂不作规定，视前面几周的完成结果而定；</li>
-</ol>
-<h4 id="学期第十九周（0627-——-0703）"><a href="#学期第十九周（0627-——-0703）" class="headerlink" title="学期第十九周（0627 —— 0703）"></a>学期第十九周（0627 —— 0703）</h4><ol>
-<li>复习考试科目；</li>
-<li>学习完线性代数的第五、六章，与完成高数第十四章；</li>
-<li>英语记背共计 1200 词，并每日早读；词群暂不作规定，视前面几周的完成结果而定；</li>
-</ol>
-<h2 id="每日情况简记"><a href="#每日情况简记" class="headerlink" title="每日情况简记"></a>每日情况简记</h2><div class="success">
-
-<blockquote>
-<p>这里会记述我每日计划及完成情况</p>
-</blockquote>
-</div>
-
-<h3 id="学期第十五周"><a href="#学期第十五周" class="headerlink" title="学期第十五周"></a>学期第十五周</h3><p>现在是第十五周的周末了，在下一周的周末我会有一场极为重要的英语六级考试，我想凭这最后一次机会，将自己的六级成绩尽可能的提高。之前的时间里也一直有在背单词，断断续续地也做过一些卷子，只能说有好有坏吧。现在我还有一周的时间，希望能认真准备，毕其功于一役！</p>
-<p><strong>考研倒计时：199 天</strong></p>
-<hr>
-<h4 id="06-04，周六"><a href="#06-04，周六" class="headerlink" title="06-04，周六"></a>06-04，周六</h4><p>一直以来，舍友们都睡得很晚，我也有些敏感，躺下后有一点风吹草动，我都会被拉回现实。我也尝试过好些方法，可惜效果都不太理想，所以就无奈只能在他们睡下以后才能入睡。跟朋友说起这件事后，他说使用眼罩与耳塞会好一些，今天快递终于到了，晚上就试试怎么样吧。</p>
-<p>今日的安排为学习线性代数第一章中的前半章节，并且做与订正相当部分的英语卷题。至于英语单词相关的部分，那已经是每日默认的事务了，所以以后除非有特殊情况，我都不会在安排中说了。</p>
-<p>晚上再运动一下，跑一跑步，这就是完美的一天。不过，由于这些天我们学校在举办大运会，所以操场用不了，只能围着湖边跑了，完美一天中的一点遗憾。</p>
-<p><strong>今日完成的事务：</strong></p>
-<ol>
-<li>英语：约 230 个单词，与词群 038 至 041；</li>
-<li>数学：约 35 分钟的视频课程；</li>
-<li>英语：订正上次的听力练习，并抄录生词；</li>
-<li>跑步；</li>
-</ol>
-<p><strong>学习时间：3h 17min</strong></p>
-<p>今天下午开始学习，主要也是下午在学习，晚上基本上是没有做什么的 &#x2F; 因为要为我们的课设善后，就得花时间为作品录像与写报告，不过这些杂务很快就全部都结束了，未来就很少再有这些事了。</p>
-<p>希望我们在明天能有更好的表现，共勉吧！</p>
-<p>最后，🕯️🕯️🕯️。</p>
-<hr>
-<h4 id="06-05，周日"><a href="#06-05，周日" class="headerlink" title="06-05，周日"></a>06-05，周日</h4><p>今天早上睡得太死了，没听到闹钟，一觉睡到了十二点过，明明昨晚睡得还算早的…… 今晚再睡得早一些吧。洗漱吃完饭后被队友叫去给课设善后了，下午基本上全交代在这里了。</p>
-<p>晚上就多做做英语吧。</p>
-<p><strong>今日完成的事务：</strong></p>
-<ol>
-<li>英语：约 230 个单词，与词群 042 至 045；</li>
-<li>英语：六级试卷 2019-12-A 的两篇阅读，并抄录生词；</li>
-</ol>
-<p><strong>学习时间：3h 13min</strong></p>
-<p>晚上做了这张卷子的两篇阅读题，速度大概是没问题吧，但正确率还是不够，希望后面几天能好一些吧。明天我打算做完这张卷子，并做一半的下一张卷子，争取能尽快地做好应试准备。</p>
-<hr>
-<h4 id="本周总结"><a href="#本周总结" class="headerlink" title="本周总结"></a>本周总结</h4><p>这周末学习时间不足，每天只有三个小时，下周基本上已经没课了，我想每天的学习时间能达到八个小时以上吧。</p>
-<p>没什么可以说的，这周就这样吧。</p>
-<hr>
-<h3 id="学期第十六周"><a href="#学期第十六周" class="headerlink" title="学期第十六周"></a>学期第十六周</h3><p>现在一切的复习重点都在英语上面，至少在英语这一块，上一周两天的学习还算是差强人意。上周与这周的两章数学，我认为都放在六级考完以后再论，现在全力刷卷子，找回英语的手感，才是重中之重。</p>
-<p>看起来我们看词书的速度要快于预期，所以我打算对月初制定的计划做一些调整，将每周的词群数目增多，由每天两节增添至每周三节。</p>
-<p>我计划在本周做近几年的六级试卷，大概安排是从现在开始一直到周五，每天做一张卷子吧，周一与周二可以将卷子拆开做，而后面三天就得定时做卷子了。</p>
-<p>大概就是这样了，如果有纰漏，后面再另作调整。</p>
-<p><strong>考研倒计时：197 天</strong></p>
-<hr>
-<h4 id="06-06，周一"><a href="#06-06，周一" class="headerlink" title="06-06，周一"></a>06-06，周一</h4><p>今天照计划的时间起来了，有了眼罩与耳塞，果然没有受到舍友多少影响入睡了。依据昨晚的计划，今天做完 A 卷剩下的部分，再至少得做完 2019-12-B 卷的听力与阅读，如果时间足够，做完 B 卷自然是再好不过了。不过考虑到订正 —— 特别是抄录生词需要相当长的时间，还是能做多少做多少吧。</p>
-<p><strong>今日完成的事务：</strong></p>
-<ol>
-<li>英语：早读，约 230 个单词，与词群 046 至 047；</li>
-<li>英语：六级试卷 2019-12-A 的听力订正、完形填空，并抄录生词；</li>
-<li>英语：六级试卷 2019-12-B 的两篇阅读，订正并抄录生词；</li>
-</ol>
-<p><strong>学习时间：5h 57min</strong></p>
-<p>上午订正听力，感觉渐渐地找回以前的题感了，下午做 B 卷的听力试试。完形填空由于单词掌握得不够熟练，还是错了好些，这几天抄录的单词比我之前半个月加起来都多……</p>
-<p>晚上有些犯懒，和同学摸了一会儿鱼，听力和段落匹配就没能做，明天早点起来做吧。</p>
-<hr>
-<h4 id="06-07，周二"><a href="#06-07，周二" class="headerlink" title="06-07，周二"></a>06-07，周二</h4><p>还说今天早点起来做呢…… 做完和朋友在实验室吹水，一下子就到了两点半，上午基本上全补觉了，什么都没有做。于是中午吃完饭后赶快到教室学习，今天的计划是先将昨天剩下的题做完，即 A 卷的段落匹配与 B 卷的听力部分；然后再将 B 卷其他剩下的部分，如完形填空、段落匹配与翻译做完，然后晚上再做一些 C 卷的相关题型，等到那个时候再看吧。</p>
-<p><strong>今日完成的事务：</strong></p>
-<ol>
-<li>英语：约 160 个单词，与词群 048 至 050；</li>
-<li>英语：六级试卷 2019-12-A 的听力部分与段落匹配，订正并抄录生词；</li>
-</ol>
-<p><strong>学习时间：5h 03min</strong></p>
-<p>到现在差不多快要八点了，我才做完了昨天的功课与订正。其实做题的时间并不长，这些时间里我主要是在订正、抄录与记背单词。但这样下去我就做不了太多的题了，所以我决定考前的这几天先暂不抄录遇到的生词，查明释义后标注在试卷上即可，无需再抄录到摘抄本上，希望在剩下的时间里我能多做几张卷子。</p>
-<p>现在大概是十点半，实验室有些吵，就不做卷子了，明天早些起来早读吧。</p>
-<hr>
-<h4 id="06-08，周三"><a href="#06-08，周三" class="headerlink" title="06-08，周三"></a>06-08，周三</h4><p>早上比闹钟定的时间晚了一会儿起床，出宿舍的时候已经是九点过了，虽有不足，多少还是早点起来了……</p>
-<p>今天的计划是把之前的两张卷子全都做完，并且将它们也订正完。然后下午就像考试那样，定时做一套卷子，晚上在对卷子进行订正，行有余力可再做些题练手。</p>
-<p>大概就是这样。</p>
-<p><strong>今日完成的事务：</strong></p>
-<ol>
-<li>英语：约 250 个单词，与词群 051 至 052；</li>
-<li>英语：六级试卷 2019-12-B 的完形填空与段落匹配并订正；</li>
-<li>英语：六级试卷 2020-12-A 定时做卷子；</li>
-</ol>
-<p><strong>学习时间：4h 51min</strong></p>
-<p>上午一切都像计划的那样，早读、做卷子与订正，将 B 卷剩下的两道题也给做完了，只用了一个半小时左右，相比于昨天做题的平均时长，已经少了很多。后面这几天也继续这样，摘录生词的事情就放在考完以后再继续吧。</p>
-<p>考前的这几天，我计划就像今天这样：上午做散题与订正，下午定时做模拟考试，晚上订正与练习。</p>
-<p>现在距离我模拟的时间约莫还有十分钟，我把考试的时间安排贴出来吧：</p>
-<blockquote>
-<p><strong>CET6考试时间：15:00 —— 17:25</strong></p>
-<ul>
-<li>14:00 —— 15:00：听力试音（此时调整收音机频道）</li>
-<li>15:00 —— 15:10：发放试卷，贴条形码</li>
-<li>15:10 —— 15:40：作文</li>
-<li>15:40 —— 16:10：听力</li>
-<li>16:10 —— 16:15：考试暂停 5 分钟，收答题卡 1（作文与听力）</li>
-<li>16:15 —— 17:25：阅读与翻译</li>
-</ul>
-</blockquote>
-<p>刚刚做完了 2020-12-A 的卷子，我在时间分配上还是有些问题，导致我最后做的完形填空一塌糊涂，只蒙了对了两个…… 完事以后马上算了下分，大概有 450 左右，这次复健的分数还是太低了，我目标是想要考到 550 的。时间不早了，等我吃个饭再来分析卷子吧。</p>
-<p>完蛋，忘了晚上还有最后一次课，错过了第一节课，好在赶上了老师讲期末考试的复习课，等到六级考完以后就可以开始着手复习了。</p>
-<hr>
-<h3 id="学期第十七周"><a href="#学期第十七周" class="headerlink" title="学期第十七周"></a>学期第十七周</h3><p>之前这些天随着六级考试的结束，便一起过去了，接下来规划一下这两周多的期末时间吧：</p>
-<p>由于剩下的课程大多都是专业选修课了，不需要将全部的精力都投入到复习中了。所以，我认为上午复习即可，下午与晚上完全可以安排复习考研内容。</p>
-<p>这个月过去两周的计划，在考研复习方面执行得不好，考研的内容基本上一点都没有看。从现在起，我认为应该重点开始考研的相关学习。在这里对前面的「每周计划」作一些调整以适应新的情况，本周的考研任务是线性代数第一、二章的学习，并对英语部分作相应的调整。</p>
-<p>将本周的主要任务具体到每一天，我计划周一学习第一章，周二完成第一章的学习并开始做课后练习，周三完成练习并订正，第二章在周四至周六的安排亦同。英语方面，还是每日继续进行相应的学习即可。至于政治与专业课，就等到考完以后，七月份再开始学习吧。</p>
-<p>相信这样一来，周计划能够得到更好的执行。</p>
-<hr>
-<h4 id="06-13，周一"><a href="#06-13，周一" class="headerlink" title="06-13，周一"></a>06-13，周一</h4><p>今天的计划，主要是学习第一章与复习学业课程。上午复习，下午学习，晚上再视情况而定吧。</p>
-<p><strong>今日完成的事务：</strong></p>
-<ol>
-<li>英语：早读，约 85 个单词，与词群 053 至 055；</li>
-<li>数学：线性代数第一章视频约 51 分钟；</li>
-</ol>
-<p><strong>学习时间：2h 03min</strong></p>
-]]></content>
-      <categories>
-        <category>叶子与考研</category>
-      </categories>
-      <tags>
-        <tag>计划</tag>
-        <tag>杂思</tag>
-        <tag>考研</tag>
-        <tag>简记</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>五月计划与简记</title>
-    <url>/2022/05/02/project-in-May/</url>
-    <content><![CDATA[<img class="shadow-none" src="/images/project-in-May/cover.jpg" width="380" alt="cover" / loading="lazy">
-
-<blockquote>
-<p>若有恒，何必三更眠五更起；最无益，莫过一日曝十日寒。</p>
-<p>——（明）胡居仁</p>
-</blockquote>
-<span id="more"></span>
-
-<h2 id="写在月初"><a href="#写在月初" class="headerlink" title="写在月初"></a>写在月初</h2><p>不知道为什么，一想到上个月的计划，就感到一塌糊涂。想必是因为，不论在考研里还是在生活中，数学依旧决定着成败吧。好在有每日的记述，不至于回忆起自己做了些什么的时候，脑袋依旧空空了。</p>
-<p>我参考了师兄师姐们今年的成绩，大概算了一下：如果想达到窝工今年 400 的平均分，数学与专业课都得上 120，英语和政治也得 80 分以上…… 这样的目标分数，给人的压力可太大了。在这之中，英语和政治这两门背书占很大比重的科目，一般是拉不开差距的 —— 因为但凡有认真准备过考研，到最后差不多都能够背完；而专业课，靠的还是这三年专业经历与对它的理解，也是能很拉分的，但还不是最重要的。</p>
-<h3 id="数学"><a href="#数学" class="headerlink" title="数学"></a>数学</h3><p>最重要的科目，还得是数学。三个小时，一百五十分，考研成事与否基本上全看这一锤子买卖。数学很难，我认为因为它既看人本身的天资，也看其复习的扎实程度，还需要大量的做题以保证“题感”，以保证面对题目时能快速地有思路，最后能快速准确地解题。</p>
-<p>在我看来，十分的考研数学中，有四分是牢固的基础，五分是得来不易又虚无缥缈的“题感”，天资只占一分。我这样可不是为了致敬爱迪生，是因为按照现在考研数学这种成熟的工业模式，真的只需要一分的天赋就可以了。</p>
-<p>我最近在听课的时候总是在想，天赋之于数学有什么用呢？我们又不需要去做研究。天赋之于考生，恐怕也只是在压轴题上的那灵光一现而已，它能区分最顶尖的学生，但在其他地方其实并不像大家认为的那么重要。对于我们这样的寻常学生而言，天赋只是帮助我们理解知识点罢了，快慢无妨，在大家都掌握知识点以后，所有人就又来到了同一起跑线，决定最后能跑多远的，还得靠各人的基础、曾经的练习，与自身的一点运气。</p>
-<p>至于这月的任务，我计划完成高等数学这十八章的学习，以及线性代数一半的章节，一共七章。这时间已经考虑得非常充分了，因为在本月的下旬我就要开始准备期末考试了。时间安排上应该是不会有问题的，如果提前完成了，或许可以再接着学习；如果没有完成任务，那肯定是自己出大问题了。</p>
-<h3 id="英语"><a href="#英语" class="headerlink" title="英语"></a>英语</h3><p>与家里人交流之后，我也认为现在还只是背单词的话，对考试是远远不够的，而之前计划的考前的十多天再开始做题，恐怕也是来不及的，所以得现在就开始做一点题，锻炼一番了。</p>
-<p>这样一来，我在英语上的策略就变成了这样：每天温习六级的 150 个单词，同时看新东方考研词书《恋练有词 · 分层串记》的数个词群，同时在课程与杂务不多的日子，还可以做一些往年的六级卷子中的习题。</p>
-<p>在五月里这样准备六级考试，是我认为是最合理的方式了。</p>
-<h3 id="项目"><a href="#项目" class="headerlink" title="项目"></a>项目</h3><p>这些天与父母谈到这件事，他们认为我在这上面花太多的精力，有些误了正事。这件事情在本月计划制定的时候还没有结果，还得继续跟踪。</p>
-<p>0506 新增：今天去跟导师交流过了，向老师说了我时间安排上的矛盾，并与老师大概明确了我要做的事情。这样一来，不仅时间安排上趋于明晰，我也能少些压力，多些时间。</p>
-<p>0513新增：之前听学长说，他说服了他的项目老师推迟做项目，在考完以后再做，所以他在那个时候就当作毕业设计做了。所以今天开会的时候，又跟导师交流了一下。可导师说这个项目是与公司又合作的，马上就要结束了，不能够推迟。也正是因为这个，想让我先参加进来熟悉一下，结题以后还可以加上我的名字。</p>
-<p>但我想了一番，考研的时间还是不太够，并且自感效率不高，这更是雪上加霜。如果再加上这个项目，花费了太多暑假的时间，最后的结果很有可能是竹篮打水一场空，得不偿失。</p>
-<p>导师让我自己选择，如果现在不做的话，等到考完了就像一般的研究生一样，给我找新的项目做。我跟导师说我在想一想，下周再给他答复，不过我现在差不多算是已经决定要退出了，得想想怎么跟导师与师兄他们说吧……</p>
-<h3 id="其他的一些事情"><a href="#其他的一些事情" class="headerlink" title="其他的一些事情"></a>其他的一些事情</h3><h4 id="作息"><a href="#作息" class="headerlink" title="作息"></a>作息</h4><p>上个月的作息其实不是很好：在计划最初的那段时间，我的作息明显在逐渐变得规律起来，但到后面作息又开始不稳定了，上个月贴出的那张作息趋势可以很好的体现出这一切。我打算<strong>在这个月的最后也贴出作息的趋势</strong>，希望到时候能给大家看到一章规律的趋势图。</p>
-<p>0517补充：想起我高三的时候，老师给我们安排的做题时间总是高考考试的时间：上午 09:00 —— 11:30 与下午的 15:00 —— 17:00 。在这两段时间的做卷子，使我们的生物钟习惯了在这个时候输出旺盛的精力，所以到高考的时候就不会犯困什么的了。</p>
-<p>现在没有老师再为我将一切安排妥当了，我得亲自料理这些事情了。考研的时间大概在 12 月的中下旬，具体的时间分别是：上午 08:30 —— 11:30 与下午 14:00 —— 17:00。对于我而言，第一天上午是政治，下午是英语；第二天上午是数学，下午是专业课。所以，在后面的日子里，我每天都需要在这些时候进行较高强度的学习，杂务与休息就放在这之后为好。</p>
-<h2 id="本月计划"><a href="#本月计划" class="headerlink" title="本月计划"></a>本月计划</h2><h3 id="任务目标"><a href="#任务目标" class="headerlink" title="任务目标"></a>任务目标</h3><h4 id="考研任务"><a href="#考研任务" class="headerlink" title="考研任务"></a>考研任务</h4><ul>
-<li><input disabled="" type="checkbox"> 数学：完成高等数学的学习，并学习线性代数一半的章节（六章中的三章）<br>（0504：其中高数的第十六讲是数学三点专题内容，我们可以直接跳过）</li>
-<li><input checked="" disabled="" type="checkbox"> 英语：每日 150 个六级词汇，看数个词群，同时每周至少做完一张六级卷子<br>（0504：这些目标实际上都是在先尝试了几天后再制定的）</li>
-</ul>
-<h4 id="导师项目"><a href="#导师项目" class="headerlink" title="导师项目"></a>导师项目</h4><ul>
-<li><input disabled="" type="checkbox"> <del>阅读完师兄项目的代码</del></li>
-<li><input disabled="" type="checkbox"> <del>重写主体与主要的功能</del></li>
-<li><input disabled="" type="checkbox"> <del>继续学习 Qt 相关的内容</del></li>
-</ul>
-<p>（0513：在考研之前都不会再有了……）</p>
-<h4 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h4><ul>
-<li><input checked="" disabled="" type="checkbox"> 完成学业中的课程设计，并完成联调、通过验收</li>
-<li><input checked="" disabled="" type="checkbox"> 提交支部需要的相关电子与纸质材料</li>
-</ul>
-<h2 id="每日情况简记"><a href="#每日情况简记" class="headerlink" title="每日情况简记"></a>每日情况简记</h2><blockquote>
-<p>每日的事务完成情况依旧会在下面更新：</p>
-</blockquote>
-<h3 id="学期第十一周（0502-——-0508）"><a href="#学期第十一周（0502-——-0508）" class="headerlink" title="学期第十一周（0502 —— 0508）"></a>学期第十一周（0502 —— 0508）</h3><p><strong>本周距离考研还剩约 234 天。</strong></p>
-<hr>
-<h4 id="05-02，周一"><a href="#05-02，周一" class="headerlink" title="05-02，周一"></a>05-02，周一</h4><p>今天上午我打算将上一个月的计划总结完，然后为计划这个月的事务。下午与晚上就专注于复习数学，另外，这个月要开始做英语六级的卷子了，看看今天如何安排为好。</p>
-<p><strong>09:47 —— 09:56：英语</strong>，约 50 个单词；<br><strong>10:12 —— 10:37：课业</strong>，做课内作业；</p>
-<p>今天下午，就听一节高数的月度课程，将高数第十二讲的课后习题做与订正完，然后做六级试卷 2018-06-2 的第一篇阅读吧；晚上就将高数第十三讲的习题册做并订正完吧。好不容易有这么整整一天，一定要将进度多向前推一点。</p>
-<p><strong>13:48 —— 13:44：英语</strong>，约 50 个单词；<br><strong>13:55 —— 15:17：数学</strong>，约 59 分钟的月度课程；<br><strong>15:27 —— 15:34：英语</strong>，约 50 个单词；<br><strong>15:42 —— 16:32：数学</strong>，完成了高数第十二讲课后习题；</p>
-<p>我发现，只要晚上休息好了，就算在空气浑浊的图书馆里、就算在令人昏昏欲睡的下午，看书的时候也不会感到困。</p>
-<p><strong>18:09 —— 18:58：英语</strong>，完成并订正了 2018-06-2 的第一篇英语阅读；<br><strong>19:23 —— 20:08：数学</strong>，订正完高数第十二讲课后习题；</p>
-<hr>
-<h4 id="05-03，周二"><a href="#05-03，周二" class="headerlink" title="05-03，周二"></a>05-03，周二</h4><p>今天的计划是，上午在实验室做课程设计，把这一阶段做完；下午与晚上去图书馆做完第十三章的两份习题，并且英语也不要落下，不仅仅只能背单词，还要开始认真的记背词组，每天也不要忘记做题。今天的计划，大概就是这样。</p>
-<p><strong>09:25 —— 09:34：英语</strong>，词群 001；<br><strong>09:39 —— 11:34：课设</strong>，算是成功地勉强实现了需要的功能，下一次的验收应该是不愁了，后面再完善下功能，优化一番检验的阈值和性能，再与组员们联调一下，就应该没问题了；<br><strong>12:47 —— 13:09：英语</strong>，约 50 个单词与词群 002；<br><strong>14:06 —— 14:52：数学</strong>，复习高数第十三讲；</p>
-<p>额…… 我高高兴兴地打开笔记本，想先复习一下第十三章的内容再做题，一埋头一抬头，一节课就过去了。现在我或许有了一个数学进度慢点理由：因为后面的这些章节越来越难了（</p>
-<p><strong>14:59 —— 16:10：数学</strong>，完成第十三讲的习题册；<br><strong>16:45 —— 17:25：数学</strong>，订正习题册；</p>
-<p>然后去吃饭了。其实本来六点半就吃完饭回来坐着了，那时想到“哎呀才刚刚吃完饭不宜学习让我们来摸一会儿的明日方舟吧正好三周年活动还没打就打一关二十分钟就下线”，然后卡关卡了一个小时……</p>
-<p><strong>19:35 —— 20:03：英语</strong>，完成了 2018-06-2 的第二篇英语阅读与翻译；<br><strong>20:07 —— 20:25：英语</strong>，订正了翻译题；<br><strong>20:51 —— 22:10：运动</strong>，慢跑了接近 3km，绕着湖走了好多圈；<br><strong>23:18 —— 23:42：英语</strong>，约 100 个单词，今日背完；<br><strong>23:45 —— 24:14：英语</strong>，订正了阅读题；<br><strong>24:20 —— 24:59：数学</strong>，善后数学，与同学讨论难题。</p>
-<p>今晚是想把剩下的数学习题册善后完的，本来一切都是很顺利的，但实验室旁边的同学突然问我一道问题，与他研究那道题花了比较久，就耽误了善后习题册的时间……</p>
-<p>数学，昨天的计划没能完成，今天的计划还是没能完成，不知道是我太菜了，还是数学太难了。我上个月的计划确实是太理想了，一周看五章、看八章，就算一周都用来学数学，按照我的学习方式，也可能学不完。我大概估算了一下，如果这周没有杂务、状态也非常好，那大概是能学完三章的，并把习题做完。</p>
-<p>还是太慢了，唉。我在图书馆看到一个女同学，她桌上放着一本线性代数，说明人家少则领先我六章的功课，多则已经领先我十余章了。</p>
-<p>至于今天，学习的时间是五个半小时，做正事的时间加起来大概比三分之一多，勉强能有二分之一。</p>
-<p>共勉吧。</p>
-<hr>
-<h4 id="05-04，周三"><a href="#05-04，周三" class="headerlink" title="05-04，周三"></a>05-04，周三</h4><p>今天是五四青年节，想起了以前在作文里常常引用鲁迅的一句话，百试不爽：</p>
-<blockquote>
-<p>所以我时常害怕，愿中国青年都摆脱冷气，只是向上走，不必听自暴自弃者流的话。能做事的做事，能发声的发声。有一分热，发一分光，就令萤火一般，也可以在黑暗里发一点光，不必等候炬火。</p>
-<p>此后如竟没有炬火：我便是唯一的光。</p>
-<p>——《热风・随感录四十一》</p>
-</blockquote>
-<p>其实单单是引用这一段话，于原文之意，确实有失偏颇。不过也单单就这句话，它表现出的精神，也是值得我们学习的。另外，祝大家五四青年节快乐！</p>
-<p>今天的空余时间基本上只有这个下午，我下午的计划是将前天布置、昨天剩余的数学习题册给订正完，然后完成第十三章的课后习题，再完成并订正英语六级试卷 2018-06-3 的选词填空吧。高数的第十四章“无穷级数”又是一个很难的章节 orz，但愿这周五之前能将它搞定吧。</p>
-<p><strong>09:23 —— 09:35：英语</strong>，约 50 个单词；<br><strong>13:50 —— 14:08：英语</strong>，约 30 个单词，与词群 003 至 005；<br><strong>14:28 —— 16:03：数学</strong>，订正完高数第十三讲习题册；<br><strong>16:08 —— 16:26：英语</strong>，约 50 个单词，与词群 006 至 007；</p>
-<p>光是订正昨天剩下的 10 道题，就花了一个半小时的时间，看起来我们今天的课后习题多半也做不完了。</p>
-<p><strong>16:30 —— 16:48：英语</strong>，完成了选词填空；<br><strong>16:53 —— 17:03：英语</strong>，订正，词语的摘录放在晚上再做；<br><strong>22:23 —— 22:34：英语</strong>，约 50 个单词，完成了今日计划；<br><strong>22:34 —— 00:04：数学</strong>，订正完数学难题。</p>
-<hr>
-<h4 id="05-05，周四"><a href="#05-05，周四" class="headerlink" title="05-05，周四"></a>05-05，周四</h4><p>凌晨熬夜了，九点半醒来，然后摸鱼一上午。</p>
-<p>下午上课，上完以后继续摸鱼。</p>
-<p>最近听说《守望先锋：归来》开始 B 测了，晚上就久违地玩了下守望先锋。</p>
-<hr>
-<h4 id="05-06，周五"><a href="#05-06，周五" class="headerlink" title="05-06，周五"></a>05-06，周五</h4><blockquote>
-<p>今天还是起晚了，然后上午去找了给我写推荐信的两位老师，跟他们把最后的事情敲定了。在这一刻，我的整个申请流程算是结束了。</p>
-<p>我项目之后的安排，今天也跟导师确定下来了，并且由于负责我这一块的师兄下个月就要去华为工作了，我这个月或许得尽快多做一些，把师兄写的东西顺利地接下来，不然以后就很难像师兄求助了。所以我今天下午与晚上，安排的是项目的任务，而明后两天的事务视今日的完成情况再作安排吧。</p>
-</blockquote>
-<p>这是那天上午写的，后来啊，后来就下午做了项目，到大概三点半到时候遇到了问题，索性就再次不管了，又去打电动了。</p>
-<hr>
-<h3 id="学期第十二周（0509-——-0515）"><a href="#学期第十二周（0509-——-0515）" class="headerlink" title="学期第十二周（0509 —— 0515）"></a>学期第十二周（0509 —— 0515）</h3><p><strong>本周距离考研还剩约 227 天。</strong></p>
-<hr>
-<h4 id="05-10，周二"><a href="#05-10，周二" class="headerlink" title="05-10，周二"></a>05-10，周二</h4><p>早上去邮局寄信，然后就去图书馆准备今天的学习。</p>
-<p>最近因为心态问题，将学业放下了，所以我们现在需要立即开始着手恢复：今天上午听一节月度的直播课程，下午将第十三讲的课后习题做完，再加上英语的习题……</p>
-<p>最终这一天也是没有做什么事……</p>
-<hr>
-<div class="danger">
-
-<blockquote>
-<p><strong>简单来说，5 号到 11 号这几天整个人就散了。</strong></p>
-</blockquote>
-</div>
-
-<hr>
-<h4 id="05-12，周四"><a href="#05-12，周四" class="headerlink" title="05-12，周四"></a>05-12，周四</h4><p>近日广州大暴雨，早上起来看到窗外也是瓢泼大雨后，决定上午在实验室做项目，看看后面雨会不会小一些，晚上就去图书馆看数学吧。</p>
-<p><strong>09:03 —— 09:17：英语</strong>，约 50 个单词，与词群 008 至 009；<br><strong>09:45 —— 11:27：项目</strong><br><strong>12:49 —— 13:08：英语</strong>，约 50 个单词，与词群 011 至 012；</p>
-<p>晚上雨太大了，从教室回来的路上，鞋子与半条裤子都湿了，雷雨天真出不了门，所以晚上还是在实验室待着吧。</p>
-<p><strong>19:16 —— 19:33：英语</strong>，约 30 个单词，与词群 010 与 013；<br><strong>19:35 —— 21:00：数学</strong>，约 60 分钟的月度课程；<br><strong>21:10 —— 21:18：英语</strong>，约 50 个单词；<br><strong>22:22 —— 23:12：课业</strong></p>
-<p>在摆烂这么多天以后，今天开始复健，看起来效果还不错，但时间又少了好多……</p>
-<hr>
-<h4 id="05-13，周五"><a href="#05-13，周五" class="headerlink" title="05-13，周五"></a>05-13，周五</h4><p>导师昨晚通知我们说，今天上午九点开项目的联调组会。我起来以后背了会单词后，见这暴雨依旧还是没有变小的意思，就冒雨出门，坐校巴前往导师的办公室。好不容易到那以后，导师看着组里的师兄与同学说好大的雨，结果把组会延后到十点了。我身上当时除了单词书什么都没带，只好找个位置背单词…… 好在组会并没开多久，我赶回实验室以后，还能把网络实验给做了 —— 因为这个实验需要用到学校的虚拟机，我昨晚预约的就是十点左右到这个时段，要是错过了就又得重新预约了。</p>
-<p>上午的安排顺利完成了，那么，我希望下午与晚上的安排也可以同样顺利地做完吧。</p>
-<p><strong>08:05 —— 08:12：英语</strong>，词群 014；<br><strong>08:36 —— 08:50：英语</strong>，约 30 个单词，与词群 015；<br><strong>09:18 —— 09:34：英语</strong>，词群 016 至 019，完成了 Unit 1；<br><strong>10:40 —— 11:54：课业</strong></p>
-<p>为了能再次恢复数学的学习，下午先听一节月度课程，再做完并订正高数第十三讲的课后习题；英语在继续单词之余，把之前留下的六级试卷 2018-06-3 的两篇阅读给完成了吧，再把之前那次的摘录也一并补上。大概这些，可能就差不多了，如果有空余时间，那就到时候再安排吧。</p>
-<p><strong>14:14 —— 14:29：英语</strong>，约 40 个单词；<br><strong>14:42 —— 16:22：数学</strong>，约 50 分钟的月度课程；</p>
-<p><strong>19:20 —— 19:37：英语</strong>，约 50 个单词，与词群 020 至 021；<br><strong>19:39 —— 20:10：英语</strong>，完成了两篇阅读；</p>
-<p>做题还是太慢了，这次做得很不顺，与上次相比可以说是天壤之别，等我晚上订正完以后，再分析一下原因吧。</p>
-<p><strong>20:18 —— 20:57：英语</strong>，订正与查词；</p>
-<p><strong>22:27 —— 22:43：英语</strong>，约 60 个单词，与词群 022；<br><strong>22:49 —— 23:08：英语</strong>，继续订正与查词；</p>
-<p>我大概知道这次为什么比上次差了。</p>
-<p>这次的两篇阅读是一对很好的例子：第一篇阅读我从一开始就把文意理解偏了，所以就算花了许多时间，也难以选对正确的选项；而第二篇我时间比较紧，但由于把文章的中心把握住了，所以就算半蒙半猜，结果也比第一篇好得多。另外，还是有单词不熟悉的问题，这很容易使我曲解选项，被干扰项给带进坑了。</p>
-<p>算算日子，时间已经过去快要一半了，很明显我的进度还是严重的偏慢了……</p>
-<hr>
-<h4 id="05-14，周六"><a href="#05-14，周六" class="headerlink" title="05-14，周六"></a>05-14，周六</h4><p>昨天又鸽掉了数学做题，就又顺延到下一天了……</p>
-<p>按照昨晚的构想，今天上午做高数第十三讲的课后习题，并订正完，再摘录部分英语单词；下午听高数第十四讲的课程，做英语习题并订正，六级试卷 2018-06-3 的选词填空比较难，订正时间可能会有些长；晚上再学习一些数学，大概就是这样。</p>
-<p><strong>08:44 —— 08:57：英语</strong>，早读，并背了约 20 个单词；<br><strong>09:15 —— 09:48：数学</strong>，复习高数第十三讲；<br><strong>09:51 —— 11:35：数学</strong>，完成了第十三讲的课后习题；</p>
-<p>今天第一次尝试<strong>早读</strong>，以后打算就要常驻了，后面也会把时间再提前一些，毕竟这样才能算“早”（</p>
-<p>数学九道常微分方程做了我近两个小时，还是在有笔记的情况下。要是没有笔记，我还得手推公式…… 下午争取在一个小时之内把这个订正完吧。中午有同学喊我一起吃麦当当，我今天就早些走了。</p>
-<p>还不到十二点去吃的饭，回来的时候已经快两点了 orz。不过我们在两点半以前还是能开始学习，下午听一部分高数第十四讲的课程，订正或许可以放在晚上。</p>
-<p><strong>14:30 —— 14:49：英语</strong>，约 30 个单词，与词群 023；<br><strong>14:51 —— 17:26：数学</strong>，学习高数第十四讲约 60 分钟的课程；</p>
-<p>学数学期间，大概三点半的时候太困了，趴在桌上睡了大概十分钟，醒来之后就比较有精神了，真不错。</p>
-<p><strong>18:41 —— 19:01：英语</strong>，约 30 个单词，与词群 024；<br><strong>19:05 —— 19:23：英语</strong>，完成选词填空；<br><strong>19:29 —— 20:14：英语</strong>，订正并查词；<br><strong>20:21 —— 20:39：数学</strong>，订正部分习题；</p>
-<p>由于卷子上被勾出的词汇太多，所以在订正的时候，只查了部分涉及选项的词语，而其他地方地方的词语还没有查，等有零碎空余的时间再查吧。</p>
-<p><strong>22:21 —— 22:36：英语</strong>，约 50 个单词；<br><strong>22:36 —— 23:39：课设</strong></p>
-<p>今天整体而言，我觉得是非常不错的，如果中午没有出去吃麦当当，那简直就可以说是我们心目中理想的一天了。</p>
-<p>我在论坛上，看到有人说他每天都会复习六个多小时，其中至少有五个小时在数学上，二月到四月他花了不过三个月就把数学的第一遍看完了。我记得蛮清楚的，想了想，我也是二月一号新年那天开始复习数学的。结果到现在，进度差了这么多，不得不说是我自作自受了。</p>
-<p>所以，从现在开始，我也想统计每天、每周与每月的学习时长，以更明晰地评判每一天的学习态度。今天做正事的时间大概占了一半的时间：学习有 7h4min，而课设约 1h3min。</p>
-<p>希望明天能再接再厉吧。</p>
-<hr>
-<h4 id="05-15，周日"><a href="#05-15，周日" class="headerlink" title="05-15，周日"></a>05-15，周日</h4><p>今天久违地去食堂吃了早饭，花了好些时间，到图书馆就已经九点一刻了。加之又做了些其他事情，开始学习的时间就比昨天晚了一个小时。今天的目标是把高数第十四讲剩下三个小时的课程全部看完，并且再把英语也料理好，昨天的题订正完，这样就好了。</p>
-<p><strong>09:48 —— 10:06：英语</strong>，约 50 个单词，与词群 025 至 026；<br><strong>10:10 —— 12:07：数学</strong>，高数第十四讲约 61 分钟的课程；</p>
-<p>今天的目标是学习完这一讲，还有两个多小时的视频课程，这样看起来应该是没有问题的。</p>
-<p><strong>14:22 —— 14:33：英语</strong>，约 50 个单词，与词群 027；<br><strong>14:37 —— 15:44：数学</strong>，约 32 分钟的视频课程；<br><strong>16:09 —— 16:59：数学</strong>，约 29 分钟的视频课程；<br><strong>17:00 —— 17:25：数学</strong>，订正完了昨天的课后习题；</p>
-<p>晚上摸了会鱼，算是一周的休息吧。</p>
-<hr>
-<h3 id="学期第十三周（0516-——-0522）"><a href="#学期第十三周（0516-——-0522）" class="headerlink" title="学期第十三周（0516 —— 0522）"></a>学期第十三周（0516 —— 0522）</h3><p><strong>本周距离考研还剩约 220 天。</strong></p>
-<hr>
-<h4 id="05-16，周一"><a href="#05-16，周一" class="headerlink" title="05-16，周一"></a>05-16，周一</h4><p>今天又是有一整天的时间呢，这周开始要开始准备期末考试与英语六级考试，像这样完整的时间已经不多了，趁现在得多学习一些。今天把高数第十四讲学习完肯定是没有问题的，如果下午有多余的时间，可以开始学习第十五讲。晚上主要是做题等，就不听课了，如果外面等雨停了的话，出去跑跑步吧。</p>
-<p><strong>09:28 —— 09:50：英语</strong>，约 50 个单词，早读；<br><strong>10:02 —— 11:22：数学</strong>，继续学习高数第十四讲，约 31 分钟课程；<br><strong>11:34 —— 11:55：杂务</strong></p>
-<p>今天早上太晚了。早读早读，自然得早点，九点半算什么早读…… 我计划里的早读是像高中一样，七点半开始，现在先做到八点开始早读吧。</p>
-<p><strong>14:15 —— 14:32：英语</strong>，约 50 个单词，与词群 028；<br><strong>14:42 —— 17:34：数学</strong>，约 52 分钟的课程，学习完了第十四讲；</p>
-<p>下午犯困，中途还是趴了会儿 orz。有好多地方要抄在笔记本上，还有一部分没有抄完，晚上有时间把这些抄完吧。</p>
-<p><strong>19:00 —— 19:15：英语</strong>，约 30 个单词，与词群 029 至 031；<br><strong>19:21 —— 19:49：数学</strong>，整理笔记；<br><strong>19:54 —— 20:10：英语</strong>，约 50 个单词，与词群 032，完成了今日单词；<br><strong>20:11 —— 20:47：英语</strong>，完成六级试卷 2019-12-1 的听力部分；</p>
-<p><strong>21:03 —— 21:50：运动</strong>，慢跑了 2.4km 并绕着湖散步；<br><strong>22:57 —— 23:48：课设</strong></p>
-<p>今天学习情况，我觉得可以算中等偏上：纯粹的学习时间有 6h14min，再算上做课程设计的 50min 与运动的时间，差不多有效利用今天时间的一半，明天要是能早点起就更好了。</p>
-<hr>
-<h4 id="05-17，周二"><a href="#05-17，周二" class="headerlink" title="05-17，周二"></a>05-17，周二</h4><p>今天也是一整天的时间，在本月的下旬到来之前，我还暂时不需要开始复习课业内容。今天的计划是听完高数第十五讲约两个小时的课程，并完成第十四讲的习题册，与订正完昨天的笔记。英语就是订正完昨天的听力，并做两篇阅读。今天晚上回去以后，再将课程设计与队友们联调好，就等待验收了。</p>
-<p><strong>08:14 —— 08:41：英语</strong>，早读，另背约 50 个单词，与词群 033；<br><strong>08:47 —— 09:53：数学</strong>，高数第十五讲约 15 分钟的视频课程；<br><strong>10:01 —— 10:09：英语</strong>，约 30 个单词；<br><strong>10:15 —— 11:04：数学</strong>，约 21 分钟的课程；</p>
-<p><strong>13:56 —— 16:37：数学</strong>，约 44 分钟的课程；</p>
-<p>接近三个小时，只听了不到一个小时的课…… 这章的专题内容倒是不难，主要是有些杂，要抄的东西有些多，今天下午我的效率也不行。</p>
-<p><strong>18:21 —— 19:31：数学</strong>，约 35 分钟的课程；<br><strong>19:36 —— 19:51：英语</strong>，约 50 个单词；</p>
-<p>今天听课花了太多的时间，习题册多半是没时间做了。</p>
-<p><strong>21:05 —— 23:37：课设</strong></p>
-<p>晚上终于与队友一起把课程设计联调结束了，看看明天验收的结果如何吧。若是通过了，就又少一件事情了。</p>
-<hr>
-]]></content>
-      <categories>
-        <category>叶子与考研</category>
-      </categories>
-      <tags>
-        <tag>计划</tag>
-        <tag>杂思</tag>
-        <tag>考研</tag>
-        <tag>简记</tag>
       </tags>
   </entry>
   <entry>
@@ -2763,39 +2413,6 @@ x_1(t)*x_2(t) &amp;&#x3D; &#123;\int_&#123;-\infty&#125;^&#123;+\infty&#125;&#12
       </tags>
   </entry>
   <entry>
-    <title>读硕还是直博，这是个问题</title>
-    <url>/2022/05/18/question-of-graduate-student/</url>
-    <content><![CDATA[<p><img src="/images/question-of-graduate-student/cover.jpg" width="400" alt="cover" / loading="lazy"><em>图文无关…… 或许是吧</em></p>
-<span id="more"></span>
-
-<h2 id="背景"><a href="#背景" class="headerlink" title="背景"></a>背景</h2><p>今天上午，我在组会结束以后留下来跟导师说推荐信的事，之后我们聊了一些关于研究生的话题，其中就有我导师对读硕与直博的看法。听完后我感觉受益颇多，便想写一篇博文记录此事。<spam class="heimu">（翻译：水文章）</spam></p>
-<h2 id="讨论"><a href="#讨论" class="headerlink" title="讨论"></a>讨论</h2><h3 id="薪资"><a href="#薪资" class="headerlink" title="薪资"></a>薪资</h3><p>对于硕士生与博士生的区别，导师首先说最直观的是薪资待遇：像是之前实验室的一位硕士学长，在春招的时候拿的 offer 大概是 40 万左右一年<spam class="heimu">（但愿他今年能顺利毕业）</spam>；而另一位带过我的博士，她研究的是数字图像传输（大概是这么描述），拿的 offer 年薪是 48 万左右；而我们专业本科出去以后的年薪能有 15 万就谢天谢地了。</p>
-<p>导师说，就薪水来看，其实读硕士还是博士差别不大的，一般还是认为硕士生的性价比更高。</p>
-<p>“那硕士生与博士生相比，企业是否会更偏好于博士呢？”我问导师，“因为我看到现在社会上，好多本来是本科生做的工作，都被硕士生占走了，如果自己硕士文凭与别人博士面同一份工作，那会不会也出现这样的情况呢？”</p>
-<p>不会，他说，之前提到的“硕士性价比高”不仅对学生来说是这样，对企业而言也是如此，因为硕士生更便宜，同样的事情，硕士生能做何必要找更昂贵的博士生呢？</p>
-<h3 id="系统与部分"><a href="#系统与部分" class="headerlink" title="系统与部分"></a>系统与部分</h3><p>另一方面，是因为硕士生相比本科生，能负责构建整个系统，而博士生一般是负责系统中的某一个部分。</p>
-<p>导师说，硕士在企业中一般就与同事一组，开发整个项目，负责这个系统的方方面面；但博士生一般是做某一部分的优化。比如说，项目组的几个硕士在一起鼓捣了俩月，整出来个低功耗节点组网的传输系统，而博士做的主要是研究如何将原来每天一瓦的功耗降低至零点七瓦，或者将传输过程中的误码率从 10^(-6) 降低到 10^(-7)。由此可见，博士一般不会去构建整个系统，而是专注于优化系统的性能，将某一方面提升到极致。</p>
-<h3 id="团体与个人"><a href="#团体与个人" class="headerlink" title="团体与个人"></a>团体与个人</h3><p>其实，由导师在上面举的例子，我们还能够看出来，硕士生大多是一伙做事，博士生则常常是单枪匹马的。</p>
-<p>就比如我那位吊儿郎当的师兄，他毕业设计的系统也是与另一位同级的师兄，和两个研一的师兄共同完成的（都算是老师布置的活儿），而师兄的毕业答辩也是针对整个系统的。而另一位博士学姐，常常都是一个人在那边看论文、跑代码，很少看到她与其他的博士一起做一件事。</p>
-<p>本来以前没觉得这样有什么不对，跟导师聊了一后才发现这之中的联系……</p>
-<h3 id="专硕与学硕"><a href="#专硕与学硕" class="headerlink" title="专硕与学硕"></a>专硕与学硕</h3><p>后来，我又问了关于我们学院专硕与学硕的事，因为我在研究生招生简章里这两栏后都看到了导师的名字。</p>
-<p>导师说实际上他们没什么不同。他说，在我们学院，这两个实际上都是同一种，只是名字不同罢了，就比如专硕的课程叫通信 I，学硕的叫通信 II这样，而内容都是一样的。他还补充道，学校之所以还区分这两种，一方面是历史遗留问题，另一方面可能是因为在北方的一些省份，仍然认为专硕还是像以前那样，只读两年。</p>
-<p>不过，专硕学硕也并不是一点区别也没有。就像我们专业分数是有大小年之分的，录取分一年学硕高一年专硕高，例如今年学硕的平均分是 380+，而专硕的平均分高达 402，给大伙儿看傻了都。</p>
-<h2 id="结论"><a href="#结论" class="headerlink" title="结论"></a>结论</h2><p>导师在最后说，读博应该是一个与高考择校一样重要的人生决定，不能随随便便就定下来了。如果读博的意志并不是十分的坚定，他都建议先读一年硕士，再从长计议。</p>
-<p>大概就是这些了，如果大家对此有什么想法，欢迎大家留言与我交流喔！</p>
-]]></content>
-      <categories>
-        <category>叶子的碎碎念</category>
-      </categories>
-      <tags>
-        <tag>博文</tag>
-        <tag>学业</tag>
-        <tag>杂思</tag>
-        <tag>未来</tag>
-        <tag>读研</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>四月之计划与简记</title>
     <url>/2022/04/09/project-in-Apr/</url>
     <content><![CDATA[<img src="/images/project-in-Apr/cover.jpg" width="450" alt="cover" / loading="lazy">
@@ -3074,6 +2691,216 @@ x_1(t)*x_2(t) &amp;&#x3D; &#123;\int_&#123;-\infty&#125;^&#123;+\infty&#125;&#12
         <tag>杂思</tag>
         <tag>考研</tag>
         <tag>简记</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>六月计划与简记</title>
+    <url>/2022/06/04/project-in-June/</url>
+    <content><![CDATA[<p><img src="\images\project-in-June\Algebra_Dance.jpg" alt="Algebra_Dance" width="450" / loading="lazy"><em>Algebra Dance</em></p>
+<blockquote>
+<p>Wine can’t satisfy my needs, food in my throat to dust, once how I drunk a lavish life can satisfy my desire. Forget those horrible ghost story, I was living in the real nightmare, I am not living, but also won’t die, moonlight will let I betray oneself, let me in the living body walking in the world.</p>
+<p>—— Hector Barbossa (Pirates of the Caribbean)</p>
+</blockquote>
+<span id="more"></span>
+
+<h2 id="写在月初"><a href="#写在月初" class="headerlink" title="写在月初"></a>写在月初</h2><p>上个月的后半段，由于一些原因，我就不贴在网上了。</p>
+<p>我后来也在想，这样每日详尽的计划与记述看起来确实蛮枯燥的，也许略去这些，只保留对每日的总结会更好些。这个月就来试一试吧，每日开始的时候写下「今日计划」，中途想到什么也写在这里，晚上再为这天作上总结，这样或许会更好一些。</p>
+<p>这个月最重要的事情，就是本月中旬的六级与下旬的期末考试，它们的重要性会在下方的「本月计划」中体现。</p>
+<h3 id="信息"><a href="#信息" class="headerlink" title="信息"></a>信息</h3><p>自从我高中毕业、用上智能手机以后，常常感受到互联网的冲刷，时间愈长，这样的感觉也就愈加强烈。所以，我想要以某种方式改变这种现状，管制我每日所看到的东西，从而让我能对目标保持专注。</p>
+<p>其实我最初的想法，有些类似于「一刀切」吧，就是完全不看任何新闻消息，禁绝任何来源。但立即我就想到了那句著名的「两耳不闻窗外事，一心只读圣贤书」，放到现在，多半是贬义之意。顺势联想到「风声雨声读书声声声入耳，家事国事天下事事事关心」，这句话恐怕更符合现在的这个时代。又联想到鲁迅先生在《无声的中国》里那段话：</p>
+<blockquote>
+<p>就因为当时又有钱玄同先生提倡废止汉字，用罗马字母来替代。这本也不过是一种文字革新，很平常的，但被不喜欢改革的中国人听见，就大不得了了，于是便放过了比较的平和的文学革命，而竭力来骂钱玄同。白话乘了这一个机会，居然减去了许多敌人，反而没有阻碍，能够流行了。</p>
+<p>中国人的性情是总喜欢调和，折中的。譬如你说，这屋子太暗，须在这里开一个窗，大家一定不允许的。但如果你主张拆掉屋顶，他们就会来调和，愿意开窗了。没有更激烈的主张，他们总连平和的改革也不肯行。那时白话文之得以通行，就因为有废掉中国字而用罗马字母的议论的缘故。</p>
+</blockquote>
+<p>所以我在想，在信息管制的这上面或许也是折中一点比较好。具体如何做，我还没有想好，不过据我这段时间的观察，日常断掉与互联网的连接，其实也就足够了，因为在断掉互联网后，不会再有新东西来打扰我们了。若是要使用网络查某样东西，那时再连接，查完即再次断开，这样虽有不便，但却能使我们的注意力能不受影响，这样就极好了。</p>
+<p>这个月我就尝试一下这个方法吧，在主观上抑制自己的浏览欲，客观上与互联网脱离连接。另外，我知道保持与世界连接的重要性，然而现实社会里的许多事情，已经非常的情绪化了，我常常浏览后受到那些情绪的影响，那令我心境不平，这也是我想要避免外界信息的原因之一。</p>
+<p>刚刚又想到了以前摘录过的一句话，比较恰题，便一起放在这里吧：</p>
+<blockquote>
+<p>不要相信信息流 —— 任何以同一种格式，像水龙头一样源源不断吐出各种内容的软件。翻开杂志看一下，每一个瞬间，妳的目光<strong>同时</strong>接触到很多不同的内容，它们并列排布在妳眼前，妳要习惯在一个平面上移动视线，而不是让视线固定在屏幕上的某一点，等着水龙头里的水不停冲刷。</p>
+<p>—— <a href="https://blog.yitianshijie.net/2019/04/20/things-we-should-let-our-children-know/">不鳥萬如一</a></p>
+</blockquote>
+<h2 id="本月计划"><a href="#本月计划" class="headerlink" title="本月计划"></a>本月计划</h2><h3 id="任务目标"><a href="#任务目标" class="headerlink" title="任务目标"></a>任务目标</h3><h4 id="考研任务"><a href="#考研任务" class="headerlink" title="考研任务"></a>考研任务</h4><ul>
+<li><input disabled="" type="checkbox"> 数学：完成高等数学的学习，并学习高等数学与线性代数章节；</li>
+<li><input disabled="" type="checkbox"> 英语：每日早读，背单词，看词书；</li>
+</ul>
+<h4 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h4><ul>
+<li><input checked="" disabled="" type="checkbox"> 学业：准备各科的期末考试；</li>
+<li><input checked="" disabled="" type="checkbox"> 六级：认真准备六级考试，在考前多做卷子；</li>
+</ul>
+<hr>
+<h3 id="每周分配"><a href="#每周分配" class="headerlink" title="每周分配"></a>每周分配</h3><p>为了能使本月的计划顺利推进，我认为应当在月初的时候，就将各周的事务有所分配，如此使各项计划能够合理的安排与完成，不至于到最后堆在一起（经典的计划灾难）。</p>
+<h4 id="学期第十五周（0530-——-0605）"><a href="#学期第十五周（0530-——-0605）" class="headerlink" title="学期第十五周（0530 —— 0605）"></a>学期第十五周（0530 —— 0605）</h4><ol>
+<li>复习考试科目；</li>
+<li>学习完线性代数的第一章；</li>
+<li>英语记背共计 450 词，词群 036 至 044，并每日早读；</li>
+</ol>
+<h4 id="学期第十六周（0606-——-0612）"><a href="#学期第十六周（0606-——-0612）" class="headerlink" title="学期第十六周（0606 —— 0612）"></a>学期第十六周（0606 —— 0612）</h4><ol>
+<li>优先保证六级考试；</li>
+<li>学习完线性代数的第二章；</li>
+<li>英语记背共计 1200 词，词群 045 至 058，并每日早读；</li>
+</ol>
+<h4 id="学期第十七周（0613-——-0619）"><a href="#学期第十七周（0613-——-0619）" class="headerlink" title="学期第十七周（0613 —— 0619）"></a>学期第十七周（0613 —— 0619）</h4><ol>
+<li>复习考试科目；</li>
+<li>学习完线性代数的第三章；</li>
+<li>英语记背共计 1200 词，词群 059 至 073，并每日早读；</li>
+</ol>
+<h4 id="学期第十八周（0620-——-0626）"><a href="#学期第十八周（0620-——-0626）" class="headerlink" title="学期第十八周（0620 —— 0626）"></a>学期第十八周（0620 —— 0626）</h4><ol>
+<li>复习考试科目；</li>
+<li>学习完线性代数的第四章；</li>
+<li>英语记背共计 1200 词，并每日早读；词群暂不作规定，视前面几周的完成结果而定；</li>
+</ol>
+<h4 id="学期第十九周（0627-——-0703）"><a href="#学期第十九周（0627-——-0703）" class="headerlink" title="学期第十九周（0627 —— 0703）"></a>学期第十九周（0627 —— 0703）</h4><ol>
+<li>复习考试科目；</li>
+<li>学习完线性代数的第五、六章，与完成高数第十四章；</li>
+<li>英语记背共计 1200 词，并每日早读；词群暂不作规定，视前面几周的完成结果而定；</li>
+</ol>
+<h2 id="每日情况简记"><a href="#每日情况简记" class="headerlink" title="每日情况简记"></a>每日情况简记</h2><div class="success">
+
+<blockquote>
+<p>这里会记述我每日计划及完成情况</p>
+</blockquote>
+</div>
+
+<h3 id="学期第十五周"><a href="#学期第十五周" class="headerlink" title="学期第十五周"></a>学期第十五周</h3><p>现在是第十五周的周末了，在下一周的周末我会有一场极为重要的英语六级考试，我想凭这最后一次机会，将自己的六级成绩尽可能的提高。之前的时间里也一直有在背单词，断断续续地也做过一些卷子，只能说有好有坏吧。现在我还有一周的时间，希望能认真准备，毕其功于一役！</p>
+<p><strong>考研倒计时：199 天</strong></p>
+<hr>
+<h4 id="06-04，周六"><a href="#06-04，周六" class="headerlink" title="06-04，周六"></a>06-04，周六</h4><p>一直以来，舍友们都睡得很晚，我也有些敏感，躺下后有一点风吹草动，我都会被拉回现实。我也尝试过好些方法，可惜效果都不太理想，所以就无奈只能在他们睡下以后才能入睡。跟朋友说起这件事后，他说使用眼罩与耳塞会好一些，今天快递终于到了，晚上就试试怎么样吧。</p>
+<p>今日的安排为学习线性代数第一章中的前半章节，并且做与订正相当部分的英语卷题。至于英语单词相关的部分，那已经是每日默认的事务了，所以以后除非有特殊情况，我都不会在安排中说了。</p>
+<p>晚上再运动一下，跑一跑步，这就是完美的一天。不过，由于这些天我们学校在举办大运会，所以操场用不了，只能围着湖边跑了，完美一天中的一点遗憾。</p>
+<p><strong>今日完成的事务：</strong></p>
+<ol>
+<li>英语：约 230 个单词，与词群 038 至 041；</li>
+<li>数学：约 35 分钟的视频课程；</li>
+<li>英语：订正上次的听力练习，并抄录生词；</li>
+<li>跑步；</li>
+</ol>
+<p><strong>学习时间：3h 17min</strong></p>
+<p>今天下午开始学习，主要也是下午在学习，晚上基本上是没有做什么的 &#x2F; 因为要为我们的课设善后，就得花时间为作品录像与写报告，不过这些杂务很快就全部都结束了，未来就很少再有这些事了。</p>
+<p>希望我们在明天能有更好的表现，共勉吧！</p>
+<p>最后，🕯️🕯️🕯️。</p>
+<hr>
+<h4 id="06-05，周日"><a href="#06-05，周日" class="headerlink" title="06-05，周日"></a>06-05，周日</h4><p>今天早上睡得太死了，没听到闹钟，一觉睡到了十二点过，明明昨晚睡得还算早的…… 今晚再睡得早一些吧。洗漱吃完饭后被队友叫去给课设善后了，下午基本上全交代在这里了。</p>
+<p>晚上就多做做英语吧。</p>
+<p><strong>今日完成的事务：</strong></p>
+<ol>
+<li>英语：约 230 个单词，与词群 042 至 045；</li>
+<li>英语：六级试卷 2019-12-A 的两篇阅读，并抄录生词；</li>
+</ol>
+<p><strong>学习时间：3h 13min</strong></p>
+<p>晚上做了这张卷子的两篇阅读题，速度大概是没问题吧，但正确率还是不够，希望后面几天能好一些吧。明天我打算做完这张卷子，并做一半的下一张卷子，争取能尽快地做好应试准备。</p>
+<hr>
+<h4 id="本周总结"><a href="#本周总结" class="headerlink" title="本周总结"></a>本周总结</h4><p>这周末学习时间不足，每天只有三个小时，下周基本上已经没课了，我想每天的学习时间能达到八个小时以上吧。</p>
+<p>没什么可以说的，这周就这样吧。</p>
+<hr>
+<h3 id="学期第十六周"><a href="#学期第十六周" class="headerlink" title="学期第十六周"></a>学期第十六周</h3><p>现在一切的复习重点都在英语上面，至少在英语这一块，上一周两天的学习还算是差强人意。上周与这周的两章数学，我认为都放在六级考完以后再论，现在全力刷卷子，找回英语的手感，才是重中之重。</p>
+<p>看起来我们看词书的速度要快于预期，所以我打算对月初制定的计划做一些调整，将每周的词群数目增多，由每天两节增添至每周三节。</p>
+<p>我计划在本周做近几年的六级试卷，大概安排是从现在开始一直到周五，每天做一张卷子吧，周一与周二可以将卷子拆开做，而后面三天就得定时做卷子了。</p>
+<p>大概就是这样了，如果有纰漏，后面再另作调整。</p>
+<p><strong>考研倒计时：197 天</strong></p>
+<hr>
+<h4 id="06-06，周一"><a href="#06-06，周一" class="headerlink" title="06-06，周一"></a>06-06，周一</h4><p>今天照计划的时间起来了，有了眼罩与耳塞，果然没有受到舍友多少影响入睡了。依据昨晚的计划，今天做完 A 卷剩下的部分，再至少得做完 2019-12-B 卷的听力与阅读，如果时间足够，做完 B 卷自然是再好不过了。不过考虑到订正 —— 特别是抄录生词需要相当长的时间，还是能做多少做多少吧。</p>
+<p><strong>今日完成的事务：</strong></p>
+<ol>
+<li>英语：早读，约 230 个单词，与词群 046 至 047；</li>
+<li>英语：六级试卷 2019-12-A 的听力订正、完形填空，并抄录生词；</li>
+<li>英语：六级试卷 2019-12-B 的两篇阅读，订正并抄录生词；</li>
+</ol>
+<p><strong>学习时间：5h 57min</strong></p>
+<p>上午订正听力，感觉渐渐地找回以前的题感了，下午做 B 卷的听力试试。完形填空由于单词掌握得不够熟练，还是错了好些，这几天抄录的单词比我之前半个月加起来都多……</p>
+<p>晚上有些犯懒，和同学摸了一会儿鱼，听力和段落匹配就没能做，明天早点起来做吧。</p>
+<hr>
+<h4 id="06-07，周二"><a href="#06-07，周二" class="headerlink" title="06-07，周二"></a>06-07，周二</h4><p>还说今天早点起来做呢…… 做完和朋友在实验室吹水，一下子就到了两点半，上午基本上全补觉了，什么都没有做。于是中午吃完饭后赶快到教室学习，今天的计划是先将昨天剩下的题做完，即 A 卷的段落匹配与 B 卷的听力部分；然后再将 B 卷其他剩下的部分，如完形填空、段落匹配与翻译做完，然后晚上再做一些 C 卷的相关题型，等到那个时候再看吧。</p>
+<p><strong>今日完成的事务：</strong></p>
+<ol>
+<li>英语：约 160 个单词，与词群 048 至 050；</li>
+<li>英语：六级试卷 2019-12-A 的听力部分与段落匹配，订正并抄录生词；</li>
+</ol>
+<p><strong>学习时间：5h 03min</strong></p>
+<p>到现在差不多快要八点了，我才做完了昨天的功课与订正。其实做题的时间并不长，这些时间里我主要是在订正、抄录与记背单词。但这样下去我就做不了太多的题了，所以我决定考前的这几天先暂不抄录遇到的生词，查明释义后标注在试卷上即可，无需再抄录到摘抄本上，希望在剩下的时间里我能多做几张卷子。</p>
+<p>现在大概是十点半，实验室有些吵，就不做卷子了，明天早些起来早读吧。</p>
+<hr>
+<h4 id="06-08，周三"><a href="#06-08，周三" class="headerlink" title="06-08，周三"></a>06-08，周三</h4><p>早上比闹钟定的时间晚了一会儿起床，出宿舍的时候已经是九点过了，虽有不足，多少还是早点起来了……</p>
+<p>今天的计划是把之前的两张卷子全都做完，并且将它们也订正完。然后下午就像考试那样，定时做一套卷子，晚上在对卷子进行订正，行有余力可再做些题练手。</p>
+<p>大概就是这样。</p>
+<p><strong>今日完成的事务：</strong></p>
+<ol>
+<li>英语：约 250 个单词，与词群 051 至 052；</li>
+<li>英语：六级试卷 2019-12-B 的完形填空与段落匹配并订正；</li>
+<li>英语：六级试卷 2020-12-A 定时做卷子；</li>
+</ol>
+<p><strong>学习时间：4h 51min</strong></p>
+<p>上午一切都像计划的那样，早读、做卷子与订正，将 B 卷剩下的两道题也给做完了，只用了一个半小时左右，相比于昨天做题的平均时长，已经少了很多。后面这几天也继续这样，摘录生词的事情就放在考完以后再继续吧。</p>
+<p>考前的这几天，我计划就像今天这样：上午做散题与订正，下午定时做模拟考试，晚上订正与练习。</p>
+<p>现在距离我模拟的时间约莫还有十分钟，我把考试的时间安排贴出来吧：</p>
+<blockquote>
+<p><strong>CET6考试时间：15:00 —— 17:25</strong></p>
+<ul>
+<li>14:00 —— 15:00：听力试音（此时调整收音机频道）</li>
+<li>15:00 —— 15:10：发放试卷，贴条形码</li>
+<li>15:10 —— 15:40：作文</li>
+<li>15:40 —— 16:10：听力</li>
+<li>16:10 —— 16:15：考试暂停 5 分钟，收答题卡 1（作文与听力）</li>
+<li>16:15 —— 17:25：阅读与翻译</li>
+</ul>
+</blockquote>
+<p>刚刚做完了 2020-12-A 的卷子，我在时间分配上还是有些问题，导致我最后做的完形填空一塌糊涂，只蒙了对了两个…… 完事以后马上算了下分，大概有 450 左右，这次复健的分数还是太低了，我目标是想要考到 550 的。时间不早了，等我吃个饭再来分析卷子吧。</p>
+<p>完蛋，忘了晚上还有最后一次课，错过了第一节课，好在赶上了老师讲期末考试的复习课，等到六级考完以后就可以开始着手复习了。</p>
+<hr>
+<h3 id="学期第十七周"><a href="#学期第十七周" class="headerlink" title="学期第十七周"></a>学期第十七周</h3><p>之前这些天随着六级考试的结束，便一起过去了，接下来规划一下这两周多的期末时间吧：</p>
+<p>由于剩下的课程大多都是专业选修课了，不需要将全部的精力都投入到复习中了。所以，我认为上午复习即可，下午与晚上完全可以安排复习考研内容。</p>
+<p>这个月过去两周的计划，在考研复习方面执行得不好，考研的内容基本上一点都没有看。从现在起，我认为应该重点开始考研的相关学习。在这里对前面的「每周计划」作一些调整以适应新的情况，本周的考研任务是线性代数第一、二章的学习，并对英语部分作相应的调整。</p>
+<p>将本周的主要任务具体到每一天，我计划周一学习第一章，周二完成第一章的学习并开始做课后练习，周三完成练习并订正，第二章在周四至周六的安排亦同。英语方面，还是每日继续进行相应的学习即可。至于政治与专业课，就等到考完以后，七月份再开始学习吧。</p>
+<p>相信这样一来，周计划能够得到更好的执行。</p>
+<hr>
+<h4 id="06-13，周一"><a href="#06-13，周一" class="headerlink" title="06-13，周一"></a>06-13，周一</h4><p>今天的计划，主要是学习第一章与复习学业课程。上午复习，下午学习，晚上再视情况而定吧。</p>
+<p><strong>今日完成的事务：</strong></p>
+<ol>
+<li>英语：早读，约 85 个单词，与词群 053 至 055；</li>
+<li>数学：线性代数第一章视频约 51 分钟；</li>
+</ol>
+<p><strong>学习时间：2h 03min</strong></p>
+]]></content>
+      <categories>
+        <category>叶子与考研</category>
+      </categories>
+      <tags>
+        <tag>计划</tag>
+        <tag>杂思</tag>
+        <tag>考研</tag>
+        <tag>简记</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>读硕还是直博，这是个问题</title>
+    <url>/2022/05/18/question-of-graduate-student/</url>
+    <content><![CDATA[<p><img src="/images/question-of-graduate-student/cover.jpg" width="400" alt="cover" / loading="lazy"><em>图文无关…… 或许是吧</em></p>
+<span id="more"></span>
+
+<h2 id="背景"><a href="#背景" class="headerlink" title="背景"></a>背景</h2><p>今天上午，我在组会结束以后留下来跟导师说推荐信的事，之后我们聊了一些关于研究生的话题，其中就有我导师对读硕与直博的看法。听完后我感觉受益颇多，便想写一篇博文记录此事。<spam class="heimu">（翻译：水文章）</spam></p>
+<h2 id="讨论"><a href="#讨论" class="headerlink" title="讨论"></a>讨论</h2><h3 id="薪资"><a href="#薪资" class="headerlink" title="薪资"></a>薪资</h3><p>对于硕士生与博士生的区别，导师首先说最直观的是薪资待遇：像是之前实验室的一位硕士学长，在春招的时候拿的 offer 大概是 40 万左右一年<spam class="heimu">（但愿他今年能顺利毕业）</spam>；而另一位带过我的博士，她研究的是数字图像传输（大概是这么描述），拿的 offer 年薪是 48 万左右；而我们专业本科出去以后的年薪能有 15 万就谢天谢地了。</p>
+<p>导师说，就薪水来看，其实读硕士还是博士差别不大的，一般还是认为硕士生的性价比更高。</p>
+<p>“那硕士生与博士生相比，企业是否会更偏好于博士呢？”我问导师，“因为我看到现在社会上，好多本来是本科生做的工作，都被硕士生占走了，如果自己硕士文凭与别人博士面同一份工作，那会不会也出现这样的情况呢？”</p>
+<p>不会，他说，之前提到的“硕士性价比高”不仅对学生来说是这样，对企业而言也是如此，因为硕士生更便宜，同样的事情，硕士生能做何必要找更昂贵的博士生呢？</p>
+<h3 id="系统与部分"><a href="#系统与部分" class="headerlink" title="系统与部分"></a>系统与部分</h3><p>另一方面，是因为硕士生相比本科生，能负责构建整个系统，而博士生一般是负责系统中的某一个部分。</p>
+<p>导师说，硕士在企业中一般就与同事一组，开发整个项目，负责这个系统的方方面面；但博士生一般是做某一部分的优化。比如说，项目组的几个硕士在一起鼓捣了俩月，整出来个低功耗节点组网的传输系统，而博士做的主要是研究如何将原来每天一瓦的功耗降低至零点七瓦，或者将传输过程中的误码率从 10^(-6) 降低到 10^(-7)。由此可见，博士一般不会去构建整个系统，而是专注于优化系统的性能，将某一方面提升到极致。</p>
+<h3 id="团体与个人"><a href="#团体与个人" class="headerlink" title="团体与个人"></a>团体与个人</h3><p>其实，由导师在上面举的例子，我们还能够看出来，硕士生大多是一伙做事，博士生则常常是单枪匹马的。</p>
+<p>就比如我那位吊儿郎当的师兄，他毕业设计的系统也是与另一位同级的师兄，和两个研一的师兄共同完成的（都算是老师布置的活儿），而师兄的毕业答辩也是针对整个系统的。而另一位博士学姐，常常都是一个人在那边看论文、跑代码，很少看到她与其他的博士一起做一件事。</p>
+<p>本来以前没觉得这样有什么不对，跟导师聊了一后才发现这之中的联系……</p>
+<h3 id="专硕与学硕"><a href="#专硕与学硕" class="headerlink" title="专硕与学硕"></a>专硕与学硕</h3><p>后来，我又问了关于我们学院专硕与学硕的事，因为我在研究生招生简章里这两栏后都看到了导师的名字。</p>
+<p>导师说实际上他们没什么不同。他说，在我们学院，这两个实际上都是同一种，只是名字不同罢了，就比如专硕的课程叫通信 I，学硕的叫通信 II这样，而内容都是一样的。他还补充道，学校之所以还区分这两种，一方面是历史遗留问题，另一方面可能是因为在北方的一些省份，仍然认为专硕还是像以前那样，只读两年。</p>
+<p>不过，专硕学硕也并不是一点区别也没有。就像我们专业分数是有大小年之分的，录取分一年学硕高一年专硕高，例如今年学硕的平均分是 380+，而专硕的平均分高达 402，给大伙儿看傻了都。</p>
+<h2 id="结论"><a href="#结论" class="headerlink" title="结论"></a>结论</h2><p>导师在最后说，读博应该是一个与高考择校一样重要的人生决定，不能随随便便就定下来了。如果读博的意志并不是十分的坚定，他都建议先读一年硕士，再从长计议。</p>
+<p>大概就是这些了，如果大家对此有什么想法，欢迎大家留言与我交流喔！</p>
+]]></content>
+      <categories>
+        <category>叶子的碎碎念</category>
+      </categories>
+      <tags>
+        <tag>博文</tag>
+        <tag>学业</tag>
+        <tag>杂思</tag>
+        <tag>未来</tag>
+        <tag>读研</tag>
       </tags>
   </entry>
   <entry>
@@ -3864,6 +3691,180 @@ Details
       </categories>
       <tags>
         <tag>test</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>五月计划与简记</title>
+    <url>/2022/05/02/project-in-May/</url>
+    <content><![CDATA[<img class="shadow-none" src="/images/project-in-May/cover.jpg" width="380" alt="cover" / loading="lazy">
+
+<blockquote>
+<p>若有恒，何必三更眠五更起；最无益，莫过一日曝十日寒。</p>
+<p>——（明）胡居仁</p>
+</blockquote>
+<span id="more"></span>
+
+<h2 id="写在月初"><a href="#写在月初" class="headerlink" title="写在月初"></a>写在月初</h2><p>不知道为什么，一想到上个月的计划，就感到一塌糊涂。想必是因为，不论在考研里还是在生活中，数学依旧决定着成败吧。好在有每日的记述，不至于回忆起自己做了些什么的时候，脑袋依旧空空了。</p>
+<p>我参考了师兄师姐们今年的成绩，大概算了一下：如果想达到窝工今年 400 的平均分，数学与专业课都得上 120，英语和政治也得 80 分以上…… 这样的目标分数，给人的压力可太大了。在这之中，英语和政治这两门背书占很大比重的科目，一般是拉不开差距的 —— 因为但凡有认真准备过考研，到最后差不多都能够背完；而专业课，靠的还是这三年专业经历与对它的理解，也是能很拉分的，但还不是最重要的。</p>
+<h3 id="数学"><a href="#数学" class="headerlink" title="数学"></a>数学</h3><p>最重要的科目，还得是数学。三个小时，一百五十分，考研成事与否基本上全看这一锤子买卖。数学很难，我认为因为它既看人本身的天资，也看其复习的扎实程度，还需要大量的做题以保证“题感”，以保证面对题目时能快速地有思路，最后能快速准确地解题。</p>
+<p>在我看来，十分的考研数学中，有四分是牢固的基础，五分是得来不易又虚无缥缈的“题感”，天资只占一分。我这样可不是为了致敬爱迪生，是因为按照现在考研数学这种成熟的工业模式，真的只需要一分的天赋就可以了。</p>
+<p>我最近在听课的时候总是在想，天赋之于数学有什么用呢？我们又不需要去做研究。天赋之于考生，恐怕也只是在压轴题上的那灵光一现而已，它能区分最顶尖的学生，但在其他地方其实并不像大家认为的那么重要。对于我们这样的寻常学生而言，天赋只是帮助我们理解知识点罢了，快慢无妨，在大家都掌握知识点以后，所有人就又来到了同一起跑线，决定最后能跑多远的，还得靠各人的基础、曾经的练习，与自身的一点运气。</p>
+<p>至于这月的任务，我计划完成高等数学这十八章的学习，以及线性代数一半的章节，一共七章。这时间已经考虑得非常充分了，因为在本月的下旬我就要开始准备期末考试了。时间安排上应该是不会有问题的，如果提前完成了，或许可以再接着学习；如果没有完成任务，那肯定是自己出大问题了。</p>
+<h3 id="英语"><a href="#英语" class="headerlink" title="英语"></a>英语</h3><p>与家里人交流之后，我也认为现在还只是背单词的话，对考试是远远不够的，而之前计划的考前的十多天再开始做题，恐怕也是来不及的，所以得现在就开始做一点题，锻炼一番了。</p>
+<p>这样一来，我在英语上的策略就变成了这样：每天温习六级的 150 个单词，同时看新东方考研词书《恋练有词 · 分层串记》的数个词群，同时在课程与杂务不多的日子，还可以做一些往年的六级卷子中的习题。</p>
+<p>在五月里这样准备六级考试，是我认为是最合理的方式了。</p>
+<h3 id="项目"><a href="#项目" class="headerlink" title="项目"></a>项目</h3><p>这些天与父母谈到这件事，他们认为我在这上面花太多的精力，有些误了正事。这件事情在本月计划制定的时候还没有结果，还得继续跟踪。</p>
+<p>0506 新增：今天去跟导师交流过了，向老师说了我时间安排上的矛盾，并与老师大概明确了我要做的事情。这样一来，不仅时间安排上趋于明晰，我也能少些压力，多些时间。</p>
+<p>0513新增：之前听学长说，他说服了他的项目老师推迟做项目，在考完以后再做，所以他在那个时候就当作毕业设计做了。所以今天开会的时候，又跟导师交流了一下。可导师说这个项目是与公司又合作的，马上就要结束了，不能够推迟。也正是因为这个，想让我先参加进来熟悉一下，结题以后还可以加上我的名字。</p>
+<p>但我想了一番，考研的时间还是不太够，并且自感效率不高，这更是雪上加霜。如果再加上这个项目，花费了太多暑假的时间，最后的结果很有可能是竹篮打水一场空，得不偿失。</p>
+<p>导师让我自己选择，如果现在不做的话，等到考完了就像一般的研究生一样，给我找新的项目做。我跟导师说我在想一想，下周再给他答复，不过我现在差不多算是已经决定要退出了，得想想怎么跟导师与师兄他们说吧……</p>
+<h3 id="其他的一些事情"><a href="#其他的一些事情" class="headerlink" title="其他的一些事情"></a>其他的一些事情</h3><h4 id="作息"><a href="#作息" class="headerlink" title="作息"></a>作息</h4><p>上个月的作息其实不是很好：在计划最初的那段时间，我的作息明显在逐渐变得规律起来，但到后面作息又开始不稳定了，上个月贴出的那张作息趋势可以很好的体现出这一切。我打算<strong>在这个月的最后也贴出作息的趋势</strong>，希望到时候能给大家看到一章规律的趋势图。</p>
+<p>0517补充：想起我高三的时候，老师给我们安排的做题时间总是高考考试的时间：上午 09:00 —— 11:30 与下午的 15:00 —— 17:00 。在这两段时间的做卷子，使我们的生物钟习惯了在这个时候输出旺盛的精力，所以到高考的时候就不会犯困什么的了。</p>
+<p>现在没有老师再为我将一切安排妥当了，我得亲自料理这些事情了。考研的时间大概在 12 月的中下旬，具体的时间分别是：上午 08:30 —— 11:30 与下午 14:00 —— 17:00。对于我而言，第一天上午是政治，下午是英语；第二天上午是数学，下午是专业课。所以，在后面的日子里，我每天都需要在这些时候进行较高强度的学习，杂务与休息就放在这之后为好。</p>
+<h2 id="本月计划"><a href="#本月计划" class="headerlink" title="本月计划"></a>本月计划</h2><h3 id="任务目标"><a href="#任务目标" class="headerlink" title="任务目标"></a>任务目标</h3><h4 id="考研任务"><a href="#考研任务" class="headerlink" title="考研任务"></a>考研任务</h4><ul>
+<li><input disabled="" type="checkbox"> 数学：完成高等数学的学习，并学习线性代数一半的章节（六章中的三章）<br>（0504：其中高数的第十六讲是数学三点专题内容，我们可以直接跳过）</li>
+<li><input checked="" disabled="" type="checkbox"> 英语：每日 150 个六级词汇，看数个词群，同时每周至少做完一张六级卷子<br>（0504：这些目标实际上都是在先尝试了几天后再制定的）</li>
+</ul>
+<h4 id="导师项目"><a href="#导师项目" class="headerlink" title="导师项目"></a>导师项目</h4><ul>
+<li><input disabled="" type="checkbox"> <del>阅读完师兄项目的代码</del></li>
+<li><input disabled="" type="checkbox"> <del>重写主体与主要的功能</del></li>
+<li><input disabled="" type="checkbox"> <del>继续学习 Qt 相关的内容</del></li>
+</ul>
+<p>（0513：在考研之前都不会再有了……）</p>
+<h4 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h4><ul>
+<li><input checked="" disabled="" type="checkbox"> 完成学业中的课程设计，并完成联调、通过验收</li>
+<li><input checked="" disabled="" type="checkbox"> 提交支部需要的相关电子与纸质材料</li>
+</ul>
+<h2 id="每日情况简记"><a href="#每日情况简记" class="headerlink" title="每日情况简记"></a>每日情况简记</h2><blockquote>
+<p>每日的事务完成情况依旧会在下面更新：</p>
+</blockquote>
+<h3 id="学期第十一周（0502-——-0508）"><a href="#学期第十一周（0502-——-0508）" class="headerlink" title="学期第十一周（0502 —— 0508）"></a>学期第十一周（0502 —— 0508）</h3><p><strong>本周距离考研还剩约 234 天。</strong></p>
+<hr>
+<h4 id="05-02，周一"><a href="#05-02，周一" class="headerlink" title="05-02，周一"></a>05-02，周一</h4><p>今天上午我打算将上一个月的计划总结完，然后为计划这个月的事务。下午与晚上就专注于复习数学，另外，这个月要开始做英语六级的卷子了，看看今天如何安排为好。</p>
+<p><strong>09:47 —— 09:56：英语</strong>，约 50 个单词；<br><strong>10:12 —— 10:37：课业</strong>，做课内作业；</p>
+<p>今天下午，就听一节高数的月度课程，将高数第十二讲的课后习题做与订正完，然后做六级试卷 2018-06-2 的第一篇阅读吧；晚上就将高数第十三讲的习题册做并订正完吧。好不容易有这么整整一天，一定要将进度多向前推一点。</p>
+<p><strong>13:48 —— 13:44：英语</strong>，约 50 个单词；<br><strong>13:55 —— 15:17：数学</strong>，约 59 分钟的月度课程；<br><strong>15:27 —— 15:34：英语</strong>，约 50 个单词；<br><strong>15:42 —— 16:32：数学</strong>，完成了高数第十二讲课后习题；</p>
+<p>我发现，只要晚上休息好了，就算在空气浑浊的图书馆里、就算在令人昏昏欲睡的下午，看书的时候也不会感到困。</p>
+<p><strong>18:09 —— 18:58：英语</strong>，完成并订正了 2018-06-2 的第一篇英语阅读；<br><strong>19:23 —— 20:08：数学</strong>，订正完高数第十二讲课后习题；</p>
+<hr>
+<h4 id="05-03，周二"><a href="#05-03，周二" class="headerlink" title="05-03，周二"></a>05-03，周二</h4><p>今天的计划是，上午在实验室做课程设计，把这一阶段做完；下午与晚上去图书馆做完第十三章的两份习题，并且英语也不要落下，不仅仅只能背单词，还要开始认真的记背词组，每天也不要忘记做题。今天的计划，大概就是这样。</p>
+<p><strong>09:25 —— 09:34：英语</strong>，词群 001；<br><strong>09:39 —— 11:34：课设</strong>，算是成功地勉强实现了需要的功能，下一次的验收应该是不愁了，后面再完善下功能，优化一番检验的阈值和性能，再与组员们联调一下，就应该没问题了；<br><strong>12:47 —— 13:09：英语</strong>，约 50 个单词与词群 002；<br><strong>14:06 —— 14:52：数学</strong>，复习高数第十三讲；</p>
+<p>额…… 我高高兴兴地打开笔记本，想先复习一下第十三章的内容再做题，一埋头一抬头，一节课就过去了。现在我或许有了一个数学进度慢点理由：因为后面的这些章节越来越难了（</p>
+<p><strong>14:59 —— 16:10：数学</strong>，完成第十三讲的习题册；<br><strong>16:45 —— 17:25：数学</strong>，订正习题册；</p>
+<p>然后去吃饭了。其实本来六点半就吃完饭回来坐着了，那时想到“哎呀才刚刚吃完饭不宜学习让我们来摸一会儿的明日方舟吧正好三周年活动还没打就打一关二十分钟就下线”，然后卡关卡了一个小时……</p>
+<p><strong>19:35 —— 20:03：英语</strong>，完成了 2018-06-2 的第二篇英语阅读与翻译；<br><strong>20:07 —— 20:25：英语</strong>，订正了翻译题；<br><strong>20:51 —— 22:10：运动</strong>，慢跑了接近 3km，绕着湖走了好多圈；<br><strong>23:18 —— 23:42：英语</strong>，约 100 个单词，今日背完；<br><strong>23:45 —— 24:14：英语</strong>，订正了阅读题；<br><strong>24:20 —— 24:59：数学</strong>，善后数学，与同学讨论难题。</p>
+<p>今晚是想把剩下的数学习题册善后完的，本来一切都是很顺利的，但实验室旁边的同学突然问我一道问题，与他研究那道题花了比较久，就耽误了善后习题册的时间……</p>
+<p>数学，昨天的计划没能完成，今天的计划还是没能完成，不知道是我太菜了，还是数学太难了。我上个月的计划确实是太理想了，一周看五章、看八章，就算一周都用来学数学，按照我的学习方式，也可能学不完。我大概估算了一下，如果这周没有杂务、状态也非常好，那大概是能学完三章的，并把习题做完。</p>
+<p>还是太慢了，唉。我在图书馆看到一个女同学，她桌上放着一本线性代数，说明人家少则领先我六章的功课，多则已经领先我十余章了。</p>
+<p>至于今天，学习的时间是五个半小时，做正事的时间加起来大概比三分之一多，勉强能有二分之一。</p>
+<p>共勉吧。</p>
+<hr>
+<h4 id="05-04，周三"><a href="#05-04，周三" class="headerlink" title="05-04，周三"></a>05-04，周三</h4><p>今天是五四青年节，想起了以前在作文里常常引用鲁迅的一句话，百试不爽：</p>
+<blockquote>
+<p>所以我时常害怕，愿中国青年都摆脱冷气，只是向上走，不必听自暴自弃者流的话。能做事的做事，能发声的发声。有一分热，发一分光，就令萤火一般，也可以在黑暗里发一点光，不必等候炬火。</p>
+<p>此后如竟没有炬火：我便是唯一的光。</p>
+<p>——《热风・随感录四十一》</p>
+</blockquote>
+<p>其实单单是引用这一段话，于原文之意，确实有失偏颇。不过也单单就这句话，它表现出的精神，也是值得我们学习的。另外，祝大家五四青年节快乐！</p>
+<p>今天的空余时间基本上只有这个下午，我下午的计划是将前天布置、昨天剩余的数学习题册给订正完，然后完成第十三章的课后习题，再完成并订正英语六级试卷 2018-06-3 的选词填空吧。高数的第十四章“无穷级数”又是一个很难的章节 orz，但愿这周五之前能将它搞定吧。</p>
+<p><strong>09:23 —— 09:35：英语</strong>，约 50 个单词；<br><strong>13:50 —— 14:08：英语</strong>，约 30 个单词，与词群 003 至 005；<br><strong>14:28 —— 16:03：数学</strong>，订正完高数第十三讲习题册；<br><strong>16:08 —— 16:26：英语</strong>，约 50 个单词，与词群 006 至 007；</p>
+<p>光是订正昨天剩下的 10 道题，就花了一个半小时的时间，看起来我们今天的课后习题多半也做不完了。</p>
+<p><strong>16:30 —— 16:48：英语</strong>，完成了选词填空；<br><strong>16:53 —— 17:03：英语</strong>，订正，词语的摘录放在晚上再做；<br><strong>22:23 —— 22:34：英语</strong>，约 50 个单词，完成了今日计划；<br><strong>22:34 —— 00:04：数学</strong>，订正完数学难题。</p>
+<hr>
+<h4 id="05-05，周四"><a href="#05-05，周四" class="headerlink" title="05-05，周四"></a>05-05，周四</h4><p>凌晨熬夜了，九点半醒来，然后摸鱼一上午。</p>
+<p>下午上课，上完以后继续摸鱼。</p>
+<p>最近听说《守望先锋：归来》开始 B 测了，晚上就久违地玩了下守望先锋。</p>
+<hr>
+<h4 id="05-06，周五"><a href="#05-06，周五" class="headerlink" title="05-06，周五"></a>05-06，周五</h4><blockquote>
+<p>今天还是起晚了，然后上午去找了给我写推荐信的两位老师，跟他们把最后的事情敲定了。在这一刻，我的整个申请流程算是结束了。</p>
+<p>我项目之后的安排，今天也跟导师确定下来了，并且由于负责我这一块的师兄下个月就要去华为工作了，我这个月或许得尽快多做一些，把师兄写的东西顺利地接下来，不然以后就很难像师兄求助了。所以我今天下午与晚上，安排的是项目的任务，而明后两天的事务视今日的完成情况再作安排吧。</p>
+</blockquote>
+<p>这是那天上午写的，后来啊，后来就下午做了项目，到大概三点半到时候遇到了问题，索性就再次不管了，又去打电动了。</p>
+<hr>
+<h3 id="学期第十二周（0509-——-0515）"><a href="#学期第十二周（0509-——-0515）" class="headerlink" title="学期第十二周（0509 —— 0515）"></a>学期第十二周（0509 —— 0515）</h3><p><strong>本周距离考研还剩约 227 天。</strong></p>
+<hr>
+<h4 id="05-10，周二"><a href="#05-10，周二" class="headerlink" title="05-10，周二"></a>05-10，周二</h4><p>早上去邮局寄信，然后就去图书馆准备今天的学习。</p>
+<p>最近因为心态问题，将学业放下了，所以我们现在需要立即开始着手恢复：今天上午听一节月度的直播课程，下午将第十三讲的课后习题做完，再加上英语的习题……</p>
+<p>最终这一天也是没有做什么事……</p>
+<hr>
+<div class="danger">
+
+<blockquote>
+<p><strong>简单来说，5 号到 11 号这几天整个人就散了。</strong></p>
+</blockquote>
+</div>
+
+<hr>
+<h4 id="05-12，周四"><a href="#05-12，周四" class="headerlink" title="05-12，周四"></a>05-12，周四</h4><p>近日广州大暴雨，早上起来看到窗外也是瓢泼大雨后，决定上午在实验室做项目，看看后面雨会不会小一些，晚上就去图书馆看数学吧。</p>
+<p><strong>09:03 —— 09:17：英语</strong>，约 50 个单词，与词群 008 至 009；<br><strong>09:45 —— 11:27：项目</strong><br><strong>12:49 —— 13:08：英语</strong>，约 50 个单词，与词群 011 至 012；</p>
+<p>晚上雨太大了，从教室回来的路上，鞋子与半条裤子都湿了，雷雨天真出不了门，所以晚上还是在实验室待着吧。</p>
+<p><strong>19:16 —— 19:33：英语</strong>，约 30 个单词，与词群 010 与 013；<br><strong>19:35 —— 21:00：数学</strong>，约 60 分钟的月度课程；<br><strong>21:10 —— 21:18：英语</strong>，约 50 个单词；<br><strong>22:22 —— 23:12：课业</strong></p>
+<p>在摆烂这么多天以后，今天开始复健，看起来效果还不错，但时间又少了好多……</p>
+<hr>
+<h4 id="05-13，周五"><a href="#05-13，周五" class="headerlink" title="05-13，周五"></a>05-13，周五</h4><p>导师昨晚通知我们说，今天上午九点开项目的联调组会。我起来以后背了会单词后，见这暴雨依旧还是没有变小的意思，就冒雨出门，坐校巴前往导师的办公室。好不容易到那以后，导师看着组里的师兄与同学说好大的雨，结果把组会延后到十点了。我身上当时除了单词书什么都没带，只好找个位置背单词…… 好在组会并没开多久，我赶回实验室以后，还能把网络实验给做了 —— 因为这个实验需要用到学校的虚拟机，我昨晚预约的就是十点左右到这个时段，要是错过了就又得重新预约了。</p>
+<p>上午的安排顺利完成了，那么，我希望下午与晚上的安排也可以同样顺利地做完吧。</p>
+<p><strong>08:05 —— 08:12：英语</strong>，词群 014；<br><strong>08:36 —— 08:50：英语</strong>，约 30 个单词，与词群 015；<br><strong>09:18 —— 09:34：英语</strong>，词群 016 至 019，完成了 Unit 1；<br><strong>10:40 —— 11:54：课业</strong></p>
+<p>为了能再次恢复数学的学习，下午先听一节月度课程，再做完并订正高数第十三讲的课后习题；英语在继续单词之余，把之前留下的六级试卷 2018-06-3 的两篇阅读给完成了吧，再把之前那次的摘录也一并补上。大概这些，可能就差不多了，如果有空余时间，那就到时候再安排吧。</p>
+<p><strong>14:14 —— 14:29：英语</strong>，约 40 个单词；<br><strong>14:42 —— 16:22：数学</strong>，约 50 分钟的月度课程；</p>
+<p><strong>19:20 —— 19:37：英语</strong>，约 50 个单词，与词群 020 至 021；<br><strong>19:39 —— 20:10：英语</strong>，完成了两篇阅读；</p>
+<p>做题还是太慢了，这次做得很不顺，与上次相比可以说是天壤之别，等我晚上订正完以后，再分析一下原因吧。</p>
+<p><strong>20:18 —— 20:57：英语</strong>，订正与查词；</p>
+<p><strong>22:27 —— 22:43：英语</strong>，约 60 个单词，与词群 022；<br><strong>22:49 —— 23:08：英语</strong>，继续订正与查词；</p>
+<p>我大概知道这次为什么比上次差了。</p>
+<p>这次的两篇阅读是一对很好的例子：第一篇阅读我从一开始就把文意理解偏了，所以就算花了许多时间，也难以选对正确的选项；而第二篇我时间比较紧，但由于把文章的中心把握住了，所以就算半蒙半猜，结果也比第一篇好得多。另外，还是有单词不熟悉的问题，这很容易使我曲解选项，被干扰项给带进坑了。</p>
+<p>算算日子，时间已经过去快要一半了，很明显我的进度还是严重的偏慢了……</p>
+<hr>
+<h4 id="05-14，周六"><a href="#05-14，周六" class="headerlink" title="05-14，周六"></a>05-14，周六</h4><p>昨天又鸽掉了数学做题，就又顺延到下一天了……</p>
+<p>按照昨晚的构想，今天上午做高数第十三讲的课后习题，并订正完，再摘录部分英语单词；下午听高数第十四讲的课程，做英语习题并订正，六级试卷 2018-06-3 的选词填空比较难，订正时间可能会有些长；晚上再学习一些数学，大概就是这样。</p>
+<p><strong>08:44 —— 08:57：英语</strong>，早读，并背了约 20 个单词；<br><strong>09:15 —— 09:48：数学</strong>，复习高数第十三讲；<br><strong>09:51 —— 11:35：数学</strong>，完成了第十三讲的课后习题；</p>
+<p>今天第一次尝试<strong>早读</strong>，以后打算就要常驻了，后面也会把时间再提前一些，毕竟这样才能算“早”（</p>
+<p>数学九道常微分方程做了我近两个小时，还是在有笔记的情况下。要是没有笔记，我还得手推公式…… 下午争取在一个小时之内把这个订正完吧。中午有同学喊我一起吃麦当当，我今天就早些走了。</p>
+<p>还不到十二点去吃的饭，回来的时候已经快两点了 orz。不过我们在两点半以前还是能开始学习，下午听一部分高数第十四讲的课程，订正或许可以放在晚上。</p>
+<p><strong>14:30 —— 14:49：英语</strong>，约 30 个单词，与词群 023；<br><strong>14:51 —— 17:26：数学</strong>，学习高数第十四讲约 60 分钟的课程；</p>
+<p>学数学期间，大概三点半的时候太困了，趴在桌上睡了大概十分钟，醒来之后就比较有精神了，真不错。</p>
+<p><strong>18:41 —— 19:01：英语</strong>，约 30 个单词，与词群 024；<br><strong>19:05 —— 19:23：英语</strong>，完成选词填空；<br><strong>19:29 —— 20:14：英语</strong>，订正并查词；<br><strong>20:21 —— 20:39：数学</strong>，订正部分习题；</p>
+<p>由于卷子上被勾出的词汇太多，所以在订正的时候，只查了部分涉及选项的词语，而其他地方地方的词语还没有查，等有零碎空余的时间再查吧。</p>
+<p><strong>22:21 —— 22:36：英语</strong>，约 50 个单词；<br><strong>22:36 —— 23:39：课设</strong></p>
+<p>今天整体而言，我觉得是非常不错的，如果中午没有出去吃麦当当，那简直就可以说是我们心目中理想的一天了。</p>
+<p>我在论坛上，看到有人说他每天都会复习六个多小时，其中至少有五个小时在数学上，二月到四月他花了不过三个月就把数学的第一遍看完了。我记得蛮清楚的，想了想，我也是二月一号新年那天开始复习数学的。结果到现在，进度差了这么多，不得不说是我自作自受了。</p>
+<p>所以，从现在开始，我也想统计每天、每周与每月的学习时长，以更明晰地评判每一天的学习态度。今天做正事的时间大概占了一半的时间：学习有 7h4min，而课设约 1h3min。</p>
+<p>希望明天能再接再厉吧。</p>
+<hr>
+<h4 id="05-15，周日"><a href="#05-15，周日" class="headerlink" title="05-15，周日"></a>05-15，周日</h4><p>今天久违地去食堂吃了早饭，花了好些时间，到图书馆就已经九点一刻了。加之又做了些其他事情，开始学习的时间就比昨天晚了一个小时。今天的目标是把高数第十四讲剩下三个小时的课程全部看完，并且再把英语也料理好，昨天的题订正完，这样就好了。</p>
+<p><strong>09:48 —— 10:06：英语</strong>，约 50 个单词，与词群 025 至 026；<br><strong>10:10 —— 12:07：数学</strong>，高数第十四讲约 61 分钟的课程；</p>
+<p>今天的目标是学习完这一讲，还有两个多小时的视频课程，这样看起来应该是没有问题的。</p>
+<p><strong>14:22 —— 14:33：英语</strong>，约 50 个单词，与词群 027；<br><strong>14:37 —— 15:44：数学</strong>，约 32 分钟的视频课程；<br><strong>16:09 —— 16:59：数学</strong>，约 29 分钟的视频课程；<br><strong>17:00 —— 17:25：数学</strong>，订正完了昨天的课后习题；</p>
+<p>晚上摸了会鱼，算是一周的休息吧。</p>
+<hr>
+<h3 id="学期第十三周（0516-——-0522）"><a href="#学期第十三周（0516-——-0522）" class="headerlink" title="学期第十三周（0516 —— 0522）"></a>学期第十三周（0516 —— 0522）</h3><p><strong>本周距离考研还剩约 220 天。</strong></p>
+<hr>
+<h4 id="05-16，周一"><a href="#05-16，周一" class="headerlink" title="05-16，周一"></a>05-16，周一</h4><p>今天又是有一整天的时间呢，这周开始要开始准备期末考试与英语六级考试，像这样完整的时间已经不多了，趁现在得多学习一些。今天把高数第十四讲学习完肯定是没有问题的，如果下午有多余的时间，可以开始学习第十五讲。晚上主要是做题等，就不听课了，如果外面等雨停了的话，出去跑跑步吧。</p>
+<p><strong>09:28 —— 09:50：英语</strong>，约 50 个单词，早读；<br><strong>10:02 —— 11:22：数学</strong>，继续学习高数第十四讲，约 31 分钟课程；<br><strong>11:34 —— 11:55：杂务</strong></p>
+<p>今天早上太晚了。早读早读，自然得早点，九点半算什么早读…… 我计划里的早读是像高中一样，七点半开始，现在先做到八点开始早读吧。</p>
+<p><strong>14:15 —— 14:32：英语</strong>，约 50 个单词，与词群 028；<br><strong>14:42 —— 17:34：数学</strong>，约 52 分钟的课程，学习完了第十四讲；</p>
+<p>下午犯困，中途还是趴了会儿 orz。有好多地方要抄在笔记本上，还有一部分没有抄完，晚上有时间把这些抄完吧。</p>
+<p><strong>19:00 —— 19:15：英语</strong>，约 30 个单词，与词群 029 至 031；<br><strong>19:21 —— 19:49：数学</strong>，整理笔记；<br><strong>19:54 —— 20:10：英语</strong>，约 50 个单词，与词群 032，完成了今日单词；<br><strong>20:11 —— 20:47：英语</strong>，完成六级试卷 2019-12-1 的听力部分；</p>
+<p><strong>21:03 —— 21:50：运动</strong>，慢跑了 2.4km 并绕着湖散步；<br><strong>22:57 —— 23:48：课设</strong></p>
+<p>今天学习情况，我觉得可以算中等偏上：纯粹的学习时间有 6h14min，再算上做课程设计的 50min 与运动的时间，差不多有效利用今天时间的一半，明天要是能早点起就更好了。</p>
+<hr>
+<h4 id="05-17，周二"><a href="#05-17，周二" class="headerlink" title="05-17，周二"></a>05-17，周二</h4><p>今天也是一整天的时间，在本月的下旬到来之前，我还暂时不需要开始复习课业内容。今天的计划是听完高数第十五讲约两个小时的课程，并完成第十四讲的习题册，与订正完昨天的笔记。英语就是订正完昨天的听力，并做两篇阅读。今天晚上回去以后，再将课程设计与队友们联调好，就等待验收了。</p>
+<p><strong>08:14 —— 08:41：英语</strong>，早读，另背约 50 个单词，与词群 033；<br><strong>08:47 —— 09:53：数学</strong>，高数第十五讲约 15 分钟的视频课程；<br><strong>10:01 —— 10:09：英语</strong>，约 30 个单词；<br><strong>10:15 —— 11:04：数学</strong>，约 21 分钟的课程；</p>
+<p><strong>13:56 —— 16:37：数学</strong>，约 44 分钟的课程；</p>
+<p>接近三个小时，只听了不到一个小时的课…… 这章的专题内容倒是不难，主要是有些杂，要抄的东西有些多，今天下午我的效率也不行。</p>
+<p><strong>18:21 —— 19:31：数学</strong>，约 35 分钟的课程；<br><strong>19:36 —— 19:51：英语</strong>，约 50 个单词；</p>
+<p>今天听课花了太多的时间，习题册多半是没时间做了。</p>
+<p><strong>21:05 —— 23:37：课设</strong></p>
+<p>晚上终于与队友一起把课程设计联调结束了，看看明天验收的结果如何吧。若是通过了，就又少一件事情了。</p>
+<hr>
+]]></content>
+      <categories>
+        <category>叶子与考研</category>
+      </categories>
+      <tags>
+        <tag>计划</tag>
+        <tag>杂思</tag>
+        <tag>考研</tag>
+        <tag>简记</tag>
       </tags>
   </entry>
   <entry>
