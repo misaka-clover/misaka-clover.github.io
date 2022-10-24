@@ -10,10 +10,10 @@ tags:
     - 知识
 categories: 叶子的粗浅知识
 comment: true
-keywords: SQL,学习,笔记，菜鸟教程
+keywords: SQL,学习,笔记,菜鸟教程
 ---
 
-<img src="/images/SQL-learning-note-01/cover.jpg" width="650" alt="cover" />
+<img src="/images/SQL-learning-note-01/cover.jpg" width="650" alt="cover" />_题图来自网络_
 
 作为一个只会增删查改、从来没有系统性学习数据库的小白，这些天有了一个契机来学习相关的知识，便想到以此开一篇新的学习博文，记录一些关键语句与自己的理解。
 
