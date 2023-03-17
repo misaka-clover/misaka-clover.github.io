@@ -2,7 +2,7 @@
 title: SQL 学习笔记【02】
 date: 2022-10-18 15:09:34
 #updated: 2022-05-01 15:59:52
-description: 逐渐深入（我仿佛明白了一切）
+description: 开始深入（我仿佛逐渐理解了一切）
 tags: 
     - 博文
     - SQL
@@ -478,8 +478,7 @@ SELECT <列名1>, <列名2>, <列名3>, ……
 ```
 
 * `ORDER BY` 子句中的列名称为**排序键**；
-* 在 `ORDER BY` 子句中列名的后面使用关键字 `ASC` 可以进行升序排序（默认，可不写），
-  使用 `DESC` 关键字可以进行降序排序；
+* 在 `ORDER BY` 子句中列名的后面使用关键字 `ASC` 可以进行升序排序（默认，可不写），使用 `DESC` 关键字可以进行降序排序；
 * 在 `ORDER BY` 子句中可以指定多个排序键；
 
 ```sql
@@ -622,8 +621,7 @@ SELECT product_type, SUM(sale_price), SUM(purchase_price)
 
 ### 删除 DELETE
 
-* 如果想将整个表全部删除，可以使用 `DROP TABLE` 语句，
-  如果只想删除表中全部数据，需使用 `DELETE` 语句。
+* 如果想将整个表全部删除，可以使用 `DROP TABLE` 语句，如果只想删除表中全部数据，需使用 `DELETE` 语句。
 
 ```sql
 -- 保留数据表，仅删除全部数据行的 DELETE 语句
@@ -637,8 +635,7 @@ DELETE FROM Product;
 
 #### 搜索型 DELETE
 
-* 如果想删除部分数据行，只需在 `WHERE` 子句中书写对象数据的条件即可。
-  通过 `WHERE` 子句指定删除对象的 `DELETE` 语句称为搜索型 `DELETE` 语句。
+* 如果想删除部分数据行，只需在 `WHERE` 子句中书写对象数据的条件即可。通过 `WHERE` 子句指定删除对象的 `DELETE` 语句称为搜索型 `DELETE` 语句。
 
 ```sql
 -- 删除部分数据行的搜索型 DELETE
@@ -662,8 +659,7 @@ UPDATE <表名>
 
 #### 搜索型 UPDATE
 
-* 更新部分数据行时可以使用 `WHERE` 来指定更新对象的条件。
-  通过 `WHERE` 子句指定更新对象的 `UPDATE` 语句称为搜索型 `UPDATE` 语句。
+* 更新部分数据行时可以使用 `WHERE` 来指定更新对象的条件。通过 `WHERE` 子句指定更新对象的 `UPDATE` 语句称为搜索型 `UPDATE` 语句。
 
 ```sql
 -- 更新部分数据行的搜索型 UPDATE
@@ -745,7 +741,7 @@ COMMIT
 
 > 实际上，几乎所有的数据库产品的事务都无需开始指令。这是因为大部分情况下，事务在数据库连接建立时就已经悄悄开始了，并不需要用户再明确发出开始指令。例如，使用 Oracle 时，数据库连接建立之后，第一条 SQL 语句执行的同时，事务就已经悄悄开始了。
 >
-> 例如，PostgreSQL的用户手册中有如下记述 ：「PostgreSQL 中所有的SQL指令语句都在事务内执行。即使不执行 BEGIN，这些命令语句也会在执行时悄悄被括在 `BEGIN` 和 `COMMIT`（如果成功的话）之间。」（《PostgreSQL 9.5.2 文档》“3-4 节 事务”）
+> 例如，PostgreSQL的用户手册中有如下记述 ：「PostgreSQL 中所有的SQL指令语句都在事务内执行。即使不执行 `BEGIN`，这些命令语句也会在执行时悄悄被括在 `BEGIN` 和 `COMMIT`（如果成功的话）之间。」（《PostgreSQL 9.5.2 文档》“3-4 节 事务”）
 
 * DBMS 的事务具有原子性（Atomicity）、一致性（Consistency）、隔离性（Isolation）和持久性（Durability）四种特性。通常将这四种特性的首字母结合起来，统称为 ACID 特性。
 

@@ -21,13 +21,13 @@ links:
     desc: 流浪者未必迷茫
     color: "#00BFFF"
     email: hermit0x9@outlook.com
-  - url: https://nek0ri.de/
-    avatar: /images/avatar/nek0ri.jpg
-    name: nek0ri
-    blog: 猫梨の部屋
-    desc: 404 not found
-    color: "#DB7093"
-    email: 
+  # - url: https://nek0ri.de/
+  #   avatar: /images/avatar/nek0ri.jpg
+  #   name: nek0ri
+  #   blog: 猫梨の部屋
+  #   desc: 404 not found
+  #   color: "#DB7093"
+  #   email: 
   - url: https://cwksc.github.io/
     avatar: /images/avatar/CWKSC.jpg
     name: CWKSC
