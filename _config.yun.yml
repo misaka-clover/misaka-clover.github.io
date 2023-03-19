@@ -33,7 +33,7 @@ pagination_dir: page
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
 url: https://mskclover.com/
 permalink: :year/:month/:day/:title/
-permalink_defaults:
+permalink_defaults: 
 pretty_urls:
   trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
   trailing_html: true # Set to false to remove trailing '.html' from permalinks
@@ -225,13 +225,13 @@ footer:
     # Hexo link (Powered by Hexo).
     enable: true
 
-  # 备案
-  # Beian icp information for Chinese users. In China, every legal website should have a beian icp in website footer.
-  # http://www.beian.miit.gov.cn
-  beian:
-    enable: true
-    icp: 学园都市ICP备10032号
-  
+  # # 备案
+  # # Beian icp information for Chinese users. In China, every legal website should have a beian icp in website footer.
+  # # http://www.beian.miit.gov.cn
+  # beian:
+  #   enable: true
+  #   icp: 学园都市ICP备10032号
+
   # 运行时间
   live_time:
       enable: true
@@ -242,7 +242,9 @@ footer:
   # 自定义文本
   # Any custom text can be defined here.
   # custom_text: Hosted by <a href="https://pages.coding.me" rel="noopener" target="_blank">Coding Pages</a>
-  custom_text: 博客版本：Version.1.3.8
+  custom_text: '博客版本：Version.1.4.0 | 
+                <a href="https://icp.gov.moe" target="_blank" style="color:inherit"><img src="/images/moeicp.png" width="25" style="vertical-align:middle">萌ICP备 </a><a href="https://icp.gov.moe/?keyword=20232952" target="_blank" style="color:inherit"> 20232952 号</a>
+                '
 
   # 支持致谢
   support:
@@ -382,3 +384,5 @@ katex:
 #   targets: 
 #     - .post-card5
 #     - .post-content img
+
+
