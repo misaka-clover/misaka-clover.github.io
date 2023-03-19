@@ -12,7 +12,7 @@ comment: true
 keywords: 2023, 年终总结, 书单
 ---
 
-![cover](2022-final-summary/cover.jpg)
+![cover](/images/2022-final-summary/cover.jpg)
 
 > All endings are also beginnings, we just don't know it at the time.
 >
