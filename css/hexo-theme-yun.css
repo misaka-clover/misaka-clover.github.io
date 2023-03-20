@@ -2068,6 +2068,39 @@ input {
 .progress-circle-container {
   position: absolute;
 }
+#local-search-input {
+  outline: none;
+}
+.search-result-container {
+  overflow: auto;
+  margin: 0;
+  padding: 0.5rem 0 1rem 0;
+  height: calc(100% - 160px);
+}
+.search-result-container ul.search-result-list {
+  margin: 0;
+  padding: 0;
+}
+.search-result-container ul.search-result-list li {
+  display: block;
+  width: 100%;
+  padding: 0.6rem 0;
+}
+.search-result-container ul.search-result-list li .search-result-title {
+  font-family: 'Songti SC', 'Noto Serif SC', STZhongsong, STKaiti, KaiTi, Roboto, serif;
+  font-weight: 900;
+  font-size: 1.2rem;
+}
+.search-result-container ul.search-result-list li .search-result {
+  margin: 0;
+  font-size: 0.8rem;
+}
+.search-result-container ul.search-result-list li .search-result .search-keyword {
+  background: transparent;
+  color: #f00;
+  font-style: normal;
+  text-decoration: underline;
+}
 .search-popup {
   backdrop-filter: blur(30px);
   -webkit-backdrop-filter: blur(30px);
