@@ -283,18 +283,19 @@ comment:
     - 如果您有任何关于博客内容的相关讨论，欢迎前往 <a href="https://github.com/misaka-clover/misaka-clover.github.io/discussions" target="_blank">GitHub Discussions</a> 与我交流。
   candidates:
     - utterances
+    - giscus
 #    - waline
 
-github_issues:
-  enable: false
-  username: misaka-clover
-  repository: misaka-clover.github.io
-  filters: is:issue
+# github_issues:
+#   enable: false
+#   username: misaka-clover
+#   repository: misaka-clover.github.io
+#   filters: is:issue
 
-github_discussions:
-  enable: false
-  username: misaka-clover
-  repository: misaka-clover.github.io
+# github_discussions:
+#   enable: false
+#   username: misaka-clover
+#   repository: misaka-clover.github.io
 
 utterances:
   enable: true
@@ -302,6 +303,17 @@ utterances:
   issue-term: pathname
   # label: comment
   theme: github-light
+
+giscus:
+  enable: false
+  repo:
+  repo-id:
+  category:
+  category-id:
+  mapping: pathname
+  reactions-enabled: 1
+  emit-metadata: 0
+  theme: light
 
 # 不再使用这个评论系统
 # waline:
@@ -342,21 +354,22 @@ engine_search:
 #这是谷歌分析（Google Analytics）
 google_analytics:
   enable: true
-  id: UA-176081910-1
+  #id: UA-176081910-1
+  id: 358686756
 
 ########################################################################
 
-# 不蒜子是一款轻量极简的网站计数器。
-# 使用说明：https://ibruce.info/2015/04/04/busuanzi
-busuanzi:
-  enable: false
-  site_uv: true
-  site_uv_icon: ri:user-line
-  site_pv: true
-  site_pv_icon: ri:eye-line
-  page_pv: true
-  page_pv_icon: ri:eye-line
-# 不知道为什么，这个计数器有问题，显示几百万次的访问量……
+# # 不蒜子是一款轻量极简的网站计数器。
+# # 使用说明：https://ibruce.info/2015/04/04/busuanzi
+# busuanzi:
+#   enable: false
+#   site_uv: true
+#   site_uv_icon: ri:user-line
+#   site_pv: true
+#   site_pv_icon: ri:eye-line
+#   page_pv: true
+#   page_pv_icon: ri:eye-line
+# # 不知道为什么，这个计数器有问题，显示几百万次的访问量……
 
 
 # LeanCloud在国内不再可用
