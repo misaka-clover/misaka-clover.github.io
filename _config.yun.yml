@@ -283,8 +283,8 @@ comment:
   tips:
     - 如果您有任何关于博客内容的相关讨论，欢迎前往 <a href="https://github.com/misaka-clover/misaka-clover.github.io/discussions" target="_blank">GitHub Discussions</a> 与我交流。
   candidates:
-    - utterances
-    # - giscus
+    - giscus
+#    - utterances
 #    - waline
 
 # github_issues:
@@ -298,23 +298,39 @@ comment:
 #   username: misaka-clover
 #   repository: misaka-clover.github.io
 
-utterances:
+giscus:
   enable: true
   repo: misaka-clover/misaka-clover.github.io
-  issue-term: pathname
-  # label: comment
-  theme: github-light
-
-giscus:
-  enable: false
-  repo:
-  repo-id:
-  category:
-  category-id:
+  repo-id: MDEwOlJlcG9zaXRvcnkyODk0NzI1MzM=
+  category: Announcements
+  category-id: DIC_kwDOEUEAFc4CU_3i
   mapping: pathname
   reactions-enabled: 1
   emit-metadata: 0
   theme: light
+
+# <script src="https://giscus.app/client.js"
+#         data-repo="misaka-clover/misaka-clover.github.io"
+#         data-repo-id="MDEwOlJlcG9zaXRvcnkyODk0NzI1MzM="
+#         data-category="Announcements"
+#         data-category-id="DIC_kwDOEUEAFc4CU_3i"
+#         data-mapping="pathname"
+#         data-strict="0"
+#         data-reactions-enabled="1"
+#         data-emit-metadata="0"
+#         data-input-position="top"
+#         data-theme="preferred_color_scheme"
+#         data-lang="zh-CN"
+#         crossorigin="anonymous"
+#         async>
+# </script>
+
+# utterances:
+#   enable: true
+#   repo: misaka-clover/misaka-clover.github.io
+#   issue-term: pathname
+#   # label: comment
+#   theme: github-light
 
 # 不再使用这个评论系统
 # waline:
