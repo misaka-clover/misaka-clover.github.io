@@ -26,7 +26,8 @@ updated_option: 'mtime'
 
 # Pagination
 ## Set per_page to 0 to disable pagination
-per_page: 50
+# 好像没起作用……
+per_page: 30
 pagination_dir: page
 
 # URL
@@ -84,12 +85,12 @@ cursor:
 
 ########################################################################
 
-# 侧栏
-# 标签
-sidebar:
-  tagcloud:
-    enable: false
-    amount: 10
+# # 侧栏
+# # 标签
+# sidebar:
+#   tagcloud:
+#     enable: true
+#     amount: 10
 
 # 头像图片配置
 avatar:
@@ -134,9 +135,9 @@ pages:
 #    icon: ri:women-line
 #    color: hotpink
 
-# 女友
-girls:
-  enable: false
+# # 女友
+# girls:
+#   enable: false
 
 
 # 侧栏社交图标
@@ -242,7 +243,7 @@ footer:
   # 自定义文本
   # Any custom text can be defined here.
   # custom_text: Hosted by <a href="https://pages.coding.me" rel="noopener" target="_blank">Coding Pages</a>
-  custom_text: '博客版本：Version.1.4.0 | 
+  custom_text: '博客版本：Version.1.4.1 | 
                 <a href="https://icp.gov.moe" target="_blank" style="color:inherit"><img src="/images/moeicp.png" width="25" style="vertical-align:middle">萌ICP备 </a><a href="https://icp.gov.moe/?keyword=20232952" target="_blank" style="color:inherit"> 20232952 号</a>
                 '
 
@@ -283,7 +284,7 @@ comment:
     - 如果您有任何关于博客内容的相关讨论，欢迎前往 <a href="https://github.com/misaka-clover/misaka-clover.github.io/discussions" target="_blank">GitHub Discussions</a> 与我交流。
   candidates:
     - utterances
-    - giscus
+    # - giscus
 #    - waline
 
 # github_issues:
@@ -336,11 +337,11 @@ giscus:
 
 # 搜索
 # 搜索的背景
-search:
-  modal: true
-  bg_image: /images/background.jpg
-  dark_bg_image: /images/galaxy.jpg
-  placeholder: 今天想看看什么呢
+# search:
+#   modal: true
+#   bg_image: /images/background.jpg
+#   dark_bg_image: /images/galaxy.jpg
+#   placeholder: 今天想看看什么呢
 
 engine_search:
   enable: true
@@ -349,6 +350,12 @@ engine_search:
   href: "https://www.bing.com/search?q=site:"
   domain: mskclover.com
 
+# # search
+# # https://github.com/next-theme/hexo-generator-searchdb
+# # 暂时还是不用内置的搜索，依托 Bing 就好
+# local_search:
+#   enable: true
+
 ########################################################################
 
 #这是谷歌分析（Google Analytics）
@@ -356,6 +363,12 @@ google_analytics:
   enable: true
   #id: UA-176081910-1
   id: 358686756
+
+# # 开启了 Google SEO 后需要跳过渲染这些文件
+# # 没找到文件
+# skip_render:
+#   - README.md
+#   - google_xxx.html
 
 ########################################################################
 

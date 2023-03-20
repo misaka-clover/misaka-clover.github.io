@@ -6,7 +6,7 @@ description: this is a test
 tags: 
     - test
 categories:
-    - 不知道应该怎么分类就放这个地方好了
+    - 不知道该怎么分类就放这个地方好了
 comment: true
 ---
 

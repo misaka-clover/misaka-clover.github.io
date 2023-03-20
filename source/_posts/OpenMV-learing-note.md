@@ -9,7 +9,7 @@ tags:
     - 博文
     - 电赛
     - OpenMV
-categories: 叶子的粗浅知识
+categories: 叶子的小知识
 comment: true
 katex: true
 keywords: OpenMV,电子设计大赛,电赛,国赛,教程,机器视觉

@@ -8,7 +8,7 @@ tags:
     - QT
     - 笔记
     - 知识
-categories: 叶子的粗浅知识
+categories: 叶子的小知识
 comment: true
 keywords: QT,学习,笔记
 ---

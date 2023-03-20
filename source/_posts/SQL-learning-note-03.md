@@ -9,7 +9,7 @@ tags:
     - 笔记
     - 知识
     - 《SQL基础教程》
-categories: 叶子的粗浅知识
+categories: 叶子的小知识
 comment: true
 keywords: SQL,学习,笔记,《SQL基础教程》
 ---
