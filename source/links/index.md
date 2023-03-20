@@ -42,14 +42,14 @@ links:
     desc: 偏理的工科生
     color: "#FF1493"
     email:
-  - url: https://beautyyu.one/
+  - url: https://blog.beautyyu.one/
     avatar: /images/avatar/BeautyYu.jpg
     name: BeautyYu言醴
     blog: 银河美术馆
     desc: 热爱ACGN和技术的学生;
     color: "#CCCCCC"
     email: 
-  - url: https://www.xiaoniuhululu.com
+  - url: https://www.xiaoniuhululu.com/
     avatar: /images/avatar/xiaoniuhululu.jpg
     name: 小牛呼噜噜
     blog: 小牛呼噜噜
@@ -63,6 +63,13 @@ links:
     desc: Great men are not born great, they grow great.
     color: "#696969"
     email: 
+  - url: https://dmesg.app/
+    avatar: /images/avatar/BnnyThinks.jpg
+    name: Benny小土豆
+    blog: 土豆不好吃
+    desc: 人们都希望被别人需要 却往往事与愿违
+    color: "#3CB371"
+    email: benny.think@gmail.com
 # - url: 
 #   avatar: https://misaka-9936.github.io/images/avatar.jpg
 #   name: 
