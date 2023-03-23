@@ -157,8 +157,8 @@ social:
     icon: ri:mail-line
     color: "#8E71C1"
   - name: Travelling
-    link: https://travellings.link
-    icon: ri:send-plane-2-line
+    link: https://www.travellings.cn/go.html
+    icon: ri:train-fill
     color: black
 
 # RSS 配置
@@ -193,25 +193,26 @@ creative_commons:
 
 ########################################################################
 
-# # 打赏
-# reward:
-#   enable: false
-#   icon: ri:hand-coin-line
-#   comment: I'm so cute. Please give me money.
-#   # url: https://github.com/YunYouJun/yunyoujun.github.io/issues/96
-#   methods:
-#     - name: 支付宝
-#       path: 
-#       color: "#00A3EE"
-#       icon: ri:alipay-line
-#     - name: QQ 支付
-#       path: 
-#       color: "#12B7F5"
-#       icon: ri:qq-line
-#     - name: 微信支付
-#       path: 
-#       color: "#2DC100"
-#       icon: ri:wechat-pay-line
+# 打赏
+reward:
+  enable: true
+  icon: ri:hand-coin-line
+  # 不需要打赏，就把这个位置做成了留言
+  comment: 喜欢的话，就留下一条评论吧~
+  # url: https://github.com/YunYouJun/yunyoujun.github.io/issues/96
+  methods:
+    - name: 支付宝
+      path: 
+      color: "#00A3EE"
+      icon: ri:alipay-line
+    - name: QQ 支付
+      path: 
+      color: "#12B7F5"
+      icon: ri:qq-line
+    - name: 微信支付
+      path: 
+      color: "#2DC100"
+      icon: ri:wechat-pay-line
 
 ########################################################################
 
@@ -243,7 +244,7 @@ footer:
   # 自定义文本
   # Any custom text can be defined here.
   # custom_text: Hosted by <a href="https://pages.coding.me" rel="noopener" target="_blank">Coding Pages</a>
-  custom_text: '博客版本：Version.1.4.3 | 
+  custom_text: '博客版本：Version.1.4.4 | 
                 <a href="https://icp.gov.moe" target="_blank" style="color:inherit"><img src="/images/moeicp.png" width="25" style="vertical-align:middle">萌ICP备 </a><a href="https://icp.gov.moe/?keyword=20232952" target="_blank" style="color:inherit"> 20232952 号</a>
                 '
 
@@ -258,14 +259,19 @@ footer:
 ########################################################################
 
 # Say
+# say:
+#   enable: true
+#   api: https://cdn.jsdelivr.net/gh/ElpsyCN/say@gh-pages/sentences.json
+#   src: /js/say.js
+#   # https://developer.hitokoto.cn/sentence/
+#   hitokoto:
+#     enable: true
+#     api: https://v1.hitokoto.cn
 say:
   enable: true
-  api: https://cdn.jsdelivr.net/gh/ElpsyCN/say@gh-pages/sentences.json
-  src: /js/say.js
-  # https://developer.hitokoto.cn/sentence/
+  api: /data/sentences.json
   hitokoto:
-    enable: true
-    api: https://v1.hitokoto.cn
+    enable: false
 
 ########################################################################
 
@@ -358,6 +364,10 @@ giscus:
 #   bg_image: /images/background.jpg
 #   dark_bg_image: /images/galaxy.jpg
 #   placeholder: 今天想看看什么呢
+
+# Medium Zoom 放大预览图片
+# 点击文章图片，放大预览。
+medium_zoom: true
 
 engine_search:
   enable: true

@@ -2,8 +2,8 @@
 layout: links
 title: 我的小伙伴们
 date: 2020-08-24 10:14:06
-update: 2022-04-03 22:54:08
-keywords: 链接
+# update: 2022-04-03 22:54:08
+keywords: 链接, 友链
 description: 叶子的小伙伴们
 comment: true
 links: 
@@ -33,7 +33,7 @@ links:
   #   email: 
 
   - url: https://cwksc.github.io/
-    avatar: /images/avatar/CWKSC.jpg
+    avatar: /images/avatar/CWKSC.JPG
     name: CWKSC
     blog: CWKSC's Blog
     desc: 技术文大佬喔(´・×・｀) 
@@ -81,11 +81,19 @@ links:
     email: benny.think@gmail.com
 
   - url: https://me.pennp.com/
-    avatar: /images/avatar/images/pennp.jpg
+    avatar: /images/avatar/pennp.jpg
     name: Patrick
     blog: Patrick's trip
     desc: a friend in reality
     color: "#DB7093"
+    email: 
+
+  - url: https://catcat.blog
+    avatar: /images/avatar/maomao.jpg
+    name: 猫猫
+    blog: 猫猫博客
+    desc: 猫猫摸鱼
+    color: "#2F4F4F"
     email: 
 
 # - url: 
@@ -95,4 +103,7 @@ links:
 #   desc: 
 #   color: 
 #   email: 
+
+# placeholder: 还没想好说些什么 # 默认对友链的描述
+# tip: 友链加载中～如失败请刷新重试～
 ---
