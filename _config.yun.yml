@@ -66,7 +66,7 @@ banner:
 
 # 首页的公告
 notice:
-    enable: true
+    enable: false
     content: 欢迎来到我的花园，请随意参观！
 
 # 网页的背景图片
