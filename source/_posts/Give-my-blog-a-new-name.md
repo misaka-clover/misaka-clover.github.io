@@ -1,13 +1,13 @@
 ---
 title: 给博客一个新名字！
 date: 2022-03-29 17:25:34
-updated: 2022-04-02 15:59:52
+# updated: 2022-04-02 15:59:52
 description: 域名购买及初始配置教程
 tags: 
     - 域名
     - 博文
     - 博客
-categories: 叶子的经历
+categories: 叶子的碎碎念
 comment: true
 keywords: 域名,域名购买,com,GitHub Pages,域名解析
 ---
