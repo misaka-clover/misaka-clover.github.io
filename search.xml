@@ -189,132 +189,6 @@
       </tags>
   </entry>
   <entry>
-    <title>给博客一个新名字！</title>
-    <url>/2022/03/29/Give-my-blog-a-new-name/</url>
-    <content><![CDATA[<p><img src="/images/Give-my-blog-a-new-name/cover.JPG" alt="cover" loading="lazy"><em>封面图来自国人画师 <a href="https://www.pixiv.net/users/4741933">Qswan</a>，大家可以去Pixiv上关注他喔！</em></p>
-<blockquote>
-<p>之所以选择独立域名，不仅仅是为了逼格… 可玩性比较高，几乎没有限制。咱可以玩玩子域名，哪天搞出来一个 love.bennythink.com 表白多好玩嘛。</p>
-<p>——<a href="https://dmesg.app/reason-of-this-blog.html">《为什么我要写独立域名的博客》</a>，<strong>Benny 小土豆</strong></p>
-</blockquote>
-<span id="more"></span>
-
-<h2 id="TL-DR"><a href="#TL-DR" class="headerlink" title="TL;DR"></a>TL;DR</h2><p>这里是太长不看版：</p>
-<p>在咕咕咕整整一年半以后，我终于给了博客一个真正的名字，写下了一些杂文，顺便也整理了一份相关的教程，希望能为还没有购买过域名的同学提供帮助，作一点小小的参考。</p>
-<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>很长时间都没有写博客了，说起来惭愧。其实这段时间里倒是写了好几篇文章，但有时事情变得太快，在文章写完之前那些事情就已经变得面目全非了；或者写的内容都是比较私密的事情，只是给以后的自己一个人看，也不好意思发出来；又或者某天晚上在电脑前洋洋洒洒地写了一大篇，后来却一直没写完，最后它们就坑掉了。</p>
-<p>额…… 好吧，我承认，上面的文字全都是我后来找的借口，我还是太懒了，另外还患有怕麻烦与拖延症晚期的病：比如博客的域名，来来回回十八个月，我一直都没有去管。</p>
-<p><img src="/images/Give-my-blog-a-new-name/mess_around.jpg" alt="mess_around" loading="lazy"><em>I have messed around that time.</em></p>
-<p>而现在，我又想要重新开始写些什么，就计划着来给博客除除草。但在做这些事情之前，为了让她能体面地与其他的博客站在一起，我想要先送给她一个新的名字：一个简短的、富有个性的，以及不再依附于 GitHub&#x2F;Microsoft 的域名。</p>
-<h2 id="域名的选择"><a href="#域名的选择" class="headerlink" title="域名的选择"></a>域名的选择</h2><p><a href="https://mskclover.com/"><em>mskclover.com</em></a>，大家在浏览器的地址栏也看到了，这就是我的新域名。</p>
-<p>其实，最初我也没想到会选择这个名字。等到真正开始做选择的时候，我找到了一年半前存在 One Tab 最底部的网页们，将它们在新窗口打开。当时围绕着 clover 这个网名，我对域名有好多种“绝妙”的想法，可在域名托管商处查询之后，我的心态出现了一丝微妙的变化：为什么那些好的域名在上个世纪就都没了？ <spam class="heimu"><del>（因为生的太晚了）</del></spam> 这下，就只好再想一想，如何在那些被挑剩下的域名中，找到我眼中的漏网之鱼。</p>
-<p>不过，在接着写下去之前，不如让我们先来看看，一个好域名需要具备哪些要素呢？</p>
-<h3 id="如何选择好域名"><a href="#如何选择好域名" class="headerlink" title="如何选择好域名"></a>如何选择好域名</h3><p>现在我们访问一个网站可以有很多种方式：通过书签、历史记录、或者搜索引擎，它们的本质都是使人们能够快速、方便地访问互联网上的某一个 IP 地址。为了方便记忆，IETF 在 1983 年发布了 RFC 882 和 RFC 883，开始以规律的一串字符作为域名，去指代那些没有含义的数字，这就是域名。</p>
-<p>所以，容易被人轻易地记住，是一个优秀域名的必要条件。在2013年，一家新英格兰的电商公司 BOSTON WEB 在他们的 Blog 上，发表了一篇名为 <a href="https://www.getfoundquick.com/5-characteristics-for-having-a-good-domain-name/"><em>5 characteristics for having a good domain name</em></a> 的博文，作者 Giovanna DaPrato 在文中说明了一个好域名的五点特征：</p>
-<blockquote>
-<ol>
-<li>Keep it short &amp; sweet.</li>
-<li>Use easy spelling.</li>
-<li>Have a .com extension.</li>
-<li>Get descriptive.</li>
-<li>Get rid of hyphens and&#x2F;or numbers.</li>
-</ol>
-</blockquote>
-<p>下面我就谈一谈我的理解叭：</p>
-<h4 id="简短又好听-amp-拼写简单-amp-具有描述性"><a href="#简短又好听-amp-拼写简单-amp-具有描述性" class="headerlink" title="简短又好听 &amp; 拼写简单 &amp; 具有描述性"></a>简短又好听 &amp; 拼写简单 &amp; 具有描述性</h4><p>大家都喜欢简短的域名，因为它们总能够能被人轻易记住。不仅在选择域名的时候是这样，在选择公司的热线时也同样如此：</p>
-<p>比如，大家常常津津乐道于美国苹果热线的号码是 1-800-692-7753，只需记住 1-800-MY-APPLE 就可以了；同理，百思买的热线也只需拨 1-888-BEST-BUY 即可；这样的电话号码几乎已经是欧美大公司们的标准配置了。</p>
-<p>所以，域名最好能代表着某种清晰的含义。在我们自己做选择的时候，也要尽量使域名少于 10 个字符。虽然域名中“出现某些具有想象力的词会很有趣”，但一定得避免使用生僻的单词，那样的域名易读性很低，难以通过后文提到的“无线电测试”。并且在保持简短的同时，域名也需要使人一眼就能分辨网站的类型。由于大部分的 <code>“.com”</code> 的短域名都被注册了，所以或许也可以考虑使用其他域名作为结尾，比如<code>“.online”</code>、<code>“.store”</code>、<code>“.ai”</code>和<code>“.tech”</code>等。</p>
-<p>不过，个人博客就不需要考虑这个了，域名当然是越有个性越好啊（</p>
-<h4 id="使用-com-顶级域名"><a href="#使用-com-顶级域名" class="headerlink" title="使用 .com 顶级域名"></a>使用 .com 顶级域名</h4><p>如果大家有兴趣去谷歌 <code>“.com”</code>，除了排在前列的维基百科和域名托管商，接下来一定是大公司们的官网，比如 Apple、Google 和 Amazon。因为在一开始，域名就是为商业、组织和政府网站的用途设计的。最初创建七个通用顶级域名时，甚至还没有 <a href="https://www.icann.org/">ICANN</a> 呢！</p>
-<p><img src="/images/Give-my-blog-a-new-name/domain.jpg" alt="domain" loading="lazy"><em>英文维基百科的<a href="https://en.wikipedia.org/wiki/List_of_Internet_top-level_domains">列表</a></em></p>
-<p>可以看到，最初设计时 <code>“.com”</code> 来自于“商业”的英文 commercial，在随之而来的互联网商业化与公众化的时期，它也顺理成章地成为了数量最多的顶级域。后来在取消注册限制后，<code>“.com”</code> 原本的目的已经无关紧要了，它已经成为了最主要、也是最为流行的顶级域名。</p>
-<p>所以，人们总是习惯于在域名的最后输入 <code>“.com”</code> ，他们也更倾向于假设即将访问的网站<strong>无论如何</strong>都以 <code>“.com”</code> 结尾。如果没有其他的理由，选择这个域名准没有错（但顶级域名相比之下要贵一些）。</p>
-<p>在搜索引擎时代到来以后，有这样一种观点：非<code>“.com”</code>的域名可能会降低网站的 SEO。但我也看到有谷歌的前员工说这并没有影响。至于究竟如何，谷歌没有说，我也不知道。不过，我也并不关注这方面，毕竟目前还是把博客作为一个花园&#x2F;自留地，还不像其他商业网站一样，想排在搜索引擎第一页。</p>
-<p>另外，我之所以选择 <code>“.com”</code>，只是因为我想给博客一个 <code>“.com”</code> 的域名而已，单纯地想做一根年轻的韭菜罢了（</p>
-<h4 id="避免连字符和-x2F-或数字"><a href="#避免连字符和-x2F-或数字" class="headerlink" title="避免连字符和&#x2F;或数字"></a>避免连字符和&#x2F;或数字</h4><p>在人们还喜欢收听收音机的年代，有一个标准叫做“无线电测试”，它的目的是为了能保证公司的名字能够透过无线电波清楚地传播，并使听众快速地记下，好的域名从一开始就是为了这个目的而生的。</p>
-<p>为了能够易读&#x2F;易于口述，在选择域名的时候，都应该避免出现符号与数字。连字符的出现不仅会使域名变得复杂、难以读出，而且也会让这条网址更像是垃圾网站，因为诈骗网站或是垃圾邮件中出现的域名，几乎都用了好些连字符。使用数字，则会让人难以分辨域名中出现的数字是符号还是单词，比如 example6.com 与 examplesix.com，所以数字一般都建议使用字母拼写。</p>
-<p>不过，以上的特征也并不是绝对的，如果是自己用的，那完全不需要考虑这些，让自己开心就好。</p>
-<h3 id="选择困难症"><a href="#选择困难症" class="headerlink" title="选择困难症"></a>选择困难症</h3><p>众所周知，我患有懒癌与晚期拖延症，而且还是一个选择困难症患者。</p>
-<p>我一直都想将我的网名“clover”放进域名，但由这个词汇组成的短域名都已经没有了。我想着博客的中文名，将花园的单词加了进去：clovergarden.com，一看发现是家日本的园艺公司；那我改改，cloversgarden.com 怎么样？原来是家美国的花卉公司；那 cloverssgarden.com 呢？这个倒是没人注册，可这个域名太长了，而且 ss 也总是让我想到纳粹的党卫军（<em>Schutz Staffel</em>），所以也就不考虑了。</p>
-<p>过了一会儿，我想到之前看过一部番：<em>Violet Evergarden</em>，便输入了cloverevergarden.com，这么长的域名果然没有人会选，整整 16 个字母。后来又想了一下，那减少两个字母呢？clovevergarden.com，也没短多少……</p>
-<p>正巧这时一个学长逛街到我旁边，我便拉着他跟我一起想想，给博客取什么域名比较好。他一看上面的那几个，他也人麻了，就没怎么见到过这么长的域名。他想了一下，说你 GitHub 上不是叫 <em>Misaka_Clover</em> 吗？域名要不叫 mskclover 吧。我听罢，觉得这个选择真不错，msk 是 misaka 发音的几个字母，比较好跟别人描述，这部分也只有 9 个字母，至少在 .com 域里算短的了，于是我就选择了 mskclover.com 作为我的博客域名。</p>
-<h2 id="域名申请及-DNS-解析"><a href="#域名申请及-DNS-解析" class="headerlink" title="域名申请及 DNS 解析"></a>域名申请及 DNS 解析</h2><p>就算拥有了新的域名，在兴奋地告诉大家之前，我们还需要在托管商的后台配置 DNS，将域名解析到我们博客的服务器的 IP 地址上，这样我们的网站才可以被互联网上的小伙伴们访问。那我就趁此机会，把整个流程梳理一下吧。虽然网上也有很多相关的教程，但没准多我的一份，就可能会帮助到更多的人，我顺便还能水一篇博文呢！</p>
-<h3 id="域名购买"><a href="#域名购买" class="headerlink" title="域名购买"></a>域名购买</h3><p>在购买域名前，我们需要先选择一家靠谱的域名托管商：在国际上比较为人熟知的有 <a href="https://www.godaddy.com/">GoDaddy</a> 和 <a href="https://www.namecheap.com/">Namecheap</a> 等，国内则可以选择<a href="https://dnspod.cloud.tencent.com/">腾讯云</a>或者<a href="https://cn.aliyun.com/">阿里云</a>。现在的购买流程早就比较懒人化了，各家公司的服务也大差不差，所以下面我们以 Namecheap 为例，快速地过一下吧：</p>
-<p>首先，到托管商的域名搜索页面，输入心仪的域名：</p>
-<p><img src="/images/Give-my-blog-a-new-name/example_1.jpg" alt="example_1" loading="lazy"><em>选择困难症的噩梦</em></p>
-<p>选择好以后，将域名加入【购物车】，然后单击右下角的【结账】，之后会进入定制选择：</p>
-<p><img src="/images/Give-my-blog-a-new-name/example_2.jpg" alt="example_2" loading="lazy"><em>令人眼花缭乱的界面</em></p>
-<p>如果是第一次购买域名的话，这些都是可以不管的，在取消【自动续费】后，就可以点击【确认订单】进入下一步了：</p>
-<p><img src="/images/Give-my-blog-a-new-name/example_3.jpg" alt="example_3" loading="lazy"><em>订单付款页面</em></p>
-<p>在进入付款页面以后，选择一种方式付款就好。恭喜，从现在开始，你拥有了属于自己的域名啦！</p>
-<h3 id="DNS-解析"><a href="#DNS-解析" class="headerlink" title="DNS 解析"></a>DNS 解析</h3><p>虽然域名此时已经是属于自己的了，但直接去访问域名，大概率是访问不了的，因为此时域名并没有被解析到一个有效的 IP 地址。想让域名能跳转到我们的网站，需要在托管商的后台将域名解析到我们网站的 IP 上。</p>
-<p>由于网站目前是基于 Hexo 的静态博客，服务器还是白嫖的 GitHub（或者巨硬），所以我就以这个配置的过程为例，相信在其他情况下的过程也是非常相似的。</p>
-<p>在账户页面的【域名列表】，我们可以看到刚刚购买的域名已经出现在下面了，然后通过最右侧的【管理】按钮进入后台：</p>
-<p><img src="/images/Give-my-blog-a-new-name/example_4.jpg" alt="example_4" loading="lazy"><em>域名列表</em></p>
-<p>接下来，在【高级 DNS 】选项下，我们在【主机记录】下添加如上几条解析记录。A记录将我们的域名解析到服务器的 IPv4 地址上，而 CNAME 更像是一种“别名”，不受主机的 IP 改变的影响。至于它们的具体区别可以参见 Namecheap 写的这篇 <a href="https://www.namecheap.com/support/knowledgebase/subcategory/2237/host-records-setup/"><em>Host records setup</em></a> 。</p>
-<p><img src="/images/Give-my-blog-a-new-name/example_5.jpg" alt="example_5" loading="lazy"><em>高级 DNS 下的主机记录</em></p>
-<p>其实如果是像我一样白嫖 GitHub 的服务器的话，只需要设置 CNAME 就可以了，GitHub 官方也是<a href="https://docs.github.com/cn/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site#configuring-a-subdomain">这样建议</a>的，这里只是向大家展示一下两种常见的设置。在设置 A 类型时，需要在【值】处填入服务器的 IP 地址，这时只需要简单地 ping 一下自己目前网站的域名就可以了：</p>
-<p><img src="/images/Give-my-blog-a-new-name/example_6.jpg" alt="example_6" loading="lazy"><em>终端界面</em></p>
-<p>以上配置完后，接下来到 GitHub Pages 的页面，在 Custom domain 处填上我们为博客准备的新域名，然后点击保存，等待 DNS 验证成功后就好啦。由于托管商处的 DNS 可能需要十分钟到一小时刷新，所以耐心等待即可。</p>
-<p><img src="/images/Give-my-blog-a-new-name/example_7.jpg" alt="example_7" loading="lazy"><em>GitHub Pages 页面</em></p>
-<p>最后，我强烈建议勾选【Enforce HTTPS】的选项，为自己的博客启用 HTTPs 加密协议，保护自己和访客的冲浪安全。</p>
-<h2 id="最后"><a href="#最后" class="headerlink" title="最后"></a>最后</h2><p>对于互联网而言，我的博客有了新的名字，这一切应该告一段落了。但对于我而言，我才刚刚开始重新写博客，更别说博客框架与主题的版本老旧，需要我再次花时间配置，有可能我做着做着就再次鸽掉了是吧（</p>
-<p>无论如何，感谢你读到这里，期待与你在下一篇博文中再会～</p>
-]]></content>
-      <categories>
-        <category>叶子的碎碎念</category>
-      </categories>
-      <tags>
-        <tag>博文</tag>
-        <tag>域名</tag>
-        <tag>博客</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>【周记】2022-11：初试周记</title>
-    <url>/2023/03/20/2023-03-Week-11/</url>
-    <content><![CDATA[<p><img src="/images/2023-03-Week-11/1100_cover.jpg" alt="1100_cover" loading="lazy"><em>封面图来自上官绯樱（@jokanhiyou），欢迎大家在Twitter上关注她！</em></p>
-<p>前段时间看到好些推油每周都会写些周记，记录日常生活。我其实也一直在记，但多是给自己看的，想了想自己长草多日的博客，还是太惭愧了。所以就想尝试一下，写一些新的周记放在博客上面，以免博客变得微风卷绿浪，草原暗花香。</p>
-<span id="more"></span>
-
-<h3 id="要事"><a href="#要事" class="headerlink" title="要事"></a>要事</h3><h4 id="考试"><a href="#考试" class="headerlink" title="考试"></a>考试</h4><p>这周末因为有两个很重要的考试，所以本周几乎全部的空余时间都在准备这个。</p>
-<h4 id="党支部会"><a href="#党支部会" class="headerlink" title="党支部会"></a>党支部会</h4><p>周一中午的时候，党支部开了今年的第一个党会，学习了讲话，开展了批评与自我批评，课后还完成了书记布置的学习心得，这一切都是那么的<strong>蒸蒸日上</strong>（</p>
-<h4 id="毕设"><a href="#毕设" class="headerlink" title="毕设"></a>毕设</h4><p>周二终于交上了毕设的开题报告，过程还是蛮顺利的，大改和小改了几次就过了。不过现在对这一切基本上还是毫无头绪，不知道接下来应该做什么…… 但愿行到山前必有路吧。</p>
-<p><img src="/images/2023-03-Week-11/1102_baogao.jpg" alt="1102_baogao" loading="lazy"><em>改好的毕设开题报告</em></p>
-<h4 id="博客除草"><a href="#博客除草" class="headerlink" title="博客除草"></a>博客除草</h4><p>马上就到我博客的新域名满一周年了，去年末写完三篇 SQL  博文后，因为忙于考试和秋招，所以就放任博客继续长草了。今年本来也是想写去年的年终总结的，开了个头也再也没有后续。想到我咕了好多事情，真是愧对我在最开始给博客立下的座右铭：<strong>「靡不有初，鲜克有终」</strong>。想再写些东西，正巧收到 Namecheap 发来的域名续费邮件，就想着借着这次机会，重新开始写博客。一打开 Dash 发现我九块钱注册的域名，续费要十六美刀，这哪里是 Cheap，这分明是养猪！</p>
-<p>前段时间看到有推友说 Cloudflare  开始提供域名服务了，所以这些天就把域名转移过来了。域名转移得非常顺利，没有遇到什么阻碍。这边差不多九美刀一年，刚转过来还送一年，感觉非常的良心（所以我也把博客底部的文字改成了「本网站由好人一生平安的 Cloudflare 提供免费的 CDN 加速」。</p>
-<p>并且看到其他有博主使用<a href="https://icp.gov.moe/">萌 ICP</a> 的备案，我今天也整了一个，自己选的<a href="https://icp.gov.moe/?keyword=20232952/">备案号</a>是 20232952，至于什么意思，那我就不知道了（</p>
-<p>然后从这次开始试试写周记，如果效果不错的话，希望能一直写下去～</p>
-<h4 id="彩蛋"><a href="#彩蛋" class="headerlink" title="彩蛋"></a>彩蛋</h4><p>周日晚上，在给了别人别去 Namecheap 购买域名的建议后，收到了来自官方的留言，希望能反馈些意见，我想了想，在表扬官方服务很好之余，还是如实说了续费太贵，而我很穷。</p>
-<p><img src="/images/2023-03-Week-11/1103_feedback.jpg" alt="1103_feedback" loading="lazy"><em>推文意外被 Namecheap 官方回复了</em></p>
-<p>最开始的那个连吐槽都算不上的留言，才隔了几分钟就被官方回复了，很难想象运营人员自搜的强度（</p>
-<h3 id="生活"><a href="#生活" class="headerlink" title="生活"></a>生活</h3><h4 id="生日"><a href="#生日" class="headerlink" title="生日"></a>生日</h4><p>周一晚上的时候，室友过生请客吃饭，我们吃了一家客家餐厅，感觉蛮好吃的，特别是其中的烧腊！可惜这只是属于我个人的喜好，大伙儿票选出最好吃的菜是右边那个：</p>
-<p><img src="/images/2023-03-Week-11/1101_food.jpg" alt="1101_food" loading="lazy"><em>好吃的客家菜</em></p>
-<p>最后大伙儿吃饭都很满意，现在回想起来，好像大家都忘记祝室友生日快乐了（</p>
-<p>后来我们几个凑钱，给寿星买了个跑车的积木 —— 因为寿星刚考过驾照，就想送个这个以表祝福 —— 像乐高那种，但不是乐高，因为太贵了…… </p>
-<h4 id="洗面奶"><a href="#洗面奶" class="headerlink" title="洗面奶"></a>洗面奶</h4><p>最近自己常用的洗面奶用完了，就打开淘宝回顾了一下上次购买的时间，是去年九月初，一算还是用了小半年了。当时买的是100ml装的，因为我的脸常出油，所以每天早晚都会用到。之前中学时用的比较差，上了大学以后蛮注意这方面，所以一直选的都是比较好的洗面奶。刚刚在淘宝上看到它的价格快两百块了，想到自己的账户，不免有些心疼……</p>
-<h3 id="阅读"><a href="#阅读" class="headerlink" title="阅读"></a>阅读</h3><p>这周还是在读<a href="https://book.douban.com/subject/35005083/">《第三帝国的兴亡》</a>和<a href="https://book.douban.com/subject/35303912/">《坠落与重生：9·11的故事》</a>，这两本都已经读了很长时间：前者大概是去年年中开始读的吧，后者大概是去年十一二月开始读的。我每天看书的时间约莫半个小时左右，所以读得很慢；有时也看新闻或者像<a href="https://www.latepost.com/">晚点 Late Post</a> 这样的财经媒体，那天也就没有在看书了。</p>
-<p>这样吧，订个小目标，下周把九幺幺的第十二章和第十三章看完，没准这样更有读书的动力（</p>
-<p>至于前者，我也知道其实它还是与真实的历史有些出入，因为近年来有好些观点被新的研究修正，所以想要了解第三帝国的历史，读前几年出版的<a href="https://book.douban.com/subject/34928222/">第三帝国三部曲</a>或许更好些，但那套书我已经看了大半，还是想要把它看完，有始有终嘛。</p>
-<h3 id="语言"><a href="#语言" class="headerlink" title="语言"></a>语言</h3><p>上周购买了多邻国的家庭会员，因为我发现它终于上线了粤语课程！我在广州生活了这么多年，只能听大概听懂，却不会说什么粤语，实在是有些丢人。这周除了照常背英语单词外，也在坚持学习粤语。感谢我身边的本地土著愿意为我正音，有时我麻烦他们太多，都有些不太好意思了。</p>
-<h3 id="影音"><a href="#影音" class="headerlink" title="影音"></a>影音</h3><p>这周很忙，所以就没有太多了影音活动，只在跑步的时候听了两集播客而已：</p>
-<ul>
-<li>枫言枫语：Vol. 85 科技快乐星球15: 全世界都在玩ChatGPT；</li>
-<li>迪幻腕掰腕 Ep 18：也许是这档播客最后一次聊奥斯卡；</li>
-</ul>
-<p>下周打算把以前下载的纪录片《意志的胜利》看完！</p>
-<hr>
-<p>本周的记述大概就是这样了，我的日子过得还算满意。因为要展示出来的原因，所以在内容上比我自己写的要详细许多。希望下周也能有同样丰富精彩的生活，也希望在未来能不辜负我的座右铭，继续下去，有始有终吧～</p>
-<p>感谢看到这里，我爱大家 —— ❤️来自瓷器</p>
-]]></content>
-      <categories>
-        <category>叶子的周记</category>
-      </categories>
-      <tags>
-        <tag>博文</tag>
-        <tag>周记</tag>
-        <tag>博客除草</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>所有的结束亦是开始</title>
     <url>/2022/12/28/2022-final-summary/</url>
     <content><![CDATA[<p><img src="/images/2022-final-summary/cover.jpg" alt="cover" loading="lazy"></p>
@@ -491,6 +365,132 @@
         <tag>年终总结</tag>
         <tag>博文</tag>
         <tag>叶子的坑</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>【周记】2022-11：初试周记</title>
+    <url>/2023/03/20/2023-03-Week-11/</url>
+    <content><![CDATA[<p><img src="/images/2023-03-Week-11/1100_cover.jpg" alt="1100_cover" loading="lazy"><em>封面图来自上官绯樱（@jokanhiyou），欢迎大家在Twitter上关注她！</em></p>
+<p>前段时间看到好些推油每周都会写些周记，记录日常生活。我其实也一直在记，但多是给自己看的，想了想自己长草多日的博客，还是太惭愧了。所以就想尝试一下，写一些新的周记放在博客上面，以免博客变得微风卷绿浪，草原暗花香。</p>
+<span id="more"></span>
+
+<h3 id="要事"><a href="#要事" class="headerlink" title="要事"></a>要事</h3><h4 id="考试"><a href="#考试" class="headerlink" title="考试"></a>考试</h4><p>这周末因为有两个很重要的考试，所以本周几乎全部的空余时间都在准备这个。</p>
+<h4 id="党支部会"><a href="#党支部会" class="headerlink" title="党支部会"></a>党支部会</h4><p>周一中午的时候，党支部开了今年的第一个党会，学习了讲话，开展了批评与自我批评，课后还完成了书记布置的学习心得，这一切都是那么的<strong>蒸蒸日上</strong>（</p>
+<h4 id="毕设"><a href="#毕设" class="headerlink" title="毕设"></a>毕设</h4><p>周二终于交上了毕设的开题报告，过程还是蛮顺利的，大改和小改了几次就过了。不过现在对这一切基本上还是毫无头绪，不知道接下来应该做什么…… 但愿行到山前必有路吧。</p>
+<p><img src="/images/2023-03-Week-11/1102_baogao.jpg" alt="1102_baogao" loading="lazy"><em>改好的毕设开题报告</em></p>
+<h4 id="博客除草"><a href="#博客除草" class="headerlink" title="博客除草"></a>博客除草</h4><p>马上就到我博客的新域名满一周年了，去年末写完三篇 SQL  博文后，因为忙于考试和秋招，所以就放任博客继续长草了。今年本来也是想写去年的年终总结的，开了个头也再也没有后续。想到我咕了好多事情，真是愧对我在最开始给博客立下的座右铭：<strong>「靡不有初，鲜克有终」</strong>。想再写些东西，正巧收到 Namecheap 发来的域名续费邮件，就想着借着这次机会，重新开始写博客。一打开 Dash 发现我九块钱注册的域名，续费要十六美刀，这哪里是 Cheap，这分明是养猪！</p>
+<p>前段时间看到有推友说 Cloudflare  开始提供域名服务了，所以这些天就把域名转移过来了。域名转移得非常顺利，没有遇到什么阻碍。这边差不多九美刀一年，刚转过来还送一年，感觉非常的良心（所以我也把博客底部的文字改成了「本网站由好人一生平安的 Cloudflare 提供免费的 CDN 加速」。</p>
+<p>并且看到其他有博主使用<a href="https://icp.gov.moe/">萌 ICP</a> 的备案，我今天也整了一个，自己选的<a href="https://icp.gov.moe/?keyword=20232952/">备案号</a>是 20232952，至于什么意思，那我就不知道了（</p>
+<p>然后从这次开始试试写周记，如果效果不错的话，希望能一直写下去～</p>
+<h4 id="彩蛋"><a href="#彩蛋" class="headerlink" title="彩蛋"></a>彩蛋</h4><p>周日晚上，在给了别人别去 Namecheap 购买域名的建议后，收到了来自官方的留言，希望能反馈些意见，我想了想，在表扬官方服务很好之余，还是如实说了续费太贵，而我很穷。</p>
+<p><img src="/images/2023-03-Week-11/1103_feedback.jpg" alt="1103_feedback" loading="lazy"><em>推文意外被 Namecheap 官方回复了</em></p>
+<p>最开始的那个连吐槽都算不上的留言，才隔了几分钟就被官方回复了，很难想象运营人员自搜的强度（</p>
+<h3 id="生活"><a href="#生活" class="headerlink" title="生活"></a>生活</h3><h4 id="生日"><a href="#生日" class="headerlink" title="生日"></a>生日</h4><p>周一晚上的时候，室友过生请客吃饭，我们吃了一家客家餐厅，感觉蛮好吃的，特别是其中的烧腊！可惜这只是属于我个人的喜好，大伙儿票选出最好吃的菜是右边那个：</p>
+<p><img src="/images/2023-03-Week-11/1101_food.jpg" alt="1101_food" loading="lazy"><em>好吃的客家菜</em></p>
+<p>最后大伙儿吃饭都很满意，现在回想起来，好像大家都忘记祝室友生日快乐了（</p>
+<p>后来我们几个凑钱，给寿星买了个跑车的积木 —— 因为寿星刚考过驾照，就想送个这个以表祝福 —— 像乐高那种，但不是乐高，因为太贵了…… </p>
+<h4 id="洗面奶"><a href="#洗面奶" class="headerlink" title="洗面奶"></a>洗面奶</h4><p>最近自己常用的洗面奶用完了，就打开淘宝回顾了一下上次购买的时间，是去年九月初，一算还是用了小半年了。当时买的是100ml装的，因为我的脸常出油，所以每天早晚都会用到。之前中学时用的比较差，上了大学以后蛮注意这方面，所以一直选的都是比较好的洗面奶。刚刚在淘宝上看到它的价格快两百块了，想到自己的账户，不免有些心疼……</p>
+<h3 id="阅读"><a href="#阅读" class="headerlink" title="阅读"></a>阅读</h3><p>这周还是在读<a href="https://book.douban.com/subject/35005083/">《第三帝国的兴亡》</a>和<a href="https://book.douban.com/subject/35303912/">《坠落与重生：9·11的故事》</a>，这两本都已经读了很长时间：前者大概是去年年中开始读的吧，后者大概是去年十一二月开始读的。我每天看书的时间约莫半个小时左右，所以读得很慢；有时也看新闻或者像<a href="https://www.latepost.com/">晚点 Late Post</a> 这样的财经媒体，那天也就没有在看书了。</p>
+<p>这样吧，订个小目标，下周把九幺幺的第十二章和第十三章看完，没准这样更有读书的动力（</p>
+<p>至于前者，我也知道其实它还是与真实的历史有些出入，因为近年来有好些观点被新的研究修正，所以想要了解第三帝国的历史，读前几年出版的<a href="https://book.douban.com/subject/34928222/">第三帝国三部曲</a>或许更好些，但那套书我已经看了大半，还是想要把它看完，有始有终嘛。</p>
+<h3 id="语言"><a href="#语言" class="headerlink" title="语言"></a>语言</h3><p>上周购买了多邻国的家庭会员，因为我发现它终于上线了粤语课程！我在广州生活了这么多年，只能听大概听懂，却不会说什么粤语，实在是有些丢人。这周除了照常背英语单词外，也在坚持学习粤语。感谢我身边的本地土著愿意为我正音，有时我麻烦他们太多，都有些不太好意思了。</p>
+<h3 id="影音"><a href="#影音" class="headerlink" title="影音"></a>影音</h3><p>这周很忙，所以就没有太多了影音活动，只在跑步的时候听了两集播客而已：</p>
+<ul>
+<li>枫言枫语：Vol. 85 科技快乐星球15: 全世界都在玩ChatGPT；</li>
+<li>迪幻腕掰腕 Ep 18：也许是这档播客最后一次聊奥斯卡；</li>
+</ul>
+<p>下周打算把以前下载的纪录片《意志的胜利》看完！</p>
+<hr>
+<p>本周的记述大概就是这样了，我的日子过得还算满意。因为要展示出来的原因，所以在内容上比我自己写的要详细许多。希望下周也能有同样丰富精彩的生活，也希望在未来能不辜负我的座右铭，继续下去，有始有终吧～</p>
+<p>感谢看到这里，我爱大家 —— ❤️来自瓷器</p>
+]]></content>
+      <categories>
+        <category>叶子的周记</category>
+      </categories>
+      <tags>
+        <tag>博文</tag>
+        <tag>周记</tag>
+        <tag>博客除草</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>给博客一个新名字！</title>
+    <url>/2022/03/29/Give-my-blog-a-new-name/</url>
+    <content><![CDATA[<p><img src="/images/Give-my-blog-a-new-name/cover.JPG" alt="cover" loading="lazy"><em>封面图来自国人画师 <a href="https://www.pixiv.net/users/4741933">Qswan</a>，大家可以去Pixiv上关注他喔！</em></p>
+<blockquote>
+<p>之所以选择独立域名，不仅仅是为了逼格… 可玩性比较高，几乎没有限制。咱可以玩玩子域名，哪天搞出来一个 love.bennythink.com 表白多好玩嘛。</p>
+<p>——<a href="https://dmesg.app/reason-of-this-blog.html">《为什么我要写独立域名的博客》</a>，<strong>Benny 小土豆</strong></p>
+</blockquote>
+<span id="more"></span>
+
+<h2 id="TL-DR"><a href="#TL-DR" class="headerlink" title="TL;DR"></a>TL;DR</h2><p>这里是太长不看版：</p>
+<p>在咕咕咕整整一年半以后，我终于给了博客一个真正的名字，写下了一些杂文，顺便也整理了一份相关的教程，希望能为还没有购买过域名的同学提供帮助，作一点小小的参考。</p>
+<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>很长时间都没有写博客了，说起来惭愧。其实这段时间里倒是写了好几篇文章，但有时事情变得太快，在文章写完之前那些事情就已经变得面目全非了；或者写的内容都是比较私密的事情，只是给以后的自己一个人看，也不好意思发出来；又或者某天晚上在电脑前洋洋洒洒地写了一大篇，后来却一直没写完，最后它们就坑掉了。</p>
+<p>额…… 好吧，我承认，上面的文字全都是我后来找的借口，我还是太懒了，另外还患有怕麻烦与拖延症晚期的病：比如博客的域名，来来回回十八个月，我一直都没有去管。</p>
+<p><img src="/images/Give-my-blog-a-new-name/mess_around.jpg" alt="mess_around" loading="lazy"><em>I have messed around that time.</em></p>
+<p>而现在，我又想要重新开始写些什么，就计划着来给博客除除草。但在做这些事情之前，为了让她能体面地与其他的博客站在一起，我想要先送给她一个新的名字：一个简短的、富有个性的，以及不再依附于 GitHub&#x2F;Microsoft 的域名。</p>
+<h2 id="域名的选择"><a href="#域名的选择" class="headerlink" title="域名的选择"></a>域名的选择</h2><p><a href="https://mskclover.com/"><em>mskclover.com</em></a>，大家在浏览器的地址栏也看到了，这就是我的新域名。</p>
+<p>其实，最初我也没想到会选择这个名字。等到真正开始做选择的时候，我找到了一年半前存在 One Tab 最底部的网页们，将它们在新窗口打开。当时围绕着 clover 这个网名，我对域名有好多种“绝妙”的想法，可在域名托管商处查询之后，我的心态出现了一丝微妙的变化：为什么那些好的域名在上个世纪就都没了？ <spam class="heimu"><del>（因为生的太晚了）</del></spam> 这下，就只好再想一想，如何在那些被挑剩下的域名中，找到我眼中的漏网之鱼。</p>
+<p>不过，在接着写下去之前，不如让我们先来看看，一个好域名需要具备哪些要素呢？</p>
+<h3 id="如何选择好域名"><a href="#如何选择好域名" class="headerlink" title="如何选择好域名"></a>如何选择好域名</h3><p>现在我们访问一个网站可以有很多种方式：通过书签、历史记录、或者搜索引擎，它们的本质都是使人们能够快速、方便地访问互联网上的某一个 IP 地址。为了方便记忆，IETF 在 1983 年发布了 RFC 882 和 RFC 883，开始以规律的一串字符作为域名，去指代那些没有含义的数字，这就是域名。</p>
+<p>所以，容易被人轻易地记住，是一个优秀域名的必要条件。在2013年，一家新英格兰的电商公司 BOSTON WEB 在他们的 Blog 上，发表了一篇名为 <a href="https://www.getfoundquick.com/5-characteristics-for-having-a-good-domain-name/"><em>5 characteristics for having a good domain name</em></a> 的博文，作者 Giovanna DaPrato 在文中说明了一个好域名的五点特征：</p>
+<blockquote>
+<ol>
+<li>Keep it short &amp; sweet.</li>
+<li>Use easy spelling.</li>
+<li>Have a .com extension.</li>
+<li>Get descriptive.</li>
+<li>Get rid of hyphens and&#x2F;or numbers.</li>
+</ol>
+</blockquote>
+<p>下面我就谈一谈我的理解叭：</p>
+<h4 id="简短又好听-amp-拼写简单-amp-具有描述性"><a href="#简短又好听-amp-拼写简单-amp-具有描述性" class="headerlink" title="简短又好听 &amp; 拼写简单 &amp; 具有描述性"></a>简短又好听 &amp; 拼写简单 &amp; 具有描述性</h4><p>大家都喜欢简短的域名，因为它们总能够能被人轻易记住。不仅在选择域名的时候是这样，在选择公司的热线时也同样如此：</p>
+<p>比如，大家常常津津乐道于美国苹果热线的号码是 1-800-692-7753，只需记住 1-800-MY-APPLE 就可以了；同理，百思买的热线也只需拨 1-888-BEST-BUY 即可；这样的电话号码几乎已经是欧美大公司们的标准配置了。</p>
+<p>所以，域名最好能代表着某种清晰的含义。在我们自己做选择的时候，也要尽量使域名少于 10 个字符。虽然域名中“出现某些具有想象力的词会很有趣”，但一定得避免使用生僻的单词，那样的域名易读性很低，难以通过后文提到的“无线电测试”。并且在保持简短的同时，域名也需要使人一眼就能分辨网站的类型。由于大部分的 <code>“.com”</code> 的短域名都被注册了，所以或许也可以考虑使用其他域名作为结尾，比如<code>“.online”</code>、<code>“.store”</code>、<code>“.ai”</code>和<code>“.tech”</code>等。</p>
+<p>不过，个人博客就不需要考虑这个了，域名当然是越有个性越好啊（</p>
+<h4 id="使用-com-顶级域名"><a href="#使用-com-顶级域名" class="headerlink" title="使用 .com 顶级域名"></a>使用 .com 顶级域名</h4><p>如果大家有兴趣去谷歌 <code>“.com”</code>，除了排在前列的维基百科和域名托管商，接下来一定是大公司们的官网，比如 Apple、Google 和 Amazon。因为在一开始，域名就是为商业、组织和政府网站的用途设计的。最初创建七个通用顶级域名时，甚至还没有 <a href="https://www.icann.org/">ICANN</a> 呢！</p>
+<p><img src="/images/Give-my-blog-a-new-name/domain.jpg" alt="domain" loading="lazy"><em>英文维基百科的<a href="https://en.wikipedia.org/wiki/List_of_Internet_top-level_domains">列表</a></em></p>
+<p>可以看到，最初设计时 <code>“.com”</code> 来自于“商业”的英文 commercial，在随之而来的互联网商业化与公众化的时期，它也顺理成章地成为了数量最多的顶级域。后来在取消注册限制后，<code>“.com”</code> 原本的目的已经无关紧要了，它已经成为了最主要、也是最为流行的顶级域名。</p>
+<p>所以，人们总是习惯于在域名的最后输入 <code>“.com”</code> ，他们也更倾向于假设即将访问的网站<strong>无论如何</strong>都以 <code>“.com”</code> 结尾。如果没有其他的理由，选择这个域名准没有错（但顶级域名相比之下要贵一些）。</p>
+<p>在搜索引擎时代到来以后，有这样一种观点：非<code>“.com”</code>的域名可能会降低网站的 SEO。但我也看到有谷歌的前员工说这并没有影响。至于究竟如何，谷歌没有说，我也不知道。不过，我也并不关注这方面，毕竟目前还是把博客作为一个花园&#x2F;自留地，还不像其他商业网站一样，想排在搜索引擎第一页。</p>
+<p>另外，我之所以选择 <code>“.com”</code>，只是因为我想给博客一个 <code>“.com”</code> 的域名而已，单纯地想做一根年轻的韭菜罢了（</p>
+<h4 id="避免连字符和-x2F-或数字"><a href="#避免连字符和-x2F-或数字" class="headerlink" title="避免连字符和&#x2F;或数字"></a>避免连字符和&#x2F;或数字</h4><p>在人们还喜欢收听收音机的年代，有一个标准叫做“无线电测试”，它的目的是为了能保证公司的名字能够透过无线电波清楚地传播，并使听众快速地记下，好的域名从一开始就是为了这个目的而生的。</p>
+<p>为了能够易读&#x2F;易于口述，在选择域名的时候，都应该避免出现符号与数字。连字符的出现不仅会使域名变得复杂、难以读出，而且也会让这条网址更像是垃圾网站，因为诈骗网站或是垃圾邮件中出现的域名，几乎都用了好些连字符。使用数字，则会让人难以分辨域名中出现的数字是符号还是单词，比如 example6.com 与 examplesix.com，所以数字一般都建议使用字母拼写。</p>
+<p>不过，以上的特征也并不是绝对的，如果是自己用的，那完全不需要考虑这些，让自己开心就好。</p>
+<h3 id="选择困难症"><a href="#选择困难症" class="headerlink" title="选择困难症"></a>选择困难症</h3><p>众所周知，我患有懒癌与晚期拖延症，而且还是一个选择困难症患者。</p>
+<p>我一直都想将我的网名“clover”放进域名，但由这个词汇组成的短域名都已经没有了。我想着博客的中文名，将花园的单词加了进去：clovergarden.com，一看发现是家日本的园艺公司；那我改改，cloversgarden.com 怎么样？原来是家美国的花卉公司；那 cloverssgarden.com 呢？这个倒是没人注册，可这个域名太长了，而且 ss 也总是让我想到纳粹的党卫军（<em>Schutz Staffel</em>），所以也就不考虑了。</p>
+<p>过了一会儿，我想到之前看过一部番：<em>Violet Evergarden</em>，便输入了cloverevergarden.com，这么长的域名果然没有人会选，整整 16 个字母。后来又想了一下，那减少两个字母呢？clovevergarden.com，也没短多少……</p>
+<p>正巧这时一个学长逛街到我旁边，我便拉着他跟我一起想想，给博客取什么域名比较好。他一看上面的那几个，他也人麻了，就没怎么见到过这么长的域名。他想了一下，说你 GitHub 上不是叫 <em>Misaka_Clover</em> 吗？域名要不叫 mskclover 吧。我听罢，觉得这个选择真不错，msk 是 misaka 发音的几个字母，比较好跟别人描述，这部分也只有 9 个字母，至少在 .com 域里算短的了，于是我就选择了 mskclover.com 作为我的博客域名。</p>
+<h2 id="域名申请及-DNS-解析"><a href="#域名申请及-DNS-解析" class="headerlink" title="域名申请及 DNS 解析"></a>域名申请及 DNS 解析</h2><p>就算拥有了新的域名，在兴奋地告诉大家之前，我们还需要在托管商的后台配置 DNS，将域名解析到我们博客的服务器的 IP 地址上，这样我们的网站才可以被互联网上的小伙伴们访问。那我就趁此机会，把整个流程梳理一下吧。虽然网上也有很多相关的教程，但没准多我的一份，就可能会帮助到更多的人，我顺便还能水一篇博文呢！</p>
+<h3 id="域名购买"><a href="#域名购买" class="headerlink" title="域名购买"></a>域名购买</h3><p>在购买域名前，我们需要先选择一家靠谱的域名托管商：在国际上比较为人熟知的有 <a href="https://www.godaddy.com/">GoDaddy</a> 和 <a href="https://www.namecheap.com/">Namecheap</a> 等，国内则可以选择<a href="https://dnspod.cloud.tencent.com/">腾讯云</a>或者<a href="https://cn.aliyun.com/">阿里云</a>。现在的购买流程早就比较懒人化了，各家公司的服务也大差不差，所以下面我们以 Namecheap 为例，快速地过一下吧：</p>
+<p>首先，到托管商的域名搜索页面，输入心仪的域名：</p>
+<p><img src="/images/Give-my-blog-a-new-name/example_1.jpg" alt="example_1" loading="lazy"><em>选择困难症的噩梦</em></p>
+<p>选择好以后，将域名加入【购物车】，然后单击右下角的【结账】，之后会进入定制选择：</p>
+<p><img src="/images/Give-my-blog-a-new-name/example_2.jpg" alt="example_2" loading="lazy"><em>令人眼花缭乱的界面</em></p>
+<p>如果是第一次购买域名的话，这些都是可以不管的，在取消【自动续费】后，就可以点击【确认订单】进入下一步了：</p>
+<p><img src="/images/Give-my-blog-a-new-name/example_3.jpg" alt="example_3" loading="lazy"><em>订单付款页面</em></p>
+<p>在进入付款页面以后，选择一种方式付款就好。恭喜，从现在开始，你拥有了属于自己的域名啦！</p>
+<h3 id="DNS-解析"><a href="#DNS-解析" class="headerlink" title="DNS 解析"></a>DNS 解析</h3><p>虽然域名此时已经是属于自己的了，但直接去访问域名，大概率是访问不了的，因为此时域名并没有被解析到一个有效的 IP 地址。想让域名能跳转到我们的网站，需要在托管商的后台将域名解析到我们网站的 IP 上。</p>
+<p>由于网站目前是基于 Hexo 的静态博客，服务器还是白嫖的 GitHub（或者巨硬），所以我就以这个配置的过程为例，相信在其他情况下的过程也是非常相似的。</p>
+<p>在账户页面的【域名列表】，我们可以看到刚刚购买的域名已经出现在下面了，然后通过最右侧的【管理】按钮进入后台：</p>
+<p><img src="/images/Give-my-blog-a-new-name/example_4.jpg" alt="example_4" loading="lazy"><em>域名列表</em></p>
+<p>接下来，在【高级 DNS 】选项下，我们在【主机记录】下添加如上几条解析记录。A记录将我们的域名解析到服务器的 IPv4 地址上，而 CNAME 更像是一种“别名”，不受主机的 IP 改变的影响。至于它们的具体区别可以参见 Namecheap 写的这篇 <a href="https://www.namecheap.com/support/knowledgebase/subcategory/2237/host-records-setup/"><em>Host records setup</em></a> 。</p>
+<p><img src="/images/Give-my-blog-a-new-name/example_5.jpg" alt="example_5" loading="lazy"><em>高级 DNS 下的主机记录</em></p>
+<p>其实如果是像我一样白嫖 GitHub 的服务器的话，只需要设置 CNAME 就可以了，GitHub 官方也是<a href="https://docs.github.com/cn/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site#configuring-a-subdomain">这样建议</a>的，这里只是向大家展示一下两种常见的设置。在设置 A 类型时，需要在【值】处填入服务器的 IP 地址，这时只需要简单地 ping 一下自己目前网站的域名就可以了：</p>
+<p><img src="/images/Give-my-blog-a-new-name/example_6.jpg" alt="example_6" loading="lazy"><em>终端界面</em></p>
+<p>以上配置完后，接下来到 GitHub Pages 的页面，在 Custom domain 处填上我们为博客准备的新域名，然后点击保存，等待 DNS 验证成功后就好啦。由于托管商处的 DNS 可能需要十分钟到一小时刷新，所以耐心等待即可。</p>
+<p><img src="/images/Give-my-blog-a-new-name/example_7.jpg" alt="example_7" loading="lazy"><em>GitHub Pages 页面</em></p>
+<p>最后，我强烈建议勾选【Enforce HTTPS】的选项，为自己的博客启用 HTTPs 加密协议，保护自己和访客的冲浪安全。</p>
+<h2 id="最后"><a href="#最后" class="headerlink" title="最后"></a>最后</h2><p>对于互联网而言，我的博客有了新的名字，这一切应该告一段落了。但对于我而言，我才刚刚开始重新写博客，更别说博客框架与主题的版本老旧，需要我再次花时间配置，有可能我做着做着就再次鸽掉了是吧（</p>
+<p>无论如何，感谢你读到这里，期待与你在下一篇博文中再会～</p>
+]]></content>
+      <categories>
+        <category>叶子的碎碎念</category>
+      </categories>
+      <tags>
+        <tag>博文</tag>
+        <tag>域名</tag>
+        <tag>博客</tag>
       </tags>
   </entry>
   <entry>
@@ -2420,29 +2420,6 @@ abddc
       </tags>
   </entry>
   <entry>
-    <title>别人为自己做的选择</title>
-    <url>/2021/05/11/choices-made-by-others/</url>
-    <content><![CDATA[<p><img src="/images/choices-made-by-others/cover.jpg" alt="cover" loading="lazy"></p>
-<blockquote>
-<p>选择是自由的，但因为必须要选择，所以也是不自由的。</p>
-</blockquote>
-<span id="more"></span>
-
-<p>刚练字的时候，想到遇到很难做选择的事情时，我习惯性地就想让亲人帮忙做决定。一念至此，突然感到这是一种<strong>不负责任的表现</strong>——当我感到难以做选择的时候，就会去询问别人的“意见”，而后遵循别人的选择。</p>
-<p>这样做的结果就是：如果最后的这种选择导致了bad ending，那我会将原因归咎于他人，以此逃避了<strong>本该我承担的、选择错误的责任</strong>——其实在将选择交给别人做的那一刻开始，我就已经在逃避责任了；而若是促成了好的结果，那我将会更加的没有主见，以后在做其他重要的决断的时候，也会倾向于相信别人的意见，而不相信自己的选择——其实这也是不负责任的表现。</p>
-<p>其实，很多时候我面对一件难以做选择的事情时，借托“我老选择困难症啦”而让他人替自己做决定，想来这只是表面原因而已罢了。我想我真正的目的，其实是为了避免去承担做这个选择的责任——也许我之前从来都没有意识到，或许生物的趋利避害使我这样做？你看，我将原因又推到了其他的因素上，就是不肯承认是我自己的原因，不肯为此负责……</p>
-<p>sigh……今后慢慢注意吧。</p>
-]]></content>
-      <categories>
-        <category>叶子的碎碎念</category>
-      </categories>
-      <tags>
-        <tag>博文</tag>
-        <tag>杂思</tag>
-        <tag>叶子</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>大二前的迷惘，思考，和一点决心</title>
     <url>/2020/09/10/bewilderment-thought-and-a-little-determining/</url>
     <content><![CDATA[<p><img src="/images/bewilderment-thought-and-a-little-determining/circuit-experiment.jpg" alt="第一次电路实验" loading="lazy"><em>我的第一次电路实验</em></p>
@@ -2542,6 +2519,29 @@ abddc
       </categories>
       <tags>
         <tag>杂思</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>别人为自己做的选择</title>
+    <url>/2021/05/11/choices-made-by-others/</url>
+    <content><![CDATA[<p><img src="/images/choices-made-by-others/cover.jpg" alt="cover" loading="lazy"></p>
+<blockquote>
+<p>选择是自由的，但因为必须要选择，所以也是不自由的。</p>
+</blockquote>
+<span id="more"></span>
+
+<p>刚练字的时候，想到遇到很难做选择的事情时，我习惯性地就想让亲人帮忙做决定。一念至此，突然感到这是一种<strong>不负责任的表现</strong>——当我感到难以做选择的时候，就会去询问别人的“意见”，而后遵循别人的选择。</p>
+<p>这样做的结果就是：如果最后的这种选择导致了bad ending，那我会将原因归咎于他人，以此逃避了<strong>本该我承担的、选择错误的责任</strong>——其实在将选择交给别人做的那一刻开始，我就已经在逃避责任了；而若是促成了好的结果，那我将会更加的没有主见，以后在做其他重要的决断的时候，也会倾向于相信别人的意见，而不相信自己的选择——其实这也是不负责任的表现。</p>
+<p>其实，很多时候我面对一件难以做选择的事情时，借托“我老选择困难症啦”而让他人替自己做决定，想来这只是表面原因而已罢了。我想我真正的目的，其实是为了避免去承担做这个选择的责任——也许我之前从来都没有意识到，或许生物的趋利避害使我这样做？你看，我将原因又推到了其他的因素上，就是不肯承认是我自己的原因，不肯为此负责……</p>
+<p>sigh……今后慢慢注意吧。</p>
+]]></content>
+      <categories>
+        <category>叶子的碎碎念</category>
+      </categories>
+      <tags>
+        <tag>博文</tag>
+        <tag>杂思</tag>
+        <tag>叶子</tag>
       </tags>
   </entry>
   <entry>
@@ -3108,50 +3108,44 @@ x_1(t)*x_2(t) &amp;&#x3D; &#123;\int_&#123;-\infty&#125;^&#123;+\infty&#125;&#12
 <h2 id="故事"><a href="#故事" class="headerlink" title="故事"></a>故事</h2><p>故事就如同我上文提到的那样，<strong>非常老套</strong>，又是这种两个人因为某种原因在一起后，经历冒险共同成长，最后相互救赎的故事：</p>
 <p><em>靴猫「普斯 Puss」在又一次冒险中意外丢掉了他的第八条命，医生建议他金盆洗手。被「死神」追逐的靴猫无奈退休，却在因缘际会下发现神器「许愿星」能满足他重获九条命的愿望。于是他重出江湖，与小狗「佩里罗 Perro」和途中遇上的旧友「软爪凯蒂 Kitty」一起前往黑森林。经过了一次又一次的考验，他开始懂得什么才是生命的意义，最后放下了恐惧，击败了死神，最后三人过上了幸福的生活（Happy Ending</em></p>
 <p><img src="/images/film_review_of_puss_in_boots_2/everyone.jpg" alt="everyone" loading="lazy"></p>
-<p>这样的故事在 70 年代初很新颖，但现在已经半个世纪过去了，人们早就有视觉疲劳了。不过对我而言算是<strong>粉丝向</strong>的情怀电影，故事老套也就无所谓了。不过本片的其他地方，比如叙事节奏、分镜与音乐等元素都非常的成熟，还加入了在近几年的《蜘蛛侠：平行宇宙》中令人耳目一新的 2D 打斗风格。只能说不愧是梦工厂出品，即使这些年在与迪士尼的竞争中略显颓势，但其在商业动画电影方面依旧保持着顶尖水平。</p>
-<p>并且在配角的塑造上，梦工厂也非常地用心，无论是金发女孩高尔蒂与三熊一家，还是最开始的医生、月亮妈妈，都有血有肉，也有着较为完善的动机，做事全然不突兀。特别是高尔蒂熊一家，他们家总是一遍又一遍地重复展现出<strong>「just right 恰到好处」</strong>的事理，当我们听到他们每每感叹那<u>「不冷不热的粥，不短不长的勺柄，不软不硬的床」</u>，都忍俊不禁。而当高尔蒂的愿望伤了熊一家人的心后，MAMA Bear 说出的「如果这真的是你想要的，那妈妈会想办法替你完成！」也令人感动。凡此种种，皆塑造了各个角色性格与情感等，使得角色不再仅仅是满足导演或编剧故事的苍白工具人，而是实实在在地有了其深度，这也是与电影故事好坏脱不开关系的因素。</p>
+<p>这样的故事放在 70 年代初很新颖，但现在已经半个世纪过去了，人们早就有视觉疲劳了。不过对我而言算是<strong>粉丝向</strong>的情怀电影，故事老套也就无所谓了。不过本片的其他地方，比如叙事节奏、分镜与音乐等元素都非常的成熟，还加入了近几年在《蜘蛛侠：平行宇宙》中令人耳目一新的 2D 打斗风格。只能说不愧是梦工厂出品，即使这些年在与迪士尼的竞争中略显颓势，但其在商业动画电影方面依旧保持着顶尖水平。</p>
+<p>并且，在配角的塑造上，梦工厂也非常地用心：无论是金发女孩高尔蒂与三熊一家，还是最开始的医生、月亮妈妈，角色都有血有肉，非常丰满立体，也有着较为完善的动机，做事全然不突兀。特别是高尔蒂熊一家，总是一遍又一遍地展现出他们家所秉持的<strong>「just right 恰到好处」</strong>的事理，当我们听到他们每每感叹那<u>「不冷不热的粥，不短不长的勺柄，不软不硬的床」</u>时，都忍俊不禁。而当高尔蒂的愿望伤了熊一家人的心后，MAMA Bear 说出的「如果这真的是你想要的，那妈妈会想办法替你完成！」也十分令人感动。凡此种种，皆塑造了各个角色性格与情感等，使得角色不再仅仅是满足导演或编剧故事的苍白工具人，而是实实在在地有了其深度，这也是对电影故事好坏至关重要的因素。</p>
 <p>靴猫 2 的故事虽然老套，不过令人意外的是，本片所表达的内涵却与以往的合家欢电影不同：借用一个<a href="https://www.zhihu.com/question/561721242/answer/2851174645">知乎的影评</a>：</p>
 <blockquote>
 <p>（很难想象）他们竟然敢往一个合家欢的影片里如此直白地添加「死亡」和「生命的意义」这种沉重的话题，重点是竟然真的成功了。</p>
 <p>我接触过的相似的作品还有《寻梦环游记》，但是他们并没有直接直白地表明死亡本身是个可怕的东西，反而是把死亡浪漫化了，比如说充满骷髅的亡灵世界，无人惦念的亡灵会消散…… 生与死之间的对立紧张感反而没有特别强烈。</p>
 </blockquote>
-<p>本片同时照顾到了大小观众：小朋友们看到了靴猫与同伴富有英雄主义的精彩冒险，而大人们则感受到了电影对「生死意义」的思考，从这方面来看，故事确实能算是相当地成功。</p>
-<h2 id="八卦"><a href="#八卦" class="headerlink" title="八卦"></a>八卦</h2><p>《穿靴子的猫》可以算是《怪物史莱克》系列的番外篇，他们善于借用旧有的童话，去演绎全新的故事。这一作也继承了该系列的风格，我们还是可以在其中看到反经典的传统。有关本片参照了哪些童话故事，请参见<a href="https://movie.douban.com/review/14844904/">《八卦〈穿靴子的猫 2〉人物和背景故事》</a>这篇文章，作者写得非常的全面，我也很喜欢这篇的科普，不过我在下面还是想写一些感兴趣的：在这部电影中，最让我觉得有意思的是金发女孩高尔蒂与三熊一家，和他们借用的童话角色。</p>
+<p>本片同时照顾到了大小观众：小朋友们看到了靴猫与同伴富有英雄主义的精彩冒险，而大人们则感受到了电影对「生死意义」的思考。从这方面来看，电影所呈现出的故事确实可以说是相当地成功。</p>
+<h2 id="八卦"><a href="#八卦" class="headerlink" title="八卦"></a>八卦</h2><p>《穿靴子的猫》可以算是《怪物史莱克》系列的番外篇，系列善于借用旧有的童话，去演绎全新的故事。这一作也继承了该系列的风格，我们还是可以在其中看到反经典的传统。有关本片参照了哪些童话故事，请参见<a href="https://movie.douban.com/review/14844904/">《八卦〈穿靴子的猫 2〉人物和背景故事》</a>这篇文章，这是我很喜欢的一篇科普，作者写得非常的全面，不过我在下文中还是想写一些感兴趣的。而在这部电影中，最让我觉得有意思的是金发女孩高尔蒂与三熊一家，和他们借用的童话角色。</p>
 <p><img src="/images/film_review_of_puss_in_boots_2/goldy_family.jpg" alt="goldy_family" loading="lazy"></p>
-<p>金发女孩一家，也就是高尔蒂（Goldy）与 Papa、Mana 和 Baby 三只「恰到好处」的熊，给我留下了深刻的印象。根据互联网上找到的资料，他们最早出自英国作家罗伯特·索西（Robert Southey）的《金发姑娘和三只熊》（<a href="https://en.wikipedia.org/wiki/Goldilocks_and_the_Three_Bears">Goldilocks and The Three Bears</a>），于 1837 年出版，可以算是在英格兰地区广为流传的童话故事，想看原文的话可以参考<a href="https://americanliterature.com/childrens-stories/goldilocks-and-the-three-bears">这个地方</a>喔！</p>
-<p><img src="/images/film_review_of_puss_in_boots_2/goldy_family_color.jpg" alt="goldy_family_color" loading="lazy"></p>
-<center>之前那张图因为是通缉令，所以显得太肃杀了，这里放一张日常图（</center>
-
-<p>童话里讲述了孤儿高尔蒂，在误闯熊的屋子后，却幸运地被三熊一家收养，成了家庭的一份子，有疼爱她的「熊爸爸 Papa」和「熊妈妈 Mama」，还有经常和她吵架斗嘴的「熊弟弟 baby」。然而，外表看似骠悍野蛮的她，心中却有着不为人知的渴望。她之所以一心一意想要获得许愿星，其实是渴望能拥有一个「正常」的幸福家庭。在她心中一直有着「被抛弃」的遗憾感，希望能回到「正常」的家庭，和自己的亲生父母生活在一起。在电影中高尔蒂经常翻阅一本书，在那本从图书馆中借的童话故事里有一张家庭的插画，而其中的孩子被她画成了自己的样子。</p>
+<p>他们一家，也就是金发女孩高尔蒂（Goldy）、Papa、Mana 和 Baby 三只「恰到好处」的熊组成的家庭，给我留下了深刻的印象。根据互联网上找到的资料，他们最早出自英国作家罗伯特·索西（Robert Southey）于 1837 年出版的短篇《金发姑娘和三只熊》（<a href="https://en.wikipedia.org/wiki/Goldilocks_and_the_Three_Bears">Goldilocks and The Three Bears</a>），可以算是在英格兰地区广为流传的童话故事，想看原文的话可以参考<a href="https://americanliterature.com/childrens-stories/goldilocks-and-the-three-bears">这个地方</a>喔！</p>
+<p><img src="/images/film_review_of_puss_in_boots_2/goldy_family_color.jpg" alt="goldy_family_color" loading="lazy"><em>之前那张图因为是通缉令，所以显得太肃杀了，这里放一张日常图（</em></p>
+<p>童话里讲述了孤儿高尔蒂，在误闯熊的屋子后，却幸运地被三熊一家收养，成了家庭的一份子。这里有疼爱她的「熊爸爸 Papa」和「熊妈妈 Mama」，还有经常和她吵架斗嘴的「熊弟弟 baby」。然而，外表看似骠悍野蛮的她，心中却有着不为人知的渴望。在电影中提到过，她在童年时经常翻阅一本书，在那本从图书馆中借来的童话书里有一张家庭和睦的插画，而其中的孩子被高尔蒂画成了她自己的样子。她之所以一心一意想要获得许愿星，其实是因为在她心中一直有着「被抛弃」的遗憾感，渴望能回到「正常」的家庭，和自己的亲生父母生活在一起。</p>
 <p><img src="/images/film_review_of_puss_in_boots_2/galdysdraw.jpg" alt="galdysdraw" loading="lazy"></p>
-<p>还有一个小彩蛋，这本童话扉页上的借书单上露出了五条记录，除了金发女孩高尔蒂的三次借阅之外，还有「汉索尔 Hansel」和「格雷特 Gretel」的名字，他们是《糖果屋》中的男女主，被父母抛弃在了森林里，从中也可以看出导演对高尔蒂孤儿身份的暗示。</p>
+<p>还有一个小彩蛋，这本童话书扉页上的借书单上露出了五条记录，除了金发女孩高尔蒂的三次借阅之外，还有「汉索尔 Hansel」和「格雷特 Gretel」的名字，他们是《糖果屋》中的男女主，也被父母抛弃在了森林里，从中也可以看出导演对高尔蒂孤儿身份的暗示。</p>
 <p><img src="/images/film_review_of_puss_in_boots_2/loanform.jpg" alt="loanform" loading="lazy"></p>
-<p>在熊妈妈得知女儿心中真实的渴望后，她的内心是很受伤的。因为一直以来，她总是将高尔蒂视如己出，把她当成亲生女儿在疼爱。对熊妈妈来说，虽然难过，但她更在乎的仍是女儿高尔蒂的感受。对她来说，哪怕没有血缘关系，只要真心以待，那就是家人般的存在。正如上文提到的，熊妈妈对高尔蒂说：</p>
+<p>在熊妈妈得知女儿心中真实的渴望后，她的内心非常受伤。因为一直以来，她总是将高尔蒂视如己出，把她当成亲生女儿在疼爱。对熊妈妈来说，虽然难过，但她更在乎的却仍是女儿高尔蒂的感受。对她来说，哪怕没有血缘关系，只要真心以待，那就是家人般的存在。正如上文提到的，熊妈妈对高尔蒂说：</p>
 <blockquote>
 <p>如果这真的是你想要的，那妈妈会想办法替你完成！</p>
 </blockquote>
-<p>三熊最后放下内心的失落，为了高尔蒂的愿望，拼命地抢夺许愿星地地图。高尔蒂在最后为了救下熊弟弟，放弃了唾手可得的许愿星图，与三熊团圆在了一起。其实在这个时候，高尔蒂也明白了她的愿望早已实现，她早就拥有了心目中渴望的家庭。</p>
-<p><img src="/images/film_review_of_puss_in_boots_2/perro.jpg" alt="perro" loading="lazy"></p>
-<center>谁能拒绝小佩趴在你的身上呢？</center>
-
-<p>当然，除了他们一家外，小狗「佩里罗 Perro」也是非常有意思，也很萌、很重要的角色，不过已经有很多的人在讨论他了，并且我的感受与大家也基本上差不多，所以就不再赘述啦。</p>
-<h2 id="内核"><a href="#内核" class="headerlink" title="内核"></a>内核</h2><p>最后，就到了我们电影最重要的部份：靴猫与死神的纠缠。这一部分贯穿了整个电影，也是推动故事向前发展的动力，并让故事在靴猫与死神的最终决斗时达到高潮，这也是我认为本片故事节奏优秀的原因之一。</p>
+<p>三熊放下内心的失落，为了高尔蒂的愿望，与她一起去争夺许愿星的地图。在最后关头，高尔蒂为了救下熊弟弟，放弃了唾手可得的许愿星图，在故事结束的时候与三熊团圆在了一起。其实在这个时候，高尔蒂也明白了她的愿望早已实现，她早就拥有了心目中所渴望的家庭。</p>
+<p><img src="/images/film_review_of_puss_in_boots_2/perro.jpg" alt="perro" loading="lazy"><em>谁能拒绝小佩趴在你的身上呢？</em></p>
+<p>当然，除了他们一家外，小狗「佩里罗 Perro」也是非常有意思，他也是一个很萌、很重要的角色，间接推动了主角成长。不过在电影之外已经有很多的人在讨论他了，并且我的感受与大家也基本上大差不差，所以就不再赘述啦。</p>
+<h2 id="内核"><a href="#内核" class="headerlink" title="内核"></a>内核</h2><p>最后，就到了我们电影最重要的部份：靴猫与死神的纠缠。这一部分贯穿了整个电影，也是推动故事向前发展的动力，并让故事在靴猫与死神的最终决斗时达到高潮，这也是我认为本片故事节奏优秀的另一原因。</p>
 <h3 id="逃亡"><a href="#逃亡" class="headerlink" title="逃亡"></a>逃亡</h3><p>最初，靴猫无意或有意地浪费掉了前面的八条命，但他对之前的死亡不以为意，仍接着奏乐接着舞，哼着本片的主题曲<a href="https://lyricstranslate.com/en/puss-boots-last-wish-ost-fearless-hero-lyrics.html">《Fearless Hero》</a>。</p>
 <blockquote>
 <p>Who is your favorite fearless hero?<br>Who’s brave and ready for trouble? (You are, you are)<br>Who’s so unbelievably humble? (You are, you are)<br>…</p>
 </blockquote>
 <p>就当他在酒馆点了一杯牛奶时，一旁坐过来了一只黑衣白狼。靴猫以为那是个赏金猎人，自信地大打出手，却没想到惨败在白狼的两柄镰刀之下。剑被击落在地，靴猫汗毛炸起，眼前浮现出过去经历的走马灯，他第一次感受到了死亡的滋味。</p>
-<p><img src="/images/film_review_of_puss_in_boots_2/firstfight.jpg" alt="firstfight" loading="lazy"></p>
-<center>啧啧，这画面张力</center>
-
-<p>窗外电闪雷鸣，白狼睁着他血红的双眼，等在一旁，对靴猫说：</p>
+<p><img src="/images/film_review_of_puss_in_boots_2/firstfight.jpg" alt="firstfight" loading="lazy"><em>啧啧，瞧瞧这画面张力</em></p>
+<p>窗外电闪雷鸣，白狼睁着他血红的双眼，站在一旁，等着靴猫将剑捡起：</p>
 <blockquote>
 <p>Pick it up. <strong>Pick, it, up.</strong></p>
 </blockquote>
-<p>靴猫在这个酒馆里吹嘘过太多次自己过去的英勇事迹，自己有多么无畏（Fearless），多么传奇（Legend）。结果当他面对真正的死亡时，作为一个剑士，居然丢下了自己的剑，慌不择路，从下水道逃走了。</p>
-<p>后来靴猫总是在冥冥中总是看到这只黑衣白狼尾随其后，他无论怎么逃，都无法逃脱。当他在养老院听说「许愿星」即将出世后，他决心拿到许愿星，恢复他的九条命，以此延缓死亡的到来。</p>
+<p>靴猫在这个酒馆里吹嘘过太多次自己过去的英勇事迹，自己有多么的无畏（Fearless），多么的传奇（Legend）。结果当真正面对死亡时，作为一名剑士，他居然丢下了自己的剑，慌不择路，从下水道逃走了。</p>
+<p>后来靴猫总是在冥冥中总是看到这只黑衣白狼尾随其后，他无论怎么逃，都无法逃脱。他本下定决心，埋葬了自己的剑客披风、帽子和手套，从此归隐不问世事。然而，当他在养老院听说「许愿星」即将出世后，他决心拿到许愿星，恢复他的九条命，以此延缓死亡的到来，回到他原来放荡不羁的潇洒生活。</p>
 <p><img src="/images/film_review_of_puss_in_boots_2/wolfandgoldcoins.jpg" alt="wolfandgoldcoins" loading="lazy"></p>
-<p>另外，在这一幕中，靴猫三人偷走许愿星地图后，驾马车出城撒金币解围。靴猫回头时，看见白狼捡起了两枚金币放在眼上，手指指向自己。这应该是源于西方人在人死后，会在逝者的两只眼睛上各放一枚金币，作为给冥河船夫卡戎的过路费。这一幕是在暗示靴猫死亡如影随形，任凭他逃到天涯海角，也无法避免被死亡追上。</p>
+<p>此外，在这一幕中，靴猫三人偷走许愿星地图后，驾马车出城撒金币解围。靴猫回头时，看见白狼捡起了两枚金币放在眼上，手指指向自己。这应该是源于西方人在人死后，会在逝者的两只眼睛上各放一枚金币，作为给冥河船夫卡戎的过路费。这一幕是在暗示靴猫死亡如影随形，任凭他逃到天涯海角，也无法避免被死亡追上。</p>
 <h3 id="释然"><a href="#释然" class="headerlink" title="释然"></a>释然</h3><p>靴猫经历完一系列冒险，成长许多。在最后他成功地拿到了许愿星的地图。然而就在此时，白狼从死地出现，以双刀划出火墙，将靴猫与自己一起关入其中。在火焰的围绕下，面对白狼，靴猫恐惧得全身发抖，拿着地图不知所措，他看向许愿星，想要马上许愿。</p>
 <blockquote>
 <p>你要采用懦夫的方式作弊吗？想许愿逃往更多的生命？还是你要与我堂堂正正地打上一场？</p>
@@ -3172,12 +3166,12 @@ x_1(t)*x_2(t) &amp;&#x3D; &#123;\int_&#123;-\infty&#125;^&#123;+\infty&#125;&#12
 <blockquote>
 <p>Fear me if you dare!</p>
 </blockquote>
-<p>经过一番激烈的打斗后，靴猫最后战胜了白狼（靠着凯蒂给他的小匕首）。他击飞了白狼手中的镰刀，白狼跪倒在地上，靴猫将镰刀踢到白狼身前，将白狼的话回赠给他自己：</p>
+<p>经过一番激烈的打斗后，靴猫靠着凯蒂给他的小匕首，最后战胜了白狼。他击飞了白狼手中的镰刀，看着白狼跪倒在地上，靴猫将镰刀踢到白狼身前，将白狼的话回赠给他自己：</p>
 <blockquote>
 <p>Pick it up.</p>
 </blockquote>
 <p><img src="/images/film_review_of_puss_in_boots_2/finalfight.jpg" alt="finalfight" loading="lazy"></p>
-<h3 id="离别"><a href="#离别" class="headerlink" title="离别"></a>离别</h3><p>靴猫也知道，他可以打败死神，却永远也无法战胜死神，只有勇敢地迎接他，「猫」终有一死。</p>
+<h3 id="离别"><a href="#离别" class="headerlink" title="离别"></a>离别</h3><p>靴猫也知道，他可以打败死神，却永远也无法战胜死神，唯一的办法是勇敢地面对他，接受「猫」终有一死的命运。</p>
 <blockquote>
 <p>我知道我永远都无法打败你，但我的余生都将永远抗争下去。</p>
 </blockquote>
@@ -3195,7 +3189,7 @@ x_1(t)*x_2(t) &amp;&#x3D; &#123;\int_&#123;-\infty&#125;^&#123;+\infty&#125;&#12
 <p>「是啊，人终有一死。」</p>
 </blockquote>
 <p>白狼死神离去，这一幕也就结束了。</p>
-<p>太帅了！靴猫什么时候这么帅过！曾经的他潇洒地享受着「猫生」，分不清牺牲与耍酷（这一点从官方的番外<a href="https://www.bilibili.com/video/av992175509/">《三叉戟》</a>中可以看到）。他挥霍着生命，虽然帅气臭屁，可总给人一种长不大的大男孩感觉。直到这最后一幕过后，靴猫才意识到了「生命」与「现实」的含义，真正地成长了。这样的成长随着故事自然而然地发生，丝毫不见的生硬，与时下众多影剧相比，可以说是相当地优秀。</p>
+<p>太帅了！靴猫什么时候这么帅过！曾经的他潇洒地享受着「猫生」，分不清牺牲与耍酷（这一点从官方的番外<a href="https://www.bilibili.com/video/av992175509/">《三叉戟》</a>中可以看到）。他挥霍着生命，虽然帅气臭屁，可总给人一种长不大的大男孩感觉。直到这最后一幕过后，靴猫才意识到了「生命」与「现实」的含义，真正地成长了。这样的成长随着故事自然而然地发生，丝毫不见得生硬，与时下众多影剧相比，可以说是相当地优秀了。</p>
 <h2 id="有趣的观点"><a href="#有趣的观点" class="headerlink" title="有趣的观点"></a>有趣的观点</h2><p><img src="/images/film_review_of_puss_in_boots_2/thecat.jpg" alt="thecat" loading="lazy"></p>
 <p>另外，在豆瓣、知乎查电影八卦的时候，也看到了许多有意思的观点，这里我摘两个最喜欢的观点吧。两个观点都来自于豆瓣，第一个观点来自于本篇引文所引用的那篇文章：<a href="https://movie.douban.com/review/14876554/">《希望你我不必等到耗尽八条命，就已珍惜这一世》</a>。</p>
 <blockquote>
@@ -3203,7 +3197,7 @@ x_1(t)*x_2(t) &amp;&#x3D; &#123;\int_&#123;-\infty&#125;^&#123;+\infty&#125;&#12
 <p>或许对于年轻人来说，并非真不怕死，而是死亡距离自己太遥远了，遥远到就如同 “猫生” 的九条命，满嘴跑火车地虚度年华也不觉得可惜；而对于老年人来说，都已黄土埋了半截，余日恐无多，谈论近在眼前的死亡太过严肃。</p>
 <p>死亡这件事没有变，与它的距离变了，对它的态度也就变了。希望你我不必等到耗尽八条命，就已珍惜这一世。</p>
 </blockquote>
-<p>第二个观点是我在另一篇影评看到的，<a href="https://movie.douban.com/review/14860130/">《英雄主义、恐惧、死亡、爱、信任、家人、选择、天真与热烈》</a>，这个观点本身出自播客《来都来了｜听了再走》第 126 期的内容，改天我也去听听看：</p>
+<p>第二个观点是我在另一篇影评看到的，<a href="https://movie.douban.com/review/14860130/">《英雄主义、恐惧、死亡、爱、信任、家人、选择、天真与热烈》</a>，这个观点本身出自播客《来都来了｜听了再走》第 126 期的内容（改天我也去听听看）：</p>
 <blockquote>
 <p>下面摘录一段李松蔚老师的原文：</p>
 <p>所以上世纪 30 年代经济大萧条，电影业反而蓬勃发展。人们希望用故事短暂地逃离现实，借助那些神奇的想象制造奇迹，抹平现实中的苦难。出乎意料的是，这个故事居然是现实向的。它说的是，<strong>苦难没办法被真正抹平</strong>。</p>
@@ -3213,7 +3207,8 @@ x_1(t)*x_2(t) &amp;&#x3D; &#123;\int_&#123;-\infty&#125;^&#123;+\infty&#125;&#12
 <p>好在故事没有往这个方向开展，它回到了现实。它致力于探讨的不光是生死、归属，还有一个更加心理学的议题，叫做「逃离现实 VS. 接受现实」，而它最终提供的答案很白痴，叫做：</p>
 <p><strong>猫狗多么可爱，撸猫 &#x2F; 撸狗吧！</strong></p>
 </blockquote>
-<p>是不是很有意思的观点？哈哈哈，至少我是这么认为的。对靴猫 2 我想说的大概就是这么多了，希望以后也能学着这些有意思的人，能在作品中领悟更多的内容，也希望以后能有机会写更多有意思的影评（</p>
+<p>是不是很有意思的观点？那我们可真是英雄所见略同了（</p>
+<p>对靴猫 2 我想说的大概就是这么多了，希望以后也能学着这些有意思的人，能在作品中领悟更多的内容，也希望以后也能写更多有意思的影评！</p>
 <p>看到这里，感谢您的阅读～</p>
 ]]></content>
       <categories>
@@ -3919,36 +3914,125 @@ x_1(t)*x_2(t) &amp;&#x3D; &#123;\int_&#123;-\infty&#125;^&#123;+\infty&#125;&#12
       </tags>
   </entry>
   <entry>
-    <title>读硕还是直博，这是个问题</title>
-    <url>/2022/05/18/question-of-graduate-student/</url>
-    <content><![CDATA[<p><img src="/images/question-of-graduate-student/cover.jpg" width="400" alt="cover" / loading="lazy"><em>图文无关…… 或许是吧</em></p>
+    <title>Test</title>
+    <url>/2020/08/23/test/</url>
+    <content><![CDATA[<p>balabala</p>
 <span id="more"></span>
 
-<h2 id="背景"><a href="#背景" class="headerlink" title="背景"></a>背景</h2><p>今天上午，我在组会结束以后留下来跟导师说推荐信的事，之后我们聊了一些关于研究生的话题，其中就有我导师对读硕与直博的看法。听完后我感觉受益颇多，便想写一篇博文记录此事。<spam class="heimu">（翻译：水文章）</spam></p>
-<h2 id="讨论"><a href="#讨论" class="headerlink" title="讨论"></a>讨论</h2><h3 id="薪资"><a href="#薪资" class="headerlink" title="薪资"></a>薪资</h3><p>对于硕士生与博士生的区别，导师首先说最直观的是薪资待遇：像是之前实验室的一位硕士学长，在春招的时候拿的 offer 大概是 40 万左右一年<spam class="heimu">（但愿他今年能顺利毕业）</spam>；而另一位带过我的博士，她研究的是数字图像传输（大概是这么描述），拿的 offer 年薪是 48 万左右；而我们专业本科出去以后的年薪能有 15 万就谢天谢地了。</p>
-<p>导师说，就薪水来看，其实读硕士还是博士差别不大的，一般还是认为硕士生的性价比更高。</p>
-<p>“那硕士生与博士生相比，企业是否会更偏好于博士呢？”我问导师，“因为我看到现在社会上，好多本来是本科生做的工作，都被硕士生占走了，如果自己硕士文凭与别人博士面同一份工作，那会不会也出现这样的情况呢？”</p>
-<p>不会，他说，之前提到的“硕士性价比高”不仅对学生来说是这样，对企业而言也是如此，因为硕士生更便宜，同样的事情，硕士生能做何必要找更昂贵的博士生呢？</p>
-<h3 id="系统与部分"><a href="#系统与部分" class="headerlink" title="系统与部分"></a>系统与部分</h3><p>另一方面，是因为硕士生相比本科生，能负责构建整个系统，而博士生一般是负责系统中的某一个部分。</p>
-<p>导师说，硕士在企业中一般就与同事一组，开发整个项目，负责这个系统的方方面面；但博士生一般是做某一部分的优化。比如说，项目组的几个硕士在一起鼓捣了俩月，整出来个低功耗节点组网的传输系统，而博士做的主要是研究如何将原来每天一瓦的功耗降低至零点七瓦，或者将传输过程中的误码率从 10^(-6) 降低到 10^(-7)。由此可见，博士一般不会去构建整个系统，而是专注于优化系统的性能，将某一方面提升到极致。</p>
-<h3 id="团体与个人"><a href="#团体与个人" class="headerlink" title="团体与个人"></a>团体与个人</h3><p>其实，由导师在上面举的例子，我们还能够看出来，硕士生大多是一伙做事，博士生则常常是单枪匹马的。</p>
-<p>就比如我那位吊儿郎当的师兄，他毕业设计的系统也是与另一位同级的师兄，和两个研一的师兄共同完成的（都算是老师布置的活儿），而师兄的毕业答辩也是针对整个系统的。而另一位博士学姐，常常都是一个人在那边看论文、跑代码，很少看到她与其他的博士一起做一件事。</p>
-<p>本来以前没觉得这样有什么不对，跟导师聊了一后才发现这之中的联系……</p>
-<h3 id="专硕与学硕"><a href="#专硕与学硕" class="headerlink" title="专硕与学硕"></a>专硕与学硕</h3><p>后来，我又问了关于我们学院专硕与学硕的事，因为我在研究生招生简章里这两栏后都看到了导师的名字。</p>
-<p>导师说实际上他们没什么不同。他说，在我们学院，这两个实际上都是同一种，只是名字不同罢了，就比如专硕的课程叫通信 I，学硕的叫通信 II这样，而内容都是一样的。他还补充道，学校之所以还区分这两种，一方面是历史遗留问题，另一方面可能是因为在北方的一些省份，仍然认为专硕还是像以前那样，只读两年。</p>
-<p>不过，专硕学硕也并不是一点区别也没有。就像我们专业分数是有大小年之分的，录取分一年学硕高一年专硕高，例如今年学硕的平均分是 380+，而专硕的平均分高达 402，给大伙儿看傻了都。</p>
-<h2 id="结论"><a href="#结论" class="headerlink" title="结论"></a>结论</h2><p>导师在最后说，读博应该是一个与高考择校一样重要的人生决定，不能随随便便就定下来了。如果读博的意志并不是十分的坚定，他都建议先读一年硕士，再从长计议。</p>
-<p>大概就是这些了，如果大家对此有什么想法，欢迎大家留言与我交流喔！</p>
+<p>labalaba</p>
+<hr>
+<p>一个404的网址：<a href="https://mskclover.com/404.html/">https://mskclover.com/404.html/</a></p>
+<h2 id="样式摘录"><a href="#样式摘录" class="headerlink" title="样式摘录"></a>样式摘录</h2><div class="primary">
+
+<blockquote>
+<p>Primary</p>
+</blockquote>
+</div>
+
+<div class="success">
+
+<blockquote>
+<p>Success</p>
+</blockquote>
+</div>
+
+<div class="warning">
+
+<blockquote>
+<p>Warning</p>
+</blockquote>
+</div>
+
+<div class="danger">
+
+<blockquote>
+<p>Danger</p>
+</blockquote>
+</div>
+
+<div class="info">
+
+<blockquote>
+<p>Info</p>
+</blockquote>
+</div>
+
+<div class="gray">
+
+<blockquote>
+<p>Gray</p>
+</blockquote>
+</div>
+
+<div class="yellow">
+
+<blockquote>
+<p>Yellow</p>
+</blockquote>
+</div>
+
+<details close>
+<summary>使用方式</summary>
+
+<pre class="language-markup" data-language="markup"><code class="language-markup"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>primary<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
+
+> Primary
+
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span>
+
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>success<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
+
+> Success
+
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span>
+
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>warning<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
+
+> Warning
+
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span>
+
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>danger<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
+
+> Danger
+
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span>
+
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>info<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
+
+> Info
+
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span>
+
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>gray<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
+
+> Gray
+
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span>
+
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>yellow<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
+
+> Yellow
+
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span></code></pre>
+
+</details>
+
+<h2 id="Details-折叠"><a href="#Details-折叠" class="headerlink" title="Details 折叠"></a>Details 折叠</h2><pre class="language-none"><code class="language-none">&lt;details close&gt;
+&lt;summary&gt;details&lt;&#x2F;summary&gt;
+
+Details
+
+&lt;&#x2F;details&gt;</code></pre>
+
+
+
 ]]></content>
       <categories>
-        <category>叶子的碎碎念</category>
+        <category>不知道该怎么分类就放这里好了</category>
       </categories>
       <tags>
-        <tag>博文</tag>
-        <tag>学业</tag>
-        <tag>杂思</tag>
-        <tag>未来</tag>
-        <tag>读研</tag>
+        <tag>test</tag>
       </tags>
   </entry>
   <entry>
@@ -4620,125 +4704,36 @@ x_1(t)*x_2(t) &amp;&#x3D; &#123;\int_&#123;-\infty&#125;^&#123;+\infty&#125;&#12
       </tags>
   </entry>
   <entry>
-    <title>Test</title>
-    <url>/2020/08/23/test/</url>
-    <content><![CDATA[<p>balabala</p>
+    <title>读硕还是直博，这是个问题</title>
+    <url>/2022/05/18/question-of-graduate-student/</url>
+    <content><![CDATA[<p><img src="/images/question-of-graduate-student/cover.jpg" width="400" alt="cover" / loading="lazy"><em>图文无关…… 或许是吧</em></p>
 <span id="more"></span>
 
-<p>labalaba</p>
-<hr>
-<p>一个404的网址：<a href="https://mskclover.com/404.html/">https://mskclover.com/404.html/</a></p>
-<h2 id="样式摘录"><a href="#样式摘录" class="headerlink" title="样式摘录"></a>样式摘录</h2><div class="primary">
-
-<blockquote>
-<p>Primary</p>
-</blockquote>
-</div>
-
-<div class="success">
-
-<blockquote>
-<p>Success</p>
-</blockquote>
-</div>
-
-<div class="warning">
-
-<blockquote>
-<p>Warning</p>
-</blockquote>
-</div>
-
-<div class="danger">
-
-<blockquote>
-<p>Danger</p>
-</blockquote>
-</div>
-
-<div class="info">
-
-<blockquote>
-<p>Info</p>
-</blockquote>
-</div>
-
-<div class="gray">
-
-<blockquote>
-<p>Gray</p>
-</blockquote>
-</div>
-
-<div class="yellow">
-
-<blockquote>
-<p>Yellow</p>
-</blockquote>
-</div>
-
-<details close>
-<summary>使用方式</summary>
-
-<pre class="language-markup" data-language="markup"><code class="language-markup"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>primary<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
-
-> Primary
-
-<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span>
-
-<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>success<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
-
-> Success
-
-<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span>
-
-<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>warning<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
-
-> Warning
-
-<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span>
-
-<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>danger<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
-
-> Danger
-
-<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span>
-
-<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>info<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
-
-> Info
-
-<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span>
-
-<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>gray<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
-
-> Gray
-
-<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span>
-
-<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>yellow<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
-
-> Yellow
-
-<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span></code></pre>
-
-</details>
-
-<h2 id="Details-折叠"><a href="#Details-折叠" class="headerlink" title="Details 折叠"></a>Details 折叠</h2><pre class="language-none"><code class="language-none">&lt;details close&gt;
-&lt;summary&gt;details&lt;&#x2F;summary&gt;
-
-Details
-
-&lt;&#x2F;details&gt;</code></pre>
-
-
-
+<h2 id="背景"><a href="#背景" class="headerlink" title="背景"></a>背景</h2><p>今天上午，我在组会结束以后留下来跟导师说推荐信的事，之后我们聊了一些关于研究生的话题，其中就有我导师对读硕与直博的看法。听完后我感觉受益颇多，便想写一篇博文记录此事。<spam class="heimu">（翻译：水文章）</spam></p>
+<h2 id="讨论"><a href="#讨论" class="headerlink" title="讨论"></a>讨论</h2><h3 id="薪资"><a href="#薪资" class="headerlink" title="薪资"></a>薪资</h3><p>对于硕士生与博士生的区别，导师首先说最直观的是薪资待遇：像是之前实验室的一位硕士学长，在春招的时候拿的 offer 大概是 40 万左右一年<spam class="heimu">（但愿他今年能顺利毕业）</spam>；而另一位带过我的博士，她研究的是数字图像传输（大概是这么描述），拿的 offer 年薪是 48 万左右；而我们专业本科出去以后的年薪能有 15 万就谢天谢地了。</p>
+<p>导师说，就薪水来看，其实读硕士还是博士差别不大的，一般还是认为硕士生的性价比更高。</p>
+<p>“那硕士生与博士生相比，企业是否会更偏好于博士呢？”我问导师，“因为我看到现在社会上，好多本来是本科生做的工作，都被硕士生占走了，如果自己硕士文凭与别人博士面同一份工作，那会不会也出现这样的情况呢？”</p>
+<p>不会，他说，之前提到的“硕士性价比高”不仅对学生来说是这样，对企业而言也是如此，因为硕士生更便宜，同样的事情，硕士生能做何必要找更昂贵的博士生呢？</p>
+<h3 id="系统与部分"><a href="#系统与部分" class="headerlink" title="系统与部分"></a>系统与部分</h3><p>另一方面，是因为硕士生相比本科生，能负责构建整个系统，而博士生一般是负责系统中的某一个部分。</p>
+<p>导师说，硕士在企业中一般就与同事一组，开发整个项目，负责这个系统的方方面面；但博士生一般是做某一部分的优化。比如说，项目组的几个硕士在一起鼓捣了俩月，整出来个低功耗节点组网的传输系统，而博士做的主要是研究如何将原来每天一瓦的功耗降低至零点七瓦，或者将传输过程中的误码率从 10^(-6) 降低到 10^(-7)。由此可见，博士一般不会去构建整个系统，而是专注于优化系统的性能，将某一方面提升到极致。</p>
+<h3 id="团体与个人"><a href="#团体与个人" class="headerlink" title="团体与个人"></a>团体与个人</h3><p>其实，由导师在上面举的例子，我们还能够看出来，硕士生大多是一伙做事，博士生则常常是单枪匹马的。</p>
+<p>就比如我那位吊儿郎当的师兄，他毕业设计的系统也是与另一位同级的师兄，和两个研一的师兄共同完成的（都算是老师布置的活儿），而师兄的毕业答辩也是针对整个系统的。而另一位博士学姐，常常都是一个人在那边看论文、跑代码，很少看到她与其他的博士一起做一件事。</p>
+<p>本来以前没觉得这样有什么不对，跟导师聊了一后才发现这之中的联系……</p>
+<h3 id="专硕与学硕"><a href="#专硕与学硕" class="headerlink" title="专硕与学硕"></a>专硕与学硕</h3><p>后来，我又问了关于我们学院专硕与学硕的事，因为我在研究生招生简章里这两栏后都看到了导师的名字。</p>
+<p>导师说实际上他们没什么不同。他说，在我们学院，这两个实际上都是同一种，只是名字不同罢了，就比如专硕的课程叫通信 I，学硕的叫通信 II这样，而内容都是一样的。他还补充道，学校之所以还区分这两种，一方面是历史遗留问题，另一方面可能是因为在北方的一些省份，仍然认为专硕还是像以前那样，只读两年。</p>
+<p>不过，专硕学硕也并不是一点区别也没有。就像我们专业分数是有大小年之分的，录取分一年学硕高一年专硕高，例如今年学硕的平均分是 380+，而专硕的平均分高达 402，给大伙儿看傻了都。</p>
+<h2 id="结论"><a href="#结论" class="headerlink" title="结论"></a>结论</h2><p>导师在最后说，读博应该是一个与高考择校一样重要的人生决定，不能随随便便就定下来了。如果读博的意志并不是十分的坚定，他都建议先读一年硕士，再从长计议。</p>
+<p>大概就是这些了，如果大家对此有什么想法，欢迎大家留言与我交流喔！</p>
 ]]></content>
       <categories>
-        <category>不知道该怎么分类就放这里好了</category>
+        <category>叶子的碎碎念</category>
       </categories>
       <tags>
-        <tag>test</tag>
+        <tag>博文</tag>
+        <tag>学业</tag>
+        <tag>杂思</tag>
+        <tag>未来</tag>
+        <tag>读研</tag>
       </tags>
   </entry>
   <entry>
