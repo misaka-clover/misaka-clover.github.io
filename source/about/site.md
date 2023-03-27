@@ -28,6 +28,10 @@ comment: true
 
 今天是我的花园域名 mskclover.com 取名一周年的日子！去年的今天我在 Namecheap 注册了这个域名，想知道那时的相关细节与想法，感兴趣可以看一看[「给博客一个新名字！」](https://mskclover.com/2022/03/29/Give-my-blog-a-new-name/)这篇文章喔。而前几天将它转移到了 Cloudflare，现在用上 CDN 以后访问也快了好多，孩子非常开心，敏感肌也能用，好评！
 
+### 2023-03-27 自我介绍
+
+将近三年了，我终于为自己写了自我介绍，不过还只是很简单的部分。现在到 [about 页面](https://mskclover.com/about/)，或者在左侧边栏中单击我的名字，就可以看到了喔。
+
 ### 2023-03-23 博客新功能添加！
 
 今天我为博客添加了好多的新功能，包括但不限于：点击图片放大预览、新的评论系统 giscus、添加「开往-Travelling友链接力」和自定名言，欢迎大家来试试喔！
@@ -69,7 +73,7 @@ comment: true
 
 ### 2020-08-22 —— 2020-08-24 博客搭建完毕
 
-这几天按照云游前辈[@YunYouJun](https://www.yunyoujun.cn/)的教程和模板，在 `Github Pages` 上用 `Hexo` 搭建了这个站点。
+这几天按照云游前辈 [@YunYouJun](https://www.yunyoujun.cn/) 的教程和模板，在 `Github Pages` 上用 `Hexo` 搭建了这个站点。
 
 </details>
 

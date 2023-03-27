@@ -158,7 +158,7 @@ social:
     color: "#8E71C1"
   - name: Travelling
     link: https://www.travellings.cn/go.html
-    icon: ri:train-fill
+    icon: ri:train-line
     color: black
 
 # RSS 配置
@@ -190,6 +190,17 @@ creative_commons:
   language: deed.zh
   post: true
   clipboard: false
+
+# 代码高亮
+# 关闭 highlight
+highlight:
+  enable: false
+# 启用 prism
+prismjs:
+  enable: true
+  preprocess: true
+  line_number: false
+  tab_replace: ''
 
 ########################################################################
 
@@ -244,7 +255,7 @@ footer:
   # 自定义文本
   # Any custom text can be defined here.
   # custom_text: Hosted by <a href="https://pages.coding.me" rel="noopener" target="_blank">Coding Pages</a>
-  custom_text: '博客版本：Version.1.4.4 | 
+  custom_text: '博客版本：Version.1.4.5 | 
                 <a href="https://icp.gov.moe" target="_blank" style="color:inherit"><img src="/images/moeicp.png" width="25" style="vertical-align:middle">萌ICP备 </a><a href="https://icp.gov.moe/?keyword=20232952" target="_blank" style="color:inherit"> 20232952 号</a>
                 '
 
@@ -253,7 +264,8 @@ footer:
     enable: true
     title: Cloudflare
     link: https://www.cloudflare.com/
-    prefix: 本网站由好人一生平安的
+    logo: /images/CF_logo_stacked_blktype.svg
+    prefix: 由好人一生平安的
     suffix: 提供免费的 CDN 加速
 
 ########################################################################
