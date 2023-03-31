@@ -96,6 +96,14 @@ links:
     color: "#2F4F4F"
     email: 
 
+  - url: https://cak.moe/
+    avatar: /images/avatar/pancake.jpg
+    name: 煎饼果子
+    blog: 煎饼果子的博客
+    desc: 奔波学生狗🎈，专业打工人🎯
+    color: "#FF7F50"
+    email: 
+
 # - url: 
 #   avatar: /images/avatar/avatar.jpg
 #   name: 

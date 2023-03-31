@@ -2,7 +2,7 @@
 title: 关于这片花园
 type: about
 date: 2020-08-24 11:20:00
-updated: 2023-03-29 14:08:00
+#updated: 2023-03-29 14:08:00
 description: 这里记录了这片花园的春夏秋冬。
 comment: true
 ---
@@ -23,6 +23,10 @@ comment: true
 
 <details open>
 <summary>2023 年</summary>
+
+### 2023-04-01 
+
+添加了[煎饼果子](https://cak.moe/)的友链，好耶！也更新了一些我之前收集的名言「sentence」，放心，你不会注意到的~
 
 ### 2023-03-29 博客域名一周年！
 
