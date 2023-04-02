@@ -6,7 +6,7 @@
   <link href="https://mskclover.com/atom.xml" rel="self"/>
   
   <link href="https://mskclover.com/"/>
-  <updated>2023-03-27T11:27:38.845Z</updated>
+  <updated>2023-04-02T15:01:33.949Z</updated>
   <id>https://mskclover.com/</id>
   
   <author>
@@ -15,6 +15,39 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>【周记】2023-13：拓扑与信使</title>
+    <link href="https://mskclover.com/2023/04/02/2023-03-Week-13/"/>
+    <id>https://mskclover.com/2023/04/02/2023-03-Week-13/</id>
+    <published>2023-04-02T14:34:34.000Z</published>
+    <updated>2023-04-02T15:01:33.949Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="/images/2023-03-Week-13/1300_cover.jpg" alt="1300_cover" loading="lazy"><em>这是一个非周期单密铺的图形，是不是好漂亮！</em></p><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>本周的 real life 非常的充实，online life 也在充实之余为我提供了好些慰藉。运动与锻炼也没有落下，就是雨水太多了，有一天甚至跑到一半就下雨了……</p><p>这周室友们依然不在寝室，虽然也蛮想念他们的，不过不被人打扰的作息真是太棒了（</p><span id="more"></span><h2 id="三方协议"><a href="#三方协议" class="headerlink" title="三方协议"></a>三方协议</h2><p>去年九、十月份面试的一家事业单位 —— <strong>经过了长达半年的时间</strong> —— 终于通知我开始下一步，进入了签三方协议的流程。不知道是他们内部程序复杂繁琐，还是仅仅因为部门效率低下。好在没出什么意外，这对于处在如今这样的大环境中求职的我，已经算是很好的了。</p><p>不过，我还是希望他们能再晚一些，因为我这里还有些 offer 没有开奖，申请的学校也尚未有满意的结果。而我看过了协议：如果签下了这份三方，那我将面临长达三年往上的服务期与高达数万元的违约金，这比其他的公司要远高出不少。我不想这么快就<strong>签字卖身</strong>，当时报考他们是为了求稳，使自己多个保底的选择，而现在的我还是想看看有没有其他的机会。但他们那边的人事催我两天后将电子版协议发给他们，由于现在都是在网上办三方协议，所以这基本上就意味着需要马上走流程。</p><p>我考虑了一下，还是先签下三方协议吧，至少保底是没有问题了……</p><h2 id="毕业证件照采集"><a href="#毕业证件照采集" class="headerlink" title="毕业证件照采集"></a>毕业证件照采集</h2><p>上周学校教务处发了一个《关于做好 2023 届本科毕业班学生图像信息采集工作的通知》，要求我们在一家合作服务商的小程序处上传照片，每个人收取 15 元的服务费…… 教务老师在群里还催我们，说「如果学生还不采集照片，导致拿不到毕业证，后果自负！」本来还有几个月就要毕业了，想着多念点母校的好。可这样的服务、费用与老师态度，让人感到不是很舒服……</p><p>对了，说起毕业照片，因为我在春节后的这段时间很少运动，体重有点增加了。为了在几个月后能拍些好看的毕业照，这段时间我开始重新健身了，希望能给大学生活一个圆满的结果吧。</p><h2 id="最新的拓扑图形！和它的数学家"><a href="#最新的拓扑图形！和它的数学家" class="headerlink" title="最新的拓扑图形！和它的数学家"></a>最新的拓扑图形！和它的数学家</h2><p>这周看到联合国教科文组织中文账号的<a href="https://twitter.com/unesco_chinese/status/1640295094262845440">推文</a>，里面介绍了最近发现的一种拓扑图形：</p><p><img src="/images/2023-03-Week-13/1301_unesco.jpg" alt="1301_unesco" loading="lazy"></p><p>这样不规则的图形，没有任何的周期性，却又含有某种规则的美。我看到它后就被彻底地迷住了，马上就把它设为了我的墙纸。后来在看它的时候，突然有些好奇发现它的数学家是什么样的人，于是就顺着名字找了过去，发现了这位加拿大滑铁卢 Craig S. Kaplan 教授的<a href="https://isohedral.ca/">个人主页</a>。</p><p>没想到像数学家这样老派的人，除了在学校官网的个人页面之外，也会有自己的站点和 Mastodon 账号，于是便赶紧关注了他。在他介绍自己联系方式的时候，提到可以通过学校邮箱联系自己 —— of course，外国人喜欢用邮件聊正事，不过他说还有自己的私人邮箱，但不一定会回复。很有意思的是，这是他用自己域名配置的邮箱，一下子就感觉他对计算机一定不陌生，回去细细一看：喔，原来是计算机学院的数学家啊，也难怪会有这么丰富主页……</p><p>我知道后来的关注点不太对，但我下次还敢（</p><iframe src="https://mathstodon.xyz/@csk/110058807978537887/embed" class="mastodon-embed" style="max-width: 100%; border: 0" width="400" allowfullscreen="allowfullscreen"></iframe><center>这是他 Mastodon 长毛象的链接，要是加载不出来就自己想想办法吧（</center><h2 id="坂本龙一过世"><a href="#坂本龙一过世" class="headerlink" title="坂本龙一过世"></a>坂本龙一过世</h2><p><img src="/images/2023-03-Week-13/1302_sakamoto.jpg" alt="1302_sakamoto" loading="lazy"><em>Sakamoto Ryūichi</em></p><p>坂本龙一先生于 3 月 28 日晚在东京去世了😢🕯️。</p><p>我是到了大学才了解到他的，同学给我放了他的音乐，我从此就记住了他。之前听说他的病情稍有好转，可没想到来得这么快…… 现在想不出什么来了，向大家推荐一篇旧文吧：</p><p><a href="https://theinitium.com/article/20221224-culture-christmas-sakamoto-musicians-china-hk-tw/">【平安夜特輯】坂本龍一：四位音樂人帶你聽，寒冬裡望見宇宙中的彼此</a>。</p><h2 id="信使-Courier"><a href="#信使-Courier" class="headerlink" title="信使 - Courier"></a>信使 - Courier</h2><p>想学着其他周记的样子，在最后列一些本周看的 文章 &#x2F; 影剧 或其他<strong>值得回顾</strong>的东西，不过我一直不知道这个栏目取什么名字为好。这周因为那张拓扑图形的缘故，去教科文组织的官网看了看，发现他们有一本叫《信使》的杂志写得蛮不错的，于是在订阅之余，就直接借用他们的杂志名啦。</p><h3 id="读物"><a href="#读物" class="headerlink" title="读物"></a>读物</h3><ul><li>【杂志】<a href="https://courier.unesco.org/zh/articles/shuxueweiwang/">《数学为王》</a>，🇺🇳 联合国教科文组织（The UNESCO）《信使》杂志，January-March 2023；<br>（如果感兴趣的话，可以在此免费<a href="https://courier.unesco.org/zh/subscribe/">订阅</a>喔！）</li></ul><p><img src="/images/2023-03-Week-13/1303_courier.jpg" alt="1303_courier" loading="lazy"></p><ul><li>【财经】<a href="https://www.latepost.com/news/dj_detail?id=1552/">《制造宁德时代》</a>，晚点 Late Post 在本月中旬发的一篇文章，里面借住亲历者的经历，通过工厂与工程师两个不同的视角，讲述了宁德时代的研发与工程奇观。这些使我能够一窥现代工厂的自动化水平，非常受用！</li><li>【故事】<a href="https://www.douban.com/group/topic/215150553/">《小猫奥妙的十八条命》</a>，大晚上看恐怖故事被这篇整不会了，气氛也没了，就只好开开心心地睡觉了。</li></ul><h3 id="影音"><a href="#影音" class="headerlink" title="影音"></a>影音</h3><ul><li>【纪录片】PBS 越南战争（2017）第 8 集：青史不泯；</li><li>【播客】牛油果烤面包：#113. 缓存 ——「计算机科学的两大难题之一」；</li></ul>]]></content>
+    
+    
+    <summary type="html">2023-03-27 —— 2023-04-02</summary>
+    
+    
+    
+    <category term="叶子的周记" scheme="https://mskclover.com/categories/%E5%8F%B6%E5%AD%90%E7%9A%84%E5%91%A8%E8%AE%B0/"/>
+    
+    
+    <category term="周记" scheme="https://mskclover.com/tags/%E5%91%A8%E8%AE%B0/"/>
+    
+    <category term="三方协议" scheme="https://mskclover.com/tags/%E4%B8%89%E6%96%B9%E5%8D%8F%E8%AE%AE/"/>
+    
+    <category term="拓扑" scheme="https://mskclover.com/tags/%E6%8B%93%E6%89%91/"/>
+    
+    <category term="数学" scheme="https://mskclover.com/tags/%E6%95%B0%E5%AD%A6/"/>
+    
+    <category term="UNESCO" scheme="https://mskclover.com/tags/UNESCO/"/>
+    
+    <category term="坂本龙一" scheme="https://mskclover.com/tags/%E5%9D%82%E6%9C%AC%E9%BE%99%E4%B8%80/"/>
+    
+    <category term="信使" scheme="https://mskclover.com/tags/%E4%BF%A1%E4%BD%BF/"/>
+    
+  </entry>
   
   <entry>
     <title>【周记】2022-12：广州冰雹</title>
@@ -530,31 +563,6 @@
     <category term="电赛" scheme="https://mskclover.com/tags/%E7%94%B5%E8%B5%9B/"/>
     
     <category term="OpenMV" scheme="https://mskclover.com/tags/OpenMV/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>别人为自己做的选择</title>
-    <link href="https://mskclover.com/2021/05/11/choices-made-by-others/"/>
-    <id>https://mskclover.com/2021/05/11/choices-made-by-others/</id>
-    <published>2021-05-11T13:51:45.000Z</published>
-    <updated>2022-04-10T15:46:02.077Z</updated>
-    
-    <content type="html"><![CDATA[<p><img src="/images/choices-made-by-others/cover.jpg" alt="cover" loading="lazy"></p><blockquote><p>选择是自由的，但因为必须要选择，所以也是不自由的。</p></blockquote><span id="more"></span><p>刚练字的时候，想到遇到很难做选择的事情时，我习惯性地就想让亲人帮忙做决定。一念至此，突然感到这是一种<strong>不负责任的表现</strong>——当我感到难以做选择的时候，就会去询问别人的“意见”，而后遵循别人的选择。</p><p>这样做的结果就是：如果最后的这种选择导致了bad ending，那我会将原因归咎于他人，以此逃避了<strong>本该我承担的、选择错误的责任</strong>——其实在将选择交给别人做的那一刻开始，我就已经在逃避责任了；而若是促成了好的结果，那我将会更加的没有主见，以后在做其他重要的决断的时候，也会倾向于相信别人的意见，而不相信自己的选择——其实这也是不负责任的表现。</p><p>其实，很多时候我面对一件难以做选择的事情时，借托“我老选择困难症啦”而让他人替自己做决定，想来这只是表面原因而已罢了。我想我真正的目的，其实是为了避免去承担做这个选择的责任——也许我之前从来都没有意识到，或许生物的趋利避害使我这样做？你看，我将原因又推到了其他的因素上，就是不肯承认是我自己的原因，不肯为此负责……</p><p>sigh……今后慢慢注意吧。</p>]]></content>
-    
-    
-    <summary type="html">小文</summary>
-    
-    
-    
-    <category term="叶子的碎碎念" scheme="https://mskclover.com/categories/%E5%8F%B6%E5%AD%90%E7%9A%84%E7%A2%8E%E7%A2%8E%E5%BF%B5/"/>
-    
-    
-    <category term="博文" scheme="https://mskclover.com/tags/%E5%8D%9A%E6%96%87/"/>
-    
-    <category term="杂思" scheme="https://mskclover.com/tags/%E6%9D%82%E6%80%9D/"/>
-    
-    <category term="叶子" scheme="https://mskclover.com/tags/%E5%8F%B6%E5%AD%90/"/>
     
   </entry>
   
