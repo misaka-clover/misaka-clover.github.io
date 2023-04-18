@@ -24,6 +24,10 @@ comment: true
 <details open>
 <summary>2023 年</summary>
 
+### 2023-04-19 更新名言 II
+
+再次更新了一些「sentence你不会注意到的」名言~
+
 ### 2023-04-04 域名邮箱
 
 将原来在博客上留下的邮箱，换成了这个域名的邮箱：cover@mskclover.com。另外，还修复了谷歌分析失效的问题……
