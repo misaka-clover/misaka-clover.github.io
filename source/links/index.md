@@ -74,10 +74,10 @@ links:
 
   - url: https://dmesg.app/
     avatar: /images/avatar/BnnyThinks.jpg
-    name: Benny小土豆
+    name: Benny 小土豆
     blog: 土豆不好吃
     desc: 人们都希望被别人需要 却往往事与愿违
-    color: "#3CB371"
+    color: "#228B22"
     email: benny.think@gmail.com
 
   - url: https://me.pennp.com/
@@ -88,7 +88,7 @@ links:
     color: "#DB7093"
     email: 
 
-  - url: https://catcat.blog
+  - url: https://catcat.blog/
     avatar: /images/avatar/maomao.jpg
     name: 猫猫
     blog: 猫猫博客
@@ -104,14 +104,30 @@ links:
     color: "#FF7F50"
     email: 
 
-# - url: 
-#   avatar: /images/avatar/avatar.jpg
-#   name: 
-#   blog: 
-#   desc: 
-#   color: 
-#   email: 
+  - url: https://springwood.me/
+    avatar: /images/avatar/springwood.jpg
+    name: 沉舟侧畔
+    blog: 沉舟侧畔 Blog
+    desc: 沉舟侧畔千帆过，病树前头万木春
+    color: "#3CB371"
+    email: 
+
+
+  # - url: 
+  #   avatar: /images/avatar/avatar.jpg
+  #   name: 
+  #   blog: 
+  #   desc: 
+  #   color: 
+  #   email: 
+
+# 颜色参考：https://www.sioe.cn/yingyong/yanse-rgb-16/
 
 # placeholder: 还没想好说些什么 # 默认对友链的描述
 # tip: 友链加载中～如失败请刷新重试～
 ---
+
+<center><b>欢迎大家与我交换友链喔！</b></center>
+
+
+
