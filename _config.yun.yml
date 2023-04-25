@@ -259,7 +259,7 @@ footer:
   # 自定义文本
   # Any custom text can be defined here.
   # custom_text: Hosted by <a href="https://pages.coding.me" rel="noopener" target="_blank">Coding Pages</a>
-  custom_text: '博客版本：Version.1.4.8 | 
+  custom_text: '博客版本：Version.1.4.9 | 
                 <a href="https://icp.gov.moe" target="_blank" style="color:inherit"><img src="/images/moeicp.png" width="25" style="vertical-align:middle">萌ICP备 </a><a href="https://icp.gov.moe/?keyword=20232952" target="_blank" style="color:inherit"> 20232952 号</a>
                 '
 
@@ -400,11 +400,14 @@ engine_search:
 
 ########################################################################
 
-#这是谷歌分析（Google Analytics）
+# 这是谷歌分析（Google Analytics）
+# 注意：最近新建的谷歌分析账号ID已经修改，格式如：G-XXXXXXXXXX，可以直接填入id一项，功能正常。
+# 站点配置文件`_config.yml`中的站点部署的 url 应与 CNAME 中的域名（或xxxxx.github.io）一致
+
 google_analytics:
   enable: true
   #id: UA-176081910-1
-  id: G-358686756
+  id: G-6VWG03H880
 
 # # 开启了 Google SEO 后需要跳过渲染这些文件
 # # 没找到文件

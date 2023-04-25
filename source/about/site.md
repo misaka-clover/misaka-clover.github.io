@@ -24,6 +24,10 @@ comment: true
 <details open>
 <summary>2023 年</summary>
 
+### 2023-04-25 更新 Google Analytics
+
+因为谷歌政策，原有的 GA3 将在 2023-07-01 停用，所以我将分析资源迁移到了 GA4。
+
 ### 2023-04-19 更新名言 II
 
 再次更新了一些「sentence你不会注意到的」名言~
