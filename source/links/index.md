@@ -112,6 +112,14 @@ links:
     color: "#3CB371"
     email: 
 
+  - url: https://evex.one/
+    avatar: /images/avatar/exec.jpg
+    name: EXEC
+    blog: Evil-EXEC
+    desc: 嗷呜～～～🐺
+    color: "#808080"
+    email: 
+
 
   # - url: 
   #   avatar: /images/avatar/avatar.jpg
@@ -128,6 +136,8 @@ links:
 ---
 
 <center><b>欢迎大家与我交换友链喔！</b></center>
+
+<center><b>虽然有几位朋友的颜色相仿，不过请仔细看看，这里的每一个人都有着不同的颜色呢！</b></center>
 
 
 
