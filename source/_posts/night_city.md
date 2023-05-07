@@ -10,7 +10,8 @@ tags:
     - 写点什么
 categories: 叶子的碎碎念
 comment: true
-#keywords: 影评, 穿靴子的猫2, 梦工厂, 死亡, 白狼
+#keywords:
+sticky: 100
 ---
 
 ![cover](/images/night_city/cover.jpg)_大卫的下一句话是：说得轻巧_
