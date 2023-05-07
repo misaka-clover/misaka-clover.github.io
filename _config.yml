@@ -113,6 +113,3 @@ deploy:
   repo: https://github.com/misaka-clover/misaka-clover.github.io #此前新建仓库的链接
   branch: master #默认使用master分支
   message: Update Hexo Static Content #你可以自定义此次部署更新的说明
-
-
-

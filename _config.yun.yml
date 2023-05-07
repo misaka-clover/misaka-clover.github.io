@@ -79,9 +79,9 @@ bg_image:
 
 cursor:
   enable: true
-  default: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/css/md-cursors/pointer.cur
-  pointer: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/css/md-cursors/link.cur
-  text: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/css/md-cursors/text.cur
+  # default: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/css/md-cursors/pointer.cur
+  # pointer: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/css/md-cursors/link.cur
+  # text: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/css/md-cursors/text.cur
 
 ########################################################################
 
@@ -259,7 +259,7 @@ footer:
   # 自定义文本
   # Any custom text can be defined here.
   # custom_text: Hosted by <a href="https://pages.coding.me" rel="noopener" target="_blank">Coding Pages</a>
-  custom_text: '博客版本：Version.1.4.9 | 
+  custom_text: '博客版本：Version.1.5.1 | 
                 <a href="https://icp.gov.moe" target="_blank" style="color:inherit"><img src="/images/moeicp.png" width="25" style="vertical-align:middle">萌ICP备 </a><a href="https://icp.gov.moe/?keyword=20232952" target="_blank" style="color:inherit"> 20232952 号</a>
                 '
 
@@ -439,7 +439,7 @@ google_analytics:
 #   # Required for apps from CN region
 #   server_url: https://mskclover-com.vercel.app
 
-#词数统计和阅读时间的估计
+# 词数统计和阅读时间的估计
 wordcount:
   enable: true
   count: true
@@ -455,5 +455,16 @@ katex:
 #   targets: 
 #     - .post-card5
 #     - .post-content img
+
+
+
+
+
+
+
+
+
+
+
 
 

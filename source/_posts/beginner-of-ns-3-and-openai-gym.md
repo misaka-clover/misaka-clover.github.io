@@ -570,5 +570,7 @@ util.CommandError: Command ['/usr/bin/python3', 'ns3', 'configure', '--enable-ex
 ## 其他参考资料：
 
 * [ns-3网络模拟中文入门视频教程系列](https://www.bilibili.com/video/BV1mz4y1S7eZ/)，[**开源文摘**](https://space.bilibili.com/488796480/)，Bilibili。
-* **感谢 stackoverflow 上的好兄弟们给予我的大力支持（**
+* **感谢 stackoverflow 上的世界友人们给予我的大力支持（**
+* **感谢我实验室的好兄弟 Monkey L 和 Boss G 给我的许多帮助**
+* **最后，感谢 OpenAI 公司开发的 ChatGPT 为我的 Linux 实践提供的许多释惑**
 
