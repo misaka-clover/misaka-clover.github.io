@@ -168,7 +168,7 @@ Build commands will be stored in build/compile_commands.json
 'build' finished successfully (6m35.643s)
 ```
 
-**⚠️记住，一定要为 Linux 分配足够的磁盘空间，建议 40G 左右，否则会编译失败。**
+**⚠️记住，一定要为 Linux 分配足够的磁盘空间，否则会编译失败。**
 
 ### 测试
 
@@ -563,13 +563,21 @@ util.CommandError: Command ['/usr/bin/python3', 'ns3', 'configure', '--enable-ex
 
 真是血泪教训啊。
 
+### Ubuntu 系统问题
+
+![linux_error](/images/beginner-of-ns-3-and-openai-gym/linux_error.jpg)
+
+现在我算是理解为什么基本没人将 Linux 作为日常使用的系统了，这破玩意儿三天两头出问题，一出问题就要重装，而且每次出的问题还不一样！我这一周已经重装了三次系统了！我受不了了，天知道我用 `sudo` 的时候干掉了什么东西……
+
 ## 后记
 
 现在看来，好庆幸当时一边做一边写了笔记：有时环境报错，我需要检查之前的配置；有时某几步需要重新做，我也不用再像第一次一样翻那么多的标签页，就简简单单地回看笔记就好。并且笔记中也记下了当时遇到了问题，使我也能够帮助到有需要的同学，真是太棒了！
 
 ## 其他参考资料：
 
-* [ns-3网络模拟中文入门视频教程系列](https://www.bilibili.com/video/BV1mz4y1S7eZ/)，[**开源文摘**](https://space.bilibili.com/488796480/)，Bilibili。
+* **首先感谢各官方网站上详尽的文档。**
+* [ns-3 网络模拟中文入门视频教程系列](https://www.bilibili.com/video/BV1mz4y1S7eZ/)，[**开源文摘**](https://space.bilibili.com/488796480/)，Bilibili。
+* [ns-3 快速上手](https://pinvondev.github.io/blog/2018/02/06/ns-3快速上手/)，**Pinvon's Blog**。
 * **感谢 stackoverflow 上的世界友人们给予我的大力支持（**
 * **感谢我实验室的好兄弟 Monkey L 和 Boss G 给我的许多帮助**
 * **最后，感谢 OpenAI 公司开发的 ChatGPT 为我的 Linux 实践提供的许多释惑**
