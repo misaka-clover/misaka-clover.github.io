@@ -1,7 +1,7 @@
 ---
 title: Test
 date: 2020-08-23 15:31:32
-updated: 2022-05-18 16:32:00
+# updated: 2022-05-18 16:32:00
 description: this is a test
 tags: 
     - test
@@ -124,5 +124,22 @@ Details
 </details>
 ```
 
+## 文字亮色
 
+```
+<label style="color:red">这是一段红色的文字</label>
+```
 
+<label style="color:red">这是一段红色的文字</label>
+
+<label style="color:yellow">这是一段黄色的文字</label>
+
+以此类推
+
+## 隐藏文字
+
+```
+<spam class="heimu">这是一段需要隐藏的文字</spam>
+```
+
+<spam class="heimu">这是一段需要隐藏的文字</spam>

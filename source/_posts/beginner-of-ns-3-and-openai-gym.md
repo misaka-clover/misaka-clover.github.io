@@ -24,7 +24,167 @@ keywords: ns3,ns-3,Ubuntu,openai-gym,下载,安装,安装环境,构建,报错
 
 既然是笔记，那就不用那么多修饰的字词了，简单就好：
 
-## ns-3 是什么
+## 前置环境搭建
+
+**写在前面：<label style="color:red">一定要善用 VMware 的快照功能！</label>**
+
+在一切开始之前，需要先准备好合适的环境：
+
+- 虚拟机：VMware® Workstation 16 Pro（16.2.5 build-20904516）
+- 系统：Ubuntu 22.04.2 LTS（此时更推荐使用 Ubuntu 20）
+- ⚠️ 注意：请至少为虚拟机分配 50 G 以上的空间，以保证在后续步骤中不会遇到空间不足的问题。
+
+首先，对于一个全新的系统，我们需要安装一个代码编辑器：比如 CS Code 或者 PyCharm，可以在官网或者 Ubuntu 的官方商店下载安装。虽然我两个都安装了，不过因为师兄推荐用后者，所以在下文我就以 PyCharm 为主吧。
+
+### Anaconda
+
+![anaconda](/images/beginner-of-ns-3-and-openai-gym/anaconda.jpg)
+
+Anaconda 是一个开源的 Python 和 R 语言的发行版本，具有管理 Python 的环境和包的工具，提供数据科学和机器学习的开发环境。根据官方的[安装教程](https://docs.anaconda.com/free/anaconda/install/linux/)，我们立刻进行一个安装：
+
+#### 先决条件
+
+```bash
+# 首先，个人建议先更新软件源列表：
+sudo apt update
+# 升级已安装的软件包
+sudo apt upgrade
+sudo apt-get update
+
+# Prerequisites
+# To use GUI packages with Linux, you will need to install 
+# the following extended dependencies for Qt:
+# 要在 Linux 中使用 GUI 包，您需要为 Qt 安装以下扩展依赖项：
+
+# Debian
+sudo apt-get install libgl1-mesa-glx libegl1-mesa libxrandr2 libxrandr2 libxss1 libxcursor1 libxcomposite1 libasound2 libxi6 libxtst6
+```
+
+#### 安装
+
+对于 x86 系统，也就是我们现在所使用的大多数系统，其安装方式如下：
+
+```bash
+# 1. In your browser, download the [Anaconda installer for Linux]
+#    https://www.anaconda.com/download/#linux/.
+
+-----
+
+# 2. Search for “terminal” in your applications and click to open.
+
+-----
+
+# 3. (Recommended) [Verify the installer’s data integrity with SHA-256].
+#    For more information on hash verification, see [cryptographic hash validation].
+
+# In the terminal, run the following:
+# shasum -a 256 /PATH/FILENAME
+shasum -a 256 ./Downloads/Anaconda3-2023.03-1-Linux-x86_64.sh
+# Replace /PATH/FILENAME with your installation's path and filename.
+
+-----
+
+# 4. Install for Python 3.7 or 2.7 in the terminal:
+#    For Python 3.7, enter the following:
+
+# Include the bash command regardless of whether or not you are using the Bash shell
+# 无论您是否使用 Bash shell，都包括 bash 命令
+# bash ~/Downloads/Anaconda3-2020.05-Linux-x86_64.sh
+bash ./Downloads/Anaconda3-2023.03-1-Linux-x86_64.sh
+# Replace ~/Downloads with your actual path
+# Replace the .sh file name with the name of the file you downloaded
+
+-----
+
+# 5. Press Enter to review the license agreement.
+#    Then press and hold Enter to scroll.
+
+# 6. Enter “yes” to agree to the license agreement.
+
+-----
+
+# 7. Use Enter to accept the default install location, use CTRL+C to cancel the installation, or enter another file path to specify an alternate installation directory. If you accept the default install location, the installer displays `PREFIX=/home/<USER>/anaconda<2/3>` and continues the installation. It may take a few minutes to complete.  
+# 7. 使用 Enter 接受默认安装位置，使用 CTRL+C 取消安装，或输入另一个文件路径以指定备用安装目录。如果您接受默认安装位置，安装程序将显示 `PREFIX=/home/<USER>/anaconda<2/3>` 并继续安装。可能需要几分钟才能完成。
+
+# NOTE: Anaconda recommends you accept the default install location. Do not choose the path as `/usr` for the Anaconda/Miniconda installation.
+# 注意：Anaconda 建议您接受默认安装位置。不要为 Anaconda/Miniconda 安装选择 `/usr` 路径。
+
+-----
+
+# 8. Anaconda recommends you enter “yes” to initialize Anaconda Distribution by running `conda init`.
+# 8. Anaconda 建议您输入“yes”以通过运行 `conda init` 来初始化 Anaconda Distribution。
+
+# 9. The installer finishes and displays, “Thank you for installing Anaconda<2/3>!”
+
+# 10. Close and re-open your terminal window for the installation to take effect, or enter the command `source ~/.bashrc` to refresh the terminal.
+# 10. 关闭并重新打开终端窗口以使安装生效，或输入命令 `source ~/.bashrc` 刷新终端。
+```
+
+好的，这样就可以算是将 Anaconda 安装完成了。别急，还有一件事：我们还需要将 `~/anaconda3/bin` 环境配置到我们的环境变量文件 `PATH` 之中，于是
+
+```bash
+# 获取当前的路径
+cd ~/anaconda3/bin
+pwd
+# 我的环境返回：/home/ubuntu/anaconda3/bin
+
+# 使用编辑器 nano 修改 bashrc 文件
+nano ~/.bashrc
+
+# 滑到最下面的位置，输入：
+export PATH="/home/ubuntu/anaconda3/bin:$PATH"
+```
+
+然后保存并退出，再刷新命令行，此时我们的 conda 就已经成功地安装到 Linux 系统当中了。
+
+#### 使用
+
+打开终端，在命令行中输入：
+
+```bash
+anaconda-navigator
+```
+
+即可开启 Anaconda 的图形化界面，此时可以打开另一个终端进行操作。或者，也可以不使用 GUI，直接在命令行中使用 `conda` 命令。在 Anaconda Navigator 界面中，我们通过 GUI 管理环境和安装包，可以创建新的环境、激活/停用环境、安装/卸载包等。由于图形化界面大家都会，所以在下文我们以命令行为主：
+
+此时，我们的系统环境是 `base(root)`，为了防止在这里一通折腾导致我像前几次一样暴毙，我们需要创建一个新的工作环境。在命令行中，使用如下指令创建新环境：
+
+```bash
+# 创建新的工作环境
+conda create --name ns3-gym
+
+# 激活/切换到新的环境
+conda activate ns3-gym
+```
+
+但是别急，最好不要这样做，因为新的环境里的包会很少，你做到后面不知道少了哪个包，就会很麻烦，所以直接克隆现有的 `base(root)` 环境为好：
+
+```bash
+# 先切换到之前的环境
+conda activate base
+
+# 删除之前的虚拟环境：
+conda env remove --name ns3-gym
+
+# 将本已激活环境的依赖包配置信息到处到应该 YAML 文件：
+conda env export > environment.yml
+# 这将生成一个名为 environment.yml 的文件，其中包含当前环境的依赖包列表。
+
+# 然后创建一个新的环境，并从导出的 YAML 文件中导入依赖包：
+conda env create -f environment.yml --name ns3-gym
+```
+
+在等待一段时间后，我们就可以在新环境中使用与原始环境相同的依赖包和配置了。不过需要注意的是，克隆环境是一个逐字复制环境的过程，包括所有依赖包和配置信息。这可能会占用一定的时间和磁盘空间，具体取决于环境的大小和复杂度。
+
+最后，我们切换到新的环境中：
+
+```bash
+conda activate ns3-gym
+```
+
+好啦，到这里我们就已经切换到工作环境啦，到时候一个不小心把它搞坏了也不怕。不过，我强烈建议像我这样的萌新，在这里为虚拟机存一个快照（
+
+## ns-3
 
 ![ns3_web](/images/beginner-of-ns-3-and-openai-gym/ns3_web.jpg)
 
@@ -38,17 +198,17 @@ keywords: ns3,ns-3,Ubuntu,openai-gym,下载,安装,安装环境,构建,报错
 
 简单来说，**ns-3** 是一个网络协议的研究与仿真工具。
 
-## 安装
+### 安装
 
-### 先决条件
+#### 先决条件
 
-根据官方的[教程](https://www.nsnam.org/docs/tutorial/html/getting-started.html#downloading-ns-3-using-bake/)，首先要检查 / 安装相关的第三方依赖软件包：
+根据官方的[教程](https://www.nsnam.org/docs/tutorial/html/getting-started.html#downloading-ns-3-using-bake/)，首先要检查 / 安装相关的第三方依赖软件包。下面的命令都是使用的 apt 工具管理，这些都是官方文档给出的；不过，由于我们使用了 `conda` 环境，所以最好能使用 `conda install` 命令安装；如果 `conda` 中没有，再使用也不迟。**因为如果使用了 `sudo apt install` 指令，那就是在全局安装包了，与我们的环境隔离打算相去甚远。**
 
 ```bash
-# 首先，个人建议先更新软件源列表：
+# 个人建议还是先更新软件源列表：
 sudo apt update
 # 升级已安装的软件包
-sudo apt upgrade
+sudo apt-get upgrade
 sudo apt-get update
 
 # 检查 git
@@ -70,7 +230,7 @@ sudo apt install g++
 g++ --version
 ```
 
-### 报错·I
+#### 报错·I
 
 此时我遇到一个问题，报错信息为：
 
@@ -99,7 +259,7 @@ sudo apt install libc6=2.35-0ubuntu3
 
 然后就可以继续愉快地使用 Ubuntu 啦！
 
-### 下载源码
+#### 下载源码
 
 ```bash
 mkdir ns-3
@@ -116,7 +276,7 @@ tar xjf ns-allinone-3.29.tar.bz2
 cd ns-allinone-3.29/
 ```
 
-## 构建
+### 构建
 
 我们会使用 `build.py` 进行 ns-3 的构建：
 
@@ -125,7 +285,7 @@ cd ns-allinone-3.29/
 ./build.py --help
 ```
 
-### 报错·II
+#### 报错·II
 
 此时又报错：
 
@@ -170,12 +330,14 @@ Build commands will be stored in build/compile_commands.json
 
 **⚠️记住，一定要为 Linux 分配足够的磁盘空间，否则会编译失败。**
 
-### 测试
+#### 测试
 
 同样的，使用 `test.py` 进行测试：
 
 ```bash
 # 测试
+cd ns-3.29
+
 # 官方给的指令是下面这个：
 ./test.py --no-build
 
@@ -212,7 +374,7 @@ List of SKIPped tests:
 在万事俱备后，我们照例跑一下实例程序：
 
 ```bash
-$ ./ns3 run hello-simulator
+./ns3 run hello-simulator
 
 # 输出
 Hello Simulator
@@ -237,15 +399,17 @@ Hello Simulator
 
 ---
 
-## ns3-gym 又是什么
+## ns3-gym
 
-![ns3_gym_web.jpg](/images/beginner-of-ns-3-and-openai-gym/ns3_gym_web.jpg)
+![ns3_gym_web](/images/beginner-of-ns-3-and-openai-gym/ns3_gym_web.jpg)
 
 [GitHub 处](https://github.com/tkn-tub/ns3-gym)：https://github.com/openai/gym/
 
 > [OpenAI Gym](https://gym.openai.com/) is a toolkit for reinforcement learning (RL) widely used in research. The network simulator [ns–3](https://www.nsnam.org/) is the de-facto standard for academic and industry studies in the areas of networking protocols and communication technologies. ns3-gym is a framework that integrates both OpenAI Gym and ns-3 in order to encourage usage of RL in networking research.
 
-简单来说，这是一个强化学习工具包，也是我研究路由协议的必备工具。
+简单来说，这是一个强化学习工具包，也是我研究路由协议的必备工具，它的框架结构如下图：
+
+![Architecture-of-ns3-gym-framework](/images/beginner-of-ns-3-and-openai-gym/Architecture-of-ns3-gym-framework.png)
 
 ### 安装
 
@@ -565,9 +729,13 @@ util.CommandError: Command ['/usr/bin/python3', 'ns3', 'configure', '--enable-ex
 
 ### Ubuntu 系统问题
 
+<label style="color:red">一定要善用 VMware 的快照功能！</label>
+
 ![linux_error](/images/beginner-of-ns-3-and-openai-gym/linux_error.jpg)
 
 现在我算是理解为什么基本没人将 Linux 作为日常使用的系统了，这破玩意儿三天两头出问题，一出问题就要重装，而且每次出的问题还不一样！我这一周已经重装了三次系统了！我受不了了，天知道我用 `sudo` 的时候干掉了什么东西……
+
+有了快照后，我们遇到问题就可以回滚，而不是重装系统了。
 
 ## 后记
 
@@ -576,9 +744,10 @@ util.CommandError: Command ['/usr/bin/python3', 'ns3', 'configure', '--enable-ex
 ## 其他参考资料：
 
 * **首先感谢各官方网站上详尽的文档。**
+* [Anaconda安装【Linux系统】](https://www.bilibili.com/video/BV1vM411x7HW/)，[**小L-Daily**](https://space.bilibili.com/284581928),Bilibili。
 * [ns-3 网络模拟中文入门视频教程系列](https://www.bilibili.com/video/BV1mz4y1S7eZ/)，[**开源文摘**](https://space.bilibili.com/488796480/)，Bilibili。
 * [ns-3 快速上手](https://pinvondev.github.io/blog/2018/02/06/ns-3快速上手/)，**Pinvon's Blog**。
 * **感谢 stackoverflow 上的世界友人们给予我的大力支持（**
 * **感谢我实验室的好兄弟 Monkey L 和 Boss G 给我的许多帮助**
 * **最后，感谢 OpenAI 公司开发的 ChatGPT 为我的 Linux 实践提供的许多释惑**
-
+  我真是太感动了，在最后我跟 ChatGPT 说：「好的，多谢！」，它回答我说：「不客气！如果你还有其他问题，随时都可以问我。祝你配置和构建顺利，顺利使用 ns-3 和 openai-gym！」
