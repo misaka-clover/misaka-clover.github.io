@@ -21,11 +21,13 @@ document.addEventListener("pjax:success", initScrollReveal);
 <meta property="og:description" content="又学习了新的东西">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://mskclover.com/images/beginner-of-ns-3-and-openai-gym/cover.jpg">
+<meta property="og:image" content="https://mskclover.com/images/beginner-of-ns-3-and-openai-gym/anaconda.jpg">
 <meta property="og:image" content="https://mskclover.com/images/beginner-of-ns-3-and-openai-gym/ns3_web.jpg">
 <meta property="og:image" content="https://mskclover.com/images/beginner-of-ns-3-and-openai-gym/ns3_gym_web.jpg">
+<meta property="og:image" content="https://mskclover.com/images/beginner-of-ns-3-and-openai-gym/Architecture-of-ns3-gym-framework.png">
 <meta property="og:image" content="https://mskclover.com/images/beginner-of-ns-3-and-openai-gym/linux_error.jpg">
 <meta property="article:published_time" content="2023-04-24T11:49:34.000Z">
-<meta property="article:modified_time" content="2023-05-08T15:10:24.761Z">
+<meta property="article:modified_time" content="2023-05-09T09:47:03.054Z">
 <meta property="article:author" content="叶子">
 <meta property="article:tag" content="博文">
 <meta property="article:tag" content="笔记">
@@ -52,12 +54,134 @@ IconifyProviders = {
     // Wait for 1 second before switching API hosts
     rotate: 1000,
   },
-};</script><script defer src="https://fastly.jsdelivr.net/npm/animejs@latest"></script><script defer src="/js/ui/fireworks.js" type="module"></script><canvas class="fireworks"></canvas><div class="container"><a class="sidebar-toggle hty-icon-button" id="menu-btn"><div class="hamburger hamburger--spin" type="button"><span class="hamburger-box"><span class="hamburger-inner"></span></span></div></a><div class="sidebar-toggle sidebar-overlay"></div><aside class="sidebar"><script src="/js/sidebar.js" type="module"></script><ul class="sidebar-nav"><li class="sidebar-nav-item sidebar-nav-toc hty-icon-button sidebar-nav-active" data-target="post-toc-wrap" title="文章目录"><span class="icon iconify" data-icon="ri:list-ordered"></span></li><li class="sidebar-nav-item sidebar-nav-overview hty-icon-button" data-target="site-overview-wrap" title="站点概览"><span class="icon iconify" data-icon="ri:passport-line"></span></li></ul><div class="sidebar-panel" id="site-overview-wrap"><div class="site-info fix-top"><a class="site-author-avatar" href="/about/" title="叶子"><img width="96" loading="lazy" src="/images/avatar/avatar.jpg" alt="叶子"><span class="site-author-status" title="今天也是美好的一天呢">🥬</span></a><div class="site-author-name"><a href="/about/">叶子</a></div><a class="site-name" href="/about/site.html">叶子的花园</a><sub class="site-subtitle">靡不有初，鲜克有终</sub><div class="site-description">@Misaka-Clover</div></div><nav class="site-state"><a class="site-state-item hty-icon-button icon-home" href="/" title="首页"><span class="site-state-item-icon"><span class="icon iconify" data-icon="ri:home-4-line"></span></span></a><div class="site-state-item"><a href="/archives/" title="归档"><span class="site-state-item-icon"><span class="icon iconify" data-icon="ri:archive-line"></span></span><span class="site-state-item-count">36</span></a></div><div class="site-state-item"><a href="/categories/" title="分类"><span class="site-state-item-icon"><span class="icon iconify" data-icon="ri:folder-2-line"></span></span><span class="site-state-item-count">8</span></a></div><div class="site-state-item"><a href="/tags/" title="标签"><span class="site-state-item-icon"><span class="icon iconify" data-icon="ri:price-tag-3-line"></span></span><span class="site-state-item-count">82</span></a></div><a class="site-state-item hty-icon-button" href="/about/#comment" title="guestbook"><span class="site-state-item-icon"><span class="icon iconify" data-icon="ri:clipboard-line"></span></span></a></nav><hr style="margin-bottom:0.5rem"><div class="links-of-author"><a class="links-of-author-item hty-icon-button" rel="noopener" href="/atom.xml" title="RSS" target="_blank" style="color:orange"><span class="icon iconify" data-icon="ri:rss-line"></span></a><a class="links-of-author-item hty-icon-button" rel="noopener" href="https://github.com/misaka-clover" title="GitHub" target="_blank" style="color:#181717"><span class="icon iconify" data-icon="ri:github-line"></span></a><a class="links-of-author-item hty-icon-button" rel="noopener" href="https://twitter.com/Misaka_Clover" title="Twitter" target="_blank" style="color:#1da1f2"><span class="icon iconify" data-icon="ri:twitter-line"></span></a><a class="links-of-author-item hty-icon-button" rel="noopener" href="mailto:cover@mskclover.com" title="E-Mail" target="_blank" style="color:#8E71C1"><span class="icon iconify" data-icon="ri:mail-line"></span></a><a class="links-of-author-item hty-icon-button" rel="noopener" href="https://www.travellings.cn/go.html" title="Travelling" target="_blank" style="color:var(--hty-text-color)"><span class="icon iconify" data-icon="ri:train-line"></span></a></div><hr style="margin:0.5rem 1rem"><div class="links"><a class="links-item hty-icon-button" href="/links/" title="我的小伙伴们" style="color:dodgerblue"><span class="icon iconify" data-icon="ri:genderless-line"></span></a></div><br><a class="links-item hty-icon-button" id="toggle-mode-btn" href="javascript:;" title="Mode" style="color: #f1cb64"><span class="icon iconify" data-icon="ri:contrast-2-line"></span></a></div><div class="sidebar-panel sidebar-panel-active" id="post-toc-wrap"><div class="post-toc"><div class="post-toc-content"><ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#ns-3-%E6%98%AF%E4%BB%80%E4%B9%88"><span class="toc-number">1.</span> <span class="toc-text">ns-3 是什么</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%AE%89%E8%A3%85"><span class="toc-number">2.</span> <span class="toc-text">安装</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%85%88%E5%86%B3%E6%9D%A1%E4%BB%B6"><span class="toc-number">2.1.</span> <span class="toc-text">先决条件</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%8A%A5%E9%94%99%C2%B7I"><span class="toc-number">2.2.</span> <span class="toc-text">报错·I</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%B8%8B%E8%BD%BD%E6%BA%90%E7%A0%81"><span class="toc-number">2.3.</span> <span class="toc-text">下载源码</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%9E%84%E5%BB%BA"><span class="toc-number">3.</span> <span class="toc-text">构建</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%8A%A5%E9%94%99%C2%B7II"><span class="toc-number">3.1.</span> <span class="toc-text">报错·II</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%B5%8B%E8%AF%95"><span class="toc-number">3.2.</span> <span class="toc-text">测试</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Hello-World"><span class="toc-number">3.3.</span> <span class="toc-text">Hello World</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#ns3-gym-%E5%8F%88%E6%98%AF%E4%BB%80%E4%B9%88"><span class="toc-number">4.</span> <span class="toc-text">ns3-gym 又是什么</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%AE%89%E8%A3%85-1"><span class="toc-number">4.1.</span> <span class="toc-text">安装</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%8A%A5%E9%94%99%C2%B7III"><span class="toc-number">4.2.</span> <span class="toc-text">报错·III</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%85%B6%E4%BB%96%E9%81%87%E5%88%B0%E7%9A%84%E9%97%AE%E9%A2%98"><span class="toc-number">5.</span> <span class="toc-text">其他遇到的问题</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%AE%89%E8%A3%85%E6%96%B9%E5%BC%8F%E5%87%BA%E7%8E%B0%E9%97%AE%E9%A2%98"><span class="toc-number">5.1.</span> <span class="toc-text">安装方式出现问题</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%99%9A%E6%8B%9F%E6%9C%BA%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B9"><span class="toc-number">5.2.</span> <span class="toc-text">虚拟机注意事项</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%89%88%E6%9C%AC%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B9"><span class="toc-number">5.3.</span> <span class="toc-text">版本注意事项</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Ubuntu-%E7%B3%BB%E7%BB%9F%E9%97%AE%E9%A2%98"><span class="toc-number">5.4.</span> <span class="toc-text">Ubuntu 系统问题</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%90%8E%E8%AE%B0"><span class="toc-number">6.</span> <span class="toc-text">后记</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%85%B6%E4%BB%96%E5%8F%82%E8%80%83%E8%B5%84%E6%96%99%EF%BC%9A"><span class="toc-number">7.</span> <span class="toc-text">其他参考资料：</span></a></li></ol></div></div></div></aside><main class="sidebar-translate" id="content"><div id="post"><article class="hty-card post-block" itemscope itemtype="https://schema.org/Article" style="--smc-primary:#0078E7;"><link itemprop="mainEntityOfPage" href="https://mskclover.com/2023/04/24/beginner-of-ns-3-and-openai-gym/"><span hidden itemprop="author" itemscope itemtype="https://schema.org/Person"><meta itemprop="name" content="叶子"><meta itemprop="description"></span><span hidden itemprop="publisher" itemscope itemtype="https://schema.org/Organization"><meta itemprop="name" content="叶子的花园"></span><header class="post-header"><h1 class="post-title" itemprop="name headline">【笔记】ns-3 与 openai-gym 初入门</h1><div class="post-meta"><div class="post-time" style="display:block"><span class="post-meta-item-icon"><span class="icon iconify" data-icon="ri:calendar-line"></span></span> <time title="创建时间：2023-04-24 19:49:34" itemprop="dateCreated datePublished" datetime="2023-04-24T19:49:34+08:00">2023-04-24</time><span class="post-meta-divider">-</span><span class="post-meta-item-icon"><span class="icon iconify" data-icon="ri:calendar-2-line"></span></span> <time title="修改时间：2023-05-08 23:10:24" itemprop="dateModified" datetime="2023-05-08T23:10:24+08:00">2023-05-08</time></div><span class="post-count"><span class="post-symbolcount"><span class="post-meta-item-icon" title="本文字数"><span class="icon iconify" data-icon="ri:file-word-line"></span></span> <span title="本文字数">4k</span><span class="post-meta-divider">-</span><span class="post-meta-item-icon" title="阅读时长"><span class="icon iconify" data-icon="ri:timer-line"></span></span> <span title="阅读时长">18m</span></span></span><div class="post-classify"><span class="post-category"> <span class="post-meta-item-icon" style="margin-right:3px;"><span class="icon iconify" data-icon="ri:folder-line"></span></span><span itemprop="about" itemscope itemtype="https://schema.org/Thing"><a class="category-item" href="/categories/%E5%8F%B6%E5%AD%90%E7%9A%84%E5%B0%8F%E7%9F%A5%E8%AF%86/" style="--text-color:var(--hty-text-color)" itemprop="url" rel="index"><span itemprop="text">叶子的小知识</span></a></span></span><span class="post-tag"><span class="post-meta-divider">-</span><a class="tag-item" href="/tags/%E5%8D%9A%E6%96%87/" style="--text-color:var(--hty-text-color)"><span class="post-meta-item-icon"><span class="icon iconify" data-icon="ri:price-tag-3-line"></span></span><span class="tag-name">博文</span></a><a class="tag-item" href="/tags/%E7%AC%94%E8%AE%B0/" style="--text-color:var(--hty-text-color)"><span class="post-meta-item-icon"><span class="icon iconify" data-icon="ri:price-tag-3-line"></span></span><span class="tag-name">笔记</span></a><a class="tag-item" href="/tags/Ubuntu/" style="--text-color:var(--hty-text-color)"><span class="post-meta-item-icon"><span class="icon iconify" data-icon="ri:price-tag-3-line"></span></span><span class="tag-name">Ubuntu</span></a><a class="tag-item" href="/tags/ns-3/" style="--text-color:var(--hty-text-color)"><span class="post-meta-item-icon"><span class="icon iconify" data-icon="ri:price-tag-3-line"></span></span><span class="tag-name">ns-3</span></a><a class="tag-item" href="/tags/opai-gym/" style="--text-color:var(--hty-text-color)"><span class="post-meta-item-icon"><span class="icon iconify" data-icon="ri:price-tag-3-line"></span></span><span class="tag-name">opai-gym</span></a><a class="tag-item" href="/tags/%E5%AE%89%E8%A3%85%E7%8E%AF%E5%A2%83/" style="--text-color:var(--hty-text-color)"><span class="post-meta-item-icon"><span class="icon iconify" data-icon="ri:price-tag-3-line"></span></span><span class="tag-name">安装环境</span></a><a class="tag-item" href="/tags/%E6%AF%95%E8%AE%BE/" style="--text-color:var(--hty-text-color)"><span class="post-meta-item-icon"><span class="icon iconify" data-icon="ri:price-tag-3-line"></span></span><span class="tag-name">毕设</span></a></span></div></div></header><section class="post-body" itemprop="articleBody"><div class="post-content markdown-body"><p><img src="/images/beginner-of-ns-3-and-openai-gym/cover.jpg" alt="cover" loading="lazy"></p>
+};</script><script defer src="https://fastly.jsdelivr.net/npm/animejs@latest"></script><script defer src="/js/ui/fireworks.js" type="module"></script><canvas class="fireworks"></canvas><div class="container"><a class="sidebar-toggle hty-icon-button" id="menu-btn"><div class="hamburger hamburger--spin" type="button"><span class="hamburger-box"><span class="hamburger-inner"></span></span></div></a><div class="sidebar-toggle sidebar-overlay"></div><aside class="sidebar"><script src="/js/sidebar.js" type="module"></script><ul class="sidebar-nav"><li class="sidebar-nav-item sidebar-nav-toc hty-icon-button sidebar-nav-active" data-target="post-toc-wrap" title="文章目录"><span class="icon iconify" data-icon="ri:list-ordered"></span></li><li class="sidebar-nav-item sidebar-nav-overview hty-icon-button" data-target="site-overview-wrap" title="站点概览"><span class="icon iconify" data-icon="ri:passport-line"></span></li></ul><div class="sidebar-panel" id="site-overview-wrap"><div class="site-info fix-top"><a class="site-author-avatar" href="/about/" title="叶子"><img width="96" loading="lazy" src="/images/avatar/avatar.jpg" alt="叶子"><span class="site-author-status" title="今天也是美好的一天呢">🥬</span></a><div class="site-author-name"><a href="/about/">叶子</a></div><a class="site-name" href="/about/site.html">叶子的花园</a><sub class="site-subtitle">靡不有初，鲜克有终</sub><div class="site-description">@Misaka-Clover</div></div><nav class="site-state"><a class="site-state-item hty-icon-button icon-home" href="/" title="首页"><span class="site-state-item-icon"><span class="icon iconify" data-icon="ri:home-4-line"></span></span></a><div class="site-state-item"><a href="/archives/" title="归档"><span class="site-state-item-icon"><span class="icon iconify" data-icon="ri:archive-line"></span></span><span class="site-state-item-count">36</span></a></div><div class="site-state-item"><a href="/categories/" title="分类"><span class="site-state-item-icon"><span class="icon iconify" data-icon="ri:folder-2-line"></span></span><span class="site-state-item-count">8</span></a></div><div class="site-state-item"><a href="/tags/" title="标签"><span class="site-state-item-icon"><span class="icon iconify" data-icon="ri:price-tag-3-line"></span></span><span class="site-state-item-count">82</span></a></div><a class="site-state-item hty-icon-button" href="/about/#comment" title="guestbook"><span class="site-state-item-icon"><span class="icon iconify" data-icon="ri:clipboard-line"></span></span></a></nav><hr style="margin-bottom:0.5rem"><div class="links-of-author"><a class="links-of-author-item hty-icon-button" rel="noopener" href="/atom.xml" title="RSS" target="_blank" style="color:orange"><span class="icon iconify" data-icon="ri:rss-line"></span></a><a class="links-of-author-item hty-icon-button" rel="noopener" href="https://github.com/misaka-clover" title="GitHub" target="_blank" style="color:#181717"><span class="icon iconify" data-icon="ri:github-line"></span></a><a class="links-of-author-item hty-icon-button" rel="noopener" href="https://twitter.com/Misaka_Clover" title="Twitter" target="_blank" style="color:#1da1f2"><span class="icon iconify" data-icon="ri:twitter-line"></span></a><a class="links-of-author-item hty-icon-button" rel="noopener" href="mailto:cover@mskclover.com" title="E-Mail" target="_blank" style="color:#8E71C1"><span class="icon iconify" data-icon="ri:mail-line"></span></a><a class="links-of-author-item hty-icon-button" rel="noopener" href="https://www.travellings.cn/go.html" title="Travelling" target="_blank" style="color:var(--hty-text-color)"><span class="icon iconify" data-icon="ri:train-line"></span></a></div><hr style="margin:0.5rem 1rem"><div class="links"><a class="links-item hty-icon-button" href="/links/" title="我的小伙伴们" style="color:dodgerblue"><span class="icon iconify" data-icon="ri:genderless-line"></span></a></div><br><a class="links-item hty-icon-button" id="toggle-mode-btn" href="javascript:;" title="Mode" style="color: #f1cb64"><span class="icon iconify" data-icon="ri:contrast-2-line"></span></a></div><div class="sidebar-panel sidebar-panel-active" id="post-toc-wrap"><div class="post-toc"><div class="post-toc-content"><ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%89%8D%E7%BD%AE%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA"><span class="toc-number">1.</span> <span class="toc-text">前置环境搭建</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Anaconda"><span class="toc-number">1.1.</span> <span class="toc-text">Anaconda</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%85%88%E5%86%B3%E6%9D%A1%E4%BB%B6"><span class="toc-number">1.1.1.</span> <span class="toc-text">先决条件</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%AE%89%E8%A3%85"><span class="toc-number">1.1.2.</span> <span class="toc-text">安装</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E4%BD%BF%E7%94%A8"><span class="toc-number">1.1.3.</span> <span class="toc-text">使用</span></a></li></ol></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#ns-3"><span class="toc-number">2.</span> <span class="toc-text">ns-3</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%AE%89%E8%A3%85-1"><span class="toc-number">2.1.</span> <span class="toc-text">安装</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%85%88%E5%86%B3%E6%9D%A1%E4%BB%B6-1"><span class="toc-number">2.1.1.</span> <span class="toc-text">先决条件</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E6%8A%A5%E9%94%99%C2%B7I"><span class="toc-number">2.1.2.</span> <span class="toc-text">报错·I</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E4%B8%8B%E8%BD%BD%E6%BA%90%E7%A0%81"><span class="toc-number">2.1.3.</span> <span class="toc-text">下载源码</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%9E%84%E5%BB%BA"><span class="toc-number">2.2.</span> <span class="toc-text">构建</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E6%8A%A5%E9%94%99%C2%B7II"><span class="toc-number">2.2.1.</span> <span class="toc-text">报错·II</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E6%B5%8B%E8%AF%95"><span class="toc-number">2.2.2.</span> <span class="toc-text">测试</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Hello-World"><span class="toc-number">2.3.</span> <span class="toc-text">Hello World</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#ns3-gym"><span class="toc-number">3.</span> <span class="toc-text">ns3-gym</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%AE%89%E8%A3%85-2"><span class="toc-number">3.1.</span> <span class="toc-text">安装</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%8A%A5%E9%94%99%C2%B7III"><span class="toc-number">3.2.</span> <span class="toc-text">报错·III</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%85%B6%E4%BB%96%E9%81%87%E5%88%B0%E7%9A%84%E9%97%AE%E9%A2%98"><span class="toc-number">4.</span> <span class="toc-text">其他遇到的问题</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%AE%89%E8%A3%85%E6%96%B9%E5%BC%8F%E5%87%BA%E7%8E%B0%E9%97%AE%E9%A2%98"><span class="toc-number">4.1.</span> <span class="toc-text">安装方式出现问题</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%99%9A%E6%8B%9F%E6%9C%BA%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B9"><span class="toc-number">4.2.</span> <span class="toc-text">虚拟机注意事项</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%89%88%E6%9C%AC%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B9"><span class="toc-number">4.3.</span> <span class="toc-text">版本注意事项</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Ubuntu-%E7%B3%BB%E7%BB%9F%E9%97%AE%E9%A2%98"><span class="toc-number">4.4.</span> <span class="toc-text">Ubuntu 系统问题</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%90%8E%E8%AE%B0"><span class="toc-number">5.</span> <span class="toc-text">后记</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%85%B6%E4%BB%96%E5%8F%82%E8%80%83%E8%B5%84%E6%96%99%EF%BC%9A"><span class="toc-number">6.</span> <span class="toc-text">其他参考资料：</span></a></li></ol></div></div></div></aside><main class="sidebar-translate" id="content"><div id="post"><article class="hty-card post-block" itemscope itemtype="https://schema.org/Article" style="--smc-primary:#0078E7;"><link itemprop="mainEntityOfPage" href="https://mskclover.com/2023/04/24/beginner-of-ns-3-and-openai-gym/"><span hidden itemprop="author" itemscope itemtype="https://schema.org/Person"><meta itemprop="name" content="叶子"><meta itemprop="description"></span><span hidden itemprop="publisher" itemscope itemtype="https://schema.org/Organization"><meta itemprop="name" content="叶子的花园"></span><header class="post-header"><h1 class="post-title" itemprop="name headline">【笔记】ns-3 与 openai-gym 初入门</h1><div class="post-meta"><div class="post-time" style="display:block"><span class="post-meta-item-icon"><span class="icon iconify" data-icon="ri:calendar-line"></span></span> <time title="创建时间：2023-04-24 19:49:34" itemprop="dateCreated datePublished" datetime="2023-04-24T19:49:34+08:00">2023-04-24</time><span class="post-meta-divider">-</span><span class="post-meta-item-icon"><span class="icon iconify" data-icon="ri:calendar-2-line"></span></span> <time title="修改时间：2023-05-09 17:47:03" itemprop="dateModified" datetime="2023-05-09T17:47:03+08:00">2023-05-09</time></div><span class="post-count"><span class="post-symbolcount"><span class="post-meta-item-icon" title="本文字数"><span class="icon iconify" data-icon="ri:file-word-line"></span></span> <span title="本文字数">5.8k</span><span class="post-meta-divider">-</span><span class="post-meta-item-icon" title="阅读时长"><span class="icon iconify" data-icon="ri:timer-line"></span></span> <span title="阅读时长">26m</span></span></span><div class="post-classify"><span class="post-category"> <span class="post-meta-item-icon" style="margin-right:3px;"><span class="icon iconify" data-icon="ri:folder-line"></span></span><span itemprop="about" itemscope itemtype="https://schema.org/Thing"><a class="category-item" href="/categories/%E5%8F%B6%E5%AD%90%E7%9A%84%E5%B0%8F%E7%9F%A5%E8%AF%86/" style="--text-color:var(--hty-text-color)" itemprop="url" rel="index"><span itemprop="text">叶子的小知识</span></a></span></span><span class="post-tag"><span class="post-meta-divider">-</span><a class="tag-item" href="/tags/%E5%8D%9A%E6%96%87/" style="--text-color:var(--hty-text-color)"><span class="post-meta-item-icon"><span class="icon iconify" data-icon="ri:price-tag-3-line"></span></span><span class="tag-name">博文</span></a><a class="tag-item" href="/tags/%E7%AC%94%E8%AE%B0/" style="--text-color:var(--hty-text-color)"><span class="post-meta-item-icon"><span class="icon iconify" data-icon="ri:price-tag-3-line"></span></span><span class="tag-name">笔记</span></a><a class="tag-item" href="/tags/Ubuntu/" style="--text-color:var(--hty-text-color)"><span class="post-meta-item-icon"><span class="icon iconify" data-icon="ri:price-tag-3-line"></span></span><span class="tag-name">Ubuntu</span></a><a class="tag-item" href="/tags/ns-3/" style="--text-color:var(--hty-text-color)"><span class="post-meta-item-icon"><span class="icon iconify" data-icon="ri:price-tag-3-line"></span></span><span class="tag-name">ns-3</span></a><a class="tag-item" href="/tags/opai-gym/" style="--text-color:var(--hty-text-color)"><span class="post-meta-item-icon"><span class="icon iconify" data-icon="ri:price-tag-3-line"></span></span><span class="tag-name">opai-gym</span></a><a class="tag-item" href="/tags/%E5%AE%89%E8%A3%85%E7%8E%AF%E5%A2%83/" style="--text-color:var(--hty-text-color)"><span class="post-meta-item-icon"><span class="icon iconify" data-icon="ri:price-tag-3-line"></span></span><span class="tag-name">安装环境</span></a><a class="tag-item" href="/tags/%E6%AF%95%E8%AE%BE/" style="--text-color:var(--hty-text-color)"><span class="post-meta-item-icon"><span class="icon iconify" data-icon="ri:price-tag-3-line"></span></span><span class="tag-name">毕设</span></a></span></div></div></header><section class="post-body" itemprop="articleBody"><div class="post-content markdown-body"><p><img src="/images/beginner-of-ns-3-and-openai-gym/cover.jpg" alt="cover" loading="lazy"></p>
 <p>最近因为在做<strong>毕设</strong>时需要学习一些更新的知识、与使用更复杂的工具，所以我想还是像以往那样，通过记下学习笔记的方式辅助自己学习，所以就开始写这篇笔记。</p>
 <span id="more"></span>
 
 <p>既然是笔记，那就不用那么多修饰的字词了，简单就好：</p>
-<h2 id="ns-3-是什么"><a href="#ns-3-是什么" class="headerlink" title="ns-3 是什么"></a>ns-3 是什么</h2><p><img src="/images/beginner-of-ns-3-and-openai-gym/ns3_web.jpg" alt="ns3_web" loading="lazy"></p>
+<h2 id="前置环境搭建"><a href="#前置环境搭建" class="headerlink" title="前置环境搭建"></a>前置环境搭建</h2><p><strong>写在前面：<label style="color:red">一定要善用 VMware 的快照功能！</label></strong></p>
+<p>在一切开始之前，需要先准备好合适的环境：</p>
+<ul>
+<li>虚拟机：VMware® Workstation 16 Pro（16.2.5 build-20904516）</li>
+<li>系统：Ubuntu 22.04.2 LTS（此时更推荐使用 Ubuntu 20）</li>
+<li>⚠️ 注意：请至少为虚拟机分配 50 G 以上的空间，以保证在后续步骤中不会遇到空间不足的问题。</li>
+</ul>
+<p>首先，对于一个全新的系统，我们需要安装一个代码编辑器：比如 CS Code 或者 PyCharm，可以在官网或者 Ubuntu 的官方商店下载安装。虽然我两个都安装了，不过因为师兄推荐用后者，所以在下文我就以 PyCharm 为主吧。</p>
+<h3 id="Anaconda"><a href="#Anaconda" class="headerlink" title="Anaconda"></a>Anaconda</h3><p><img src="/images/beginner-of-ns-3-and-openai-gym/anaconda.jpg" alt="anaconda" loading="lazy"></p>
+<p>Anaconda 是一个开源的 Python 和 R 语言的发行版本，具有管理 Python 的环境和包的工具，提供数据科学和机器学习的开发环境。根据官方的<a target="_blank" rel="noopener" href="https://docs.anaconda.com/free/anaconda/install/linux/">安装教程</a>，我们立刻进行一个安装：</p>
+<h4 id="先决条件"><a href="#先决条件" class="headerlink" title="先决条件"></a>先决条件</h4><pre class="language-bash" data-language="bash"><code class="language-bash"><span class="token comment"># 首先，个人建议先更新软件源列表：</span>
+<span class="token function">sudo</span> <span class="token function">apt</span> update
+<span class="token comment"># 升级已安装的软件包</span>
+<span class="token function">sudo</span> <span class="token function">apt</span> upgrade
+<span class="token function">sudo</span> <span class="token function">apt-get</span> update
+
+<span class="token comment"># Prerequisites</span>
+<span class="token comment"># To use GUI packages with Linux, you will need to install </span>
+<span class="token comment"># the following extended dependencies for Qt:</span>
+<span class="token comment"># 要在 Linux 中使用 GUI 包，您需要为 Qt 安装以下扩展依赖项：</span>
+
+<span class="token comment"># Debian</span>
+<span class="token function">sudo</span> <span class="token function">apt-get</span> <span class="token function">install</span> libgl1-mesa-glx libegl1-mesa libxrandr2 libxrandr2 libxss1 libxcursor1 libxcomposite1 libasound2 libxi6 libxtst6</code></pre>
+
+<h4 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h4><p>对于 x86 系统，也就是我们现在所使用的大多数系统，其安装方式如下：</p>
+<pre class="language-bash" data-language="bash"><code class="language-bash"><span class="token comment"># 1. In your browser, download the [Anaconda installer for Linux]</span>
+<span class="token comment">#    https://www.anaconda.com/download/#linux/.</span>
+
+-----
+
+<span class="token comment"># 2. Search for “terminal” in your applications and click to open.</span>
+
+-----
+
+<span class="token comment"># 3. (Recommended) [Verify the installer’s data integrity with SHA-256].</span>
+<span class="token comment">#    For more information on hash verification, see [cryptographic hash validation].</span>
+
+<span class="token comment"># In the terminal, run the following:</span>
+<span class="token comment"># shasum -a 256 /PATH/FILENAME</span>
+shasum <span class="token parameter variable">-a</span> <span class="token number">256</span> ./Downloads/Anaconda3-2023.03-1-Linux-x86_64.sh
+<span class="token comment"># Replace /PATH/FILENAME with your installation's path and filename.</span>
+
+-----
+
+<span class="token comment"># 4. Install for Python 3.7 or 2.7 in the terminal:</span>
+<span class="token comment">#    For Python 3.7, enter the following:</span>
+
+<span class="token comment"># Include the bash command regardless of whether or not you are using the Bash shell</span>
+<span class="token comment"># 无论您是否使用 Bash shell，都包括 bash 命令</span>
+<span class="token comment"># bash ~/Downloads/Anaconda3-2020.05-Linux-x86_64.sh</span>
+<span class="token function">bash</span> ./Downloads/Anaconda3-2023.03-1-Linux-x86_64.sh
+<span class="token comment"># Replace ~/Downloads with your actual path</span>
+<span class="token comment"># Replace the .sh file name with the name of the file you downloaded</span>
+
+-----
+
+<span class="token comment"># 5. Press Enter to review the license agreement.</span>
+<span class="token comment">#    Then press and hold Enter to scroll.</span>
+
+<span class="token comment"># 6. Enter “yes” to agree to the license agreement.</span>
+
+-----
+
+<span class="token comment"># 7. Use Enter to accept the default install location, use CTRL+C to cancel the installation, or enter another file path to specify an alternate installation directory. If you accept the default install location, the installer displays `PREFIX=/home/&lt;USER>/anaconda&lt;2/3>` and continues the installation. It may take a few minutes to complete.  </span>
+<span class="token comment"># 7. 使用 Enter 接受默认安装位置，使用 CTRL+C 取消安装，或输入另一个文件路径以指定备用安装目录。如果您接受默认安装位置，安装程序将显示 `PREFIX=/home/&lt;USER>/anaconda&lt;2/3>` 并继续安装。可能需要几分钟才能完成。</span>
+
+<span class="token comment"># NOTE: Anaconda recommends you accept the default install location. Do not choose the path as `/usr` for the Anaconda/Miniconda installation.</span>
+<span class="token comment"># 注意：Anaconda 建议您接受默认安装位置。不要为 Anaconda/Miniconda 安装选择 `/usr` 路径。</span>
+
+-----
+
+<span class="token comment"># 8. Anaconda recommends you enter “yes” to initialize Anaconda Distribution by running `conda init`.</span>
+<span class="token comment"># 8. Anaconda 建议您输入“yes”以通过运行 `conda init` 来初始化 Anaconda Distribution。</span>
+
+<span class="token comment"># 9. The installer finishes and displays, “Thank you for installing Anaconda&lt;2/3>!”</span>
+
+<span class="token comment"># 10. Close and re-open your terminal window for the installation to take effect, or enter the command `source ~/.bashrc` to refresh the terminal.</span>
+<span class="token comment"># 10. 关闭并重新打开终端窗口以使安装生效，或输入命令 `source ~/.bashrc` 刷新终端。</span></code></pre>
+
+<p>好的，这样就可以算是将 Anaconda 安装完成了。别急，还有一件事：我们还需要将 <code>~/anaconda3/bin</code> 环境配置到我们的环境变量文件 <code>PATH</code> 之中，于是</p>
+<pre class="language-bash" data-language="bash"><code class="language-bash"><span class="token comment"># 获取当前的路径</span>
+<span class="token builtin class-name">cd</span> ~/anaconda3/bin
+<span class="token builtin class-name">pwd</span>
+<span class="token comment"># 我的环境返回：/home/ubuntu/anaconda3/bin</span>
+
+<span class="token comment"># 使用编辑器 nano 修改 bashrc 文件</span>
+<span class="token function">nano</span> ~/.bashrc
+
+<span class="token comment"># 滑到最下面的位置，输入：</span>
+<span class="token builtin class-name">export</span> <span class="token assign-left variable"><span class="token environment constant">PATH</span></span><span class="token operator">=</span><span class="token string">"/home/ubuntu/anaconda3/bin:<span class="token environment constant">$PATH</span>"</span></code></pre>
+
+<p>然后保存并退出，再刷新命令行，此时我们的 conda 就已经成功地安装到 Linux 系统当中了。</p>
+<h4 id="使用"><a href="#使用" class="headerlink" title="使用"></a>使用</h4><p>打开终端，在命令行中输入：</p>
+<pre class="language-bash" data-language="bash"><code class="language-bash">anaconda-navigator</code></pre>
+
+<p>即可开启 Anaconda 的图形化界面，此时可以打开另一个终端进行操作。或者，也可以不使用 GUI，直接在命令行中使用 <code>conda</code> 命令。在 Anaconda Navigator 界面中，我们通过 GUI 管理环境和安装包，可以创建新的环境、激活&#x2F;停用环境、安装&#x2F;卸载包等。由于图形化界面大家都会，所以在下文我们以命令行为主：</p>
+<p>此时，我们的系统环境是 <code>base(root)</code>，为了防止在这里一通折腾导致我像前几次一样暴毙，我们需要创建一个新的工作环境。在命令行中，使用如下指令创建新环境：</p>
+<pre class="language-bash" data-language="bash"><code class="language-bash"><span class="token comment"># 创建新的工作环境</span>
+conda create <span class="token parameter variable">--name</span> ns3-gym
+
+<span class="token comment"># 激活/切换到新的环境</span>
+conda activate ns3-gym</code></pre>
+
+<p>但是别急，最好不要这样做，因为新的环境里的包会很少，你做到后面不知道少了哪个包，就会很麻烦，所以直接克隆现有的 <code>base(root)</code> 环境为好：</p>
+<pre class="language-bash" data-language="bash"><code class="language-bash"><span class="token comment"># 先切换到之前的环境</span>
+conda activate base
+
+<span class="token comment"># 删除之前的虚拟环境：</span>
+conda <span class="token function">env</span> remove <span class="token parameter variable">--name</span> ns3-gym
+
+<span class="token comment"># 将本已激活环境的依赖包配置信息到处到应该 YAML 文件：</span>
+conda <span class="token function">env</span> <span class="token builtin class-name">export</span> <span class="token operator">></span> environment.yml
+<span class="token comment"># 这将生成一个名为 environment.yml 的文件，其中包含当前环境的依赖包列表。</span>
+
+<span class="token comment"># 然后创建一个新的环境，并从导出的 YAML 文件中导入依赖包：</span>
+conda <span class="token function">env</span> create <span class="token parameter variable">-f</span> environment.yml <span class="token parameter variable">--name</span> ns3-gym</code></pre>
+
+<p>在等待一段时间后，我们就可以在新环境中使用与原始环境相同的依赖包和配置了。不过需要注意的是，克隆环境是一个逐字复制环境的过程，包括所有依赖包和配置信息。这可能会占用一定的时间和磁盘空间，具体取决于环境的大小和复杂度。</p>
+<p>最后，我们切换到新的环境中：</p>
+<pre class="language-bash" data-language="bash"><code class="language-bash">conda activate ns3-gym</code></pre>
+
+<p>好啦，到这里我们就已经切换到工作环境啦，到时候一个不小心把它搞坏了也不怕。不过，我强烈建议像我这样的萌新，在这里为虚拟机存一个快照（</p>
+<h2 id="ns-3"><a href="#ns-3" class="headerlink" title="ns-3"></a>ns-3</h2><p><img src="/images/beginner-of-ns-3-and-openai-gym/ns3_web.jpg" alt="ns3_web" loading="lazy"></p>
 <p><a target="_blank" rel="noopener" href="https://www.nsnam.org/">官网</a>：<a target="_blank" rel="noopener" href="https://www.nsnam.org/">https://www.nsnam.org/</a></p>
 <blockquote>
 <p><strong>ns-3</strong> is a discrete-event network simulator for Internet systems, targeted primarily for research and educational use. ns-3 is free, open-source software, licensed under the GNU GPLv2 license, and maintained by a worldwide community.</p>
@@ -67,11 +191,11 @@ IconifyProviders = {
 <p><em>ns-3</em> is a discrete-event simulator typically run from the command line. It is written directly in C++, not in a high-level modeling language; simulation events are simply C++ function calls, organized by a scheduler.</p>
 </blockquote>
 <p>简单来说，<strong>ns-3</strong> 是一个网络协议的研究与仿真工具。</p>
-<h2 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h2><h3 id="先决条件"><a href="#先决条件" class="headerlink" title="先决条件"></a>先决条件</h3><p>根据官方的<a target="_blank" rel="noopener" href="https://www.nsnam.org/docs/tutorial/html/getting-started.html#downloading-ns-3-using-bake/">教程</a>，首先要检查 &#x2F; 安装相关的第三方依赖软件包：</p>
-<pre class="language-bash" data-language="bash"><code class="language-bash"><span class="token comment"># 首先，个人建议先更新软件源列表：</span>
+<h3 id="安装-1"><a href="#安装-1" class="headerlink" title="安装"></a>安装</h3><h4 id="先决条件-1"><a href="#先决条件-1" class="headerlink" title="先决条件"></a>先决条件</h4><p>根据官方的<a target="_blank" rel="noopener" href="https://www.nsnam.org/docs/tutorial/html/getting-started.html#downloading-ns-3-using-bake/">教程</a>，首先要检查 &#x2F; 安装相关的第三方依赖软件包。下面的命令都是使用的 apt 工具管理，这些都是官方文档给出的；不过，由于我们使用了 <code>conda</code> 环境，所以最好能使用 <code>conda install</code> 命令安装；如果 <code>conda</code> 中没有，再使用也不迟。<strong>因为如果使用了 <code>sudo apt install</code> 指令，那就是在全局安装包了，与我们的环境隔离打算相去甚远。</strong></p>
+<pre class="language-bash" data-language="bash"><code class="language-bash"><span class="token comment"># 个人建议还是先更新软件源列表：</span>
 <span class="token function">sudo</span> <span class="token function">apt</span> update
 <span class="token comment"># 升级已安装的软件包</span>
-<span class="token function">sudo</span> <span class="token function">apt</span> upgrade
+<span class="token function">sudo</span> <span class="token function">apt-get</span> upgrade
 <span class="token function">sudo</span> <span class="token function">apt-get</span> update
 
 <span class="token comment"># 检查 git</span>
@@ -92,7 +216,7 @@ cmake <span class="token parameter variable">--version</span>
 <span class="token function">sudo</span> <span class="token function">apt</span> <span class="token function">install</span> g++
 g++ <span class="token parameter variable">--version</span></code></pre>
 
-<h3 id="报错·I"><a href="#报错·I" class="headerlink" title="报错·I"></a>报错·I</h3><p>此时我遇到一个问题，报错信息为：</p>
+<h4 id="报错·I"><a href="#报错·I" class="headerlink" title="报错·I"></a>报错·I</h4><p>此时我遇到一个问题，报错信息为：</p>
 <pre class="language-bash" data-language="bash"><code class="language-bash">$ <span class="token function">sudo</span> <span class="token function">apt</span> <span class="token function">install</span> g++
 
 Reading package lists<span class="token punctuation">..</span>. Done
@@ -112,7 +236,7 @@ E: Unable to correct problems, you have held broken packages.</code></pre>
 <pre class="language-bash" data-language="bash"><code class="language-bash"><span class="token function">sudo</span> <span class="token function">apt</span> <span class="token function">install</span> <span class="token assign-left variable">libc6</span><span class="token operator">=</span><span class="token number">2.35</span>-0ubuntu3</code></pre>
 
 <p>然后就可以继续愉快地使用 Ubuntu 啦！</p>
-<h3 id="下载源码"><a href="#下载源码" class="headerlink" title="下载源码"></a>下载源码</h3><pre class="language-bash" data-language="bash"><code class="language-bash"><span class="token function">mkdir</span> ns-3
+<h4 id="下载源码"><a href="#下载源码" class="headerlink" title="下载源码"></a>下载源码</h4><pre class="language-bash" data-language="bash"><code class="language-bash"><span class="token function">mkdir</span> ns-3
 <span class="token builtin class-name">cd</span> ns-3
 
 <span class="token function">mkdir</span> workspace
@@ -125,11 +249,11 @@ E: Unable to correct problems, you have held broken packages.</code></pre>
 <span class="token function">tar</span> xjf ns-allinone-3.29.tar.bz2
 <span class="token builtin class-name">cd</span> ns-allinone-3.29/</code></pre>
 
-<h2 id="构建"><a href="#构建" class="headerlink" title="构建"></a>构建</h2><p>我们会使用 <code>build.py</code> 进行 ns-3 的构建：</p>
+<h3 id="构建"><a href="#构建" class="headerlink" title="构建"></a>构建</h3><p>我们会使用 <code>build.py</code> 进行 ns-3 的构建：</p>
 <pre class="language-bash" data-language="bash"><code class="language-bash"><span class="token comment"># 在构建前先查看指令</span>
 ./build.py <span class="token parameter variable">--help</span></code></pre>
 
-<h3 id="报错·II"><a href="#报错·II" class="headerlink" title="报错·II"></a>报错·II</h3><p>此时又报错：</p>
+<h4 id="报错·II"><a href="#报错·II" class="headerlink" title="报错·II"></a>报错·II</h4><p>此时又报错：</p>
 <pre class="language-bash" data-language="bash"><code class="language-bash">/usr/bin/env: ‘python’: No such <span class="token function">file</span> or directory</code></pre>
 
 <p>在查询我的好朋友 stackoverflow 后，我了解到：</p>
@@ -156,8 +280,10 @@ Build commands will be stored in build/compile_commands.json
 '</span>build' finished successfully <span class="token punctuation">(</span>6m35.643s<span class="token punctuation">)</span></code></pre>
 
 <p><strong>⚠️记住，一定要为 Linux 分配足够的磁盘空间，否则会编译失败。</strong></p>
-<h3 id="测试"><a href="#测试" class="headerlink" title="测试"></a>测试</h3><p>同样的，使用 <code>test.py</code> 进行测试：</p>
+<h4 id="测试"><a href="#测试" class="headerlink" title="测试"></a>测试</h4><p>同样的，使用 <code>test.py</code> 进行测试：</p>
 <pre class="language-bash" data-language="bash"><code class="language-bash"><span class="token comment"># 测试</span>
+<span class="token builtin class-name">cd</span> ns-3.29
+
 <span class="token comment"># 官方给的指令是下面这个：</span>
 ./test.py --no-build
 
@@ -185,7 +311,7 @@ List of SKIPped tests:
 
 <p>跳过了 10 个文件，应该也不会有问题吧……</p>
 <h3 id="Hello-World"><a href="#Hello-World" class="headerlink" title="Hello World"></a>Hello World</h3><p>在万事俱备后，我们照例跑一下实例程序：</p>
-<pre class="language-bash" data-language="bash"><code class="language-bash">$ ./ns3 run hello-simulator
+<pre class="language-bash" data-language="bash"><code class="language-bash">./ns3 run hello-simulator
 
 <span class="token comment"># 输出</span>
 Hello Simulator</code></pre>
@@ -203,13 +329,14 @@ Hello Simulator</code></pre>
 <p>就此，我们的安装步骤就完全结束了。</p>
 <p>很喜欢 ns-3 官网的一句话：Congratulations! You are now an ns-3 user!</p>
 <hr>
-<h2 id="ns3-gym-又是什么"><a href="#ns3-gym-又是什么" class="headerlink" title="ns3-gym 又是什么"></a>ns3-gym 又是什么</h2><p><img src="/images/beginner-of-ns-3-and-openai-gym/ns3_gym_web.jpg" alt="ns3_gym_web.jpg" loading="lazy"></p>
+<h2 id="ns3-gym"><a href="#ns3-gym" class="headerlink" title="ns3-gym"></a>ns3-gym</h2><p><img src="/images/beginner-of-ns-3-and-openai-gym/ns3_gym_web.jpg" alt="ns3_gym_web" loading="lazy"></p>
 <p><a target="_blank" rel="noopener" href="https://github.com/tkn-tub/ns3-gym">GitHub 处</a>：<a target="_blank" rel="noopener" href="https://github.com/openai/gym/">https://github.com/openai/gym/</a></p>
 <blockquote>
 <p><a target="_blank" rel="noopener" href="https://gym.openai.com/">OpenAI Gym</a> is a toolkit for reinforcement learning (RL) widely used in research. The network simulator <a target="_blank" rel="noopener" href="https://www.nsnam.org/">ns–3</a> is the de-facto standard for academic and industry studies in the areas of networking protocols and communication technologies. ns3-gym is a framework that integrates both OpenAI Gym and ns-3 in order to encourage usage of RL in networking research.</p>
 </blockquote>
-<p>简单来说，这是一个强化学习工具包，也是我研究路由协议的必备工具。</p>
-<h3 id="安装-1"><a href="#安装-1" class="headerlink" title="安装"></a>安装</h3><p>根据<a target="_blank" rel="noopener" href="https://github.com/tkn-tub/ns3-gym#installation/">官方</a>的安装教程：</p>
+<p>简单来说，这是一个强化学习工具包，也是我研究路由协议的必备工具，它的框架结构如下图：</p>
+<p><img src="/images/beginner-of-ns-3-and-openai-gym/Architecture-of-ns3-gym-framework.png" alt="Architecture-of-ns3-gym-framework" loading="lazy"></p>
+<h3 id="安装-2"><a href="#安装-2" class="headerlink" title="安装"></a>安装</h3><p>根据<a target="_blank" rel="noopener" href="https://github.com/tkn-tub/ns3-gym#installation/">官方</a>的安装教程：</p>
 <pre class="language-bash" data-language="bash"><code class="language-bash"><span class="token comment"># 首先 cd 到自己的安装环境中，在本机上的环境是：</span>
 <span class="token builtin class-name">cd</span> ns-3/workspace/ns-allinone-3.29/ns-3.29
 
@@ -460,16 +587,19 @@ util.CommandError: Command <span class="token punctuation">[</span><span class="
 <p>我的 ns3 项目文件夹下没有 waf 文件，这令我有些困惑。在网上查询资料后，发现 ns3 在 3.36 版本就取消了 waf.py 编译器，使用了 ns3.py 替代。而这一步的编译，用的是 CMake。</p>
 <p>即使我不断地将错误一一解决，但最终碰到了一个我无法解决、无法查到的问题，我放弃了。</p>
 <p>真是血泪教训啊。</p>
-<h3 id="Ubuntu-系统问题"><a href="#Ubuntu-系统问题" class="headerlink" title="Ubuntu 系统问题"></a>Ubuntu 系统问题</h3><p><img src="/images/beginner-of-ns-3-and-openai-gym/linux_error.jpg" alt="linux_error" loading="lazy"></p>
+<h3 id="Ubuntu-系统问题"><a href="#Ubuntu-系统问题" class="headerlink" title="Ubuntu 系统问题"></a>Ubuntu 系统问题</h3><p><label style="color:red">一定要善用 VMware 的快照功能！</label></p>
+<p><img src="/images/beginner-of-ns-3-and-openai-gym/linux_error.jpg" alt="linux_error" loading="lazy"></p>
 <p>现在我算是理解为什么基本没人将 Linux 作为日常使用的系统了，这破玩意儿三天两头出问题，一出问题就要重装，而且每次出的问题还不一样！我这一周已经重装了三次系统了！我受不了了，天知道我用 <code>sudo</code> 的时候干掉了什么东西……</p>
+<p>有了快照后，我们遇到问题就可以回滚，而不是重装系统了。</p>
 <h2 id="后记"><a href="#后记" class="headerlink" title="后记"></a>后记</h2><p>现在看来，好庆幸当时一边做一边写了笔记：有时环境报错，我需要检查之前的配置；有时某几步需要重新做，我也不用再像第一次一样翻那么多的标签页，就简简单单地回看笔记就好。并且笔记中也记下了当时遇到了问题，使我也能够帮助到有需要的同学，真是太棒了！</p>
 <h2 id="其他参考资料："><a href="#其他参考资料：" class="headerlink" title="其他参考资料："></a>其他参考资料：</h2><ul>
 <li><strong>首先感谢各官方网站上详尽的文档。</strong></li>
+<li><a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1vM411x7HW/">Anaconda安装【Linux系统】</a>，<a target="_blank" rel="noopener" href="https://space.bilibili.com/284581928"><strong>小L-Daily</strong></a>,Bilibili。</li>
 <li><a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1mz4y1S7eZ/">ns-3 网络模拟中文入门视频教程系列</a>，<a target="_blank" rel="noopener" href="https://space.bilibili.com/488796480/"><strong>开源文摘</strong></a>，Bilibili。</li>
 <li><a target="_blank" rel="noopener" href="https://pinvondev.github.io/blog/2018/02/06/ns-3%E5%BF%AB%E9%80%9F%E4%B8%8A%E6%89%8B/">ns-3 快速上手</a>，<strong>Pinvon’s Blog</strong>。</li>
 <li><strong>感谢 stackoverflow 上的世界友人们给予我的大力支持（</strong></li>
 <li><strong>感谢我实验室的好兄弟 Monkey L 和 Boss G 给我的许多帮助</strong></li>
-<li><strong>最后，感谢 OpenAI 公司开发的 ChatGPT 为我的 Linux 实践提供的许多释惑</strong></li>
+<li><strong>最后，感谢 OpenAI 公司开发的 ChatGPT 为我的 Linux 实践提供的许多释惑</strong><br>我真是太感动了，在最后我跟 ChatGPT 说：「好的，多谢！」，它回答我说：「不客气！如果你还有其他问题，随时都可以问我。祝你配置和构建顺利，顺利使用 ns-3 和 openai-gym！」</li>
 </ul>
 </div></section><div id="reward-container"><span class="hty-icon-button button-glow" id="reward-button" title="打赏" onclick="var qr = document.getElementById(&quot;qr&quot;); qr.style.display = (qr.style.display === &quot;none&quot;) ? &quot;block&quot; : &quot;none&quot;;"><span class="icon iconify" data-icon="ri:hand-coin-line"></span></span><div id="reward-comment">喜欢的话，就留下一条评论吧~</div><div id="qr" style="display:none;"><div style="display:inline-block"></div><div style="display:inline-block"></div><div style="display:inline-block"></div></div></div><ul class="post-copyright"><li class="post-copyright-author"><strong>本文作者：</strong>叶子</li><li class="post-copyright-link"><strong>本文链接：</strong><a href="https://mskclover.com/2023/04/24/beginner-of-ns-3-and-openai-gym/" title="【笔记】ns-3 与 openai-gym 初入门">https://mskclover.com/2023/04/24/beginner-of-ns-3-and-openai-gym/</a></li><li class="post-copyright-license"><strong>版权声明：</strong>本博客所有文章除特别声明外，均默认采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh" target="_blank" rel="noopener" title="CC BY-NC-SA 4.0 "><span class="icon iconify" data-icon="ri:creative-commons-line"></span><span class="icon iconify" data-icon="ri:creative-commons-by-line"></span><span class="icon iconify" data-icon="ri:creative-commons-nc-line"></span><span class="icon iconify" data-icon="ri:creative-commons-sa-line"></span></a> 许可协议。</li></ul></article><div class="post-nav"><div class="post-nav-item"><a class="post-nav-prev" href="/2023/04/30/2023-04-Week-17/" rel="prev" title="【周记】2023-17：本周无事·II"><span class="icon iconify" data-icon="ri:arrow-left-s-line"></span><span class="post-nav-text">【周记】2023-17：本周无事·II</span></a></div><div class="post-nav-item"><a class="post-nav-next" href="/2023/04/23/2023-04-Week-16/" rel="next" title="【周记】2023-16：充实的线上与贫瘠的线下生活"><span class="post-nav-text">【周记】2023-16：充实的线上与贫瘠的线下生活</span><span class="icon iconify" data-icon="ri:arrow-right-s-line"></span></a></div></div></div><div class="hty-card" id="comment"><div class="comment-tooltip text-center"><span>如果您有任何关于博客内容的相关讨论，欢迎前往 <a href="https://github.com/misaka-clover/misaka-clover.github.io/discussions" target="_blank">GitHub Discussions</a> 与我交流。</span><br></div><style>.utterances {
   max-width: 100%;
