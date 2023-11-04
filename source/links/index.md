@@ -120,6 +120,14 @@ links:
     color: "#808080"
     email: 
 
+  - url: https://noesis.love/
+    avatar: /images/avatar/noesis-yu.jpg
+    name: 时雨
+    blog: 时雨の一方净土🌈
+    desc: 窗外嬉闹的烟火唤醒了我的孤独
+    color: "#778899"
+    email: 
+
 
   # - url: 
   #   avatar: /images/avatar/avatar.jpg
@@ -130,6 +138,7 @@ links:
   #   email: 
 
 # 颜色参考：https://www.sioe.cn/yingyong/yanse-rgb-16/
+# 表情查询网站：https://emojixd.com/
 
 # placeholder: 还没想好说些什么 # 默认对友链的描述
 # tip: 友链加载中～如失败请刷新重试～
