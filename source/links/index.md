@@ -128,6 +128,25 @@ links:
     color: "#778899"
     email: 
 
+  - url: https://blog.lxythan2lxy.cn
+    avatar: /images/avatar/Travis.png
+    name: Travis Road
+    blog: Travis' Blog
+    desc: 分享 ACG 和我的技术
+    color: "#E6E6FA"
+    email: 
+
+  - url: https://blog.izfsk.top/
+    avatar: /images/avatar/izfsk.webp
+    name: izfsk
+    blog: 白漠流霜
+    desc: izfsk 的博客
+    color: "#87CEFA"
+    email: 
+
+
+
+
 
   # - url: 
   #   avatar: /images/avatar/avatar.jpg
@@ -139,6 +158,7 @@ links:
 
 # 颜色参考：https://www.sioe.cn/yingyong/yanse-rgb-16/
 # 表情查询网站：https://emojixd.com/
+# 消除大段注释：ctrl+/
 
 # placeholder: 还没想好说些什么 # 默认对友链的描述
 # tip: 友链加载中～如失败请刷新重试～
