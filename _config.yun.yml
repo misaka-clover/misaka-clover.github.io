@@ -144,6 +144,7 @@ pages:
 social:
     # set rss in your root config
     # https://github.com/hexojs/hexo-generator-feed
+    # 图标选取参见：https://yun.yunyoujun.cn/about/icon.html
   - name: RSS
     link: /atom.xml # config.feed.path
     icon: ri:rss-line
@@ -156,6 +157,10 @@ social:
     link: https://twitter.com/Misaka_Clover
     icon: ri:twitter-line
     color: '#1da1f2'
+  - name: Mastodon
+    link: https://g0v.social/@Misaka_Clover
+    icon: ri:mastodon-line
+    color: purple
   - name: E-Mail
     link: mailto:cover@mskclover.com
     icon: ri:mail-line
@@ -259,7 +264,7 @@ footer:
   # 自定义文本
   # Any custom text can be defined here.
   # custom_text: Hosted by <a href="https://pages.coding.me" rel="noopener" target="_blank">Coding Pages</a>
-  custom_text: '博客版本：Version.1.5.1 | 
+  custom_text: '博客版本：Version.1.6.0 | 
                 <a href="https://icp.gov.moe" target="_blank" style="color:inherit"><img src="/images/moeicp.png" width="25" style="vertical-align:middle">萌ICP备 </a><a href="https://icp.gov.moe/?keyword=20232952" target="_blank" style="color:inherit"> 20232952 号</a>
                 '
 
