@@ -124,6 +124,26 @@ Details
 </details>
 ```
 
+## 文字位置
+
+```
+<p align="center">文字居中</p>
+
+<p align="right">文字居右</p>
+```
+
+<p align="center">文字居中</p>
+
+<p align="right">文字居右</p>
+
+## 文字加粗
+
+```
+<b>文字加粗</b>
+```
+
+<b>文字加粗</b>
+
 ## 文字亮色
 
 ```
