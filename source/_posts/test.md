@@ -163,3 +163,14 @@ Details
 ```
 
 <spam class="heimu">这是一段需要隐藏的文字</spam>
+
+## 图片自定义大小格式
+
+```
+<img src="/images/beginner-of-ns-3-and-openai-gym/cover.jpg" width="450" alt="cover" />
+```
+
+![cover](/images/beginner-of-ns-3-and-openai-gym/cover.jpg)_原始图片大小_
+
+<img src="/images/beginner-of-ns-3-and-openai-gym/cover.jpg" width="200" alt="cover" />
+<center>修改后的图片大小</center>
