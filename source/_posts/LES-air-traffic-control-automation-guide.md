@@ -25,7 +25,7 @@ keywords: 莱斯, 空管, 自动化系统, Les, Air Traffic Control, ATC, Automa
 
 在正文开始之前，想先向不熟悉的朋友介绍一下：
 
-[空中交通管制](https://en.wikipedia.org/wiki/Air_traffic_control/)，是为飞机提供引导的地面管制人员/服务。相比于上个世纪初使用望远镜进行目视监视与程序管制，现代空管使用雷达管制，这就需要一套自动化系统，能同时处理多个监视源的数据，并将目标与所有的相关信息显示在频幕上 —— 这就是空管自动化系统（Air Traffic Control）。
+[空中交通管制](https://en.wikipedia.org/wiki/Air_traffic_control/)，是为飞机提供引导的地面管制人员/服务。相比于上个世纪初使用望远镜进行目视监视与程序管制，现代空管使用雷达管制，这就需要一套自动化系统，能同时处理多个监视源的数据，并将目标与所有的相关信息显示在频幕上 —— 这就是空管自动化系统（Air Traffic Control Automation）。
 
 一般而言，目前国际上比较流行的自动化系统是 [THALES](https://en.wikipedia.org/wiki/Thales_Group/) 公司的 欧洲猫 Eurocat (现名 [TopSky](https://en.wikipedia.org/wiki/TopSky/))，非常的经典，也相当稳定。
 
