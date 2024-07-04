@@ -322,6 +322,83 @@ prismjs:
 
 我想在本文嵌入一个推特的贴子，加入 [**Twitter Publish**](https://publish.twitter.com/) 上复制的链接，居然无法变成预览的样子，所以只好使用 Hexo 自带的「[标签插件](https://hexo.io/zh-cn/docs/tag-plugins/)」功能。
 
+## 本地文件 Git 备份问题
+
+在依照云游君的教程时，我想要将本地文件通过 Git 推送到 GitHub 上，突然想起我好像没有配置本地的 Git，所以就：
+
+```bash
+# 与远程 Git 仓库建立连接，只此一次即可
+git remote add origin https://github.com/misaka-clover/misaka-clover.github.io
+```
+
+然后，我将文件推送到缓冲区：
+
+```bash
+# 添加到缓存区
+git add -A
+git commit -m "这次做了什么更改，简单描述下即可"
+```
+
+但是，在推送的时候，却遇到了问题：
+
+```bash
+# 推送至远程仓库
+$ git push
+# 第一次提交，你可能需设置一下默认提交分支
+# git push --set-upstream origin hexo
+
+# 报错
+error: src refspec hexo does not match any
+error: failed to push some refs to 'https://github.com/misaka-clover/misaka-clover.github.io'
+```
+
+我查询了一些[资料](https://sentry.io/answers/git-src-refspec-master-does-not-match-any-error-message/)和[论坛](https://stackoverflow.com/questions/4181861/message-src-refspec-master-does-not-match-any-when-pushing-commits-in-git/)，发现是我的**这台新电脑本地并没有我新分支的文件**。理论上来说，一个从 GitHub 上将分支文件同步到本地，但实际上我删除了原来的那个分支，然后重新创建了一个一模一样的。因此，执行：
+
+```bash
+# 初始化 git
+$ git init
+Reinitialized existing Git repository in /Users/clover/github/misaka-clover.github.io/.git/
+
+# 查询 git 下有哪些分支
+$ git branch -a
+* master
+
+# 创建分支 hexo
+$ git checkout -b hexo
+Switched to a new branch 'hexo'
+```
+
+然后再推送，就一切正常了：
+
+```bash
+$ git add -A
+
+$ git commit -m"transfer my local blog files to new macbook"
+On branch hexo
+nothing to commit, working tree clean
+
+$ git push --set-upstream origin hexo
+Username for 'https://github.com':
+Password for 'https://misaka-clover@github.com':
+failed to store: -60006
+Enumerating objects: 14802, done.
+Counting objects: 100% (14802/14802), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (10836/10836), done.
+Writing objects: 100% (14802/14802), 48.70 MiB | 1.38 MiB/s, done.
+Total 14802 (delta 3264), reused 14799 (delta 3262), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (3264/3264), done.
+remote: 
+remote: Create a pull request for 'hexo' on GitHub by visiting:
+remote:      https://github.com/misaka-clover/misaka-clover.github.io/pull/new/hexo
+remote: 
+To https://github.com/misaka-clover/misaka-clover.github.io
+ * [new branch]      hexo -> hexo
+branch 'hexo' set up to track 'origin/hexo'.
+```
+
+然后，就大功告吉啦。
+
 ## npm 包列表
 
 ```bash

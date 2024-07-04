@@ -1,0 +1,340 @@
+<!DOCTYPE html><html lang="zh-CN"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="theme-color" content="#0078E7"><meta name="author" content="叶子"><meta name="copyright" content="叶子"><meta name="generator" content="Hexo 7.2.0"><meta name="theme" content="hexo-theme-yun"><title>从零开始建立花园 | 叶子的花园</title><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@900&amp;display=swap" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://fastly.jsdelivr.net/npm/star-markdown-css@0.4.1/dist/yun/yun-markdown.min.css"><link rel="stylesheet" href="https://fastly.jsdelivr.net/npm/prism-theme-vars/base.css"><script src="https://fastly.jsdelivr.net/npm/scrollreveal/dist/scrollreveal.min.js" defer></script><script>function initScrollReveal() {
+  [".post-card",".markdown-body img"].forEach((target)=> {
+    ScrollReveal().reveal(target);
+  })
+}
+document.addEventListener("DOMContentLoaded", initScrollReveal);
+document.addEventListener("pjax:success", initScrollReveal);
+</script><link rel="icon" type="image/svg+xml" href="/yun.svg"><link rel="mask-icon" href="/yun.svg" color="#0078E7"><link rel="preload" href="/css/hexo-theme-yun.css" as="style"><link rel="prefetch" href="/js/sidebar.js" as="script"><link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin><link rel="preconnect" href="https://fastly.jsdelivr.net/npm/" crossorigin><script id="yun-config">
+    window.Yun = {}
+    window.CONFIG = {"hostname":"mskclover.com","root":"/","title":"叶子的花园","version":"1.10.11","mode":"auto","copycode":true,"page":{"isPost":true},"i18n":{"placeholder":"搜索...","empty":"找不到您查询的内容: ${query}","hits":"找到 ${hits} 条结果","hits_time":"找到 ${hits} 条结果（用时 ${time} 毫秒）"},"anonymous_image":"https://cdn.yunyoujun.cn/img/avatar/none.jpg","say":{"api":"/data/sentences.json"},"fireworks":{"colors":["102, 167, 221","62, 131, 225","33, 78, 194"]},"vendors":{"host":"https://fastly.jsdelivr.net/npm/","darken":"https://fastly.jsdelivr.net/npm/darken@1.5.0"}};
+  </script><link rel="stylesheet" href="/css/hexo-theme-yun.css"><script src="/js/hexo-theme-yun.js" type="module"></script><link rel="alternate" href="/atom.xml" title="叶子的花园" type="application/atom+xml"><link rel="preconnect" href="https://www.google-analytics.com" crossorigin><script async src="https://www.googletagmanager.com/gtag/js?id=G-6VWG03H880"></script><script>if (CONFIG.hostname === location.hostname) {
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-6VWG03H880');
+}</script><script data-ad-client="pub-4618904761682457" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><meta name="description" content="希望以后能多写一点博文">
+<meta property="og:type" content="article">
+<meta property="og:title" content="从零开始建立花园">
+<meta property="og:url" content="https://mskclover.com/2024/05/26/new-garden-from-scratch/index.html">
+<meta property="og:site_name" content="叶子的花园">
+<meta property="og:description" content="希望以后能多写一点博文">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://mskclover.com/images/new-garden-from-scratch/cover.jpg">
+<meta property="og:image" content="https://mskclover.com/images/new-garden-from-scratch/post.jpg">
+<meta property="og:image" content="https://mskclover.com/images/new-garden-from-scratch/add-hexo-render.jpg">
+<meta property="article:published_time" content="2024-05-26T13:58:34.000Z">
+<meta property="article:modified_time" content="2024-07-04T06:11:38.184Z">
+<meta property="article:author" content="叶子">
+<meta property="article:tag" content="博文">
+<meta property="article:tag" content="博客">
+<meta property="article:tag" content="Hexo">
+<meta property="article:tag" content="Git">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://mskclover.com/images/new-garden-from-scratch/cover.jpg"><script>(function() {
+  if (CONFIG.mode !== 'auto') return
+  const prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches
+  const setting = localStorage.getItem('darken-mode') || 'auto'
+  if (setting === 'dark' || (prefersDark && setting !== 'light'))
+    document.documentElement.classList.toggle('dark', true)
+})()</script></head><body><script src="https://code.iconify.design/2/2.1.1/iconify.min.js"></script><script>// Define global variable
+IconifyProviders = {
+  // Empty prefix: overwrite default API provider configuration
+  '': {
+    // Use custom API first, use Iconify public API as backup
+    resources: [
+        'https://api.iconify.design',
+    ],
+    // Wait for 1 second before switching API hosts
+    rotate: 1000,
+  },
+};</script><script defer src="https://fastly.jsdelivr.net/npm/animejs@latest"></script><script defer src="/js/ui/fireworks.js" type="module"></script><canvas class="fireworks"></canvas><div class="container"><a class="sidebar-toggle hty-icon-button" id="menu-btn"><div class="hamburger hamburger--spin" type="button"><span class="hamburger-box"><span class="hamburger-inner"></span></span></div></a><div class="sidebar-toggle sidebar-overlay"></div><aside class="sidebar"><script src="/js/sidebar.js" type="module"></script><ul class="sidebar-nav"><li class="sidebar-nav-item sidebar-nav-toc hty-icon-button sidebar-nav-active" data-target="post-toc-wrap" title="文章目录"><span class="icon iconify" data-icon="ri:list-ordered"></span></li><li class="sidebar-nav-item sidebar-nav-overview hty-icon-button" data-target="site-overview-wrap" title="站点概览"><span class="icon iconify" data-icon="ri:passport-line"></span></li></ul><div class="sidebar-panel" id="site-overview-wrap"><div class="site-info fix-top"><a class="site-author-avatar" href="/about/" title="叶子"><img width="96" loading="lazy" src="/images/avatar/avatar.jpg" alt="叶子"><span class="site-author-status" title="今天也是美好的一天呢">🥬</span></a><div class="site-author-name"><a href="/about/">叶子</a></div><a class="site-name" href="/about/site.html">叶子的花园</a><sub class="site-subtitle">靡不有初，鲜克有终</sub><div class="site-description">@Misaka-Clover</div></div><nav class="site-state"><a class="site-state-item hty-icon-button icon-home" href="/" title="首页"><span class="site-state-item-icon"><span class="icon iconify" data-icon="ri:home-4-line"></span></span></a><div class="site-state-item"><a href="/archives/" title="归档"><span class="site-state-item-icon"><span class="icon iconify" data-icon="ri:archive-line"></span></span><span class="site-state-item-count">45</span></a></div><div class="site-state-item"><a href="/categories/" title="分类"><span class="site-state-item-icon"><span class="icon iconify" data-icon="ri:folder-2-line"></span></span><span class="site-state-item-count">9</span></a></div><div class="site-state-item"><a href="/tags/" title="标签"><span class="site-state-item-icon"><span class="icon iconify" data-icon="ri:price-tag-3-line"></span></span><span class="site-state-item-count">114</span></a></div><a class="site-state-item hty-icon-button" href="/about/#comment" title="留言板"><span class="site-state-item-icon"><span class="icon iconify" data-icon="ri:clipboard-line"></span></span></a></nav><hr style="margin-bottom:0.5rem"><div class="links-of-author"><a class="links-of-author-item hty-icon-button" rel="noopener" href="/atom.xml" title="RSS" target="_blank" style="color:orange"><span class="icon iconify" data-icon="ri:rss-line"></span></a><a class="links-of-author-item hty-icon-button" rel="noopener" href="https://github.com/misaka-clover" title="GitHub" target="_blank" style="color:#181717"><span class="icon iconify" data-icon="ri:github-line"></span></a><a class="links-of-author-item hty-icon-button" rel="noopener" href="https://twitter.com/Misaka_Clover" title="Twitter" target="_blank" style="color:#1da1f2"><span class="icon iconify" data-icon="ri:twitter-line"></span></a><a class="links-of-author-item hty-icon-button" rel="noopener" href="https://g0v.social/@Misaka_Clover" title="Mastodon" target="_blank" style="color:purple"><span class="icon iconify" data-icon="ri:mastodon-line"></span></a><a class="links-of-author-item hty-icon-button" rel="noopener" href="mailto:cover@mskclover.com" title="E-Mail" target="_blank" style="color:#8E71C1"><span class="icon iconify" data-icon="ri:mail-line"></span></a><a class="links-of-author-item hty-icon-button" rel="noopener" href="https://www.travellings.cn/go.html" title="Travelling" target="_blank" style="color:var(--hty-text-color)"><span class="icon iconify" data-icon="ri:train-line"></span></a></div><hr style="margin:0.5rem 1rem"><div class="links"><a class="links-item hty-icon-button" href="/links/" title="我的小伙伴们" style="color:dodgerblue"><span class="icon iconify" data-icon="ri:genderless-line"></span></a></div><br><a class="links-item hty-icon-button" id="toggle-mode-btn" href="javascript:;" title="Mode" style="color: #f1cb64"><span class="icon iconify" data-icon="ri:contrast-2-line"></span></a></div><div class="sidebar-panel sidebar-panel-active" id="post-toc-wrap"><div class="post-toc"><div class="post-toc-content"><ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%89%8D%E8%A8%80"><span class="toc-number">1.</span> <span class="toc-text">前言</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%BF%81%E7%A7%BB-%E9%87%8D%E6%96%B0%E5%AE%89%E8%A3%85%E6%AD%A5%E9%AA%A4"><span class="toc-number">2.</span> <span class="toc-text">迁移&#x2F;重新安装步骤</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%AE%89%E8%A3%85-Node-js"><span class="toc-number">2.1.</span> <span class="toc-text">安装 Node.js</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%AE%89%E8%A3%85-VS-Code"><span class="toc-number">2.2.</span> <span class="toc-text">安装 VS Code</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%AE%89%E8%A3%85-Git"><span class="toc-number">2.3.</span> <span class="toc-text">安装 Git</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%AE%89%E8%A3%85-Hexo"><span class="toc-number">2.4.</span> <span class="toc-text">安装 Hexo</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%AE%89%E8%A3%85-yun-%E4%B8%BB%E9%A2%98"><span class="toc-number">2.5.</span> <span class="toc-text">安装 yun 主题</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%8C%85-pug-%E5%92%8C-stylus-%E7%9A%84%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B9"><span class="toc-number">2.5.1.</span> <span class="toc-text">包 pug 和 stylus 的注意事项</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%8C%85-core-js-%E7%9A%84%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B9"><span class="toc-number">2.5.2.</span> <span class="toc-text">包 core-js 的注意事项</span></a></li></ol></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%87%AA%E5%AE%9A%E4%B9%89%E4%B8%BB%E9%A2%98%E9%85%8D%E7%BD%AE"><span class="toc-number">3.</span> <span class="toc-text">自定义主题配置</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%AE%89%E8%A3%85%E7%AC%AC%E4%B8%89%E6%96%B9%E5%8C%85%E5%8F%8A%E9%A2%9D%E5%A4%96%E4%BE%9D%E8%B5%96"><span class="toc-number">4.</span> <span class="toc-text">安装第三方包及额外依赖</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%AE%89%E8%A3%85-RSS-%E6%94%AF%E6%8C%81"><span class="toc-number">4.1.</span> <span class="toc-text">安装 RSS 支持</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%AE%89%E8%A3%85-%E8%AF%8D%E4%BA%91-wordcount-%E7%BB%84%E4%BB%B6"><span class="toc-number">4.2.</span> <span class="toc-text">安装 词云 wordcount 组件</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%AE%89%E8%A3%85-Hexo-%E7%9A%84-Git-%E6%8E%A8%E9%80%81%E7%BB%84%E4%BB%B6"><span class="toc-number">4.3.</span> <span class="toc-text">安装 Hexo 的 Git 推送组件</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%8E%A8%E9%80%81%E9%97%AE%E9%A2%98"><span class="toc-number">5.</span> <span class="toc-text">推送问题</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%BB%A3%E7%A0%81%E9%AB%98%E4%BA%AE%E9%97%AE%E9%A2%98"><span class="toc-number">6.</span> <span class="toc-text">代码高亮问题</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%B5%8C%E5%85%A5-Twitter-%E8%B4%B4%E5%AD%90%E9%97%AE%E9%A2%98"><span class="toc-number">7.</span> <span class="toc-text">嵌入 Twitter 贴子问题</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%9C%AC%E5%9C%B0%E6%96%87%E4%BB%B6-Git-%E5%A4%87%E4%BB%BD%E9%97%AE%E9%A2%98"><span class="toc-number">8.</span> <span class="toc-text">本地文件 Git 备份问题</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#npm-%E5%8C%85%E5%88%97%E8%A1%A8"><span class="toc-number">9.</span> <span class="toc-text">npm 包列表</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%90%8E%E8%AE%B0"><span class="toc-number">10.</span> <span class="toc-text">后记</span></a></li></ol></div></div></div></aside><main class="sidebar-translate" id="content"><div id="post"><article class="hty-card post-block" itemscope itemtype="https://schema.org/Article" style="--smc-primary:#0078E7;"><link itemprop="mainEntityOfPage" href="https://mskclover.com/2024/05/26/new-garden-from-scratch/"><span hidden itemprop="author" itemscope itemtype="https://schema.org/Person"><meta itemprop="name" content="叶子"><meta itemprop="description"></span><span hidden itemprop="publisher" itemscope itemtype="https://schema.org/Organization"><meta itemprop="name" content="叶子的花园"></span><header class="post-header"><h1 class="post-title" itemprop="name headline">从零开始建立花园</h1><div class="post-meta"><div class="post-time" style="display:block"><span class="post-meta-item-icon"><span class="icon iconify" data-icon="ri:calendar-line"></span></span> <span class="post-meta-icon-text">发表于</span> <time title="创建时间：2024-05-26 21:58:34" itemprop="dateCreated datePublished" datetime="2024-05-26T21:58:34+08:00">2024-05-26</time><span class="post-meta-divider">-</span><span class="post-meta-item-icon"><span class="icon iconify" data-icon="ri:calendar-2-line"></span></span> <span class="post-meta-icon-text">更新于</span> <time title="修改时间：2024-07-04 14:11:38" itemprop="dateModified" datetime="2024-07-04T14:11:38+08:00">2024-07-04</time></div><span class="post-count"><span class="post-symbolcount"><span class="post-meta-item-icon" title="本文字数"><span class="icon iconify" data-icon="ri:file-word-line"></span></span> <span title="本文字数">3.1k</span><span class="post-meta-divider">-</span><span class="post-meta-item-icon" title="阅读时长"><span class="icon iconify" data-icon="ri:timer-line"></span></span> <span title="阅读时长">13m</span></span></span><div class="post-classify"><span class="post-category"> <span class="post-meta-item-icon" style="margin-right:3px;"><span class="icon iconify" data-icon="ri:folder-line"></span></span><span itemprop="about" itemscope itemtype="https://schema.org/Thing"><a class="category-item" href="/categories/%E5%8F%B6%E5%AD%90%E7%9A%84%E5%B0%8F%E7%9F%A5%E8%AF%86/" style="--text-color:var(--hty-text-color)" itemprop="url" rel="index"><span itemprop="text">叶子的小知识</span></a></span></span><span class="post-tag"><span class="post-meta-divider">-</span><a class="tag-item" href="/tags/%E5%8D%9A%E6%96%87/" style="--text-color:var(--hty-text-color)"><span class="post-meta-item-icon"><span class="icon iconify" data-icon="ri:price-tag-3-line"></span></span><span class="tag-name">博文</span></a><a class="tag-item" href="/tags/%E5%8D%9A%E5%AE%A2/" style="--text-color:var(--hty-text-color)"><span class="post-meta-item-icon"><span class="icon iconify" data-icon="ri:price-tag-3-line"></span></span><span class="tag-name">博客</span></a><a class="tag-item" href="/tags/Hexo/" style="--text-color:#0E83CD"><span class="post-meta-item-icon"><span class="icon iconify" data-icon="ri:price-tag-3-line"></span></span><span class="tag-name">Hexo</span></a><a class="tag-item" href="/tags/Git/" style="--text-color:#F14E32"><span class="post-meta-item-icon"><span class="icon iconify" data-icon="ri:price-tag-3-line"></span></span><span class="tag-name">Git</span></a></span></div></div></header><section class="post-body" itemprop="articleBody"><div class="post-content markdown-body"><p><img src="/images/new-garden-from-scratch/cover.jpg" alt="cover" loading="lazy"></p>
+<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>自从今年初换了 MacBook 电脑以来，我每次写的东西都要用磁碟拷贝到原来的 PC 上才能发布，所以一直都想要将原来的博客本地文件迁移到这台新的电脑上。最近工作上的事告一段落，我总算是考完执照了。依照我以前的经验来看，每次以为未来会更有时间的时候，未来都会忙得要命，所以就趁着现在有空把这件事做完吧。</p>
+<span id="more"></span>
+
+<p>迁移文件其实也不难，主要是很繁琐。为了保证稳定性，我选择将所有的步骤都重新做一遍。这次就记录一下，以后再有迁移的时候，就可以按照现在的经验，知道要安装那些组件、更改哪些配置了。</p>
+<p>还是与四年前一样，安装步骤主要是基于 <a target="_blank" rel="noopener" href="https://www.yunyoujun.cn/"><strong>云游前辈</strong></a> 的这篇文章：<a target="_blank" rel="noopener" href="https://www.yunyoujun.cn/posts/how-to-build-your-site/">教你如何从零开始搭建一个属于自己的网站</a>，还有网站主题的<a target="_blank" rel="noopener" href="https://yun.yunyoujun.cn/">参考文档</a>，另外包含了一些遇到的新问题，希望能对以后的我、还有观看这篇博文的朋友有帮助。</p>
+<h2 id="迁移-重新安装步骤"><a href="#迁移-重新安装步骤" class="headerlink" title="迁移&#x2F;重新安装步骤"></a>迁移&#x2F;重新安装步骤</h2><p>就像上面说的一样，与其说是迁移，不如说是重新安装。</p>
+<p><strong>⚠️ 注意事项：</strong></p>
+<ul>
+<li>如果遇到 权限不足&#x2F;Authentication 相关的报错，需要尝试 <code>su</code> 或者 <code>sudo</code> 并输入密码，以管理员权限重新执行。</li>
+<li>由于中国大陆的防火长城目前已经阻止许多的站点，近日又屏蔽了包括上海交大在内的多所大学镜像站点，因此请确认网络环境是否支持。</li>
+</ul>
+<blockquote><p>6 月 6 日，上海交大的 Docker Hub 镜像加速器宣布因监管要求被下架。<br>Docker Hub 是目前最大的容器镜像社区，但由于中国防火长城的限制，程序员开发者从 Docker Hub 上获取容器镜像的时候很不方便。Docker Hub 镜像加速器可以帮助开发者更快地下载 Docker 镜像。<br><img src="/images/new-garden-from-scratch/post.jpg" width="500" alt="post" / loading="lazy"></p>
+<footer><strong>——李老师不是你老师（@whyyoutouzhele）</strong><cite><a target="_blank" rel="noopener" href="https://twitter.com/whyyoutouzhele/status/1798731317322133642">twitter.com/whyyoutouzhele/status/1798731317322133642</a></cite></footer></blockquote>
+
+<h3 id="安装-Node-js"><a href="#安装-Node-js" class="headerlink" title="安装 Node.js"></a>安装 Node.js</h3><p>在其官网下载 <strong>Node.js</strong> 的 <a target="_blank" rel="noopener" href="https://nodejs.org/zh-cn/">长期发行版 LTS</a>，并全部默认下一步安装。过程中会默认安装 <code>npm</code> 包管理器，国内访问会比较困难，因此需要换源或者使用网络代理。</p>
+<p>安装完成后，在终端内使用 <code>node --version</code> 查看版本，以确认安装成功。</p>
+<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">% <span class="token function">node</span> <span class="token parameter variable">--version</span> 
+v20.15.0<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
+
+<h3 id="安装-VS-Code"><a href="#安装-VS-Code" class="headerlink" title="安装 VS Code"></a>安装 VS Code</h3><p><strong>Visual Studio Code</strong>，在此 <a target="_blank" rel="noopener" href="https://code.visualstudio.com/">下载</a>。</p>
+<h3 id="安装-Git"><a href="#安装-Git" class="headerlink" title="安装 Git"></a>安装 Git</h3><blockquote>
+<p>Git is a <a target="_blank" rel="noopener" href="https://git-scm.com/about/free-and-open-source">free and open source</a> distributed version control system designed to handle everything from small to very large projects with speed and efficiency.      </p>
+<p>Git is <a target="_blank" rel="noopener" href="https://git-scm.com/doc">easy to learn</a> and has a <a target="_blank" rel="noopener" href="https://git-scm.com/about/small-and-fast">tiny footprint with lightning fast performance</a>. It outclasses SCM tools like Subversion, CVS, Perforce, and ClearCase with features like <a target="_blank" rel="noopener" href="https://git-scm.com/about/branching-and-merging">cheap local branching</a>, convenient <a target="_blank" rel="noopener" href="https://git-scm.com/about/staging-area">staging areas</a>, and <a target="_blank" rel="noopener" href="https://git-scm.com/about/distributed">multiple workflows</a>.      </p>
+</blockquote>
+<p><strong>Git</strong>，在此<a target="_blank" rel="noopener" href="https://git-scm.com/">下载</a>。</p>
+<p>与 Windows 不同，在 Mac 上无法直接通过安装包的方式获取 Git。因此我们需要先安装 <a target="_blank" rel="noopener" href="https://brew.sh/"><strong>Homebrew</strong></a>，一个专为 macOS&#x2F;Linux 打造的包管理器。Mac 用户可以无需在命令行中安装，<a target="_blank" rel="noopener" href="https://github.com/Homebrew/brew/releases/latest/">点此</a>即可下载最新版本的 <strong>Homebrew</strong>。</p>
+<p>此时，如果直接使用 <code>brew</code> 指令会报错：</p>
+<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">% brew <span class="token function">install</span> <span class="token function">git</span>                                                                               
+zsh: <span class="token builtin class-name">command</span> not found: brew<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
+
+<p>这是<a target="_blank" rel="noopener" href="https://stackoverflow.com/questions/36657321/after-installing-homebrew-i-get-zsh-command-not-found-brew/">因为</a>我们没有将 <code>/opt/homebrew/bin</code> 和 <code>/opt/homebrew/sbin</code> 添加到 <code>$PATH</code> 环境中，运行命令以快速添加：</p>
+<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">% <span class="token builtin class-name">echo</span> <span class="token builtin class-name">export</span> <span class="token assign-left variable"><span class="token environment constant">PATH</span></span><span class="token operator">=</span><span class="token environment constant">$PATH</span>:/opt/homebrew/bin:/opt/homebrew/sbin <span class="token operator">>></span> ~/.zshrc
+% brew doctor
+<span class="token comment"># run this to check it</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
+
+<p>接着输入命令安装：</p>
+<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">% brew <span class="token function">install</span> <span class="token function">git</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+
+<p>按 Enter 确认，在「设置—通用—软件更新」中下载 XCode 的相关组件。然后查询其版本，以确认安装成功：</p>
+<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">% <span class="token function">git</span> <span class="token parameter variable">-v</span>
+<span class="token function">git</span> version <span class="token number">2.45</span>.2 <span class="token punctuation">(</span>Apple Git-146<span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
+
+<h3 id="安装-Hexo"><a href="#安装-Hexo" class="headerlink" title="安装 Hexo"></a>安装 Hexo</h3><p>这是我目前使用的博客框架，在终端中输入命令<strong>全局</strong>安装：</p>
+<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">% <span class="token function">npm</span> <span class="token function">install</span> hexo-cli <span class="token parameter variable">-g</span>
+<span class="token comment"># 如果安装失败，可能是没有权限，可以尝试头部加上 sudo 重新执行</span>
+<span class="token comment"># sudo npm install hexo-cli -g</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
+
+<p>然后终端访问到我们打算创建本地文件的目录下，比如我现在的目录是：<code>/Users/clover/github/misaka-clover.github.io</code>。</p>
+<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">% <span class="token builtin class-name">cd</span> /Users/clover/github
+% hexo init misaka-clover.github.io <span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
+
+<p>在使用 <strong>Hexo</strong> 初始化该文件夹后，输入：</p>
+<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token comment"># 进入你的博客文件夹</span>
+% <span class="token builtin class-name">cd</span> misaka-clover.github.io
+<span class="token comment"># 默认安装所有 `package.json` 文件中提到的包</span>
+% <span class="token function">npm</span> <span class="token function">install</span>
+<span class="token comment"># 你也可以缩写成 hexo s</span>
+% hexo server<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<p>在浏览器中打开：<code>localhost:4000</code>，就可以看到一个默认的 Hexo 主页了。</p>
+<h3 id="安装-yun-主题"><a href="#安装-yun-主题" class="headerlink" title="安装 yun 主题"></a>安装 yun 主题</h3><p>接下来安装<strong>云游前辈</strong>制作的主题 <a target="_blank" rel="noopener" href="https://github.com/YunYouJun/hexo-theme-yun/">hexo-theme-yun</a>：</p>
+<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">% <span class="token function">npm</span> i hexo-theme-yun<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+
+<p>在 Hexo 的原始配置文件 <code>_config.yml</code> 中找到 <code>theme</code> 这个字段，将其后的 <code>landscape</code> 修改为 <code>yun</code>。</p>
+<pre class="line-numbers language-yaml" data-language="yaml"><code class="language-yaml"><span class="token key atrule">theme</span><span class="token punctuation">:</span> yun<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+
+<p>这时打开本地预览界面，发现显示的页面无比苍白（</p>
+<p><img src="/images/new-garden-from-scratch/add-hexo-render.jpg" alt="add-hexo-render" loading="lazy"></p>
+<p>这是因为，由于云游前辈的主题使用了 pug 和 stylus 这两个包，所以也需要安装：</p>
+<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">% <span class="token function">npm</span> <span class="token function">install</span> hexo-render-pug hexo-renderer-stylus<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+
+<h4 id="包-pug-和-stylus-的注意事项"><a href="#包-pug-和-stylus-的注意事项" class="headerlink" title="包 pug 和 stylus 的注意事项"></a>包 pug 和 stylus 的注意事项</h4><p>不过在安装完以后，却发生重要的安全提示：</p>
+<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token number">3</span> high severity vulnerabilities
+
+Some issues need review, and may require choosing
+a different dependency.
+
+Run <span class="token variable"><span class="token variable">`</span><span class="token function">npm</span> audit<span class="token variable">`</span></span> <span class="token keyword">for</span> details.<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<p>运行 <code>npm audit</code> 后，提示：</p>
+<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">% <span class="token function">npm</span> audit
+<span class="token comment"># npm audit report</span>
+
+pug  <span class="token operator">&lt;=</span><span class="token number">3.0</span>.2
+Severity: high
+Remote code execution via the <span class="token variable"><span class="token variable">`</span>pretty<span class="token variable">`</span></span> option. - https://github.com/advisories/GHSA-p493-635q-r6gr
+Pug allows JavaScript code execution <span class="token keyword">if</span> an application accepts untrusted input - https://github.com/advisories/GHSA-3965-hpx2-q597
+Depends on vulnerable versions of pug-code-gen
+No fix available
+node_modules/hexo-render-pug/node_modules/pug
+node_modules/pug
+  hexo-render-pug  *
+  Depends on vulnerable versions of pug
+  node_modules/hexo-render-pug
+
+pug-code-gen  <span class="token operator">&lt;=</span><span class="token number">2.0</span>.3
+Severity: high
+Pug allows JavaScript code execution <span class="token keyword">if</span> an application accepts untrusted input - https://github.com/advisories/GHSA-3965-hpx2-q597
+No fix available
+node_modules/hexo-render-pug/node_modules/pug-code-gen
+
+<span class="token number">3</span> high severity vulnerabilities
+
+Some issues need review, and may require choosing
+a different dependency.
+sh-3.2<span class="token comment"># </span>
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<p>原来是这两个包被发现有致命漏洞，将使得客户端被远程操纵，其 Report 在此：</p>
+<ul>
+<li><a target="_blank" rel="noopener" href="https://github.com/advisories/GHSA-p493-635q-r6gr/">Remote code execution via the <code>pretty</code> option.</a>；</li>
+<li><a target="_blank" rel="noopener" href="https://github.com/advisories/GHSA-3965-hpx2-q597/">Pug allows JavaScript code execution if an application accepts untrusted input</a>；</li>
+</ul>
+<p>因此，我们需要更新这两个包至最新版本：</p>
+<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">% <span class="token function">npm</span> <span class="token function">install</span> pug@3.0.3
+% <span class="token function">npm</span> <span class="token function">install</span> pug-code-gen@3.0.3<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
+
+<p>或</p>
+<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">% <span class="token function">npm</span> <span class="token function">install</span> pug@latest
+% <span class="token function">npm</span> <span class="token function">install</span> pug-code-gen@latest<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
+
+<h4 id="包-core-js-的注意事项"><a href="#包-core-js-的注意事项" class="headerlink" title="包 core-js 的注意事项"></a>包 core-js 的注意事项</h4><p>另外，我还遇到了 core-js 的警告：</p>
+<blockquote>
+<p><strong>npm</strong> warn deprecated <a href="mailto:&#99;&#x6f;&#114;&#101;&#45;&#106;&#115;&#x40;&#50;&#x2e;&#x36;&#x2e;&#49;&#x32;">&#99;&#x6f;&#114;&#101;&#45;&#106;&#115;&#x40;&#50;&#x2e;&#x36;&#x2e;&#49;&#x32;</a>: core-js@&lt;3.23.3 is no longer maintained and not recommended for usage due to the number of issues. Because of the V8 engine whims, feature detection in old core-js versions could cause a slowdown up to 100x even if nothing is polyfilled. Some versions have web compatibility issues. Please, upgrade your dependencies to the actual version of core-js.</p>
+</blockquote>
+<p>根据<a target="_blank" rel="noopener" href="https://stackoverflow.com/questions/73108853/npm-warn-deprecated-core-js2-6-12/">这篇贴子</a>，强制更新至最新版本即可：</p>
+<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">% <span class="token function">npm</span> cache clean <span class="token parameter variable">--force</span>
+% <span class="token function">npm</span> i <span class="token parameter variable">-D</span> core-js@latest<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
+
+<h2 id="自定义主题配置"><a href="#自定义主题配置" class="headerlink" title="自定义主题配置"></a>自定义主题配置</h2><p>为了<strong>不直接修改主题的默认配置</strong>，最好的解决方案就是在博客根目录下（不是主题目录）新建 <code>_config.yun.yml</code>。我直接将原来的配置拷贝过来，覆盖了现有的配置文件，结果在运行时直接报错。我料想应该是一些第三方组件没有安装，却在配置中调用了它们。所以，我不得不逐个检查配置项……</p>
+<p>接下来，我依照主题的<a target="_blank" rel="noopener" href="https://yun.yunyoujun.cn/">配置文档</a>检查参数，没有什么需要修改的。</p>
+<h2 id="安装第三方包及额外依赖"><a href="#安装第三方包及额外依赖" class="headerlink" title="安装第三方包及额外依赖"></a>安装第三方包及额外依赖</h2><p>有一些功能组件已经内置到主题文件中了，比如 <strong>Giscus</strong> 评论系统，所以我们可以直接在配置文件中设定好参数就可以了。但是，有一些功能并没有内置其中，因此需要手动安装。</p>
+<h3 id="安装-RSS-支持"><a href="#安装-RSS-支持" class="headerlink" title="安装 RSS 支持"></a>安装 RSS 支持</h3><p>在终端中敲入以下指令，安装 <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo-generator-feed/">hexo-generator-feed</a>：</p>
+<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">% <span class="token function">npm</span> <span class="token function">install</span> hexo-generator-feed <span class="token parameter variable">--save</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+
+<p>另外还需要生成一个文件什么的，详情请参见<a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo-generator-feed/">官方文档</a>。</p>
+<h3 id="安装-词云-wordcount-组件"><a href="#安装-词云-wordcount-组件" class="headerlink" title="安装 词云 wordcount 组件"></a>安装 词云 wordcount 组件</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">% <span class="token function">npm</span> <span class="token function">install</span> hexo-wordcount<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+
+<h3 id="安装-Hexo-的-Git-推送组件"><a href="#安装-Hexo-的-Git-推送组件" class="headerlink" title="安装 Hexo 的 Git 推送组件"></a>安装 Hexo 的 Git 推送组件</h3><p>此时，如果想要直接部署到 GitHub Pages 上，会出现如下报错：</p>
+<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">% hexo d
+INFO  Validating config
+INFO  Yun version <span class="token number">1.10</span>.11. Guide: https://yun.yunyoujun.cn
+ERROR Deployer not found: <span class="token function">git</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
+
+<p>根据这篇<a target="_blank" rel="noopener" href="https://theriseofdavid.github.io/2020/07/11/blog/hexo-d-g-error-to-deployer-not-found/">博文</a>，这是因为 缺少&#x2F;我忘记安装 <code>hexo-deployer-git</code> 套件，在当前目录安装套件即可：</p>
+<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token function">npm</span> <span class="token function">install</span> hexo-deployer-git <span class="token parameter variable">--save</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+
+<h2 id="推送问题"><a href="#推送问题" class="headerlink" title="推送问题"></a>推送问题</h2><p>好了，现在再次执行 <code>hexo d</code> 指令，却发现有 GitHub 的权限问题：</p>
+<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">remote: Support <span class="token keyword">for</span> password authentication was removed on August <span class="token number">13</span>, <span class="token number">2021</span>.
+remote: Please see https://docs.github.com/get-started/getting-started-with-git/about-remote-repositories<span class="token comment">#cloning-with-https-urls for information on currently recommended modes of authentication.</span>
+fatal: Authentication failed <span class="token keyword">for</span> <span class="token string">'https://github.com/misaka-clover/misaka-clover.github.io/'</span>
+FATAL Something's wrong. Maybe you can <span class="token function">find</span> the solution here: https://hexo.io/docs/troubleshooting.html
+Error: Spawn failed
+    at ChildProcess.<span class="token operator">&lt;</span>anonymous<span class="token operator">></span> <span class="token punctuation">(</span>/Users/clover/github/misaka-clover.github.io/node_modules/hexo-deployer-git/node_modules/hexo-util/lib/spawn.js:51:21<span class="token punctuation">)</span>
+    at ChildProcess.emit <span class="token punctuation">(</span>node:events:519:28<span class="token punctuation">)</span>
+    at ChildProcess._handle.onexit <span class="token punctuation">(</span>node:internal/child_process:294:12<span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<p>根据这篇<a target="_blank" rel="noopener" href="https://stackoverflow.com/questions/68775869/message-support-for-password-authentication-was-removed/">贴子</a>，这是因为 GitHub 在云游前辈发布那篇博文以后，GitHub 更改了命令行认证的方式，因此我们需要去 GitHub 的后台<a target="_blank" rel="noopener" href="https://github.com/settings/tokens/">生成</a>一个验证码，在这里当作密码输入才行。</p>
+<h2 id="代码高亮问题"><a href="#代码高亮问题" class="headerlink" title="代码高亮问题"></a>代码高亮问题</h2><p>我检查完配置文件以后，发现代码高亮失效了。我以为是因为 Hexo 升级到高版本的问题，去查了一下<a target="_blank" rel="noopener" href="https://hexo.io/zh-cn/docs/syntax-highlight#PrismJS/">官方文档</a>，发现官方用了一个更新的高亮组件，并将其参数配置到 <code>_config.yml</code> 中了。</p>
+<pre class="line-numbers language-yaml" data-language="yaml"><code class="language-yaml"><span class="token comment"># 代码高亮</span>
+<span class="token comment"># 只能在 _config.yml 中起作用</span>
+<span class="token key atrule">syntax_highlighter</span><span class="token punctuation">:</span> prismjs
+<span class="token key atrule">highlight</span><span class="token punctuation">:</span>
+  <span class="token key atrule">auto_detect</span><span class="token punctuation">:</span> <span class="token boolean important">false</span>
+  <span class="token key atrule">line_number</span><span class="token punctuation">:</span> <span class="token boolean important">true</span>
+  <span class="token key atrule">line_threshold</span><span class="token punctuation">:</span> <span class="token number">0</span>
+  <span class="token key atrule">tab_replace</span><span class="token punctuation">:</span> <span class="token string">""</span>
+  <span class="token key atrule">exclude_languages</span><span class="token punctuation">:</span>
+    <span class="token punctuation">-</span> example
+  <span class="token key atrule">wrap</span><span class="token punctuation">:</span> <span class="token boolean important">true</span>
+  <span class="token key atrule">hljs</span><span class="token punctuation">:</span> <span class="token boolean important">false</span>
+<span class="token key atrule">prismjs</span><span class="token punctuation">:</span>
+  <span class="token key atrule">preprocess</span><span class="token punctuation">:</span> <span class="token boolean important">true</span>
+  <span class="token key atrule">line_number</span><span class="token punctuation">:</span> <span class="token boolean important">true</span>
+  <span class="token key atrule">line_threshold</span><span class="token punctuation">:</span> <span class="token number">0</span>
+  <span class="token key atrule">tab_replace</span><span class="token punctuation">:</span> <span class="token string">""</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<h2 id="嵌入-Twitter-贴子问题"><a href="#嵌入-Twitter-贴子问题" class="headerlink" title="嵌入 Twitter 贴子问题"></a>嵌入 Twitter 贴子问题</h2><p>我想在本文嵌入一个推特的贴子，加入 <a target="_blank" rel="noopener" href="https://publish.twitter.com/"><strong>Twitter Publish</strong></a> 上复制的链接，居然无法变成预览的样子，所以只好使用 Hexo 自带的「<a target="_blank" rel="noopener" href="https://hexo.io/zh-cn/docs/tag-plugins/">标签插件</a>」功能。</p>
+<h2 id="本地文件-Git-备份问题"><a href="#本地文件-Git-备份问题" class="headerlink" title="本地文件 Git 备份问题"></a>本地文件 Git 备份问题</h2><p>在依照云游君的教程时，我想要将本地文件通过 Git 推送到 GitHub 上，突然想起我好像没有配置本地的 Git，所以就：</p>
+<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token comment"># 与远程 Git 仓库建立连接，只此一次即可</span>
+<span class="token function">git</span> remote <span class="token function">add</span> origin https://github.com/misaka-clover/misaka-clover.github.io<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
+
+<p>然后，我将文件推送到缓冲区：</p>
+<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token comment"># 添加到缓存区</span>
+<span class="token function">git</span> <span class="token function">add</span> <span class="token parameter variable">-A</span>
+<span class="token function">git</span> commit <span class="token parameter variable">-m</span> <span class="token string">"这次做了什么更改，简单描述下即可"</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
+
+<p>但是，在推送的时候，却遇到了问题：</p>
+<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token comment"># 推送至远程仓库</span>
+$ <span class="token function">git</span> push
+<span class="token comment"># 第一次提交，你可能需设置一下默认提交分支</span>
+<span class="token comment"># git push --set-upstream origin hexo</span>
+
+<span class="token comment"># 报错</span>
+error: src refspec hexo does not match any
+error: failed to push some refs to <span class="token string">'https://github.com/misaka-clover/misaka-clover.github.io'</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<p>我查询了一些<a target="_blank" rel="noopener" href="https://sentry.io/answers/git-src-refspec-master-does-not-match-any-error-message/">资料</a>和<a target="_blank" rel="noopener" href="https://stackoverflow.com/questions/4181861/message-src-refspec-master-does-not-match-any-when-pushing-commits-in-git/">论坛</a>，发现是我的<strong>这台新电脑本地并没有我新分支的文件</strong>。理论上来说，一个从 GitHub 上将分支文件同步到本地，但实际上我删除了原来的那个分支，然后重新创建了一个一模一样的。因此，执行：</p>
+<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token comment"># 初始化 git</span>
+$ <span class="token function">git</span> init
+Reinitialized existing Git repository <span class="token keyword">in</span> /Users/clover/github/misaka-clover.github.io/.git/
+
+<span class="token comment"># 查询 git 下有哪些分支</span>
+$ <span class="token function">git</span> branch <span class="token parameter variable">-a</span>
+* master
+
+<span class="token comment"># 创建分支 hexo</span>
+$ <span class="token function">git</span> checkout <span class="token parameter variable">-b</span> hexo
+Switched to a new branch <span class="token string">'hexo'</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<p>然后再推送，就一切正常了：</p>
+<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ <span class="token function">git</span> <span class="token function">add</span> <span class="token parameter variable">-A</span>
+
+$ <span class="token function">git</span> commit -m<span class="token string">"transfer my local blog files to new macbook"</span>
+On branch hexo
+nothing to commit, working tree clean
+
+$ <span class="token function">git</span> push --set-upstream origin hexo
+Username <span class="token keyword">for</span> <span class="token string">'https://github.com'</span><span class="token builtin class-name">:</span>
+Password <span class="token keyword">for</span> <span class="token string">'https://misaka-clover@github.com'</span><span class="token builtin class-name">:</span>
+failed to store: <span class="token parameter variable">-60006</span>
+Enumerating objects: <span class="token number">14802</span>, done.
+Counting objects: <span class="token number">100</span>% <span class="token punctuation">(</span><span class="token number">14802</span>/14802<span class="token punctuation">)</span>, done.
+Delta compression using up to <span class="token number">8</span> threads
+Compressing objects: <span class="token number">100</span>% <span class="token punctuation">(</span><span class="token number">10836</span>/10836<span class="token punctuation">)</span>, done.
+Writing objects: <span class="token number">100</span>% <span class="token punctuation">(</span><span class="token number">14802</span>/14802<span class="token punctuation">)</span>, <span class="token number">48.70</span> MiB <span class="token operator">|</span> <span class="token number">1.38</span> MiB/s, done.
+Total <span class="token number">14802</span> <span class="token punctuation">(</span>delta <span class="token number">3264</span><span class="token punctuation">)</span>, reused <span class="token number">14799</span> <span class="token punctuation">(</span>delta <span class="token number">3262</span><span class="token punctuation">)</span>, pack-reused <span class="token number">0</span> <span class="token punctuation">(</span>from <span class="token number">0</span><span class="token punctuation">)</span>
+remote: Resolving deltas: <span class="token number">100</span>% <span class="token punctuation">(</span><span class="token number">3264</span>/3264<span class="token punctuation">)</span>, done.
+remote: 
+remote: Create a pull request <span class="token keyword">for</span> <span class="token string">'hexo'</span> on GitHub by visiting:
+remote:      https://github.com/misaka-clover/misaka-clover.github.io/pull/new/hexo
+remote: 
+To https://github.com/misaka-clover/misaka-clover.github.io
+ * <span class="token punctuation">[</span>new branch<span class="token punctuation">]</span>      hexo -<span class="token operator">></span> hexo
+branch <span class="token string">'hexo'</span> <span class="token builtin class-name">set</span> up to track <span class="token string">'origin/hexo'</span><span class="token builtin class-name">.</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<p>然后，就大功告吉啦。</p>
+<h2 id="npm-包列表"><a href="#npm-包列表" class="headerlink" title="npm 包列表"></a>npm 包列表</h2><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">% <span class="token function">npm</span> list
+hexo-site@0.0.0 /Users/clover/github/misaka-clover.github.io
+├── core-js@3.37.1
+├── hexo-deployer-git@4.0.0
+├── hexo-generator-archive@2.0.0
+├── hexo-generator-category@2.0.0
+├── hexo-generator-feed@3.0.0
+├── hexo-generator-index@3.0.0
+├── hexo-generator-tag@2.0.0
+├── hexo-render-pug@2.1.4
+├── hexo-renderer-ejs@2.0.0
+├── hexo-renderer-marked@6.3.0
+├── hexo-renderer-stylus@3.0.1
+├── hexo-server@3.0.0
+├── hexo-theme-landscape@1.0.0
+├── hexo-theme-yun@1.10.11
+├── hexo-wordcount@6.0.1
+├── hexo@7.2.0
+├── pug-code-gen@3.0.3
+└── pug@3.0.3<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<h2 id="后记"><a href="#后记" class="headerlink" title="后记"></a>后记</h2><p>其实我当时是想要直接用上云游前辈开发的新框架的，可是这中间出了一些我无法解决的问题，想着它还处于开发中的阶段，就算了。</p>
+<p>现在可以在 MacBook 上直接发布了吧？那就快多写一点博文吧！</p>
+</div></section><ul class="post-copyright"><li class="post-copyright-author"><strong>本文作者：</strong>叶子</li><li class="post-copyright-link"><strong>本文链接：</strong><a href="https://mskclover.com/2024/05/26/new-garden-from-scratch/" title="从零开始建立花园">https://mskclover.com/2024/05/26/new-garden-from-scratch/</a></li><li class="post-copyright-license"><strong>版权声明：</strong>本博客所有文章除特别声明外，均默认采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh" target="_blank" rel="noopener" title="CC BY-NC-SA 4.0 "><span class="icon iconify" data-icon="ri:creative-commons-line"></span><span class="icon iconify" data-icon="ri:creative-commons-by-line"></span><span class="icon iconify" data-icon="ri:creative-commons-nc-line"></span><span class="icon iconify" data-icon="ri:creative-commons-sa-line"></span></a> 许可协议。</li></ul></article><div class="post-nav"><div class="post-nav-item"></div><div class="post-nav-item"><a class="post-nav-next" href="/2024/04/19/LES-air-traffic-control-automation-guide/" rel="next" title="莱斯空管自动化系统管制席界面指南"><span class="post-nav-text">莱斯空管自动化系统管制席界面指南</span><span class="icon iconify" data-icon="ri:arrow-right-s-line"></span></a></div></div></div><div class="hty-card" id="comment"><div class="comment-tooltip text-center"><span>如果您有任何关于博客内容的相关讨论，欢迎前往 <a href="https://github.com/misaka-clover/misaka-clover.github.io/discussions" target="_blank">GitHub Discussions</a> 与我交流。</span><br></div><style>.utterances {
+  max-width: 100%;
+}</style><script src="https://giscus.app/client.js" data-repo="misaka-clover/misaka-clover.github.io" data-repo-id="MDEwOlJlcG9zaXRvcnkyODk0NzI1MzM=" data-category="Announcements" data-category-id="DIC_kwDOEUEAFc4CU_3i" data-mapping="pathname" data-reactions-enabled="1" data-emit-metadata="0" data-theme="light" crossorigin="anonymous" async></script></div></main><footer class="sidebar-translate" id="footer"><div class="copyright"><span>&copy; 2020 – 2024 </span><span class="with-love" id="animate"><span class="icon iconify" data-icon="ri:cloud-line"></span></span><span class="author"> 叶子</span></div><div class="powered"><span>由 <a href="https://hexo.io" target="_blank" rel="noopener">Hexo</a> 驱动 v7.2.0</span><span class="footer-separator">|</span><span>主题 - <a rel="noopener" href="https://github.com/YunYouJun/hexo-theme-yun" target="_blank"><span>Yun</span></a> v1.10.11</span></div><div class="live-time"><span>本花园已长草</span><span id="display_live_time"></span><span class="moe-text">（¯﹃¯）</span><script>function blog_live_time() {
+  setTimeout(blog_live_time, 1000);
+  const start = new Date('2020-08-22T19:25:00');
+  const now = new Date();
+  const timeDiff = (now.getTime() - start.getTime());
+  const msPerMinute = 60 * 1000;
+  const msPerHour = 60 * msPerMinute;
+  const msPerDay = 24 * msPerHour;
+  const passDay = Math.floor(timeDiff / msPerDay);
+  const passHour = Math.floor((timeDiff % msPerDay) / 60 / 60 / 1000);
+  const passMinute = Math.floor((timeDiff % msPerHour) / 60 / 1000);
+  const passSecond = Math.floor((timeDiff % msPerMinute) / 1000);
+  display_live_time.innerHTML = ` ${passDay} 天 ${passHour} 小时 ${passMinute} 分 ${passSecond} 秒`;
+}
+blog_live_time();
+</script></div><div class="footer-custom-text">博客版本：Version.2.1.3 |  <a href="https://icp.gov.moe" target="_blank" style="color:inherit"><img src="/images/moeicp.png" width="25" style="vertical-align:middle">萌ICP备 </a><a href="https://icp.gov.moe/?keyword=20232952" target="_blank" style="color:inherit"> 20232952 号</a> </div><div class="footer-support"><span>由好人一生平安的</span><a class="footer-support-logo" href="https://www.cloudflare.com/" target="blank" title="Cloudflare"><img height="30" src="/images/CF_logo_stacked_blktype.svg" alt="Cloudflare"></a><span>提供免费的 CDN 加速</span></div></footer></div><a class="hty-icon-button" id="back-to-top" aria-label="back-to-top" href="#"><span class="icon iconify" data-icon="ri:arrow-up-s-line"></span><svg class="progress-circle-container" viewBox="0 0 100 100"><circle class="progress-circle" id="progressCircle" cx="50" cy="50" r="48" fill="none" stroke="#0078E7" stroke-width="2" stroke-linecap="round"></circle></svg></a><a class="popup-trigger hty-icon-button icon-search" id="search" target="_blank" rel="noopener" href="https://www.google.com/search?q=site:mskclover.com" title="搜索"><span class="site-state-item-icon"><span class="icon iconify" data-icon="ri:search-line"></span></span></a><script>function initMourn() {
+  const date = new Date();
+  const today = (date.getMonth() + 1) + "-" + date.getDate()
+  const mourn_days = ["4-4","9-18","6-4"]
+  if (mourn_days.includes(today)) {
+    document.documentElement.style.filter = "grayscale(1)";
+  }
+}
+initMourn();</script><script src="https://fastly.jsdelivr.net/npm/medium-zoom@1.0.6/dist/medium-zoom.min.js"></script><script>const images = [...document.querySelectorAll('.markdown-body img')]
+mediumZoom(images)</script><style>.medium-zoom-image {
+  z-index: 99;
+}</style></body></html>
