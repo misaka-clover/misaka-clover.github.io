@@ -1,0 +1,533 @@
+# 这是自定义的主题配置，非默认主题配置
+
+########################################################################
+
+# 网页外观配置
+# mode: light | dark | auto
+mode: auto
+
+# 网站
+title: 叶子的花园
+subtitle: '靡不有初，鲜克有终'
+description: '@Misaka-Clover'
+keywords: '个人博客,学习,技术,OpenMV,SCUT,Hexo,yun'
+author: 叶子
+language: zh-CN
+timezone: 'Asia/Shanghai'
+
+# Date / Time format
+## Hexo uses Moment.js to parse and display date
+## You can customize the date format as defined in
+## http://momentjs.com/docs/#/displaying/format/
+date_format: YYYY-MM-DD
+time_format: HH:mm:ss
+## updated_option supports 'mtime', 'date', 'empty'
+updated_option: 'mtime'
+
+# Pagination
+## Set per_page to 0 to disable pagination
+# 好像没起作用……
+# 2024-06-26 还是没起作用……
+per_page: 30
+pagination_dir: page
+
+# URL
+## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
+url: https://mskclover.com/
+permalink: :year/:month/:day/:title/
+permalink_defaults: 
+pretty_urls:
+  trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
+  trailing_html: true # Set to false to remove trailing '.html' from permalinks
+
+# Extensions
+## Plugins: https://hexo.io/plugins/
+## Themes: https://hexo.io/themes/
+theme: yun
+
+# Deployment
+## Docs: https://hexo.io/docs/one-command-deployment
+deploy:
+  type: git
+  repo: https://github.com/misaka-clover/misaka-clover.github.io #此前新建仓库的链接
+  branch: master #默认使用master分支
+  message: Update Hexo Static Content #你可以自定义此次部署更新的说明
+
+# 首页的标语动画
+banner:
+  enable: true
+  title: 叶子的花园
+  border: true
+  cloud:
+    enable: true
+    color: "white"
+  go_down:
+    enable: true
+    icon: ri:arrow-down-s-line
+
+# 首页的公告
+notice:
+  enable: false
+  content: 欢迎来到我的花园，请随意参观！
+
+# 网页的背景图片
+bg_image:
+  enable: true
+  url: /images/background.jpg
+  dark: /images/galaxy.jpg
+  blur: 3px
+  opacity: 0.8
+
+# 随机多边形背景
+trianglify:
+  enable: false
+  cellSize: 75
+  width: 800
+  height: 600
+  palette: '["YlGnBu", "GnBu", "Purples", "Blues"]'
+  opacity: 0.5
+
+# 烟花效果
+fireworks:
+  enable: true
+  colors:
+    - '102, 167, 221'
+    - '62, 131, 225'
+    - '33, 78, 194'
+
+# Medium Zoom 放大预览图片
+# 点击文章图片，放大预览。
+medium_zoom: true
+
+# 滚动浮现效果
+# https://github.com/jlmakes/scrollreveal
+scrollreveal:
+  enable: true
+  targets:
+    - .post-card
+    - .markdown-body img
+
+# 光标
+cursor:
+  enable: true
+  # default: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/css/md-cursors/pointer.cur
+  # pointer: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/css/md-cursors/link.cur
+  # text: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/css/md-cursors/text.cur
+
+
+
+########################################################################
+
+# # 侧栏
+# # 标签
+sidebar:
+  bg_image: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/img/bg/stars-timing-1.jpg
+  bg_position: bottom 3rem center
+  tagcloud:
+    enable: false
+    amount: 20
+
+# 头像图片配置
+avatar:
+  enable: true
+  url: /images/avatar/avatar.jpg 
+  rounded: true
+  opacity: 1
+  mickey_mouse: false
+  status:
+    enable: true
+    emoji: 🥬
+    message: 今天也是美好的一天呢
+
+# 设置导航栏
+menu:
+  home:
+    path: /
+    icon: ri:home-4-line
+  list:
+    - type: archives
+      path: /archives/
+      icon: ri:archive-line
+    - type: categories
+      path: /categories/
+      icon: ri:folder-2-line
+    - type: tags
+      path: /tags/
+      icon: ri:price-tag-3-line
+  custom:
+    title: 留言板
+    path: about/#comment
+    icon: ri:clipboard-line
+
+# 友链
+pages:
+  - name: 我的小伙伴们
+    url: /links/
+    icon: ri:genderless-line
+    color: dodgerblue
+#  - name: 喜欢的女孩子
+#    url: /girls/
+#    icon: ri:women-line
+#    color: hotpink
+
+# # 女友
+# girls:
+#   enable: false
+
+
+# 侧栏社交图标
+social:
+    # set rss in your root config
+    # https://github.com/hexojs/hexo-generator-feed
+    # 图标选取参见：https://yun.yunyoujun.cn/about/icon.html
+  - name: RSS
+    link: /atom.xml # config.feed.path
+    icon: ri:rss-line
+    color: orange
+  - name: GitHub
+    link: https://github.com/misaka-clover
+    icon: ri:github-line
+    color: "#181717"
+  - name: Twitter
+    link: https://twitter.com/Misaka_Clover
+    icon: ri:twitter-line
+    color: '#1da1f2'
+  - name: Mastodon
+    link: https://g0v.social/@Misaka_Clover
+    icon: ri:mastodon-line
+    color: purple
+  - name: E-Mail
+    link: mailto:cover@mskclover.com
+    icon: ri:mail-line
+    color: "#8E71C1"
+  - name: Travelling
+    link: https://www.travellings.cn/go.html
+    icon: ri:train-line
+    color: black
+
+# RSS 配置
+# 还需要上网查一下……
+feed:
+  enable: true
+  type: atom
+  path: atom.xml
+  limit: 10
+  hub:
+  content: true
+  content_limit:
+  content_limit_delim: ' '
+  order_by: -date
+  icon: icon.png
+  autodiscovery: true
+  template: /feed/atom.xml
+
+########################################################################
+
+# 文章
+# 内容卡片
+post_card:
+  opacity: 0.8
+
+# 文章信息
+post_meta:
+  item_text: true
+  created_at: true
+  updated_at: true
+  categories: true
+  tags: true
+
+# 目录
+toc:
+  list_number: true
+  max_depth: 6
+  min_depth: 1
+  placeholder: 很遗憾，咱没写啥目录
+  collapse: false
+
+# 编辑链接
+post_edit:
+  enable: false
+  url: https://github.com/misaka-clover/misaka-clover.github.io/tree/hexo/source/
+
+# 版权
+creative_commons:
+  license: by-nc-sa
+  language: deed.zh
+  post: true
+  clipboard: false
+
+# 代码高亮
+# 只能在 _config.yml 中起作用
+
+#   # 一键复制
+#   copy_btn: true
+
+lazyload:
+  enable: true
+
+########################################################################
+
+# 打赏
+reward:
+  enable: false
+  icon: ri:hand-coin-line
+  # 不需要打赏，就把这个位置做成了留言
+  comment: 喜欢的话，就留下一条评论吧~
+  # url: https://github.com/YunYouJun/yunyoujun.github.io/issues/96
+  methods:
+    - name: 支付宝
+      path: 
+      color: "#00A3EE"
+      icon: ri:alipay-line
+    - name: QQ 支付
+      path: 
+      color: "#12B7F5"
+      icon: ri:qq-line
+    - name: 微信支付
+      path: 
+      color: "#2DC100"
+      icon: ri:wechat-pay-line
+
+########################################################################
+
+# 页脚
+footer:
+  since: 2020
+  icon:
+    name: ri:cloud-line
+    animated: true
+    color: "#0078E7"
+  powered:
+    # Hexo link (Powered by Hexo).
+    enable: true
+
+  # 备案
+  # Beian icp information for Chinese users. In China, every legal website should have a beian icp in website footer.
+  # http://www.beian.miit.gov.cn
+  beian:
+    enable: false
+    icp: 学园都市ICP备10032号
+
+  # 运行时间
+  live_time:
+      enable: true
+      prefix: 本花园已长草
+      suffix: （¯﹃¯）
+      start_time: "2020-08-22T19:25:00"
+
+  # 自定义文本
+  # Any custom text can be defined here.
+  # custom_text: Hosted by <a href="https://pages.coding.me" rel="noopener" target="_blank">Coding Pages</a>
+  custom_text: '博客版本：Version.2.1.3 | 
+                <a href="https://icp.gov.moe" target="_blank" style="color:inherit"><img src="/images/moeicp.png" width="25" style="vertical-align:middle">萌ICP备 </a><a href="https://icp.gov.moe/?keyword=20232952" target="_blank" style="color:inherit"> 20232952 号</a>
+                '
+
+  # 支持致谢
+  support:
+    enable: true
+    title: Cloudflare
+    link: https://www.cloudflare.com/
+    logo: /images/CF_logo_stacked_blktype.svg
+    prefix: 由好人一生平安的
+    suffix: 提供免费的 CDN 加速
+
+########################################################################
+
+# # Say
+# say:
+#   enable: true
+#   api: https://cdn.jsdelivr.net/gh/ElpsyCN/say@gh-pages/sentences.json
+#   src: /js/say.js
+#   # https://developer.hitokoto.cn/sentence/
+#   hitokoto:
+#     enable: true
+#     api: https://v1.hitokoto.cn
+say:
+  enable: true
+  api: /data/sentences.json
+  hitokoto:
+    enable: false
+
+########################################################################
+
+# 默哀
+mourn:
+  enable: true
+  days:
+    - "6-4"
+
+########################################################################
+
+# 评论
+comment:
+  enable: true
+  tips:
+    - 如果您有任何关于博客内容的相关讨论，欢迎前往 <a href="https://github.com/misaka-clover/misaka-clover.github.io/discussions" target="_blank">GitHub Discussions</a> 与我交流。
+  candidates:
+    - giscus
+#    - utterances
+#    - waline
+
+# github_issues:
+#   enable: false
+#   username: misaka-clover
+#   repository: misaka-clover.github.io
+#   filters: is:issue
+
+# github_discussions:
+#   enable: false
+#   username: misaka-clover
+#   repository: misaka-clover.github.io
+
+giscus:
+  enable: true
+  repo: misaka-clover/misaka-clover.github.io
+  repo-id: MDEwOlJlcG9zaXRvcnkyODk0NzI1MzM=
+  category: Announcements
+  category-id: DIC_kwDOEUEAFc4CU_3i
+  mapping: pathname
+  reactions-enabled: 1
+  emit-metadata: 0
+  theme: light
+
+# <script src="https://giscus.app/client.js"
+#         data-repo="misaka-clover/misaka-clover.github.io"
+#         data-repo-id="MDEwOlJlcG9zaXRvcnkyODk0NzI1MzM="
+#         data-category="Announcements"
+#         data-category-id="DIC_kwDOEUEAFc4CU_3i"
+#         data-mapping="pathname"
+#         data-strict="0"
+#         data-reactions-enabled="1"
+#         data-emit-metadata="0"
+#         data-input-position="top"
+#         data-theme="preferred_color_scheme"
+#         data-lang="zh-CN"
+#         crossorigin="anonymous"
+#         async>
+# </script>
+
+# utterances:
+#   enable: true
+#   repo: misaka-clover/misaka-clover.github.io
+#   issue-term: pathname
+#   # label: comment
+#   theme: github-light
+
+# 不再使用这个评论系统
+# waline:
+#   enable: true
+#   serverURL: https://mskclover-com.vercel.app
+#   visitor: true
+#   comment: true
+#   avatar: 
+#     url: https://sdn.geekzu.org/avatar/4674442b10d4160841c6a51bb09722e4?s=80
+#     rounded: true
+#   emoji:
+#     - https://cdn.jsdelivr.net/gh/walinejs/emojis@latest/bilibili/
+#     - https://cdn.jsdelivr.net/gh/walinejs/emojis@latest/weibo/
+#     - https://cdn.jsdelivr.net/gh/walinejs/emojis@latest/qq/
+#   locale:
+#     placeholder: 请畅所欲言喔！偷偷告诉你，登录 Gravatar 后可自定义头像来着（
+#   requiredMeta: ["nick"]
+
+########################################################################
+
+# 搜索
+# 搜索的背景
+# search:
+#   modal: true
+#   bg_image: /images/background.jpg
+#   dark_bg_image: /images/galaxy.jpg
+#   placeholder: 今天想看看什么呢
+
+engine_search:
+  enable: true
+  href: "https://www.google.com/search?q=site:"
+  # href: "https://www.baidu.com/s?wd=site:"
+  # href: "https://www.bing.com/search?q=site:"
+  domain: mskclover.com
+
+# # search
+# # https://github.com/next-theme/hexo-generator-searchdb
+# # 暂时还是不用内置的搜索，依托 Bing 就好
+# local_search:
+#   enable: true
+
+########################################################################
+
+# 这是谷歌分析（Google Analytics）
+# 注意：最近新建的谷歌分析账号ID已经修改，格式如：G-XXXXXXXXXX，可以直接填入id一项，功能正常。
+# 站点配置文件`_config.yml`中的站点部署的 url 应与 CNAME 中的域名（或xxxxx.github.io）一致
+
+google_analytics:
+  enable: true
+  #id: UA-176081910-1
+  id: G-6VWG03H880
+
+# # 开启了 Google SEO 后需要跳过渲染这些文件
+# # 没找到文件
+# skip_render:
+#   - README.md
+#   - google_xxx.html
+
+# 谷歌广告
+# 未配置完成
+google_adsense:
+  enable: true
+  client: pub-4618904761682457
+
+########################################################################
+
+# # 不蒜子是一款轻量极简的网站计数器。
+# # 使用说明：https://ibruce.info/2015/04/04/busuanzi
+# busuanzi:
+#   enable: false
+#   site_uv: true
+#   site_uv_icon: ri:user-line
+#   site_pv: true
+#   site_pv_icon: ri:eye-line
+#   page_pv: true
+#   page_pv_icon: ri:eye-line
+# # 不知道为什么，这个计数器有问题，显示几百万次的访问量……
+
+
+# LeanCloud在国内不再可用
+# # 基于 LeanCloud 的访问者统计，显示每篇文章的访问量。
+# leancloud_visitors:
+#   enable: true
+#   app_id: ORivKcH7ctPK1d4c7xLn1wgi-MdYXbMMI
+#   app_key: 6cWYWOhAeaacKbuNuGO0GgSs
+#   # Required for apps from CN region
+#   server_url: https://mskclover-com.vercel.app
+
+# 词数统计和阅读时间的估计
+wordcount:
+  enable: true
+  count: true
+  time: true
+
+# KaTeX
+katex:
+  copy_tex: true
+  global: false
+
+# mermaid
+mermaid:
+  enable: false
+  options: # find more api options from https://github.com/knsv/mermaid/blob/master/src/mermaidAPI.js
+    startOnload: true # default true
+  global: false # default true
+
+
+
+
+
+
+
+
+
+
+
+
+
+

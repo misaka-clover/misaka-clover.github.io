@@ -1,0 +1,494 @@
+<!DOCTYPE html><html lang="zh-CN"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="theme-color" content="#0078E7"><meta name="author" content="叶子"><meta name="copyright" content="叶子"><meta name="generator" content="Hexo 7.2.0"><meta name="theme" content="hexo-theme-yun"><title>电子秤电路 | 叶子的花园</title><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@900&amp;display=swap" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://fastly.jsdelivr.net/npm/star-markdown-css@0.4.1/dist/yun/yun-markdown.min.css"><link rel="stylesheet" href="https://fastly.jsdelivr.net/npm/prism-theme-vars/base.css"><script src="https://fastly.jsdelivr.net/npm/scrollreveal/dist/scrollreveal.min.js" defer></script><script>function initScrollReveal() {
+  [".post-card",".markdown-body img"].forEach((target)=> {
+    ScrollReveal().reveal(target);
+  })
+}
+document.addEventListener("DOMContentLoaded", initScrollReveal);
+document.addEventListener("pjax:success", initScrollReveal);
+</script><link rel="icon" type="image/svg+xml" href="/yun.svg"><link rel="mask-icon" href="/yun.svg" color="#0078E7"><link rel="preload" href="/css/hexo-theme-yun.css" as="style"><link rel="prefetch" href="/js/sidebar.js" as="script"><link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin><link rel="preconnect" href="https://fastly.jsdelivr.net/npm/" crossorigin><script id="yun-config">
+    window.Yun = {}
+    window.CONFIG = {"hostname":"mskclover.com","root":"/","title":"叶子的花园","version":"1.10.11","mode":"auto","copycode":true,"page":{"isPost":true},"i18n":{"placeholder":"搜索...","empty":"找不到您查询的内容: ${query}","hits":"找到 ${hits} 条结果","hits_time":"找到 ${hits} 条结果（用时 ${time} 毫秒）"},"anonymous_image":"https://cdn.yunyoujun.cn/img/avatar/none.jpg","say":{"api":"/data/sentences.json"},"fireworks":{"colors":["102, 167, 221","62, 131, 225","33, 78, 194"]},"vendors":{"host":"https://fastly.jsdelivr.net/npm/","darken":"https://fastly.jsdelivr.net/npm/darken@1.5.0"}};
+  </script><link rel="stylesheet" href="/css/hexo-theme-yun.css"><script src="/js/hexo-theme-yun.js" type="module"></script><link rel="alternate" href="/atom.xml" title="叶子的花园" type="application/atom+xml"><link rel="preconnect" href="https://www.google-analytics.com" crossorigin><script async src="https://www.googletagmanager.com/gtag/js?id=G-6VWG03H880"></script><script>if (CONFIG.hostname === location.hostname) {
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-6VWG03H880');
+}</script><script data-ad-client="pub-4618904761682457" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><meta name="description" content="模电的课程设计">
+<meta property="og:type" content="article">
+<meta property="og:title" content="电子秤电路">
+<meta property="og:url" content="https://mskclover.com/2021/05/01/electronic-scale-design/index.html">
+<meta property="og:site_name" content="叶子的花园">
+<meta property="og:description" content="模电的课程设计">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://mskclover.com/images/electronic-scale-design/work.jpg">
+<meta property="og:image" content="https://mskclover.com/images/electronic-scale-design/plan_a.jpg">
+<meta property="og:image" content="https://mskclover.com/images/electronic-scale-design/plan_b.jpg">
+<meta property="og:image" content="https://mskclover.com/images/electronic-scale-design/wheatstone_bridge.jpg">
+<meta property="og:image" content="https://mskclover.com/images/electronic-scale-design/amplifier.jpg">
+<meta property="og:image" content="https://mskclover.com/images/electronic-scale-design/reference.jpg">
+<meta property="og:image" content="https://mskclover.com/images/electronic-scale-design/comparison_2.jpg">
+<meta property="og:image" content="https://mskclover.com/images/electronic-scale-design/range.jpg">
+<meta property="og:image" content="https://mskclover.com/images/electronic-scale-design/comparison_1.jpg">
+<meta property="og:image" content="https://mskclover.com/images/electronic-scale-design/selector.jpg">
+<meta property="og:image" content="https://mskclover.com/images/electronic-scale-design/delay.jpg">
+<meta property="og:image" content="https://mskclover.com/images/electronic-scale-design/display.jpg">
+<meta property="og:image" content="https://mskclover.com/images/electronic-scale-design/power.jpg">
+<meta property="og:image" content="https://mskclover.com/images/electronic-scale-design/circuit.jpg">
+<meta property="article:published_time" content="2021-05-01T13:45:35.000Z">
+<meta property="article:modified_time" content="2023-03-20T05:08:00.000Z">
+<meta property="article:author" content="叶子">
+<meta property="article:tag" content="博文">
+<meta property="article:tag" content="叶子填的坑">
+<meta property="article:tag" content="学业">
+<meta property="article:tag" content="技术">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://mskclover.com/images/electronic-scale-design/work.jpg"><script>(function() {
+  if (CONFIG.mode !== 'auto') return
+  const prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches
+  const setting = localStorage.getItem('darken-mode') || 'auto'
+  if (setting === 'dark' || (prefersDark && setting !== 'light'))
+    document.documentElement.classList.toggle('dark', true)
+})()</script></head><body><script src="https://code.iconify.design/2/2.1.1/iconify.min.js"></script><script>// Define global variable
+IconifyProviders = {
+  // Empty prefix: overwrite default API provider configuration
+  '': {
+    // Use custom API first, use Iconify public API as backup
+    resources: [
+        'https://api.iconify.design',
+    ],
+    // Wait for 1 second before switching API hosts
+    rotate: 1000,
+  },
+};</script><script defer src="https://fastly.jsdelivr.net/npm/animejs@latest"></script><script defer src="/js/ui/fireworks.js" type="module"></script><canvas class="fireworks"></canvas><div class="container"><a class="sidebar-toggle hty-icon-button" id="menu-btn"><div class="hamburger hamburger--spin" type="button"><span class="hamburger-box"><span class="hamburger-inner"></span></span></div></a><div class="sidebar-toggle sidebar-overlay"></div><aside class="sidebar"><script src="/js/sidebar.js" type="module"></script><ul class="sidebar-nav"><li class="sidebar-nav-item sidebar-nav-toc hty-icon-button sidebar-nav-active" data-target="post-toc-wrap" title="文章目录"><span class="icon iconify" data-icon="ri:list-ordered"></span></li><li class="sidebar-nav-item sidebar-nav-overview hty-icon-button" data-target="site-overview-wrap" title="站点概览"><span class="icon iconify" data-icon="ri:passport-line"></span></li></ul><div class="sidebar-panel" id="site-overview-wrap"><div class="site-info fix-top"><a class="site-author-avatar" href="/about/" title="叶子"><img width="96" loading="lazy" src="/images/avatar/avatar.jpg" alt="叶子"><span class="site-author-status" title="今天也是美好的一天呢">🥬</span></a><div class="site-author-name"><a href="/about/">叶子</a></div><a class="site-name" href="/about/site.html">叶子的花园</a><sub class="site-subtitle">靡不有初，鲜克有终</sub><div class="site-description">@Misaka-Clover</div></div><nav class="site-state"><a class="site-state-item hty-icon-button icon-home" href="/" title="首页"><span class="site-state-item-icon"><span class="icon iconify" data-icon="ri:home-4-line"></span></span></a><div class="site-state-item"><a href="/archives/" title="归档"><span class="site-state-item-icon"><span class="icon iconify" data-icon="ri:archive-line"></span></span><span class="site-state-item-count">45</span></a></div><div class="site-state-item"><a href="/categories/" title="分类"><span class="site-state-item-icon"><span class="icon iconify" data-icon="ri:folder-2-line"></span></span><span class="site-state-item-count">9</span></a></div><div class="site-state-item"><a href="/tags/" title="标签"><span class="site-state-item-icon"><span class="icon iconify" data-icon="ri:price-tag-3-line"></span></span><span class="site-state-item-count">114</span></a></div><a class="site-state-item hty-icon-button" href="/about/#comment" title="留言板"><span class="site-state-item-icon"><span class="icon iconify" data-icon="ri:clipboard-line"></span></span></a></nav><hr style="margin-bottom:0.5rem"><div class="links-of-author"><a class="links-of-author-item hty-icon-button" rel="noopener" href="/atom.xml" title="RSS" target="_blank" style="color:orange"><span class="icon iconify" data-icon="ri:rss-line"></span></a><a class="links-of-author-item hty-icon-button" rel="noopener" href="https://github.com/misaka-clover" title="GitHub" target="_blank" style="color:#181717"><span class="icon iconify" data-icon="ri:github-line"></span></a><a class="links-of-author-item hty-icon-button" rel="noopener" href="https://twitter.com/Misaka_Clover" title="Twitter" target="_blank" style="color:#1da1f2"><span class="icon iconify" data-icon="ri:twitter-line"></span></a><a class="links-of-author-item hty-icon-button" rel="noopener" href="https://g0v.social/@Misaka_Clover" title="Mastodon" target="_blank" style="color:purple"><span class="icon iconify" data-icon="ri:mastodon-line"></span></a><a class="links-of-author-item hty-icon-button" rel="noopener" href="mailto:cover@mskclover.com" title="E-Mail" target="_blank" style="color:#8E71C1"><span class="icon iconify" data-icon="ri:mail-line"></span></a><a class="links-of-author-item hty-icon-button" rel="noopener" href="https://www.travellings.cn/go.html" title="Travelling" target="_blank" style="color:var(--hty-text-color)"><span class="icon iconify" data-icon="ri:train-line"></span></a></div><hr style="margin:0.5rem 1rem"><div class="links"><a class="links-item hty-icon-button" href="/links/" title="我的小伙伴们" style="color:dodgerblue"><span class="icon iconify" data-icon="ri:genderless-line"></span></a></div><br><a class="links-item hty-icon-button" id="toggle-mode-btn" href="javascript:;" title="Mode" style="color: #f1cb64"><span class="icon iconify" data-icon="ri:contrast-2-line"></span></a></div><div class="sidebar-panel sidebar-panel-active" id="post-toc-wrap"><div class="post-toc"><div class="post-toc-content"><ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%83%8C%E6%99%AF"><span class="toc-number">1.</span> <span class="toc-text">背景</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%88%9D%E8%A7%81%E6%9D%80"><span class="toc-number">2.</span> <span class="toc-text">初见杀</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%B8%AE%E5%8A%A9"><span class="toc-number">3.</span> <span class="toc-text">帮助</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%AE%BE%E8%AE%A1"><span class="toc-number">4.</span> <span class="toc-text">设计</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%AE%BE%E8%AE%A1%E9%A2%98%E7%9B%AE%E4%B8%8E%E8%A6%81%E6%B1%82"><span class="toc-number">4.1.</span> <span class="toc-text">设计题目与要求</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%AE%BE%E8%AE%A1%E6%80%9D%E8%B7%AF"><span class="toc-number">4.2.</span> <span class="toc-text">设计思路</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%8E%9F%E7%90%86%E6%96%B9%E6%A1%86%E5%9B%BE"><span class="toc-number">4.3.</span> <span class="toc-text">原理方框图</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E6%96%B9%E6%A1%88A"><span class="toc-number">4.3.1.</span> <span class="toc-text">方案A</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E6%96%B9%E6%A1%88B"><span class="toc-number">4.3.2.</span> <span class="toc-text">方案B</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%85%B7%E4%BD%93%E6%A8%A1%E5%9D%97%E5%88%86%E6%9E%90"><span class="toc-number">4.4.</span> <span class="toc-text">具体模块分析</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E9%87%8D%E9%87%8F%E4%BC%A0%E6%84%9F%E5%99%A8"><span class="toc-number">4.4.1.</span> <span class="toc-text">重量传感器</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E4%BF%A1%E5%8F%B7%E6%94%BE%E5%A4%A7%E7%94%B5%E8%B7%AF"><span class="toc-number">4.4.2.</span> <span class="toc-text">信号放大电路</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%9F%BA%E5%87%86%E7%94%B5%E5%8E%8B%E7%94%B5%E8%B7%AF"><span class="toc-number">4.4.3.</span> <span class="toc-text">基准电压电路</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E6%AF%94%E8%BE%83%E7%94%B5%E8%B7%AFII"><span class="toc-number">4.4.4.</span> <span class="toc-text">比较电路II</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E9%87%8F%E7%A8%8B%E8%87%AA%E5%8A%A8%E5%88%87%E6%8D%A2%E4%B8%8E%E5%B0%8F%E6%95%B0%E7%82%B9%E7%94%B5%E8%B7%AF"><span class="toc-number">4.4.5.</span> <span class="toc-text">量程自动切换与小数点电路</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E6%AF%94%E8%BE%83%E7%94%B5%E8%B7%AFI"><span class="toc-number">4.4.6.</span> <span class="toc-text">比较电路I</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E9%80%89%E6%8B%A9%E5%99%A8%E6%8E%A7%E5%88%B6%E7%94%B5%E8%B7%AF"><span class="toc-number">4.4.7.</span> <span class="toc-text">选择器控制电路</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%BB%B6%E6%97%B6%E4%B8%8E%E7%94%B5%E6%BA%90%E7%94%B5%E8%B7%AF"><span class="toc-number">4.4.8.</span> <span class="toc-text">延时与电源电路</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#A-D%E8%BD%AC%E6%8D%A2%E4%B8%8E%E6%98%BE%E7%A4%BA%E7%94%B5%E8%B7%AF"><span class="toc-number">4.4.9.</span> <span class="toc-text">A&#x2F;D转换与显示电路</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E7%94%B5%E6%BA%90%E7%94%B5%E8%B7%AF"><span class="toc-number">4.4.10.</span> <span class="toc-text">电源电路</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E6%95%B4%E6%9C%BA%E7%94%B5%E8%B7%AF%E5%9B%BE%EF%BC%9A"><span class="toc-number">4.4.11.</span> <span class="toc-text">整机电路图：</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E9%97%AE%E9%A2%98%E4%B8%8E%E6%94%B9%E8%BF%9B"><span class="toc-number">4.5.</span> <span class="toc-text">问题与改进</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%85%83%E4%BB%B6%E6%B8%85%E5%8D%95"><span class="toc-number">4.6.</span> <span class="toc-text">元件清单</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E7%9B%B4%E6%8F%92%E5%BC%8F%E6%A8%A1%E6%8B%9FIC"><span class="toc-number">4.6.1.</span> <span class="toc-text">直插式模拟IC</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E7%9B%B4%E6%8F%92%E5%BC%8F%E6%95%B0%E5%AD%97IC"><span class="toc-number">4.6.2.</span> <span class="toc-text">直插式数字IC</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E7%94%B5%E9%98%BB"><span class="toc-number">4.6.3.</span> <span class="toc-text">电阻</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E7%94%B5%E5%AE%B9"><span class="toc-number">4.6.4.</span> <span class="toc-text">电容</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%85%B6%E4%BB%96%E7%94%B5%E5%AD%90%E5%85%83%E4%BB%B6"><span class="toc-number">4.6.5.</span> <span class="toc-text">其他电子元件</span></a></li></ol></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%80%A7%E8%83%BD%E6%8C%87%E6%A0%87%E7%9A%84%E6%B5%8B%E9%87%8F"><span class="toc-number">5.</span> <span class="toc-text">性能指标的测量</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%B5%8B%E8%AF%95%E4%BD%BF%E7%94%A8%E7%9A%84%E4%BB%AA%E5%99%A8"><span class="toc-number">5.1.</span> <span class="toc-text">测试使用的仪器</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#IC%E6%B5%8B%E8%AF%95%E6%95%B0%E6%8D%AE"><span class="toc-number">5.2.</span> <span class="toc-text">IC测试数据</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%94%BE%E5%A4%A7%E7%94%B5%E8%B7%AF%E6%B5%8B%E8%AF%95%E6%95%B0%E6%8D%AE"><span class="toc-number">5.3.</span> <span class="toc-text">放大电路测试数据</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%94%B5%E5%AD%90%E7%A7%A4%E5%88%87%E6%8D%A2%E9%87%8F%E7%A8%8B%E7%82%B9"><span class="toc-number">5.4.</span> <span class="toc-text">电子秤切换量程点</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%80%BB%E7%BB%93%E4%B8%8E%E5%90%8E%E8%AE%B0"><span class="toc-number">6.</span> <span class="toc-text">总结与后记</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%8F%82%E8%80%83%E8%B5%84%E6%96%99%EF%BC%9A"><span class="toc-number">7.</span> <span class="toc-text">参考资料：</span></a></li></ol></div></div></div></aside><main class="sidebar-translate" id="content"><div id="post"><article class="hty-card post-block" itemscope itemtype="https://schema.org/Article" style="--smc-primary:#0078E7;"><link itemprop="mainEntityOfPage" href="https://mskclover.com/2021/05/01/electronic-scale-design/"><span hidden itemprop="author" itemscope itemtype="https://schema.org/Person"><meta itemprop="name" content="叶子"><meta itemprop="description"></span><span hidden itemprop="publisher" itemscope itemtype="https://schema.org/Organization"><meta itemprop="name" content="叶子的花园"></span><header class="post-header"><h1 class="post-title" itemprop="name headline">电子秤电路</h1><div class="post-meta"><div class="post-time" style="display:block"><span class="post-meta-item-icon"><span class="icon iconify" data-icon="ri:calendar-line"></span></span> <span class="post-meta-icon-text">发表于</span> <time title="创建时间：2021-05-01 21:45:35" itemprop="dateCreated datePublished" datetime="2021-05-01T21:45:35+08:00">2021-05-01</time><span class="post-meta-divider">-</span><span class="post-meta-item-icon"><span class="icon iconify" data-icon="ri:calendar-2-line"></span></span> <span class="post-meta-icon-text">更新于</span> <time title="修改时间：2023-03-20 13:08:00" itemprop="dateModified" datetime="2023-03-20T13:08:00+08:00">2023-03-20</time></div><span class="post-count"><span class="post-symbolcount"><span class="post-meta-item-icon" title="本文字数"><span class="icon iconify" data-icon="ri:file-word-line"></span></span> <span title="本文字数">5k</span><span class="post-meta-divider">-</span><span class="post-meta-item-icon" title="阅读时长"><span class="icon iconify" data-icon="ri:timer-line"></span></span> <span title="阅读时长">17m</span></span></span><div class="post-classify"><span class="post-category"> <span class="post-meta-item-icon" style="margin-right:3px;"><span class="icon iconify" data-icon="ri:folder-line"></span></span><span itemprop="about" itemscope itemtype="https://schema.org/Thing"><a class="category-item" href="/categories/%E5%8F%B6%E5%AD%90%E7%9A%84%E5%B0%8F%E7%9F%A5%E8%AF%86/" style="--text-color:var(--hty-text-color)" itemprop="url" rel="index"><span itemprop="text">叶子的小知识</span></a></span></span><span class="post-tag"><span class="post-meta-divider">-</span><a class="tag-item" href="/tags/%E5%8D%9A%E6%96%87/" style="--text-color:var(--hty-text-color)"><span class="post-meta-item-icon"><span class="icon iconify" data-icon="ri:price-tag-3-line"></span></span><span class="tag-name">博文</span></a><a class="tag-item" href="/tags/%E5%8F%B6%E5%AD%90%E5%A1%AB%E7%9A%84%E5%9D%91/" style="--text-color:var(--hty-text-color)"><span class="post-meta-item-icon"><span class="icon iconify" data-icon="ri:price-tag-3-line"></span></span><span class="tag-name">叶子填的坑</span></a><a class="tag-item" href="/tags/%E5%AD%A6%E4%B8%9A/" style="--text-color:var(--hty-text-color)"><span class="post-meta-item-icon"><span class="icon iconify" data-icon="ri:price-tag-3-line"></span></span><span class="tag-name">学业</span></a><a class="tag-item" href="/tags/%E6%8A%80%E6%9C%AF/" style="--text-color:var(--hty-text-color)"><span class="post-meta-item-icon"><span class="icon iconify" data-icon="ri:price-tag-3-line"></span></span><span class="tag-name">技术</span></a></span></div></div></header><section class="post-body" itemprop="articleBody"><div class="post-content markdown-body"><p><img src="/images/electronic-scale-design/work.jpg" alt="work" loading="lazy"></p>
+<blockquote>
+<p>“不要像我一样作死用模电去实现。“—— <strong>Todd Zhou</strong></p>
+</blockquote>
+<span id="more"></span>
+
+<h2 id="背景"><a href="#背景" class="headerlink" title="背景"></a>背景</h2><p>一直都想写一篇技术向的博文，不过苦于在许多方面了解得不够透彻，写出来的东西也太过浅显，难以给他人提供足够的帮助，所以也就一直没写（更不用说我<a target="_blank" rel="noopener" href="https://misaka-9936.github.io/2021/01/19/2021-blog-posts-writting-plan/">假期还说要每周写一篇</a>结果鸽了……）。但现在我第一次有机会，用自己学过的知识设计从电源、传感器测量、放大、比较、到输出与显示的每一部分，凭此构建出一个完整的电路。在这期间，我也从最开始的毫无头绪，到初步设计，再到电路的搭建、改进与调试，每一步都是那周在实验室搭电路查资料一点一点地完成。</p>
+<h2 id="初见杀"><a href="#初见杀" class="headerlink" title="初见杀"></a>初见杀</h2><p>我看到课表的第一周基本没课，以为这是学校的一个疏忽，丝毫没注意到其他班是照常行课，开开心心地回到了学校后，打算先把作息调整过来先。可刚回学校就接到了模电实验老师的通知：“这周安排的是模电课程设计，请同学们准时来上课。”然后就看到了老师发给我们的预习资料：设计题目是在周四晚上前设计并搭建一个电子秤，后附有详细要求和可用元件列表。</p>
+<p>当时我有些懵：虽说上学期确实是学完了模电和数电，但是现在过了一个寒假，鬼知道我两个月过去了还记得些什么。也没有在寒假提前通知，给点时间让我们调整温习，直接开幕雷击。</p>
+<p>讲真，就算我对学的东西还像刚考完试那样熟悉，那也只是知道放大器电路、滤波电路和比较电路这种小的部分，仅仅是把上述的那些小电路选两个组合起来我都做不到，而大型的电路别说设计，我连见都没见过。现在突然就布置一个课程设计，那对我而言，难度也是蛮大的。</p>
+<p>所以我就想要取巧：因为单纯从一个放大器开始搭建模拟电路确实比较难，因为是分立元件，各个电气元件的性质有差异，在搭建一个比较大的电路时需要进行分别调整，比较麻烦。而如果能够使用后来科技进步的成果，比如单片机或者其他的专用芯片，用集成电路来搭建会容易得多。</p>
+<p>我便发消息问老师，结果老师回复我说：</p>
+<blockquote>
+<p>“模电课设是基础实验，不需要单片机。”</p>
+</blockquote>
+<p>那就只能头铁去用模电实现了……</p>
+<h2 id="帮助"><a href="#帮助" class="headerlink" title="帮助"></a>帮助</h2><p>之前我也提过，软件与硬件各有优劣，但在发展方面，我是更看好软件的：因为从事软件的人更熟悉网络，因为软件的开源，但最为重要的是，因为社群。有了社群，人们就可以更容易的入门，可以少做很多重复的工作，可以有更好的范例进行参考。</p>
+<p>这次正是社群帮助了我。无论什么事情，从零到一都是很难的，如果当你对这种事情并不热衷，那更是受罪。而<a target="_blank" rel="noopener" href="https://toddzhoufeng.github.io/"><strong>Todd Zhou</strong></a>师兄的设计，让我对这个课程设计有了思路，从而我能以此为参考，做出我自己的电路。</p>
+<p>所以我非常感谢师兄，他的参考给了我极大的帮助，让我少走了许多的弯路，帮我节省了很多的时间。而这也是我想要写这篇博文的原因，我也希望能在未来，也能给到其他人这样的帮助，那样我就非常满足了。</p>
+<p>好了，下面来看看我的设计吧：</p>
+<h2 id="设计"><a href="#设计" class="headerlink" title="设计"></a>设计</h2><p>虽说模电课设是有好几个题目的，也许是我的运气不错，我分到的题目和师兄的题目不能说是完全相同，只能说是一模一样：</p>
+<h3 id="设计题目与要求"><a href="#设计题目与要求" class="headerlink" title="设计题目与要求"></a>设计题目与要求</h3><p>设计一个简易电子秤电路，称重范围分为两档：0 ～ 1.999kg，0 ～ 19.99kg。要求：</p>
+<ol>
+<li>基本功能<ul>
+<li>（1）当秤盘上有物体时，用数码管显示其重量；（A&#x2F;D 转换使用 ICL7107 专用集成电路，由实验室提供）</li>
+<li>（2）当物体从秤盘上拿走时，物体重量显示 3 秒后自动切断电源；</li>
+<li>（3）超称重范围或减称重范围时，两个档位可自动切换量程，（用发光二极管指示量程），且数码管小数点的位置也跟随切换；</li>
+<li>（4）设计电路所需的电源。（实际搭建时仍使用稳压直流电源）</li>
+</ul>
+</li>
+<li>拓展功能（+1 ～ 10 分）<ul>
+<li>（5）两次秤重有累加功能。</li>
+<li>（6）称重范围对应的档位编号分别是 1 和 2，用一个数码管显示其档位；</li>
+<li>（7）去皮功能（设置 0 参考）</li>
+<li>（8）其他功能的添加。</li>
+</ul>
+</li>
+</ol>
+<p>（因为我比较愚钝，所以在那周要结束的时候才堪堪调试好基本功能，虽说拓展功能原则上只需设计就好，但我也不想再设计了&#x3D;.&#x3D;）</p>
+<h3 id="设计思路"><a href="#设计思路" class="headerlink" title="设计思路"></a>设计思路</h3><p>由题目说明中的第四点可知，重量传感器使用的是差动电桥或与其类似的电路，因此此题与电阻式传感及其处理电路的应用有关。通过查阅资料可知，市面上常见的桥式称重传感器的原理即惠斯通电桥，我们可以以此设计电桥电路。</p>
+<p>根据题目说明的第（4）点，可知电桥电路的输出小于10mV，所以我们需要放大电路将电桥输出的信号进行放大，于是在电桥后面应当加上运算放大电路。</p>
+<p>而因为需要两种量程，所以我们需要设计一个可以进行电压比较的电路，然后将比较的结果输出到下一个电路：数据选择电路。数据选择器根据电压比较器输出到结果，将放大电路输出的电压结果选择性地输出到以ICL7107为主的显示电路里面。</p>
+<p>另一方面，题目要求在显示三秒后切断电源，由于所用的是直流稳压电源，这个对我们现在所学的知识而言，很难在有限的时间里去实现，不过题目说明里只要求我们控制一个发光二极管熄灭即可。所以我以为，应该将运算放大电路的输出结果经过一个比较器和零相比之后，通过一个继电器和一个由555定时器构成的单稳态触发器控制发光二极管的延时和熄灭。</p>
+<h3 id="原理方框图"><a href="#原理方框图" class="headerlink" title="原理方框图"></a>原理方框图</h3><h4 id="方案A"><a href="#方案A" class="headerlink" title="方案A"></a>方案A</h4><p><img src="/images/electronic-scale-design/plan_a.jpg" alt="plan_a" loading="lazy"></p>
+<p>该电路中，传感器接收信号，将接收的小信号输入放大电路。正如同设计思路中描述的那样，使用多个运算放大器组成的放大电路将电桥输出的信号进行放大。然后一方面通过比较电路、延时电路和继电器电路控制显示的延时及电源的关闭；另一方面，通过带有基准电压电路的第二个比较电路、量程自动切换电路和A&#x2F;D转换电路等一系列电路，显示电子秤所测得的物体重量。</p>
+<h4 id="方案B"><a href="#方案B" class="headerlink" title="方案B"></a>方案B</h4><p><img src="/images/electronic-scale-design/plan_b.jpg" alt="plan_b" loading="lazy"></p>
+<p>本来设计一个方案就让我头痛不已了，还需要至少要有两个方案比较……于是参考师兄“模数转换”的思路，胡诌了另一个方案凑数……这个方案的思路是先进行模数转换，然后再进行运算。</p>
+<p>在这个电路里面，与上一个电路相同，传感器为差动电桥电路，其中的中间两点引出电压差，再通过放大器和滤波电路滤除高频，得到放大电压。放大器输出的信号一方面进入比较器1，控制电源的开关；另一方面进入A&#x2F;D转换芯片，转换后输入比较器2，再进行量程切换与显示。</p>
+<p>不过由于复杂度和成本上，模数转换都不如数模转换，所以我们采用方案A。</p>
+<h3 id="具体模块分析"><a href="#具体模块分析" class="headerlink" title="具体模块分析"></a>具体模块分析</h3><h4 id="重量传感器"><a href="#重量传感器" class="headerlink" title="重量传感器"></a>重量传感器</h4><p>由于我们是三流学校的三流专业，所以老师表示不会给大家配备重量传感器，测量信号用与传感器电路相似的电桥产生即可。由查阅资料可知，压阻压力传感器的原理是惠斯通电桥：</p>
+<p><img src="/images/electronic-scale-design/wheatstone_bridge.jpg" alt="wheatstone_bridge" loading="lazy"></p>
+<p>当受到外界压力时，电桥中的电阻阻值发生变化，使电桥失去平衡。外加电压后，电桥失去平衡时将输出一个与压力对应的微小电压信号，从而实现将压力信号转换为电信号。</p>
+<p>具体的计算公式可以参见<strong>Todd Zhou</strong>师兄的博文，这里就不再详述（其实是我懒得写Latex 233）。</p>
+<p>电桥选用直流电桥，其特点是信号不会受各元件和导线的分布电感及电容的影响，抗干扰能力强，但机械应变输出信号小，需要高增益和高稳定性的放大器进行放大，这就是为什么我的电路中下一个部分便是放大电路。</p>
+<h4 id="信号放大电路"><a href="#信号放大电路" class="headerlink" title="信号放大电路"></a>信号放大电路</h4><p>传感器输出的电压至多不超过10mV，因此我们需要在输出的信号进入比较电路之前，先将传感器输出的小信号转换成比较电路能接受的大信号。</p>
+<p><img src="/images/electronic-scale-design/amplifier.jpg" alt="amplifier" loading="lazy"></p>
+<p>为了保证电路信号的稳定与不失真，尽可能的避免一个运算放大器电路的放大倍数过大的情况。所以，在这个电路中，我使用的是由四运放模拟芯片LM324N中的两个运算放大器分别组成同向比例放大电路，设计的放大倍数理论上约为900倍，足以满足后面比较电路的需求（没有设计更高级的放大电路，因为又不是不能用.jpg）。</p>
+<h4 id="基准电压电路"><a href="#基准电压电路" class="headerlink" title="基准电压电路"></a>基准电压电路</h4><p>由图，根据分压原理，我设计了这个简单的基准电压电路：</p>
+<p><img src="/images/electronic-scale-design/reference.jpg" alt="reference" loading="lazy"></p>
+<p>基准电压为500mV，其中Vcc连接电源的+5V，Vout连接比较电路的负端，作为Ref存在。</p>
+<h4 id="比较电路II"><a href="#比较电路II" class="headerlink" title="比较电路II"></a>比较电路II</h4><p><img src="/images/electronic-scale-design/comparison_2.jpg" alt="comparison_2" loading="lazy"></p>
+<p>放大电路II会将信号与上述的基准电压电路中所构建的基准电压进行比较：若放大电路输入的信号比基准电压大，则向后面连接的四选一选择器输出高电平；若放大电路输入的信号小于基准电压，则输出低电平。</p>
+<h4 id="量程自动切换与小数点电路"><a href="#量程自动切换与小数点电路" class="headerlink" title="量程自动切换与小数点电路"></a>量程自动切换与小数点电路</h4><p>量程自动切换电路会根据比较电路II的输出，从放大电路输入的两种信号中选择一种进行输出。自动切换量程电路受比较器输出信号控制。当被测系统量程由0～1.999kg切换到0～19.99kg值时，要考虑量程和小数点的自动切换。我选择的是数字芯片CD4052，设计的电路图如下：</p>
+<p><img src="/images/electronic-scale-design/range.jpg" alt="range" loading="lazy"></p>
+<p>在比较电路II输出低电平，也就是放大电路的输出电压小于基准电压时，选择端A1A0的状态为00，此时CD4052选择输出原信号；当放大电路输出的电压较大时，比较电路II向量程自动切换电路输出高电平，选择端A1A0的状态为01，此时CD4052会选择输出经过降压处理后的电压信号。</p>
+<p>选择的具体过程可以查该芯片的选择状态与条件，这里就简单说下即可。</p>
+<h4 id="比较电路I"><a href="#比较电路I" class="headerlink" title="比较电路I"></a>比较电路I</h4><p><img src="/images/electronic-scale-design/comparison_1.jpg" alt="comparison_1" loading="lazy"></p>
+<p>比较电路I的思路大致上都与比较电路II相仿，只不过这次所设置的参考基准电压为0V，所以在比较器的负端直接连接一个阻值合适的电阻接地即可。而比较器的正端端输入来自放大电路的输出，为了保护电路，在比较器与放大电路连接处放置一保护电阻。最后在比较器的输出端口7接一上拉电阻到+5V电源，其余照旧接正负电源、接地即可。</p>
+<h4 id="选择器控制电路"><a href="#选择器控制电路" class="headerlink" title="选择器控制电路"></a>选择器控制电路</h4><p>如同量程切换电路的思路一样，采用数字芯片CD4052双四选一模拟开关，连接图如下：</p>
+<p><img src="/images/electronic-scale-design/selector.jpg" alt="selector" loading="lazy"></p>
+<p>其中，正负电源、接地端均如图所示，A0接比较器I的输出，A1接地。由于我们只需要向后面的延时电路输入一个低电平脉冲，所以将Y接地。当选择符合条件时，选择器控制电路将向延时电路输入一个低电平脉冲，使得后面的555单稳态触发器跳到暂稳态，二极管发光。</p>
+<h4 id="延时与电源电路"><a href="#延时与电源电路" class="headerlink" title="延时与电源电路"></a>延时与电源电路</h4><p>由上面的说明可知，延时电路受比较器输出信号控制。当被测系统重量等于0值时，延时电路通过继电器断开供电电源，即发光二极管熄灭。</p>
+<p>在这里我选用数字芯片NE555定时器，通过设计单稳态触发器的思路，制作延时电路；其中通过调整R20与C2的值，实现以555定时器为基础的单稳态触发器能够使发光二极管闪亮并延后固定时间熄灭的效果。电路图如下：</p>
+<p><img src="/images/electronic-scale-design/delay.jpg" alt="delay" loading="lazy"></p>
+<h4 id="A-D转换与显示电路"><a href="#A-D转换与显示电路" class="headerlink" title="A&#x2F;D转换与显示电路"></a>A&#x2F;D转换与显示电路</h4><p>在这里使用ICL7107专用集成电路，其电路图如下：</p>
+<p><img src="/images/electronic-scale-design/display.jpg" alt="display" loading="lazy"></p>
+<p>它包含3 1&#x2F;2位数字A&#x2F;D转换器，集A&#x2F;D转换和译码器于一体，可直接驱动共阳极LED数码管。 ICL7107内部设有参考电压、独立模拟开关、逻辑控制、显示驱动、自动调零等功能。其后与四个数码管相接，显示数字。</p>
+<p>由于这是老师给的现成板子，所以就不再过多介绍，这里比师兄自己设计和仿真容易多了。</p>
+<h4 id="电源电路"><a href="#电源电路" class="headerlink" title="电源电路"></a>电源电路</h4><p>这个没什么特殊之处，书上基本也能找到现成的双电源设计，直接出图：</p>
+<p><img src="/images/electronic-scale-design/power.jpg" alt="power" loading="lazy"></p>
+<p>不过这里相比于书上，多出了两个冗余小电容C10、C11，因为按器件说明书的要求，78&#x2F;79系列的输入、输出端都应该接个小电容，推荐0.1uF，目的是防自激。按电源滤波的要求，78&#x2F;79的输入、输出端都应该接大电容，一般是百uF级别。然而，为了提高电源的品质，小电容还是不省为好。输入端的小电容，可以吸收进来的高频脉冲，对提高系统的抗扰能力有所帮助。输出端的小电容，可以作为电源退耦，类似于IC电源上并联0.1uF电容。</p>
+<p>电源退耦电容往往是安得很多的，这实际是设计冗余——必要的可靠性措施。那么，电源上即使“冗余”了2个小电容，还是有益的。</p>
+<h4 id="整机电路图："><a href="#整机电路图：" class="headerlink" title="整机电路图："></a>整机电路图：</h4><p><img src="/images/electronic-scale-design/circuit.jpg" alt="circuit" loading="lazy"></p>
+<h3 id="问题与改进"><a href="#问题与改进" class="headerlink" title="问题与改进"></a>问题与改进</h3><ol>
+<li><p>继电器会造成分压，故我们正负5V提供的电源无法满足其启动电压，为了不让电路产生较大的改动，在后面设计的时候，我使用数字芯片CD4052双四选一模拟开关替代了继电器，使电路能正常的进行选择。</p>
+</li>
+<li><p>电桥出现问题，平衡时却依旧输出电压，我认为是电阻损坏，经挨个替换电阻，最终排除了损坏电阻。</p>
+</li>
+<li><p>555定时器构建的单稳态触发器存在问题，其延时的时间不稳定，经排查，发现是电路中存在元器件引脚误触到情况，在误触到地方粘上绝缘胶布即恢复正常。</p>
+</li>
+</ol>
+<h3 id="元件清单"><a href="#元件清单" class="headerlink" title="元件清单"></a>元件清单</h3><h4 id="直插式模拟IC"><a href="#直插式模拟IC" class="headerlink" title="直插式模拟IC"></a>直插式模拟IC</h4><table>
+<thead>
+<tr>
+<th><strong>芯片名称</strong></th>
+<th><strong>功能</strong></th>
+<th><strong>个数</strong></th>
+</tr>
+</thead>
+<tbody><tr>
+<td>LM324N</td>
+<td>四运放</td>
+<td>1</td>
+</tr>
+<tr>
+<td>LM311</td>
+<td>比较器</td>
+<td>2</td>
+</tr>
+</tbody></table>
+<h4 id="直插式数字IC"><a href="#直插式数字IC" class="headerlink" title="直插式数字IC"></a>直插式数字IC</h4><table>
+<thead>
+<tr>
+<th><strong>芯片名称</strong></th>
+<th><strong>功能</strong></th>
+<th><strong>个数</strong></th>
+</tr>
+</thead>
+<tbody><tr>
+<td>CD4052</td>
+<td>双四选一模拟开关</td>
+<td>2</td>
+</tr>
+<tr>
+<td>NE555</td>
+<td>定时器</td>
+<td>1</td>
+</tr>
+<tr>
+<td>ICL7107</td>
+<td>双积分型A&#x2F;D转换器</td>
+<td>1</td>
+</tr>
+</tbody></table>
+<h4 id="电阻"><a href="#电阻" class="headerlink" title="电阻"></a>电阻</h4><table>
+<thead>
+<tr>
+<th><strong>规格型号</strong></th>
+<th><strong>个数</strong></th>
+<th><strong>位号</strong></th>
+</tr>
+</thead>
+<tbody><tr>
+<td>1k</td>
+<td>5</td>
+<td>R26、R27、R28、R29、R30</td>
+</tr>
+<tr>
+<td>3k</td>
+<td>6</td>
+<td>R5、R6、R8、R9、R14、R19</td>
+</tr>
+<tr>
+<td>10k</td>
+<td>3</td>
+<td>R13、R16、R18</td>
+</tr>
+<tr>
+<td>24k</td>
+<td>1</td>
+<td>R21</td>
+</tr>
+<tr>
+<td>30k</td>
+<td>1</td>
+<td>R20</td>
+</tr>
+<tr>
+<td>91k</td>
+<td>4</td>
+<td>R7、R10、R12、R15</td>
+</tr>
+<tr>
+<td>100k</td>
+<td>5</td>
+<td>R1、R2、R3、R4、R22</td>
+</tr>
+<tr>
+<td>200k</td>
+<td>2</td>
+<td>R11、R17</td>
+</tr>
+<tr>
+<td>470k</td>
+<td>1</td>
+<td>R24</td>
+</tr>
+<tr>
+<td>1M</td>
+<td>1</td>
+<td>R25</td>
+</tr>
+</tbody></table>
+<h4 id="电容"><a href="#电容" class="headerlink" title="电容"></a>电容</h4><table>
+<thead>
+<tr>
+<th><strong>规格型号</strong></th>
+<th><strong>个数</strong></th>
+<th><strong>位号</strong></th>
+</tr>
+</thead>
+<tbody><tr>
+<td>100pF</td>
+<td>1</td>
+<td>C3</td>
+</tr>
+<tr>
+<td>0.01uF</td>
+<td>1</td>
+<td>C1</td>
+</tr>
+<tr>
+<td>0.047uF</td>
+<td>1</td>
+<td>C5</td>
+</tr>
+<tr>
+<td>0.1uF</td>
+<td>1</td>
+<td>C4</td>
+</tr>
+<tr>
+<td>0.22uF</td>
+<td>1</td>
+<td>C6</td>
+</tr>
+<tr>
+<td>10uF</td>
+<td>1</td>
+<td>C2</td>
+</tr>
+<tr>
+<td>104</td>
+<td>1</td>
+<td>C7</td>
+</tr>
+</tbody></table>
+<h4 id="其他电子元件"><a href="#其他电子元件" class="headerlink" title="其他电子元件"></a>其他电子元件</h4><table>
+<thead>
+<tr>
+<th><strong>规格型号</strong></th>
+<th><strong>个数</strong></th>
+<th><strong>位号</strong></th>
+</tr>
+</thead>
+<tbody><tr>
+<td>数码管</td>
+<td>4</td>
+<td>\</td>
+</tr>
+<tr>
+<td>发光二极管</td>
+<td>1</td>
+<td>D</td>
+</tr>
+<tr>
+<td>10k电位器</td>
+<td>1</td>
+<td>R23</td>
+</tr>
+<tr>
+<td>5V稳压器7805</td>
+<td>2</td>
+<td>\</td>
+</tr>
+<tr>
+<td>整流管IN4001</td>
+<td>4</td>
+<td>D2、D3、D4、D5</td>
+</tr>
+</tbody></table>
+<h2 id="性能指标的测量"><a href="#性能指标的测量" class="headerlink" title="性能指标的测量"></a>性能指标的测量</h2><p>电路调试完毕，结果正常。</p>
+<h3 id="测试使用的仪器"><a href="#测试使用的仪器" class="headerlink" title="测试使用的仪器"></a>测试使用的仪器</h3><p>数字万用表，直流稳压电源，示波器，波形发生器。</p>
+<h3 id="IC测试数据"><a href="#IC测试数据" class="headerlink" title="IC测试数据"></a>IC测试数据</h3><table>
+<thead>
+<tr>
+<th>位号</th>
+<th>LM324N（1）</th>
+<th>LM324N（2）</th>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody><tr>
+<td>管脚号</td>
+<td>4</td>
+<td>11</td>
+<td>4</td>
+<td>11</td>
+</tr>
+<tr>
+<td>理论值</td>
+<td>+5V</td>
+<td>-5V</td>
+<td>+5V</td>
+<td>-5V</td>
+</tr>
+<tr>
+<td>实际值</td>
+<td>+4.94V</td>
+<td>-4.98V</td>
+<td>+4.89V</td>
+<td>-4.90V</td>
+</tr>
+<tr>
+<td>位号</td>
+<td>LM311（1）</td>
+<td>LM311（12）</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>管脚号</td>
+<td>8</td>
+<td>4</td>
+<td>8</td>
+<td>4</td>
+</tr>
+<tr>
+<td>理论值</td>
+<td>+5V</td>
+<td>-5V</td>
+<td>+5V</td>
+<td>-5V</td>
+</tr>
+<tr>
+<td>实际值</td>
+<td>+4.97V</td>
+<td>-4.96V</td>
+<td>+4.92V</td>
+<td>-4.93V</td>
+</tr>
+</tbody></table>
+<h3 id="放大电路测试数据"><a href="#放大电路测试数据" class="headerlink" title="放大电路测试数据"></a>放大电路测试数据</h3><table>
+<thead>
+<tr>
+<th>V电桥输出</th>
+<th>Vout</th>
+<th>V电桥输出</th>
+<th>Vout</th>
+<th>V电桥输出</th>
+<th>Vout</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>0.4 mV</td>
+<td>199.98 mV</td>
+<td>0.8 mV</td>
+<td>399.67 mV</td>
+<td>1.5 mV</td>
+<td>749.14 mV</td>
+</tr>
+<tr>
+<td>0.5 mV</td>
+<td>249.90 mV</td>
+<td>0.9 mV</td>
+<td>499.59 mV</td>
+<td>2.0 mV</td>
+<td>998.75 mV</td>
+</tr>
+<tr>
+<td>0.6 mV</td>
+<td>299.82 mV</td>
+<td>1.0 mV</td>
+<td>512.54 mV</td>
+<td>2.5 mV</td>
+<td>1.248 V</td>
+</tr>
+<tr>
+<td>0.7 mV</td>
+<td>349.75 mV</td>
+<td>1.1 mV</td>
+<td>639.29 mV</td>
+<td>3 mV</td>
+<td>1.498 V</td>
+</tr>
+</tbody></table>
+<h3 id="电子秤切换量程点"><a href="#电子秤切换量程点" class="headerlink" title="电子秤切换量程点"></a>电子秤切换量程点</h3><table>
+<thead>
+<tr>
+<th>电桥输出&#x2F;mV</th>
+<th>放大电路输出&#x2F;V</th>
+<th>ICL7107显示</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>1.3</td>
+<td>0.8</td>
+<td>1.398</td>
+</tr>
+</tbody></table>
+<h2 id="总结与后记"><a href="#总结与后记" class="headerlink" title="总结与后记"></a>总结与后记</h2><p>按照惯例，每一篇文章的最后，作者都会发出感慨，说自己籍由此事又悟出了什么道理云云，升华主题。我想了想，还是也效仿他们，也在此篇的最后讲一点大道理——虽然不是我悟出的，不过在经历这件事以后，对它的感触更深了。</p>
+<blockquote>
+<p>在现实中哪里会有机会等到自己万事俱备才开始做，大家都是边做边学的，世界一直在变化，你也没有时间等到全部学完了以后再做。</p>
+</blockquote>
+<p>其实现在再看当时的设计题目，发现除了一些芯片和元件需要上网查相关资料以外，其实这些完全能用已经学过的知识完成，<del>虽然已经忘得差不多了</del>。</p>
+<p>说到底，我们在上面做的一切，都是在努力地将课本的理论与课设的实践相联系。扎实的理论基础可以使我们在设计中才能设计出更简单泛用电路，而动手设计、搭建与调试亦可加深印象与理解，反哺自身的理论知识。所以，考试得到高分与实践优秀也并不冲突。</p>
+<p>最后，感谢各位理论老师、感谢两位实验老师的悉心教导！</p>
+<h2 id="参考资料："><a href="#参考资料：" class="headerlink" title="参考资料："></a>参考资料：</h2><p>（这个课设是3月初开学时候做的，鸽了很久到现在才写完，当时查到资料好些已经找不到了，就象征性地摆几个，师兄的博文中有更详尽的资料参考，可以去那里看看）</p>
+<p>[1] <a target="_blank" rel="noopener" href="https://scuteee.com/2020/03/16/electronic-balance.html"><strong>电子秤电路</strong></a></p>
+<p>[2] <a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/163071557">说说稳压电源和集成稳压器件</a></p>
+<p>[3] <a target="_blank" rel="noopener" href="https://wenku.baidu.com/view/05df0271f7335a8102d276a20029bd64793e6256.html">差动半桥差动全桥</a></p>
+<p>[4] <a target="_blank" rel="noopener" href="https://zhidao.baidu.com/question/331651839.html">桥路（差动电桥）测量时存在非线性误差的原因？</a></p>
+<p>[5] <a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/74004697">什么叫电位器？什么叫电阻器？</a></p>
+</div></section><ul class="post-copyright"><li class="post-copyright-author"><strong>本文作者：</strong>叶子</li><li class="post-copyright-link"><strong>本文链接：</strong><a href="https://mskclover.com/2021/05/01/electronic-scale-design/" title="电子秤电路">https://mskclover.com/2021/05/01/electronic-scale-design/</a></li><li class="post-copyright-license"><strong>版权声明：</strong>本博客所有文章除特别声明外，均默认采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh" target="_blank" rel="noopener" title="CC BY-NC-SA 4.0 "><span class="icon iconify" data-icon="ri:creative-commons-line"></span><span class="icon iconify" data-icon="ri:creative-commons-by-line"></span><span class="icon iconify" data-icon="ri:creative-commons-nc-line"></span><span class="icon iconify" data-icon="ri:creative-commons-sa-line"></span></a> 许可协议。</li></ul></article><div class="post-nav"><div class="post-nav-item"><a class="post-nav-prev" href="/2021/05/06/convolution-of-two-rectangular/" rel="prev" title="两个矩形信号做卷积——不经意的小问题"><span class="icon iconify" data-icon="ri:arrow-left-s-line"></span><span class="post-nav-text">两个矩形信号做卷积——不经意的小问题</span></a></div><div class="post-nav-item"><a class="post-nav-next" href="/2021/02/15/2020-final-summary/" rel="next" title="2020年终总结"><span class="post-nav-text">2020年终总结</span><span class="icon iconify" data-icon="ri:arrow-right-s-line"></span></a></div></div></div><div class="hty-card" id="comment"><div class="comment-tooltip text-center"><span>如果您有任何关于博客内容的相关讨论，欢迎前往 <a href="https://github.com/misaka-clover/misaka-clover.github.io/discussions" target="_blank">GitHub Discussions</a> 与我交流。</span><br></div><style>.utterances {
+  max-width: 100%;
+}</style><script src="https://giscus.app/client.js" data-repo="misaka-clover/misaka-clover.github.io" data-repo-id="MDEwOlJlcG9zaXRvcnkyODk0NzI1MzM=" data-category="Announcements" data-category-id="DIC_kwDOEUEAFc4CU_3i" data-mapping="pathname" data-reactions-enabled="1" data-emit-metadata="0" data-theme="light" crossorigin="anonymous" async></script></div></main><footer class="sidebar-translate" id="footer"><div class="copyright"><span>&copy; 2020 – 2024 </span><span class="with-love" id="animate"><span class="icon iconify" data-icon="ri:cloud-line"></span></span><span class="author"> 叶子</span></div><div class="powered"><span>由 <a href="https://hexo.io" target="_blank" rel="noopener">Hexo</a> 驱动 v7.2.0</span><span class="footer-separator">|</span><span>主题 - <a rel="noopener" href="https://github.com/YunYouJun/hexo-theme-yun" target="_blank"><span>Yun</span></a> v1.10.11</span></div><div class="live-time"><span>本花园已长草</span><span id="display_live_time"></span><span class="moe-text">（¯﹃¯）</span><script>function blog_live_time() {
+  setTimeout(blog_live_time, 1000);
+  const start = new Date('2020-08-22T19:25:00');
+  const now = new Date();
+  const timeDiff = (now.getTime() - start.getTime());
+  const msPerMinute = 60 * 1000;
+  const msPerHour = 60 * msPerMinute;
+  const msPerDay = 24 * msPerHour;
+  const passDay = Math.floor(timeDiff / msPerDay);
+  const passHour = Math.floor((timeDiff % msPerDay) / 60 / 60 / 1000);
+  const passMinute = Math.floor((timeDiff % msPerHour) / 60 / 1000);
+  const passSecond = Math.floor((timeDiff % msPerMinute) / 1000);
+  display_live_time.innerHTML = ` ${passDay} 天 ${passHour} 小时 ${passMinute} 分 ${passSecond} 秒`;
+}
+blog_live_time();
+</script></div><div class="footer-custom-text">博客版本：Version.2.1.3 |  <a href="https://icp.gov.moe" target="_blank" style="color:inherit"><img src="/images/moeicp.png" width="25" style="vertical-align:middle">萌ICP备 </a><a href="https://icp.gov.moe/?keyword=20232952" target="_blank" style="color:inherit"> 20232952 号</a> </div><div class="footer-support"><span>由好人一生平安的</span><a class="footer-support-logo" href="https://www.cloudflare.com/" target="blank" title="Cloudflare"><img height="30" src="/images/CF_logo_stacked_blktype.svg" alt="Cloudflare"></a><span>提供免费的 CDN 加速</span></div></footer></div><a class="hty-icon-button" id="back-to-top" aria-label="back-to-top" href="#"><span class="icon iconify" data-icon="ri:arrow-up-s-line"></span><svg class="progress-circle-container" viewBox="0 0 100 100"><circle class="progress-circle" id="progressCircle" cx="50" cy="50" r="48" fill="none" stroke="#0078E7" stroke-width="2" stroke-linecap="round"></circle></svg></a><a class="popup-trigger hty-icon-button icon-search" id="search" target="_blank" rel="noopener" href="https://www.google.com/search?q=site:mskclover.com" title="搜索"><span class="site-state-item-icon"><span class="icon iconify" data-icon="ri:search-line"></span></span></a><script>function initMourn() {
+  const date = new Date();
+  const today = (date.getMonth() + 1) + "-" + date.getDate()
+  const mourn_days = ["4-4","9-18","6-4"]
+  if (mourn_days.includes(today)) {
+    document.documentElement.style.filter = "grayscale(1)";
+  }
+}
+initMourn();</script><script src="https://fastly.jsdelivr.net/npm/medium-zoom@1.0.6/dist/medium-zoom.min.js"></script><script>const images = [...document.querySelectorAll('.markdown-body img')]
+mediumZoom(images)</script><style>.medium-zoom-image {
+  z-index: 99;
+}</style></body></html>
