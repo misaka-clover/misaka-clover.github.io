@@ -397,7 +397,7 @@ To https://github.com/misaka-clover/misaka-clover.github.io
 branch 'hexo' set up to track 'origin/hexo'.
 ```
 
-然后，就大功告吉啦。
+然后，就大功告成啦。
 
 ## macOS 的终端显示英文
 
@@ -419,10 +419,13 @@ LC_ALL=
 $ export LANG=en_US.UTF-8
 ```
 
-## 新学到的知识
+## 新学到的 git 知识
 
+你知道的，我在计算机程序领域并没有多么深入的了解，像是使用 Git，我只会以上的那几个简单的命令。而在大多数时候，我没办法去解决遇到的问题，只好在网上搜索，比如[这个](https://www.cyberciti.biz/faq/linux-unix-exit-vim-editor/)、[这个](https://www.hokang.info/git-pull-warning/)和[这个](https://jumping-code.com/2022/06/09/solution-git-divergent-branches/)（但愿不是内容农场🙏）。
 
+不过，感谢前辈们的互联网精神，我在 Git 的官网上找到了一份完整的[教程](https://git-scm.com/book/zh/v2/)以及[简体中文翻译件](https://github.com/progit/progit2-zh/releases/download/2.1.68/progit.pdf/)，我打算在接下来的几个月内好好地学习一下。你知道的，之前我没有学过 SQL，现在不也一样能上手了。
 
+我最喜欢学习了（
 ## npm 包列表
 
 ```bash
