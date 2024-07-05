@@ -399,6 +399,26 @@ branch 'hexo' set up to track 'origin/hexo'.
 
 然后，就大功告吉啦。
 
+## macOS 的终端显示英文
+
+参照有关[文章](https://www.vvave.net/archives/chinese-shell-terminal-change-to-english.html/)的解决方法：
+
+```bash
+# 查看本地配置
+$ locale
+LANG=""
+LC_COLLATE="C"
+LC_CTYPE="UTF-8"
+LC_MESSAGES="C"
+LC_MONETARY="C"
+LC_NUMERIC="C"
+LC_TIME="C"
+LC_ALL=
+
+# 生效新的配置
+$ export LANG=en_US.UTF-8
+```
+
 ## npm 包列表
 
 ```bash
