@@ -9,7 +9,7 @@ tags:
     - 穿靴子的猫2
     - 梦工厂
     - 死亡
-categories: 叶子的碎碎念
+categories: 叶子的读物和影视
 comment: true
 keywords: 影评, 穿靴子的猫2, 梦工厂, 死亡, 白狼
 ---
