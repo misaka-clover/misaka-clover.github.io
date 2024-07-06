@@ -99,3 +99,33 @@ readmore: false
 - 【博客】[三明都市生活广播 FM105.6 停播](https://cahcn.github.io/posts/2024-04-24-sanming-fm105.6.html/)，**Cahcn**；
     *越来越多的地方广播无线电台停播了，我看到本文作者一直在关注全国的广播，很高兴认识他。*
 
+## 2024-07
+
+### 读物
+
+- 【调查】[不利起点带来的长期阴影](https://www.imf.org/external/chinese/pubs/ft/fandd/2020/12/pdf/schwandt.pdf/)，**国际货币基金组织**，备份 [于此](https://web.archive.org/web/20240706105234/https://www.imf.org/external/chinese/pubs/ft/fandd/2020/12/pdf/schwandt.pdf/)；
+    *这时 2020 年末的一篇调查，大多数人在疫情一年后都过得不好，特别是刚毕业的学生们。我是在 2019 年毕业的，不过正打算出国留学，不知道在那时全球的经济会怎么样，会好些吗？我想，可能永远都好不了了。*
+
+### 影音
+
+### 新闻报道
+
+- 【分析】[拆解上汽、吉利和比亚迪的欧盟税率](https://www.latepost.com/news/dj_detail?id=2369/)，**晚点 Late Post**，备份 [于此](https://archive.ph/Uqqwl/)；
+    *欧盟 🇪🇺 之前担心受到中国 🇨🇳 国家补贴的电动车倾销，于是对上汽和比亚迪等代表纯电车企征收了最高达 37.6% 的税，这篇文章为我们提供了对其中数字的分析。不过，根据**纽约时报**的[这篇报道](https://cn.nytimes.com/business/20240705/european-union-china-ev-tariffs/)，中国本身就对进口汽车征收 15% 的基本关税，而欧洲的基本关税是 10%，美国的是 2.5%。现在中国也在考虑对欧洲和北美的进口汽车征收 40% 的报复性关税。*
+- 【访谈】[中国富人理财的六个陷阱](https://www.latepost.com/news/dj_detail?id=2361/)，**晚点 Late Post**，备份 [于此](https://archive.ph/Bigjj/)；
+    *这时一个对资本市场投资人和基金经理的一篇访谈，为我们提供了对现在这个复杂的全球金融市场的解读。不过，我想他们可能忘记声明「不构成理财建议」了。*
+- 
+
+### 链接
+
+- 
+
+
+
+
+
+
+
+
+
+

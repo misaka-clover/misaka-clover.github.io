@@ -6,6 +6,8 @@
 # mode: light | dark | auto
 mode: auto
 
+# 头部加载文件
+# 我尝试配置 Google AD，所以有了这个，现已弃用?
 head:
   js:
     # base:
@@ -245,13 +247,13 @@ post_meta:
   categories: true
   tags: true
 
-# 目录
-toc:
-  list_number: true
-  max_depth: 6
-  min_depth: 1
-  placeholder: 很遗憾，咱没写啥目录
-  collapse: false
+# # 目录
+# toc:
+#   list_number: true
+#   max_depth: 6
+#   min_depth: 1
+#   placeholder: 很遗憾，咱没写啥目录
+#   collapse: false
 
 # 编辑链接
 post_edit:

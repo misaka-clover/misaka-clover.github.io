@@ -157,7 +157,7 @@ conda create --name ns3-gym
 conda activate ns3-gym
 ```
 
-但是别急，最好不要这样做，因为新的环境里的包会很少，你做到后面不知道少了哪个包，就会很麻烦，所以直接克隆现有的 `base(root)` 环境为好：
+**但是别急**，最好不要这样做，因为新的环境里的包会很少，你做到后面不知道少了哪个包，就会很麻烦，所以直接克隆现有的 `base(root)` 环境为好：
 
 ```bash
 # 先切换到之前的环境
@@ -202,7 +202,7 @@ conda activate ns3-gym
 
 #### 先决条件
 
-根据官方的[教程](https://www.nsnam.org/docs/tutorial/html/getting-started.html#downloading-ns-3-using-bake/)，首先要检查 / 安装相关的第三方依赖软件包。下面的命令都是使用的 apt 工具管理，这些都是官方文档给出的；不过，由于我们使用了 `conda` 环境，所以最好能使用 `conda install` 命令安装；如果 `conda` 中没有，再使用也不迟。**因为如果使用了 `sudo apt install` 指令，那就是在全局安装包了，与我们的环境隔离打算相去甚远。**
+根据官方的[教程](https://www.nsnam.org/docs/tutorial/html/getting-started.html#downloading-ns-3-using-bake/)，首先要检查 / 安装相关的第三方依赖软件包。下面的命令都是使用的 apt 工具管理，这些都是官方文档给出的；不过，由于我们使用了 `conda` 环境，所以最好能使用 `conda install` 命令安装；如果 `conda` 中没有，再使用也不迟。**因为如果使用了 `sudo apt install` 指令，那就是在全局安装包了，与我们环境隔离的打算相去甚远。**
 
 ```bash
 # 个人建议还是先更新软件源列表：
@@ -393,9 +393,9 @@ Build commands will be stored in build/compile_commands.json
 Hello Simulator
 ```
 
-就此，我们的安装步骤就完全结束了。
+就此，我们的安装步骤就完全结束了。很喜欢 ns-3 官网的一句话：
 
-很喜欢 ns-3 官网的一句话：Congratulations! You are now an ns-3 user!
+> Congratulations! You are now an ns-3 user!
 
 ---
 
@@ -744,10 +744,10 @@ util.CommandError: Command ['/usr/bin/python3', 'ns3', 'configure', '--enable-ex
 ## 其他参考资料：
 
 * **首先感谢各官方网站上详尽的文档。**
-* [Anaconda安装【Linux系统】](https://www.bilibili.com/video/BV1vM411x7HW/)，[**小L-Daily**](https://space.bilibili.com/284581928),Bilibili。
+* [Anaconda安装【Linux系统】](https://www.bilibili.com/video/BV1vM411x7HW/)，[**小L-Daily**](https://space.bilibili.com/284581928)，Bilibili。
 * [ns-3 网络模拟中文入门视频教程系列](https://www.bilibili.com/video/BV1mz4y1S7eZ/)，[**开源文摘**](https://space.bilibili.com/488796480/)，Bilibili。
 * [ns-3 快速上手](https://pinvondev.github.io/blog/2018/02/06/ns-3快速上手/)，**Pinvon's Blog**。
 * **感谢 stackoverflow 上的世界友人们给予我的大力支持（**
 * **感谢我实验室的好兄弟 Monkey L 和 Boss G 给我的许多帮助**
-* **最后，感谢 OpenAI 公司开发的 ChatGPT 为我的 Linux 实践提供的许多释惑**
+* **最后，感谢 OpenAI 公司开发的 ChatGPT 为我的 Linux 实践释惑**
   我真是太感动了，在最后我跟 ChatGPT 说：「好的，多谢！」，它回答我说：「不客气！如果你还有其他问题，随时都可以问我。祝你配置和构建顺利，顺利使用 ns-3 和 openai-gym！」

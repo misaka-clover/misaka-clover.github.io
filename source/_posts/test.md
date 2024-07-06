@@ -174,3 +174,7 @@ Details
 
 <img src="/images/beginner-of-ns-3-and-openai-gym/cover.jpg" width="200" alt="cover" />
 <center>修改后的图片大小</center>
+
+## 文字涂黑
+
+██████████████████
