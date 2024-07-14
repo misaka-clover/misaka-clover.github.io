@@ -142,13 +142,15 @@ readmore: false
 
 ### 2024-07-09：选校方案
 
-这天顾问给我发送了**《IDP 选校及时间的规划方案》**的[邮件](#S07-2024-07-10/)，不过我还没来得及看……
+这天顾问给我发送了**《IDP 选校及时间的规划方案》**的[邮件](#R07-2024-07-10/)，不过我还没来得及看……
 
 ### 2024-07-10
 
 我这段时间真的好忙，各种事情，谁说体制内轻松的？
 
 我打算这周把所需要的资料都准备好，因为我以前曾经申请过香港的大学，所以资料一般都没问题的。
+
+给顾问发了封[邮件](#S08-2024-07-10/)，确认了一些信息。
 
 ## 邮件附录
 
@@ -181,7 +183,7 @@ readmore: false
 >
 > 建议申请 2025 年 7 月开课，雅思最晚 2025 年 3 月底补充。如果需要配语言班，或想继续刷分雅思，也可以申请延期到 2026 年 2 月入读。此外，梅西大学帮你查过了，Aviation 需要本科飞行专业背景，且他们现在工程硕士不收国际学生。
 >
-> 另外，这是新西兰 Green List 查询链接：https://www.immigration.govt.nz/new-zealand-visas/preparing-a-visa-application/working-in-nz/qualifications-for-work/green-list-occupations。帮你搜过，基本上跟电子和电汽的职业都在列表上的，你可以放心选择。
+> 另外，这是新西兰 Green List 查询链接：https://www.immigration.govt.nz/new-zealand-visas/preparing-a-visa-application/working-in-nz/qualifications-for-work/green-list-occupations 。帮你搜过，基本上跟电子和电汽的职业都在列表上的，你可以放心选择。
 >
 > 我们 IDP 教育集团，总部在澳大利亚，全球一共 100 多个办公室，也是雅思主办方之一。目前拥有所有澳洲和新西兰大学的一级代理，你的申请通过咱们可以直接对接新西兰大学。
 >
@@ -352,7 +354,7 @@ readmore: false
 
 
 
-### S07-2024-07-10
+### S08-2024-07-10
 
 > ███，你好：
 >
