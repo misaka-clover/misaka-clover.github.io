@@ -841,9 +841,10 @@ ETO 是 预计结束时间 Estimated Time Over 的缩写，而按钮上的缩写
     https://nbaa.org/aircraft-operations/communications-navigation-surveillance-cns/tcas/
 
 8. *What are the differences among ETO, ETA, and ELDT?*，**StackExchange**，Aviation
-
     https://aviation.stackexchange.com/questions/91912/what-are-the-differences-among-eto-eta-and-eldt
 
 9. *Controller–pilot data link communications*，**Wikipedia**
     https://en.wikipedia.org/wiki/Controller%E2%80%93pilot_data_link_communications
 
+10. *聊聊空管自动化系统的各种告警功能*，**VATSIM 中国分部论坛**，1681250 Jiaqing Jiang，2022-11
+    https://community.vatprc.net/t/topic/7430

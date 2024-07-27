@@ -33,7 +33,7 @@ links:
   #   email: 
 
   - url: https://cwksc.github.io/
-    avatar: /images/avatar/CWKSC.JPG
+    avatar: /images/avatar/CWKSC.jpg
     name: CWKSC
     blog: CWKSC's Blog
     desc: 技术文大佬喔(´・×・｀) 
@@ -144,6 +144,14 @@ links:
     color: "#87CEFA"
     email: 
 
+  - url: https://www.nekolee.com/
+    avatar: /images/avatar/favicon.webp
+    name: 猫梨 nek0ri
+    blog: 声纳研究所
+    desc: Bonjour 👋
+    color: "#DB7093"
+    email: 
+
 
 
 
@@ -160,8 +168,11 @@ links:
 # 表情查询网站：https://emojixd.com/
 # 消除大段注释：ctrl+/
 
-# placeholder: 还没想好说些什么 # 默认对友链的描述
-# tip: 友链加载中～如失败请刷新重试～
+# 需要添加随机友链排序的功能吗？
+# 参照 https://yun.yunyoujun.cn/guide/page.html#%E5%8F%8B%E9%93%BE-links
+
+placeholder: 还没想好说些什么 # 默认对友链的描述
+tip: 友链加载中～如失败请刷新重试～
 ---
 
 <center><b>欢迎大家与我交换友链喔！</b></center>
