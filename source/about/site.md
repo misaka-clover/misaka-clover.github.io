@@ -26,6 +26,12 @@ comment: true
 <details open>
 <summary>2024 年</summary>
 
+<!-- 恢复 RSS 按钮？ -->
+
+### 2024-07-27 添加新的友链
+
+近日 [**猫梨 NEKORI**](https://www.nekolee.com/about/) 私信我说，TA 的新博客搭建好啦，便火速添加友链！
+
 ### 2024-07-08 博客 RSS 订阅调整
 
 因为我发布了[《接下来的计划》](https://mskclover.com/2024/06/29/my-next-plan/)这篇文章，受到不可抗力的影响，我删除了文章，并暂时移除 RSS 订阅按钮。

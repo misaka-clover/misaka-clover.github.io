@@ -156,13 +156,27 @@ readmore: false
 
 这天我将整个过程中准备的所有文件都放在了最后「所有产生文件清单」，供我梳理。
 
-因为顾问近日休假一段时间，所以我就暂时不联系了。
+因为顾问近日休假一段时间，虽然她今天还是回复了我昨天的[邮件](#R08-2024-07-11/)，不过我就暂时不联系了。
 
 ### 2024-07-22：
 
 因为我之前申请过香港的学校，所以这些资料我都整理得蛮好的，所以可能去公证一下，就可以了吧。
 
+顾问的休假应该结束了吧，发了封[邮件](#S09-2024-07-22/)过去问一下最近的疑惑。
 
+### 2024-07-23
+
+今天收到了顾问对昨天邮件的[回复](#R09-2024-07-23-1/)，在晚些时候她又补充了一封[附加邮件](#R09-2024-07-23/)，我一并列在后面。
+
+顾问的补充邮件中提到她专门去问了大学招生办，我蛮意外的，也对她的服务非常满意。
+
+### 2024-07-30
+
+最近又是好忙，因为人手不足，算上开会的时间，我已经连续上了 36 小时的班才回了家……
+
+因为我需要将这份工作作为我最后的路，所以我不能直接辞职（虽然很想就是了）。所以，我不能让单位里的人知道我的打算，也就没有多少机会在这里准备资料、看课件和练习，最多只能背背单词。
+
+我过去的经历告诉我，不要期望着「忙完这一段时间，未来就不忙了」，手上的事情越来越多，未来也只会越来越忙。所以我必须要合理推掉工作中的一些额外的事情，同时也多抽出一些休息的时间，来加紧准备了，
 
 
 
@@ -417,6 +431,141 @@ readmore: false
 > 2024-07-10
 
 </details>
+
+<details close>
+<summary>R08-2024-07-11</summary>
+
+### R08-2024-07-11
+
+> 好的，没问题哈 ~
+>
+> 我们也可以先用目前有的成绩单先申请，后补更新成绩单吧。
+
+</details>
+
+<details close>
+<summary>S09-2024-07-22</summary>
+
+### S09-2024-07-22
+
+> 有关公证及专业等几个问题
+>
+> ███，你好：
+>
+> 在这段时间里我又有一些问题，希望能在您这里得到解答。不知道您的假期有没有结束，您可以等到上班以后再回复我的。
+>
+> 1. 有关「材料清单 - 申请资料」中需要公证的文件，请问是我寄送原件给你们去公证，还是我自己去公证呢？如需我自行公证，可以告知我相关的步骤及推荐的公证处吗？
+>
+> 2. 我找出了毕业前开具的双语成绩单，是 2023 年 3 月的，给您附在邮件上了。
+>
+> 3. 请问《IDP 澳新学生申请信息采集表》中的 C4C ID 是您填的项吗？
+>
+> 4. 对于专业选择，我看到您为我准备的方向是 Electrical and Electronic  Engineering，我不知道这类专业是偏向电气还是电子，如果是电气的话，与我专业方向不符。我看过课表了，其中有 Power Systems  电力系统等，这不符合我的本科专业；还有 Radio Engineering 无线电和 Digital Communications  无线通信，这与我的本科专业相符，我不知道专业着重于那一方面，是让我自己选课决定吗？
+>
+> 5. 对于奥克兰大学的 Electrical and Electronic Engineering 专业，有如下两种学位课程：Master of  Engineering 和 Master of Engineering Studies。我想要再与您确认一下，我申请的是前者还是后者呢？是  120 分的项目，还是 180 分的项目呢？
+>
+>     我在 Master of Engineering Studies 下看到了如下内容：
+>
+>     - Taught study
+>
+>     This programme is offered in two options, to suit the existing qualifications and experience of candidates.
+>
+>     - 120 points for candidates with a four-year bachelors (honours) degree
+>
+>     - 180 points for candidates with a three-year bachelor’s degree
+>
+> 我就读的是四年制本科，这是否意味着我申请的是 120 分项目呢？
+>
+> 6. Research study
+>
+>     In addition to their taught pathways, the Master of Engineering Studies offers a research pathway in two specialisations:
+>
+>     - 120-points and 180-points Food Engineering
+>
+>     - 120-points and 180-points Sustainable Resource Recovery
+>
+>     You will complete a 90-point Research Portfolio alongside 30 points of  taught courses for the 120-point research programme and 90 points of  taught courses for the 180-point research programme.
+>
+>     我对这两个描述很困惑，难道我将同时选择的 Taught study 和 Research study 吗？望解答。
+>
+>     在 Select your study option 下，我看到了：
+>
+>     - Taught 120 points
+>     - Taught 180 points
+>     - Research 120 points
+>
+>     它们的条件我已看过，我本科专业领域相符，是否意味着我可以申请 180 分项目？可这个结论又与上面的相左。既然我申请的是 Master of Engineering Studies 授课型，为什么还会有研究型的选项呢？是我可以自由选择的吗？
+>
+> 7. 另外，我在奥克兰大学的官网上了解到，如果申请某领域的研究生专业，我需要本科领域与该专业相符。比如我之前感兴趣的 Master of  Aerospace Engineering，我看到它的授课 180 要求：Must have completed an  undergraduate degree in a relevant subject area from a recognised  university (or similar institution)，请问这样的话我是不是不符合该专业的标准呢？
+> 8. 对于之前提到的奖学金一事，我看过学校官网的这个页面：https://www.auckland.ac.nz/en/study/scholarships-and-awards/scholarship-types/scholarships-for-international-students/postgraduate-scholarships-for-international-students.html
+>
+> 好像只有 University of Auckland International Student Excellence Scholarship 这一个项目符合我的条件，我不知道有没有其他的奖学金 / 其他学校的奖学金亦符合，我希望您能够帮我关注一下。
+>
+> 我大概就这么多问题了，期待您的回复！
+>
+> ███
+>
+> 2024-07-22
+
+随邮件附上：04-毕业前的成绩单.zip。
+
+</details>
+
+<details close>
+<summary>R09-2024-07-23-1</summary>
+
+### R09-2024-07-23-1
+
+> 你好，██：
+>
+> 我已经休完年假啦，我回复一下你的问题：
+>
+> 1. 公证是需要本人到公证处办理的，建议是一次过把需要的公证都办了。包括完整成绩单，学位证，毕业证和出生公证。指引和样本可以参考附件《公证材料指引》的第 1,2,3,6 项。
+> 2. 成绩单已收到。
+> 3. C4C ID 是我们 IDP 系统的学生号，我帮你填就可以。
+> 4. 奥克兰大学的 Master of Engineering Studies 下，没有单独 Electrical 电子工程，课程设置是 Electrical and Electronic Engineering 电子与电气在一起，只有这个方向。其他几个专业方向更不适合你。至于选课，奥克兰大学是学分制，修满学分毕业。所以选什么科目很大程度上是你自己选择，并不是列出的科目都要全部学。
+> 5. Master of Engineering Studies 才是 Taught & research 授课型硕士哦，且课程包含了 Research Pathway，如果选了 research pathway 就是比较适合未来读博，推荐选这个。另一个是研究型硕士。中国本科毕业生一般都需要申 180 学分制，大约是 1.5 年课程，因为我们国内没有荣誉学位的概念。
+> 6. 信息工程跟航天，不属于是 a relevant subject area，所以这个课程基本不用考虑。
+> 7. 如果有任何适合你的奖学金会告诉你。奥克兰大学很少有大额奖学金，且奖学金本身都比较少人获得，是真的要特别优秀才可以。
+>
+> 最后，剩余的申请资料准备好也要发给我哦（见附件截图）。
+>
+> Regards,
+>
+> ███
+
+随邮件附上：公证材料清单、公证材料指引、本科毕业证公证模版、本科成绩单公证模版、本科学位证公证模版、出生证明公证模版。
+
+</details>
+
+<details close>
+<summary>R09-2024-07-23-2</summary>
+
+### R09-2024-07-23-2
+
+> ██，
+>
+> 第六个问题，我特别帮你找招生老师问了。
+>
+> 她也认为信息工程跟航天不属于同一个类别，但是你有在机场工作的经历，如果你真的很想尝试一下 Master of Aerospace Engineering，可以提供工作证明来，放第一志愿申请试试，admission CASE BY CASE 审核结果。Master of Engineering Studies 可以放第二志愿。
+>
+> Regards, 
+
+</details>
+
+
+
+
+
+
+
+
+
+
+<!-- <details close>
+<summary></summary>
+
+</details> -->
 
 
 

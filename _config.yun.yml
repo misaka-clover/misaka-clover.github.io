@@ -191,10 +191,10 @@ social:
     # set rss in your root config
     # https://github.com/hexojs/hexo-generator-feed
     # 图标选取参见：https://yun.yunyoujun.cn/about/icon.html
-  # - name: RSS
-  #   link: /atom.xml # config.feed.path
-  #   icon: ri:rss-line
-  #   color: orange
+  - name: RSS
+    link: /atom.xml # config.feed.path
+    icon: ri:rss-line
+    color: orange
   - name: GitHub
     link: https://github.com/misaka-clover
     icon: ri:github-line
@@ -329,7 +329,7 @@ footer:
   # 自定义文本
   # Any custom text can be defined here.
   # custom_text: Hosted by <a href="https://pages.coding.me" rel="noopener" target="_blank">Coding Pages</a>
-  custom_text: '博客版本：Version.2.2.1 | 
+  custom_text: '博客版本：Version.2.2.3 | 
                 <a href="https://icp.gov.moe" target="_blank" style="color:inherit"><img src="/images/moeicp.png" width="25" style="vertical-align:middle">萌ICP备 </a><a href="https://icp.gov.moe/?keyword=20232952" target="_blank" style="color:inherit"> 20232952 号</a>
                 '
 
