@@ -103,10 +103,35 @@ readmore: false
 
 ### 读物
 
+- 【书籍】**《[1453：君士坦丁堡之战](https://book.douban.com/subject/25891318/)》**，[[英] 罗杰・克劳利](https://zh.wikipedia.org/zh-hk/罗杰·克劳利/)，2014，社会科学文献出版社；
+    第十三章。
+    *君士坦丁堡，「世界渴望之城」，会在这一章陷落吗？*
+
+- 【书籍】[《李光耀：论中国与世界》](https://book.douban.com/subject/25730239/)，**李光耀**，2013，中信出版社；
+    第一章。
+    *这是我在疫情期间看过的一本书，现在打算重温一下。虽然里面有许多观点早已过时，不过还是有许多地方值得回顾的。*
+
 - 【调查】[不利起点带来的长期阴影](https://www.imf.org/external/chinese/pubs/ft/fandd/2020/12/pdf/schwandt.pdf/)，**国际货币基金组织**，备份 [于此](https://web.archive.org/web/20240706105234/https://www.imf.org/external/chinese/pubs/ft/fandd/2020/12/pdf/schwandt.pdf/)；
     *这时 2020 年末的一篇调查，大多数人在疫情一年后都过得不好，特别是刚毕业的学生们。我是在 2019 年毕业的，不过正打算出国留学，不知道在那时全球的经济会怎么样，会好些吗？我想，可能永远都好不了了。*
 
+    > *重要的是，要让年轻劳动者知道其将长期面临的负面影响及其原因，让他们知道这并不是因为他们缺乏技能或者个人失败而导致的，借此激励从事低效率工作的劳动者继续寻找机会，使之随着经济复苏而找到更好的工作* 
+
+- 【书籍】[113 翰林高中教材网](https://sh.hle.com.tw/)，**翰林出版事業股份有限公司**；
+    *今天看到网友[贴出](https://twitter.com/amehochan/status/1814584418738049151/)了台湾的课本网络下载之方便，就去看了一下，下载了三本**公民**课本，我觉得很需要学习一下（*
+
+- 【漫画】[我的魔女 / 나의 마녀](https://www.bomtoon.com/comic/ep_list/My_witch/)，**BOMTOON**，해윤&MAS，2016—2022；
+
+    *这是我近几年来看到的最好的言情漫画了，有 HE，有 BE，有遗憾，有圆满，两位作者扎实的功底让所有的情感都跃然纸上。看到了一个台湾论坛对本漫画的[介绍](https://home.gamer.com.tw/creationDetail.php?sn=5149433/)，也非常推荐大家去看看！*
+    *另外，本作标题有汉化组译为《魔女的小跟班》，这是根据第一部的故事情节意译而来，翻犯了与《生化危机》被翻译为《恶灵古堡》、《远哭》被翻译为《孤岛惊魂》和《最后的生还者》被翻译为《美国末日》等，都是根据第一部的内容意义，而与系列后续作品不对应了。（不过，我还挺喜欢《魔女的小跟班》这个译名的）*
+
 ### 影音
+
+- 【视频】[Why Living In Australia Is Impossible](https://youtu.be/_TUVXfM1nqo/)，**YouTube**，[2 and 20](https://www.youtube.com/@2and20/)；
+    *因为我近日在考虑到底选择 澳大利亚 🇦🇺 还是 新西兰 🇳🇿，澳洲本来就是世界边缘，我们都了解不多，所以我希望能尽可能地了解这两个地方。这个视频讲了澳大利亚的许多问题，比如政府效率低下、房价飙涨、研究投资不足等，我会更全面地判断的。*
+- 【播客】[晚点聊 LateTalk：走访锈带：美国大选的反直觉认知与不被看见的人 | 串台硅谷 101](https://podcast.latepost.com/74/)，**[晚点聊 LateTalk](https://podcast.latepost.com/subscribe)**；
+    *这期播客做得真的好好！锈带，大家都知道的一个被去工业化的地区，许多人都谈论着它，不过有几个人会亲自去看看呢？*
+- 【视频】[曾讓百人喪命的撞火槍托 在美國竟又合法？【燒火棍子】](https://youtu.be/SqwJOa7Mzvk/)，**YouTube**，[王五咕咕棍](https://www.youtube.com/@Gugu5gun/)；
+    *之前听说美国 🇺🇸 最高法院推翻了之前的裁定，使「撞火枪托」合法化的时候，还想着是不是特朗普时期提名的那三个保守派法官又在犯蠢。这个视频让我了解到：法官们推翻裁定并不是因为支持撞火枪托，而是他们认为 **美國菸酒槍炮及爆裂物管理局 ATF** 将撞火枪托解释为机枪的行为越权了 —— ATF 是执法机构，并不能修改法律，那是立法机构国会的领域。根据三权分立，最高法院必须推翻这个裁定，由国会来推动禁止撞火枪托的法案。*
 
 ### 新闻报道
 
@@ -114,11 +139,112 @@ readmore: false
     *欧盟 🇪🇺 之前担心受到中国 🇨🇳 国家补贴的电动车倾销，于是对上汽和比亚迪等代表纯电车企征收了最高达 37.6% 的税，这篇文章为我们提供了对其中数字的分析。不过，根据**纽约时报**的[这篇报道](https://cn.nytimes.com/business/20240705/european-union-china-ev-tariffs/)，中国本身就对进口汽车征收 15% 的基本关税，而欧洲的基本关税是 10%，美国的是 2.5%。现在中国也在考虑对欧洲和北美的进口汽车征收 40% 的报复性关税。*
 - 【访谈】[中国富人理财的六个陷阱](https://www.latepost.com/news/dj_detail?id=2361/)，**晚点 Late Post**，备份 [于此](https://archive.ph/Bigjj/)；
     *这时一个对资本市场投资人和基金经理的一篇访谈，为我们提供了对现在这个复杂的全球金融市场的解读。不过，我想他们可能忘记声明「不构成理财建议」了。*
-- 
+- 【采访】[对话罐车从业者：行业不景气司机内卷，普罐车还会运危险品](https://www.163.com/dy/article/J6MAF0840552DE7F.html/)，**网易新闻**，备份 [于此](https://archive.ph/phETi/);
+    *近日，油罐车混装煤油与食用油的事件在中国 🇨🇳 闹得沸沸扬扬，中储粮的公告中并没有道歉与追责，反而是打算**自罚三杯**就此躲过。网易新闻对此做了一个采访，不出意外的被 404 了……*
+- 【分析】[以色列如何每月控制 1.88 亿美元的巴勒斯坦资金](https://chinese.aljazeera.net/news/2024/1/24/以色列如何每月控制巴勒斯坦资金/)，**半岛电视台中文频道**，备份 [于此](https://archive.ph/a1HTl/)；
+    *前几天朋友提到，我才知道原来巴勒斯坦 🇵🇸 的税收一直在以色列 🇮🇱 的控制之下。找到了一份**半岛电视台**近日的报道，并了解到这段历史是如何发生。如此，岂不是巴勒斯坦一直都没有**完整的主权**吗？*
 
 ### 链接
 
-- 
+- 【公告】[关于：BTBTT 站全面崩溃，无法修复的公告](https://www.1lou.info/thread-473819.htm/)，**[BT 之家 1LOU 站](https://www.1lou.info/forum-5-1.htm?tagids=430/)**；
+    *我以前一直都在 BT 之家下载各种影片，但前段时间突然登陆不上去了。现在这个网站**声称**它是前者的传承，还是由原来的团队负责，不过由于里面大量充斥着某网盘的资源，他们之间应该是由合作关系？我暂时还是观望一下吧。*
+- 【文章】[无题-偶尔还是能听到轮船的汽笛声](https://www.nmbxd1.com/t/60294369/)，**X 岛**，备份 [于此](https://archive.ph/m4j8J/)；
+    *这是一个匿名网站上的一篇随笔，写得好有意境啊，便摘了下来。真的，好美。*
+- 【文章】[从条形码到二维码，沃尔玛和微信如何重塑商业运作的基础设施丨晚点周末](https://www.latepost.com/news/dj_detail?id=2382/)，**晚点 Late Post**，备份 [于此](https://archive.ph/L2Ftb/)；
+    *晚点本来是个财经媒体，现在开始涉足科技领域啦？这篇文章写得蛮不错的，蛮有历史中的人情味，不像传统科技那样冷冰冰。*
+- 【文章】*[Should you get a PhD?](https://medium.com/@jpolak/should-you-get-a-phd-4806663cf380/)*，**Medium**，[Jason Polak](https://archive.ph/o/DoU8c/https://medium.com/@jpolak/)，备份 [于此](https://archive.ph/DoU8c/)；
+    *作者曾经在读数学的 PHD，现在他成为了一位野生动物摄影师。读博经历对他有用，他说，影响着他每一天的思维方式。不过，除非你读 PHD 的目的是为了兴趣，丰富自己的人生，否则并不应该去浪费好几年的生命。*
+- 【倡议】[Anti-AI Coalition](https://blog.jpolak.org/anti-ai-coalition/)，**Questioning Global Capitalism and Technology**，Dr. Jason Polak，备份 [于此](https://archive.ph/e3dQr/)；
+    *在阅读上面那篇文章的时候，看到下方有一个「100% AI FREE」的图标，感兴趣点了进去，就看到了反对 AI 联盟的核心宗旨：*
+    - *我不会使用 AI 生成的内容，例如文本、脚本、图像和视频；*
+    - *我不会阅读或支持 AI 生成的内容；*
+    - *我将通过选择那些不使用 AI 的产品，以支持反对 AI 联盟中的其他人。*
+
+​	*感觉很有意思，我考虑了一会儿要不要加入，不过一想到我还要写党团的文章，已经离不开 AI 啦……*
+
+- 【贴文】[这个家伙](https://hands-lay-yfw.craft.me/PVWpPDOFXkc2RJ/)，**douglas wang**，备份 [于此](https://archive.ph/31DdA/) 和 [于此](https://web.archive.org/web/20240503143031/https://hands-lay-yfw.craft.me/PVWpPDOFXkc2RJ/)；
+    *一个阿里员工离职以后，写的一篇回顾的贴文，蛮有文采，感觉还是值得一看的。*
+
+- 【贴文】[I guess it's time for an update](https://gloria.social/@rizzi/111856959119832404/)，**gloria.social**，[Silvio Rizzi](https://gloria.social/@rizzi/)，备份 [于此]()；
+    *我一直用着的 RSS 阅读器软件 Reeder 的作者正在开发一个新的软件，他说这并不会取代现在的软件，因为那并不只是一个 RSS Reader，它还能订阅 YouTube 这样的平台，其实现在的 Reeder 作者也加上了这功能喔（*
+
+- 【贴文】[新西兰的生活随笔](https://www.1point3acres.com/bbs/thread-1043178-1-1.html/)，**一亩三分地**，fuxian1990，备份 [于此](https://web.archive.org/web/20240731021354/https://www.1point3acres.com/bbs/thread-1043178-1-1.html/)；
+    *我想要知道在异国他乡应该如何生活。*
+
+- 【博客】[(BI4LBK) HP 4192A 阻抗分析仪拆解 / 维修](http://7400.me/2024/03/03/hp4192A/)，**EE Archeology 电子考古学**，BI4LBK，备份 [于此](https://web.archive.org/web/20240507162400/http://7400.me/2024/03/03/hp4192A/)；
+    *这个博客来自一个实验室的朋友分享，里面有好多旧时代的模拟硬件的分析与拆解，那些复杂电路 —— 至少看起来 —— 与现在这些冷冰冰、方方正正、毫无情趣的芯片比起来，性感多了。*
+
+- 【博客】[iOS 14, Big Sur and DNS over HTTPS](https://paulmillr.com/posts/encrypted-dns/)，**[Paul Miller](https://paulmillr.com/)**，备份 [于此](https://archive.ph/oztlg/)；
+    *参考这篇文章，使用了 DoH。虽然作者提供了未签名的配置文件，不过由于他开源了，并且我检查了一下其**内容**，没有发现异常，所以决定暂时使用这个配置文件。其源代码如下：*
+
+    ```xml
+    <?xml version="1.0" encoding="UTF-8"?>
+    <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+    <plist version="1.0">
+    <dict>
+    	<key>PayloadContent</key>
+    	<array>
+    		<dict>
+    			<key>DNSSettings</key>
+    			<dict>
+    				<key>DNSProtocol</key>
+    				<string>HTTPS</string>
+    				<key>ServerAddresses</key>
+    				<array>
+    					<string>2606:4700:4700::1111</string>
+    					<string>2606:4700:4700::1001</string>
+    					<string>1.1.1.1</string>
+    					<string>1.0.0.1</string>
+    				</array>
+    				<key>ServerURL</key>
+    				<string>https://cloudflare-dns.com/dns-query</string>
+    			</dict>
+    			<key>PayloadDescription</key>
+    			<string>Configures device to use Cloudflare Encrypted DNS over HTTPS</string>
+    			<key>PayloadDisplayName</key>
+    			<string>Cloudflare DNS over HTTPS</string>
+    			<key>PayloadIdentifier</key>
+    			<string>com.apple.dnsSettings.managed.9d6e5fdf-e404-4f34-ae94-27ed2f636ac4</string>
+    			<key>PayloadType</key>
+    			<string>com.apple.dnsSettings.managed</string>
+    			<key>PayloadUUID</key>
+    			<string>35d5c8a0-afa6-4b36-a9fe-099a997b44ad</string>
+    			<key>PayloadVersion</key>
+    			<integer>1</integer>
+    			<key>ProhibitDisablement</key>
+    			<false/>
+    		</dict>
+    	</array>
+    	<key>PayloadDescription</key>
+    	<string>Adds the Cloudflare DNS to Big Sur and iOS 14 based systems</string>
+    	<key>PayloadDisplayName</key>
+    	<string>Cloudflare DNS over HTTPS</string>
+    	<key>PayloadIdentifier</key>
+    	<string>com.paulmillr.apple-dns</string>
+    	<key>PayloadRemovalDisallowed</key>
+    	<false/>
+    	<key>PayloadType</key>
+    	<string>Configuration</string>
+    	<key>PayloadUUID</key>
+    	<string>A4475135-633A-4F15-A79B-BE15093DC97A</string>
+    	<key>PayloadVersion</key>
+    	<integer>1</integer>
+    </dict>
+    </plist>
+    ```
+
+    
+
+
+
+
+
+
+
+
+
+
+
 
 
 

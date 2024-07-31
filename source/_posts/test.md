@@ -170,6 +170,14 @@ Details
 
 以此类推
 
+## 文字高亮
+
+```
+<p>&lt;mark&gt; 元素用于 <mark>高亮</mark> 文本</p>
+```
+
+<p>&lt;mark&gt; 元素用于 <mark>高亮</mark> 文本</p>
+
 ## 隐藏文字
 
 ```
