@@ -28,6 +28,10 @@ comment: true
 
 <!-- 恢复 RSS 按钮？ -->
 
+### 2024-09-13 添加新的友链
+
+在互联网上冲浪的时候发现了一个网上邻居 [**Oskyla**](https://oskyla.com/about.html/)，通过邮件与 TA 添加友链。
+
 ### 2024-07-27 添加新的友链
 
 近日 [**猫梨 NEKORI**](https://www.nekolee.com/about/) 私信我说，TA 的新博客搭建好啦，便火速添加友链！

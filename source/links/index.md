@@ -152,6 +152,13 @@ links:
     color: "#DB7093"
     email: 
 
+  - url: https://oskyla.com/
+    avatar: /images/avatar/oskyla.jpg
+    name: 
+    blog: Oskyla 晴空阁
+    desc: 晴朗的天空
+    color: "#EEE8AA"
+    email: songtianlun@frytea.com  
 
 
 
