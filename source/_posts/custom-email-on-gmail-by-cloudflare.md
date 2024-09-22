@@ -70,7 +70,7 @@ readmore: false
 
 ## 添加 Cloudflare 的 MX 记录
 
-在配置好以上邮箱与路由规则以后，在 **Email/电子邮件 ** 处点击「添加记录」，就可以将 MX 记录一键导入到 **DNS — 记录** 中，参考类型如下：
+在配置好以上邮箱与路由规则以后，在 **Email/电子邮件** 处点击「添加记录」，就可以将 MX 记录一键导入到 **DNS — 记录** 中，参考类型如下：
 
 ![DNS](/images/custom-email-on-gmail-by-cloudflare/DNS.jpg)
 
@@ -113,7 +113,7 @@ readmore: false
 
 完成填写后，点击「下一步」：
 
-![add- account](/images/custom-email-on-gmail-by-cloudflare/add- account.jpg)
+![add-account](/images/custom-email-on-gmail-by-cloudflare/add-account.jpg)
 
 > - SMTP 需要填写 smtp.gmail.com；
 > - port 端口保持默认即可，如果需要变更协议，端口需要做相应变更；
