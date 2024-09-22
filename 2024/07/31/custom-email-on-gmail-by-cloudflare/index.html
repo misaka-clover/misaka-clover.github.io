@@ -1,0 +1,142 @@
+<!DOCTYPE html><html lang="zh-CN"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="theme-color" content="#0078E7"><meta name="author" content="叶子"><meta name="copyright" content="叶子"><meta name="generator" content="Hexo 7.2.0"><meta name="theme" content="hexo-theme-yun"><title>使用 Cloudflare 在 Gmail 上配置域名邮箱 | 叶子的花园</title><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@900&amp;display=swap" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://fastly.jsdelivr.net/npm/star-markdown-css@0.4.1/dist/yun/yun-markdown.min.css"><link rel="stylesheet" href="https://fastly.jsdelivr.net/npm/prism-theme-vars/base.css"><script src="https://fastly.jsdelivr.net/npm/scrollreveal/dist/scrollreveal.min.js" defer></script><script>function initScrollReveal() {
+  [".post-card",".markdown-body img"].forEach((target)=> {
+    ScrollReveal().reveal(target);
+  })
+}
+document.addEventListener("DOMContentLoaded", initScrollReveal);
+document.addEventListener("pjax:success", initScrollReveal);
+</script><link rel="icon" type="image/svg+xml" href="/yun.svg"><link rel="mask-icon" href="/yun.svg" color="#0078E7"><link rel="preload" href="/css/hexo-theme-yun.css" as="style"><link rel="prefetch" href="/js/sidebar.js" as="script"><link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin><link rel="preconnect" href="https://fastly.jsdelivr.net/npm/" crossorigin><script id="yun-config">
+    window.Yun = {}
+    window.CONFIG = {"hostname":"mskclover.com","root":"/","title":"叶子的花园","version":"1.10.11","mode":"auto","copycode":true,"page":{"isPost":true},"i18n":{"placeholder":"搜索...","empty":"找不到您查询的内容: ${query}","hits":"找到 ${hits} 条结果","hits_time":"找到 ${hits} 条结果（用时 ${time} 毫秒）"},"anonymous_image":"https://cdn.yunyoujun.cn/img/avatar/none.jpg","say":{"api":"/data/sentences.json"},"fireworks":{"colors":["102, 167, 221","62, 131, 225","33, 78, 194"]},"vendors":{"host":"https://fastly.jsdelivr.net/npm/","darken":"https://fastly.jsdelivr.net/npm/darken@1.5.0"}};
+  </script><link rel="stylesheet" href="/css/hexo-theme-yun.css"><script src="/js/hexo-theme-yun.js" type="module"></script><link rel="alternate" href="/atom.xml" title="叶子的花园" type="application/atom+xml"><script src="/" async></script><script src="/j" async></script><script src="/a" async></script><script src="/v" async></script><script src="/a" async></script><script src="/s" async></script><script src="/c" async></script><script src="/r" async></script><script src="/i" async></script><script src="/p" async></script><script src="/t" async></script><script src="/" async></script><script src="/g" async></script><script src="/o" async></script><script src="/o" async></script><script src="/g" async></script><script src="/l" async></script><script src="/e" async></script><script src="/a" async></script><script src="/d" async></script><script src="/." async></script><script src="/j" async></script><script src="/s" async></script><link rel="preconnect" href="https://www.google-analytics.com" crossorigin><script async src="https://www.googletagmanager.com/gtag/js?id=G-6VWG03H880"></script><script>if (CONFIG.hostname === location.hostname) {
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-6VWG03H880');
+}</script><script data-ad-client="pub-4618904761682457" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><meta property="og:type" content="article">
+<meta property="og:title" content="使用 Cloudflare 在 Gmail 上配置域名邮箱">
+<meta property="og:url" content="https://mskclover.com/2024/07/31/custom-email-on-gmail-by-cloudflare/index.html">
+<meta property="og:site_name" content="叶子的花园">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://mskclover.com/images/custom-email-on-gmail-by-cloudflare/cover.jpg">
+<meta property="og:image" content="https://mskclover.com/images/custom-email-on-gmail-by-cloudflare/registrar-pricing.jpg">
+<meta property="og:image" content="https://mskclover.com/images/custom-email-on-gmail-by-cloudflare/catch-all.jpg">
+<meta property="og:image" content="https://mskclover.com/images/custom-email-on-gmail-by-cloudflare/creat-email.jpg">
+<meta property="og:image" content="https://mskclover.com/images/custom-email-on-gmail-by-cloudflare/set-action.jpg">
+<meta property="og:image" content="https://mskclover.com/images/custom-email-on-gmail-by-cloudflare/DNS.jpg">
+<meta property="og:image" content="https://mskclover.com/images/custom-email-on-gmail-by-cloudflare/apppasswords.jpg">
+<meta property="og:image" content="https://mskclover.com/images/custom-email-on-gmail-by-cloudflare/add-another-email.jpg">
+<meta property="og:image" content="https://mskclover.com/images/custom-email-on-gmail-by-cloudflare/enter-email.jpg">
+<meta property="og:image" content="https://mskclover.com/images/custom-email-on-gmail-by-cloudflare/confirm.jpg">
+<meta property="article:published_time" content="2024-07-31T08:17:34.000Z">
+<meta property="article:modified_time" content="2024-09-22T08:38:09.720Z">
+<meta property="article:author" content="叶子">
+<meta property="article:tag" content="博文">
+<meta property="article:tag" content="Cloudflare">
+<meta property="article:tag" content="域名邮箱">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://mskclover.com/images/custom-email-on-gmail-by-cloudflare/cover.jpg"><script>(function() {
+  if (CONFIG.mode !== 'auto') return
+  const prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches
+  const setting = localStorage.getItem('darken-mode') || 'auto'
+  if (setting === 'dark' || (prefersDark && setting !== 'light'))
+    document.documentElement.classList.toggle('dark', true)
+})()</script></head><body><script src="https://code.iconify.design/2/2.1.1/iconify.min.js"></script><script>// Define global variable
+IconifyProviders = {
+  // Empty prefix: overwrite default API provider configuration
+  '': {
+    // Use custom API first, use Iconify public API as backup
+    resources: [
+        'https://api.iconify.design',
+    ],
+    // Wait for 1 second before switching API hosts
+    rotate: 1000,
+  },
+};</script><script defer src="https://fastly.jsdelivr.net/npm/animejs@latest"></script><script defer src="/js/ui/fireworks.js" type="module"></script><canvas class="fireworks"></canvas><div class="container"><a class="sidebar-toggle hty-icon-button" id="menu-btn"><div class="hamburger hamburger--spin" type="button"><span class="hamburger-box"><span class="hamburger-inner"></span></span></div></a><div class="sidebar-toggle sidebar-overlay"></div><aside class="sidebar"><script src="/js/sidebar.js" type="module"></script><ul class="sidebar-nav"><li class="sidebar-nav-item sidebar-nav-toc hty-icon-button sidebar-nav-active" data-target="post-toc-wrap" title="文章目录"><span class="icon iconify" data-icon="ri:list-ordered"></span></li><li class="sidebar-nav-item sidebar-nav-overview hty-icon-button" data-target="site-overview-wrap" title="站点概览"><span class="icon iconify" data-icon="ri:passport-line"></span></li></ul><div class="sidebar-panel" id="site-overview-wrap"><div class="site-info fix-top"><a class="site-author-avatar" href="/about/" title="叶子"><img width="96" loading="lazy" src="/images/avatar/avatar.jpg" alt="叶子"><span class="site-author-status" title="今天也是美好的一天呢">🥬</span></a><div class="site-author-name"><a href="/about/">叶子</a></div><a class="site-name" href="/about/site.html">叶子的花园</a><sub class="site-subtitle">靡不有初，鲜克有终</sub><div class="site-description">@Misaka-Clover</div></div><nav class="site-state"><a class="site-state-item hty-icon-button icon-home" href="/" title="首页"><span class="site-state-item-icon"><span class="icon iconify" data-icon="ri:home-4-line"></span></span></a><div class="site-state-item"><a href="/archives/" title="归档"><span class="site-state-item-icon"><span class="icon iconify" data-icon="ri:archive-line"></span></span><span class="site-state-item-count">50</span></a></div><div class="site-state-item"><a href="/categories/" title="分类"><span class="site-state-item-icon"><span class="icon iconify" data-icon="ri:folder-2-line"></span></span><span class="site-state-item-count">10</span></a></div><div class="site-state-item"><a href="/tags/" title="标签"><span class="site-state-item-icon"><span class="icon iconify" data-icon="ri:price-tag-3-line"></span></span><span class="site-state-item-count">123</span></a></div><a class="site-state-item hty-icon-button" href="/about/#comment" title="留言板"><span class="site-state-item-icon"><span class="icon iconify" data-icon="ri:clipboard-line"></span></span></a></nav><hr style="margin-bottom:0.5rem"><div class="links-of-author"><a class="links-of-author-item hty-icon-button" rel="noopener" href="/atom.xml" title="RSS" target="_blank" style="color:orange"><span class="icon iconify" data-icon="ri:rss-line"></span></a><a class="links-of-author-item hty-icon-button" rel="noopener" href="https://github.com/misaka-clover" title="GitHub" target="_blank" style="color:#181717"><span class="icon iconify" data-icon="ri:github-line"></span></a><a class="links-of-author-item hty-icon-button" rel="noopener" href="https://twitter.com/Misaka_Clover" title="Twitter" target="_blank" style="color:#1da1f2"><span class="icon iconify" data-icon="ri:twitter-line"></span></a><a class="links-of-author-item hty-icon-button" rel="noopener" href="https://g0v.social/@Misaka_Clover" title="Mastodon" target="_blank" style="color:purple"><span class="icon iconify" data-icon="ri:mastodon-line"></span></a><a class="links-of-author-item hty-icon-button" rel="noopener" href="mailto:cover@mskclover.com" title="E-Mail" target="_blank" style="color:#8E71C1"><span class="icon iconify" data-icon="ri:mail-line"></span></a><a class="links-of-author-item hty-icon-button" rel="noopener" href="https://www.travellings.cn/go.html" title="Travelling" target="_blank" style="color:var(--hty-text-color)"><span class="icon iconify" data-icon="ri:train-line"></span></a></div><hr style="margin:0.5rem 1rem"><div class="links"><a class="links-item hty-icon-button" href="/links/" title="我的小伙伴们" style="color:dodgerblue"><span class="icon iconify" data-icon="ri:genderless-line"></span></a></div><br><a class="links-item hty-icon-button" id="toggle-mode-btn" href="javascript:;" title="Mode" style="color: #f1cb64"><span class="icon iconify" data-icon="ri:contrast-2-line"></span></a></div><div class="sidebar-panel sidebar-panel-active" id="post-toc-wrap"><div class="post-toc"><div class="post-toc-content"><ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%89%8D%E8%A8%80"><span class="toc-number">1.</span> <span class="toc-text">前言</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E9%80%89%E6%8B%A9-Cloudflare-%E4%BD%9C%E4%B8%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E5%9F%9F%E5%90%8D%E6%89%98%E7%AE%A1%E5%95%86"><span class="toc-number">2.</span> <span class="toc-text">选择 Cloudflare 作为自己的域名托管商</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%AE%BE%E7%BD%AE-Cloudflare-Email-Routing-%E8%B7%AF%E7%94%B1%E8%A7%84%E5%88%99"><span class="toc-number">3.</span> <span class="toc-text">设置 Cloudflare Email Routing 路由规则</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%B7%BB%E5%8A%A0-Cloudflare-%E7%9A%84-MX-%E8%AE%B0%E5%BD%95"><span class="toc-number">4.</span> <span class="toc-text">添加 Cloudflare 的 MX 记录</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E9%85%8D%E7%BD%AE-Gmail-%E4%BB%A5%E5%9F%9F%E5%90%8D%E9%82%AE%E7%AE%B1%E7%9A%84%E5%90%8D%E4%B9%89%E5%8F%91%E9%80%81%E9%82%AE%E4%BB%B6"><span class="toc-number">5.</span> <span class="toc-text">配置 Gmail 以域名邮箱的名义发送邮件</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%8E%B7%E5%8F%96%E8%B0%B7%E6%AD%8C%E8%B4%A6%E6%88%B7%E7%9A%84%E4%B8%93%E5%B1%9E%E5%BA%94%E7%94%A8%E5%AF%86%E7%A0%81"><span class="toc-number">5.1.</span> <span class="toc-text">获取谷歌账户的专属应用密码</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E9%85%8D%E7%BD%AE-Gmail-%E5%8F%91%E9%80%81%E9%82%AE%E4%BB%B6%E5%9C%B0%E5%9D%80"><span class="toc-number">5.2.</span> <span class="toc-text">配置 Gmail 发送邮件地址</span></a></li></ol></li></ol></div></div></div></aside><main class="sidebar-translate" id="content"><div id="post"><article class="hty-card post-block" itemscope itemtype="https://schema.org/Article" style="--smc-primary:#0078E7;"><link itemprop="mainEntityOfPage" href="https://mskclover.com/2024/07/31/custom-email-on-gmail-by-cloudflare/"><span hidden itemprop="author" itemscope itemtype="https://schema.org/Person"><meta itemprop="name" content="叶子"><meta itemprop="description"></span><span hidden itemprop="publisher" itemscope itemtype="https://schema.org/Organization"><meta itemprop="name" content="叶子的花园"></span><header class="post-header"><h1 class="post-title" itemprop="name headline">使用 Cloudflare 在 Gmail 上配置域名邮箱</h1><div class="post-meta"><div class="post-time" style="display:block"><span class="post-meta-item-icon"><span class="icon iconify" data-icon="ri:calendar-line"></span></span> <span class="post-meta-icon-text">发表于</span> <time title="创建时间：2024-07-31 16:17:34" itemprop="dateCreated datePublished" datetime="2024-07-31T16:17:34+08:00">2024-07-31</time><span class="post-meta-divider">-</span><span class="post-meta-item-icon"><span class="icon iconify" data-icon="ri:calendar-2-line"></span></span> <span class="post-meta-icon-text">更新于</span> <time title="修改时间：2024-09-22 16:38:09" itemprop="dateModified" datetime="2024-09-22T16:38:09+08:00">2024-09-22</time></div><span class="post-count"><span class="post-symbolcount"><span class="post-meta-item-icon" title="本文字数"><span class="icon iconify" data-icon="ri:file-word-line"></span></span> <span title="本文字数">1.5k</span><span class="post-meta-divider">-</span><span class="post-meta-item-icon" title="阅读时长"><span class="icon iconify" data-icon="ri:timer-line"></span></span> <span title="阅读时长">5m</span></span></span><div class="post-classify"><span class="post-category"> <span class="post-meta-item-icon" style="margin-right:3px;"><span class="icon iconify" data-icon="ri:folder-line"></span></span><span itemprop="about" itemscope itemtype="https://schema.org/Thing"><a class="category-item" href="/categories/%E5%8F%B6%E5%AD%90%E7%9A%84%E5%B0%8F%E7%9F%A5%E8%AF%86/" style="--text-color:var(--hty-text-color)" itemprop="url" rel="index"><span itemprop="text">叶子的小知识</span></a></span></span><span class="post-tag"><span class="post-meta-divider">-</span><a class="tag-item" href="/tags/%E5%8D%9A%E6%96%87/" style="--text-color:var(--hty-text-color)"><span class="post-meta-item-icon"><span class="icon iconify" data-icon="ri:price-tag-3-line"></span></span><span class="tag-name">博文</span></a><a class="tag-item" href="/tags/Cloudflare/" style="--text-color:var(--hty-text-color)"><span class="post-meta-item-icon"><span class="icon iconify" data-icon="ri:price-tag-3-line"></span></span><span class="tag-name">Cloudflare</span></a><a class="tag-item" href="/tags/%E5%9F%9F%E5%90%8D%E9%82%AE%E7%AE%B1/" style="--text-color:var(--hty-text-color)"><span class="post-meta-item-icon"><span class="icon iconify" data-icon="ri:price-tag-3-line"></span></span><span class="tag-name">域名邮箱</span></a></span></div></div></header><section class="post-body" itemprop="articleBody"><div class="post-content markdown-body"><img src="/images/custom-email-on-gmail-by-cloudflare/cover.jpg" width="450" alt="cover" / loading="lazy">
+
+
+<span id="more"></span>
+
+<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>在去年初，我在<a href="https://mskclover.com/2023/04/09/2023-04-Week-14/">这篇周记</a>里讲我配置了「域名邮箱的接收」，但是因为我犯懒，就一直没有配置其发送。最近看到一个关注许久的博客出了问题，无法留言，就趁此机会把<strong>「域名邮箱的发送」</strong>配置啦。本篇文章的所有配置步骤，均参考 <strong>数字游民</strong> 的这篇教程：<a target="_blank" rel="noopener" href="https://blog.shuziyimin.org/1355#comment-8798/">如何使用 Cloudflare 配置域名邮箱收发邮件</a>（备份 <a target="_blank" rel="noopener" href="https://web.archive.org/web/20240916150632/https://blog.shuziyimin.org/1355#comment-8798/">于此</a>），并根据自己的经历作了一点小小的修改。</p>
+<p>整个步骤大体上可以分为两个部分：</p>
+<ul>
+<li>配置域名邮箱接收邮件，并转发到自己的邮箱（如 Gmail）；</li>
+<li>配置域名邮箱发送邮件，该功能依托其他大型邮件服务商（如 Gmail）。</li>
+</ul>
+<h2 id="选择-Cloudflare-作为自己的域名托管商"><a href="#选择-Cloudflare-作为自己的域名托管商" class="headerlink" title="选择 Cloudflare 作为自己的域名托管商"></a>选择 Cloudflare 作为自己的域名托管商</h2><p>在我之前的文章里，有说过为什么选择 <strong>Cloudflare</strong> 作为我的域名托管商。最初我的域名是托管在 <strong><a target="_blank" rel="noopener" href="https://www.namecheap.com/">Namecheap</a></strong> 上的，不过由于首年便宜，续费太贵的缘故，我就将域名转移到了 Cloudflare 上了 —— 这是偷偷摸摸做的，那时忙着做实验室的项目，所以忘记写一篇博文来纪念一下了，好遗憾的。Cloudflare 在<a target="_blank" rel="noopener" href="https://blog.cloudflare.com/cloudflare-registrar/">这篇博客</a>里说过他们<strong>为什么</strong>会开始自己做域名服务的托管，也说了他们为什么<strong>不会</strong>像其他公司一样将<strong>续费价格翻好几倍</strong>，当然也说了他们为什么承诺为每一位用户提供 <strong>免费 SSL</strong> 等服务。我真的好感动，Cloudflare 为大家创造了一个更好的互联网，难怪许多人都愿意尊称他们为<strong>「赛博佛祖」</strong>。</p>
+<p><img src="/images/custom-email-on-gmail-by-cloudflare/registrar-pricing.jpg" alt="registrar-pricing" loading="lazy"><em>Cloudflare 所列出的顶级域名收费明细</em></p>
+<p>如果自己有域名，需要将其转移到 Cloudflare 上托管。如果没有域名，那直接在 Cloudflare 上注册一个也未尝不可。</p>
+<h2 id="设置-Cloudflare-Email-Routing-路由规则"><a href="#设置-Cloudflare-Email-Routing-路由规则" class="headerlink" title="设置 Cloudflare Email Routing 路由规则"></a>设置 Cloudflare Email Routing 路由规则</h2><p>登陆 Cloudflare 的 <strong>dash&#x2F;控制台</strong> 页面，其左栏应有 <strong>Email&#x2F;电子邮件</strong> 一项，在下拉列表的 <strong>电子邮件路由 — 路由规则</strong> 处有：</p>
+<p><img src="/images/custom-email-on-gmail-by-cloudflare/catch-all.jpg" alt="catch-all" loading="lazy"></p>
+<p>可以打开该功能，会使得所有发给你域名的邮件都会应用后续规则，也就是都会转发到你指定的目标邮箱。该功能是可选项，非必须。我参考的教程上，有这样写道：</p>
+<blockquote>
+<p>比较在乎隐私保护的朋友可以使用这个服务，比如在注册各种网站服务时用服务名称临时编个前缀，注册 craft 时就用 <a href="mailto:&#x63;&#x72;&#x61;&#x66;&#116;&#x40;&#101;&#x78;&#x61;&#x6d;&#x70;&#108;&#101;&#x2e;&#99;&#x6f;&#109;">&#x63;&#x72;&#x61;&#x66;&#116;&#x40;&#101;&#x78;&#x61;&#x6d;&#x70;&#108;&#101;&#x2e;&#99;&#x6f;&#109;</a>；注册 disney+ 时就用 <a href="mailto:&#x64;&#x69;&#x73;&#110;&#x65;&#x79;&#x40;&#x65;&#x78;&#97;&#x6d;&#x70;&#108;&#x65;&#46;&#x63;&#111;&#109;">&#x64;&#x69;&#x73;&#110;&#x65;&#x79;&#x40;&#x65;&#x78;&#97;&#x6d;&#x70;&#108;&#x65;&#46;&#x63;&#111;&#109;</a>。 这样收到垃圾邮件时，可以知道是哪家服务商把你的信息泄露了，也可以根据收件人来拒收邮件。</p>
+</blockquote>
+<p>而在页面下方有：</p>
+<p><img src="/images/custom-email-on-gmail-by-cloudflare/creat-email.jpg" alt="creat-email" loading="lazy"></p>
+<p>可以点击右侧的 <strong>创建地址</strong> 会出现：</p>
+<img src="/images/custom-email-on-gmail-by-cloudflare/set-action.jpg" width="600" alt="DNS" / loading="lazy">
+
+<p>在「自定义地址」处填入自己想要的邮箱地址，在「操作」处填入 发送到电子邮件（即转发功能），在「目标位置」填入自己的邮箱以后，我们便设置好了。接下来 Cloudflare 会给你的邮箱发送一封确认邮件，点击其中的链接即可验证身份，到此配置完毕。</p>
+<h2 id="添加-Cloudflare-的-MX-记录"><a href="#添加-Cloudflare-的-MX-记录" class="headerlink" title="添加 Cloudflare 的 MX 记录"></a>添加 Cloudflare 的 MX 记录</h2><p>在配置好以上邮箱与路由规则以后，在 **Email&#x2F;电子邮件 ** 处点击「添加记录」，就可以将 MX 记录一键导入到 <strong>DNS — 记录</strong> 中，参考类型如下：</p>
+<p><img src="/images/custom-email-on-gmail-by-cloudflare/DNS.jpg" alt="DNS" loading="lazy"></p>
+<h2 id="配置-Gmail-以域名邮箱的名义发送邮件"><a href="#配置-Gmail-以域名邮箱的名义发送邮件" class="headerlink" title="配置 Gmail 以域名邮箱的名义发送邮件"></a>配置 Gmail 以域名邮箱的名义发送邮件</h2><p>我认为在网络世界中，邮箱名字链接了太多的个人信息，这也是个人隐私的一部份。所以，我想要在某些时候，以域名邮箱的名义发送邮件，比如域名邮箱接收到他人来信的时候 —— 他人发邮件给你的域名邮箱，总不好用另外一个邮箱回复别人吧（</p>
+<p>下面，我继续参考上述教程，以 Gmail 为基础，配置代理域名邮箱的发送功能：</p>
+<h3 id="获取谷歌账户的专属应用密码"><a href="#获取谷歌账户的专属应用密码" class="headerlink" title="获取谷歌账户的专属应用密码"></a>获取谷歌账户的专属应用密码</h3><p>在浏览器中打开链接：<a target="_blank" rel="noopener" href="https://myaccount.google.com/apppasswords%EF%BC%9A">https://myaccount.google.com/apppasswords：</a></p>
+<p><img src="/images/custom-email-on-gmail-by-cloudflare/apppasswords.jpg" alt="apppasswords" loading="lazy"><em>谷歌的中文排版为什么总是喜欢逼死强迫症？</em></p>
+<p>填入一个「自定义信息」后，就会弹出窗口「系統產生的應用程式密碼」，并显示一串密码。注意：<strong>一定要复制并妥善保存这个密码</strong>，因为在你点击「确认」以后，你就再也看不到这个密码了。</p>
+<p>我填入的自定义信息是：Gmail-Cloudflare-mail，以供参考。</p>
+<h3 id="配置-Gmail-发送邮件地址"><a href="#配置-Gmail-发送邮件地址" class="headerlink" title="配置 Gmail 发送邮件地址"></a>配置 Gmail 发送邮件地址</h3><p>登入 Gmail，在其右上角找到齿轮 <strong>设置 — 查看所有設定 — 帳戶和匯入</strong>，在「選擇寄件地址」一栏找到「新增另一個電子郵件地址」：</p>
+<p><img src="/images/custom-email-on-gmail-by-cloudflare/add-another-email.jpg" alt="add-another-email" loading="lazy"></p>
+<p>点击「新增另一個電子郵件地址」后，会出现弹窗：</p>
+<p><img src="/images/custom-email-on-gmail-by-cloudflare/enter-email.jpg" alt="enter-email" loading="lazy"></p>
+<p>请注意：</p>
+<blockquote>
+<ul>
+<li>邮箱名字会用于之后发邮件的默认名，会对外展示，请慎重填写；</li>
+<li>域名邮箱地址，请事先在 Cloudflare 中配置此前缀域名邮箱，确认可以接收邮件。</li>
+</ul>
+</blockquote>
+<p>完成填写后，点击「下一步」：</p>
+<p>![add- account](&#x2F;images&#x2F;custom-email-on-gmail-by-cloudflare&#x2F;add- account.jpg)</p>
+<blockquote>
+<ul>
+<li>SMTP 需要填写 smtp.gmail.com；</li>
+<li>port 端口保持默认即可，如果需要变更协议，端口需要做相应变更；</li>
+<li>username 填写原本 Gmail 的用户名，即邮箱地址中除去 @gmail.com 之外的信息；</li>
+<li>password 需要使用在步骤 4.1 中获取的专属应用密码；</li>
+</ul>
+</blockquote>
+<p>如果上述步骤没有问题，成功进入下一个页面会看到：</p>
+<p><img src="/images/custom-email-on-gmail-by-cloudflare/confirm.jpg" alt="confirm" loading="lazy"><em>因为我已经建好了域名邮箱，所以截取的是教程中的图片</em></p>
+<p>此时，Gmail 会收到一封邮件，在邮件中点击链接，或者在此输入邮件中的验证码，即可配置完成。未来在使用 Gmail 发送邮件的时候，可以在发件人处选择发送该封邮件的地址。</p>
+<p>以上，希望你一切顺利 ：)</p>
+</div></section><ul class="post-copyright"><li class="post-copyright-author"><strong>本文作者：</strong>叶子</li><li class="post-copyright-link"><strong>本文链接：</strong><a href="https://mskclover.com/2024/07/31/custom-email-on-gmail-by-cloudflare/" title="使用 Cloudflare 在 Gmail 上配置域名邮箱">https://mskclover.com/2024/07/31/custom-email-on-gmail-by-cloudflare/</a></li><li class="post-copyright-license"><strong>版权声明：</strong>本博客所有文章除特别声明外，均默认采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh" target="_blank" rel="noopener" title="CC BY-NC-SA 4.0 "><span class="icon iconify" data-icon="ri:creative-commons-line"></span><span class="icon iconify" data-icon="ri:creative-commons-by-line"></span><span class="icon iconify" data-icon="ri:creative-commons-nc-line"></span><span class="icon iconify" data-icon="ri:creative-commons-sa-line"></span></a> 许可协议。</li></ul></article><div class="post-nav"><div class="post-nav-item"><a class="post-nav-prev" href="/2024/09/14/thoughts-on-delayed-retirement/" rel="prev" title="有关延迟退休的一点想法"><span class="icon iconify" data-icon="ri:arrow-left-s-line"></span><span class="post-nav-text">有关延迟退休的一点想法</span></a></div><div class="post-nav-item"><a class="post-nav-next" href="/2024/05/26/new-garden-from-scratch/" rel="next" title="从零开始建立花园"><span class="post-nav-text">从零开始建立花园</span><span class="icon iconify" data-icon="ri:arrow-right-s-line"></span></a></div></div></div><div class="hty-card" id="comment"><div class="comment-tooltip text-center"><span>如果您有任何关于博客内容的相关讨论，欢迎前往 <a href="https://github.com/misaka-clover/misaka-clover.github.io/discussions" target="_blank">GitHub Discussions</a> 与我交流。</span><br></div><style>.utterances {
+  max-width: 100%;
+}</style><script src="https://giscus.app/client.js" data-repo="misaka-clover/misaka-clover.github.io" data-repo-id="MDEwOlJlcG9zaXRvcnkyODk0NzI1MzM=" data-category="Announcements" data-category-id="DIC_kwDOEUEAFc4CU_3i" data-mapping="pathname" data-reactions-enabled="1" data-emit-metadata="0" data-theme="light" crossorigin="anonymous" async></script></div></main><footer class="sidebar-translate" id="footer"><div class="copyright"><span>&copy; 2020 – 2024 </span><span class="with-love" id="animate"><span class="icon iconify" data-icon="ri:cloud-line"></span></span><span class="author"> 叶子</span></div><div class="powered"><span>由 <a href="https://hexo.io" target="_blank" rel="noopener">Hexo</a> 驱动 v7.2.0</span><span class="footer-separator">|</span><span>主题 - <a rel="noopener" href="https://github.com/YunYouJun/hexo-theme-yun" target="_blank"><span>Yun</span></a> v1.10.11</span></div><div class="live-time"><span>本花园已长草</span><span id="display_live_time"></span><span class="moe-text">（¯﹃¯）</span><script>function blog_live_time() {
+  setTimeout(blog_live_time, 1000);
+  const start = new Date('2020-08-22T19:25:00');
+  const now = new Date();
+  const timeDiff = (now.getTime() - start.getTime());
+  const msPerMinute = 60 * 1000;
+  const msPerHour = 60 * msPerMinute;
+  const msPerDay = 24 * msPerHour;
+  const passDay = Math.floor(timeDiff / msPerDay);
+  const passHour = Math.floor((timeDiff % msPerDay) / 60 / 60 / 1000);
+  const passMinute = Math.floor((timeDiff % msPerHour) / 60 / 1000);
+  const passSecond = Math.floor((timeDiff % msPerMinute) / 1000);
+  display_live_time.innerHTML = ` ${passDay} 天 ${passHour} 小时 ${passMinute} 分 ${passSecond} 秒`;
+}
+blog_live_time();
+</script></div><div class="footer-custom-text">博客版本：Version.2.2.3 |  <a href="https://icp.gov.moe" target="_blank" style="color:inherit"><img src="/images/moeicp.png" width="25" style="vertical-align:middle">萌ICP备 </a><a href="https://icp.gov.moe/?keyword=20232952" target="_blank" style="color:inherit"> 20232952 号</a> </div><div class="footer-support"><span>由好人一生平安的</span><a class="footer-support-logo" href="https://www.cloudflare.com/" target="blank" title="Cloudflare"><img height="30" src="/images/CF_logo_stacked_blktype.svg" alt="Cloudflare"></a><span>提供免费的 CDN 加速</span></div></footer></div><a class="hty-icon-button" id="back-to-top" aria-label="back-to-top" href="#"><span class="icon iconify" data-icon="ri:arrow-up-s-line"></span><svg class="progress-circle-container" viewBox="0 0 100 100"><circle class="progress-circle" id="progressCircle" cx="50" cy="50" r="48" fill="none" stroke="#0078E7" stroke-width="2" stroke-linecap="round"></circle></svg></a><a class="popup-trigger hty-icon-button icon-search" id="search" target="_blank" rel="noopener" href="https://www.google.com/search?q=site:mskclover.com" title="搜索"><span class="site-state-item-icon"><span class="icon iconify" data-icon="ri:search-line"></span></span></a><script>function initMourn() {
+  const date = new Date();
+  const today = (date.getMonth() + 1) + "-" + date.getDate()
+  const mourn_days = ["4-4","9-18","6-4"]
+  if (mourn_days.includes(today)) {
+    document.documentElement.style.filter = "grayscale(1)";
+  }
+}
+initMourn();</script><script src="https://fastly.jsdelivr.net/npm/medium-zoom@1.0.6/dist/medium-zoom.min.js"></script><script>const images = [...document.querySelectorAll('.markdown-body img')]
+mediumZoom(images)</script><style>.medium-zoom-image {
+  z-index: 99;
+}</style></body></html>
