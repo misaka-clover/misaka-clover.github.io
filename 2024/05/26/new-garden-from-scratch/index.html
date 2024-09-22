@@ -172,7 +172,7 @@ sh-3.2<span class="token comment"># </span>
 
 <h4 id="包-core-js-的注意事项"><a href="#包-core-js-的注意事项" class="headerlink" title="包 core-js 的注意事项"></a>包 core-js 的注意事项</h4><p>另外，我还遇到了 core-js 的警告：</p>
 <blockquote>
-<p><strong>npm</strong> warn deprecated <a href="mailto:&#99;&#x6f;&#x72;&#101;&#45;&#106;&#115;&#64;&#50;&#x2e;&#54;&#x2e;&#49;&#50;">&#99;&#x6f;&#x72;&#101;&#45;&#106;&#115;&#64;&#50;&#x2e;&#54;&#x2e;&#49;&#50;</a>: core-js@&lt;3.23.3 is no longer maintained and not recommended for usage due to the number of issues. Because of the V8 engine whims, feature detection in old core-js versions could cause a slowdown up to 100x even if nothing is polyfilled. Some versions have web compatibility issues. Please, upgrade your dependencies to the actual version of core-js.</p>
+<p><strong>npm</strong> warn deprecated <a href="mailto:&#x63;&#x6f;&#114;&#x65;&#45;&#106;&#x73;&#64;&#50;&#x2e;&#54;&#46;&#49;&#50;">&#x63;&#x6f;&#114;&#x65;&#45;&#106;&#x73;&#64;&#50;&#x2e;&#54;&#46;&#49;&#50;</a>: core-js@&lt;3.23.3 is no longer maintained and not recommended for usage due to the number of issues. Because of the V8 engine whims, feature detection in old core-js versions could cause a slowdown up to 100x even if nothing is polyfilled. Some versions have web compatibility issues. Please, upgrade your dependencies to the actual version of core-js.</p>
 </blockquote>
 <p>根据<a target="_blank" rel="noopener" href="https://stackoverflow.com/questions/73108853/npm-warn-deprecated-core-js2-6-12/">这篇贴子</a>，强制更新至最新版本即可：</p>
 <pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">% <span class="token function">npm</span> cache clean <span class="token parameter variable">--force</span>
