@@ -86,7 +86,7 @@ readmore: false
 
 ### 获取谷歌账户的专属应用密码
 
-在浏览器中打开链接：https://myaccount.google.com/apppasswords：
+在浏览器中打开链接：https://myaccount.google.com/apppasswords ：
 
 ![apppasswords](/images/custom-email-on-gmail-by-cloudflare/apppasswords.jpg)_谷歌的中文排版为什么总是喜欢逼死强迫症？_
 
