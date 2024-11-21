@@ -66,7 +66,7 @@ readmore: false
 
 ### 链接
 
-- 【贴文】[从拼多多离职两个月后，发现家门口有陌生人多次潜入小区监控偷拍跟踪](https://maimai.cn/web/gossip_detail/33658918/)，已查无此贴，可见[备份](https://archive.ph/jahJA/)；
+- 【帖文】[从拼多多离职两个月后，发现家门口有陌生人多次潜入小区监控偷拍跟踪](https://maimai.cn/web/gossip_detail/33658918/)，已查无此贴，可见[备份](https://archive.ph/jahJA/)；
     *拼多多不知道用就业协议逼死了多少人，加上以前发生过好多次的违法加班致员工跳楼，这些都是我从来不用拼多多的原因 —— 如果低价的商品需要牺牲这么多的东西，即使白送我，也不会要。*
 - 【故事】[我一直占住在一栋被宣布为危楼的高楼里，这些是我为了保持安全所遵循的规则](https://www.douban.com/group/topic/277378040/)，**豆瓣**，原文 [于此](https://www.reddit.com/r/nosleep/comments/xyx284/ive_been_squatting_in_a_condemned_high_rise_these/)，原作者 [u/ChristianWallis](https://www.reddit.com/user/ChristianWallis/)，译者 [Jasmine](https://www.douban.com/people/parislover/)，备份与 [这里](https://archive.ph/0g6uT/) 和 [这里](https://web.archive.org/web/20240516081947/https://www.douban.com/group/topic/277378040/)；
     *这并不是传统的「规则类」恐怖故事，它就像一个永远不会再见的陌生人聊到的事，虽然有些恐怖，却充满了温情。我认为这是 Reddit NoSleep 频道少有的好故事。*
@@ -167,13 +167,13 @@ readmore: false
 
 ​	*感觉很有意思，我考虑了一会儿要不要加入，不过一想到我还要写党团的文章，已经离不开 AI 啦……*
 
-- 【贴文】[这个家伙](https://hands-lay-yfw.craft.me/PVWpPDOFXkc2RJ/)，**douglas wang**，备份 [于此](https://archive.ph/31DdA/) 和 [于此](https://web.archive.org/web/20240503143031/https://hands-lay-yfw.craft.me/PVWpPDOFXkc2RJ/)；
-    *一个阿里员工离职以后，写的一篇回顾的贴文，蛮有文采，感觉还是值得一看的。*
+- 【帖文】[这个家伙](https://hands-lay-yfw.craft.me/PVWpPDOFXkc2RJ/)，**douglas wang**，备份 [于此](https://archive.ph/31DdA/) 和 [于此](https://web.archive.org/web/20240503143031/https://hands-lay-yfw.craft.me/PVWpPDOFXkc2RJ/)；
+    *一个阿里员工离职以后，写的一篇回顾的帖文，蛮有文采，感觉还是值得一看的。*
 
-- 【贴文】[I guess it's time for an update](https://gloria.social/@rizzi/111856959119832404/)，**gloria.social**，[Silvio Rizzi](https://gloria.social/@rizzi/)，备份 [于此]()；
+- 【帖文】[I guess it's time for an update](https://gloria.social/@rizzi/111856959119832404/)，**gloria.social**，[Silvio Rizzi](https://gloria.social/@rizzi/)，备份 [于此]()；
     *我一直用着的 RSS 阅读器软件 Reeder 的作者正在开发一个新的软件，他说这并不会取代现在的软件，因为那并不只是一个 RSS Reader，它还能订阅 YouTube 这样的平台，其实现在的 Reeder 作者也加上了这功能喔（*
 
-- 【贴文】[新西兰的生活随笔](https://www.1point3acres.com/bbs/thread-1043178-1-1.html/)，**一亩三分地**，fuxian1990，备份 [于此](https://web.archive.org/web/20240731021354/https://www.1point3acres.com/bbs/thread-1043178-1-1.html/)；
+- 【帖文】[新西兰的生活随笔](https://www.1point3acres.com/bbs/thread-1043178-1-1.html/)，**一亩三分地**，fuxian1990，备份 [于此](https://web.archive.org/web/20240731021354/https://www.1point3acres.com/bbs/thread-1043178-1-1.html/)；
     *我想要知道在异国他乡应该如何生活。*
 
 - 【博客】[(BI4LBK) HP 4192A 阻抗分析仪拆解 / 维修](http://7400.me/2024/03/03/hp4192A/)，**EE Archeology 电子考古学**，BI4LBK，备份 [于此](https://web.archive.org/web/20240507162400/http://7400.me/2024/03/03/hp4192A/)；

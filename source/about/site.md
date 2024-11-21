@@ -28,6 +28,10 @@ comment: true
 
 <!-- 恢复 RSS 按钮？ -->
 
+### 2024-11-21 添加新的友链
+
+缘分带来了一位新的朋友：[**Sora**](https://skydevs.link/)~
+
 ### 2024-09-13 添加新的友链
 
 在互联网上冲浪的时候发现了一个网上邻居 [**Oskyla**](https://oskyla.com/about.html/)，通过邮件与 TA 添加友链。

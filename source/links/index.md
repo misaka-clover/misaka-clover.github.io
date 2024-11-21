@@ -160,7 +160,13 @@ links:
     color: "#EEE8AA"
     email: songtianlun@frytea.com  
 
-
+  - url: https://skydevs.link/
+    avatar: /images/avatar/Sora.jpg
+    name: Sora
+    blog: Sora
+    desc: Per aspera ad astra
+    color: "#FFB6C1"
+    email: 
 
 
   # - url: 
