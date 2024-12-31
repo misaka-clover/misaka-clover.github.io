@@ -1,0 +1,289 @@
+<!DOCTYPE html><html lang="zh-CN"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="theme-color" content="#0078E7"><meta name="author" content="叶子"><meta name="copyright" content="叶子"><meta name="generator" content="Hexo 7.2.0"><meta name="theme" content="hexo-theme-yun"><title>【QT 学习笔记01】从 Hello World 开始 | 叶子的花园</title><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@900&amp;display=swap" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://fastly.jsdelivr.net/npm/star-markdown-css@0.4.1/dist/yun/yun-markdown.min.css"><link rel="stylesheet" href="https://fastly.jsdelivr.net/npm/prism-theme-vars/base.css"><script src="https://fastly.jsdelivr.net/npm/scrollreveal/dist/scrollreveal.min.js" defer></script><script>function initScrollReveal() {
+  [".post-card",".markdown-body img"].forEach((target)=> {
+    ScrollReveal().reveal(target);
+  })
+}
+document.addEventListener("DOMContentLoaded", initScrollReveal);
+document.addEventListener("pjax:success", initScrollReveal);
+</script><link rel="icon" type="image/svg+xml" href="/yun.svg"><link rel="mask-icon" href="/yun.svg" color="#0078E7"><link rel="preload" href="/css/hexo-theme-yun.css" as="style"><link rel="prefetch" href="/js/sidebar.js" as="script"><link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin><link rel="preconnect" href="https://fastly.jsdelivr.net/npm/" crossorigin><script id="yun-config">
+    window.Yun = {}
+    window.CONFIG = {"hostname":"mskclover.com","root":"/","title":"叶子的花园","version":"1.10.11","mode":"auto","copycode":true,"page":{"isPost":true},"i18n":{"placeholder":"搜索...","empty":"找不到您查询的内容: ${query}","hits":"找到 ${hits} 条结果","hits_time":"找到 ${hits} 条结果（用时 ${time} 毫秒）"},"anonymous_image":"https://cdn.yunyoujun.cn/img/avatar/none.jpg","say":{"api":"/data/sentences.json"},"fireworks":{"colors":["102, 167, 221","62, 131, 225","33, 78, 194"]},"vendors":{"host":"https://fastly.jsdelivr.net/npm/","darken":"https://fastly.jsdelivr.net/npm/darken@1.5.0"}};
+  </script><link rel="stylesheet" href="/css/hexo-theme-yun.css"><script src="/js/hexo-theme-yun.js" type="module"></script><link rel="alternate" href="/atom.xml" title="叶子的花园" type="application/atom+xml"><script src="/" async></script><script src="/j" async></script><script src="/a" async></script><script src="/v" async></script><script src="/a" async></script><script src="/s" async></script><script src="/c" async></script><script src="/r" async></script><script src="/i" async></script><script src="/p" async></script><script src="/t" async></script><script src="/" async></script><script src="/g" async></script><script src="/o" async></script><script src="/o" async></script><script src="/g" async></script><script src="/l" async></script><script src="/e" async></script><script src="/a" async></script><script src="/d" async></script><script src="/." async></script><script src="/j" async></script><script src="/s" async></script><link rel="preconnect" href="https://www.google-analytics.com" crossorigin><script async src="https://www.googletagmanager.com/gtag/js?id=G-6VWG03H880"></script><script>if (CONFIG.hostname === location.hostname) {
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-6VWG03H880');
+}</script><script data-ad-client="pub-4618904761682457" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><meta name="description" content="又来开个新坑">
+<meta property="og:type" content="article">
+<meta property="og:title" content="【QT 学习笔记01】从 Hello World 开始">
+<meta property="og:url" content="https://mskclover.com/2022/04/26/QT-learning-note-01/index.html">
+<meta property="og:site_name" content="叶子的花园">
+<meta property="og:description" content="又来开个新坑">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://mskclover.com/images/QT-learning-note-01/iloveprogramming.jpg">
+<meta property="og:image" content="https://mskclover.com/images/QT-learning-note-01/helloworld-cmd.jpg">
+<meta property="og:image" content="https://mskclover.com/images/QT-learning-note-01/helloworld-list.jpg">
+<meta property="og:image" content="https://mskclover.com/images/QT-learning-note-01/hellorect-cmd.jpg">
+<meta property="og:image" content="https://mskclover.com/images/QT-learning-note-01/hellorect-list.jpg">
+<meta property="og:image" content="https://mskclover.com/images/QT-learning-note-01/make-cmd1.jpg">
+<meta property="og:image" content="https://mskclover.com/images/QT-learning-note-01/make-cmd2.jpg">
+<meta property="og:image" content="https://mskclover.com/images/QT-learning-note-01/make-list.jpg">
+<meta property="article:published_time" content="2022-04-26T09:25:34.000Z">
+<meta property="article:modified_time" content="2022-05-01T07:59:52.000Z">
+<meta property="article:author" content="叶子">
+<meta property="article:tag" content="博文">
+<meta property="article:tag" content="笔记">
+<meta property="article:tag" content="知识">
+<meta property="article:tag" content="QT">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://mskclover.com/images/QT-learning-note-01/iloveprogramming.jpg"><script>(function() {
+  if (CONFIG.mode !== 'auto') return
+  const prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches
+  const setting = localStorage.getItem('darken-mode') || 'auto'
+  if (setting === 'dark' || (prefersDark && setting !== 'light'))
+    document.documentElement.classList.toggle('dark', true)
+})()</script></head><body><script src="https://code.iconify.design/2/2.1.1/iconify.min.js"></script><script>// Define global variable
+IconifyProviders = {
+  // Empty prefix: overwrite default API provider configuration
+  '': {
+    // Use custom API first, use Iconify public API as backup
+    resources: [
+        'https://api.iconify.design',
+    ],
+    // Wait for 1 second before switching API hosts
+    rotate: 1000,
+  },
+};</script><script defer src="https://fastly.jsdelivr.net/npm/animejs@latest"></script><script defer src="/js/ui/fireworks.js" type="module"></script><canvas class="fireworks"></canvas><div class="container"><a class="sidebar-toggle hty-icon-button" id="menu-btn"><div class="hamburger hamburger--spin" type="button"><span class="hamburger-box"><span class="hamburger-inner"></span></span></div></a><div class="sidebar-toggle sidebar-overlay"></div><aside class="sidebar"><script src="/js/sidebar.js" type="module"></script><ul class="sidebar-nav"><li class="sidebar-nav-item sidebar-nav-toc hty-icon-button sidebar-nav-active" data-target="post-toc-wrap" title="文章目录"><span class="icon iconify" data-icon="ri:list-ordered"></span></li><li class="sidebar-nav-item sidebar-nav-overview hty-icon-button" data-target="site-overview-wrap" title="站点概览"><span class="icon iconify" data-icon="ri:passport-line"></span></li></ul><div class="sidebar-panel" id="site-overview-wrap"><div class="site-info fix-top"><a class="site-author-avatar" href="/about/" title="叶子"><img width="96" loading="lazy" src="/images/avatar/avatar.jpg" alt="叶子"><span class="site-author-status" title="今天也是美好的一天呢">🥬</span></a><div class="site-author-name"><a href="/about/">叶子</a></div><a class="site-name" href="/about/site.html">叶子的花园</a><sub class="site-subtitle">靡不有初，鲜克有终</sub><div class="site-description">@Misaka-Clover</div></div><nav class="site-state"><a class="site-state-item hty-icon-button icon-home" href="/" title="首页"><span class="site-state-item-icon"><span class="icon iconify" data-icon="ri:home-4-line"></span></span></a><div class="site-state-item"><a href="/archives/" title="归档"><span class="site-state-item-icon"><span class="icon iconify" data-icon="ri:archive-line"></span></span><span class="site-state-item-count">52</span></a></div><div class="site-state-item"><a href="/categories/" title="分类"><span class="site-state-item-icon"><span class="icon iconify" data-icon="ri:folder-2-line"></span></span><span class="site-state-item-count">10</span></a></div><div class="site-state-item"><a href="/tags/" title="标签"><span class="site-state-item-icon"><span class="icon iconify" data-icon="ri:price-tag-3-line"></span></span><span class="site-state-item-count">128</span></a></div><a class="site-state-item hty-icon-button" href="/about/#comment" title="留言板"><span class="site-state-item-icon"><span class="icon iconify" data-icon="ri:clipboard-line"></span></span></a></nav><hr style="margin-bottom:0.5rem"><div class="links-of-author"><a class="links-of-author-item hty-icon-button" rel="noopener" href="/atom.xml" title="RSS" target="_blank" style="color:orange"><span class="icon iconify" data-icon="ri:rss-line"></span></a><a class="links-of-author-item hty-icon-button" rel="noopener" href="https://github.com/misaka-clover" title="GitHub" target="_blank" style="color:#181717"><span class="icon iconify" data-icon="ri:github-line"></span></a><a class="links-of-author-item hty-icon-button" rel="noopener" href="https://twitter.com/Misaka_Clover" title="Twitter" target="_blank" style="color:#1da1f2"><span class="icon iconify" data-icon="ri:twitter-line"></span></a><a class="links-of-author-item hty-icon-button" rel="noopener" href="https://g0v.social/@Misaka_Clover" title="Mastodon" target="_blank" style="color:purple"><span class="icon iconify" data-icon="ri:mastodon-line"></span></a><a class="links-of-author-item hty-icon-button" rel="noopener" href="mailto:cover@mskclover.com" title="E-Mail" target="_blank" style="color:#8E71C1"><span class="icon iconify" data-icon="ri:mail-line"></span></a><a class="links-of-author-item hty-icon-button" rel="noopener" href="https://www.travellings.cn/go.html" title="Travelling" target="_blank" style="color:var(--hty-text-color)"><span class="icon iconify" data-icon="ri:train-line"></span></a></div><hr style="margin:0.5rem 1rem"><div class="links"><a class="links-item hty-icon-button" href="/links/" title="我的小伙伴们" style="color:dodgerblue"><span class="icon iconify" data-icon="ri:genderless-line"></span></a></div><br><a class="links-item hty-icon-button" id="toggle-mode-btn" href="javascript:;" title="Mode" style="color: #f1cb64"><span class="icon iconify" data-icon="ri:contrast-2-line"></span></a></div><div class="sidebar-panel sidebar-panel-active" id="post-toc-wrap"><div class="post-toc"><div class="post-toc-content"><ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#Hello-MinGW"><span class="toc-number">1.</span> <span class="toc-text">Hello MinGW</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%AE%80%E5%8D%95%E7%9A%84-helloworld-cpp"><span class="toc-number">1.1.</span> <span class="toc-text">简单的 helloworld.cpp</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%A8%8D%E5%BE%AE%E4%B8%8D%E7%AE%80%E5%8D%95%E7%9A%84-Hello-Rect"><span class="toc-number">1.2.</span> <span class="toc-text">稍微不简单的 Hello Rect</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%B8%BA-Hello-Rect-%E7%BC%96%E5%86%99%E7%AE%80%E5%8D%95%E7%9A%84-Makefile"><span class="toc-number">1.3.</span> <span class="toc-text">为 Hello Rect 编写简单的 Makefile</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E4%B8%BA-Windows-%E5%A2%9E%E6%B7%BB-rm-%E5%91%BD%E4%BB%A4"><span class="toc-number">1.3.1.</span> <span class="toc-text">为 Windows 增添 rm 命令</span></a></li></ol></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%BB%93%E6%9D%9F"><span class="toc-number">2.</span> <span class="toc-text">结束</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%8F%82%E8%80%83%E8%B5%84%E6%96%99"><span class="toc-number">3.</span> <span class="toc-text">参考资料</span></a></li></ol></div></div></div></aside><main class="sidebar-translate" id="content"><div id="post"><article class="hty-card post-block" itemscope itemtype="https://schema.org/Article" style="--smc-primary:#0078E7;"><link itemprop="mainEntityOfPage" href="https://mskclover.com/2022/04/26/QT-learning-note-01/"><span hidden itemprop="author" itemscope itemtype="https://schema.org/Person"><meta itemprop="name" content="叶子"><meta itemprop="description"></span><span hidden itemprop="publisher" itemscope itemtype="https://schema.org/Organization"><meta itemprop="name" content="叶子的花园"></span><header class="post-header"><h1 class="post-title" itemprop="name headline">【QT 学习笔记01】从 Hello World 开始</h1><div class="post-meta"><div class="post-time" style="display:block"><span class="post-meta-item-icon"><span class="icon iconify" data-icon="ri:calendar-line"></span></span> <span class="post-meta-icon-text">发表于</span> <time title="创建时间：2022-04-26 17:25:34" itemprop="dateCreated datePublished" datetime="2022-04-26T17:25:34+08:00">2022-04-26</time><span class="post-meta-divider">-</span><span class="post-meta-item-icon"><span class="icon iconify" data-icon="ri:calendar-2-line"></span></span> <span class="post-meta-icon-text">更新于</span> <time title="修改时间：2022-05-01 15:59:52" itemprop="dateModified" datetime="2022-05-01T15:59:52+08:00">2022-05-01</time></div><span class="post-count"><span class="post-symbolcount"><span class="post-meta-item-icon" title="本文字数"><span class="icon iconify" data-icon="ri:file-word-line"></span></span> <span title="本文字数">2.5k</span><span class="post-meta-divider">-</span><span class="post-meta-item-icon" title="阅读时长"><span class="icon iconify" data-icon="ri:timer-line"></span></span> <span title="阅读时长">10m</span></span></span><div class="post-classify"><span class="post-category"> <span class="post-meta-item-icon" style="margin-right:3px;"><span class="icon iconify" data-icon="ri:folder-line"></span></span><span itemprop="about" itemscope itemtype="https://schema.org/Thing"><a class="category-item" href="/categories/%E5%8F%B6%E5%AD%90%E7%9A%84%E5%B0%8F%E7%9F%A5%E8%AF%86/" style="--text-color:var(--hty-text-color)" itemprop="url" rel="index"><span itemprop="text">叶子的小知识</span></a></span></span><span class="post-tag"><span class="post-meta-divider">-</span><a class="tag-item" href="/tags/%E5%8D%9A%E6%96%87/" style="--text-color:var(--hty-text-color)"><span class="post-meta-item-icon"><span class="icon iconify" data-icon="ri:price-tag-3-line"></span></span><span class="tag-name">博文</span></a><a class="tag-item" href="/tags/%E7%AC%94%E8%AE%B0/" style="--text-color:var(--hty-text-color)"><span class="post-meta-item-icon"><span class="icon iconify" data-icon="ri:price-tag-3-line"></span></span><span class="tag-name">笔记</span></a><a class="tag-item" href="/tags/%E7%9F%A5%E8%AF%86/" style="--text-color:var(--hty-text-color)"><span class="post-meta-item-icon"><span class="icon iconify" data-icon="ri:price-tag-3-line"></span></span><span class="tag-name">知识</span></a><a class="tag-item" href="/tags/QT/" style="--text-color:var(--hty-text-color)"><span class="post-meta-item-icon"><span class="icon iconify" data-icon="ri:price-tag-3-line"></span></span><span class="tag-name">QT</span></a></span></div></div></header><section class="post-body" itemprop="articleBody"><div class="post-content markdown-body"><img src="/images/QT-learning-note-01/iloveprogramming.jpg" width="450" alt="iloveprogramming" / loading="lazy">
+
+<blockquote>
+<p>本节以经典的 C++ Hello World 程序介绍一下使用 MinGW （Linux 上是 GNU 工具集）环境下编译程序的过程，并示范一下简单 Makefile 的使用。</p>
+<p>——奇先生</p>
+</blockquote>
+<span id="more"></span>
+
+<p>由于导师的项目需要，并且负责项目平台界面的师兄要毕业了，所以导师安排我接手那位师兄的工作，以后继续负责开发界面。我这就找了几篇互联网上评价比较好的系列教程，争取能快速的上手，赶在师兄毕业前把工作接过来。由于知识点在不同的教程中比较散，我向来也是不相信自己记忆力的，就一边学、一边将其中的要点记录下来，作为笔记供我速查之用。如果您也想要学习 QT 的话，建议还是通过参考资料里的链接，阅读原始的教程，可以参看最后的<a href="#%E5%8F%82%E8%80%83%E8%B5%84%E6%96%99">参考资料</a>。</p>
+<p>我目前是在 <code>Windows 10</code> 上做的开发，我的 QT 版本为 <code>5.14.2</code>，有关 QT 的下载与系统环境配置，请参看 <a target="_blank" rel="noopener" href="https://qtguide.ustclug.org/ch01-03.htm">Qt 在Windows 下安装</a> 与 <a href="https://mskclover.com/404.html/">Qt 在 Linux 下安装</a>，我在此就不再班门弄斧了。</p>
+<p>众所周知，每一个初学者都会从编写 <code>helloworld</code> 开始，我也不例外，那就让我们开始吧（</p>
+<h2 id="Hello-MinGW"><a href="#Hello-MinGW" class="headerlink" title="Hello MinGW"></a>Hello MinGW</h2><h3 id="简单的-helloworld-cpp"><a href="#简单的-helloworld-cpp" class="headerlink" title="简单的 helloworld.cpp"></a>简单的 helloworld.cpp</h3><p>首先在示例路径 <code>D:\QtProjects\ch02\helloworld</code> 中新建一个 <code>helloworld.C++</code>，代码如下：</p>
+<pre class="line-numbers language-c++" data-language="c++"><code class="language-c++">&#x2F;&#x2F;helloworld.cpp
+
+#include &lt;iostream&gt;
+using namespace std;
+
+&#x2F;&#x2F;有关下列 main 的定义或可参见：
+&#x2F;&#x2F;https:&#x2F;&#x2F;www.ibm.com&#x2F;docs&#x2F;en&#x2F;i&#x2F;7.1?topic&#x3D;functions-main-function
+int main(int argc, char **argv)
+&#123;
+  cout &lt;&lt; &quot;Hello world!&quot; &lt;&lt; endl;
+  return 0;
+&#125;<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<p>接下来打开 MinGW 命令行环境，但或许是我的版本与作者不一样吧，我打开的方式为：<code>开始菜单</code>  –&gt; <code> Qt 5.14.2</code> –&gt; <code>Qt 5.14.2(MinGW 7.3.0 64-bit)</code>。（注：后文的所有“命令行”均指 MinGW 命令行环境）</p>
+<p>然后，向命令行中输入指令进入目标文件夹：</p>
+<pre class="line-numbers language-c++" data-language="c++"><code class="language-c++">&#x2F;&#x2F;注：因为我 QT 安装在 D 盘的，而相关的学习文件目前还放在桌面上的，所以得切换磁盘
+
+D:\QT\5.14.2\mingw73_64&gt;cd &#x2F;d C:\Users\***\Desktop\QT\QT_projects\ch02\helloworld
+&#x2F;&#x2F;将磁盘从 D 盘切换至 C 盘，并改变工作目录至目标文件夹<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
+
+<p>然后在工作目录下输入如下的指令：</p>
+<pre class="line-numbers language-c++" data-language="c++"><code class="language-c++">&#x2F;&#x2F;从这里开始就省略目录了
+
+&gt;g++ helloworld.cpp -o helloworld
+&#x2F;&#x2F;使用 g++ 编译 helloworld.cpp，-o 代表输出文件名为 helloworld（默认扩展名为 .exe）
+
+&gt;helloworld
+&#x2F;&#x2F;在此目录下运行生成的 exe 程序<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<p>但如果直接双击该 <code>.exe</code> 文件，会显示缺少 dll 库，无法运行。这是因为它现在还是一个 56KB 的“动态链接程序”，需要相应的 dll 程序才能运行，而在 MinGW 命令行中已经配好了环境变量 PATH，所以 MinGW 的环境里能找到该 dll 程序，而操作系统（Windows）的 PATH 环境变量中是找不到该 dll 的。解决方法有两种：将报错的 dll 库复制到这个文件夹里，或者使用如下的“静态编译命令”：</p>
+<pre class="line-numbers language-none"><code class="language-none">&gt;g++ helloworld.cpp -static -o hellostatic 
+&#x2F;&#x2F;静态编译命令 -static<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
+
+<p>在编译为“静态链接程序”后，体积一下子膨胀至 2337KB，现在可以直接双击运行了。</p>
+<p><strong>MinGW 编译程序的过程大概是，先用 g++ 编译器生成目标文件 <code>*.o</code>，然后 g++ 自动调用 ld 工具链接 <code>*.o</code> 与库文件，完成后就生成了 <code>.exe</code> 文件。</strong> </p>
+<p>g++ 在默认情况下生成的都是 Release 版的可执行程序，若希望在可执行程序里加入 Debug 调试信息以供 gdb 调试，则需要在 g++ 编译时加入 -g 选项：</p>
+<pre class="line-numbers language-c++" data-language="c++"><code class="language-c++">&gt;g++ helloworld.cpp -g -static -o hellodebug 
+&#x2F;&#x2F;debug 编译 -g<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
+
+<p><img src="/images/QT-learning-note-01/helloworld-cmd.jpg" alt="helloworld-cmd" loading="lazy"><em>命令行截图示意</em></p>
+<p><img src="/images/QT-learning-note-01/helloworld-list.jpg" alt="helloworld-list" loading="lazy"><em>文件夹截图示意</em></p>
+<h3 id="稍微不简单的-Hello-Rect"><a href="#稍微不简单的-Hello-Rect" class="headerlink" title="稍微不简单的 Hello Rect"></a>稍微不简单的 Hello Rect</h3><p>在下一个教程里，作者应该是想要我们做一个简单的多工程文件程序，现在在示例路径 <code>D:\QtProjects\ch02\helloworld</code> 中新建下列文件：</p>
+<pre class="line-numbers language-c++" data-language="c++"><code class="language-c++">&#x2F;&#x2F;rect.h
+
+class Rect
+&#123;
+    private:
+        double m_dblWidth;
+        double m_dblHeight;
+    
+    public:
+        Rect(double dblWidth, double dblHeight);
+        double GetWidth()&#123; return m_dblWidth; &#125;
+        double GetHeight()&#123; return m_dblHeight; &#125;
+
+        &#x2F;&#x2F;Functions
+        double CalcDiagonal();  &#x2F;&#x2F;计算对角线
+        double CalcArea();      &#x2F;&#x2F;计算面积
+&#125;;<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<pre class="line-numbers language-c++" data-language="c++"><code class="language-c++">&#x2F;&#x2F;rect.cpp
+
+#include &lt;cmath&gt;
+#include &quot;rect.h&quot;
+using namespace std;
+
+Rect::Rect(double dblWidth, double dblHeight)
+&#123;
+    m_dblWidth &#x3D; abs(dblWidth);
+    m_dblHeight &#x3D; abs(dblHeight);
+&#125;
+
+&#x2F;&#x2F;定义成员函数
+&#x2F;&#x2F;计算对角线
+double Rect::CalcDiagonal()
+&#123;
+    return sqrt(m_dblWidth*m_dblWidth + m_dblHeight*m_dblHeight);
+    &#x2F;&#x2F;sqrt() 开平方根
+&#125;
+
+&#x2F;&#x2F;计算面积
+double Rect::CalcArea()
+&#123;
+    return m_dblWidth * m_dblHeight;
+&#125;<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<pre class="line-numbers language-c++" data-language="c++"><code class="language-c++">&#x2F;&#x2F;hellorect.cpp
+
+#include &lt;iostream&gt;
+#include &quot;rect.h&quot;
+using namespace std;
+
+int main(int argc, char **argv)
+&#123;
+    Rect arect(3.0, 4.0);
+    cout &lt;&lt; &quot;Diagonal Length is &quot; &lt;&lt; arect.CalcDiagonal() &lt;&lt; endl;
+    cout &lt;&lt; &quot;Area is &quot; &lt;&lt; arect.CalcArea() &lt;&lt; endl;
+    return 0;
+&#125;<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<p>这段代码相当于在 <code>rect.h</code> 定义了一个简单的 <code>Rect</code> 类，在 <code>rect.cpp</code> 中定义了 <code>Rect</code> 类的两个函数，而在 <code>hellorect.cpp</code> 中写了 <code>main</code> 函数做事情：计算输入矩形的对角线长度与面积。</p>
+<p>下面在 MinGW 命令行中进入 hellorect 工作目录，先编译两个 cpp 文件 <code>rect.cpp</code> 与 <code>hellorect.cpp</code> ：</p>
+<pre class="line-numbers language-c++" data-language="c++"><code class="language-c++">&gt;g++ -c rect.cpp -o rect.o
+&gt;g++ -c hellorect.cpp -o hellorect.o
+
+&#x2F;&#x2F;使用 g++ -c 编译生成目标代码文件 *.o，却没有进行连接
+&#x2F;&#x2F;可以看到，因为在编译的时候指定了拓展名，所以不是 *.exe<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<p>下面将 <code>*.o</code> 文件与链接库一并生成为可执行程序：</p>
+<pre class="line-numbers language-c++" data-language="c++"><code class="language-c++">&gt;g++ rect.o hellorect.o -lm -static -o hellorect
+
+&#x2F;&#x2F;其中：
+    &#x2F;&#x2F;g++ 会自动调用链接器链接 *.o 文件与系统里的链接库
+    &#x2F;&#x2F;-lm 表示链接数学库
+    &#x2F;&#x2F;-static 表示生成静态链接的程序
+    &#x2F;&#x2F;-o 指定了生成的输出文件名<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<p>接着执行 <code>hellorect</code> 程序就可以获得函数输出的结果，命令行显示如下图：</p>
+<p><img src="/images/QT-learning-note-01/hellorect-cmd.jpg" alt="hellorect-cmd" loading="lazy"><em>命令行截图示意</em></p>
+<p><img src="/images/QT-learning-note-01/hellorect-list.jpg" alt="hellorect-list" loading="lazy"><em>文件夹截图示意</em></p>
+<h3 id="为-Hello-Rect-编写简单的-Makefile"><a href="#为-Hello-Rect-编写简单的-Makefile" class="headerlink" title="为 Hello Rect 编写简单的 Makefile"></a>为 Hello Rect 编写简单的 Makefile</h3><p>简单的程序每次生成的时候一句句敲 <code>g++</code> 命令图开心也没问题，但如果项目变得十分的复杂，为每个文件分别敲代码编译就很麻烦。并且 <code>.cpp</code> 每修改一次，就需要重新生成目标文件 <code>*.o</code>。</p>
+<blockquote>
+<p>因此实际开发项目时都是借助 make 工具（MinGW 的是 mingw32-make），编写好 Makefile 之后，只需要在项目文件夹执行一句  make 命令，其他生成目标文件、链接目标文件和库以及自动根据源代码改动重新生成等，这些事情全交给 make ，而程序员就不用操心构建程序的具体过程。</p>
+</blockquote>
+<p>虽然 <code>Makefile</code> 是可以自己编写的，不过现在几乎所有的 IDE 都可以根据项目文件自行生成相应的 <code>Makefile</code>，所以这也为我们省下了许多功夫。下面是作者给出的一个“生成器 <code>make</code> 工作”的简单示范，体验一下吧：</p>
+<pre class="line-numbers language-makefile" data-language="makefile"><code class="language-makefile"><span class="token comment"># Makefile for building: hellorect</span>
+
+<span class="token comment"># 定义变量</span>
+CC			<span class="token operator">=</span> gcc			<span class="token comment"># C 语言编辑器</span>
+CXX			<span class="token operator">=</span> g++			<span class="token comment"># C 语言编译器</span>
+LINKER		<span class="token operator">=</span> g++			<span class="token comment"># 链接器</span>
+LFLAGS		<span class="token operator">=</span> -lm -static	<span class="token comment"># 链接器的参数</span>
+
+OBJECTS		<span class="token operator">=</span> rect.o hellorect.o	<span class="token comment"># 编译后得到的目标文件</span>
+DSTTARGET	<span class="token operator">=</span> hellorect				<span class="token comment"># 可执行的目标程序</span>
+
+<span class="token comment"># 定义 Makefile 的生成规则</span>
+<span class="token comment"># 引用变量的方式：$(变量名)</span>
+
+<span class="token comment"># Makefile 的基本规则：</span>
+<span class="token comment"># 生成目标：依赖文件</span>
+<span class="token comment"># [tab字符] 系统命令</span>
+<span class="token comment"># 注意：tab 不能用 4 个空格代替，否则 make 时会出现没有分隔符（separator）的错误</span>
+
+<span class="token comment"># Defult rule</span>
+<span class="token target symbol">all</span><span class="token punctuation">:</span> <span class="token variable">$</span><span class="token punctuation">(</span>DSTTARGET<span class="token punctuation">)</span>
+<span class="token comment"># 默认生成规则，依赖文件 $(DSTTARGET)</span>
+<span class="token comment"># 但下一行没有命令，生成的命令得继续往下找</span>
+
+<span class="token comment"># 生成可执行文件：</span>
+<span class="token target symbol"><span class="token variable">$</span>(DSTTARGET)</span><span class="token punctuation">:</span> <span class="token variable">$</span><span class="token punctuation">(</span>OBJECTS<span class="token punctuation">)</span>
+		<span class="token variable">$</span><span class="token punctuation">(</span>LINKER<span class="token punctuation">)</span>	<span class="token variable">$</span><span class="token punctuation">(</span>LFLAGS<span class="token punctuation">)</span>	-o <span class="token variable">$@</span>	<span class="token variable">$</span><span class="token punctuation">(</span>OBJECTS<span class="token punctuation">)</span>
+<span class="token comment"># 在有目标文件时执行命令：</span>
+<span class="token comment"># 即调用链接器 $(LINKER)，根据链接器的参数 $(LFLAGS) 与依赖文件 $(OBJECTS) 生成 $@</span>
+<span class="token comment"># $@ 指第一行左边的生成目标</span>
+
+<span class="token comment"># 使用编译器生成两个目标文件 hellorect.o 与 rect.o：</span>
+<span class="token comment"># hellorect.o 和 rect.o 就是链接器需要的 $(OBJECTS)</span>
+<span class="token target symbol">hellorect.o</span><span class="token punctuation">:</span> hellorect.cpp
+		<span class="token variable">$</span><span class="token punctuation">(</span>CXX<span class="token punctuation">)</span>	-c	-o	<span class="token variable">$@</span>	<span class="token variable">$&lt;</span>
+<span class="token comment"># $&lt; 是上一行冒号右边的第一个依赖文件</span>
+
+<span class="token target symbol">rect.o</span><span class="token punctuation">:</span> rect.cpp
+		<span class="token variable">$</span><span class="token punctuation">(</span>CXX<span class="token punctuation">)</span>	-c	-o	<span class="token variable">$@</span>	<span class="token variable">$&lt;</span>
+
+
+<span class="token comment"># 清除规则 clean：</span>
+<span class="token target symbol">clean</span><span class="token punctuation">:</span>
+		rm	<span class="token variable">$</span><span class="token punctuation">(</span>OBJECTS<span class="token punctuation">)</span>	hellorect.exe
+<span class="token comment"># rm 是删除命令，使 clean 删除项目生成的 .o 与 .exe 文件</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<p>以上代码编辑好 <code>Makefile</code> 后，便可使用 <code>make</code> 工具了：</p>
+<pre class="line-numbers language-c++" data-language="c++"><code class="language-c++">&#x2F;&#x2F;在命令行的工作
+
+&gt;mingw32-make
+&#x2F;&#x2F;生成项目
+
+&gt;mingw32-make clean
+&#x2F;&#x2F;清理项目<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<h4 id="为-Windows-增添-rm-命令"><a href="#为-Windows-增添-rm-命令" class="headerlink" title="为 Windows 增添 rm 命令"></a>为 Windows 增添 <code>rm</code> 命令</h4><p>这里有个问题，<code>clean</code> 中需要用到 <code>rm</code> 命令，但 Windows 系统里可能会没有这个命令，直接输入 <code>mingw32-make clean</code> 会得到如下的结果：</p>
+<p><img src="/images/QT-learning-note-01/make-cmd1.jpg" alt="make-cmd1" loading="lazy"><em>运行 mingw32-make clean 后报错</em></p>
+<p>作者给出了一个工具，安装后就可以将 <code>rm</code> 工具加入到系统环境中了。但可能是因为作者发表那篇文章的时间太久，作者给出的方法现在已经不再适用了。我去查了下资料，发现有一个很简单的方式。</p>
+<p>首先，创建一个文本文档，输入以下两行代码：</p>
+<pre class="line-numbers language-none"><code class="language-none">@echo off
+del %*<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
+
+<p>然后将该文档重命名为 <code>rm.bat</code>，再将它移动到 <code>C:\Windows</code> 的目录下，就可以愉快地使用 <code>rm</code> 命令啦！</p>
+<p><img src="/images/QT-learning-note-01/make-cmd2.jpg" alt="make-cmd2" loading="lazy"><em>成功运行 mingw32-make clean</em></p>
+<p><img src="/images/QT-learning-note-01/make-list.jpg" alt="make-list" loading="lazy"><em>可以看到目标文件 .o 与可执行程序 .exe 被删去了</em></p>
+<h2 id="结束"><a href="#结束" class="headerlink" title="结束"></a>结束</h2><p>初入 QT 的过程就这样结束啦，在第一次接触 QT 后，我们首先接触了使用 MinGW 命令行环境编译 C++ 程序的过程，并简单了解 <code>Makefile</code> 生成器的使用。从下一节起，就会真正地开始编写 QT 的图形程序了。</p>
+<h2 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h2><p>[1] <a target="_blank" rel="noopener" href="https://qtguide.ustclug.org/">《Qt 编程指南 (QT Guide)》</a>，奇先生，年份不详（主要）；</p>
+<p>[2] <a target="_blank" rel="noopener" href="https://www.devbean.net/2012/08/qt-study-road-2-catelog/">《Qt 学习之路 2》</a>，豆子，2012 —— 2016；</p>
+</div></section><ul class="post-copyright"><li class="post-copyright-author"><strong>本文作者：</strong>叶子</li><li class="post-copyright-link"><strong>本文链接：</strong><a href="https://mskclover.com/2022/04/26/QT-learning-note-01/" title="【QT 学习笔记01】从 Hello World 开始">https://mskclover.com/2022/04/26/QT-learning-note-01/</a></li><li class="post-copyright-license"><strong>版权声明：</strong>本博客所有文章除特别声明外，均默认采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh" target="_blank" rel="noopener" title="CC BY-NC-SA 4.0 "><span class="icon iconify" data-icon="ri:creative-commons-line"></span><span class="icon iconify" data-icon="ri:creative-commons-by-line"></span><span class="icon iconify" data-icon="ri:creative-commons-nc-line"></span><span class="icon iconify" data-icon="ri:creative-commons-sa-line"></span></a> 许可协议。</li></ul></article><div class="post-nav"><div class="post-nav-item"><a class="post-nav-prev" href="/2022/05/02/project-in-May/" rel="prev" title="五月计划与简记"><span class="icon iconify" data-icon="ri:arrow-left-s-line"></span><span class="post-nav-text">五月计划与简记</span></a></div><div class="post-nav-item"><a class="post-nav-next" href="/2022/04/21/translation-of-shanghais-stunning-fall-from-grace/" rel="next" title="【译文】上海失色"><span class="post-nav-text">【译文】上海失色</span><span class="icon iconify" data-icon="ri:arrow-right-s-line"></span></a></div></div></div><div class="hty-card" id="comment"><div class="comment-tooltip text-center"><span>如果您有任何关于博客内容的相关讨论，欢迎前往 <a href="https://github.com/misaka-clover/misaka-clover.github.io/discussions" target="_blank">GitHub Discussions</a> 与我交流。</span><br></div><style>.utterances {
+  max-width: 100%;
+}</style><script src="https://giscus.app/client.js" data-repo="misaka-clover/misaka-clover.github.io" data-repo-id="MDEwOlJlcG9zaXRvcnkyODk0NzI1MzM=" data-category="Announcements" data-category-id="DIC_kwDOEUEAFc4CU_3i" data-mapping="pathname" data-reactions-enabled="1" data-emit-metadata="0" data-theme="light" crossorigin="anonymous" async></script></div></main><footer class="sidebar-translate" id="footer"><div class="copyright"><span>&copy; 2020 – 2024 </span><span class="with-love" id="animate"><span class="icon iconify" data-icon="ri:cloud-line"></span></span><span class="author"> 叶子</span></div><div class="powered"><span>由 <a href="https://hexo.io" target="_blank" rel="noopener">Hexo</a> 驱动 v7.2.0</span><span class="footer-separator">|</span><span>主题 - <a rel="noopener" href="https://github.com/YunYouJun/hexo-theme-yun" target="_blank"><span>Yun</span></a> v1.10.11</span></div><div class="live-time"><span>本花园已长草</span><span id="display_live_time"></span><span class="moe-text">（¯﹃¯）</span><script>function blog_live_time() {
+  setTimeout(blog_live_time, 1000);
+  const start = new Date('2020-08-22T19:25:00');
+  const now = new Date();
+  const timeDiff = (now.getTime() - start.getTime());
+  const msPerMinute = 60 * 1000;
+  const msPerHour = 60 * msPerMinute;
+  const msPerDay = 24 * msPerHour;
+  const passDay = Math.floor(timeDiff / msPerDay);
+  const passHour = Math.floor((timeDiff % msPerDay) / 60 / 60 / 1000);
+  const passMinute = Math.floor((timeDiff % msPerHour) / 60 / 1000);
+  const passSecond = Math.floor((timeDiff % msPerMinute) / 1000);
+  display_live_time.innerHTML = ` ${passDay} 天 ${passHour} 小时 ${passMinute} 分 ${passSecond} 秒`;
+}
+blog_live_time();
+</script></div><div class="footer-custom-text">博客版本：Version.2.2.3 |  <a href="https://icp.gov.moe" target="_blank" style="color:inherit"><img src="/images/moeicp.png" width="25" style="vertical-align:middle">萌ICP备 </a><a href="https://icp.gov.moe/?keyword=20232952" target="_blank" style="color:inherit"> 20232952 号</a> </div><div class="footer-support"><span>由好人一生平安的</span><a class="footer-support-logo" href="https://www.cloudflare.com/" target="blank" title="Cloudflare"><img height="30" src="/images/CF_logo_stacked_blktype.svg" alt="Cloudflare"></a><span>提供免费的 CDN 加速</span></div></footer></div><a class="hty-icon-button" id="back-to-top" aria-label="back-to-top" href="#"><span class="icon iconify" data-icon="ri:arrow-up-s-line"></span><svg class="progress-circle-container" viewBox="0 0 100 100"><circle class="progress-circle" id="progressCircle" cx="50" cy="50" r="48" fill="none" stroke="#0078E7" stroke-width="2" stroke-linecap="round"></circle></svg></a><a class="popup-trigger hty-icon-button icon-search" id="search" target="_blank" rel="noopener" href="https://www.google.com/search?q=site:mskclover.com" title="搜索"><span class="site-state-item-icon"><span class="icon iconify" data-icon="ri:search-line"></span></span></a><script>function initMourn() {
+  const date = new Date();
+  const today = (date.getMonth() + 1) + "-" + date.getDate()
+  const mourn_days = ["4-4","9-18","6-4"]
+  if (mourn_days.includes(today)) {
+    document.documentElement.style.filter = "grayscale(1)";
+  }
+}
+initMourn();</script><script src="https://fastly.jsdelivr.net/npm/medium-zoom@1.0.6/dist/medium-zoom.min.js"></script><script>const images = [...document.querySelectorAll('.markdown-body img')]
+mediumZoom(images)</script><style>.medium-zoom-image {
+  z-index: 99;
+}</style></body></html>

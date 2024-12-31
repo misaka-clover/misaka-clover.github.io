@@ -1,0 +1,190 @@
+<!DOCTYPE html><html lang="zh-CN"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="theme-color" content="#0078E7"><meta name="author" content="叶子"><meta name="copyright" content="叶子"><meta name="generator" content="Hexo 7.2.0"><meta name="theme" content="hexo-theme-yun"><title>两个矩形信号做卷积——不经意的小问题 | 叶子的花园</title><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@900&amp;display=swap" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://fastly.jsdelivr.net/npm/star-markdown-css@0.4.1/dist/yun/yun-markdown.min.css"><link rel="stylesheet" href="https://fastly.jsdelivr.net/npm/prism-theme-vars/base.css"><script src="https://fastly.jsdelivr.net/npm/scrollreveal/dist/scrollreveal.min.js" defer></script><script>function initScrollReveal() {
+  [".post-card",".markdown-body img"].forEach((target)=> {
+    ScrollReveal().reveal(target);
+  })
+}
+document.addEventListener("DOMContentLoaded", initScrollReveal);
+document.addEventListener("pjax:success", initScrollReveal);
+</script><link rel="stylesheet" type="text/css" href="https://fastly.jsdelivr.net/npm/katex@latest/dist/katex.min.css"><script defer src="https://fastly.jsdelivr.net/npm/katex@latest/dist/katex.min.js"></script><link rel="stylesheet" type="text/css" href="https://fastly.jsdelivr.net/npm/katex@latest/dist/contrib/copy-tex.min.css"><script defer src="https://fastly.jsdelivr.net/npm/katex@latest/dist/contrib/copy-tex.min.js"></script><script defer src="https://fastly.jsdelivr.net/npm/katex@latest/dist/contrib/auto-render.min.js"></script><script type="module">import { renderKatex } from '/js/utils.js'
+document.addEventListener("DOMContentLoaded", () => {
+  renderKatex({
+    ...{},
+    ...true?.options,
+  });
+});</script><link rel="icon" type="image/svg+xml" href="/yun.svg"><link rel="mask-icon" href="/yun.svg" color="#0078E7"><link rel="preload" href="/css/hexo-theme-yun.css" as="style"><link rel="prefetch" href="/js/sidebar.js" as="script"><link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin><link rel="preconnect" href="https://fastly.jsdelivr.net/npm/" crossorigin><script id="yun-config">
+    window.Yun = {}
+    window.CONFIG = {"hostname":"mskclover.com","root":"/","title":"叶子的花园","version":"1.10.11","mode":"auto","copycode":true,"page":{"isPost":true},"i18n":{"placeholder":"搜索...","empty":"找不到您查询的内容: ${query}","hits":"找到 ${hits} 条结果","hits_time":"找到 ${hits} 条结果（用时 ${time} 毫秒）"},"anonymous_image":"https://cdn.yunyoujun.cn/img/avatar/none.jpg","say":{"api":"/data/sentences.json"},"fireworks":{"colors":["102, 167, 221","62, 131, 225","33, 78, 194"]},"vendors":{"host":"https://fastly.jsdelivr.net/npm/","darken":"https://fastly.jsdelivr.net/npm/darken@1.5.0"}};
+  </script><link rel="stylesheet" href="/css/hexo-theme-yun.css"><script src="/js/hexo-theme-yun.js" type="module"></script><link rel="alternate" href="/atom.xml" title="叶子的花园" type="application/atom+xml"><script src="/" async></script><script src="/j" async></script><script src="/a" async></script><script src="/v" async></script><script src="/a" async></script><script src="/s" async></script><script src="/c" async></script><script src="/r" async></script><script src="/i" async></script><script src="/p" async></script><script src="/t" async></script><script src="/" async></script><script src="/g" async></script><script src="/o" async></script><script src="/o" async></script><script src="/g" async></script><script src="/l" async></script><script src="/e" async></script><script src="/a" async></script><script src="/d" async></script><script src="/." async></script><script src="/j" async></script><script src="/s" async></script><link rel="preconnect" href="https://www.google-analytics.com" crossorigin><script async src="https://www.googletagmanager.com/gtag/js?id=G-6VWG03H880"></script><script>if (CONFIG.hostname === location.hostname) {
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-6VWG03H880');
+}</script><script data-ad-client="pub-4618904761682457" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><meta name="description" content="啊哈，没想到吧我这也能水一水">
+<meta property="og:type" content="article">
+<meta property="og:title" content="两个矩形信号做卷积——不经意的小问题">
+<meta property="og:url" content="https://mskclover.com/2021/05/06/convolution-of-two-rectangular/index.html">
+<meta property="og:site_name" content="叶子的花园">
+<meta property="og:description" content="啊哈，没想到吧我这也能水一水">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://mskclover.com/images/convolution-of-two-rectangular/dinosaur.JPG">
+<meta property="og:image" content="https://mskclover.com/images/convolution-of-two-rectangular/rectangular-pulse.jpg">
+<meta property="og:image" content="https://mskclover.com/images/convolution-of-two-rectangular/triangular-pulse.jpg">
+<meta property="og:image" content="https://mskclover.com/images/convolution-of-two-rectangular/handpaint.jpg">
+<meta property="article:published_time" content="2021-05-06T13:43:35.000Z">
+<meta property="article:modified_time" content="2023-03-20T05:01:44.000Z">
+<meta property="article:author" content="叶子">
+<meta property="article:tag" content="博文">
+<meta property="article:tag" content="叶子填的坑">
+<meta property="article:tag" content="知识">
+<meta property="article:tag" content="学业">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://mskclover.com/images/convolution-of-two-rectangular/dinosaur.JPG"><script>(function() {
+  if (CONFIG.mode !== 'auto') return
+  const prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches
+  const setting = localStorage.getItem('darken-mode') || 'auto'
+  if (setting === 'dark' || (prefersDark && setting !== 'light'))
+    document.documentElement.classList.toggle('dark', true)
+})()</script></head><body><script src="https://code.iconify.design/2/2.1.1/iconify.min.js"></script><script>// Define global variable
+IconifyProviders = {
+  // Empty prefix: overwrite default API provider configuration
+  '': {
+    // Use custom API first, use Iconify public API as backup
+    resources: [
+        'https://api.iconify.design',
+    ],
+    // Wait for 1 second before switching API hosts
+    rotate: 1000,
+  },
+};</script><script defer src="https://fastly.jsdelivr.net/npm/animejs@latest"></script><script defer src="/js/ui/fireworks.js" type="module"></script><canvas class="fireworks"></canvas><div class="container"><a class="sidebar-toggle hty-icon-button" id="menu-btn"><div class="hamburger hamburger--spin" type="button"><span class="hamburger-box"><span class="hamburger-inner"></span></span></div></a><div class="sidebar-toggle sidebar-overlay"></div><aside class="sidebar"><script src="/js/sidebar.js" type="module"></script><ul class="sidebar-nav"><li class="sidebar-nav-item sidebar-nav-toc hty-icon-button sidebar-nav-active" data-target="post-toc-wrap" title="文章目录"><span class="icon iconify" data-icon="ri:list-ordered"></span></li><li class="sidebar-nav-item sidebar-nav-overview hty-icon-button" data-target="site-overview-wrap" title="站点概览"><span class="icon iconify" data-icon="ri:passport-line"></span></li></ul><div class="sidebar-panel" id="site-overview-wrap"><div class="site-info fix-top"><a class="site-author-avatar" href="/about/" title="叶子"><img width="96" loading="lazy" src="/images/avatar/avatar.jpg" alt="叶子"><span class="site-author-status" title="今天也是美好的一天呢">🥬</span></a><div class="site-author-name"><a href="/about/">叶子</a></div><a class="site-name" href="/about/site.html">叶子的花园</a><sub class="site-subtitle">靡不有初，鲜克有终</sub><div class="site-description">@Misaka-Clover</div></div><nav class="site-state"><a class="site-state-item hty-icon-button icon-home" href="/" title="首页"><span class="site-state-item-icon"><span class="icon iconify" data-icon="ri:home-4-line"></span></span></a><div class="site-state-item"><a href="/archives/" title="归档"><span class="site-state-item-icon"><span class="icon iconify" data-icon="ri:archive-line"></span></span><span class="site-state-item-count">52</span></a></div><div class="site-state-item"><a href="/categories/" title="分类"><span class="site-state-item-icon"><span class="icon iconify" data-icon="ri:folder-2-line"></span></span><span class="site-state-item-count">10</span></a></div><div class="site-state-item"><a href="/tags/" title="标签"><span class="site-state-item-icon"><span class="icon iconify" data-icon="ri:price-tag-3-line"></span></span><span class="site-state-item-count">128</span></a></div><a class="site-state-item hty-icon-button" href="/about/#comment" title="留言板"><span class="site-state-item-icon"><span class="icon iconify" data-icon="ri:clipboard-line"></span></span></a></nav><hr style="margin-bottom:0.5rem"><div class="links-of-author"><a class="links-of-author-item hty-icon-button" rel="noopener" href="/atom.xml" title="RSS" target="_blank" style="color:orange"><span class="icon iconify" data-icon="ri:rss-line"></span></a><a class="links-of-author-item hty-icon-button" rel="noopener" href="https://github.com/misaka-clover" title="GitHub" target="_blank" style="color:#181717"><span class="icon iconify" data-icon="ri:github-line"></span></a><a class="links-of-author-item hty-icon-button" rel="noopener" href="https://twitter.com/Misaka_Clover" title="Twitter" target="_blank" style="color:#1da1f2"><span class="icon iconify" data-icon="ri:twitter-line"></span></a><a class="links-of-author-item hty-icon-button" rel="noopener" href="https://g0v.social/@Misaka_Clover" title="Mastodon" target="_blank" style="color:purple"><span class="icon iconify" data-icon="ri:mastodon-line"></span></a><a class="links-of-author-item hty-icon-button" rel="noopener" href="mailto:cover@mskclover.com" title="E-Mail" target="_blank" style="color:#8E71C1"><span class="icon iconify" data-icon="ri:mail-line"></span></a><a class="links-of-author-item hty-icon-button" rel="noopener" href="https://www.travellings.cn/go.html" title="Travelling" target="_blank" style="color:var(--hty-text-color)"><span class="icon iconify" data-icon="ri:train-line"></span></a></div><hr style="margin:0.5rem 1rem"><div class="links"><a class="links-item hty-icon-button" href="/links/" title="我的小伙伴们" style="color:dodgerblue"><span class="icon iconify" data-icon="ri:genderless-line"></span></a></div><br><a class="links-item hty-icon-button" id="toggle-mode-btn" href="javascript:;" title="Mode" style="color: #f1cb64"><span class="icon iconify" data-icon="ri:contrast-2-line"></span></a></div><div class="sidebar-panel sidebar-panel-active" id="post-toc-wrap"><div class="post-toc"><div class="post-toc-content"><ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%83%8C%E6%99%AF"><span class="toc-number">1.</span> <span class="toc-text">背景</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E9%97%AE%E9%A2%98"><span class="toc-number">2.</span> <span class="toc-text">问题</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%80%9D%E8%B7%AF"><span class="toc-number">3.</span> <span class="toc-text">思路</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%BA%A0%E9%94%99"><span class="toc-number">4.</span> <span class="toc-text">纠错</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E9%99%84%E5%BD%95"><span class="toc-number">5.</span> <span class="toc-text">附录</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%8F%82%E8%80%83"><span class="toc-number">6.</span> <span class="toc-text">参考</span></a></li></ol></div></div></div></aside><main class="sidebar-translate" id="content"><div id="post"><article class="hty-card post-block" itemscope itemtype="https://schema.org/Article" style="--smc-primary:#0078E7;"><link itemprop="mainEntityOfPage" href="https://mskclover.com/2021/05/06/convolution-of-two-rectangular/"><span hidden itemprop="author" itemscope itemtype="https://schema.org/Person"><meta itemprop="name" content="叶子"><meta itemprop="description"></span><span hidden itemprop="publisher" itemscope itemtype="https://schema.org/Organization"><meta itemprop="name" content="叶子的花园"></span><header class="post-header"><h1 class="post-title" itemprop="name headline">两个矩形信号做卷积——不经意的小问题</h1><div class="post-meta"><div class="post-time" style="display:block"><span class="post-meta-item-icon"><span class="icon iconify" data-icon="ri:calendar-line"></span></span> <span class="post-meta-icon-text">发表于</span> <time title="创建时间：2021-05-06 21:43:35" itemprop="dateCreated datePublished" datetime="2021-05-06T21:43:35+08:00">2021-05-06</time><span class="post-meta-divider">-</span><span class="post-meta-item-icon"><span class="icon iconify" data-icon="ri:calendar-2-line"></span></span> <span class="post-meta-icon-text">更新于</span> <time title="修改时间：2023-03-20 13:01:44" itemprop="dateModified" datetime="2023-03-20T13:01:44+08:00">2023-03-20</time></div><span class="post-count"><span class="post-symbolcount"><span class="post-meta-item-icon" title="本文字数"><span class="icon iconify" data-icon="ri:file-word-line"></span></span> <span title="本文字数">1.6k</span><span class="post-meta-divider">-</span><span class="post-meta-item-icon" title="阅读时长"><span class="icon iconify" data-icon="ri:timer-line"></span></span> <span title="阅读时长">6m</span></span></span><div class="post-classify"><span class="post-category"> <span class="post-meta-item-icon" style="margin-right:3px;"><span class="icon iconify" data-icon="ri:folder-line"></span></span><span itemprop="about" itemscope itemtype="https://schema.org/Thing"><a class="category-item" href="/categories/%E5%8F%B6%E5%AD%90%E7%9A%84%E5%B0%8F%E7%9F%A5%E8%AF%86/" style="--text-color:var(--hty-text-color)" itemprop="url" rel="index"><span itemprop="text">叶子的小知识</span></a></span></span><span class="post-tag"><span class="post-meta-divider">-</span><a class="tag-item" href="/tags/%E5%8D%9A%E6%96%87/" style="--text-color:var(--hty-text-color)"><span class="post-meta-item-icon"><span class="icon iconify" data-icon="ri:price-tag-3-line"></span></span><span class="tag-name">博文</span></a><a class="tag-item" href="/tags/%E5%8F%B6%E5%AD%90%E5%A1%AB%E7%9A%84%E5%9D%91/" style="--text-color:var(--hty-text-color)"><span class="post-meta-item-icon"><span class="icon iconify" data-icon="ri:price-tag-3-line"></span></span><span class="tag-name">叶子填的坑</span></a><a class="tag-item" href="/tags/%E7%9F%A5%E8%AF%86/" style="--text-color:var(--hty-text-color)"><span class="post-meta-item-icon"><span class="icon iconify" data-icon="ri:price-tag-3-line"></span></span><span class="tag-name">知识</span></a><a class="tag-item" href="/tags/%E5%AD%A6%E4%B8%9A/" style="--text-color:var(--hty-text-color)"><span class="post-meta-item-icon"><span class="icon iconify" data-icon="ri:price-tag-3-line"></span></span><span class="tag-name">学业</span></a></span></div></div></header><section class="post-body" itemprop="articleBody"><div class="post-content markdown-body"><p><img src="/images/convolution-of-two-rectangular/dinosaur.JPG" alt="dinosaur" loading="lazy"></p>
+<blockquote>
+<p>两个相同的矩形信号做卷积 &#x2F; Convolution of two identical rectangular signals</p>
+</blockquote>
+<span id="more"></span>
+
+<h2 id="背景"><a href="#背景" class="headerlink" title="背景"></a>背景</h2><p>晚上做信号与系统习题的时候，遇到了一个卷积计算的问题，发现在我对它的理解出现了一点奇妙的偏差，通过网络费了好些功夫才梳理通。理解以后，就想写一篇博文记录下这一问题，希望能给大家一点帮助，<del>顺便防止我以后又忘记了</del>。</p>
+<h2 id="问题"><a href="#问题" class="headerlink" title="问题"></a>问题</h2><p>题目要求的计算过程中，有计算如下两个相同矩形脉冲信号的卷积：</p>
+<p><img src="/images/convolution-of-two-rectangular/rectangular-pulse.jpg" alt="rectangular-signals" loading="lazy"><em>图一，取自参考链接[1]</em></p>
+<p>虽然我知道它的结果，是一个如下图所示的三角形脉冲信号——课上与书上都是这么说的：</p>
+<p><img src="/images/convolution-of-two-rectangular/triangular-pulse.jpg" alt="triangular-pulse" loading="lazy"><em>图二，同样取自参考链接[1]</em></p>
+<p>可是由于没有给过程，所以我想不到正确的计算方式是什么，也就无从改错。</p>
+<h2 id="思路"><a href="#思路" class="headerlink" title="思路"></a>思路</h2><p>由上述可知，有两个相同的矩形脉冲信号可表示为：</p>
+<div>
+$$
+\tag{1.1}
+f(x) = \begin{cases}
+   A, &\text{if } ~ {-T_0 \lt t \lt T_0} \\
+   0, &\text{if } ~ {|t| ~ \gt T_0}
+\end{cases}
+~ = ~ g(t)
+$$
+</div>
+
+<p>而当信号相互卷积时，连续时间下，由卷积积分的公式：</p>
+<div>
+$$
+\tag{1.2}
+y(t) = \int_{-\infty}^{+\infty}{x(\tau)}{h(t-\tau)}{\rm d}{\tau} ~ = ~ x(t){\ast}h(t)
+$$
+</div>
+
+<p>两者相卷积时，在图解时可将相应沿$y$轴翻转，然后左移一定的距离直到两个信号不再重叠，再逐渐右移，重叠后逐点计算卷积值。（详细的计算过程默认读者已经了解，如不了解可参见奥本海姆的《信号与系统》第二章）</p>
+<p>而在此处，由于两个信号相同，所以其卷积可写为$y(t) &#x3D; x(t){\ast}x(t)$，任选其一作信号的响应$x_2(t)$，故其沿$y$轴反转后保持不变，在左移没有重复区域后再次右移的过程中，与信号$x_1(t)$最早相接触的地方应该是$t &#x3D; -T_0$的时候，而正确的结果应该是$t &#x3D; -2T_0$。</p>
+<p>Obviously，肯定有地方出了问题。</p>
+<h2 id="纠错"><a href="#纠错" class="headerlink" title="纠错"></a>纠错</h2><p>回顾之前做的例题中，其响应一般都是从零点开始的，从来没有从$t \lt 0$的情况；且当两个矩形脉冲信号都是从$t &#x3D; 0$开始时，我可以计算得到正确的输出，为一个从$t &#x3D; 0$到$t &#x3D; 4T_0$类似图二的三角形，所以肯定是因为我对响应处理不当而产生的错误。</p>
+<p>为此，我翻书想看看有没有相似的例题，无果，随后上万能的Google试试能不能搜到相似情况的解析。中文搜索出来全都是CSDN或者博客园的雷同文章，一点帮助都没有……换了英文关键词后，找到了后面参考栏里的两个网页，看后我知道是哪里出错了：</p>
+<p>首先由题意，作出方程：</p>
+<div>
+$$
+\tag{2.1}
+y(t) = \int_{-\infty}^{+\infty}{x_1(\tau)}{x_2(t-\tau)}{\rm d}{\tau}
+$$
+</div>
+
+<p>由图解法可作出下图：</p>
+<img src="/images/convolution-of-two-rectangular/handpaint.jpg" alt="handpaint"  / loading="lazy">
+
+<p><strong>注意：</strong>响应$x_2(t)$与输入信号$x_1(t)$相乘积分的结果在$t &#x3D; t$的时候，而不是$t &#x3D; t + 1$处，这是关键的一步。之前我的错误就是将其积分之和误放在了$t &#x3D; t + 1$的地方，导致输出信号开始于$t + 1$而不是$t$。</p>
+<p>之后便一帆风顺了。究其<strong>错误原因</strong>：我之所以会那样计算，首先是<strong>先入为主</strong>，认为之前都是从响应重叠的地方开始，想必这次也应该是这样；其次是对<strong>概念的理解</strong>较为薄弱：$h(t - \tau)$代表了在$t &#x3D; \tau$处一个时移后的脉冲信号$\delta(0)$的响应，因此$x_2(t-\tau)$也应该代表在$t &#x3D; \tau$处一个时移后的脉冲信号$\delta(0)$的响应，其响应在$t$处，而非最右端$t+1$处。</p>
+<p>图像得到了，至于解析式的结果，我也一并附在这里吧：</p>
+<div>
+$$
+\begin{split}
+x_1(t)*x_2(t) &= {\int_{-\infty}^{+\infty}{x_1(\tau)}{x_2(t-\tau)}{\rm d}{\tau}} \\
+  &=\begin{cases} 
+      {\int_{-T_0}^{t+T_0}1{\cdot}1{\rm d}{\tau}}, &\text{if } ~ {-2T_0 \lt t \lt 0} \\
+      {\int_{t-T_0}^{T_0}1{\cdot}1{\rm d}{\tau}}, &\text{if } ~ {0 \lt t \lt 2T_0}
+      \end{cases} \\
+  &=\begin{cases}
+          {t+2T_0}, &\text{if } ~ {-2T_0 \lt t \lt 0} \\
+          {2T_0-t}, &\text{if } ~ {0 \lt t \lt 2T_0} \\
+          {0}, , &\text{if } ~ {|t| \gt 2T_0}
+      \end{cases}
+\end{split}\tag{2.2}
+$$
+</div>
+
+<p>大概就是这样了，如果感觉理解起来有些困难的话，推荐大家看看第二个链接中的YouTube<a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=35gc3GE4Ddo&t=277s">视频</a>，情况不完全相同，不过Adam小哥讲得超棒的！</p>
+<h2 id="附录"><a href="#附录" class="headerlink" title="附录"></a>附录</h2><p>这是我第一次在博文里嵌套公式，这里附上上文所出现公式的代码。这太难打了，要不是为了好看我就手写了……顺手附在这里，以后我有需要（忘记了）翻回来看也方便。</p>
+<pre class="line-numbers language-KaTeX" data-language="KaTeX"><code class="language-KaTeX"># 式1.1
+\tag&#123;1.1&#125;
+f(x) &#x3D; \begin&#123;cases&#125;
+   A, &amp;\text&#123;if &#125; ~ &#123;-T_0 \lt t \lt T_0&#125; \\
+   0, &amp;\text&#123;if &#125; ~ &#123;|t| ~ \gt T_0&#125;
+\end&#123;cases&#125;
+~ &#x3D; ~ g(t)<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<pre class="line-numbers language-KaTeX" data-language="KaTeX"><code class="language-KaTeX"># 式1.2
+\tag&#123;1.2&#125;
+y(t) &#x3D; \int_&#123;-\infty&#125;^&#123;+\infty&#125;&#123;x(\tau)&#125;&#123;h(t-\tau)&#125;&#123;\rm d&#125;&#123;\tau&#125; ~ &#x3D; ~ x(t)&#123;\ast&#125;h(t)<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
+
+<pre class="line-numbers language-KaTeX" data-language="KaTeX"><code class="language-KaTeX"># 式2.1
+\tag&#123;2.1&#125;
+y(t) &#x3D; \int_&#123;-\infty&#125;^&#123;+\infty&#125;&#123;x_1(\tau)&#125;&#123;x_2(t-\tau)&#125;&#123;\rm d&#125;&#123;\tau&#125;<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
+
+<pre class="line-numbers language-KaTeX" data-language="KaTeX"><code class="language-KaTeX"># 式2.2
+\begin&#123;split&#125;
+x_1(t)*x_2(t) &amp;&#x3D; &#123;\int_&#123;-\infty&#125;^&#123;+\infty&#125;&#123;x_1(\tau)&#125;&#123;x_2(t-\tau)&#125;&#123;\rm d&#125;&#123;\tau&#125;&#125; \\
+  &amp;&#x3D;\begin&#123;cases&#125; 
+  	&#123;\int_&#123;-T_0&#125;^&#123;t+T_0&#125;1&#123;\cdot&#125;1&#123;\rm d&#125;&#123;\tau&#125;&#125;, &amp;\text&#123;if &#125; ~ &#123;-2T_0 \lt t \lt 0&#125; \\
+  	&#123;\int_&#123;t-T_0&#125;^&#123;T_0&#125;1&#123;\cdot&#125;1&#123;\rm d&#125;&#123;\tau&#125;&#125;, &amp;\text&#123;if &#125; ~ &#123;0 \lt t \lt 2T_0&#125;
+  	\end&#123;cases&#125; \\
+  &amp;&#x3D;\begin&#123;cases&#125;
+  		&#123;t+2T_0&#125;, &amp;\text&#123;if &#125; ~ &#123;-2T_0 \lt t \lt 0&#125; \\
+  		&#123;2T_0-t&#125;, &amp;\text&#123;if &#125; ~ &#123;0 \lt t \lt 2T_0&#125; \\
+  		&#123;0&#125;, , &amp;\text&#123;if &#125; ~ &#123;|t| \gt 2T_0&#125;
+  	\end&#123;cases&#125;
+\end&#123;split&#125;\tag&#123;2.2&#125;<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<h2 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h2><p>[1] <a target="_blank" rel="noopener" href="http://s-mat-pcs.oulu.fi/~ssa/ESignals/em2_22-1.htm"><strong>Example 2.2.2: Convolution of two rectangular pulses</strong></a></p>
+<p>[2] <a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=35gc3GE4Ddo&t=259s"><strong>Convolution Integral Example 03 - Convolution of Two Triangles</strong></a></p>
+<p>[3] <a target="_blank" rel="noopener" href="https://katex.org/docs/supported.html">Supported Functions - KaTeX</a></p>
+<p>[4] <a target="_blank" rel="noopener" href="https://yun.yunyoujun.cn/guide/additional-package-support.html#%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F">额外依赖库的支持 - 数学公式</a></p>
+</div></section><ul class="post-copyright"><li class="post-copyright-author"><strong>本文作者：</strong>叶子</li><li class="post-copyright-link"><strong>本文链接：</strong><a href="https://mskclover.com/2021/05/06/convolution-of-two-rectangular/" title="两个矩形信号做卷积——不经意的小问题">https://mskclover.com/2021/05/06/convolution-of-two-rectangular/</a></li><li class="post-copyright-license"><strong>版权声明：</strong>本博客所有文章除特别声明外，均默认采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh" target="_blank" rel="noopener" title="CC BY-NC-SA 4.0 "><span class="icon iconify" data-icon="ri:creative-commons-line"></span><span class="icon iconify" data-icon="ri:creative-commons-by-line"></span><span class="icon iconify" data-icon="ri:creative-commons-nc-line"></span><span class="icon iconify" data-icon="ri:creative-commons-sa-line"></span></a> 许可协议。</li></ul></article><div class="post-nav"><div class="post-nav-item"><a class="post-nav-prev" href="/2021/05/11/choices-made-by-others/" rel="prev" title="别人为自己做的选择"><span class="icon iconify" data-icon="ri:arrow-left-s-line"></span><span class="post-nav-text">别人为自己做的选择</span></a></div><div class="post-nav-item"><a class="post-nav-next" href="/2021/05/01/electronic-scale-design/" rel="next" title="电子秤电路"><span class="post-nav-text">电子秤电路</span><span class="icon iconify" data-icon="ri:arrow-right-s-line"></span></a></div></div></div><div class="hty-card" id="comment"><div class="comment-tooltip text-center"><span>如果您有任何关于博客内容的相关讨论，欢迎前往 <a href="https://github.com/misaka-clover/misaka-clover.github.io/discussions" target="_blank">GitHub Discussions</a> 与我交流。</span><br></div><style>.utterances {
+  max-width: 100%;
+}</style><script src="https://giscus.app/client.js" data-repo="misaka-clover/misaka-clover.github.io" data-repo-id="MDEwOlJlcG9zaXRvcnkyODk0NzI1MzM=" data-category="Announcements" data-category-id="DIC_kwDOEUEAFc4CU_3i" data-mapping="pathname" data-reactions-enabled="1" data-emit-metadata="0" data-theme="light" crossorigin="anonymous" async></script></div></main><footer class="sidebar-translate" id="footer"><div class="copyright"><span>&copy; 2020 – 2024 </span><span class="with-love" id="animate"><span class="icon iconify" data-icon="ri:cloud-line"></span></span><span class="author"> 叶子</span></div><div class="powered"><span>由 <a href="https://hexo.io" target="_blank" rel="noopener">Hexo</a> 驱动 v7.2.0</span><span class="footer-separator">|</span><span>主题 - <a rel="noopener" href="https://github.com/YunYouJun/hexo-theme-yun" target="_blank"><span>Yun</span></a> v1.10.11</span></div><div class="live-time"><span>本花园已长草</span><span id="display_live_time"></span><span class="moe-text">（¯﹃¯）</span><script>function blog_live_time() {
+  setTimeout(blog_live_time, 1000);
+  const start = new Date('2020-08-22T19:25:00');
+  const now = new Date();
+  const timeDiff = (now.getTime() - start.getTime());
+  const msPerMinute = 60 * 1000;
+  const msPerHour = 60 * msPerMinute;
+  const msPerDay = 24 * msPerHour;
+  const passDay = Math.floor(timeDiff / msPerDay);
+  const passHour = Math.floor((timeDiff % msPerDay) / 60 / 60 / 1000);
+  const passMinute = Math.floor((timeDiff % msPerHour) / 60 / 1000);
+  const passSecond = Math.floor((timeDiff % msPerMinute) / 1000);
+  display_live_time.innerHTML = ` ${passDay} 天 ${passHour} 小时 ${passMinute} 分 ${passSecond} 秒`;
+}
+blog_live_time();
+</script></div><div class="footer-custom-text">博客版本：Version.2.2.3 |  <a href="https://icp.gov.moe" target="_blank" style="color:inherit"><img src="/images/moeicp.png" width="25" style="vertical-align:middle">萌ICP备 </a><a href="https://icp.gov.moe/?keyword=20232952" target="_blank" style="color:inherit"> 20232952 号</a> </div><div class="footer-support"><span>由好人一生平安的</span><a class="footer-support-logo" href="https://www.cloudflare.com/" target="blank" title="Cloudflare"><img height="30" src="/images/CF_logo_stacked_blktype.svg" alt="Cloudflare"></a><span>提供免费的 CDN 加速</span></div></footer></div><a class="hty-icon-button" id="back-to-top" aria-label="back-to-top" href="#"><span class="icon iconify" data-icon="ri:arrow-up-s-line"></span><svg class="progress-circle-container" viewBox="0 0 100 100"><circle class="progress-circle" id="progressCircle" cx="50" cy="50" r="48" fill="none" stroke="#0078E7" stroke-width="2" stroke-linecap="round"></circle></svg></a><a class="popup-trigger hty-icon-button icon-search" id="search" target="_blank" rel="noopener" href="https://www.google.com/search?q=site:mskclover.com" title="搜索"><span class="site-state-item-icon"><span class="icon iconify" data-icon="ri:search-line"></span></span></a><script>function initMourn() {
+  const date = new Date();
+  const today = (date.getMonth() + 1) + "-" + date.getDate()
+  const mourn_days = ["4-4","9-18","6-4"]
+  if (mourn_days.includes(today)) {
+    document.documentElement.style.filter = "grayscale(1)";
+  }
+}
+initMourn();</script><script src="https://fastly.jsdelivr.net/npm/medium-zoom@1.0.6/dist/medium-zoom.min.js"></script><script>const images = [...document.querySelectorAll('.markdown-body img')]
+mediumZoom(images)</script><style>.medium-zoom-image {
+  z-index: 99;
+}</style></body></html>
