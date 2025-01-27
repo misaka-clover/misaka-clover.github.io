@@ -8,7 +8,7 @@ description: 叶子的小伙伴们
 comment: true
 links: 
 
-  - url: https://misaka-clover.github.io/
+  - url: https://mskclover.com/
     avatar: /images/avatar/avatar.jpg
     name: 叶子
     blog: 叶子的花园
@@ -168,6 +168,13 @@ links:
     color: "#FFB6C1"
     email: 
 
+  - url: https://www.skyone.host
+    avatar: /images/avatar/skyone.png
+    name: Skyone
+    blog: Skyone Blog
+    desc: 啥都会一点，也啥都不会
+    color: "#6495ED"
+    email: master@skyone.dev
 
   # - url: 
   #   avatar: /images/avatar/avatar.jpg
