@@ -24,6 +24,19 @@ comment: true
 ## 春夏秋冬
 
 <details open>
+<summary>2025 年</summary>
+
+### 2025-01-30 优化主题评论区
+
+将评论区插件 [giscus](https://giscus.app/) 的主题明暗优化为随博客一起变化。
+
+### 2025-01-27 添加新的友链
+
+与网友 [**Skyone**](https://www.skyone.host/) 交换了友链！
+
+</details>
+
+<details close>
 <summary>2024 年</summary>
 
 <!-- 恢复 RSS 按钮？ -->

@@ -329,7 +329,7 @@ footer:
   # 自定义文本
   # Any custom text can be defined here.
   # custom_text: Hosted by <a href="https://pages.coding.me" rel="noopener" target="_blank">Coding Pages</a>
-  custom_text: '博客版本：Version.2.2.3 | 
+  custom_text: '博客版本：Version.2.3.1 | 
                 <a href="https://icp.gov.moe" target="_blank" style="color:inherit"><img src="/images/moeicp.png" width="25" style="vertical-align:middle">萌ICP备 </a><a href="https://icp.gov.moe/?keyword=20232952" target="_blank" style="color:inherit"> 20232952 号</a>
                 '
 
@@ -399,7 +399,8 @@ giscus:
   mapping: pathname
   reactions-enabled: 1
   emit-metadata: 0
-  theme: light
+  theme: preffered color scheme
+  # 原为 light 参数，为了随主题自动切换更改了该参数
 
 # <script src="https://giscus.app/client.js"
 #         data-repo="misaka-clover/misaka-clover.github.io"
