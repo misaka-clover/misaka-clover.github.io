@@ -294,6 +294,33 @@ Error: Spawn failed
 
 根据这篇[贴子](https://stackoverflow.com/questions/68775869/message-support-for-password-authentication-was-removed/)，这是因为 GitHub 在云游前辈发布那篇博文以后，GitHub 更改了命令行认证的方式，因此我们需要去 GitHub 的后台[生成](https://github.com/settings/tokens/)一个验证码，在这里当作密码输入才行。
 
+### 2025-01-31 更新
+
+感谢 [**Skyone**](https://www.skyone.host/) 的留言，在得到允许以后，摘录如下：
+
+> 文中提到的“推送问题”，git常用的有两种协议：https协议和ssh协议。
+> 
+> https协议使用 用户名+token 验证，而ssh使用公钥验证。建议你通过添加公钥的方式push提交。
+> 
+> 具体方法是，先查看远程：
+> 
+> `git remote -v`
+> 
+> 一般来说，会显示一个叫 origin 的类似 https://github.com/name/repo.git 的链接，把它改成 git@github.com:name/repo.git
+> 
+> `git remote remove origin`
+> `git remote add origin git@github.com:name/repo.git`
+> 
+> 生成ssh密钥对（我记得macos自带ssh）
+> 
+> `ssh-keygen -t ed25519`
+> 
+> 按几次回车就行，公钥在 `~/.ssh/id_ed25519.pub` 添加到 github
+> 
+> 此外，推送应该使用
+> 
+> `git push origin master # 即 remote 名称和分支名称`
+
 ## 代码高亮问题
 
 我检查完配置文件以后，发现代码高亮失效了。我以为是因为 Hexo 升级到高版本的问题，去查了一下[官方文档](https://hexo.io/zh-cn/docs/syntax-highlight#PrismJS/)，发现官方用了一个更新的高亮组件，并将其参数配置到 `_config.yml` 中了。

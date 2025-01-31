@@ -16,13 +16,13 @@ links:
     color: "#1E90FF"
     email: misaka9936@gmail.com
 
-  - url: https://raptazure.github.io/
-    avatar: /images/avatar/Raptazure.jpg
-    name: Raptazure
-    blog: Raptazure
-    desc: 流浪者未必迷茫
-    color: "#AFEEEE"
-    email: hermit0x9@outlook.com
+  # - url: https://raptazure.github.io/
+  #   avatar: /images/avatar/Raptazure.jpg
+  #   name: Raptazure
+  #   blog: Raptazure
+  #   desc: 流浪者未必迷茫
+  #   color: "#AFEEEE"
+  #   email: hermit0x9@outlook.com
 
   # - url: https://nek0ri.de/
   #   avatar: /images/avatar/nek0ri.jpg
@@ -31,30 +31,31 @@ links:
   #   desc: 404 not found
   #   color: "#DB7093"
   #   email: 
+  # 猫梨的博客在后面重建了，也在后面添加。
 
-  - url: https://cwksc.github.io/
-    avatar: /images/avatar/CWKSC.jpg
-    name: CWKSC
-    blog: CWKSC's Blog
-    desc: 技术文大佬喔(´・×・｀) 
-    color: "#000000"
-    email:
+  # - url: https://cwksc.github.io/
+  #   avatar: /images/avatar/CWKSC.jpg
+  #   name: CWKSC
+  #   blog: CWKSC's Blog
+  #   desc: 技术文大佬喔(´・×・｀) 
+  #   color: "#000000"
+  #   email:
 
-  - url: https://miroox.github.io/blog/
-    avatar: /images/avatar/miRoox.jpg
-    name: miRoox
-    blog: miRoox的博客
-    desc: 偏理的工科生
-    color: "#FF1493"
-    email:
+  # - url: https://miroox.github.io/blog/
+  #   avatar: /images/avatar/miRoox.jpg
+  #   name: miRoox
+  #   blog: miRoox的博客
+  #   desc: 偏理的工科生
+  #   color: "#FF1493"
+  #   email:
 
-  - url: https://blog.beautyyu.one/
-    avatar: /images/avatar/BeautyYu.jpg
-    name: BeautyYu言醴
-    blog: 银河美术馆
-    desc: 热爱ACGN和技术的学生;
-    color: "#CCCCCC"
-    email: 
+  # - url: https://blog.beautyyu.one/
+  #   avatar: /images/avatar/BeautyYu.jpg
+  #   name: BeautyYu言醴
+  #   blog: 银河美术馆
+  #   desc: 热爱ACGN和技术的学生;
+  #   color: "#CCCCCC"
+  #   email: 
 
   - url: https://www.xiaoniuhululu.com/
     avatar: /images/avatar/xiaoniuhululu.jpg
@@ -143,6 +144,9 @@ links:
     desc: izfsk 的博客
     color: "#87CEFA"
     email: 
+  # 这位朋友在春节之间装修博客，博客内容无法访问，不过他还是贴出了公告，并且将友链都放置在了下方，真的好让人感动！
+  # 页面备份于：https://archive.ph/KViVr/
+
 
   - url: https://www.nekolee.com/
     avatar: /images/avatar/favicon.webp
@@ -194,6 +198,24 @@ links:
 placeholder: 还没想好说些什么 # 默认对友链的描述
 tip: 友链加载中～如失败请刷新重试～
 ---
+
+<!-- ## 失联中
+
+[]() // []() // []() -->
+
+## 申请友链的必要信息
+
+如果您希望与我交换友链，请在本页面下留言，或者将您的友链信息通过电子邮件发给我 :)
+
+|   内容   |   描述                                         |
+|   ----  |   ----                                         |
+| url     |   网站链接                                      |
+| avatar  |   头像链接                                      |
+| name    |   您喜欢的个人名字（不会在友链中展示）               |
+| blog    |   您的博客名字（将展示在友链中）                    |
+| desc    |   您喜欢的座右铭或是描述语（将展示在友链中）          |
+| color   |  【选填】您可以指定自己喜欢的颜色，或是我为您挑选一个   |
+| email   |  【选填】您的联系方式                             |
 
 <center><b>欢迎大家与我交换友链喔！</b></center>
 

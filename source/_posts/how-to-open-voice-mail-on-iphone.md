@@ -22,8 +22,6 @@ readmore: false
 
 ![IMG_5944](/images/how-to-open-voice-mail-on-iphone/cover.jpg)_~~推特（Twitter/X）上保存的，找不到作者啦……~~ [题图](https://x.com/11922960_ze/status/1833494693017227763/)来自[ほいて](https://x.com/11922960_ze/)老师，感谢[skyone-wzw](https://github.com/skyone-wzw/)指正_
 
-<center>好想用上苹果公司的「环大陆功能」</center>
-
 <!-- more -->
 
 ## TL; DR
