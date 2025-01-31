@@ -172,13 +172,21 @@ links:
     color: "#FFB6C1"
     email: 
 
-  - url: https://www.skyone.host
+  - url: https://www.skyone.host/
     avatar: /images/avatar/skyone.png
     name: Skyone
     blog: Skyone Blog
     desc: 啥都会一点，也啥都不会
     color: "#6495ED"
     email: master@skyone.dev
+
+  - url: https://yuuikic.com/
+    avatar: /images/avatar/yuuikic.jpeg
+    name: 桜庭夜
+    blog: 杂话铺子
+    desc: 悠哉日常大王
+    color: "#48D1CC"
+    email: 
 
   # - url: 
   #   avatar: /images/avatar/avatar.jpg
