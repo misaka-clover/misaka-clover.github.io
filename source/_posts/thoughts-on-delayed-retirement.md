@@ -51,7 +51,7 @@ readmore: false
 
 中国人很少有政治参与感，大家好像都在避免谈论政治话题，好像政治是一个非常敏感的东西。我不喜欢这样，**Notepad++** 的作者曾经在他的博客中写道：
 
-> The problem is, if we don’t deal with politics, politics will deal with us.
+> The problem is, if we don't deal with politics, politics will deal with us.
 
 我时常与朋友说起这句话。我们都知道，大部分中国人习惯了 **「大家长」式** 的政府，都认为政府会安排好一切的，自己也很难去影响政府的决定，所以就只好接受来自政府的一切安排。
 
