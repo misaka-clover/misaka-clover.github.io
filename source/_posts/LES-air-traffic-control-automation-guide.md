@@ -10,7 +10,7 @@ tags:
     - 空管
     - 自动化系统
     - 管制席
-categories: 叶子的工作文档
+categories: 叶子的小知识
 comment: true
 keywords: 莱斯, 空管, 自动化系统, Les, Air Traffic Control, ATC, Automation
 ---

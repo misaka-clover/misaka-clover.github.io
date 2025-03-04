@@ -8,7 +8,7 @@ tags:
     - 读物
     - 影视
     - 链接
-categories: 叶子的读物和影视
+categories: 叶子的读物、摘录和影视
 comment: true
 # keywords:
 # sticky: 100

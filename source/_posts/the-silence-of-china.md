@@ -7,7 +7,7 @@ tags:
     - 摘录
     - 鲁迅
     - 演讲
-categories: 叶子的摘录
+categories: 叶子的读物、摘录和影视
 comment: true
 keywords: 鲁迅,演讲,摘录,杂文集,三闲集
 ---
