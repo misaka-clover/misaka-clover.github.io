@@ -188,6 +188,14 @@ links:
     color: "#48D1CC"
     email: 
 
+  - url: https://ztgdblog.icu/
+    avatar: /images/avatar/ZTGD.png
+    name: ZTGD
+    blog: ZTGD 的小窝
+    desc: aloha~
+    color: "#A9A9A9"
+    email: 
+
   # - url: 
   #   avatar: /images/avatar/avatar.jpg
   #   name: 

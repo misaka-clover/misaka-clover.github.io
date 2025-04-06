@@ -26,6 +26,10 @@ comment: true
 <details open>
 <summary>2025 年</summary>
 
+### 2025-04-06 添加友链
+
+添加 [**ZTGD**](https://ztgdblog.icu/) 的友链，这是一位去年新开博客的朋友。
+
 ### 2025-03-02 更新个人 About 页面
 
 再次更新了自己的 About 页面，删去一些表情，并稍微解释了一下，希望大家能够更好地了解站长～
