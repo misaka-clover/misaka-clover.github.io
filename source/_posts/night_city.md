@@ -8,7 +8,7 @@ tags:
     - 留学
     - 社会
     - 写点什么
-categories: 叶子的碎碎念
+categories: 叶子的小文
 comment: true
 #keywords:
 sticky: 100

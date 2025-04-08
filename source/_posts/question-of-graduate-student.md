@@ -9,7 +9,7 @@ tags:
     - 学业
     - 未来
     - 杂思
-categories: 叶子的碎碎念
+categories: 叶子的小文
 comment: true
 keywords: 杂思,读研,未来
 ---

@@ -9,7 +9,7 @@ tags:
     - 周年
     - Cloudflare
     - 红英
-categories: 叶子的碎碎念
+categories: 叶子的小文
 comment: true
 keywords: 域名,周年,Cloudflare,红英
 ---

@@ -7,7 +7,7 @@ tags:
     - 域名
     - 博文
     - 博客
-categories: 叶子的碎碎念
+categories: 叶子的小文
 comment: true
 keywords: 域名,域名购买,com,GitHub Pages,域名解析
 ---

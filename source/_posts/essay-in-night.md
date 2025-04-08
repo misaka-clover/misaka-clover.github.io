@@ -7,7 +7,7 @@ tags:
     - 博文
     - 随笔
     - 考研
-categories: 叶子的碎碎念
+categories: 叶子的小文
 comment: true
 keywords: 随笔, 深夜, 考研
 # sticky: 100

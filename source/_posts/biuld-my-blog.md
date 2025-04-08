@@ -4,7 +4,7 @@ date: 2020-08-24 16:46:48
 updated: 
 description: 和关于我为什么想要搭建自己的博客
 tags: 杂思
-categories: 叶子的碎碎念
+categories: 叶子的小文
 comment: true
 ---
 

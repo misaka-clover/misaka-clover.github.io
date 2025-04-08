@@ -8,7 +8,7 @@ tags:
     - 高中
     - 游戏
     - 朋友
-categories: 叶子的碎碎念
+categories: 叶子的小文
 comment: true
 keywords: 高中, 朋友, 游戏, 环球科学, 科学美国人, 科幻世界
 # sticky: 100

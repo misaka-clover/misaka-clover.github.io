@@ -7,7 +7,7 @@ tags:
     - 博文
     - 友链
     - 朋友
-categories: 叶子的碎碎念
+categories: 叶子的小文
 comment: true
 keywords: 
 # sticky: 100
