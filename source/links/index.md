@@ -196,6 +196,14 @@ links:
     color: "#A9A9A9"
     email: 
 
+  - url: https://blog.roxymagic.top/
+    avatar: /images/avatar/Roxy_Magic.png
+    name: Roxy_Magic
+    blog: Roxy_Magicの咖啡馆
+    desc: 昨日之书已合，今日之页当以“真本事”为墨
+    color: "#AFEEEE"
+    email: 
+
   # - url: 
   #   avatar: /images/avatar/avatar.jpg
   #   name: 

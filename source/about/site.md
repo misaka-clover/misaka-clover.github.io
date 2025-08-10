@@ -26,6 +26,14 @@ comment: true
 <details open>
 <summary>2025 年</summary>
 
+### 2025-08-10 更新名言 IV
+
+时隔大半年，又更新了一些「sentence」 —— 那些你不会注意到的名言。
+
+### 2025-07-06 添加友链
+
+互联网带来了有一位新朋友 [**Roxy_Magic**](https://blog.roxymagic.top/)，居然是奥运会那年出生的，一下子感觉自己好老（
+
 ### 2025-04-06 添加友链
 
 添加 [**ZTGD**](https://ztgdblog.icu/) 的友链，这是一位去年新开博客的朋友。
