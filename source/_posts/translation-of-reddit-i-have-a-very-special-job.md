@@ -23,7 +23,7 @@ readmore: false
 
 > 原文标题：[I have a very special job](https://www.reddit.com/r/nosleep/comments/1mjf6ag/i_have_a_very_special_job/)，原文备份 [于此](https://archive.ph/QkmIp/)。
 > 发表平台：Reddit [r/nosleep](https://www.reddit.com/r/nosleep/)，原作者：[**Top_Gain2728**](https://www.reddit.com/user/Top_Gain2728/)。
-> 授权情况：正在申请，未获回复。
+> 授权情况：已获得授权，感谢作者！
 
 <!-- more -->
 
@@ -40,9 +40,19 @@ readmore: false
 > 
 > Please let me know if it works for you! Thank you :)
 
-<!-- <div class="info">
+**Top_Gain2728**，2025-08-10 18:24 PM：
 
-</div> -->
+<div class="info">
+
+> Sure :)
+
+</div> 
+
+**Misaka_Clover**，2025-08-10 14:02 PM：
+
+> I’m so glad to hear from you! I have post the translation at: [forum’s link]
+> 
+> Thank you again for your amazing work :)
 
 </details>
 
@@ -190,4 +200,4 @@ readmore: false
 
 
 
-> 译者后记：这是一个非传统的「规则怪谈」，看到这个故事的第一眼，我就被它吸引住了！我很高兴终于有人能跳出传统的框架，所以我非常兴奋地将它翻译了过来，希望大家喜欢！
+> **译者后记：**这是一个非传统的「规则怪谈」，看到这个故事的第一眼，我就被它吸引住了！我很高兴终于有人能跳出传统的框架，所以我非常兴奋地将它翻译了过来，希望大家喜欢！
