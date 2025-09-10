@@ -172,7 +172,7 @@ links:
     color: "#FFB6C1"
     email: 
 
-  - url: https://www.skyone.host/
+  - url: https://blog.skyone.dev/
     avatar: /images/avatar/skyone.png
     name: Skyone
     blog: Skyone Blog
