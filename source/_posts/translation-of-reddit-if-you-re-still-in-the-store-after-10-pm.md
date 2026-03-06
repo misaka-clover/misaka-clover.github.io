@@ -12,6 +12,12 @@ comment: true
 keywords: Reddit, 恐怖, 故事, 译文, 翻译
 hideTime: false
 readmore: false
+
+# sticky: 100
+# hide: true/index
+# author: 叶子
+# email: clover@mskclover.com
+# ermaid: true
 ---
 
 > 原文标题：[If You’re Still in the Store After 10 PM, Follow This Announcement Exactly](https://www.reddit.com/r/Ruleshorror/comments/1pmvmfz/if_youre_still_in_the_store_after_10_pm_follow/)；原文备份 [于此](https://archive.md/OKSio/)。
@@ -81,7 +87,7 @@ readmore: false
 
 当您到达四楼、并且电梯门打开时，立刻走出电梯，不要在门口逗留，此刻你在四楼家具部的电梯大厅。此时灯光可能不太稳定，背景音乐也应该已经停止播放。走廊里不应该有其他的脚步声。
 
-直直前行，保持目光低垂。您的眼睛应当只聚焦在两步之前的一个点上，请不要抬头看走廊号、监控摄像头或者天花板。沿着主通道继续前进，知道尽头，然后右转。向前走到下一个转角，然后再次右转。
+直直前行，保持目光低垂。您的眼睛应当只聚焦在两步之前的一个点上，请不要抬头看走廊号、监控摄像头或者天花板。沿着主通道继续前进，直到尽头，然后右转。向前走到下一个转角，然后再次右转。
 
 在第二次右转后，您会注意到书架的数量减少，周围的空间也显得更加开阔。继续向前，直到您觉得前方已经无路可走、脚趾触碰到冰冷的金属或墙壁。到那个时候，停在原地。
 

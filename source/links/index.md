@@ -204,6 +204,14 @@ links:
     color: "#AFEEEE"
     email: 
 
+  - url: https://yumieko.kikowiwu.com/
+    avatar: /images/avatar/MinkieYume.jpg
+    name: 明琪琪可
+    blog: 明琪的日记
+    desc: 只是一只梦真的猫猫
+    color: "#FFC0CB"
+    email: minkieyume@kikowiwu.com
+
   # - url: 
   #   avatar: /images/avatar/avatar.jpg
   #   name: 

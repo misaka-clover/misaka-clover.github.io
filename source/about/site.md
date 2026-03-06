@@ -24,11 +24,20 @@ comment: true
 ## 春夏秋冬
 
 <details open>
+<summary>2026 年</summary>
+
+### 2026-03-06 更新友链
+
+新的一年，新的朋友，很高兴添加 [**明琪**](https://yumieko.kikowiwu.com/) 的友链！
+
+</details>
+
+<details close>
 <summary>2025 年</summary>
 
 ### 2025-09-10 更改友链
 
-收到了年初添加友链的朋友 [Skyone](https://blog.skyone.dev/) 的邮件，告知由于一些原因，TA 将站点迁移至一个新的域名。于是便有了今天更改友链一事，我非常开心收到来自朋友们的邮件！
+收到了年初添加友链的朋友 [**Skyone**](https://blog.skyone.dev/) 的邮件，告知由于一些原因，TA 将站点迁移至一个新的域名。于是便有了今天更改友链一事，我非常开心收到来自朋友们的邮件！
 
 ### 2025-08-10 更新名言 IV
 
