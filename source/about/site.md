@@ -26,9 +26,11 @@ comment: true
 <details open>
 <summary>2026 年</summary>
 
-### 2026-03-06 更新友链
+### 2026-03-06 更新友链，与修正边栏邮箱地址错误
 
 新的一年，新的朋友，很高兴添加 [**明琪**](https://yumieko.kikowiwu.com/) 的友链！
+
+EDIT: 特此感谢 **明琪 aka. 明琪琪可 aka. Minkie Yume** 指出了我留在侧边栏联系方式的邮箱地址有误，非常感谢！这么多年我居然一直没发现，这太不应该了 :(
 
 </details>
 
