@@ -144,7 +144,7 @@ links:
     desc: izfsk 的博客
     color: "#87CEFA"
     email: 
-  # 这位朋友在春节之间装修博客，博客内容无法访问，不过他还是贴出了公告，并且将友链都放置在了下方，真的好让人感动！
+  # 这位朋友在 2025 春节之间装修博客，博客内容无法访问，不过他还是贴出了公告，并且将友链都放置在了下方，真的好让人感动！
   # 页面备份于：https://archive.ph/KViVr/
 
 
@@ -212,6 +212,14 @@ links:
     color: "#FFC0CB"
     email: minkieyume@kikowiwu.com
 
+  - url: https://blog.welain.com/
+    avatar: /images/avatar/welain.jpg
+    name: 邮文
+    blog: 邮文的萤火屋
+    desc: 邮文的奇妙日常。
+    color: "#82E0AA"
+    email: youwenqwq@gmail.com
+
   # - url: 
   #   avatar: /images/avatar/avatar.jpg
   #   name: 
@@ -231,9 +239,32 @@ placeholder: 还没想好说些什么 # 默认对友链的描述
 tip: 友链加载中～如失败请刷新重试～
 ---
 
-<!-- ## 失联中
+## 友链失效
 
-[]() // []() // []() -->
+- [Raptazure](https://raptazure.github.io/)
+- [CWKSC](https://cwksc.github.io/)
+- [miRoox](https://miroox.github.io/blog/)
+- [BeautyYu言醴](https://blog.beautyyu.one/)
+
+## 失联中
+
+- [nek0ri](https://nek0ri.de/)
+
+## 我的友链信息
+
+这里是我的友链信息：
+
+```
+{
+  - url: https://mskclover.com/
+    avatar: https://mskclover.com/images/avatar/avatar.jpg
+    name: 叶子
+    blog: 叶子的花园
+    desc: 靡不有初，鲜克有终
+    color: "#1E90FF"
+    email: 
+}
+```
 
 ## 申请友链的必要信息
 
