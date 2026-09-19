@@ -26,6 +26,10 @@ comment: true
 <details open>
 <summary>2026 年</summary>
 
+### 2026-09-19 更新网站 favicon 图像
+
+之前一直都使用的默认标签页 favicon 图像，这次看到 Twitter 上的 [讨论](https://x.com/Yayoi_no_yume/status/2100597593214734708/)，也就跟风换了一个新的，你能看出来这是基于什么角色的吗？答案在这里揭晓噢：<spam class="heimu">当然是 Deepseek 酱啦</spam>。
+
 ### 2026-03-09 更新友链，与添加「友链失效」和「失联中」的新板块
 
 好事成双！很高兴在今天又认识了一位新的朋友 [**邮文**](https://blog.welain.com/)！

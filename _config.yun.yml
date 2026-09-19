@@ -22,6 +22,7 @@ keywords: '个人博客,学习,技术,OpenMV,SCUT,Hexo,yun'
 author: 叶子
 language: zh-CN
 timezone: 'Asia/Shanghai'
+favicon: /images/favicon-64.png
 
 # Date / Time format
 ## Hexo uses Moment.js to parse and display date
